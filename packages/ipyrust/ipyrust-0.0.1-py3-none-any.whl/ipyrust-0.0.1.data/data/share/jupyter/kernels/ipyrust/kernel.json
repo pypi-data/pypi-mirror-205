@@ -1,0 +1,6 @@
+{
+	"argv": ["python3","-m", "ipyrust", "-f", "{connection_file}"],
+	"display_name": "ipyrust",
+	"language": "rust"
+ }
+ 
