@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: xlsform-filler-data
+Version: 0.1.2
+Summary: A tool for generating fake testing data based on an XLSform. 
+Author: Brian Mc Donald
+Author-email: brian@brianmcdonald.me
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: lorem-text (>=2.1,<3.0)
+Requires-Dist: openpyxl (>=3.1.2,<4.0.0)
+Requires-Dist: pandas (>=2.0.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# XLSform filler data
+
+A commandline tool for creating dummy/test data from XLSform surveys.
+
+## Installation
+```pip install xlsform-filler-data```
+
+## Usage
+To create a dummy dataset, with a default number of rows(100) from a XLSform source:
+```xlsform-filler-data <source-file-path>/<filename.xlsx>```
+
+To specify the number of rows to create, use the *-r* flag. Example:
+```xlsform-filler-data <source-file-path>/<filename.xlsx> -r 200```
+
+To specify the output path and filename, pass the *-o* flag. Example:
+```xlsform-filler-data <source-file-path>/<filename.xlsx> -o <./myfile.xlsx>```
+
+## Roadmap
+As of version *0.1.1* the tool does not properly randomise multiple choice questions; omits some variables such as 'start' and 'end'; does not maintain the order of the variables; and does not incorporate constraints or cascading choice lists. These limitations will be adddressed in future releases.

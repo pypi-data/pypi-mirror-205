@@ -1,0 +1,3 @@
+[console_scripts]
+xlsform-filler-data=xlsform_filler_data.xlsform_filler_data:cli
+
