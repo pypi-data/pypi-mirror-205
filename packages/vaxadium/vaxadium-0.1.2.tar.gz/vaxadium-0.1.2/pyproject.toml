@@ -1,0 +1,123 @@
+[build-system]
+requires = [
+    "hatchling>=1.6.0",
+    "hatch-vcs",
+]
+build-backend = "hatchling.build"
+
+[project]
+name = "vaxadium"
+description = "Processes total scattering data using Monte Carlo simulations"
+readme = "README.rst"
+license = "MIT"
+requires-python = ">3.8,<3.11"
+authors = [
+  { name="Dean Keeble", email="dean.keeble@diamond.ac.uk" },
+]
+keywords = [
+    "vaxadium",
+]
+classifiers = [
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+]
+dependencies = [
+    "numpy",
+    "scipy",
+    "pyfai",
+    "pint",
+    "scikit-learn",
+    "xraylib",
+]
+dynamic = [
+    "version",
+]
+
+[project.scripts]
+vxdm-macros = "vaxadium.cli_macros:main"
+vxdm-dls = "vaxadium.cli_dls:main"
+vxdm-run = "vaxadium.cli_vaxadium:main"
+vxdm-atom_density = "vaxadium.cli_density:main"
+
+[project.urls]
+Homepage = "https://github.com/DiamondLightSource/vaxadium"
+Issues = "https://github.com/DiamondLightSource/vaxadium/issues"
+
+[tool.hatch.version]
+source = "vcs"
+
+[tool.hatch.build.hooks.vcs]
+version-file = "src/vaxadium/_version.py"
+
+[tool.hatch.build.targets.sdist]
+packages = ["src/vaxadium"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/vaxadium"]
+
+[tool.hatch.envs.docs]
+dependencies = [
+  "mkdocs",
+  "mkdocstrings-python",
+  "mkdocs-material",
+]
+
+[tool.hatch.envs.docs.scripts]
+build = "mkdocs build --clean --strict"
+serve = "mkdocs serve"
+deploy = "mkdocs gh-deploy"
+
+[tool.hatch.envs.testing]
+dependencies = [
+  "pytest",
+  "pytest-cov",
+  "pytest-mock",
+]
+
+[[tool.hatch.envs.testing.matrix]]
+python = ["py39", "py310"]
+
+[tool.hatch.envs.testing.scripts]
+cov = "pytest --cov-report=term-missing --cov-config=pyproject.toml --cov=vaxadium --cov=tests"
+no-cov = "cov --no-cov"
+
+[tool.hatch.envs.style]
+detached = true
+dependencies = [
+    "black",
+    "isort",
+    "flake8",
+    "Flake8-pyproject",
+]
+
+[tool.hatch.envs.style.scripts]
+format = [
+    "isort -q src",
+    "black -q src",
+]
+
+lint = [
+    "flake8 src",
+]
+
+[tool.coverage.run]
+branch = true
+parallel = true
+omit = [
+  "src/vaxadium/_version.py",
+  "tests/*",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+  "no cov",
+  "if __name__ == .__main__.:",
+]
+
+[tool.flake8]
+max-line-length = 88
+per-file-ignores = [
+        'src/vaxadium/constants.py:E731', # use lambdas to half amount of code
+]
+[tool.isort]
+profile = "black"

@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: vaxadium
+Version: 0.1.2
+Summary: Processes total scattering data using Monte Carlo simulations
+Project-URL: Homepage, https://github.com/DiamondLightSource/vaxadium
+Project-URL: Issues, https://github.com/DiamondLightSource/vaxadium/issues
+Author-email: Dean Keeble <dean.keeble@diamond.ac.uk>
+License-Expression: MIT
+License-File: AUTHORS.rst
+License-File: LICENSE
+Keywords: vaxadium
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: <3.11,>3.8
+Requires-Dist: numpy
+Requires-Dist: pint
+Requires-Dist: pyfai
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: xraylib
+Description-Content-Type: text/x-rst
+
+========
+Vaxadium
+========
+
+
+.. image:: https://img.shields.io/pypi/v/vaxadium.svg
+        :target: https://pypi.python.org/pypi/vaxadium
+
+.. image:: https://github.com/DiamondLightSource/vaxadium/actions/workflows/deploy-release.yml/badge.svg
+        :target: https://github.com/DiamondLightSource/vaxadium/actions/workflows/deploy-release.yml)
+
+
+Vaxadium uses simulations to normalise x-ray scattering data. 
+
+
+* Free software: BSD license
+* Documentation: https://DiamondLightSource.github.io/vaxadium/
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
