@@ -1,0 +1,8 @@
+requests
+pandas
+matplotlib
+xlsxwriter
+anytree
+blpapi
+openpyxl
+sqlalchemy==1.4.47
