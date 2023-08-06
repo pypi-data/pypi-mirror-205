@@ -1,0 +1,64 @@
+# ### TOML CONFIG FILE ### #
+#https://setuptools.pypa.io/en/latest/userguide/index.html
+#replaces setup.py & setup.cfg
+
+# ### tool agnostic config ### #
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "msgraphlib"
+version = "0.1.3"
+authors = [
+  { name="Pawel Musial", email="pawel.r.musial@gmail.com" },
+]
+description = "Microsoft Graph API Explorer"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "requests >= 2.28.1",
+    "msal >= 1.21.0",    
+]
+# Non-Py-Pi packages
+#dependencies = [
+#    "Package-A @ git+https://example.net/package-a.git@main",
+#    "Package-B @ https://example.net/archives/package-b.whl",
+#]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/pypa/sampleproject"
+"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
+
+# ### setuptools specific settings ### #
+
+# Implicitly/automatically find packages for inclusion:
+[tool.setuptools.packages.find]
+# defaults: where = ["."], include = ["*"] 
+where = ["src"] 
+exclude = ["debug*", "tests*"]
+
+# Explictly/manually list packages to be included:
+#[tool.setuptools]
+#package-dir = ["src"] 
+#packages = ["pkg1", "pkg2"]
+
+# Explictly list modules to be included:
+#!!! not yet supported - use setup.cfg for single module scenario
+#[tool.setuptools]
+#py_modules = ['dm-graph']
+
+# Include non-python files (via MANIFEST.in)
+#[tool.setuptools]
+# default: include-package-data = true (but requires MANIFEST.in)
+
+# Include non-python files (specified here)
+#[tool.setuptools.package-data]
+#graph = ["debug/*.*", "tests/*.txt"]
