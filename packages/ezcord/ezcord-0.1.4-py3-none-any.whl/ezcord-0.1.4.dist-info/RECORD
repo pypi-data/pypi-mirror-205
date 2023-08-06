@@ -1,0 +1,16 @@
+ezcord/__init__.py,sha256=3MRP9W8WQIQLwAyceU9C1qA8h_a0py9l5s-UnLL5z2k,248
+ezcord/bot.py,sha256=NQ5MtQLGChtwYby22g4J7Qno8Pbpxv5N66X1AKd5dGo,8698
+ezcord/emb.py,sha256=WurTcgASp3F0DSkMJHOmLABjCDbGHSupe87cb81aNWo,6167
+ezcord/enums.py,sha256=zLgDgulF7-MttQg1Fd0RnDbmqAnD_HlwN8LHIMrqXuY,553
+ezcord/logs.py,sha256=zT6e8C-FZu_R_H1pgwZsDhh9zVTEuyD7OMbzqrbCK-k,9356
+ezcord/times.py,sha256=oi-VQTz8L048drXURcDmciOBiES63p1Iar9Vg7IXgsY,3220
+ezcord/utils.py,sha256=6JoFvGjWCKq_a9dD3nmLSX791LN88ut5jq026dZbQ-A,1161
+ezcord/internal/colors.py,sha256=frC6bHGkTGDL9YM8y5DDRKzt1QAZfTODyjnzj6EulEU,1617
+ezcord/internal/embed_templates.py,sha256=oZqDT4XRTp9YiixODhQuuR1kPGKldS07-_LHbJ2K-gE,1521
+ezcord/internal/languages.py,sha256=sy_Ne8BZJiQNWGjAdO9FJ9qtDqWEPHjv0jKUaB6Hluc,772
+ezcord/internal/translation.py,sha256=ayCKsOXehTcCQBrzK-0Uu6pzehubvwQUDP3MfxyT2-o,2946
+ezcord-0.1.4.dist-info/LICENSE,sha256=4TVnDyAw6mu8im0XTlHPQAZROnu6WfUQWAIOoeUOXrc,1071
+ezcord-0.1.4.dist-info/METADATA,sha256=BN23iOIUyJMV_OUdlYMHC0tJoNnnTYVBINCqAYfVUdM,3182
+ezcord-0.1.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+ezcord-0.1.4.dist-info/top_level.txt,sha256=leP6h82sCS2D0aITZUjq1a6nV6NVQQ-dFxpNXQhSNvc,7
+ezcord-0.1.4.dist-info/RECORD,,
