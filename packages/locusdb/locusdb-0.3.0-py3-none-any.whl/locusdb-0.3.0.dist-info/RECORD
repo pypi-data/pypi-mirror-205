@@ -1,0 +1,8 @@
+locusdb/__init__.py,sha256=qym1wLLEW5OtS0p9zzJHAFbrewceht2ZDSBq19WtMcU,91
+locusdb/config.py,sha256=_PsyoJfrNEz_IKv-hRsTtcsQ1fqlJ5TtWUZOnMc1NX4,913
+locusdb/index.py,sha256=6_BWMUFWqxjUO1tXfUYIg_j6EENKkTq_ZelEyrI8lZk,3352
+locusdb/vector.py,sha256=5jNw6AVCtq1DqxBqDmFin41CKuJHKQTnu6_LUXEeHlw,619
+locusdb-0.3.0.dist-info/METADATA,sha256=Bm6qxdKZgEun_pFbZuduN6zYjXuahj0aTX6hoKqnO0Q,1909
+locusdb-0.3.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+locusdb-0.3.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+locusdb-0.3.0.dist-info/RECORD,,
