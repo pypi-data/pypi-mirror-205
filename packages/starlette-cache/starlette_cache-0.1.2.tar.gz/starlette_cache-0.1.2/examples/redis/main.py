@@ -1,0 +1,88 @@
+import time
+
+from fastapi import FastAPI
+from fastapi.responses import HTMLResponse
+from fastapi.staticfiles import StaticFiles
+from fastapi.templating import Jinja2Templates
+
+import pendulum
+import redis.asyncio as redis
+import uvicorn
+from redis.asyncio.connection import ConnectionPool
+from starlette.requests import Request
+from starlette.responses import JSONResponse, Response
+from starlette_cache import StarletteCache
+from starlette_cache.backends.redis import RedisBackend
+from starlette_cache.coder import PickleCoder
+from starlette_cache.decorator import cache
+
+app = FastAPI()
+
+app.mount(path="/static", app=StaticFiles(directory="./"), name="static")
+templates = Jinja2Templates(directory="./")
+ret = 0
+
+
+@cache(namespace="test", expire=1)
+async def get_ret():
+    global ret
+    ret = ret + 1
+    return ret
+
+
+@app.get("/")
+@cache(namespace="test", expire=10)
+async def index():
+    return dict(ret=await get_ret())
+
+
+@app.get("/clear")
+async def clear():
+    return await StarletteCache.clear(namespace="test")
+
+
+@app.get("/date")
+@cache(namespace="test", expire=10)
+async def get_data(request: Request, response: Response):
+    return pendulum.today()
+
+
+# Note: This function MUST be sync to demonstrate fastapi-cache's correct handling,
+# i.e. running cached sync functions in threadpool just like FastAPI itself!
+@app.get("/blocking")
+@cache(namespace="test", expire=10)
+def blocking():
+    time.sleep(2)
+    return dict(ret=42)
+
+
+@app.get("/datetime")
+@cache(namespace="test", expire=2)
+async def get_datetime(request: Request, response: Response):
+    print(request, response)
+    return pendulum.now()
+
+
+@app.get("/html", response_class=HTMLResponse)
+@cache(expire=60, namespace="html", coder=PickleCoder)
+async def cache_html(request: Request):
+    return templates.TemplateResponse(
+        "index.html", {"request": request, "ret": await get_ret()}
+    )
+
+
+@app.get("/cache_response_obj")
+@cache(namespace="test", expire=5)
+async def cache_response_obj():
+    return JSONResponse({"a": 1})
+
+
+@app.on_event("startup")
+async def startup() -> None:
+    pool = ConnectionPool.from_url(url="redis://redis")
+    r = redis.Redis(connection_pool=pool)
+    StarletteCache.init(RedisBackend(r), prefix="starlette-cache")
+
+
+if __name__ == "__main__":
+    uvicorn.run("main:app", debug=True, reload=True)
