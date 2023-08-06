@@ -1,0 +1,13 @@
+Changelog
+=========
+
+1.1
+~~~~~~~~~~~~~~~~
+
+* Change ReoAko icon used in Draftail toolbar from SVG path to an SVG icon file added via a Wagtail Hook
+* Updating public PyPI README with better instructions.
+* Add Developer README for easier ongoing maintenance
+* Add provisioning system for scaffolding a VM for easier ongoing maintenance and testing.
+* Reimplement "browse" functionality in Modal Workflow JavaScript to move away from in-built Page specific PAGE_CHOOSER_MODAL_ON_LOAD_HANDLER
+* Add backward compatibility imports
+* Add helper scripts to manipulate dev VM and allow easy changing of Wagtail and Django versions for testing.
