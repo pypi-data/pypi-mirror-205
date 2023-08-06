@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: aiosow
+Version: 0.1
+License: MIT
+Provides-Extra: aiohttp
+Provides-Extra: dev
+Provides-Extra: doc
