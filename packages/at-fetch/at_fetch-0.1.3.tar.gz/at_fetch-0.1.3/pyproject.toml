@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "at_fetch"
+version = "0.1.3"
+description = ""
+authors = ["thecatshidog"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "fetch"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+httpx = {extras = ["http2"], version = "^0.24.0"}
+pandas = "^2.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
