@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pytroll-monitor
+Version: 0.3.0
+Summary: Monitoring tools for pytroll production runners
+Home-page: UNKNOWN
+Author: Martin Raspaud, Adam Dybbroe
+Author-email: martin.raspaud@smhi.se
+License: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: Op5
+License-File: LICENSE
+
+UNKNOWN
+
