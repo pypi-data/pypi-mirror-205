@@ -1,0 +1,34 @@
+# -*- coding: utf-8 -*-
+from setuptools import setup
+
+packages = \
+['cliparse', 'cliparse.viewer']
+
+package_data = \
+{'': ['*']}
+
+install_requires = \
+['tabulate>=0.9.0,<0.10.0']
+
+extras_require = \
+{':sys_platform == "windows"': ['pyreadline3>=3.4.1,<4.0.0']}
+
+setup_kwargs = {
+    'name': 'cliparse',
+    'version': '1.1.0',
+    'description': 'CLI Framework with Argparse',
+    'long_description': '# Cliparse (CLI with ArgumentParser)\n\n![Python package](https://github.com/RavenKyu/cliparse/workflows/Python%20package/badge.svg?branch=master) [![PyPI version](https://badge.fury.io/py/cliparse.svg)](https://badge.fury.io/py/cliparse)\n\n__Cliparse__ is a framework to make CLI with [\'Argparse\'](https://docs.python.org/3/howto/argparse.html) and [\'Cmd\'](https://docs.python.org/3/library/cmd.html)  \n\n[![asciicast](https://asciinema.org/a/J83RPQHIb1mAUG3TGSaplqhy4.svg)](https://asciinema.org/a/J83RPQHIb1mAUG3TGSaplqhy4)\n\n## Concept\nThere are times when it is necessary that to provide a command line client like _MySQL Command Line Client_.\n```bash\n$ mysql -uroot -p\n\nType \'help;\', or \'\\h\' for help. Type \'\\C\' to clean current input statement.\n\nmysql> use test_db;\n```\nSome of legacy CLI framework we could have chosen are not easy to extend or written in low productivity languages. __Cliparse__ is written with some of the most used modules in Python. \n\n`Cmd` is a very common module of python for making CLI application. It provides a prompt to gets command input from user, tab auto completion, help message or usage. Actually, It\'s already super easy enough to make CLI applications with `Cmd`.\n\n`Argparse` is an argument parser in command line interface. It parses options and arguments. With some short options, we can check validations which several types of arguments such as string or integer and boolean.\n```python\nparser = ArgumentParser(\n        prog=\'\',\n        description=\'description\',\n        epilog=\'end of description\', )\n    sub_parser = parser.add_subparsers(dest=\'sub_parser\')\n\n    # Setting\n    # ==========================================================================\n    setting_parser = sub_parser.add_parser(\'setting\', help=\'Setting Command\')\n\n    # Setting - DB Initializing\n    # ==========================================================================\n    setting_init_db_parser = setting_parser.add_subparsers(\n        dest=\'init\', help=\'Initialize the database\')\n\n    init_db_parser = setting_init_db_parser.add_parser(\n        name=\'initialize-db\', help=\'Initialize database\')\n    init_db_parser.add_argument(\'-d\', \'--init-db\', action=\'store_true\',\n                                help=\'initialize database.\')\n    init_db_parser.add_argument(\'-m\', \'--dummy-members\', action=\'store_true\',\n                                help=\'insert dummy members.\')\n    init_db_parser.add_argument(\'-b\', \'--dummy-books\', action=\'store_true\',\n                                help=\'insert dummy books.\')\n    init_db_parser.add_argument(\'-r\', \'--dummy-rental\', action=\'store_true\',\n                                help=\'insert dummy rental.\')\n    init_db_parser.set_defaults(func=initialize_db)\n```\nThese awesome modules are already used for a long time and easy to find its usage on web sites.\n\nWhat __Cliparse__ does is to read user\'s argument parsers, to print the parser groups and parameters for running its function, and to make completing command line when tab. And print a result data of the function defined at the parser with some simple table viewer.\n\n__Cliparse__ is very simple. That\'s all it does.\n\n## Features\n* All command line input validation checking by `Argparse`\n* Easy command line input with tab auto completion\n\n## Installation \n```bash\n$ pip install cliparse\n```\nor\n```bash\n$ python setup.py install\n```\n\n### Running \n```bash\n$ python -m cliparse ./sample_cli/cli.py \n```\n\n### Running with docker\nIf you use docker, you can try it like below. \n#### Build\n```bash\n$ docker build -t cliparse:latest .\n``` \nor\n```bash\n$ docker-compose build\n```\n#### Running\n**the volume option for mounting host directory where the sample cli is.** \n```bash\n$ docker run -it -v $(pwd):/root --rm cliparse sample_cli/cli.py \n```\nor\n```bash\n$ docker-compose run -v $(pwd):/root --rm cliparse sample_cli/cli.py\n```\n\n### sample_cli/cli.py\nThis sample cli file is also able to run without __Cliparse__. \n```bash\npython sample_cli/cli.py -h\n```\n---\n## Sample\nThere is a simple sample cli which is able to try basic CRUD. It is in the directory named `sample_cli/cli.py`. Please run command below and try to edit as you want.\n### Things you can do\n#### Help\nUse help command to learn more about a command\'s usage. \n```bash\n# Help\n(Cmd) help\n\nDocumented commands (type help <topic>):\n========================================\nhelp  manager  setting\n```\n```bash\n(Cmd) manager -h\nusage:  manager [-h] {book} ...\n\npositional arguments:\n  {book}      Initialize the database\n    book      setting command\n\noptional arguments:\n  -h, --help  show this help message and exit\n```\n```bash\n(Cmd) manager book -h\nusage: manager book [-h] [-r | -t] {insert,update,delete} ...\n\npositional arguments:\n  {insert,update,delete}\n\noptional arguments:\n  -h, --help            show this help message and exit\n  -r, --raw-data        show the data as raw\n  -t, --simple-table    show the data with simple table\n```\n\n#### Tapping tab key \nUse Tab key to autocomplete commands in the command line. It also shows a list of commands you can use. \n#### Choosing presentation style \n````bash\n# show --raw-data\n(Cmd) manager book --raw-data\n[\n    {\n        "author": "John Doe",\n        "title": "How to learn speaking English",\n        "publisher": "Magic House"\n    },\n    {\n        "author": "George Orwell",\n        "title": "1984",\n        "publisher": "Motihari"\n    }\n]\n\n# show data with simple table\n(Cmd) manager book --simple-table\n|    | author        | title                         | publisher   |\n|----+---------------+-------------------------------+-------------|\n|  0 | John Doe      | How to learn speaking English | Magic House |\n|  1 | George Orwell | 1984                          | Motihari    |\n````\n\n## Contributes\n### Running as development mode\nYou don\'t need to build the docker image every time whenever source code changes. \n```bash\ndocker-compose -f docker-compose.dev.yml run --rm cliparse\n```\n\n',
+    'author': 'Duk Kyu Lim',
+    'author_email': 'hong18s@gmail.com',
+    'maintainer': 'None',
+    'maintainer_email': 'None',
+    'url': 'https://github.com/ravenkyu/cliparse',
+    'packages': packages,
+    'package_data': package_data,
+    'install_requires': install_requires,
+    'extras_require': extras_require,
+    'python_requires': '>=3.8,<4.0',
+}
+
+
+setup(**setup_kwargs)
