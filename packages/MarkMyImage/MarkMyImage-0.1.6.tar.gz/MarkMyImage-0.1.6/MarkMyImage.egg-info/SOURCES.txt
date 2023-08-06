@@ -1,0 +1,9 @@
+README.md
+setup.py
+MarkMyImage/__init__.py
+MarkMyImage.egg-info/PKG-INFO
+MarkMyImage.egg-info/SOURCES.txt
+MarkMyImage.egg-info/dependency_links.txt
+MarkMyImage.egg-info/entry_points.txt
+MarkMyImage.egg-info/requires.txt
+MarkMyImage.egg-info/top_level.txt
