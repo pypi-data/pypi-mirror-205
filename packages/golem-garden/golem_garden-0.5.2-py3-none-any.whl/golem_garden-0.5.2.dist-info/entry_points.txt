@@ -1,0 +1,4 @@
+[console_scripts]
+golem_discord=golem_garden.discord_bot:bot_main
+golem_garden=golem_garden.__main__:main
+
