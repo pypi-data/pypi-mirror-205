@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: boat_fib_py
+Version: 0.0.1
+Summary: Calc a fib number
+Home-page: https://github.com/zhongjunhang/boat-fib-py
+Author: zhongjunhang
+Author-email: 836914541@qq.com
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+License-File: LICENSE
+
+# A basic library that calculate Fibonacci numbers
