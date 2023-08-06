@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "serialroomba"
+version = "0.1.2"
+license = "GPL-3.0-or-later"
+description = "Serialroomba is a package that aims to simplify the control of a Roomba over its serial port."
+authors = ["Thomas <johanns.thomas@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/jtommi/serialroomba"
+documentation = "https://github.com/jtommi/serialroomba/blob/main/README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyserial = "^3.5"
+
+[tool.poetry.group.dev.dependencies]
+wheel = "^0.40.0"
+black = "^23.3.0"
+coverage = "^7.2.3"
+hypothesis = "^6.71.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
