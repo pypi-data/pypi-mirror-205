@@ -1,0 +1,142 @@
+\documentclass{report}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\iffalse
+\usepackage{biblatex}
+\addbibresource{Stopeight.bib}
+\fi
+\usepackage{natbib}
+
+\renewcommand{\baselinestretch}{1.25}
+\newcommand\norm[1]{\left\lVert#1\right\rVert}
+
+\begin{document}
+\title{Stopeight Grapher}
+\author{Fassio Blatter}
+\maketitle
+
+\chapter{Definitions}
+\section{Vector Graph}
+Consider a function that produces a sequence of independent vectors with coordinates $x,y \in \mathbb{R}$.
+\begin{equation}
+Anything \mapsto \{(x,y)_{m}\}_{m \in \mathbb{N}}
+\end{equation}
+Note: It is a vector space $(X,((\mathbb{Q}^2,+,\cdot),\norm{\cdot}_2,\norm{\cdot}_1),\oplus,\odot,\leq)$. The verification operator $\odot$ verifies that a unitary base $\lvert \overrightarrow{e} \rvert$ can be generated for all elements $\forall x$ of a set $x \in X$ with the arithmetic $\{*,+\}$ operators of the body $x \in (\mathbb{Q}^2,+,\cdot)$. The operator $\leq$ verifies that the set $\{(x,y)_{m}\}_{m \in \mathbb{N}}$ is a sequence $(x_{1},...,x_{m})$ in the space $X$.\\\\
+The Vector Graph of the sequence of vectors is its appended form. The vectors are translated by the preceding ones.
+\begin{align}
+vectorgraph: (X,((\mathbb{Q}^2,+,\cdot),\norm{\cdot}_2,\norm{\cdot}_1),\oplus,\odot,\leq)\rightarrow ((X,((\mathbb{Q}^2,+,\cdot),\norm{\cdot}_2,\norm{\cdot}_1)\backslash\oplus),\odot,\leq)\\
+vectorgraph: \{(x,y)_{n}\}_{n \in \mathbb{N}} \mapsto \{(x,y)_{n}\}_{n \in \mathbb{N}}\\
+vectorgraph_{1}: (x,y)_{m=n}=\sum_{i=0}^{n-1} (x,y)_{i}
+\end{align}
+Note: It is only a metric space $(vectorgraph_{1},\norm{\cdot}_2,\norm{\cdot}_1)$ because the commutative condition $x+y+z=x+(z+y)$ in the verification operator $\oplus$ required by the vector space $X$ is destroyed. The verification operator $\norm{}_2$ with the wildcard $\cdot$ verifies that the function $\sqrt{\underbrace{x_{1}}_{x}^2+\underbrace{x_{2}}_{y}^2}$ can be applied to all elements $x \in vectorgraph_{1}$.
+\section{Partitioning}
+The appended form can, but does not have to be, subdivided into $n$ partitions of blocksize $m/n$ with $m\mod n=0$. The vectors in the partition are sumed and the resulting vector is stretched by the effective length of the taxicab norm of the vectors in the partition.
+\begin{align}
+partitioning: (vectorgraph_{1},\norm{\cdot}_2,\norm{\cdot}_1) \rightarrow (vectorgraph_{1}\backslash\{x \vert \norm{x}_2 < m/n\},\norm{\cdot}_2,\norm{\cdot}_1)\\
+partitioning: \{(x,y)_{n}\}_{n \in \mathbb{N}} \mapsto (x,y)_n\\
+vectorgraph_{m/n}:(x,y)_{n}=\sum_{i=0}^{n-1} (\underbrace{\sum_{k=i*m/n}^{(i+1)*m/n} \norm{(x,y)_{k}}_2}_{\text{traversal length}} * \underbrace{\frac{\sum_{k=i*m/n}^{(i+1)*m/n} (x,y)_{k}}{\norm{ \sum_{k=i*m/n}^{(i+1)*m/n} (x,y)_{k} }_2}}_{direction})
+\end{align}
+Note: Formally there is no difference between an open space $(vectorgraph_{1/\infty},\norm{\cdot}_2,\norm{\cdot}_1)$ and a closed space $(vectorgraph_{m/n},\norm{\cdot}_2,\norm{\cdot}_1)$ with $m$ or $m/n$ elements. The discretisation requires the introduction of a transversality $X\rightarrow vectorgraph_{m/n} \rightarrow W$.\\\\
+This ensures that the total traversal distance is preserved!
+\begin{equation}
+\norm{vectorgraph_{m/n_{1}}}_{1}=\norm{vectorgraph_{m/n_{2}}}_{1}\label{eq:9}
+\end{equation}
+\chapter{Vector-length Variant}
+Variance can be dealt with, because the ~\cite[Stopeight\_Analyzer.tex]{Analyzer} seamlessly ignores missing values. The variant version of a vectorgraph is simply denoted as $vectorgraph$ without a subscript.\\\\
+For variant and non-variant vectorgraphs, addition $\oplus$ does not work as expected. This custom $\oplus$ operator also handles interpolation.
+\begin{align}
+\oplus : (X, \norm{\cdot}_2) \rightarrow (W,\norm{\cdot}_2)\\
+\oplus : (x,y)_{n},(x,y)_{n+1}\mapsto (x,y)_{p}\\
+\oplus : (x_{1},y_{1})+(x_{2},y_{2})=\norm{(x_{1},y_{1})+(x_{2},y_{2})}_2*\frac{(x_{1},y_{1})+(x_{2},y_{2})}{\norm{(x_{1},y_{1})+(x_{2},y_{2})}_{2}}
+\end{align}
+Note: It is still only a metric space $(W,\norm{\cdot}_2,\norm{\cdot}_1)$, not a vector space $((W,\norm{\cdot}_2,\norm{\cdot}_1),\oplus)$, because even in the set $W$, the elements $x_{1},x_{2},x_{3} \in W$ can $not$ be added arbitrarily $x_{1}\oplus x_{3}$. The $(X,(\mathbb{Q}^2,+,\cdot))$ arithmetic operations are used in the equation.\\\\
+A variant version is composed of a sequence of $p$ Vector Graphs $\{(vectorgraph_{m_{p}/n_{p}})_{p}\}_{p\in \mathbb{Z}}$ which do not have the same traversal length. The traversal distances of the individual pieces \eqref{eq:9} have to be kept constant through all transformations of $the$ individual piece. Such transformations could be Analyzer approximation, approximation discretisation or blocksize adjustment of the individual piece.
+\begin{align}
+variantgraph: ((X\backslash\norm{\cdot}_2),\norm{\cdot}_1)\times ((X\backslash\norm{\cdot}_2),\norm{\cdot}_1) \rightarrow ((X\backslash\norm{\cdot}_2),\norm{\cdot}_1)\\
+(m_{0}/n_{0})\frac{\norm{(vectorgraph_{(m_{0}/n_{0})})_{0}}_{1}}{(m_{0}/n_{0})}+...+(m_{p}/n_{p})\frac{\norm{(vectorgraph_{(m_{p}/n_{p})})_{p}}_{1}}{(m_{p}/n_{p})}=\norm{variantgraph}_1
+\end{align}
+Note: It is a metric space $(variantgraph, \norm{\cdot}_1)$.
+\section{Equalising Length}
+A variant version can also be denoted as a sequence of $p$ Vector Graphs.
+\begin{align}
+\{(vectorgraph_{m_{p}/n_{p}})_{p}\}_{p\in \mathbb{Z}}\\
+\sum \limits _{i=0}^{p} (vectorgraph_{m_{p}/n_{p}})_p = vectorgraph
+\end{align}
+Note: $\forall v \in vectorgraph\exists x \in X,\norm{v}_2\not =\norm{x}_2,\not\forall x \in X\exists v \in vectorgraph$.\\\\
+It may be desirable to work with vectors of the same lengths. This may be required for inverting the Vector Graph $vectorgraph^{-1}$ or comparing two different Vector Graphs.\\
+For base modifications $\odot$, the division has to be followed by a multiplication.
+\begin{align}
+\odot : K\times (X, \norm{\cdot}_1) \rightarrow (vectorgraph_{m/p}, \norm{\cdot}_1)\\
+\odot : k,(x,y)_{n} \mapsto \{(x,y)_p\}_{p\in \mathbb{Z}}\\
+\odot : (x,y)_{p} = (p+1) * \frac{(x,y)_{n}}{k}
+\end{align}
+Note: It is a metric space $(((((vectorgraph_{m/n},(\mathbb{Q}^2,+,\cdot))\backslash\odot),\oplus,\leq),\backslash\norm{\cdot}_1), \norm{\cdot}_2)$\\
+Note: The $(\mathbb{Q}^2,+,\cdot)$ operations are used in the equation.\\\\
+To avoid interpolation, integer multiples of the vector lengths over all pieces would have to be used.
+\begin{equation}
+\{\norm{(x,y)_{n}-(x,y)_{n-1}}_2\vert (x,y)_{n} \in vectorgraph\} \mod \inf \limits _{vectorgraph} \norm{(x,y)_{n}-(x,y)_{n-1}}_2 = 0
+\end{equation}
+Note: It is a metric space $\{(x,y)_{m}\}_{m \in \mathbb{N}} \subset ((vectorgraph,(\mathbb{Q}^2,+,\cdot),\odot),\norm{\cdot}_2)$.\\\\
+Clearly, choosing a blocksize $m/n$ for a piece $q$ that results in the occurrence of a block that is shorter than the highest Euclidean distance in any particular piece $p$ of the entire sequence $\{(vectorgraph_{m_{p}/n_{p}})_{p}\}$ is not recommended for comparison because of the missing data in that particular piece.
+\begin{equation}
+(m/n)_{q}*\inf \limits _{(vectorgraph_{m_{q}/n_{q}})_{q}} \norm{(x,y)}_2 \geq \sup \limits _{\{(vectorgraph_{m_{p}/n_{p}})_{p}\}} \norm{(x+y)}_2\label{eq:4}
+\end{equation}
+Note: It is a metric space $\{(x,y)_{m}\}_{m \in \mathbb{N}} \subset ((\{(vectorgraph_{m_{p}/n_{p}})_{p}\},(\mathbb{Q}^2,+,\cdot),\odot),\norm{\cdot}_2)$.
+\section{Approximations}
+\subsection{Piecewise Calibration}
+The ~\cite[Stopeight\_Analyzer.tex]{Analyzer} not only ignores missing values that are not provided by the $vectorgraph$, but can also omit values, which it considers Straight. The goal of fitting multiple pieces together is to make the entire sequence comparable ~\cite[Non-Orthogonal]{Comparator}. The proportion of the blocksize and the straightness adjustment of each piece $p$ of the sequence is an important consideration when fitting individual pieces together.
+\begin{equation}
+\frac{(m_{p}/n_{p})_{p}}{\norm{(vectorgraph_{m_{p}/n_{p}})_{p}}_{1}} \sim \frac{(nsides)_{p}}{\norm{(vectorgraph_{m_{p}/n_{p}})_{p}}_{1}}
+\end{equation}
+Note: $Max_{Straight}$ depending on $nsides$ is defined in Stopeight Analyzer~\cite{Analyzer}[3.23].
+\subsection{Comparator Constraint}
+The calibration $nsides$ leads to a major change of arc-length and the traversal distance has to be adjusted. The choice of representation of the approximation also leads to a minor change in arc-length, similar to the (Riemann) integration remainder $C$.
+\begin{align}
+(\norm{Analyzer_{nsides}((vectorgraph)_{0})}_{1}+C_{0})+...+(\norm{Analyzer_{nsides}((vectorgraph)_{p})}_{1}+C_{p})=\norm{vectorgraph_{(m/n)}}_1
+\end{align}
+Notation: Here, $C_{p}$ is a remainder, not a Corner $C_{\infty}$ from the Analyzer.\\\\
+Running the Analyzer on the individual pieces $X_{p}$ and dividing the approximation into $n$ equal blocks of size $m/n$ not only eliminates variance, but also sets a norm on the arc-length which is extensively used as a $constraint$ in Stopeight Comparator~\cite{Analyzer}.
+
+\chapter{Usage Scenarios}
+Notation: The rest of the proceedings in this paper includes the preliminary stage of creating a Vector Graph $(x,y)_{n}$ from a signal (function of one variable) $s(t)$.
+\section{FT Domain (Time) Scalability}
+This $relative$ Vector Graph has to be constructed from a signal $s(t)\in \mathbb{R}$ by appending vectors to each other.
+\begin{align}
+waveform_{m/n}: (x,y)_{n}=\sum \limits _{i=0}^{n-1}(Re(z_{i}),Im(z_{i}))
+\end{align}
+The complex numbers $z_{n}$ are obtained from a Polar to Cartesian transform. The angles are scaled to the maximum expected angle in the specific vectorgraph.
+\begin{align}
+z_{n}=\sum \limits _{i=n*m/n}^{(n+1)*m/n}r_{i}\cos(\phi_{i})+r_{i}\mathrm{i}\sin(\phi_{i})\\
+\phi_{n}=\frac{s(t_{n})-s(t_{n-1})}{\sup \lvert s(t_{m})-s(t_{m-1}) \rvert}*\pi+\phi_{n-1};\phi_{0}=0\\
+r_{n}=t_{n}-t_{n-1};r_{0}=0
+\end{align}
+Note: The convolution is a Riesz space. It multiplies a factor on both sides $(X,\oplus,\odot,\leq)$.
+\subsection{Finding Bounds}
+In a one dimensional mixed signal $s(t)$, there are quiet, low frequencies. They are difficult to spot because of the presence of high frequency noise. Creating a Vector Graph provides a high precision solution to the adequate time-localisation of these pulses, and even half pulses where the wavelength is not known.
+\subsection{Pitch}
+The benefit of this method is that a sequence of variable wavelength pulses can be compared at different pitches. The unbound independent scalar is exposing a wavelength/amplitude correlation (unlike just amplitude; See \eqref{eq:3}).
+\subsection{Compression}
+Image Variance (to be disclosed).
+\section{FT Image (Amplitude) Scalability}
+This $absolute$ Vector Graph has to be constructed by appending vectors to each other.
+\begin{align}
+phaseprofile_{m/n}: (x,y)_{n}=\sum \limits _{i=0}^{n-1}(\mathrm{Re(z_{i})},\mathrm{Im(z_{i})})
+\end{align}
+The complex numbers $z_{n}$ are obtained from inverse Fourier Transform of $n$ partitions (Polar to Cartesian). The frequency multiplier is set to the frame size.
+\begin{align}
+z_{n}= \sum \limits _{i=n*(m/n)}^{(n+1)*(m/n)} s(t_{i})*(\cos(\frac{2\pi}{m/n}t_{i})+\mathrm{i}\sin(\frac{2\pi}{m/n}t_{i}))\label{eq:3}
+\end{align}
+Note: There is a leaking effect if the block size $m/n$ is not an integer multiple of the period of the signal $s(t)$ ~\cite[Fensterfunktion]{Fensterfunktion}. To some extent this can be solved by adjusting the partition size $m/n$ according to visibility and isolation in ~\cite[Stopeight\_Comparator.tex]{Comparator}\\\\
+Note: The convolution is a Riesz space. It multiplies a factor on both sides $(X,\oplus,\odot,\leq)$.
+\subsection{Harmonics}
+The benefit of this method is that an audio feature in a mixed signal $s(t)$ can test positive in geometric overlay comparison regardless of the amplitude of the feature.
+
+\iffalse
+\printbibliography
+\fi
+\bibliography{Stopeight}{}
+\bibliographystyle{plain}
+
+\end{document}

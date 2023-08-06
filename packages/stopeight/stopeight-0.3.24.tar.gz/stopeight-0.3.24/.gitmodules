@@ -1,0 +1,3 @@
+[submodule "stopeight-clibs"]
+	path = stopeight-clibs
+	url = https://github.com/specpose/stopeight-clibs.git

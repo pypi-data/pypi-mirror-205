@@ -1,0 +1,104 @@
+name: "Conda Build"
+
+on: [push, pull_request]
+
+jobs:
+  conda-build-ubuntu:
+    name: Conda Build Ubuntu
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          persist-credentials: 'false'
+          update-conda: true
+      - name: Checkout submodules
+        shell: bash -l {0}
+        run: |
+          git submodule update --init --recursive
+      - name: Activate conda
+        shell: bash -l {0}
+        run: |
+          eval "$($CONDA/condabin/conda shell.zsh hook)"
+          conda init bash
+          conda activate base
+      - name: Install stopeight-clibs
+        shell: bash -l {0}
+        run: |
+          conda install --channel specpose python stopeight-clibs
+      - name: Test Python Build
+        shell: bash -l {0}
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+          python -m pip install --upgrade build
+          python -m build --sdist --wheel
+           
+  conda-build-mac:
+    name: Conda Build Mac
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [macOS-latest]
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          persist-credentials: 'false'
+          update-conda: true
+      - name: Checkout submodules
+        shell: zsh -l {0}
+        run: |
+          git submodule update --init --recursive
+      - name: Activate conda
+        shell: zsh -l {0}
+        run: |
+          sudo chown -R 501:20 /usr/local/miniconda
+          eval "$($CONDA/condabin/conda shell.zsh hook)"
+          conda init zsh
+          conda activate base
+      - name: Install stopeight-clibs
+        shell: zsh -l {0}
+        run: |
+          conda install --channel specpose python stopeight-clibs
+      - name: Test Python Build
+        shell: zsh -l {0}
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+          python -m pip install --upgrade build
+          python -m build --sdist --wheel
+
+  conda-build-win:
+    name: Conda Build Windows
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [windows-latest]
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          persist-credentials: 'false'
+          update-conda: true
+      - name: Checkout submodules
+        shell: powershell
+        run: |
+          git submodule update --init --recursive
+      - name: Activate conda
+        shell: powershell
+        run: |
+          (& $env:CONDA"\Scripts\conda.exe" "shell.powershell" "hook") | Out-String | Invoke-Expression
+          conda init powershell
+          conda activate base
+      - name: Install stopeight-clibs
+        shell: powershell
+        run: |
+          conda install --channel specpose python stopeight-clibs
+      - name: Test Python Build
+        shell: powershell
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+          python -m pip install --upgrade build
+          python -m build --sdist --wheel
