@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: goodai-ltm
+Version: 0.0.18
+Summary: A text memory meant to be used with conversational language models.
+Home-page: https://github.com/GoodAI/goodai-ltm
+License-File: LICENSE
