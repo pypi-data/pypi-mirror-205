@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: common-cols-project
+Version: 0.1.3
+Summary: Given a list of data frames, finds common columns between all pairs of data frames.
+Home-page: https://github.com/ElenaGarciaManes?tab=repositories
+Author: Elena García Mañes
+Author-email: elenagarciamanes@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Common Columns Package  
+
+This package contains a function called **common_columns** that can be used to find the common columns between all pairs of data frames.
+
+### Installation  
+To install this package, you can use pip. Open your terminal and run the command provided above.
+
+### Usage  
+To use the common_columns function, you first need to import it from the package:
+
+from common_columns import common_columns  
+The function takes in a variable-length argument list of pandas data frames. Here's an example of how to use it:
+
+import pandas as pd  
+from common_columns import common_columns
+
+df1 = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})  
+df2 = pd.DataFrame({'B': [7, 8, 9], 'C': [10, 11, 12]})  
+df3 = pd.DataFrame({'B': [13, 14, 15], 'D': [16, 17, 18]})  
+
+common_cols_all = common_columns(df1, df2, df3)
+
+> In this example, we have three data frames (df1, df2, and df3). We call the common_columns function with these data frames as arguments, and store the result in the common_cols_all variable. The common_cols_all variable will contain a set of column names that are common to all three data frames, if any.
+
+### Function Description
+The common_columns function takes in a variable-length argument list of pandas data frames, and returns a set containing the names of columns that are common to all data frames, if any. It works as follows:
+
+### Initialize a list of common columns.
+Get the names of the data frames, assigning a default name to any data frames without a name attribute.
+### Loop over all pairs of data frames.
+Find the common columns between the two data frames.
+If there are common columns, add them to the list of common columns.
+### Find the common columns across all data frames.
+Return a set containing the names of columns that are common to all data frames, if any.
+
+## Contributing
+If you'd like to contribute to this package, please feel free to fork the repository and submit a pull request. We welcome contributions from the community! You can also contact me on my personal email adress: elenagarciamanes@gmail.com 
+
