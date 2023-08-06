@@ -1,0 +1,6 @@
+setup.py
+xrest/__init__.py
+xrest.egg-info/PKG-INFO
+xrest.egg-info/SOURCES.txt
+xrest.egg-info/dependency_links.txt
+xrest.egg-info/top_level.txt
