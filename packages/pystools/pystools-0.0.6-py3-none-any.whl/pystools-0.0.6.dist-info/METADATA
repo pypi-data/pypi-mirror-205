@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: pystools
+Version: 0.0.6
+Summary: pystools
+Author-email: 木坦坦 <devzhao@126.com>
+Project-URL: Homepage, https://github.com/devzhaohan/HMTools
+Project-URL: Bug Tracker, https://github.com/devzhaohan/HMTools/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: loguru
+Requires-Dist: cos-python-sdk-v5
+Requires-Dist: oss2
+Requires-Dist: urllib3
+
+
+
+
+项目地址： https://pypi.org/project/pystools/
+
+### 安装
+```
+pip install --upgrade pystools
+```
+
