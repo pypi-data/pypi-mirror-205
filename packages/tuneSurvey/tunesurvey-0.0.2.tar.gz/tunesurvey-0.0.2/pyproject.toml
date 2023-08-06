@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "tuneSurvey"
+version = "0.0.2"
+authors = [
+  { name="Hao Li", email="lhrcplanes@qq.com" },
+]
+description = "Automatic tuning of machine learning models and surveying on the performance across subsets, variables, features, hyperparameters and pipelines"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://pypi.org/project/tuneSurvey/0.0.1/"
+"Bug Tracker" = "https://github.com/HaoLi111/tuneSurvey/issues"
