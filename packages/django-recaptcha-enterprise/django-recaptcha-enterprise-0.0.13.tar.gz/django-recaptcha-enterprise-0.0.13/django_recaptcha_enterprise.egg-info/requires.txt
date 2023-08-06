@@ -1,0 +1,4 @@
+django>=1.0
+google-cloud-recaptcha-enterprise==1.8.0
+grpcio>=1.51
+protobuf==3.20.1
