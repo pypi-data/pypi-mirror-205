@@ -1,0 +1,17 @@
+RoboSAPiens/__init__.py,sha256=I9XermS-GZAk7O-byB9bIzzUIcaENqYEfpRxYPPgEkg,32251
+RoboSAPiens/client.py,sha256=0vZIyjfqrbyXZNQQV5kRyNwtuqR5fHh9106t1pI17ig,3487
+RoboSAPiens/DE/__init__.py,sha256=LDBFrXghulaa1JelOcCimry5gq-ZdckG3b0ZyIdL4RY,36002
+RoboSAPiens/lib/CsvHelper.dll,sha256=C4tsA83oB-MBNtP8l59LBwoVfNHIUlOQRsJXdSktBuk,187392
+RoboSAPiens/lib/Horizon.XmlRpc.Core.dll,sha256=36yRRsCZ2Q-PSQzKVORmOftWSZuE0JZH0mKPA0f-oV0,49664
+RoboSAPiens/lib/Horizon.XmlRpc.Server.dll,sha256=caSHkwhgfEzz7XE1cazcVYw3DLtmcI8yfATdQI5pBE4,19456
+RoboSAPiens/lib/RoboSAPiens.deps.json,sha256=7EK_TwcnFbEA3SmxIAy4NiVYdTTLi9CWs70Q0fpXWrA,3181
+RoboSAPiens/lib/RoboSAPiens.dll,sha256=XI9efaEXeqW9AnghnC3cEGd0rHVyc4bsGTlQkzuhTK0,266752
+RoboSAPiens/lib/RoboSAPiens.exe,sha256=TDyeglAIjjFaowlXFncOSlEEt1G8yZZxrHk5QFS_Sko,118784
+RoboSAPiens/lib/RoboSAPiens.runtimeconfig.json,sha256=SJqSw3Qit-XOIS-XAbeggdiHuJX4i5GwAJdhMfkPgj8,253
+RoboSAPiens/lib/System.ComponentModel.Composition.dll,sha256=o_T2MjvwxEsz4roWxC-ML3AOPpR1DA9IKJwDiO3wJT0,21128
+RoboSAPiens/lib/sapfewse.dll,sha256=5T7iLAYOuLyqF3znYx-qGZVH_3kJ51IWtT7HgXuqaOY,388096
+RoboSAPiens/lib/saprotwr.net.dll,sha256=9hXfjUhMzzKP2cY1Ln7rZU8np362u0KVjVS7U4boTzI,4096
+robotframework_robosapiens-1.1.6.dist-info/METADATA,sha256=dz9ssHJtyKnAknvlGd_1DbPsvImSozaxgu0DhCxdzMg,2145
+robotframework_robosapiens-1.1.6.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+robotframework_robosapiens-1.1.6.dist-info/top_level.txt,sha256=S5W6yIM4AU-SZPPAS_cmrmYbSyaMANqEssujlhfP_GU,12
+robotframework_robosapiens-1.1.6.dist-info/RECORD,,
