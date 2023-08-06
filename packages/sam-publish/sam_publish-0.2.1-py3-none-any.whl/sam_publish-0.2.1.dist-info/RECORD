@@ -1,0 +1,13 @@
+sam_publish/__init__.py,sha256=9ZG1ID7Wm-lkTG5PSANQdYSye5QYIfVG3RJCd706IEk,51
+sam_publish/__main__.py,sha256=H-k9L4lH7Fl-fK0MrNbzL4280Qblu8_ayRKeYwrdN4o,5702
+sam_publish/helpers.py,sha256=WNdPNgdwmky6bQoRRCzpCIs9mbtFF-6mAJWnEAsEb5g,2989
+sam_publish/inline_functions.py,sha256=wF219NUiEoT-pzGnUfQq5SCJAfYZ4WrlQzqS7cNLOXE,4476
+sam_publish/move_assets.py,sha256=uDotJdv_nk2U__iVGn9kA_PpGgo7pQyqIgzhYTePfUQ,4150
+sam_publish/sam_translate.py,sha256=BFGB9cOfJJ4kZQl_G0rSc3g4RZ1DBUa7t_V2KKD9v-4,1230
+sam_publish/tidy_tags_metadata.py,sha256=Fm1I23cLRsnvHXSMqHYWkdTYHauYVf-iUw4tj7t-6BI,3957
+sam_publish-0.2.1.dist-info/LICENSE,sha256=QPFxIXTaZtscwMfM_9uoJ1lTTYAecqQG4SMrsdiUKkA,1068
+sam_publish-0.2.1.dist-info/METADATA,sha256=kjz2nVgF_YZpuLjyOZbqwEOlpQ6yesnTEphgDuCn6Gk,6113
+sam_publish-0.2.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+sam_publish-0.2.1.dist-info/entry_points.txt,sha256=T4eJO_pmoWEp1pmUJmW4ubOFHtGqT_4wulFr_fb_zdU,58
+sam_publish-0.2.1.dist-info/top_level.txt,sha256=fT9vGeQVKTAJ-Ob2Y044SECJ764HbQNDRxXVP1daEIg,12
+sam_publish-0.2.1.dist-info/RECORD,,
