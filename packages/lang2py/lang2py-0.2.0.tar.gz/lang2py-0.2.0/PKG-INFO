@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: lang2py
+Version: 0.2.0
+Summary: 
+Author: Jacob Valdez
+Author-email: jacob.valdez@limboid.ai
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pytest (>=7.3.1,<8.0.0)
+Description-Content-Type: text/markdown
+
+[] Add Literal support (union of literals)
