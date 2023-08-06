@@ -1,0 +1,8 @@
+setup.py
+allcuisines.egg-info/PKG-INFO
+allcuisines.egg-info/SOURCES.txt
+allcuisines.egg-info/dependency_links.txt
+allcuisines.egg-info/requires.txt
+allcuisines.egg-info/top_level.txt
+allcuisineslib/__init__.py
+allcuisineslib/allcuisines.py
