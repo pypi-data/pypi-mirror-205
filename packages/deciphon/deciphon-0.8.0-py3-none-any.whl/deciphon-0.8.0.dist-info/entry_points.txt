@@ -1,0 +1,4 @@
+[console_scripts]
+dcp=deciphon.cli:app
+dcp-api=deciphon.api.cli:app
+
