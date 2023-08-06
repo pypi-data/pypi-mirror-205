@@ -1,0 +1,13 @@
+favicorn/__init__.py,sha256=cFgLAun8TGFK6ijrIGmOHcEmOvtO0u4zQFl_p0-m0JA,838
+favicorn/connection_manager.py,sha256=D8gWoNGQVe8AMoU5zn_Yo5Vtrn-21k6CS_LCo5gQXd8,814
+favicorn/iconnection.py,sha256=uiakGF1zbEUosl7-V_3cFt7-fbTn4EZvIA2eS73aWwE,505
+favicorn/isocket_provider.py,sha256=Tsb-iQnsEhjUsJDRpg3SYagVzw7H1SNzk0g9uREXxRM,346
+favicorn/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+favicorn/reader.py,sha256=Bkf3QNe9hOieTWAhIgPO9cx0jmAc_vzwAb_GsOTS72o,1384
+favicorn/server.py,sha256=WSeMh5mYclx6rA82x22PGlnKJef0B0nLbqOQus-Wz58,1828
+favicorn/utils.py,sha256=zeenhbVIsFO5BiY3idtYF5a-fSDbSYbiPaSr61plsKI,362
+favicorn/writer.py,sha256=-ZcC4i9M6ZaRYG38qT7Ki2mYNkMja9wRn9sM6PaMH4Q,947
+favicorn-0.0.4.dist-info/METADATA,sha256=RL2LRLz_cppfOZgAiIIXPEeXAWk-exc_L2Na1NG41LY,254
+favicorn-0.0.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+favicorn-0.0.4.dist-info/top_level.txt,sha256=8q_F6edllHroXy2CiNH0NMz6pEA4u1yELWmxsxH07x8,9
+favicorn-0.0.4.dist-info/RECORD,,
