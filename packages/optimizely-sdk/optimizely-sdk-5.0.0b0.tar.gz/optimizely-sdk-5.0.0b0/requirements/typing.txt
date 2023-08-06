@@ -1,0 +1,4 @@
+mypy==0.982
+types-jsonschema
+types-requests
+types-Flask
