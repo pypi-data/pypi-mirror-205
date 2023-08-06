@@ -1,0 +1,10 @@
+rmrkl/__init__.py,sha256=Jxr-_U7snkdJgitW2M5phu4H5EsdJo_erujKJqy6VAA,111
+rmrkl/agent.py,sha256=cM6Z8bTEawtTU6a8Io2xCHovfDjbE4MaOr23xWAdJ1A,3373
+rmrkl/executor.py,sha256=dewj16MicxA_YtwK-ZZfiD3EbVHaUb3aV_f2K9lOIWo,1723
+rmrkl/prompts.py,sha256=BZ2LUrrYvwyq9XBZ9iE__UxI7HS6TeXfJy0qNe9NYKI,633
+rmrkl/version.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+rmrkl-0.0.1.dist-info/LICENSE,sha256=4YBXgoHsnGeXyohXNRidSEDOaasrt1wMg-uuZ797BxI,1069
+rmrkl-0.0.1.dist-info/METADATA,sha256=UP2GHaTh_NyPB5M24YLz0VANTE-Ku6YyBsl3OrnNO8I,896
+rmrkl-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+rmrkl-0.0.1.dist-info/top_level.txt,sha256=_1pxFb8IcxS8VSZ86hV5FBEWJIZ6qtMdUZBSP2lTgac,6
+rmrkl-0.0.1.dist-info/RECORD,,
