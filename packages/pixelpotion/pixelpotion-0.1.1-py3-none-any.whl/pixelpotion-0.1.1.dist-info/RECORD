@@ -1,0 +1,13 @@
+pixelpotion/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pixelpotion/cli.py,sha256=ZnxoVetmVbmDOOvg9sZdW3Gt4YNs4fTBve3vaBIrei8,2255
+pixelpotion/convert.py,sha256=m4TNil-d2SD0-K_SyZorFA3we3GuInex_tlxf1LQmaQ,1707
+pixelpotion/split_frames.py,sha256=zGfMCWDdBrhUl_pniCknM3lEyrit5vOEmCab5cleuGM,733
+pixelpotion/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_convert.py,sha256=ietyW41Jk8PoZkS6BmMhWNL5tsh4hHvOBuFPZovVbRk,2354
+tests/test_gif_split.py,sha256=ZooRN11IXxixAvn5NgOBu6xpMKetTjGqyY1VlFD2Qng,1862
+pixelpotion-0.1.1.dist-info/METADATA,sha256=Fjg_TkD1skK-dKNbEu1yWHodAxYGug8dELi0LEkUp9w,2274
+pixelpotion-0.1.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+pixelpotion-0.1.1.dist-info/entry_points.txt,sha256=iuHr_TSQd7K9IdkZLQUrBh7Fg8kYsi0KagqTLVEnr-I,44
+pixelpotion-0.1.1.dist-info/top_level.txt,sha256=DBqaZoDFp7ZoaGwHGfMfOUvCw0LjxAvBU6sHNoq5NNY,18
+pixelpotion-0.1.1.dist-info/RECORD,,
