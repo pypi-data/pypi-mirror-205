@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: visiongraph-ui
+Version: 0.1.0
+Summary: User interface library for visiongraph projects.
+Home-page: https://github.com/cansik/visiongraph-ui
+Author: Florian Bruggisser
+Author-email: github@broox.ch
+License: MIT License
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: visiongraph (>=0.1.44)
+Requires-Dist: duit[open3d] (>=0.1.7.1)
+Provides-Extra: all
+
+# Visiongraph UI
+
+User interface library for visiongraph projects.
+
+### Example
+
+To create a basic UI create a new class that inerhits from `VisionGraphApp` and pass the configuration and graph to the parent constructor.
+
+```python
+class DemoApp(VisionGraphApp[DemoConfig, DemoGraph]):
+    def __init__(self, config: DemoConfig, graph: vg.VisionGraph):
+        super().__init__(config, graph)
+```
+
+To run the application, create an `AppContext` and create the window.
+
+```python
+config = DemoConfig()
+graph = DemoGraph().create_graph(vg.VideoCaptureInput())
+graph.multi_threaded = True
+
+with AppContext():
+    window = DemoApp(config, graph)
+```
+
+### About
+
+This is a first draft of the library and the api will change in future release.
+
+
