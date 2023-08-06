@@ -1,0 +1,9 @@
+[default]
+action_identifier = "BUY SELL LONG SHORT"
+order_type = "spot future margin"
+leverage_type = "cross isolated"
+VALUE = "On Default"
+
+
+[testing]
+VALUE = "On Testing"
