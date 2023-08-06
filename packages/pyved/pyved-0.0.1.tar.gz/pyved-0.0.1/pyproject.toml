@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "gamedev-pyved"
+version = "0.1.0"
+description = ""
+authors = ["moonb3ndr <thomas.iw@kata.games>"]
+readme = "README.md"
+packages = [{include = "gamedev_pyved", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pygame = "^2.3.0"
+pygame-gui = "^0.6.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

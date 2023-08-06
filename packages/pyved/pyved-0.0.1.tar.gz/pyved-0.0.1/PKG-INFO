@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pyved
+Version: 0.0.1
+Summary: experimental toolbox for game devs who use python
+Home-page: https://github.com/wkta/gamedev-pyved
+Author: moonb3ndr et al.
+Author-email: contact@kata.games
+License: MIT
