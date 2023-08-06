@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: mask2bbox
+Version: 0.0.2
+Summary: Gets the bounding boxes from a mask file.
+Home-page: https://github.com/SchapiroLabor/mask2bbox
+Author: Miguel Ibarra
+Author-email: c180l058j@mozmail.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: scikit-image
+Provides-Extra: dev
+Requires-Dist: pytest (>=3.7) ; extra == 'dev'
+
+# mask2bbox
+
+For a given mask, gets the coordinates of bounding box of each element of the mask. It will also allow for more operations in the future.
+
+## Instalation
+
+`pip install mask2bbox`
+
+## Usage
+
+```python
+from mask2bbox import BBoxes
+
+# Create a BBoxes object
+all_BBoxes = BBoxes(args.mask)
+
+# Expand the bounding boxes
+all_BBoxes.expand(n=10)
+
+# Save your bounding boxes
+all_BBoxes.save_csv(args.output)
+```
+
+ 
