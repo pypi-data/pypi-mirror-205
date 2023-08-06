@@ -1,0 +1,13 @@
+xarray[io]
+pandas[excel,feather,hdf5,parquet,spss]
+
+[cli]
+typer
+rich
+
+[dev]
+pytest
+coverage
+build
+black
+ruff
