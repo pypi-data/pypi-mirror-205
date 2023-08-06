@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "blackmirror2"
+version = "0.0.4"
+authors = [
+  { name="CAN304 Dev Team" },
+]
+description = "POC for Black Mirror"
+requires-python = ">=3.7"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
