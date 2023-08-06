@@ -1,0 +1,17 @@
+NeuralNetPy/__init__.py,sha256=DuE5ishv6ODs4Oh78nqLjGzRLyQN0jMdi1o3nEgB_3k,68
+NeuralNetPy/activations/__init__.py,sha256=h5pQvePL3w4w37Ps6oa5WG0TVcdBSJiP051j-lck01I,26
+NeuralNetPy/activations/activations.py,sha256=5WMQVE9EajvSsspCNsKiI8elE6kIAS4Z7FZjR4EG2fg,1611
+NeuralNetPy/layers/__init__.py,sha256=M9z3dE5KyBIu9iVKp4c3D0QAlWW2t365pabHemwLgHg,22
+NeuralNetPy/layers/layers.py,sha256=fV-5n_VHpoDD9OGD5OpwI3CMQZFay6NcJze86z3p0nk,7541
+NeuralNetPy/losses/__init__.py,sha256=wwKRKWlUdnvSNFS8lOgCL0bRiPDjuCqe5f-kZuIq4R4,22
+NeuralNetPy/losses/losses.py,sha256=uk6i7STfoY6n7LQZfEwZAD4i_YwQ2st6FP1o1PfsClY,769
+NeuralNetPy/models/__init__.py,sha256=SRfF7oDVlOOAi6nGKiJIUK6B_arqYLO9iSMp-2IZZps,21
+NeuralNetPy/models/models.py,sha256=45JhH2szbYNr-kBaxfx92lOUt8U-DrSJe_S5o7v6q2M,1927
+NeuralNetPy/optimizers/__init__.py,sha256=QIe-Ub2FScClWt11UHh4y3uF5E5ESNEE01zagkISLyI,26
+NeuralNetPy/optimizers/optimizers.py,sha256=I-3TjCe84_ugSQg0CeV5i0k2309kFc60UnQFmfNjtd0,1790
+NeuralNetPy/utils/__init__.py,sha256=alIDGBnxWH4JvP-UW-7N99seBBi0r1GV1h8f1ERFBec,21
+NeuralNetPy/utils/utils.py,sha256=oRWPRMO7PhHHnrHeEdvFXoXjqVQF4GToxNyS3HLElyY,1463
+NeuralNetPy-0.0.4.dist-info/METADATA,sha256=e0i2PLdAP4PieOEfv7aY_y1S5yeZuydvZd7a07fOafs,4800
+NeuralNetPy-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+NeuralNetPy-0.0.4.dist-info/top_level.txt,sha256=5jEdu3JAxCQSy-438nlHMcsXKFF-uY8LlAnB3CRaX_o,12
+NeuralNetPy-0.0.4.dist-info/RECORD,,
