@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+foffinf/__init__.py
+foffinf.egg-info/PKG-INFO
+foffinf.egg-info/SOURCES.txt
+foffinf.egg-info/dependency_links.txt
+foffinf.egg-info/top_level.txt
