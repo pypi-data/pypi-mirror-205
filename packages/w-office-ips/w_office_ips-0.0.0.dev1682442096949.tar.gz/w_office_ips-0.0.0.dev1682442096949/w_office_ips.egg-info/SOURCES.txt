@@ -1,0 +1,6 @@
+module.py
+setup.py
+w_office_ips.egg-info/PKG-INFO
+w_office_ips.egg-info/SOURCES.txt
+w_office_ips.egg-info/dependency_links.txt
+w_office_ips.egg-info/top_level.txt
