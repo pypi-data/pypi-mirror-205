@@ -1,0 +1,8 @@
+setup.py
+disher.egg-info/PKG-INFO
+disher.egg-info/SOURCES.txt
+disher.egg-info/dependency_links.txt
+disher.egg-info/requires.txt
+disher.egg-info/top_level.txt
+tkpkg/__init__.py
+tkpkg/tkpkg.py
