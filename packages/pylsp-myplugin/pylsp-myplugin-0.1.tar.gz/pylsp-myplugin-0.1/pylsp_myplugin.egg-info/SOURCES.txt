@@ -1,0 +1,16 @@
+AUTHORS.txt
+LICENSE
+README.md
+setup.cfg
+setup.py
+pylsp_myplugin/__init__.py
+pylsp_myplugin/plugin.py
+pylsp_myplugin.egg-info/PKG-INFO
+pylsp_myplugin.egg-info/SOURCES.txt
+pylsp_myplugin.egg-info/dependency_links.txt
+pylsp_myplugin.egg-info/entry_points.txt
+pylsp_myplugin.egg-info/requires.txt
+pylsp_myplugin.egg-info/top_level.txt
+test/__init__.py
+test/conftest.py
+test/test_plugin.py
