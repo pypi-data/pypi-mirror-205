@@ -1,0 +1,2 @@
+[console_scripts]
+prisma_configure_mesh = prisma_mesh_functions:go
