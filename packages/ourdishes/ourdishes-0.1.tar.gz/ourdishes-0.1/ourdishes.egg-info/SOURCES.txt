@@ -1,0 +1,8 @@
+setup.py
+disheslib/__init__.py
+disheslib/disheslib.py
+ourdishes.egg-info/PKG-INFO
+ourdishes.egg-info/SOURCES.txt
+ourdishes.egg-info/dependency_links.txt
+ourdishes.egg-info/requires.txt
+ourdishes.egg-info/top_level.txt
