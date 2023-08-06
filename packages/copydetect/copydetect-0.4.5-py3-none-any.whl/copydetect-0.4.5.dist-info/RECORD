@@ -1,0 +1,13 @@
+copydetect/__init__.py,sha256=FU7fXy-sgnGn-mVGIfDHTxYJ4pBwey6GJXXoAIhIGJg,90
+copydetect/__main__.py,sha256=NCcVgQu1Tome5_ieON3KKOWcOwLskaFLLjGdNZAXDCY,6031
+copydetect/defaults.py,sha256=GxB0X9ebaU0iznvTPCjyYO5UHeWBcMqNg8rSc-rGeNE,71
+copydetect/detector.py,sha256=vgJ6_w-RFes7V8Brrbmz9dCPj0MPcTjfhMtz_zG2HIc,28649
+copydetect/pywinnow.py,sha256=Fm9yU6PvUZ06kCODOo25zjC-AOS4BUnoO1z023V6eKU,928
+copydetect/utils.py,sha256=0InyYYg2SlF2k7TIbSRhQLGSnSFUUe1SbP5RGqrzKLg,8342
+copydetect/data/report.html,sha256=4yYhpSrsmIq_jBFyUpg-6iRKznjSLMikLU5m39AvFlM,2907
+copydetect-0.4.5.dist-info/LICENSE,sha256=2hBsNtADoaAQntSBzJ8eSnEfuvt4geQYc8uehVVUmJU,1063
+copydetect-0.4.5.dist-info/METADATA,sha256=2IWwwGLoTUul_DfG1J695THiV0jNlXOzXRFWBPVizIw,8744
+copydetect-0.4.5.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+copydetect-0.4.5.dist-info/entry_points.txt,sha256=pu6K3rIRtQkTJU0LfaOQXbnCISp2xdz4rWt_1ct84ZA,56
+copydetect-0.4.5.dist-info/top_level.txt,sha256=eY-oWTaDzWCg_kGzmR4mQ9OfEHVl1OZH5lKLK1J4Qmk,11
+copydetect-0.4.5.dist-info/RECORD,,
