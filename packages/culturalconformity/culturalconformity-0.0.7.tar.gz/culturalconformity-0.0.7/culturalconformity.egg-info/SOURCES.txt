@@ -1,0 +1,8 @@
+setup.py
+culturalconformity/__init__.py
+culturalconformity/frq_over_time.py
+culturalconformity/interactive.py
+culturalconformity.egg-info/PKG-INFO
+culturalconformity.egg-info/SOURCES.txt
+culturalconformity.egg-info/dependency_links.txt
+culturalconformity.egg-info/top_level.txt
