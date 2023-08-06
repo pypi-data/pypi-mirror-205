@@ -1,0 +1,7 @@
+tqdm
+pandas
+matplotlib
+gensim
+jieba
+nltk
+openpyxl
