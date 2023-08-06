@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+a_pandas_ex_df_to_string/LICENSE
+a_pandas_ex_df_to_string/README.MD
+a_pandas_ex_df_to_string/__init__.py
+a_pandas_ex_df_to_string/requirements.txt
+a_pandas_ex_df_to_string/thirdparty.json
+a_pandas_ex_df_to_string.egg-info/PKG-INFO
+a_pandas_ex_df_to_string.egg-info/SOURCES.txt
+a_pandas_ex_df_to_string.egg-info/dependency_links.txt
+a_pandas_ex_df_to_string.egg-info/requires.txt
+a_pandas_ex_df_to_string.egg-info/top_level.txt
