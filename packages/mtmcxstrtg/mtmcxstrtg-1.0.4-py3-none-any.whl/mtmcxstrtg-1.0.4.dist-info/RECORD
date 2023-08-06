@@ -1,0 +1,12 @@
+mtmcxstrtg/__init__.py,sha256=xKykb8qQcs18zCJfF8krqWQIW_L8SWPbmhtYY4Pbvlc,256
+mtmcxstrtg/account.py,sha256=mXnzV6rYGhwZenFnz18mQYwYig4Gq_4GKgHEa7hye2E,2378
+mtmcxstrtg/config.py,sha256=bAvLHaJOxdlemPO80yGkK-V7FV98m_ygHzoDz82E7sk,1518
+mtmcxstrtg/flow.py,sha256=0XiGodZJYtsayycySx8N5vU7WKHis3ZPmQ32zRNU08s,896
+mtmcxstrtg/util.py,sha256=aI30nNbOhEDlYkoeIyloIcs79hdLRgnRwxqMRsaVFVc,1489
+mtmcxstrtg/strategy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mtmcxstrtg/strategy/cta_deviation_signal_strategy.py,sha256=WJeZw1lHQeECdNXXhYDl4tzehK4Abg2OmZVIP7KGSD0,3536
+mtmcxstrtg-1.0.4.data/scripts/run.py,sha256=e1zLZbBMV15kzgND-NB8QohKhVjkM6uVMEonQALsc1A,1116
+mtmcxstrtg-1.0.4.dist-info/METADATA,sha256=hQDcIdvElEYF0XFj_PJjs_RX_Tuwt6fae2x-Z9mPtKU,705
+mtmcxstrtg-1.0.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+mtmcxstrtg-1.0.4.dist-info/top_level.txt,sha256=HI6fOaRYj1C0D6Cn6ZgjdHvre2dv0aNgG7QyFpZ7bsQ,11
+mtmcxstrtg-1.0.4.dist-info/RECORD,,
