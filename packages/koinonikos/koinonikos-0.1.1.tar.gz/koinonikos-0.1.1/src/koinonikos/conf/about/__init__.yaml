@@ -1,0 +1,7 @@
+_package_name_: "koinonikos"
+name: "Koinonikos"
+authors: "Young Joon Lee <entelecheia@hotmail.com>"
+description: "A Python Library for Social Science Research"
+homepage: "https://koinonikos.entelecheia.ai"
+license: "MIT"
+version: "0.1.1"
