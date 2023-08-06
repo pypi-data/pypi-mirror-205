@@ -1,0 +1,7 @@
+[default]
+identifier = ["BUY", "SELL", "buy", "sell","Buy","Sell"]
+VALUE = "On Default"
+
+
+[testing]
+VALUE = "On Testing"
