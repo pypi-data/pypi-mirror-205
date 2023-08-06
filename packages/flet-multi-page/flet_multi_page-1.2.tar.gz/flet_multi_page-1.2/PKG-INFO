@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: flet_multi_page
+Version: 1.2
+Summary: A tool of creating new pages with flet library.
+Home-page: https://github.com/SKbarbon/flet_multi_page
+Author: SKbarbon
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE
+
+until now, flet v0.6 does not support multi pages.
+ With this tool, you can start new pages on the same script without the need of creating new `app` class.
+ visit the github repo for more: [github](https://github.com/SKbarbon/flet_multi_page)

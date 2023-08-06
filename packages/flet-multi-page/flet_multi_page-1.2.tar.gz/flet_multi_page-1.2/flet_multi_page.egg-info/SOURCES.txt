@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+flet_multi_page.egg-info/PKG-INFO
+flet_multi_page.egg-info/SOURCES.txt
+flet_multi_page.egg-info/dependency_links.txt
+flet_multi_page.egg-info/requires.txt
+flet_multi_page.egg-info/top_level.txt
+flet_sub_page/__init__.py
+flet_sub_page/sub_page.py
