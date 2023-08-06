@@ -1,0 +1,16 @@
+.gitignore
+LICENSE
+README.md
+bunny.png
+bunny100k.xyz
+example.py
+pyproject.toml
+pyosa/__about__.py
+pyosa/__init__.py
+pyosa/main.py
+pyosa.egg-info/PKG-INFO
+pyosa.egg-info/SOURCES.txt
+pyosa.egg-info/dependency_links.txt
+pyosa.egg-info/requires.txt
+pyosa.egg-info/top_level.txt
+pyosa/tests/test_estimate.py
