@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: popcornnotify
+Version: 0.2.1
+Summary: Send simple emails and text messages from one API
+Home-page: https://popcornnotify.com
+Author: Jason Strauss
+Author-email: jason@popcornnotify.com
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Topic :: Communications :: Chat
+Classifier: Topic :: Communications :: Email
+Classifier: Topic :: Communications :: Telephony
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# The Popcorn Notify Python Client
+
+This the  Python client library for [Popcorn Notify](https://www.PopcornNotify.com>).
+Popcorn Notify is a simple non-blocking API to send emails or text messages.
+
+```python
+from popcornnotify import notify
+
+notify('5555555555', 'Long script has finished running.')
+notify('contact@popcornnotify.com', 'A new user signed up!', subject="Server Message")
+notify(['contact@popcornnotify.com','support@popcornnotify.com','5555555555'], 'The server is on fire.')
+```
