@@ -1,0 +1,7 @@
+in_toto_attestation/__init__.py,sha256=jkfHnzVa10IQSpZ2pxKpDSuupshtLJQ67ljFL5JgvKQ,18
+in_toto_attestation/predicates/vsa/v0/vsa_pb2.py,sha256=Q3W6QyxuwUGtXN7iz2dgyoq9u8xOA1JXZrvyKtEXcW8,4022
+in_toto_attestation/v1/resource_descriptor_pb2.py,sha256=tn07QCvrzSkabTEJIQNj_v8qGPXpZzkeAEmKG5zkgaI,2418
+in_toto_attestation/v1/statement_pb2.py,sha256=N1wABpm5_CpSSmK0kv_LvEuU_Gu60PqwrkoJFZ_c6qA,2042
+in_toto_attestation-0.9.0.dist-info/METADATA,sha256=pt6whvny2tkQterNzZsWViVTFKvfW7NnvOahayyy2Gw,1714
+in_toto_attestation-0.9.0.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+in_toto_attestation-0.9.0.dist-info/RECORD,,
