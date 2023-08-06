@@ -1,0 +1,9 @@
+README.md
+setup.py
+classreg/__init__.py
+classreg/mod.py
+classreg.egg-info/PKG-INFO
+classreg.egg-info/SOURCES.txt
+classreg.egg-info/dependency_links.txt
+classreg.egg-info/requires.txt
+classreg.egg-info/top_level.txt
