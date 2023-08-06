@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: ashraf-tools
+Version: 1.0.0
+Summary: This package consists of few functions that are comes under python basic level.
+Author: Ashraf Sayyad
+Author-email: ashrafsayyad0123@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: license.txt
+
