@@ -1,0 +1,4 @@
+pydantic
+pyyaml
+asyncpg==0.27.0
+click>=8.0.0
