@@ -1,0 +1,6 @@
+gggg.py
+setup.py
+gggg.egg-info/PKG-INFO
+gggg.egg-info/SOURCES.txt
+gggg.egg-info/dependency_links.txt
+gggg.egg-info/top_level.txt
