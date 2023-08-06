@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "img_compress2"
+version = "1"
+authors = [
+{ name= "Jay", email= "jaylcy2022@gmail.com" },
+]
+description ="Try_一个主流图片压缩方案的自动化脚本(利用 tinify 实现666)"
+
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+dependencies = [
+ "tinify"
+]
+
+[project.urls]
+"Homepage" = "https://ilovefishc.com"
+"Bug Tracker"= "https://fishc.com.cn"
