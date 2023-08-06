@@ -1,0 +1,19 @@
+# Installing LR-Dict 
+#- lru-dict >= 1.1.7  # breaks on CI, optional for ndsampler
+
+PyQt5 >= 5.15
+
+ipython >= 7.25.0
+#xdev >= 0.2.4
+flake8 >= 4.0.1
+autopep8 >= 1.5.7
+mkinit >= 0.3.3
+
+timerit >= 0.3.0
+codecarbon >= 2.0.0
+
+humanize >= 4.4.0
+
+# Nicer CLIs
+rich_argparse>=1.1.0; python_version >= '3.7'
+argcomplete>=3.0.5
