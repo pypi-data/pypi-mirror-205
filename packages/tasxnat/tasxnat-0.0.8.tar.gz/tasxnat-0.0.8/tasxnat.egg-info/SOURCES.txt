@@ -1,0 +1,10 @@
+LICENSE.txt
+pyproject.toml
+tasxnat/__init__.py
+tasxnat/objects.py
+tasxnat/protocols.py
+tasxnat/utilities.py
+tasxnat.egg-info/PKG-INFO
+tasxnat.egg-info/SOURCES.txt
+tasxnat.egg-info/dependency_links.txt
+tasxnat.egg-info/top_level.txt
