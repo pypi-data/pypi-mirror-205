@@ -1,0 +1,19 @@
+pip
+numpy
+pandas
+pickle5; python_version < '3.8'
+matplotlib
+python-dotenv
+astropy
+reproject
+photutils
+astroquery
+extinction
+sfdmap2
+pyvo
+sep
+ipywidgets
+ipykernel
+ipympl
+ipython
+pytest
