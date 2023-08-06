@@ -1,0 +1,16 @@
+sonetel/__init__.py,sha256=IB0gRwrbVzgZ5QGJeIFBtz8VIFlO0oc1h6us7lE5v6c,197
+sonetel/_constants.py,sha256=7BWpF5AWbEPuBvtOXwYr09ym_e7XeclDrFvOTKEhc18,1158
+sonetel/account.py,sha256=VI0cu0ev_oCPW-n4A7l7_MQqrm7mYC0AKYIYGoG_uj0,2928
+sonetel/auth.py,sha256=RAsyjzAZpohgFk_5jh4fd2bqv5mJeSaK34XWa3kuCF8,4718
+sonetel/calls.py,sha256=R43BHFR8y5UVdTSebXSjGnkSkRpui9_mc4-u8O9tQhw,3379
+sonetel/exceptions.py,sha256=b4-B1hCBt5XrSrhwJQxpgU_aeRQkN2jxVRiNGZ-51Yc,674
+sonetel/phonenumber.py,sha256=JhpgP7eruM0m7WU22MrepFwt8-4PCrtjlDQmm1DpFzQ,6098
+sonetel/recording.py,sha256=H5aiRf6gq2cuyLMP7axMDOYjFwONOv4lC8BdQyKpAj8,2602
+sonetel/users.py,sha256=ZDiDEoNv0gBR21vFW6CMdwdytvM7ej6otqIBv72a5f4,3856
+sonetel/utilities.py,sha256=O4yFECwQR90LyRFmrokrPLm2-GtwpgMa7yiPztW8Jko,4022
+sonetel/voiceapps.py,sha256=KikpTdIDB1u8vtSOYAkthjhy8fap-OnIaEuai9QwlfA,973
+sonetel-0.2.0.dist-info/LICENSE,sha256=bH1OPFdcB5U5dv7_QTu96bJFvVlm_pBnLDACHRT5PC4,1096
+sonetel-0.2.0.dist-info/METADATA,sha256=LEDYmcu2P3PVVdYnfY1c5smntD_l5TcEMEV90hsEHSw,8513
+sonetel-0.2.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+sonetel-0.2.0.dist-info/top_level.txt,sha256=G4A2ODkzDW4L_WbbOgIFpcKLOaaORIt6gCfP28YzRWY,8
+sonetel-0.2.0.dist-info/RECORD,,
