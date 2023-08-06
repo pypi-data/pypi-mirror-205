@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: test-push-swap
+Version: 0.3
+Summary: A tester for the push swap project
+Home-page: https://github.com/hu8813/tester_push_swap
+Author: hueseyin kaya aydin
+Author-email: huaydin@student.42vienna.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+UNKNOWN
+
