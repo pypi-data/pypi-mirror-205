@@ -1,0 +1,10 @@
+switchbot_api/__init__.py,sha256=Tz7ySB8e_BAVlobO065N9px4uOHMrVhR1yH0_6LdGjI,287
+switchbot_api/alarm_info.py,sha256=K17JeCzwZyLbzCtxYedetqqcNTmGDUf09uPRAfL-vF8,1162
+switchbot_api/bot_information.py,sha256=rppkA0Bif0uRk34Nn6HuRxSA9y6CUZeuUqgTBMDmn8Y,10717
+switchbot_api/bot_types.py,sha256=nXXcPHmmbYGXKHye9o4D1Q72UhAxPvsTgyOiiN07xhk,2780
+switchbot_api/switchbot.py,sha256=lrQ8u-42vXfLegHgYd_ciGJIqslNUKtCN5mwqv-NXfM,22827
+switchbot_api/switchbot_scanner.py,sha256=pNWj8G6hfphbyjVnpzJmaolmfGAHq6LZ9qJfVzKx7Sc,3334
+python_switchbot_ble-0.1.0.dist-info/METADATA,sha256=w5yF9FCvLu4aAyExZB0Xc3Vfq4c1YUyjlshmFJidKTw,972
+python_switchbot_ble-0.1.0.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+python_switchbot_ble-0.1.0.dist-info/licenses/LICENSE.txt,sha256=GzeCzK17hhQQDNow0_r0L8OfLpeTKQjFQwBQU7ZUymg,32473
+python_switchbot_ble-0.1.0.dist-info/RECORD,,

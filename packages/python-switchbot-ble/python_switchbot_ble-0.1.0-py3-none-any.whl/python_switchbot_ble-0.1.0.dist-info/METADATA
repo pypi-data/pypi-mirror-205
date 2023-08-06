@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: python-switchbot-ble
+Version: 0.1.0
+Summary: A capable Python library for controlling Switchbot devices over Bluetooth Low Energy (Without a Hub)
+Project-URL: Homepage, https://github.com/carlsondev/python-switchbot-ble
+Project-URL: Bug Tracker, https://github.com/carlsondev/python-switchbot-ble/issues
+Author-email: Benjamin Carlson <bcarlson336@gmail.com>
+License-Expression: GPL-3.0
+License-File: LICENSE.txt
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: bleak
+Description-Content-Type: text/markdown
+
+# Python SwitchBot BLE
+
+A reverse engineered Bluetooth Low Energy Python API for the SwitchBot Bot. 
+
+## Installation
+
+```
+$ pip install python-switchbot-ble
+```
+
+## Usage
+
+`examples` folder gives basic implementations
+
+
+Originally made for Cyber Physical Systems Security.
