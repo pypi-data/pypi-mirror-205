@@ -1,0 +1,54 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+
+INHERIT: mkdocs/base.yml  # use the shared AutoRA configuration by default
+
+site_name: Autonomous Empirical Research
+repo_url: 'https://github.com/autoresearch/autora'
+edit_uri: 'blob/main/docs/'
+
+extra:
+  colab_base_url: 'https://colab.research.google.com/github/AutoResearch/autora/blob/gh-pages'
+
+theme:
+  logo: img/logo.png
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: black
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: black
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  custom_dir: mkdocs/overrides
+  features:
+    - content.action.edit
+    - content.action.view
+
+nav:
+- Introduction: 'index.md'
+- Tutorials:
+  - Automated Theorist
+  - Automated Experimentalist
+  - Closed-Loop Discovery
+- User Guide:
+  - Theorists:
+    - Overview: 'theorist/overview.md'
+    - DARTS: '!import https://github.com/autoresearch/autora-theorist-darts/?branch=main&docs_dir=docs&extra_imports=["mkdocs    /base.yml"]'
+    - BSR
+    - BMS
+  - Experimentalists:
+    - Overview: 'experimentalists/overview.md'
+  - Experiment Runners:
+    - Overview: 'experiment-runner/overview.md'
+  - Synthetic Datasets
+  - Workflow: '!import https://github.com/autoresearch/autora-workflow/?branch=main&docs_dir=docs&multi_docs=False'
+- Contributor Guide:
+  - Module Contributions
+  - Core Contributions
+
