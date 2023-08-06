@@ -1,0 +1,11 @@
+README.md
+setup.py
+sqlite_sync/__init__.py
+sqlite_sync/client.py
+sqlite_sync/control_db.py
+sqlite_sync/handler.py
+sqlite_sync/listen.py
+sqlite_sync.egg-info/PKG-INFO
+sqlite_sync.egg-info/SOURCES.txt
+sqlite_sync.egg-info/dependency_links.txt
+sqlite_sync.egg-info/top_level.txt
