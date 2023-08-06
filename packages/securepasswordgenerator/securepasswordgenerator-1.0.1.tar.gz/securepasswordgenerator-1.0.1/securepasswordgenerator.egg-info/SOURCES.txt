@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+securepasswordgenerator/__init__.py
+securepasswordgenerator/securepasswordgenerator.py
+securepasswordgenerator.egg-info/PKG-INFO
+securepasswordgenerator.egg-info/SOURCES.txt
+securepasswordgenerator.egg-info/dependency_links.txt
+securepasswordgenerator.egg-info/entry_points.txt
+securepasswordgenerator.egg-info/top_level.txt
