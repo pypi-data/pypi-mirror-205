@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: downtime
+Version: 1.0.0a0
+Download-URL: https://github.com/fspinna/datatime/archive/refs/tags/1.0.0-alpha.tar.gz
+Author: Francesco Spinnato
+Requires-Python: >=3.9
+Provides-Extra: test
+License-File: LICENSE
