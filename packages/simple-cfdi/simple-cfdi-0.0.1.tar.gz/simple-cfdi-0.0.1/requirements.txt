@@ -1,0 +1,2 @@
+xsdata>=22
+lxml
