@@ -1,0 +1,4 @@
+include multisubprocess/requirements.txt
+include multisubprocess/thirdparty.json
+include multisubprocess/README.md
+include multisubprocess/LICENSE
