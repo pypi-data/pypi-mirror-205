@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: langpack
+Version: 0.0.3
+Summary: A library to pakcage and deploy langugage model apps
+Home-page: UNKNOWN
+Author: Chuan Li
+Author-email: c@lambdalabs.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: apify-client (==1.0.0)
+Requires-Dist: astor (==0.8.1)
+Requires-Dist: astpretty (==3.0.0)
+Requires-Dist: astunparse (==1.6.3)
+Requires-Dist: chromadb (==0.3.21)
+Requires-Dist: faiss-cpu (==1.7.3)
+Requires-Dist: flask (==2.2.3)
+Requires-Dist: google-api-python-client (==2.85.0)
+Requires-Dist: google-search-results (==2.4.2)
+Requires-Dist: langchain (==0.0.139)
+Requires-Dist: numpy (<1.24.0)
+Requires-Dist: openai (==0.27.4)
+Requires-Dist: pandas (<2.0.0)
+Requires-Dist: pgvector (==0.1.6)
+Requires-Dist: redis (==4.5.4)
+Requires-Dist: tiktoken (==0.3.3)
+Requires-Dist: unstructured (==0.5.12)
+Requires-Dist: wikipedia (==1.4.0)
+
+UNKNOWN
+
+
