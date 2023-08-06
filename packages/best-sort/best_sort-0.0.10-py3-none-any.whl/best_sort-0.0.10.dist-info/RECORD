@@ -1,0 +1,13 @@
+best_sort/__init__.py,sha256=0ag7Qlk3FO0sQzg3a4CFPT6-A9QLH8PYppF9_zXT9Cc,166
+best_sort/_version.py,sha256=tf3ZibmFKr2cXIAOWlKrPcDRINcHJL2KvSPjjihL4WE,162
+best_sort/compare_engine/__init__.py,sha256=LR9YDRn6JK-0c9OFdRMHSlODPhlvJKGA00dqcqWu6VQ,22
+best_sort/compare_engine/compare.py,sha256=IawnWsmMUmfJBUPLOQS9mOuDbW735nPLSDH2EBLjI_M,3260
+best_sort/sort_algos/__init__.py,sha256=vpIjXoCQ4fUQLNf--8PjsCQKUVqwVxhCp44JQIt1cuM,62
+best_sort/sort_algos/bubble_sort.py,sha256=9PSgtYEwMHk5WGaka688KnzSsPSYtLOzMlKN4B4N_gA,1053
+best_sort/sort_algos/insertion_sort.py,sha256=cKUngNvA3pAZkYqib59YAhqTj4DJrqjMMuZDXdqIZos,1076
+best_sort/sort_algos/selection_sort.py,sha256=ljfWhCHnh3IET0iaH_d5J7miAdwctmAegwo0PLlzh1E,1007
+best_sort/visual_aids/__init__.py,sha256=vpIjXoCQ4fUQLNf--8PjsCQKUVqwVxhCp44JQIt1cuM,62
+best_sort/visual_aids/graph_comparison.py,sha256=uCe_uCx-mqnuSAHDIJDy-6vztFA5SECRCbJGDZ6gLw8,629
+best_sort-0.0.10.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+best_sort-0.0.10.dist-info/METADATA,sha256=KsnaOB7YnEHfbYkuTWZi-1pffZ6fqPgF6_oKcqxbhvI,863
+best_sort-0.0.10.dist-info/RECORD,,

@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: best-sort
+Version: 0.0.10
+Summary: A package to find the best sorting algorithm for given data.
+Keywords: sorting algorithm,sorting,best algorithm
+Author-email: Joey Wheeler <joewheeler2048@gmail.com>
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Dist: matplotlib >= 3.7.1
+Requires-Dist: data-science-types >= 0.2.23
+Requires-Dist: numpy >= 1.24.3
+Project-URL: Bug Tracker, https://git.jharmison.com/JediJoey/best_sort/issues
+Project-URL: Homepage, https://git.jharmison.com/JediJoey/best_sort
+
+# best_sort
+
+A package to find the best sorting algorithm for given data.
+
+Official Package at https://pypi.org/project/best-sort/
