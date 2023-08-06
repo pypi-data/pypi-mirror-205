@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: RunRate
+Version: 0.0.2
+Summary: A very basic discount calculator
+Home-page: 
+Author: Pradeep Tej Dandikuppam Sreenivasulu
+Author-email: x21196303@student.ncirl.ie
+License: MIT
+Keywords: Cricket
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: MacOS
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENCE.txt
+
+This is a very simple run rate calculator for cricket in this we takes value the average number of runs scored by a team per over. It can be calculated and give you a correct output.
+
+Change Log
+===========
+
+0.0.1 (26/04/2023)
+------------------
+- First Release
