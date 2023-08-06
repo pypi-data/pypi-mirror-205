@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: bluesky-adaptive
+Version: 0.3.1
+Summary: Tools for writing adaptive plans
+Home-page: https://github.com/bluesky/bluesky-adaptive
+Author: NSLS-II
+Author-email: dama@bnl.gov
+License: BSD (3-clause)
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Provides-Extra: agents
+Provides-Extra: all
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+================
+bluesky-adaptive
+================
+
+|build_status| |pypi_version| |license|
+
+
+Tools for writing adaptive plans
+
+* Free software: 3-clause BSD license
+* Documentation: https://bluesky.github.io/bluesky-adaptive
+
+Features
+--------
+
+* Adaptive harness for lockstep agents to interact with the RunEngine.
+* Base classes for developing distributed agents to interact with the RunEngine Manager through Queue Server.
+* Example agents using optional requirements (BoTorch, GPyTorch, Scikit Learn).
+* Server for running managed agents with a FAST API.
+* Adjudicators for acting as meta-agents that consume suggestions from many agents and gatekeep the Queue Server.
+
+.. |build_status| image:: https://github.com/bluesky/bluesky-adaptive/actions/workflows/tests.yml/badge.svg
+    :target: https://github.com/bluesky/bluesky-adaptive/actions
+    :alt: Build Status
+
+.. |pypi_version| image:: https://img.shields.io/pypi/v/bluesky-adaptive.svg
+        :target: https://pypi.python.org/pypi/bluesky-adaptive
+        :alt: Latest PyPI version
+
+.. |license| image:: https://img.shields.io/badge/License-BSD%203--Clause-blue.svg
+    :target: https://opensource.org/licenses/BSD-3-Clause
+    :alt: BSD 3-Clause License
