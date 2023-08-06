@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Chatbot</title>
+    <script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+        const { useState, useEffect } = React;
+
+        function Chatbot() {
+            const [userQuery, setUserQuery] = useState('');
+            const [chatHistory, setChatHistory] = useState([]);
+
+            useEffect(() => {
+                const savedChatHistory = JSON.parse(localStorage.getItem('chatHistory')) || [];
+                setChatHistory(savedChatHistory);
+            }, []);
+
+            const handleQueryChange = (event) => {
+                setUserQuery(event.target.value);
+            };
+
+            const handleSubmit = async (event) => {
+                event.preventDefault();
+                const response = await axios.post(`${location.protocol}//${location.hostname}:${location.port}/predict`, { $input_key$: userQuery });
+                const newChatHistory = [...chatHistory, response.data];
+                setChatHistory(newChatHistory);
+                localStorage.setItem('chatHistory', JSON.stringify(newChatHistory));
+                setUserQuery('');
+            };
+
+            const handleClearHistory = () => {
+                setChatHistory([]);
+                localStorage.removeItem('chatHistory');
+            };
+
+            return (
+                <div>
+                    <h1>Chatbot</h1>
+                    <form onSubmit={handleSubmit}>
+                        <input
+                            type="text"
+                            value={userQuery}
+                            onChange={handleQueryChange}
+                            placeholder="Type your message here..."
+                        />
+                        <button type="submit">Send</button>
+                    </form>
+                    <button onClick={handleClearHistory}>Clear History</button>
+                    <ul>
+                        {chatHistory.map((chat, index) => (
+                            <li key={index}>
+                                <strong>{chat.$input_key$}</strong> - {chat.$output_key$}
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+            );
+        }
+
+        ReactDOM.render(<Chatbot />, document.getElementById('root'));
+    </script>
+</body>
+</html>
+
