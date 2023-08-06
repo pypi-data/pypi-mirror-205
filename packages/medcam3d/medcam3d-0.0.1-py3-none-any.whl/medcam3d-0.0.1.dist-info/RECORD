@@ -1,0 +1,9 @@
+medcam3d/__init__.py,sha256=gnsCSsh5PwMb9f43XN7fKs9H1reA0hprL7bGielxfn8,39
+medcam3d/activations_and_gradients.py,sha256=Z4BCrxc-wuXksT_Avh4sWM0ze15ExVZQ_09tlrpFuFA,1932
+medcam3d/base_medcam3d.py,sha256=qLTCj1VD1rqfCmsU7IZ4oZvmJFufTEOoK2YEyYjYUo0,12375
+medcam3d/grad_cam3d.py,sha256=t0kLVI_Ur9AhjYNtOUfwf1zQ0bpp_0MlW6wquEqZK10,927
+medcam3d-0.0.1.dist-info/LICENSE,sha256=SP5zHUKKzCb_X9yBqX2EGXHA94we9zdmJc61oPM6tfs,1072
+medcam3d-0.0.1.dist-info/METADATA,sha256=stsMktZO-VQiKBDYQbWZlcfqPksSGQcy208kJLwLD9E,2088
+medcam3d-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+medcam3d-0.0.1.dist-info/top_level.txt,sha256=yi2J7l8Z4sN24O-5OUwCx3tRa3voPwVrnNoA9bQb758,9
+medcam3d-0.0.1.dist-info/RECORD,,
