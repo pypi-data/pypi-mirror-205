@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: coix
+Version: 0.0.1
+Summary: Inference Combinators in JAX
+Keywords: probabilistic machine learning,bayesian statistics
+Author-email: coix authors <coix-dev@google.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Science/Research
+Requires-Dist: jax
+Requires-Dist: jaxlib
+Requires-Dist: numpy
+Requires-Dist: numpyro
+Requires-Dist: oryx
+Requires-Dist: pytest ; extra == "dev"
+Requires-Dist: pytest-xdist ; extra == "dev"
+Requires-Dist: pylint>=2.6.0 ; extra == "dev"
+Requires-Dist: pyink ; extra == "dev"
+Project-URL: changelog, https://github.com/jax-ml/coix/blob/main/CHANGELOG.md
+Project-URL: homepage, https://github.com/jax-ml/coix
+Project-URL: repository, https://github.com/jax-ml/coix
+Provides-Extra: dev
+
+# coix
+
+[![Unittests](https://github.com/jax-ml/coix/actions/workflows/pytest_and_autopublish.yml/badge.svg)](https://github.com/jax-ml/coix/actions/workflows/pytest_and_autopublish.yml)
+[![PyPI version](https://badge.fury.io/py/coix.svg)](https://badge.fury.io/py/coix)
+
+Inference Combinators in JAX (Coix) is a machine learning framework used to
+develop inference algorithms that are composed of probabilistic programs.
+
+*This is not an officially supported Google product.*
+
