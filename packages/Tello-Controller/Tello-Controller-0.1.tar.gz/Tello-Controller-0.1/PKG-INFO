@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: Tello-Controller
+Version: 0.1
+Summary: Simple library for using DJI Tello drones
+Author-email: Alberto <rossani.alberto4@gmail.com>, botasu06 <botasu06@gmail.com>, Jen1s <lorenzo.uduvidane@itiszuccante.edu.it>
+License: MIT License
+        
+        Copyright (c) 2023 Xyon40k
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://github.com/Jen1sS/Tellp/tree/release
+Keywords: drone,tello,DJI
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Per far eseguire al Tello una serie di comandi è necessario scriverli uno per riga nel file `comandi.txt`.<br>
+I parametri di certi comandi vanno separati dal comando stesso con un solo spazio.<br>
+La sintassi per le stringhe passate direttamente come argomento nello `ScriptSender` è la stessa.<br>
+
+Lista di comandi:<br>
+
+`command`; Nessun parametro; Inizializza la ricezione di comandi del drone<br>
+`takeoff`; Nessun parametro; Fa decollare il drone da terra fino a circa 120cm di altezza<br>
+`emergency`; Nessun parametro; Spegne istantaneamente tutte le eliche. Non sicuro<br>
+`land`; Nessun parametro; Fa scendere il drone fino a terra e spegne le eliche quando ci arriva<br>
+`up`; Distanza in cm da 20 a 500; Solleva il drone di quanto inserito<br>
+`down`; Distanza in cm da 20 a 500; Abbassa il drone di quanto inserito<br>
+`left`; Distanza in cm da 20 a 500; Sposta il drone di quanto inserito verso la sinistra relativa al drone<br>
+`right`; Distanza in cm da 20 a 500; Sposta il drone di quanto inserito verso la destra relativa al drone<br>
+`forward`; Distanza in cm da 20 a 500; Sposta il drone in avanti di quanto inserito<br>
+`back`; Distanza in cm da 20 a 500; Sposta il drone all'indietro di quanto inserito più lentamente<br>
+`cw`; Angolo da 1 a 360; Ruota il drone in senso orario dell'angolo inserito rispetto al suo asse verticale<br>
+`ccw`; Angolo da 1 a 360; Ruota il drone in senso antiorario dell'angolo inserito rispetto al suo asse verticale<br>
+`flip`; "l", "r", "f" o "b"; Fa fare al drone una capriola nella direzione specificata e lo ristabilizza. "l" a sinistra, "r" a destra, "f" in avanti, "b" all'indietro.<br>
+`stop`; Nessun parametro; Ferma il drone a mezz'aria. Quando viene eseguito interrompe altri comandi in corso<br>
+
+
+Altri comandi a https://dl-cdn.ryzerobotics.com/downloads/Tello/Tello%20SDK%202.0%20User%20Guide.pdf<br>
