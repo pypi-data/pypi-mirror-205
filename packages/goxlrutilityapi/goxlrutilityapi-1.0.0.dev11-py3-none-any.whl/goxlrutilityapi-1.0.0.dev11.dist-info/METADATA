@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: goxlrutilityapi
+Version: 1.0.0.dev11
+Summary: GoXLR Utility API
+Home-page: https://github.com/timmo001/goxlr-utility-api-py
+Author: Aidan Timson (Timmo)
+Author-email: contact@timmo.xyz
+License: MIT
+Keywords: GoXLR Utility API
+Requires-Dist: aiohttp (>=3.8.4)
+Requires-Dist: incremental (>=22.10.0)
+Requires-Dist: pydantic (>=1.10.7)
+Requires-Dist: typer (>=0.7.0)
+
