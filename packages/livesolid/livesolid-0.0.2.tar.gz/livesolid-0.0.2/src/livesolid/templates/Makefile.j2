@@ -1,0 +1,18 @@
+SRC_DIRS := $(shell find . -type d -not -path './.*')
+GO_FILES := $(foreach dir,$(SRC_DIRS),$(wildcard $(dir)/*.go))
+
+run: ./dist/{{ data.new_app_name }}_darwin_amd64_v1/{{ data.new_app_name }}
+	./dist/{{ data.new_app_name }}_darwin_amd64_v1/{{ data.new_app_name }}
+
+./dist/{{ data.new_app_name }}_darwin_amd64_v1/{{ data.new_app_name }}: $(GO_FILES)
+	goreleaser build --single-target --snapshot --clean
+
+.PHONY: all
+
+all: $(GO_FILES)
+
+$(GO_FILES):
+	gofumpt -w $@
+
+clean:
+	rm -rf dist
