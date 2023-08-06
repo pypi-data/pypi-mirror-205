@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: cmem-plugin-kaggle
+Version: 1.0.2
+Summary: Import dataset resources from Kaggle.
+Home-page: https://github.com/eccenca/cmem-plugin-kaggle
+License: Apache-2.0
+Keywords: eccenca Corporate Memory,plugin,kaggle,dataset
+Author: eccenca GmbH
+Author-email: cmempy-developer@eccenca.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: cmem-plugin-base (>=3.1.0,<4.0.0)
+Requires-Dist: kaggle (>=1.5.13,<2.0.0)
+Description-Content-Type: text/markdown
+
+# cmem-plugin-kaggle
+
+Import dataset resources from [Kaggle](https://www.kaggle.com/).
+
+This is a plugin for [eccenca](https://eccenca.com) [Corporate Memory](https://documentation.eccenca.com).
+
+You can install it with the [cmemc](https://eccenca.com/go/cmemc) command line
+clients like this:
+
+```
+cmemc admin workspace python install cmem-plugin-kaggle
+```
+
