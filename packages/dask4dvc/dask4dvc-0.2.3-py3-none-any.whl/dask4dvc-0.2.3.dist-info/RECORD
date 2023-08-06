@@ -1,0 +1,11 @@
+dask4dvc/__init__.py,sha256=-Yxd-8r6DXQLqz556_ChHn5pbBc5uAxroDJDkwNJJCM,571
+dask4dvc/cli/__init__.py,sha256=plKQjtr6TAd9OlMXaXxpUMNMo6D2Yv4Yuhm5cj8nNAQ,76
+dask4dvc/cli/main.py,sha256=IRRn1JIhrR2sXl9WnoowJ4aQk4hGTGDot4gs7Nzxy7w,4796
+dask4dvc/dvc_repro.py,sha256=_idn9e_AKOeWKFfGDM-zFCdlLXPHNTb-2zeZuHzGFks,6158
+dask4dvc/utils/__init__.py,sha256=XV9vvdBlS8qbj7nwMMQ_5R9-3oAOo9K4-yqRviAvnNU,24
+dask4dvc/utils/dask.py,sha256=4MYcoaxZf4z57baK2P0xHboKkqFbFO9ioWC8iRZE5iM,1184
+dask4dvc-0.2.3.dist-info/LICENSE,sha256=FKf4VPZYbuyRVMVSrl6HO48bnw6ih8Uur5y-h_MJAcA,13576
+dask4dvc-0.2.3.dist-info/METADATA,sha256=29W0mr7E1hW230atuBrNjEEUY6En7M0QJ8C4SMGP54Q,3002
+dask4dvc-0.2.3.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+dask4dvc-0.2.3.dist-info/entry_points.txt,sha256=J3lTqNekiLTznkaNasZDMbi5tcbCXOjXuF0IcBBZUFM,50
+dask4dvc-0.2.3.dist-info/RECORD,,
