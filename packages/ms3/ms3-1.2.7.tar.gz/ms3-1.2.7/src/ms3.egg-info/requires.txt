@@ -1,0 +1,13 @@
+beautifulsoup4
+lxml
+pandas
+pathos
+webcolors
+tqdm
+pytablewriter
+GitPython
+typing_extensions
+
+[testing]
+pytest
+pytest-cov
