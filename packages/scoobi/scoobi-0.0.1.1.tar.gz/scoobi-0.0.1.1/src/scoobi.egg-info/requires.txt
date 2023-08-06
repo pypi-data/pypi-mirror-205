@@ -1,0 +1,6 @@
+astropy
+numpy
+exifread
+
+[dev]
+pytest>=3.7

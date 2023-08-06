@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/scoobi/__init__.py
+src/scoobi/cli.py
+src/scoobi.egg-info/PKG-INFO
+src/scoobi.egg-info/SOURCES.txt
+src/scoobi.egg-info/dependency_links.txt
+src/scoobi.egg-info/entry_points.txt
+src/scoobi.egg-info/requires.txt
+src/scoobi.egg-info/top_level.txt
