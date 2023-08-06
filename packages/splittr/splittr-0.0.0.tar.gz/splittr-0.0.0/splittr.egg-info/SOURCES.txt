@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+splittr/__init__.py
+splittr.egg-info/PKG-INFO
+splittr.egg-info/SOURCES.txt
+splittr.egg-info/dependency_links.txt
+splittr.egg-info/top_level.txt
