@@ -1,0 +1,9 @@
+README.md
+setup.py
+the_generic_crawler/__init__.py
+the_generic_crawler/webscraper.py
+the_generic_crawler.egg-info/PKG-INFO
+the_generic_crawler.egg-info/SOURCES.txt
+the_generic_crawler.egg-info/dependency_links.txt
+the_generic_crawler.egg-info/requires.txt
+the_generic_crawler.egg-info/top_level.txt
