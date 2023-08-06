@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+dpipes/__init__.py
+dpipes/pipeline.py
+dpipes/processor.py
+dpipes.egg-info/PKG-INFO
+dpipes.egg-info/SOURCES.txt
+dpipes.egg-info/dependency_links.txt
+dpipes.egg-info/requires.txt
+dpipes.egg-info/top_level.txt
+tests/test_pipeline.py
+tests/test_processor.py
