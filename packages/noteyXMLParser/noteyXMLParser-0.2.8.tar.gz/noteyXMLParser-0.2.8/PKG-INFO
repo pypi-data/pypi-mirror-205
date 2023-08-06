@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: noteyXMLParser
+Version: 0.2.8
+Summary: Music XML Parser
+Home-page: https://github.com/mmahjoub5/NoteyXMLParser
+Author: Amin Mahjoub
+Author-email: mahjoub@usc.edu
+License: UNKNOWN
+Description: my parser
+        
+        https://betterscientificsoftware.github.io/python-for-hpc/tutorials/python-pypi-packaging/
+        
+        create Package:
+        sudo rm -rf dist/
+        python setup.py check
+        python setup.py sdist
+        python setup.py bdist_wheel --universal
+        
+        upload:
+        twine upload dist/\*
+        
+        TODO:
+        https://blog.dennisokeeffe.com/blog/2021-08-11-automating-pip-package-deployment-with-github-actions
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
