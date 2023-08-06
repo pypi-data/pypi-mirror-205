@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: qgate-graph
+Version: 1.2rc6
+Summary: Generate graphs based on outputs from Quality Gate
+Home-page: https://github.com/george0st/qgate-graph/
+Download-URL: https://pypi.org/project/qgate_graph/
+Author: Jiri Steuer
+Author-email: steuer.jiri@gmail.com
+License: MIT
+Keywords: Quality,QualityGate
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib (~=3.7)
+Requires-Dist: click (~=8.1)
+
+[![PyPI version fury.io](https://badge.fury.io/py/qgate-graph.svg)](https://pypi.python.org/pypi/qgate-graph/)
+# QGate-Graph
+
+Generate graphs based on performance outputs from Quality Gate solution.
+
+## Usage
+
+    import qgate_graph.graph as grp
+    import logging
+
+    # setup login level
+    logging.basicConfig()
+    logging.getLogger().setLevel(logging.INFO)
+
+    # generate output graphs
+    graph=grp.Graph()
+    graph.generate_from_dir()
+
+# Outputs
+![graph](./assets/NoSQL_bdp_nonprod-2023-04-22_17-08-34-bulk-10000x50.png)
+
