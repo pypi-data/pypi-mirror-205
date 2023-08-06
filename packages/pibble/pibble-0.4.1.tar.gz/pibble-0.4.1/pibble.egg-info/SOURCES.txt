@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+./__init__.py
+./__main__.py
+pibble.egg-info/PKG-INFO
+pibble.egg-info/SOURCES.txt
+pibble.egg-info/dependency_links.txt
+pibble.egg-info/entry_points.txt
+pibble.egg-info/requires.txt
+pibble.egg-info/top_level.txt
