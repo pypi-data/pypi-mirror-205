@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: Aksconverter
+Version: 0.0.2
+Summary: A very currency calculator
+Home-page: 
+Author: Akshat Joshi
+Author-email: x22137696@student.ncirl.ie
+License: MIT
+Keywords: Currency Calculator
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: MacOS
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENCE.txt
+
+This is a simple Currency Converter using api to convert currency. You have to Pass three varible {base} ,  {to}  , {amount}. Thanks
+
+Change Log
+===========
+
+0.0.1 (26/04/2023)
+------------------
+- First Release
