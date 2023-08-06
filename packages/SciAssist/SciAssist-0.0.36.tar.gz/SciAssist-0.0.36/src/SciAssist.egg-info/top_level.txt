@@ -1,0 +1,4 @@
+SciAssist
+data
+pretrained
+process
