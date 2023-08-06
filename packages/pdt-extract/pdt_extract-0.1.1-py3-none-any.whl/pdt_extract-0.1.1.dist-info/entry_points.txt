@@ -1,0 +1,2 @@
+[console_scripts]
+pdt-extract = pdt_canny:main
