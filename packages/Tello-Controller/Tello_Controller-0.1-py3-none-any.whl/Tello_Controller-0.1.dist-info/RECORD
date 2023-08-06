@@ -1,0 +1,10 @@
+main.py,sha256=6iMXfFk4Lj7WbcWnZXbDvMomYYwQbn8KR8jVVT3ocss,394
+script_sender.py,sha256=AcGgp5-hK2e1MlbmGwNTW63DN4MLQxwT1QeVtXfdouY,1890
+stats.py,sha256=PV0wzRdwBfo1mjseI2EMV4fEAJ71QAXJoI-nscibiI8,1384
+tello.py,sha256=0LCtPT8uwkmbLd_isNGvURBlL_RSr9RyNkiOY7lEjLU,1821
+Controller/__init__.py,sha256=P0wM9KfMi7I2mg3esXL9a7BgA_1IZ6TZ5h1I7ikn404,88
+Tello_Controller-0.1.dist-info/LICENSE,sha256=bN8ARagaRQ8Ph2efAuyhD5JsK2f6watChhLMQY7SF1E,1063
+Tello_Controller-0.1.dist-info/METADATA,sha256=7yyaiFLummvozkCeIkjTuwcPSdu-DugqmLyNYh5yWY8,3722
+Tello_Controller-0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+Tello_Controller-0.1.dist-info/top_level.txt,sha256=S1t2MHSd4mqt79z_NDqvzKr9hrvHd9fxRH8qmHRkm6M,42
+Tello_Controller-0.1.dist-info/RECORD,,
