@@ -1,0 +1,14 @@
+msgraphlib/__init__.py,sha256=UUxnUkRInDse4Esp8HWot5XOWu2Tx2I2ttKhbgT1KvA,313
+msgraphlib/common.py,sha256=hOTtLdnVSc1ToJw-LZhJwXFNX9urBXnUgE36jLQRqZg,209
+msgraphlib/core.py,sha256=mNLAJVZAD8V1qyGE2tsRz227Rc0eYy5s2dp9n5v2CTY,19828
+msgraphlib/drive.py,sha256=TSK4n6gQ3pmXSJoEUE-Tnbl2QXom30qpq9vS7Ypmgpg,17541
+msgraphlib/excel.py,sha256=IBTom0duw9CNfIe9qYssn2Sq6AU0pguqVAfcUE1QbBU,18196
+msgraphlib/files_old.py,sha256=5L5pKcQGqIRAG0Tyb_RctnY3jbEdPpXWWyLjn9W4jy8,3912
+msgraphlib/metadata.py,sha256=RF4-08qhEJ3ZZXSfdntydYfh0QIBJcLtNeBpsFHrtMs,327
+msgraphlib/sharepoint.py,sha256=kOVA6xVpW-OVX645jw6gH6wQxhMZb1WG0QM5SMg-aSg,1851
+msgraphlib/testmodule.py,sha256=XKpkoLlywxi76uuzQZy7eiWKHkKUb7NRd5Cj3W5nA54,256
+msgraphlib-0.1.3.dist-info/LICENSE,sha256=6eJJoxdmbf0owgg8b461qFlHKhsj8H9E83XhXrWNmF8,1073
+msgraphlib-0.1.3.dist-info/METADATA,sha256=dq4UfmXsbL1i4H3ulVtbFUnPGZJqGxCTj_i7EwVmw4o,611
+msgraphlib-0.1.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+msgraphlib-0.1.3.dist-info/top_level.txt,sha256=8lYLk3ZEJa1JhKE3XrpHqwDtJaTRoMy5Wlk9dOzwSj8,11
+msgraphlib-0.1.3.dist-info/RECORD,,
