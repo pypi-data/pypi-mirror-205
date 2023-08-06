@@ -1,0 +1,7 @@
+setup.py
+Mquote/Mquote.py
+Mquote/__init__.py
+Mquotes2.egg-info/PKG-INFO
+Mquotes2.egg-info/SOURCES.txt
+Mquotes2.egg-info/dependency_links.txt
+Mquotes2.egg-info/top_level.txt
