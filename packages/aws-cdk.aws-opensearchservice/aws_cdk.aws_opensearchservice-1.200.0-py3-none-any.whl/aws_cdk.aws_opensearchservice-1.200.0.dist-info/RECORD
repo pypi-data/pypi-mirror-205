@@ -1,0 +1,10 @@
+aws_cdk/aws_opensearchservice/__init__.py,sha256=VmLrTNZSIR_--qgPf2QUPLKxFejnxLreCJL9RcwzPac,488609
+aws_cdk/aws_opensearchservice/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_opensearchservice/_jsii/__init__.py,sha256=WM4EIk-OFhS0rFp7w93dy74f2GP4C7nYapKYMSlbPLo,748
+aws_cdk/aws_opensearchservice/_jsii/aws-opensearchservice@1.200.0.jsii.tgz,sha256=CUMbqZwQC9hxICyLj87qHPFB9vze42YYMFu6hHBfTZE,155839
+aws_cdk.aws_opensearchservice-1.200.0.dist-info/LICENSE,sha256=YA6CL2YE08NgoURWXRTrec3mNy-KAR-_UNdiMqgNVMI,11391
+aws_cdk.aws_opensearchservice-1.200.0.dist-info/METADATA,sha256=CYCF2WcaOukQne4B43T3W8jncmwsRw80Uyo9pQNXlH4,13625
+aws_cdk.aws_opensearchservice-1.200.0.dist-info/NOTICE,sha256=XtGET2JQh3C41orQUenLTefWItOqLmu2N-mGwW7t3Fo,113
+aws_cdk.aws_opensearchservice-1.200.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+aws_cdk.aws_opensearchservice-1.200.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_opensearchservice-1.200.0.dist-info/RECORD,,
