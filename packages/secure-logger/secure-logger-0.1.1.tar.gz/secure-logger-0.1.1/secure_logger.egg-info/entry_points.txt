@@ -1,0 +1,2 @@
+[lms.djangoapp]
+secure_logger = secure_logger.apps:DjangoAppLoggerConfig
