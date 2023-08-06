@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+multisubprocess/LICENSE
+multisubprocess/README.md
+multisubprocess/__init__.py
+multisubprocess/requirements.txt
+multisubprocess/thirdparty.json
+multisubprocess.egg-info/PKG-INFO
+multisubprocess.egg-info/SOURCES.txt
+multisubprocess.egg-info/dependency_links.txt
+multisubprocess.egg-info/requires.txt
+multisubprocess.egg-info/top_level.txt
