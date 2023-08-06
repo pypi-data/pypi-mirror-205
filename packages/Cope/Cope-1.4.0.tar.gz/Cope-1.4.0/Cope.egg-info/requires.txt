@@ -1,0 +1,4 @@
+varname
+
+[linalg]
+sympy
