@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+Omar_Style_sel/__init__.py
+Omar_Style_sel.egg-info/PKG-INFO
+Omar_Style_sel.egg-info/SOURCES.txt
+Omar_Style_sel.egg-info/dependency_links.txt
+Omar_Style_sel.egg-info/requires.txt
+Omar_Style_sel.egg-info/top_level.txt
