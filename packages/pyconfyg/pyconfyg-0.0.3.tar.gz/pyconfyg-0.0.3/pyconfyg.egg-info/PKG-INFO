@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: pyconfyg
+Version: 0.0.3
+Summary: My configuration framework
+Home-page: https://github.com/gabriel-vanzandycke/pyconfyg
+Author: Gabriel Van Zandycke
+Author-email: gabriel.vanzandycke@hotmail.com
+License: LGPL
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
