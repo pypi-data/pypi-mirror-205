@@ -1,0 +1,3 @@
+[refurb.plugins]
+module=refurb_json_minify
+
