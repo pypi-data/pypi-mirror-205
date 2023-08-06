@@ -1,0 +1,2 @@
+[console_scripts]
+iam-credential-rotation = iam_credential_rotation:cli

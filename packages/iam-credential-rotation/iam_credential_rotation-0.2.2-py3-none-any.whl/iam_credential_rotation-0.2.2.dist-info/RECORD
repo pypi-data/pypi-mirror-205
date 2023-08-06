@@ -1,0 +1,11 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+_version.py,sha256=ovwF0OqWihcDg8hKGaRiUzwaTS3Jh1ccurUIioGmSJ4,160
+iam_credential_rotation.py,sha256=9791pdswGg4rFndH_hn1rvbsU2BQwyXNUU3kMkjkB_E,668
+provider_aws.py,sha256=dkSUlQM4M9WYqC-2eyRfUEcDcWoCJGz_1_iTB9o0wh4,2365
+utils.py,sha256=A7_dS1a37kV908ZqwZS_D8mpqU6FXB3xwomAKsMtlX8,1506
+iam_credential_rotation-0.2.2.dist-info/LICENSE,sha256=GL1zXI5242FxKA7Q-XkfVddFs475zhOF8hJ29aDk6lA,1075
+iam_credential_rotation-0.2.2.dist-info/METADATA,sha256=sZNvtO0tOzwMa0TCjfLcrA-ua5QuypofN55e_Hdw3Y4,4514
+iam_credential_rotation-0.2.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+iam_credential_rotation-0.2.2.dist-info/entry_points.txt,sha256=X1gUcXHTdOwLJHCL5KDZeyyHZhFo4Ri-pXa23hzyTkw,72
+iam_credential_rotation-0.2.2.dist-info/top_level.txt,sha256=-lesmXy4i2eCxqbJdTcSoGiYbLXukAU9KTeBu1bOQ2c,61
+iam_credential_rotation-0.2.2.dist-info/RECORD,,
