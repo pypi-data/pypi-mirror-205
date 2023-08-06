@@ -1,0 +1,6 @@
+matplotlib
+numpy
+pandas
+random2
+scikit-learn
+thompson-sampling
