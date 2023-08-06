@@ -1,0 +1,8 @@
+gpt_bot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gpt_bot/__main__.py,sha256=SNrUmMSQ6oZ7w-utwT0jWHues4xccqQMay-0YSVV4tE,6599
+gpt_bot/record.py,sha256=YlDEuOzau-QEP_gDOT3frce1B_dGSCmiO_KwZN5zWjg,2318
+gpt_bot/speak.py,sha256=MtiP7SzVYnQ_XErlTjYxKBK9n-BU0-ef8SrOU5JKOxQ,2153
+gpt_bot-0.0.3.dist-info/METADATA,sha256=-TSS4M0kpum5rIIA6y-YyvhEvsngxNcOrE_ZBovM554,1059
+gpt_bot-0.0.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+gpt_bot-0.0.3.dist-info/top_level.txt,sha256=RF_lBI5SI5XFxYdeT2piE-0xyVBkNqD_kyyUzE3-SXI,8
+gpt_bot-0.0.3.dist-info/RECORD,,
