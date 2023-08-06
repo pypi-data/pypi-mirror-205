@@ -1,0 +1,3 @@
+[console_scripts]
+mypackage_prince_boom = mypackage_prince_boom.__main__:main
+
