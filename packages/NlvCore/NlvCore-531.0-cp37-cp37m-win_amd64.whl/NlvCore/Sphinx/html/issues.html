@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+    <title>Caveats and Issues &#8212; NLV 1.0 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="References" href="references.html" />
+    <link rel="prev" title="Building" href="building.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  <div class="document">
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">NLV</a></h1>
+
+
+
+<p class="blurb">Analyse log and trace data</p>
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="session.html">Sessions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="logfile.html">Log File</a></li>
+<li class="toctree-l1"><a class="reference internal" href="views.html">Views</a></li>
+<li class="toctree-l1"><a class="reference internal" href="events.html">Events</a></li>
+<li class="toctree-l1"><a class="reference internal" href="searching.html">Searching</a></li>
+<li class="toctree-l1"><a class="reference internal" href="schema.html">Schema</a></li>
+<li class="toctree-l1"><a class="reference internal" href="vsnlv.html">vsNLV</a></li>
+<li class="toctree-l1"><a class="reference internal" href="keyboard.html">Key Bindings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="building.html">Building</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Caveats and Issues</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#known-limits">Known Limits</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#known-issues">Known Issues</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="references.html">References</a></li>
+<li class="toctree-l1"><a class="reference internal" href="licenses.html">Licensing</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="building.html" title="previous chapter">Building</a></li>
+      <li>Next: <a href="references.html" title="next chapter">References</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="caveats-and-issues">
+<h1>Caveats and Issues<a class="headerlink" href="#caveats-and-issues" title="Permalink to this headline">¶</a></h1>
+<section id="known-limits">
+<h2>Known Limits<a class="headerlink" href="#known-limits" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>The maximum size of a logfile is 2GB.</p></li>
+<li><p>The maximum number of fields supported is 30.</p></li>
+<li><p>The application only supports plain text log files (8-bit Ascii).</p></li>
+<li><p>The time span of a log file must be less than 292 years.</p></li>
+</ul>
+</section>
+<section id="known-issues">
+<h2>Known Issues<a class="headerlink" href="#known-issues" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>The table control doesn’t always resize columns correctly.</p></li>
+<li><p>Filtering an event view whose table display has been sorted appears to enter</p></li>
+<li><p>a near infinite loop re-sorting the data</p></li>
+<li><p>Graph drawing performance is poor for large datasets</p></li>
+<li><p>Clicking in the event views does not always cause the session navigator to
+select the corresponding event, causing the two views to be out of sync.</p></li>
+<li><p>There is no documentation on events; UI pictures are out of date.</p></li>
+<li><p>When setting a marker to hilite the location of an event, the system assumes
+that the date/time field name contains the text “date”.</p></li>
+<li><p>Where several lines have the same timecode; the global marker is set to the
+first such line, but the screen scrolls to the last. This is confusing when
+the two aren’t visible at the same time.</p></li>
+<li><p>Leading irregular lines in the log are not displayed.</p></li>
+<li><p>Only one instance of NLV can run at a time on a system.</p></li>
+<li><p>There is no regression testing.</p></li>
+</ul>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+    <div class="clearer"></div>
+  </div>
+    <div class="footer">
+      &copy;2017-2018, Niel Clausen.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.2.0</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.13</a>
+      
+      |
+      <a href="_sources/issues.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

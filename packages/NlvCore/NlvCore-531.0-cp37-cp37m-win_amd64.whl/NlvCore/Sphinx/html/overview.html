@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+    <title>Overview &#8212; NLV 1.0 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Sessions" href="session.html" />
+    <link rel="prev" title="NLV" href="index.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  <div class="document">
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">NLV</a></h1>
+
+
+
+<p class="blurb">Analyse log and trace data</p>
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="session.html">Sessions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="logfile.html">Log File</a></li>
+<li class="toctree-l1"><a class="reference internal" href="views.html">Views</a></li>
+<li class="toctree-l1"><a class="reference internal" href="events.html">Events</a></li>
+<li class="toctree-l1"><a class="reference internal" href="searching.html">Searching</a></li>
+<li class="toctree-l1"><a class="reference internal" href="schema.html">Schema</a></li>
+<li class="toctree-l1"><a class="reference internal" href="vsnlv.html">vsNLV</a></li>
+<li class="toctree-l1"><a class="reference internal" href="keyboard.html">Key Bindings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="building.html">Building</a></li>
+<li class="toctree-l1"><a class="reference internal" href="issues.html">Caveats and Issues</a></li>
+<li class="toctree-l1"><a class="reference internal" href="references.html">References</a></li>
+<li class="toctree-l1"><a class="reference internal" href="licenses.html">Licensing</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="index.html" title="previous chapter">NLV</a></li>
+      <li>Next: <a href="session.html" title="next chapter">Sessions</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="overview">
+<h1>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h1>
+<p>NLV is designed to aid the analysis of one or more log files relating to
+some topic of interest. There is an assumption that the logs are large and/or
+contain significant amounts of information which is unrelated to the analysis.
+Hence the main task for the user is to sift the logs for relevent information,
+and make associations between events described in the logs. This may include
+making correlations between logs from different systems, which may have
+timestamps referenced to different timezones or other sources of clock drift
+or offset.</p>
+<img alt="_images/view.png" src="_images/view.png" />
+<p>All of the logs needed for a study are held together in a <a class="reference internal" href="session.html"><span class="doc">session</span></a>.
+A session is a project, relating logs, their views, search history, filtering etc.
+Sessions are stored as XML files.</p>
+<p>The contents of a session are structured as a hierarchy:</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="session.html"><span class="doc">Session</span></a></p>
+<ul>
+<li><p><a class="reference internal" href="logfile.html"><span class="doc">Log files</span></a></p>
+<ul>
+<li><p><a class="reference internal" href="views.html"><span class="doc">Log views</span></a></p></li>
+<li><p><a class="reference internal" href="events.html"><span class="doc">Events</span></a></p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>These items are clearly displayed in the explorer window in the tear-off panel
+shown to the left side of the main application window.</p>
+<img alt="_images/session.png" src="_images/session.png" />
+<p>The “type” of a log is determined by the structure of each line in the log.
+Normally, log lines consist of a common structured part followed by free-form
+text. The structured part identifies a number <strong>fields</strong>. Typical fields are
+a date or timestamp, machine name, process number etc.</p>
+<p>NLV interprets the fields present in a log with the aid of a <a class="reference internal" href="schema.html"><span class="doc">schema</span></a>. A suitable
+schema must be chosen when the log is added to the session. The schema may also
+define a relationship between log lines and the system source code which emitted
+the log line. With a suitable <a class="reference internal" href="vsnlv.html"><span class="doc">plug-in</span></a>, the source code can then
+be displayed in an IDE, permitting a deeper understanding of the system’s behaviour.</p>
+<p>There can be any number of <a class="reference internal" href="views.html"><span class="doc">views</span></a> of a log file. The views are
+shown in the main area of the application. Each view can be tailored to meet a
+purpose by choosing which <a class="reference internal" href="views.html#viewfields"><span class="std std-ref">fields</span></a> are displayed,
+<a class="reference internal" href="views.html#viewfilters"><span class="std std-ref">filtering</span></a> out log lines which do not meet a relevent criteria
+and <a class="reference internal" href="views.html#viewhiliters"><span class="std std-ref">searching/hiliting</span></a> terms of interest to make them stand
+out from the rest of the text.</p>
+<p>Events of interest in a logfile can be <a class="reference internal" href="logfile.html#markers"><span class="std std-ref">bookmarked</span></a> or
+<a class="reference internal" href="views.html#annotation"><span class="std std-ref">annotated</span></a>.</p>
+<p>Events in different views can be correlated by <a class="reference internal" href="views.html#viewtracking"><span class="std std-ref">trackers</span></a> such
+that moving the cursor in one view causes related views to scroll to the same
+(or a nearby) line.</p>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+    <div class="clearer"></div>
+  </div>
+    <div class="footer">
+      &copy;2017-2018, Niel Clausen.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.2.0</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.13</a>
+      
+      |
+      <a href="_sources/overview.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

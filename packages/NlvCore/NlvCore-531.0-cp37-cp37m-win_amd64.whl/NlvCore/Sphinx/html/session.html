@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+    <title>Sessions &#8212; NLV 1.0 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Log File" href="logfile.html" />
+    <link rel="prev" title="Overview" href="overview.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  <div class="document">
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">NLV</a></h1>
+
+
+
+<p class="blurb">Analyse log and trace data</p>
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Sessions</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#open-session">Open Session</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#open-log-file">Open Log File</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#navigation-themes">Navigation Themes</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="logfile.html">Log File</a></li>
+<li class="toctree-l1"><a class="reference internal" href="views.html">Views</a></li>
+<li class="toctree-l1"><a class="reference internal" href="events.html">Events</a></li>
+<li class="toctree-l1"><a class="reference internal" href="searching.html">Searching</a></li>
+<li class="toctree-l1"><a class="reference internal" href="schema.html">Schema</a></li>
+<li class="toctree-l1"><a class="reference internal" href="vsnlv.html">vsNLV</a></li>
+<li class="toctree-l1"><a class="reference internal" href="keyboard.html">Key Bindings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="building.html">Building</a></li>
+<li class="toctree-l1"><a class="reference internal" href="issues.html">Caveats and Issues</a></li>
+<li class="toctree-l1"><a class="reference internal" href="references.html">References</a></li>
+<li class="toctree-l1"><a class="reference internal" href="licenses.html">Licensing</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="overview.html" title="previous chapter">Overview</a></li>
+      <li>Next: <a href="logfile.html" title="next chapter">Log File</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="sessions">
+<h1>Sessions<a class="headerlink" href="#sessions" title="Permalink to this headline">¶</a></h1>
+<p>To create a new session, save the current session, or open a recent session, right
+click the <span class="guilabel">Session</span> node in the explorer view and choose an item from
+the popup menu.</p>
+<img alt="_images/session-menu.png" src="_images/session-menu.png" />
+<section id="open-session">
+<span id="opensession"></span><h2>Open Session<a class="headerlink" href="#open-session" title="Permalink to this headline">¶</a></h2>
+<p>TBD.</p>
+</section>
+<section id="open-log-file">
+<span id="openlog"></span><h2>Open Log File<a class="headerlink" href="#open-log-file" title="Permalink to this headline">¶</a></h2>
+<p>To open a log file and add it to the current session, select <span class="guilabel">Session | Open</span>,
+then choose the correct schema from the drop down &amp; any preferred log builder and click the
+<span class="guilabel">Open …</span> button. A standard <span class="guilabel">File Open</span> dialog will appear,
+allowing one or more log files to be opened.</p>
+<p>A log builder consists of a <a class="reference internal" href="logfile.html#logpatterns"><span class="std std-ref">log file pattern theme</span></a> and one or more
+<a class="reference internal" href="views.html#viewpatterns"><span class="std std-ref">view pattern themes</span></a>. When the log file is opened, the log file pattern
+is applied, and one view is opened for each listed view pattern. This permits one or more
+views to be opened with predefined markers, searches etc. The available log builders
+are defined by the schema.</p>
+<img alt="_images/open-log.png" src="_images/open-log.png" />
+</section>
+<section id="navigation-themes">
+<span id="themes"></span><h2>Navigation Themes<a class="headerlink" href="#navigation-themes" title="Permalink to this headline">¶</a></h2>
+<p>Colours and styles in NLV can be stored as a theme. This includes:</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="logfile.html#markers"><span class="std std-ref">Markers</span></a></p></li>
+<li><p><a class="reference internal" href="logfile.html#trackers"><span class="std std-ref">Trackers</span></a>, and</p></li>
+<li><p><a class="reference internal" href="views.html#viewhiliters"><span class="std std-ref">Searching &amp; Hiliting</span></a></p></li>
+</ul>
+<p>The gallery of available themes can be found at the <span class="guilabel">Session | Themes</span> panel.
+Themes can be activated, copied, renamed and deleted. Either right click the
+theme in the list and choose the appropriate option, or enter the equivalent
+keyboard shortcut.</p>
+<img alt="_images/session-theme.png" src="_images/session-theme.png" />
+<p>For information on editing navigation themes, see the <a class="reference internal" href="logfile.html"><span class="doc">Log File</span></a> and <a class="reference internal" href="views.html"><span class="doc">Views</span></a> pages.</p>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+    <div class="clearer"></div>
+  </div>
+    <div class="footer">
+      &copy;2017-2018, Niel Clausen.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.2.0</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.13</a>
+      
+      |
+      <a href="_sources/session.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

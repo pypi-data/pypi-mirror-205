@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+    <title>Schema &#8212; NLV 1.0 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="vsNLV" href="vsnlv.html" />
+    <link rel="prev" title="Searching" href="searching.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  <div class="document">
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">NLV</a></h1>
+
+
+
+<p class="blurb">Analyse log and trace data</p>
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="session.html">Sessions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="logfile.html">Log File</a></li>
+<li class="toctree-l1"><a class="reference internal" href="views.html">Views</a></li>
+<li class="toctree-l1"><a class="reference internal" href="events.html">Events</a></li>
+<li class="toctree-l1"><a class="reference internal" href="searching.html">Searching</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Schema</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#field-types">Field Types</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#implementation">Implementation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="vsnlv.html">vsNLV</a></li>
+<li class="toctree-l1"><a class="reference internal" href="keyboard.html">Key Bindings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="building.html">Building</a></li>
+<li class="toctree-l1"><a class="reference internal" href="issues.html">Caveats and Issues</a></li>
+<li class="toctree-l1"><a class="reference internal" href="references.html">References</a></li>
+<li class="toctree-l1"><a class="reference internal" href="licenses.html">Licensing</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="searching.html" title="previous chapter">Searching</a></li>
+      <li>Next: <a href="vsnlv.html" title="next chapter">vsNLV</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="schema">
+<h1>Schema<a class="headerlink" href="#schema" title="Permalink to this headline">¶</a></h1>
+<p>The type, or <strong>schema</strong>, of a log file is determined by the common <strong>fields</strong> available
+on every line in the logfile. The <span class="guilabel">Session | Open | Log file schema</span> drop-down
+list contains the names of all schemata recognised by the installation. The text
+just below this list shows the fields, and their details, for the chosen schema.</p>
+<p>Log lines which don’t have fields present are termed <strong>irregular</strong>. Not all
+searching and filtering will work with irregular lines.</p>
+<img alt="_images/open-log.png" src="_images/open-log.png" />
+<section id="field-types">
+<h2>Field Types<a class="headerlink" href="#field-types" title="Permalink to this headline">¶</a></h2>
+<p>The currently recognised field types are:</p>
+<dl class="simple">
+<dt>datetime_unix</dt><dd><p>A Unix date/time without the year - <code class="docutils literal notranslate"><span class="pre">Mar</span> <span class="pre">31</span> <span class="pre">23:58:15</span></code>.</p>
+</dd>
+<dt>datetime_us_std</dt><dd><p>US date time (month/day/year) - <code class="docutils literal notranslate"><span class="pre">12/9/2016</span> <span class="pre">11:42:03</span> <span class="pre">PM</span></code>.</p>
+</dd>
+<dt>datetime_tracefmt_int_std</dt><dd><p>A tracefmt date/time in international date format (day/month/year) - <code class="docutils literal notranslate"><span class="pre">12/06/2017-18:03:17.839</span></code>.</p>
+</dd>
+<dt>datetime_tracefmt_us_std</dt><dd><p>A tracefmt date/time in US date format (month/day/year) - <code class="docutils literal notranslate"><span class="pre">06/12/2017-18:03:17.839</span></code>.</p>
+</dd>
+<dt>datetime_tracefmt_int_hires</dt><dd><p>A hi-resolution tracefmt date/time in international date format (day/month/year) - <code class="docutils literal notranslate"><span class="pre">12/06/2017-18:03:17.839.222100</span></code>.</p>
+</dd>
+<dt>datetime_tracefmt_us_hires</dt><dd><p>A hi-resolution tracefmt date/time in US date format (month/day/year) - <code class="docutils literal notranslate"><span class="pre">06/12/2017-18:03:17.839.222100</span></code>.</p>
+</dd>
+<dt>enum08</dt><dd><p>A text string which takes one of 256 values.</p>
+</dd>
+<dt>enum16</dt><dd><p>A text string which takes one of 65,536 values.</p>
+</dd>
+<dt>text</dt><dd><p>An uninterpreted text sequence.</p>
+</dd>
+<dt>emitter</dt><dd><p>A text string which locates the source code which emitted the log line.</p>
+</dd>
+<dt>uint08</dt><dd><p>An unsigned number between 0 and 255.</p>
+</dd>
+<dt>uint16</dt><dd><p>An unsigned  number between 0 and 65,535.</p>
+</dd>
+<dt>uint32</dt><dd><p>An unsigned  number between 0 and 4,294,967,295.</p>
+</dd>
+<dt>uint64</dt><dd><p>An unsigned  number between 0 and 18,446,744,073,709,551,615.</p>
+</dd>
+<dt>int08</dt><dd><p>A signed number between -128 and 127.</p>
+</dd>
+<dt>int16</dt><dd><p>A signed  number between -32,768 and 37,767.</p>
+</dd>
+<dt>int32</dt><dd><p>A signed  number between -2,147,483,648 and 2,147,483,647.</p>
+</dd>
+<dt>int64</dt><dd><p>A signed  number between -9,223,372,036,854,775,808 and 9,223,372,036,854,775,807.</p>
+</dd>
+<dt>float32</dt><dd><p>A floating point number in the range -/+ 1.17549e-38</p>
+</dd>
+<dt>float64</dt><dd><p>A floating point number in the range -/+ 1.79769e+308</p>
+</dd>
+</dl>
+</section>
+<section id="implementation">
+<h2>Implementation<a class="headerlink" href="#implementation" title="Permalink to this headline">¶</a></h2>
+<p>A schema is an XML file, normally distributed as part of a Python NLV extension.
+See the MythTV extension for an example.</p>
+<p>As well as defining the schema, an extension can define:</p>
+<ul class="simple">
+<li><p>logfile formatting</p></li>
+<li><p><a class="reference internal" href="logfile.html#logpatterns"><span class="std std-ref">Log file</span></a> and <a class="reference internal" href="views.html#viewpatterns"><span class="std std-ref">view</span></a> pattern themes</p></li>
+<li><p>logfile builders</p></li>
+<li><p>a channel identifier for the notifier</p></li>
+</ul>
+<p>All data used by NLV is in XML format.</p>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+    <div class="clearer"></div>
+  </div>
+    <div class="footer">
+      &copy;2017-2018, Niel Clausen.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.2.0</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.13</a>
+      
+      |
+      <a href="_sources/schema.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

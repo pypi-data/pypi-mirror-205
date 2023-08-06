@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+    <title>Log File &#8212; NLV 1.0 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Views" href="views.html" />
+    <link rel="prev" title="Sessions" href="session.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  <div class="document">
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">NLV</a></h1>
+
+
+
+<p class="blurb">Analyse log and trace data</p>
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="session.html">Sessions</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Log File</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#open-new-view">Open New View</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#markers-1">Markers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#trackers-1">Trackers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#timezone-info">Timezone Info</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#themes">Themes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#navigation">Navigation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#log-patterns">Log Patterns</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="views.html">Views</a></li>
+<li class="toctree-l1"><a class="reference internal" href="events.html">Events</a></li>
+<li class="toctree-l1"><a class="reference internal" href="searching.html">Searching</a></li>
+<li class="toctree-l1"><a class="reference internal" href="schema.html">Schema</a></li>
+<li class="toctree-l1"><a class="reference internal" href="vsnlv.html">vsNLV</a></li>
+<li class="toctree-l1"><a class="reference internal" href="keyboard.html">Key Bindings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="building.html">Building</a></li>
+<li class="toctree-l1"><a class="reference internal" href="issues.html">Caveats and Issues</a></li>
+<li class="toctree-l1"><a class="reference internal" href="references.html">References</a></li>
+<li class="toctree-l1"><a class="reference internal" href="licenses.html">Licensing</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="session.html" title="previous chapter">Sessions</a></li>
+      <li>Next: <a href="views.html" title="next chapter">Views</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="log-file">
+<h1>Log File<a class="headerlink" href="#log-file" title="Permalink to this headline">¶</a></h1>
+<p><span class="guilabel">Logfile</span> nodes in the explorer view define aspects common to all
+<a class="reference internal" href="views.html"><span class="doc">views</span></a> of the log file. These are the markers, trackers and timezone
+information.</p>
+<section id="open-new-view">
+<span id="openview"></span><h2>Open New View<a class="headerlink" href="#open-new-view" title="Permalink to this headline">¶</a></h2>
+<p>TBD.</p>
+</section>
+<section id="markers-1">
+<span id="markers"></span><h2>Markers<a class="headerlink" href="#markers-1" title="Permalink to this headline">¶</a></h2>
+<p>Markers are displayed in the margin to the left of a view. Four markers are
+available. Their colours and styles can be set using the drop-down lists in the
+<span class="guilabel">Logfile | Markers</span> panel.</p>
+<p>Each line in the log file can be associated with a marker in one of two ways:</p>
+<ul class="simple">
+<li><p>via text matching, or</p></li>
+<li><p>explicitly selected</p></li>
+</ul>
+<p>The text matched markers identify marked lines via the search text box. For more
+information, see <a class="reference internal" href="searching.html"><span class="doc">searching</span></a>.</p>
+<p>Explicitly selected markers identify user chosen lines. In the log view, place
+the cursor in the line to be marked and press the <kbd class="kbd docutils literal notranslate">Ctrl-B</kbd> key.</p>
+<img alt="_images/markers.png" src="_images/markers.png" />
+</section>
+<section id="trackers-1">
+<span id="trackers"></span><h2>Trackers<a class="headerlink" href="#trackers-1" title="Permalink to this headline">¶</a></h2>
+<p>A tracker is a special mark in the view margin which indicates the line
+containing the cursor. There are two types of tracker:</p>
+<ul class="simple">
+<li><p>Local tracker. This tracks a location within a single log file. All views of
+the logfile show the same tracker at the same line. If the tracker is not
+visible for a view, then it is the case that the corresponding line has been
+filtered out of that view.</p></li>
+<li><p>Global trackers. These trackers are common to all views of all logfiles in the
+session. They identify the <strong>nearest</strong> line in the current view to the tracked
+line. Correlation of lines in different log files is made by comparing the
+date/time stamp of the lines.</p></li>
+</ul>
+<p>For more information on how to set the location of a tracker, and how different
+views can be set to scroll to keep a tracker displayed on-screen,
+see <a class="reference internal" href="views.html#viewtracking"><span class="std std-ref">Tracking</span></a>.</p>
+<p>Tracker colours and styles can be set using the drop-down lists in the
+<span class="guilabel">Logfile | Trackers</span> panel.</p>
+<img alt="_images/trackers.png" src="_images/trackers.png" />
+</section>
+<section id="timezone-info">
+<span id="timezone"></span><h2>Timezone Info<a class="headerlink" href="#timezone-info" title="Permalink to this headline">¶</a></h2>
+<p>Global trackers use log line date/time information to compare locations in
+different logfiles. All such caluclations are performed in UTC. Set the timezone
+here to allow for offsets between the logfiles in the session.</p>
+<img alt="_images/timezone.png" src="_images/timezone.png" />
+</section>
+<section id="themes">
+<h2>Themes<a class="headerlink" href="#themes" title="Permalink to this headline">¶</a></h2>
+<p>Logfiles interact with Navigation themes and Log pattern themes.</p>
+<section id="navigation">
+<span id="lognavigation"></span><h3>Navigation<a class="headerlink" href="#navigation" title="Permalink to this headline">¶</a></h3>
+<p>Any local changes to a marker or tracker colour or style can be saved
+or cleared via the <span class="guilabel">Logfile | Theme | Changes to navigation theme</span>
+panel.</p>
+<img alt="_images/markers-theme.png" src="_images/markers-theme.png" />
+<p>To change the selected navigation theme, see <a class="reference internal" href="session.html#themes"><span class="std std-ref">Navigation Themes</span></a>.</p>
+</section>
+<section id="log-patterns">
+<span id="logpatterns"></span><h3>Log Patterns<a class="headerlink" href="#log-patterns" title="Permalink to this headline">¶</a></h3>
+<p>Log pattern themes are the search patterns used to define all of the
+markers. A gallery of available themes can be found at
+<span class="guilabel">Logfile | Theme | Log theme gallery</span>.</p>
+<img alt="_images/logfile-theme-gallery.png" src="_images/logfile-theme-gallery.png" />
+<p>Where local changes to a Log pattern theme exist, they can be saved or
+cleared via the <span class="guilabel">Logfile | Theme | Changes to log theme</span> panel.</p>
+<img alt="_images/logfile-theme.png" src="_images/logfile-theme.png" />
+</section>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+    <div class="clearer"></div>
+  </div>
+    <div class="footer">
+      &copy;2017-2018, Niel Clausen.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.2.0</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.13</a>
+      
+      |
+      <a href="_sources/logfile.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

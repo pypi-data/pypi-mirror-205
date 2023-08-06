@@ -1,0 +1,237 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+    <title>NLV &#8212; NLV 1.0 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Overview" href="overview.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  <div class="document">
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="#">NLV</a></h1>
+
+
+
+<p class="blurb">Analyse log and trace data</p>
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="session.html">Sessions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="logfile.html">Log File</a></li>
+<li class="toctree-l1"><a class="reference internal" href="views.html">Views</a></li>
+<li class="toctree-l1"><a class="reference internal" href="events.html">Events</a></li>
+<li class="toctree-l1"><a class="reference internal" href="searching.html">Searching</a></li>
+<li class="toctree-l1"><a class="reference internal" href="schema.html">Schema</a></li>
+<li class="toctree-l1"><a class="reference internal" href="vsnlv.html">vsNLV</a></li>
+<li class="toctree-l1"><a class="reference internal" href="keyboard.html">Key Bindings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="building.html">Building</a></li>
+<li class="toctree-l1"><a class="reference internal" href="issues.html">Caveats and Issues</a></li>
+<li class="toctree-l1"><a class="reference internal" href="references.html">References</a></li>
+<li class="toctree-l1"><a class="reference internal" href="licenses.html">Licensing</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="#">Documentation overview</a><ul>
+      <li>Next: <a href="overview.html" title="next chapter">Overview</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="nlv">
+<h1>NLV<a class="headerlink" href="#nlv" title="Permalink to this headline">¶</a></h1>
+<p>NLV is a viewer tool which supports the analysis of one or more log files in order
+to understand why a system behaved in a particular way.</p>
+<p>NLV allows multiple views of a log file to be opened. Text and lines of interest within
+a view may be hilited, bookmarked and annotated. The log lines presented in a view can be
+filtered to display only lines of interest. The filter engine supports regular expressions
+and can match on log file fields, as well as bookmarks and annotations.</p>
+<p>Lines in different views can be associated so that scrolling in one view automatically
+scrolls to the same position in related views. Where the views correspond to different
+log files, the association is made via the line’s time stamp.</p>
+<p>NLV works with 3’rd party IDEs and editors to synchronise display of the source code
+which emitted a log line with the NLV view, providing a way to browse the system’s source code.</p>
+<section id="contents">
+<h2>Contents<a class="headerlink" href="#contents" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="session.html">Sessions</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="session.html#open-session">Open Session</a></li>
+<li class="toctree-l2"><a class="reference internal" href="session.html#open-log-file">Open Log File</a></li>
+<li class="toctree-l2"><a class="reference internal" href="session.html#navigation-themes">Navigation Themes</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="logfile.html">Log File</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="logfile.html#open-new-view">Open New View</a></li>
+<li class="toctree-l2"><a class="reference internal" href="logfile.html#markers-1">Markers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="logfile.html#trackers-1">Trackers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="logfile.html#timezone-info">Timezone Info</a></li>
+<li class="toctree-l2"><a class="reference internal" href="logfile.html#themes">Themes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="logfile.html#navigation">Navigation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="logfile.html#log-patterns">Log Patterns</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="views.html">Views</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="views.html#annotations">Annotations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="views.html#searching-hiliting">Searching &amp; Hiliting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="views.html#filtering">Filtering</a></li>
+<li class="toctree-l2"><a class="reference internal" href="views.html#tracking">Tracking</a></li>
+<li class="toctree-l2"><a class="reference internal" href="views.html#field-visibility">Field Visibility</a></li>
+<li class="toctree-l2"><a class="reference internal" href="views.html#themes">Themes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="views.html#navigation">Navigation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="views.html#view-patterns">View Patterns</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="events.html">Events</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="events.html#event-recogniser">Event Recogniser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="events.html#analyser">Analyser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="events.html#searching-hiliting">Searching &amp; Hiliting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="events.html#filtering">Filtering</a></li>
+<li class="toctree-l2"><a class="reference internal" href="events.html#tracking">Tracking</a></li>
+<li class="toctree-l2"><a class="reference internal" href="events.html#field-visibility">Field Visibility</a></li>
+<li class="toctree-l2"><a class="reference internal" href="events.html#themes">Themes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="events.html#navigation">Navigation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="events.html#event-patterns">Event Patterns</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="events.html#example">Example</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="searching.html">Searching</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="searching.html#literal">Literal</a></li>
+<li class="toctree-l2"><a class="reference internal" href="searching.html#regular-expression">Regular Expression</a></li>
+<li class="toctree-l2"><a class="reference internal" href="searching.html#logview-filter-lvf">LogView Filter (LVF)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="searching.html#examples">Examples</a></li>
+<li class="toctree-l3"><a class="reference internal" href="searching.html#syntax">Syntax</a></li>
+<li class="toctree-l3"><a class="reference internal" href="searching.html#boolean-operations">Boolean operations</a></li>
+<li class="toctree-l3"><a class="reference internal" href="searching.html#match-operations">Match operations</a></li>
+<li class="toctree-l3"><a class="reference internal" href="searching.html#textual-matches">Textual Matches</a></li>
+<li class="toctree-l3"><a class="reference internal" href="searching.html#field-matches">Field Matches</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="schema.html">Schema</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="schema.html#field-types">Field Types</a></li>
+<li class="toctree-l2"><a class="reference internal" href="schema.html#implementation">Implementation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="vsnlv.html">vsNLV</a></li>
+<li class="toctree-l1"><a class="reference internal" href="keyboard.html">Key Bindings</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="keyboard.html#view">View</a></li>
+<li class="toctree-l2"><a class="reference internal" href="keyboard.html#annotation">Annotation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="building.html">Building</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="building.html#structure">Structure</a></li>
+<li class="toctree-l2"><a class="reference internal" href="building.html#tools">Tools</a></li>
+<li class="toctree-l2"><a class="reference internal" href="building.html#setup">Setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="building.html#install">Install</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="issues.html">Caveats and Issues</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="issues.html#known-limits">Known Limits</a></li>
+<li class="toctree-l2"><a class="reference internal" href="issues.html#known-issues">Known Issues</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="references.html">References</a></li>
+<li class="toctree-l1"><a class="reference internal" href="licenses.html">Licensing</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="licenses.html#wxpython-the-gui-toolkit-for-python">wxPython The GUI Toolkit for Python</a></li>
+<li class="toctree-l2"><a class="reference internal" href="licenses.html#wxwidgets-cross-platform-gui-library">wxWidgets Cross-Platform GUI Library</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="licenses.html#license">License</a></li>
+<li class="toctree-l3"><a class="reference internal" href="licenses.html#preamble">Preamble</a></li>
+<li class="toctree-l3"><a class="reference internal" href="licenses.html#wxwindows-library-licence-version-3-1">wxWindows Library Licence, Version 3.1</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="licenses.html#json-for-modern-c">JSON for Modern C++</a></li>
+<li class="toctree-l2"><a class="reference internal" href="licenses.html#intel-thread-building-blocks-tbb">Intel Thread Building Blocks (TBB)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="licenses.html#d3js-javascript">D3JS (JavaScript)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="licenses.html#promise-polyfill-javascript">Promise Polyfill (JavaScript)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="licenses.html#fetch-polyfill-javascript">Fetch Polyfill (JavaScript)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="licenses.html#the-puzzle-icon">The Puzzle Icon</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+<section id="indices-and-tables">
+<h2>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
+</ul>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+    <div class="clearer"></div>
+  </div>
+    <div class="footer">
+      &copy;2017-2018, Niel Clausen.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.2.0</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.13</a>
+      
+      |
+      <a href="_sources/index.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

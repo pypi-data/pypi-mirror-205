@@ -1,0 +1,335 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+    <title>Searching &#8212; NLV 1.0 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Schema" href="schema.html" />
+    <link rel="prev" title="Events" href="events.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  <div class="document">
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">NLV</a></h1>
+
+
+
+<p class="blurb">Analyse log and trace data</p>
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="session.html">Sessions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="logfile.html">Log File</a></li>
+<li class="toctree-l1"><a class="reference internal" href="views.html">Views</a></li>
+<li class="toctree-l1"><a class="reference internal" href="events.html">Events</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Searching</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#literal">Literal</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#regular-expression">Regular Expression</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#logview-filter-lvf">LogView Filter (LVF)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#examples">Examples</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#syntax">Syntax</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#boolean-operations">Boolean operations</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#match-operations">Match operations</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#textual-matches">Textual Matches</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#field-matches">Field Matches</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="schema.html">Schema</a></li>
+<li class="toctree-l1"><a class="reference internal" href="vsnlv.html">vsNLV</a></li>
+<li class="toctree-l1"><a class="reference internal" href="keyboard.html">Key Bindings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="building.html">Building</a></li>
+<li class="toctree-l1"><a class="reference internal" href="issues.html">Caveats and Issues</a></li>
+<li class="toctree-l1"><a class="reference internal" href="references.html">References</a></li>
+<li class="toctree-l1"><a class="reference internal" href="licenses.html">Licensing</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="events.html" title="previous chapter">Events</a></li>
+      <li>Next: <a href="schema.html" title="next chapter">Schema</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="searching">
+<h1>Searching<a class="headerlink" href="#searching" title="Permalink to this headline">¶</a></h1>
+<p>NLV has a common searching and filtering engine used to:</p>
+<ul class="simple">
+<li><p>select lines for <a class="reference internal" href="logfile.html#markers"><span class="std std-ref">marking</span></a> -
+<span class="guilabel">Logfile | Markers | Marker properties</span> panel.</p></li>
+<li><p><a class="reference internal" href="views.html#viewfilters"><span class="std std-ref">filter</span></a> lines to be shown in a view -
+<span class="guilabel">View | Filter | Filter description</span> panel.</p></li>
+<li><p><a class="reference internal" href="views.html#viewhiliters"><span class="std std-ref">search</span></a> text in, views -
+<span class="guilabel">View | Search | Search properties</span> panel.</p></li>
+</ul>
+<p>NLV supports two  mechanisms for searching, and three for marking &amp; filtering,
+as described in the following sections.</p>
+<p>In all cases, the search mechanism is selected via a drop-down list. The
+<span class="guilabel">Case sensitive</span> check-box controls the case sensitivity of the
+search.</p>
+<p>The <span class="guilabel">Recent items</span> history list identifies previous searches
+within the current <a class="reference internal" href="session.html"><span class="doc">session</span></a>. Click the
+<span class="guilabel">All items | Show …</span> button to see all searches/filters
+recorded for the current user. In either case, to re-apply a previous
+seach, double-click it in the list.</p>
+<section id="literal">
+<h2>Literal<a class="headerlink" href="#literal" title="Permalink to this headline">¶</a></h2>
+<p>The text in the displayed log line must exactly match the supplied text. Note that
+the displayed log line text is effected by the field visibility controls.</p>
+<p>For example, a case sensitive literal match of the text “EITScanner” in the
+<span class="guilabel">Lofgile | Markers</span> panel places a marker next to every log line containing
+the text “EITScanner”.</p>
+</section>
+<section id="regular-expression">
+<h2>Regular Expression<a class="headerlink" href="#regular-expression" title="Permalink to this headline">¶</a></h2>
+<p>The regular expression syntax is defined by ECMA-262. See <a class="reference internal" href="references.html"><span class="doc">References</span></a>
+for links to Web resources describing this syntax.</p>
+<p>For example, a regular expression match of the text “EIT.*Scanner” in the
+<span class="guilabel">View | Search</span> panel would hilite any text sequence within a line in the
+view starting with “Eit” and finishing with “Scanner”</p>
+</section>
+<section id="logview-filter-lvf">
+<h2>LogView Filter (LVF)<a class="headerlink" href="#logview-filter-lvf" title="Permalink to this headline">¶</a></h2>
+<p>LVF is only available as an option in the <span class="guilabel">View | Filter</span> panel.
+The filter is applied to each log line. Where the final expression evaluates to
+“true”, the log line is displayed in the view.</p>
+<section id="examples">
+<h3>Examples<a class="headerlink" href="#examples" title="Permalink to this headline">¶</a></h3>
+<p>MythTV logfiles have a “Category” field, whose value is one of “I”, “N” or “E”.</p>
+<p>To display lines whose category is not “I”:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">category</span> <span class="ow">in</span> <span class="p">[</span><span class="o">^</span><span class="s2">&quot;I&quot;</span><span class="p">]</span>
+</pre></div>
+</div>
+<p>To display lines whose category is neither “I” nor “N”:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">category</span> <span class="ow">in</span> <span class="p">[</span><span class="o">^</span><span class="s2">&quot;I&quot;</span><span class="p">,</span> <span class="o">^</span><span class="s2">&quot;N&quot;</span><span class="p">]</span>
+</pre></div>
+</div>
+<p>To show error lines (category is “E”) on 30 March (European locale):</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cat</span> <span class="ow">in</span> <span class="p">[</span><span class="s2">&quot;E&quot;</span><span class="p">]</span>
+<span class="ow">and</span> <span class="n">date</span> <span class="ow">in</span> <span class="p">[</span><span class="mi">30</span><span class="o">/</span><span class="mi">3</span> <span class="o">..</span> <span class="mi">31</span><span class="o">/</span><span class="mi">3</span><span class="p">]</span>
+</pre></div>
+</div>
+<p>which is equivalent to:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cat</span> <span class="ow">in</span> <span class="p">[</span><span class="s2">&quot;E&quot;</span><span class="p">]</span>
+<span class="ow">and</span> <span class="n">date</span> <span class="o">&gt;=</span> <span class="mi">30</span><span class="o">/</span><span class="mi">3</span> <span class="ow">and</span> <span class="n">date</span> <span class="o">&lt;</span> <span class="mi">31</span><span class="o">/</span><span class="mi">3</span>
+</pre></div>
+</div>
+<p>To filter out all lines whose non-field text contains the word “reschedule”:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="ow">not</span> <span class="n">log</span> <span class="o">~=</span> <span class="s2">&quot;reschedule&quot;</span><span class="n">i</span>
+</pre></div>
+</div>
+</section>
+<section id="syntax">
+<h3>Syntax<a class="headerlink" href="#syntax" title="Permalink to this headline">¶</a></h3>
+<p>An LVF expression is a logical expression:</p>
+<pre>
+<strong id="grammar-token-lvf">lvf</strong> ::=  <a class="reference internal" href="#grammar-token-logical-or-expr"><code class="xref docutils literal notranslate"><span class="pre">logical_or_expr</span></code></a>
+</pre>
+</section>
+<section id="boolean-operations">
+<h3>Boolean operations<a class="headerlink" href="#boolean-operations" title="Permalink to this headline">¶</a></h3>
+<p>The language supports C-like and Python-like boolean operations.</p>
+<pre>
+<strong id="grammar-token-logical-or-expr">logical_or_expr </strong> ::=  <a class="reference internal" href="#grammar-token-logical-and-expr"><code class="xref docutils literal notranslate"><span class="pre">logical_and_expr</span></code></a> ( <a class="reference internal" href="#grammar-token-logical-or-op"><code class="xref docutils literal notranslate"><span class="pre">logical_or_op</span></code></a> <a class="reference internal" href="#grammar-token-logical-and-expr"><code class="xref docutils literal notranslate"><span class="pre">logical_and_expr</span></code></a> )*
+<strong id="grammar-token-logical-or-op">logical_or_op   </strong> ::=  &quot;||&quot; | &quot;or&quot;
+<strong id="grammar-token-logical-and-expr">logical_and_expr</strong> ::=  <a class="reference internal" href="#grammar-token-logical-not-expr"><code class="xref docutils literal notranslate"><span class="pre">logical_not_expr</span></code></a> ( <a class="reference internal" href="#grammar-token-logical-and-op"><code class="xref docutils literal notranslate"><span class="pre">logical_and_op</span></code></a> <a class="reference internal" href="#grammar-token-logical-not-expr"><code class="xref docutils literal notranslate"><span class="pre">logical_not_expr</span></code></a> )*
+<strong id="grammar-token-logical-and-op">logical_and_op  </strong> ::=  &quot;&amp;&amp;&quot; | &quot;and&quot;
+<strong id="grammar-token-logical-not-expr">logical_not_expr</strong> ::=  <a class="reference internal" href="#grammar-token-logical-not-op"><code class="xref docutils literal notranslate"><span class="pre">logical_not_op</span></code></a>? <a class="reference internal" href="#grammar-token-primary-expr"><code class="xref docutils literal notranslate"><span class="pre">primary_expr</span></code></a>
+<strong id="grammar-token-logical-not-op">logical_not_op  </strong> ::=  &quot;!&quot; | &quot;not&quot;
+<strong id="grammar-token-primary-expr">primary_expr    </strong> ::=  <a class="reference internal" href="#grammar-token-match-clause"><code class="xref docutils literal notranslate"><span class="pre">match_clause</span></code></a>
+                      | &quot;(&quot; <a class="reference internal" href="#grammar-token-logical-or-expr"><code class="xref docutils literal notranslate"><span class="pre">logical_or_expr</span></code></a> &quot;)&quot;
+</pre>
+</section>
+<section id="match-operations">
+<h3>Match operations<a class="headerlink" href="#match-operations" title="Permalink to this headline">¶</a></h3>
+<p>The core of the language is the ability to match field data and log line text
+against literals, ranges and regular expressions.</p>
+<pre>
+<strong id="grammar-token-match-clause">match_clause          </strong> ::=  <a class="reference internal" href="#grammar-token-text-match-clause"><code class="xref docutils literal notranslate"><span class="pre">text_match_clause</span></code></a>
+                            | <a class="reference internal" href="#grammar-token-user-adornments-clause"><code class="xref docutils literal notranslate"><span class="pre">user_adornments_clause</span></code></a>
+                            | <a class="reference internal" href="#grammar-token-field-match-clause"><code class="xref docutils literal notranslate"><span class="pre">field_match_clause</span></code></a>
+                            | <a class="reference internal" href="#grammar-token-field-compare-clause"><code class="xref docutils literal notranslate"><span class="pre">field_compare_clause</span></code></a>
+<strong id="grammar-token-text-match-clause">text_match_clause     </strong> ::=  <a class="reference internal" href="#grammar-token-text-identifier"><code class="xref docutils literal notranslate"><span class="pre">text_identifier</span></code></a> &quot;~=&quot; <a class="reference internal" href="#grammar-token-text-value"><code class="xref docutils literal notranslate"><span class="pre">text_value</span></code></a>
+<strong id="grammar-token-text-identifier">text_identifier       </strong> ::=  &quot;log&quot; | &quot;annotation&quot; | <a class="reference internal" href="#grammar-token-field-name"><code class="xref docutils literal notranslate"><span class="pre">field_name</span></code></a>
+<strong id="grammar-token-user-adornments-clause">user_adornments_clause</strong> ::=  &quot;annotated&quot; | &quot;bookmarked&quot;
+<strong id="grammar-token-field-match-clause">field_match_clause    </strong> ::=  <a class="reference internal" href="#grammar-token-field-name"><code class="xref docutils literal notranslate"><span class="pre">field_name</span></code></a> &quot;in&quot; <a class="reference internal" href="#grammar-token-field-range"><code class="xref docutils literal notranslate"><span class="pre">field_range</span></code></a>
+<strong id="grammar-token-field-compare-clause">field_compare_clause  </strong> ::=  <a class="reference internal" href="#grammar-token-field-name"><code class="xref docutils literal notranslate"><span class="pre">field_name</span></code></a> <a class="reference internal" href="#grammar-token-field-compare-op"><code class="xref docutils literal notranslate"><span class="pre">field_compare_op</span></code></a> <a class="reference internal" href="#grammar-token-field-value"><code class="xref docutils literal notranslate"><span class="pre">field_value</span></code></a>
+<strong id="grammar-token-field-name">field_name            </strong> ::=  ? field name defined by the log file schema ?
+<strong id="grammar-token-field-compare-op">field_compare_op      </strong> ::=  &quot;=&quot; | &quot;==&quot; | &quot;&lt;&quot; | &quot;&lt;=&quot; | &quot;&gt;&quot; | &quot;&gt;=&quot; | &quot;!=&quot;
+</pre>
+<p>where:</p>
+<ul class="simple">
+<li><p>“log” refers to the log line text remaining after all fields have been
+processed, and</p></li>
+<li><p>“annotation” refers to the text of any annotation associated with the log
+line at the time the filter is run.</p></li>
+<li><p>“annotated” and “bookmarked” evaluate to true where a line is the subject
+of a user annotation or bookmark at the time the filter is run.</p></li>
+</ul>
+<p>Also, see <a class="reference internal" href="schema.html"><span class="doc">Schema</span></a>.</p>
+<p>The <a class="reference internal" href="#grammar-token-text-match-clause"><code class="xref std std-token docutils literal notranslate"><span class="pre">text_match_clause</span></code></a> evaluates to true when the <a class="reference internal" href="#grammar-token-text-value"><code class="xref std std-token docutils literal notranslate"><span class="pre">text_value</span></code></a>
+matches any part of the text identified by <a class="reference internal" href="#grammar-token-text-identifier"><code class="xref std std-token docutils literal notranslate"><span class="pre">text_identifier</span></code></a>.</p>
+<p><a class="reference internal" href="#grammar-token-field-name"><code class="xref std std-token docutils literal notranslate"><span class="pre">field_name</span></code></a> can match any part of the field name defined for the log
+file, but must be unique. The comparison is case-insensitive.</p>
+</section>
+<section id="textual-matches">
+<h3>Textual Matches<a class="headerlink" href="#textual-matches" title="Permalink to this headline">¶</a></h3>
+<pre>
+<strong id="grammar-token-text-value">text_value  </strong> ::=  ( <a class="reference internal" href="#grammar-token-plain-string"><code class="xref docutils literal notranslate"><span class="pre">plain_string</span></code></a> | <a class="reference internal" href="#grammar-token-raw-string"><code class="xref docutils literal notranslate"><span class="pre">raw_string</span></code></a> ) <a class="reference internal" href="#grammar-token-qualifier"><code class="xref docutils literal notranslate"><span class="pre">qualifier</span></code></a>?
+<strong id="grammar-token-plain-string">plain_string</strong> ::=  <a class="reference internal" href="#grammar-token-quote"><code class="xref docutils literal notranslate"><span class="pre">quote</span></code></a> <a class="reference internal" href="#grammar-token-string-text"><code class="xref docutils literal notranslate"><span class="pre">string_text</span></code></a> <a class="reference internal" href="#grammar-token-quote"><code class="xref docutils literal notranslate"><span class="pre">quote</span></code></a>
+<strong id="grammar-token-raw-string">raw_string  </strong> ::=  &quot;r&quot; <a class="reference internal" href="#grammar-token-quote"><code class="xref docutils literal notranslate"><span class="pre">quote</span></code></a> <a class="reference internal" href="#grammar-token-delimiter"><code class="xref docutils literal notranslate"><span class="pre">delimiter</span></code></a>?
+                  `(` <a class="reference internal" href="#grammar-token-string-text"><code class="xref docutils literal notranslate"><span class="pre">string_text</span></code></a> `)`
+                  <a class="reference internal" href="#grammar-token-delimiter"><code class="xref docutils literal notranslate"><span class="pre">delimiter</span></code></a>? <a class="reference internal" href="#grammar-token-quote"><code class="xref docutils literal notranslate"><span class="pre">quote</span></code></a>
+<strong id="grammar-token-qualifier">qualifier   </strong> ::=  &quot;i&quot;
+<strong id="grammar-token-quote">quote       </strong> ::=  '&quot;' | '/'
+<strong id="grammar-token-string-text">string_text </strong> ::=  ? string ?
+<strong id="grammar-token-delimiter">delimiter   </strong> ::=  ? string ?
+</pre>
+<p>The match <a class="reference internal" href="#grammar-token-text-value"><code class="xref std std-token docutils literal notranslate"><span class="pre">text_value</span></code></a> can be literal text or a regular expression, as
+determined by the <a class="reference internal" href="#grammar-token-quote"><code class="xref std std-token docutils literal notranslate"><span class="pre">quote</span></code></a> character used:</p>
+<ul class="simple">
+<li><p>“”” (double quote) for literal text, and;</p></li>
+<li><p>“/” (forward slash) for a regular expression.</p></li>
+</ul>
+<p>The match behaviour can be modified by specifing a postfix <a class="reference internal" href="#grammar-token-qualifier"><code class="xref std std-token docutils literal notranslate"><span class="pre">qualifier</span></code></a>.
+Currently, the only qualifier supported is “i” (case-insensitive match). Where
+“i” is not specified, the match is case-sensitive.</p>
+<p>Two styles of quoting are supported, “plain” and “raw”.</p>
+<ul class="simple">
+<li><p>Plain strings are delimited by a single <a class="reference internal" href="#grammar-token-quote"><code class="xref std std-token docutils literal notranslate"><span class="pre">quote</span></code></a> character at each end.
+The same quote character should be used at both ends of the string. The
+<a class="reference internal" href="#grammar-token-string-text"><code class="xref std std-token docutils literal notranslate"><span class="pre">string_text</span></code></a> cannot include the quote character.</p></li>
+<li><p>Raw strings allow a user specified <a class="reference internal" href="#grammar-token-delimiter"><code class="xref std std-token docutils literal notranslate"><span class="pre">delimiter</span></code></a> to be used at each end
+of the string. The delimiter must be the same at each end of the
+<a class="reference internal" href="#grammar-token-string-text"><code class="xref std std-token docutils literal notranslate"><span class="pre">string_text</span></code></a> and should not contain the “(” (open round bracket)
+character.</p></li>
+</ul>
+<p>Note that no escaping is performed on the <a class="reference internal" href="#grammar-token-string-text"><code class="xref std std-token docutils literal notranslate"><span class="pre">string_text</span></code></a>.</p>
+<p>The regular expression grammar is defined by ECMA-262 - see <a class="reference internal" href="references.html"><span class="doc">References</span></a>
+for more information.</p>
+</section>
+<section id="field-matches">
+<h3>Field Matches<a class="headerlink" href="#field-matches" title="Permalink to this headline">¶</a></h3>
+<p>Fields can be matched against a range of field values.</p>
+<pre>
+<strong id="grammar-token-field-range">field_range   </strong> ::=  &quot;[&quot; <a class="reference internal" href="#grammar-token-excluded-range"><code class="xref docutils literal notranslate"><span class="pre">excluded_range</span></code></a> (&quot;,&quot; <a class="reference internal" href="#grammar-token-excluded-range"><code class="xref docutils literal notranslate"><span class="pre">excluded_range</span></code></a>)* &quot;]&quot;
+<strong id="grammar-token-excluded-range">excluded_range</strong> ::=  &quot;^&quot; ? <a class="reference internal" href="#grammar-token-included-range"><code class="xref docutils literal notranslate"><span class="pre">included_range</span></code></a>
+<strong id="grammar-token-included-range">included_range</strong> ::=  <a class="reference internal" href="#grammar-token-field-value"><code class="xref docutils literal notranslate"><span class="pre">field_value</span></code></a> ( &quot;..&quot; <a class="reference internal" href="#grammar-token-field-value"><code class="xref docutils literal notranslate"><span class="pre">field_value</span></code></a> )?
+</pre>
+<p>The <a class="reference internal" href="#grammar-token-field-range"><code class="xref std std-token docutils literal notranslate"><span class="pre">field_range</span></code></a> evaluates to true when no <a class="reference internal" href="#grammar-token-excluded-range"><code class="xref std std-token docutils literal notranslate"><span class="pre">excluded_range</span></code></a>
+matches and an <a class="reference internal" href="#grammar-token-included-range"><code class="xref std std-token docutils literal notranslate"><span class="pre">included_range</span></code></a> matches. For the special case where
+<a class="reference internal" href="#grammar-token-field-range"><code class="xref std std-token docutils literal notranslate"><span class="pre">field_range</span></code></a> has no <a class="reference internal" href="#grammar-token-included-range"><code class="xref std std-token docutils literal notranslate"><span class="pre">included_range</span></code></a> parts, it evaluates to
+true when no <a class="reference internal" href="#grammar-token-excluded-range"><code class="xref std std-token docutils literal notranslate"><span class="pre">excluded_range</span></code></a> matches.</p>
+<p>An individual field value is either a number, or an enumeration value.</p>
+<pre>
+<strong id="grammar-token-field-value">field_value</strong> ::=  <a class="reference internal" href="#grammar-token-datetime"><code class="xref docutils literal notranslate"><span class="pre">datetime</span></code></a> | <a class="reference internal" href="#grammar-token-number"><code class="xref docutils literal notranslate"><span class="pre">number</span></code></a> | <a class="reference internal" href="#grammar-token-enum-value"><code class="xref docutils literal notranslate"><span class="pre">enum_value</span></code></a>
+<strong id="grammar-token-enum-value">enum_value </strong> ::=  <a class="reference internal" href="#grammar-token-text-value"><code class="xref docutils literal notranslate"><span class="pre">text_value</span></code></a>
+</pre>
+<p>The <a class="reference internal" href="#grammar-token-enum-value"><code class="xref std std-token docutils literal notranslate"><span class="pre">enum_value</span></code></a> is first compared to the set of known enumeration
+values. The comparison is performed case-insensitively. A match occurs
+where the <a class="reference internal" href="#grammar-token-text-value"><code class="xref std std-token docutils literal notranslate"><span class="pre">text_value</span></code></a> describes some or all of the enumeration
+value. If the <a class="reference internal" href="#grammar-token-enum-value"><code class="xref std std-token docutils literal notranslate"><span class="pre">enum_value</span></code></a> is not followed by a <a class="reference internal" href="#grammar-token-qualifier"><code class="xref std std-token docutils literal notranslate"><span class="pre">qualifier</span></code></a>,
+then it is an error if no enumeration value is matched. If an “i”
+<a class="reference internal" href="#grammar-token-qualifier"><code class="xref std std-token docutils literal notranslate"><span class="pre">qualifier</span></code></a> is present, then the error is ignored.</p>
+<p>The <a class="reference internal" href="#grammar-token-enum-value"><code class="xref std std-token docutils literal notranslate"><span class="pre">enum_value</span></code></a> evaluates to true when the line contains the
+matched enumeration value. For field comparisons, the match must be unique,
+i.e. it only matches a single enumeration value. For field range matches,
+the match does not have to be unique - all matched enumeration values will
+be added to the range.</p>
+<p>Numeric values are represented internally with 64-bit precision.</p>
+<pre>
+<strong id="grammar-token-number">number     </strong> ::=  <a class="reference internal" href="#grammar-token-dec-number"><code class="xref docutils literal notranslate"><span class="pre">dec_number</span></code></a> | <a class="reference internal" href="#grammar-token-hex-number"><code class="xref docutils literal notranslate"><span class="pre">hex_number</span></code></a> | <a class="reference internal" href="#grammar-token-real-number"><code class="xref docutils literal notranslate"><span class="pre">real_number</span></code></a>
+<strong id="grammar-token-dec-number">dec_number </strong> ::=  [ &quot;+&quot; | &quot;-&quot; ] <a class="reference internal" href="#grammar-token-dec-digit"><code class="xref docutils literal notranslate"><span class="pre">dec_digit</span></code></a> <a class="reference internal" href="#grammar-token-dec-digit"><code class="xref docutils literal notranslate"><span class="pre">dec_digit</span></code></a>*
+<strong id="grammar-token-hex-number">hex_number </strong> ::=  &quot;0x&quot; <a class="reference internal" href="#grammar-token-hex-digit"><code class="xref docutils literal notranslate"><span class="pre">hex_digit</span></code></a> <a class="reference internal" href="#grammar-token-hex-digit"><code class="xref docutils literal notranslate"><span class="pre">hex_digit</span></code></a>*
+<strong id="grammar-token-real-number">real_number</strong> ::=  [ &quot;+&quot; | &quot;-&quot; ] <a class="reference internal" href="#grammar-token-dec-digit"><code class="xref docutils literal notranslate"><span class="pre">dec_digit</span></code></a> <a class="reference internal" href="#grammar-token-dec-digit"><code class="xref docutils literal notranslate"><span class="pre">dec_digit</span></code></a>* &quot;.&quot; <a class="reference internal" href="#grammar-token-dec-digit"><code class="xref docutils literal notranslate"><span class="pre">dec_digit</span></code></a> <a class="reference internal" href="#grammar-token-dec-digit"><code class="xref docutils literal notranslate"><span class="pre">dec_digit</span></code></a>*
+                 [ (&quot;e&quot; | &quot;E&quot;) [ &quot;+&quot; | &quot;-&quot; ] <a class="reference internal" href="#grammar-token-dec-digit"><code class="xref docutils literal notranslate"><span class="pre">dec_digit</span></code></a> <a class="reference internal" href="#grammar-token-dec-digit"><code class="xref docutils literal notranslate"><span class="pre">dec_digit</span></code></a>* ]
+<strong id="grammar-token-dec-digit">dec_digit  </strong> ::=  &quot;0&quot; | &quot;1&quot; | &quot;2&quot; | &quot;3&quot; | &quot;4&quot; | &quot;5&quot; | &quot;6&quot; | &quot;7&quot; | &quot;8&quot; | &quot;9&quot;
+<strong id="grammar-token-hex-digit">hex_digit  </strong> ::=  <a class="reference internal" href="#grammar-token-dec-digit"><code class="xref docutils literal notranslate"><span class="pre">dec_digit</span></code></a> | &quot;a&quot; | &quot;b&quot; | &quot;c&quot; | &quot;d&quot; | &quot;e&quot; | &quot;f&quot;
+                 | &quot;A&quot; | &quot;B&quot; | &quot;C&quot; | &quot;D&quot; | &quot;E&quot; | &quot;F&quot;&quot;
+</pre>
+<p>A date/time permits specification of fractional seconds to nano-second
+resolution.</p>
+<pre>
+<strong id="grammar-token-datetime">datetime     </strong> ::=  [ <a class="reference internal" href="#grammar-token-date"><code class="xref docutils literal notranslate"><span class="pre">date</span></code></a> ] [ <a class="reference internal" href="#grammar-token-time"><code class="xref docutils literal notranslate"><span class="pre">time</span></code></a> [ <a class="reference internal" href="#grammar-token-time-fraction"><code class="xref docutils literal notranslate"><span class="pre">time_fraction</span></code></a> ] ]
+<strong id="grammar-token-date">date         </strong> ::=  <a class="reference internal" href="#grammar-token-dec-number"><code class="xref docutils literal notranslate"><span class="pre">dec_number</span></code></a> &quot;/&quot; <a class="reference internal" href="#grammar-token-dec-number"><code class="xref docutils literal notranslate"><span class="pre">dec_number</span></code></a> [ &quot;/&quot; <a class="reference internal" href="#grammar-token-dec-number"><code class="xref docutils literal notranslate"><span class="pre">dec_number</span></code></a>]
+<strong id="grammar-token-time">time         </strong> ::=  <a class="reference internal" href="#grammar-token-dec-number"><code class="xref docutils literal notranslate"><span class="pre">dec_number</span></code></a> &quot;:&quot; <a class="reference internal" href="#grammar-token-dec-number"><code class="xref docutils literal notranslate"><span class="pre">dec_number</span></code></a> &quot;:&quot; <a class="reference internal" href="#grammar-token-dec-number"><code class="xref docutils literal notranslate"><span class="pre">dec_number</span></code></a>
+<strong id="grammar-token-time-fraction">time_fraction</strong> ::=  &quot;.&quot; <a class="reference internal" href="#grammar-token-dec-number"><code class="xref docutils literal notranslate"><span class="pre">dec_number</span></code></a>
+</pre>
+<p>One of <a class="reference internal" href="#grammar-token-date"><code class="xref std std-token docutils literal notranslate"><span class="pre">date</span></code></a> or <a class="reference internal" href="#grammar-token-time"><code class="xref std std-token docutils literal notranslate"><span class="pre">time</span></code></a> must be specified.
+Where the <a class="reference internal" href="#grammar-token-date"><code class="xref std std-token docutils literal notranslate"><span class="pre">date</span></code></a> is omitted, the date is taken as the date identified
+on the first line in the log file. Where only two elements are supplied for
+the date, they are taken as the day number and month number. In all cases, the
+order of day number, month number and year is taken from the current locale.</p>
+</section>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+    <div class="clearer"></div>
+  </div>
+    <div class="footer">
+      &copy;2017-2018, Niel Clausen.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.2.0</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.13</a>
+      
+      |
+      <a href="_sources/searching.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

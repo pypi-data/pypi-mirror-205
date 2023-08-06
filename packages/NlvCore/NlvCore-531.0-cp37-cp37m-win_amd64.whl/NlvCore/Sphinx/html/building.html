@@ -1,0 +1,246 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+    <title>Building &#8212; NLV 1.0 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Caveats and Issues" href="issues.html" />
+    <link rel="prev" title="Key Bindings" href="keyboard.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  <div class="document">
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">NLV</a></h1>
+
+
+
+<p class="blurb">Analyse log and trace data</p>
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="session.html">Sessions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="logfile.html">Log File</a></li>
+<li class="toctree-l1"><a class="reference internal" href="views.html">Views</a></li>
+<li class="toctree-l1"><a class="reference internal" href="events.html">Events</a></li>
+<li class="toctree-l1"><a class="reference internal" href="searching.html">Searching</a></li>
+<li class="toctree-l1"><a class="reference internal" href="schema.html">Schema</a></li>
+<li class="toctree-l1"><a class="reference internal" href="vsnlv.html">vsNLV</a></li>
+<li class="toctree-l1"><a class="reference internal" href="keyboard.html">Key Bindings</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Building</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#structure">Structure</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#tools">Tools</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#setup">Setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#install">Install</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="issues.html">Caveats and Issues</a></li>
+<li class="toctree-l1"><a class="reference internal" href="references.html">References</a></li>
+<li class="toctree-l1"><a class="reference internal" href="licenses.html">Licensing</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="keyboard.html" title="previous chapter">Key Bindings</a></li>
+      <li>Next: <a href="issues.html" title="next chapter">Caveats and Issues</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="building">
+<h1>Building<a class="headerlink" href="#building" title="Permalink to this headline">¶</a></h1>
+<section id="structure">
+<h2>Structure<a class="headerlink" href="#structure" title="Permalink to this headline">¶</a></h2>
+<p>NLV is a Python program and relies on customised versions of wxPython &amp; wxWidgets
+to provide all Windows UI capabilities. These are provided as Git submodules.</p>
+<p>NLV relies on NlvLog, a C++ DLL, for all searching, mapping and indexing tasks. The
+NlvLog DLL makes use of a number of Open Source packages.</p>
+<p>Building requires downloading the dependencies, patching wxWidgets, and compiling
+&amp; packaging the source. It is recommended the supplied build.sh script is
+used to do this.</p>
+</section>
+<section id="tools">
+<h2>Tools<a class="headerlink" href="#tools" title="Permalink to this headline">¶</a></h2>
+<p>The build machine should have the following tools installed:</p>
+<ul>
+<li><p>CygWin: (x32 or x64): base install + git + graphviz + wget + unzip (<a class="reference external" href="https://www.cygwin.com/">https://www.cygwin.com/</a>)</p></li>
+<li><p>Python 3.6.x: 64-bit install, ensure Python is added to path (<a class="reference external" href="https://www.python.org/">https://www.python.org/</a>)</p></li>
+<li><p>Visual Studio 2015 Community Edition (<a class="reference external" href="https://www.visualstudio.com/vs/older-downloads/">https://www.visualstudio.com/vs/older-downloads/</a>).</p>
+<p>To run the Unit Tests, install the “Google Test Adapter” extension (from
+TOOLS | Extensions and Updates | Online).</p>
+</li>
+<li><p>Optionally, Visual Studio 2017 Community Edition (<a class="reference external" href="https://www.visualstudio.com/">https://www.visualstudio.com/</a>).
+This toolchain is required to build the VisualStudio extension. If the toolchain is
+not installed, the extension will not be built.</p>
+<p>In the installer, select the “Visual Studio extension development” workload. Also,
+under “Individual components” select Windows 10 SDK (10.0.14393.0). The SDK is
+required to workaround a corruption to the VisualStudio 2015 environment that
+occurs when VisualStudio 2017 is installed. The corruption causes the WAF builder
+in wxPython to fail.</p>
+</li>
+</ul>
+<p>Other</p>
+<ul class="simple">
+<li><p>The NuGet command line tool (<a class="reference external" href="https://docs.microsoft.com/en-us/nuget/tools/nuget-exe-cli-reference">https://docs.microsoft.com/en-us/nuget/tools/nuget-exe-cli-reference</a>)
+is used, and is downloaded if needed.</p></li>
+</ul>
+</section>
+<section id="setup">
+<h2>Setup<a class="headerlink" href="#setup" title="Permalink to this headline">¶</a></h2>
+<p>See <a class="reference internal" href="references.html"><span class="doc">References</span></a> for more information on the source dependencies. NLV
+makes use of the following Open Source projects:</p>
+<ul class="simple">
+<li><p>BOOST</p></li>
+<li><p>Intel Thread Building Blocks (TBB)</p></li>
+<li><p>GoogleTest</p></li>
+<li><p>JSON v3.1.2</p></li>
+<li><p>wxPython (GIT version 5c7046bdbc9a5a6889363793e2904c4faccd9111)</p></li>
+<li><p>wxWidgets 3.1.1 (GIT version 379a404f9804ac044df44f18907e192917fec8aa)</p></li>
+</ul>
+<p>NLV is distributed as a single archive nlv.rel.xxx.tar.bz2, where xxx is
+the release number. Compatible versions of BOOST and the Intel TBB library
+are usually also available. From a CygWin prompt:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ ls ~/Export
+boost_1_63_0.tar.bz2  nlv.rel.200.tar.bz2  tbb-2018_U2.tar.gz
+</pre></div>
+</div>
+<p>Extract the build setup script from the archive. This only needs to be
+done once:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ tar xfj ~/Export/nlv.rel.200.tar.bz2 nlvsetup.sh
+</pre></div>
+</div>
+<p>The setup script requires two arguments:</p>
+<ul class="simple">
+<li><p>the path to the NLV archive</p></li>
+<li><p>one of</p>
+<ul>
+<li><p>–full, reverts the whole Phoenix tree, triggering a full rebuild</p></li>
+<li><p>–vstc, applies the VSTC patch; implied for –full</p></li>
+<li><p>–quick, no changes to Phoenix/wxWidgets; relatively quick build</p></li>
+</ul>
+</li>
+</ul>
+<p>where –vstc is recommended.</p>
+<p>The script unpacks BOOST/TBB from the archives and fetches the
+other Open Source projects from GitHub. It then builds all projects:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ ./nlvsetup.sh nlv.rel.200.tar.bz2 --vstc
+=======================================================================
+Get release
+=======================================================================
+
+...
+
+=======================================================================
+==== Build Complete
+Installation files can be found in C:\Dev\Installers\200
+</pre></div>
+</div>
+<p>The script then performs a developer install, which permits Visual Studio
+to be used to run/debug NLV:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">=======================================================================</span>
+<span class="o">====</span> <span class="n">NLV</span> <span class="n">developer</span> <span class="n">environment</span>
+
+<span class="o">...</span>
+
+<span class="o">=======================================================================</span>
+<span class="n">NLV</span> <span class="n">development</span> <span class="n">environment</span> <span class="n">installed</span> <span class="n">to</span> <span class="n">C</span><span class="p">:</span>\<span class="n">Dev</span>\<span class="n">Nlv</span>\<span class="n">_PyEnv</span>\<span class="n">Dbg</span>
+<span class="n">Double</span><span class="o">-</span><span class="n">click</span> <span class="n">the</span> <span class="n">solution</span> <span class="n">file</span><span class="p">;</span> <span class="n">ensure</span> <span class="n">the</span> <span class="n">Nlv</span>\<span class="n">_PyEnv</span>\<span class="n">Dbg</span> <span class="n">Python</span> <span class="n">virtual</span>
+<span class="n">environment</span> <span class="ow">is</span> <span class="n">setup</span> <span class="ow">and</span> <span class="n">activated</span><span class="p">:</span>
+  <span class="n">Solution</span> <span class="n">Platforms</span> <span class="o">=</span> <span class="n">x64</span>
+  <span class="n">Solution</span> <span class="n">Explorer</span> <span class="p">]</span> <span class="n">Nlv</span> <span class="p">]</span> <span class="n">Python</span> <span class="n">Environments</span> <span class="p">]</span> <span class="n">Add</span> <span class="n">Existing</span> <span class="n">Virtual</span> <span class="n">Environment</span><span class="o">...</span>
+  <span class="n">Solution</span> <span class="n">Explorer</span> <span class="p">]</span> <span class="n">Nlv</span> <span class="p">]</span> <span class="n">Python</span> <span class="n">Environments</span> <span class="p">]</span> <span class="n">Dbg</span> <span class="p">(</span><span class="n">Python</span> <span class="mi">36</span><span class="p">)</span> <span class="p">]</span> <span class="n">Activate</span> <span class="n">Environment</span>
+</pre></div>
+</div>
+</section>
+<section id="install">
+<h2>Install<a class="headerlink" href="#install" title="Permalink to this headline">¶</a></h2>
+<p>On a deployment machine, copy the install directory from the build machine.
+The <code class="docutils literal notranslate"><span class="pre">install.bat</span></code> script installs the resulting Python packages:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">C</span><span class="p">:</span>\<span class="n">Installers</span>\<span class="mi">200</span><span class="o">&gt;</span><span class="n">install</span>
+<span class="o">=======================================================================</span>
+<span class="n">Using</span> <span class="o">..</span>\<span class="n">PyEnvNlv</span> <span class="k">as</span> <span class="n">the</span> <span class="n">Python</span> <span class="n">virtual</span> <span class="n">environment</span> <span class="k">for</span> <span class="n">NLV</span>
+
+<span class="o">=======================================================================</span>
+<span class="o">====</span> <span class="n">NLV</span>
+
+<span class="o">...</span>
+
+<span class="n">Successfully</span> <span class="n">installed</span> <span class="n">Nlv</span><span class="o">-</span><span class="mi">200</span> <span class="n">NlvMythTV</span><span class="o">-</span><span class="mi">200</span>
+
+<span class="o">=======================================================================</span>
+<span class="n">NLV</span> <span class="n">installed</span> <span class="n">to</span> \<span class="n">Scripts</span>
+<span class="n">In</span> <span class="n">Explorer</span><span class="p">,</span> <span class="n">right</span> <span class="n">click</span> <span class="n">the</span> <span class="n">file</span> <span class="ow">and</span> <span class="n">select</span> <span class="s2">&quot;Pin to start&quot;</span>
+</pre></div>
+</div>
+<p>To install into a specified Python virtual environment, supply the environment’s
+path to the install script. In this case, it isn’t necessary to copy the install
+files to the local machine.</p>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+    <div class="clearer"></div>
+  </div>
+    <div class="footer">
+      &copy;2017-2018, Niel Clausen.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.2.0</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.13</a>
+      
+      |
+      <a href="_sources/building.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

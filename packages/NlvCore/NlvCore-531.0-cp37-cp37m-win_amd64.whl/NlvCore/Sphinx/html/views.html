@@ -1,0 +1,216 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+    <title>Views &#8212; NLV 1.0 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Events" href="events.html" />
+    <link rel="prev" title="Log File" href="logfile.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  <div class="document">
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">NLV</a></h1>
+
+
+
+<p class="blurb">Analyse log and trace data</p>
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="session.html">Sessions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="logfile.html">Log File</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Views</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#annotations">Annotations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#searching-hiliting">Searching &amp; Hiliting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#filtering">Filtering</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#tracking">Tracking</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#field-visibility">Field Visibility</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#themes">Themes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#navigation">Navigation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#view-patterns">View Patterns</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="events.html">Events</a></li>
+<li class="toctree-l1"><a class="reference internal" href="searching.html">Searching</a></li>
+<li class="toctree-l1"><a class="reference internal" href="schema.html">Schema</a></li>
+<li class="toctree-l1"><a class="reference internal" href="vsnlv.html">vsNLV</a></li>
+<li class="toctree-l1"><a class="reference internal" href="keyboard.html">Key Bindings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="building.html">Building</a></li>
+<li class="toctree-l1"><a class="reference internal" href="issues.html">Caveats and Issues</a></li>
+<li class="toctree-l1"><a class="reference internal" href="references.html">References</a></li>
+<li class="toctree-l1"><a class="reference internal" href="licenses.html">Licensing</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="logfile.html" title="previous chapter">Log File</a></li>
+      <li>Next: <a href="events.html" title="next chapter">Events</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="views">
+<h1>Views<a class="headerlink" href="#views" title="Permalink to this headline">¶</a></h1>
+<p><span class="guilabel">View</span> nodes in the explorer view customise a view of a <a class="reference internal" href="logfile.html"><span class="doc">logfile</span></a> and permit annotating, searching, filtering and tracking.</p>
+<section id="annotations">
+<span id="annotation"></span><h2>Annotations<a class="headerlink" href="#annotations" title="Permalink to this headline">¶</a></h2>
+<p>Arbitrary comment text can be placed below any line in the view. Place the cursor
+on the line and either type <kbd class="kbd docutils literal notranslate">Ctrl-A</kbd> or select <span class="guilabel">Session | Annotate</span>
+in the explorer view. Enter the annotation text in the text area that appears to
+the left of the view area:</p>
+<img alt="_images/annotation.png" src="_images/annotation.png" />
+<p>The annotation text can be displayed with one of four styles in the view. Select
+the required style from the drop-down below the annotation area:</p>
+<img alt="_images/annotation-style.png" src="_images/annotation-style.png" />
+</section>
+<section id="searching-hiliting">
+<span id="viewhiliters"></span><h2>Searching &amp; Hiliting<a class="headerlink" href="#searching-hiliting" title="Permalink to this headline">¶</a></h2>
+<p>By default, seven searcher/hiliters are available. Their colours and styles can
+be set using the drop-down lists in the <span class="guilabel">View | Search</span> panel.</p>
+<p>Choosing the search text is determined in one of two ways:</p>
+<ul class="simple">
+<li><p>the <strong>selection</strong> hiliter hilites the text selected in the view</p></li>
+<li><p>by specifying search text in the <span class="guilabel">View | Search | Search properties</span>
+panel. For more information, see <a class="reference internal" href="searching.html"><span class="doc">searching</span></a>.</p></li>
+</ul>
+<img alt="_images/hiliters.png" src="_images/hiliters.png" />
+</section>
+<section id="filtering">
+<span id="viewfilters"></span><h2>Filtering<a class="headerlink" href="#filtering" title="Permalink to this headline">¶</a></h2>
+<p>A filter is applied applied to each regular log line. Where the filter matches,
+the log line is displayed in the view.</p>
+<p>Irregular log lines (i.e. lines without all the fields defined in the schema) are not filtered
+directly, but rather, are <strong>associated</strong> with the most recent regular line. Where
+a regular line is visible, any following irregular lines will also be visible.</p>
+<p>The filter is entered into the <span class="guilabel">View | Filter | Filter description</span> panel.
+For more information, see <a class="reference internal" href="searching.html"><span class="doc">searching</span></a>.</p>
+<img alt="_images/filters.png" src="_images/filters.png" />
+<p>If the filter text is invalid for some reason, the background colour is set to red:</p>
+<img alt="_images/filter-bad.png" src="_images/filter-bad.png" />
+<p>and the <span class="guilabel">Console</span> panel will contain an explanation; in this case, no
+value for the Category field matches “e”:</p>
+<img alt="_images/filter-bad-reason.png" src="_images/filter-bad-reason.png" />
+</section>
+<section id="tracking">
+<span id="viewtracking"></span><h2>Tracking<a class="headerlink" href="#tracking" title="Permalink to this headline">¶</a></h2>
+<p>For more information on tracker types and their appearance,
+see <a class="reference internal" href="logfile.html#trackers"><span class="std std-ref">Trackers</span></a>.</p>
+<p>A view interacts with the trackers in two ways:</p>
+<ul class="simple">
+<li><p>a tracker’s location may be set from the cursor’s position</p></li>
+<li><p>the view can be scrolled to ensure a specific tracker is visible</p></li>
+</ul>
+<p>Use the options in the <span class="guilabel">View | Track</span> panel to control this behaviour:</p>
+<ul class="simple">
+<li><p><span class="guilabel">Set local tracker from cursor</span> - when checked, the local tracker’s
+line location is updated to follow the cursor.</p></li>
+<li><p><span class="guilabel">Set global tracker from cursor</span> - when selected, the identified
+global tracker’s date/time location is updated to follow the cursor.</p></li>
+<li><p><span class="guilabel">Synchronise view to tracker</span> - when selected, the view will scroll
+to ensure the identified local/global tracker is visible whenever it is updated.</p></li>
+</ul>
+<img alt="_images/tracking.png" src="_images/tracking.png" />
+<p>The timestamps associated with each tracker can be seen in the <span class="guilabel">Status</span>
+panel:</p>
+<img alt="_images/tracker-status.png" src="_images/tracker-status.png" />
+</section>
+<section id="field-visibility">
+<span id="viewfields"></span><h2>Field Visibility<a class="headerlink" href="#field-visibility" title="Permalink to this headline">¶</a></h2>
+<p>The <span class="guilabel">View | Fields</span> panel determines which field(s) are visible
+in the view as well as the colour the field’s text is displayed in.</p>
+<img alt="_images/fields.png" src="_images/fields.png" />
+</section>
+<section id="themes">
+<h2>Themes<a class="headerlink" href="#themes" title="Permalink to this headline">¶</a></h2>
+<p>Views interact with Navigation themes and View pattern themes.</p>
+<section id="navigation">
+<span id="viewnavigation"></span><h3>Navigation<a class="headerlink" href="#navigation" title="Permalink to this headline">¶</a></h3>
+<p>Any local changes to hiliter colour or style can be saved
+or cleared via the <span class="guilabel">View | Theme | Changes to navigation theme</span>
+panel.</p>
+<img alt="_images/hiliters-theme.png" src="_images/hiliters-theme.png" />
+<p>To change the selected navigation theme, see <a class="reference internal" href="session.html#themes"><span class="std std-ref">Navigation Themes</span></a>.</p>
+</section>
+<section id="view-patterns">
+<span id="viewpatterns"></span><h3>View Patterns<a class="headerlink" href="#view-patterns" title="Permalink to this headline">¶</a></h3>
+<p>View pattern themes contain all the search and filter patterns, as well as
+field visibility, field colour and tracker choices A gallery of available
+themes can be found at <span class="guilabel">View | Theme | View theme gallery</span>.</p>
+<img alt="_images/view-theme-gallery.png" src="_images/view-theme-gallery.png" />
+<p>Where local changes to a View pattern theme exist, they can be saved or
+cleared via the <span class="guilabel">View | Theme | Changes to view theme</span> panel.</p>
+<img alt="_images/view-theme.png" src="_images/view-theme.png" />
+</section>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+    <div class="clearer"></div>
+  </div>
+    <div class="footer">
+      &copy;2017-2018, Niel Clausen.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.2.0</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.13</a>
+      
+      |
+      <a href="_sources/views.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

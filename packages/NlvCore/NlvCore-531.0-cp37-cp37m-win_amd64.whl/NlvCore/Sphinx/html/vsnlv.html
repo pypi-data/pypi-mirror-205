@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+    <title>vsNLV &#8212; NLV 1.0 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Key Bindings" href="keyboard.html" />
+    <link rel="prev" title="Schema" href="schema.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  <div class="document">
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">NLV</a></h1>
+
+
+
+<p class="blurb">Analyse log and trace data</p>
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="session.html">Sessions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="logfile.html">Log File</a></li>
+<li class="toctree-l1"><a class="reference internal" href="views.html">Views</a></li>
+<li class="toctree-l1"><a class="reference internal" href="events.html">Events</a></li>
+<li class="toctree-l1"><a class="reference internal" href="searching.html">Searching</a></li>
+<li class="toctree-l1"><a class="reference internal" href="schema.html">Schema</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">vsNLV</a></li>
+<li class="toctree-l1"><a class="reference internal" href="keyboard.html">Key Bindings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="building.html">Building</a></li>
+<li class="toctree-l1"><a class="reference internal" href="issues.html">Caveats and Issues</a></li>
+<li class="toctree-l1"><a class="reference internal" href="references.html">References</a></li>
+<li class="toctree-l1"><a class="reference internal" href="licenses.html">Licensing</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="schema.html" title="previous chapter">Schema</a></li>
+      <li>Next: <a href="keyboard.html" title="next chapter">Key Bindings</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="vsnlv">
+<h1>vsNLV<a class="headerlink" href="#vsnlv" title="Permalink to this headline">¶</a></h1>
+<p>vsNLV is a plugin for Visual Studio 2015 or newer. The plugin displays the source
+code corresponding to the current log line in NLV. Note that the current implementation
+requires that only one instance if Visual Studio is running.</p>
+<p>In Visual Studio,</p>
+<ul class="simple">
+<li><p>Open the Solution containing the source files referenced from the logfile.
+Note that this does not have to be the Solution that built the software, as
+Visual Studio is being used as a source code viewer. In general though,
+IntelliSense will give better results if the Solution can build the software.</p></li>
+<li><p>If the <span class="guilabel">NLV Listener</span> pane is not already open, select the
+<span class="guilabel">View | Other Windows | NLV Listener</span> menu item.</p></li>
+<li><p>Select a channel from the <span class="guilabel">Notifier Channel</span> dropdown.</p></li>
+<li><p>In the <span class="guilabel">Output</span> panel, select “NLV Listener” from the
+<span class="guilabel">Show output from</span> drop down.</p></li>
+</ul>
+<p>In NLV:</p>
+<ul class="simple">
+<li><p>Move the cursor in a view.</p></li>
+</ul>
+<p>The <span class="guilabel">Console</span> pane in NLV will show that a connection to vsNLV
+has been established:</p>
+<img alt="_images/vsnlv-console.png" src="_images/vsnlv-console.png" />
+<p>Similarly, the <span class="guilabel">Output</span> panel in Visual Studio will also show the
+connection has been established:</p>
+<img alt="_images/vsnlv-output.png" src="_images/vsnlv-output.png" />
+<p>Moving the cursor in NLV will result in the <span class="guilabel">NLV Listener</span> pane
+displaying the log text and the source code being displayed.</p>
+<img alt="_images/vsnlv-listener.png" src="_images/vsnlv-listener.png" />
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+    <div class="clearer"></div>
+  </div>
+    <div class="footer">
+      &copy;2017-2018, Niel Clausen.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.2.0</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.13</a>
+      
+      |
+      <a href="_sources/vsnlv.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

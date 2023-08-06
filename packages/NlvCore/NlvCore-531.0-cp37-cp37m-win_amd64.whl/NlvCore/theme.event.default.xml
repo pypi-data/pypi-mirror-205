@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+
+<!--
+
+Copyright (C) 2018 Niel Clausen. All rights reserved.
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
+
+-->
+
+
+<root>
+
+  <theme name="Event Default" guid="CF6B1C12-5BCA-41AA-A723-941455575B07">
+
+    <!-- Node name (as displayed in the tree control) -->
+    <item field_id="DD9B316C-4F9E-4DF3-9970-0781D56980B0">Events</item>
+
+    <!--
+    Script
+    Set the ReferenceScript to a filename (with .py suffix) if the
+    recogniser text is held in an external Python file. Otherwise, leave
+    empty.
+    -->
+    <item field_id="91F38F0D-3375-4005-935E-0CC7A738F74C"></item>
+    <item field_id="910F22BD-73A0-4C4A-B9C4-05EE5465C901"></item>
+    <item field_id="F1DF7FB1-9C9F-45B1-BD6A-DEDAED883E34"></item>
+    <item field_id="EE35CE97-8ECC-448C-82E0-374007BEE21E">False</item>
+
+  </theme>
+
+</root>
