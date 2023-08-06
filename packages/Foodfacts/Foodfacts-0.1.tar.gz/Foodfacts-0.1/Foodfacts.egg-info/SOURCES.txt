@@ -1,0 +1,8 @@
+setup.py
+Foodfacts.egg-info/PKG-INFO
+Foodfacts.egg-info/SOURCES.txt
+Foodfacts.egg-info/dependency_links.txt
+Foodfacts.egg-info/requires.txt
+Foodfacts.egg-info/top_level.txt
+foodfactslib/__init__.py
+foodfactslib/foodfacts.py
