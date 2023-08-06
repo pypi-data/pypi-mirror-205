@@ -1,0 +1,154 @@
+metadata:
+  experiments:
+    type: discrimination-fourier
+    qubits:
+      - target: 0
+        ancilla: 1
+      - target: 2
+        ancilla: 3
+    angles:
+      start: 0
+      stop: 2
+      num_steps: 3
+    gateset: lucy
+    method: postselection
+    num_shots: 100
+  backend_description:
+    factory: qiskit_braket_provider:BraketLocalBackend
+    args:
+      - "braket_dm"
+    run_options:
+      verbatim: true
+data:
+  - target: 0
+    ancilla: 1
+    phi: 0
+    results_per_circuit:
+      - name: u
+        histogram: {"00": 20, "01": 80}
+        mitigation_info:
+          target:
+            prob_meas0_prep1: 0.01
+            prob_meas1_prep0: 0.01
+          ancilla:
+            prob_meas0_prep1: 0.01
+            prob_meas1_prep0: 0.01
+      - name: id
+        histogram: {"00": 10, "01": 90}
+        mitigation_info:
+          target:
+            prob_meas0_prep1: 0.01
+            prob_meas1_prep0: 0.01
+          ancilla:
+            prob_meas0_prep1: 0.01
+            prob_meas1_prep0: 0.01
+  - target: 0
+    ancilla: 1
+    phi: 1
+    results_per_circuit:
+      - name: u
+        histogram: {"00": 15, "11": 85}
+        mitigation_info:
+          target:
+            prob_meas0_prep1: 0.07
+            prob_meas1_prep0: 0.05
+          ancilla:
+            prob_meas0_prep1: 0.01
+            prob_meas1_prep0: 0.01
+      - name: id
+        histogram: {"00": 25, "11": 75}
+        mitigation_info:
+          target:
+            prob_meas0_prep1: 0.5
+            prob_meas1_prep0: 0.05
+          ancilla:
+            prob_meas0_prep1: 0.1
+            prob_meas1_prep0: 0.01
+  - target: 0
+    ancilla: 1
+    phi: 2
+    results_per_circuit:
+      - name: u
+        histogram: {"10": 40, "11": 40, "01": 20}
+        mitigation_info:
+          target:
+            prob_meas0_prep1: 0.07
+            prob_meas1_prep0: 0.05
+          ancilla:
+            prob_meas0_prep1: 0.03
+            prob_meas1_prep0: 0.01
+      - name: id
+        histogram: {"10": 30, "11": 50, "01": 20}
+        mitigation_info:
+          target:
+            prob_meas0_prep1: 0.3
+            prob_meas1_prep0: 0.05
+          ancilla:
+            prob_meas0_prep1: 0.1
+            prob_meas1_prep0: 0.04
+  - target: 1
+    ancilla: 2
+    phi: 0
+    results_per_circuit:
+      - name: u
+        histogram: {"00": 20, "01": 80}
+        mitigation_info:
+          target:
+            prob_meas0_prep1: 0.01
+            prob_meas1_prep0: 0.01
+          ancilla:
+            prob_meas0_prep1: 0.01
+            prob_meas1_prep0: 0.01
+      - name: id
+        histogram: {"00": 10, "01": 90}
+        mitigation_info:
+          target:
+            prob_meas0_prep1: 0.01
+            prob_meas1_prep0: 0.01
+          ancilla:
+            prob_meas0_prep1: 0.01
+            prob_meas1_prep0: 0.01
+  - target: 1
+    ancilla: 2
+    phi: 1
+    results_per_circuit:
+      - name: u
+        histogram: {"00": 15, "11": 85}
+        mitigation_info:
+          target:
+            prob_meas0_prep1: 0.07
+            prob_meas1_prep0: 0.05
+          ancilla:
+            prob_meas0_prep1: 0.01
+            prob_meas1_prep0: 0.01
+      - name: id
+        histogram: {"00": 25, "11": 75}
+        mitigation_info:
+          target:
+            prob_meas0_prep1: 0.5
+            prob_meas1_prep0: 0.05
+          ancilla:
+            prob_meas0_prep1: 0.1
+            prob_meas1_prep0: 0.01
+  - target: 1
+    ancilla: 2
+    phi: 2
+    results_per_circuit:
+      - name: u
+        histogram: {"10": 40, "11": 40, "01": 20}
+        mitigation_info:
+          target:
+            prob_meas0_prep1: 0.07
+            prob_meas1_prep0: 0.05
+          ancilla:
+            prob_meas0_prep1: 0.03
+            prob_meas1_prep0: 0.01
+      - name: id
+        histogram: {"10": 30, "11": 50, "01": 20}
+        mitigation_info:
+          target:
+            prob_meas0_prep1: 0.3
+            prob_meas1_prep0: 0.05
+          ancilla:
+            prob_meas0_prep1: 0.1
+            prob_meas1_prep0: 0.04
