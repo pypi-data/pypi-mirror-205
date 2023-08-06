@@ -1,0 +1,185 @@
+[
+  {
+    "identifier": "05828a36-edb1-4538-98ad-226ad93181d6",
+    "title": "05828a36-edb1-4538-98ad-226ad93181d6",
+    "metadata": {
+      "corpus": "train",
+      "language": "fr"
+    },
+    "categories": [],
+    "createdBy": "iwang",
+    "createdDate": "2022-11-16T22:21:00.835Z",
+    "modifiedDate": "2022-11-16T22:21:00.835Z",
+    "text": "jerry goldsmith : l homme au chapeau de cow-boy dans la cabine téléphonique au salon de l invention ( caméo non crédité )",
+    "altTexts": [],
+    "sentences": [
+      {
+        "start": 0,
+        "end": 121
+      }
+    ],
+    "annotations": [
+      {
+        "text": "jerry goldsmith",
+        "labelName": "artist",
+        "start": 0,
+        "end": 15,
+        "createdBy": "import",
+        "createdDate": "2022-11-16T22:22:56.199Z",
+        "modifiedDate": "2022-11-16T22:22:56.199Z",
+        "status": "OK",
+        "properties": null,
+        "terms": null,
+        "label": "Artist"
+      },
+      {
+        "text": "chapeau de cow-boy",
+        "labelName": "clothing",
+        "start": 29,
+        "end": 47,
+        "createdBy": "import",
+        "createdDate": "2022-11-16T22:22:56.199Z",
+        "modifiedDate": "2022-11-16T22:22:56.199Z",
+        "status": "OK",
+        "properties": null,
+        "terms": null,
+        "label": "Clothing"
+      }
+    ]
+  },
+  {
+    "identifier": "47b90a69-f8ee-41d1-b3a1-8905fcf1f02a",
+    "title": "47b90a69-f8ee-41d1-b3a1-8905fcf1f02a",
+    "metadata": {
+      "corpus": "dev",
+      "language": "fr"
+    },
+    "categories": [],
+    "createdBy": "iwang",
+    "createdDate": "2022-11-20T00:09:47.18Z",
+    "modifiedDate": "2022-11-20T00:09:47.18Z",
+    "text": "alber elbaz le remplace en tant que directeur artistique du prêt-à-porter féminin et hedi slimane du prêt à porter masculin .",
+    "altTexts": [],
+    "sentences": [
+      {
+        "start": 0,
+        "end": 125
+      }
+    ],
+    "annotations": [
+      {
+        "text": "alber elbaz",
+        "labelName": "artist",
+        "start": 0,
+        "end": 11,
+        "createdBy": "import",
+        "createdDate": "2022-11-20T00:09:58.862Z",
+        "modifiedDate": "2022-11-20T00:09:58.862Z",
+        "status": "OK",
+        "properties": null,
+        "terms": null,
+        "label": "Artist"
+      },
+      {
+        "text": "prêt-à-porter",
+        "labelName": "clothing",
+        "start": 60,
+        "end": 73,
+        "createdBy": "import",
+        "createdDate": "2022-11-20T00:09:58.862Z",
+        "modifiedDate": "2022-11-20T00:09:58.862Z",
+        "status": "OK",
+        "properties": null,
+        "terms": null,
+        "label": "Clothing"
+      },
+      {
+        "text": "hedi slimane",
+        "labelName": "artist",
+        "start": 85,
+        "end": 97,
+        "createdBy": "import",
+        "createdDate": "2022-11-20T00:09:58.862Z",
+        "modifiedDate": "2022-11-20T00:09:58.862Z",
+        "status": "OK",
+        "properties": null,
+        "terms": null,
+        "label": "Artist"
+      }
+    ]
+  },
+  {
+    "identifier": "a62886ab-c553-4153-894f-33ac31e17c33",
+    "title": "a62886ab-c553-4153-894f-33ac31e17c33",
+    "metadata": {
+      "corpus": "dev",
+      "language": "fr"
+    },
+    "categories": [],
+    "createdBy": "iwang",
+    "createdDate": "2022-11-20T00:09:47.18Z",
+    "modifiedDate": "2022-11-20T00:09:47.18Z",
+    "text": "chanel se fait aussi particulièrement remarqué avec lily-rose depp au bras de karl lagerfeld avec une robe de mariée rose pastel .",
+    "altTexts": [],
+    "sentences": [
+      {
+        "start": 0,
+        "end": 130
+      }
+    ],
+    "annotations": [
+      {
+        "text": "chanel",
+        "labelName": "privatecorp",
+        "start": 0,
+        "end": 6,
+        "createdBy": "import",
+        "createdDate": "2022-11-20T00:09:59.127Z",
+        "modifiedDate": "2022-11-20T00:09:59.127Z",
+        "status": "OK",
+        "properties": null,
+        "terms": null,
+        "label": "PrivateCorp"
+      },
+      {
+        "text": "lily-rose depp",
+        "labelName": "artist",
+        "start": 52,
+        "end": 66,
+        "createdBy": "import",
+        "createdDate": "2022-11-20T00:09:59.127Z",
+        "modifiedDate": "2022-11-20T00:09:59.127Z",
+        "status": "OK",
+        "properties": null,
+        "terms": null,
+        "label": "Artist"
+      },
+      {
+        "text": "karl lagerfeld",
+        "labelName": "artist",
+        "start": 78,
+        "end": 92,
+        "createdBy": "import",
+        "createdDate": "2022-11-20T00:09:59.127Z",
+        "modifiedDate": "2022-11-20T00:09:59.127Z",
+        "status": "OK",
+        "properties": null,
+        "terms": null,
+        "label": "Artist"
+      },
+      {
+        "text": "robe de mariée",
+        "labelName": "clothing",
+        "start": 102,
+        "end": 116,
+        "createdBy": "import",
+        "createdDate": "2022-11-20T00:09:59.127Z",
+        "modifiedDate": "2022-11-20T00:09:59.127Z",
+        "status": "OK",
+        "properties": null,
+        "terms": null,
+        "label": "Clothing"
+      }
+    ]
+  }
+]
