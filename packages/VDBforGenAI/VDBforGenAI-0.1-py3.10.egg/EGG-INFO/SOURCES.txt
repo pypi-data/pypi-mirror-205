@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+VDBforGenAI.egg-info/PKG-INFO
+VDBforGenAI.egg-info/SOURCES.txt
+VDBforGenAI.egg-info/dependency_links.txt
+VDBforGenAI.egg-info/requires.txt
+VDBforGenAI.egg-info/top_level.txt
+VectorDatabase/VectorDatabase.py
+VectorDatabase/__init__.py
+VectorDatabase/Utilities/Loading.py
+VectorDatabase/Utilities/StringUtilities.py
+VectorDatabase/Utilities/__init__.py
+VectorDatabase/VectorisationAndIndexCreation/SearchFunctions.py
+VectorDatabase/VectorisationAndIndexCreation/__init__.py
