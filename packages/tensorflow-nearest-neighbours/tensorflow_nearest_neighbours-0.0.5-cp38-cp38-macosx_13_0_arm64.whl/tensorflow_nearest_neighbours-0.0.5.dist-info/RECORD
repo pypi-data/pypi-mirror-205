@@ -1,0 +1,12 @@
+tensorflow_nearest_neighbours/__init__.py,sha256=MqigsCvW85taY1LIL0Hh2QpfPJM7EUD4foRTd6QdSE0,115
+tensorflow_nearest_neighbours/_nearest_neighbours.metallib,sha256=uJUtJsygnyCmvhUh7UvcVgxHcqSo77LCue_qBlT1SUQ,7896
+tensorflow_nearest_neighbours/_nearest_neighbours_op.so,sha256=r-OsKbhyO-fSsy3l7rKfYvesCfy4gCrcayr0H1Ocs4g,93078
+tensorflow_nearest_neighbours/python/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tensorflow_nearest_neighbours/python/nearest_neighbours.py,sha256=OO6AH0kjuQtwvfCnLxYnaBeu5jPwfaVGaq3eurZXVJI,3512
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/nearest_neighbours_test.py,sha256=HnirK5mKlvSXCKoe9Jl2aMwu_hDiQNkEIA1dHCr4VXQ,4415
+tensorflow_nearest_neighbours-0.0.5.dist-info/LICENSE,sha256=hbaDEFH4dVcqPAXJ18VwFcz-Lo3NDEAIi8vVw6rKjvw,11342
+tensorflow_nearest_neighbours-0.0.5.dist-info/METADATA,sha256=UbF2bPRLK-rwU34yycnc4UXKk4vjJGaRFxpo_qffCSM,1094
+tensorflow_nearest_neighbours-0.0.5.dist-info/WHEEL,sha256=Ly3Etn219k3CPJw_u_O2JJStO3-SwhzjwofZN3Au6Uw,108
+tensorflow_nearest_neighbours-0.0.5.dist-info/top_level.txt,sha256=C_-Y8PgpGtmWWL-3fDydJOkjyoPCtQ2QYQmncKargis,35
+tensorflow_nearest_neighbours-0.0.5.dist-info/RECORD,,
