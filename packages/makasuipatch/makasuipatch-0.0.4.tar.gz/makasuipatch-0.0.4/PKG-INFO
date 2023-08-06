@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: makasuipatch
+Version: 0.0.4
+Summary: A patch to simple pro to make you activate it. Just used for learning.
+Author-email: makabaka <izhangxm@gmail.com>
+Project-URL: Homepage, https://github.com/izhangxm/makasuipatch
+Project-URL: Bug Tracker, https://github.com/izhangxm/makasuipatch/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# makasuipatch
+A patch to simple pro to make you activate it. Just used for learning.
+
+## Install
+```
+pip install makasuipatch
+```
+
+## How to use
+open `settings.py`
+```
+INSTALLED_APPS = [
+    "simplepro",
+    "simpleui",
+    "import_export",
+    "makasuipatch",
+    ...
+```
+
+## issue
+Tested compatible versions
+```
+- 6.x
+```
+
+## Package command
+```
+# build
+python -m build
+
+# upload to testpypi repo 
+twine upload --repository testpypi dist/*
+
+# install from testpypi repo 
+pip install -i https://test.pypi.org/simple/ --no-deps makasuipatch
+
+# upload to product repo
+twine upload dist/*
+
+# install from testpypi repo 
+pip install makasuipatch --no-cache-dir
+```
