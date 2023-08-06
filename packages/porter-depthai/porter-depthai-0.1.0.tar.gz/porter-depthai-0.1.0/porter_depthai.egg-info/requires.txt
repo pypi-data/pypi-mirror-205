@@ -1,0 +1,5 @@
+matplotlib
+numpy
+porter-bench[csv]
+opencv-python
+depthai

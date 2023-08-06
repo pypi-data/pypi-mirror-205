@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: porter-depthai
+Version: 0.1.0
+Summary: Scripts for depthai and cv2 cameras
+Home-page: https://github.com/porteratzo/my_depthai
+Author: Omar Montoya
+Author-email: omar.alfonso.montoya@hotmail.com
+License: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
