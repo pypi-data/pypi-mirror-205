@@ -1,0 +1,12 @@
+alchemymodel_xlsx/__init__.py,sha256=VJ5zq-eKgH4KEz4wzpX3XDyEAd5lTXvi7kMAbPar4SY,192
+alchemymodel_xlsx/const.py,sha256=3uyLMXq0QRKZFBGJpXWIMA9x-A7pjE8tS7l3aeoAED8,50
+alchemymodel_xlsx/exceptions.py,sha256=Sw6A-wtup5gqSHSE4NsOry1Pf4tGoanujetWr3KA_BY,360
+alchemymodel_xlsx/import_data_from_excel.py,sha256=ilmApeRjqlovJeJg5sQ2OD2Uz5fxniwCA2kvQCHQ6KU,2139
+alchemymodel_xlsx/template.py,sha256=CZZf_ZYNF7FyHwXv7Fs-EnHdBsg7C6Y2TknYwveu39I,1123
+alchemymodel_xlsx/to_csv.py,sha256=LTTiVspfO7M2INjuHkmNBhRbUTYPj3jbT8eGBh9wryo,1649
+alchemymodel_xlsx/to_excel.py,sha256=lwMJo9t3XVASLHf2iPsCspf4XogYkT5AvoMG3-bTpgY,2547
+alchemymodel_xlsx/utils.py,sha256=n6IW28DJoQGPMoWWRZceXJpMWTnZz5VLP_KqroEv1hQ,1682
+alchemymodel_xlsx-1.0.0.dist-info/METADATA,sha256=EZahBTqv8XsYJNGYwpJXaVS7q7CbHYD53l66zsDK1CI,517
+alchemymodel_xlsx-1.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+alchemymodel_xlsx-1.0.0.dist-info/top_level.txt,sha256=hoI2DRYaYDf567ilmf6-46ZkB3AuFwR3pAzQrH0-yjY,18
+alchemymodel_xlsx-1.0.0.dist-info/RECORD,,
