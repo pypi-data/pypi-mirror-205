@@ -1,0 +1,34 @@
+#loading {
+    /* background-color: lightslategrey; */
+    height: 100vh;
+    width: 100vw;
+    /* filter: url(#loading-shader); */
+}
+
+@media only screen and (min-width: 900px) {
+#shadedgroup {
+    filter: url(#loading-shader);
+}
+}
+
+.loadingCircle {
+    filter: url(#blur);
+}
+
+.stacked * {
+    position: absolute;
+    /* height: 100vh;
+    width: 100vw; */
+}
+
+svg.shaders {
+    position: absolute;
+}
+
+svg {
+    overflow: visible;
+}
+
+body {
+    margin: 0;
+}
