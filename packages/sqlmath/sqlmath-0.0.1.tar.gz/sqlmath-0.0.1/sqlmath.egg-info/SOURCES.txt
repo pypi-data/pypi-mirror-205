@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+sqlmath.egg-info/PKG-INFO
+sqlmath.egg-info/SOURCES.txt
+sqlmath.egg-info/dependency_links.txt
+sqlmath.egg-info/top_level.txt
