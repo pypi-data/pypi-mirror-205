@@ -1,0 +1,47 @@
+image: python:3.9-buster
+variables:
+  GIT_DEPTH: 0
+  GIT_STRATEGY: clone
+stages:
+  - test
+  - release
+  - deploy
+
+test:
+  rules:
+    - if: $CI_COMMIT_TAG
+      when: never
+    - when: always
+  stage: test
+  script:
+    - ./test.sh
+  artifacts:
+    paths:
+      - site
+
+python-semantic-release:
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+  stage: release
+  needs:
+    - test
+  script:
+    - pip install python-semantic-release build
+    # Set up GL_TOKEN with a GitLab token and REPOSITORY_PASSWORD with pypi.org token in Settings CI/CD Variables
+    # To test pypi.org releasing use REPOSITORY_URL=https://test.pypi.org/legacy/
+    - GIT_COMMITTER_NAME="GitLab CI" GIT_COMMITTER_EMAIL="gitlab-ci@gitlab.com" REPOSITORY_USERNAME=__token__ semantic-release publish
+
+pages:
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+  stage: deploy
+  needs:
+    - test
+    - python-semantic-release
+  variables:
+    GIT_STRATEGY: none
+  script:
+    - mv site public
+  artifacts:
+    paths:
+      - public

@@ -1,0 +1,15 @@
+mkdocs-material
+mkdocs>=1.1
+
+[test]
+bandit
+black
+bs4
+coverage
+expects
+flake8
+gitlint
+isort
+lxml
+mamba
+pylint

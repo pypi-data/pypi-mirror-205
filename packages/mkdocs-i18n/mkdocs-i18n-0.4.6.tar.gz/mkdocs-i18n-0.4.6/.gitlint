@@ -1,0 +1,4 @@
+[general]
+ignore=body-is-missing
+contrib=contrib-title-conventional-commits,contrib-body-requires-signed-off-by
+

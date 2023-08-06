@@ -1,0 +1,60 @@
+[project]
+dynamic = ["version"]
+name = "mkdocs-i18n"
+description = "MkDocs i18n plugin"
+readme = "README.md"
+authors = [
+    {name = "Simó Albert i Beltran", email = "sim6@bona.gent"},
+]
+license = {text = "AGPL-3.0-or-later"}
+requires-python = ">=3.7, <4"
+dependencies = [
+    "mkdocs-material",
+    "mkdocs>=1.1",
+]
+keywords = ["mkdocs", "plugin", "i18n"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.9",
+]
+
+[project.urls]
+Homepage = "https://gitlab.com/mkdocs-i18n/mkdocs-i18n"
+"Bug Reports" = "https://gitlab.com/mkdocs-i18n/mkdocs-i18n/-/issues"
+Funding = "https://liberapay.com/mkdocs-i18n/donate"
+Source = "https://gitlab.com/mkdocs-i18n/mkdocs-i18n/-/tree/main"
+
+[project.optional-dependencies]
+test = [
+    "bandit",
+    "black",
+    "bs4",
+    "coverage",
+    "expects",
+    "flake8",
+    "gitlint",
+    "isort",
+    "lxml",
+    "mamba",
+    "pylint",
+]
+
+[project.entry-points."mkdocs.plugins"]
+i18n = "mkdocs_i18n:I18n"
+
+[tool.semantic_release]
+version_source = "tag_only"
+hvcs = "gitlab"
+branch = "main"
+build_command = "python3 -m build"
+
+[build-system]
+requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2"]
+
+[tool.setuptools_scm]
+# python-semantic-release with tag_only option leaves CHANGELOG.md file staged
+git_describe_command = "git describe --tags --abbrev=0"

@@ -1,0 +1,72 @@
+site_name: mkdocs-i18n example
+
+repo_url: https://gitlab.com/mkdocs-i18n/mkdocs-i18n
+edit_uri: ''
+
+theme:
+  name: material
+
+plugins:
+  - search
+  - i18n:
+      languages:
+        ca: "Català"
+        es: "Castellano"
+        en: "English"
+      default_language: 'en'
+      no_translation:
+        ca: "Aquesta pàgina no està traduida al català."
+        en: "This page isn't translated to English."
+        es: "Esta página no está traducida al castellano."
+      translate_nav:
+        ca:
+          section title: "Secció"
+          subsection: "Subsecció"
+          page title: "Pàgina amb títol traduit"
+        en:
+          section title: "Section"
+          subsection: "Subsection"
+          page title: "Page with title translated"
+        es:
+          section title: "Sección"
+          subsection: "Subsección"
+          page title: "Página con título traducido"
+
+nav:
+- index.md
+- index.ca.md
+- index.es.md
+- section title:
+  - no-nav-title.md
+  - no-nav-title.ca.md
+  - no-nav-title.es.md
+  - Page Title: nav-title.en.md
+  - Títol de página: nav-title.ca.md
+  - Título de página: nav-title.es.md
+  - only-es.es.md
+  - subsection:
+    - dir/index.md
+    - dir/index.ca.md
+    - dir/no-en.ca.md
+    - dir/no-en.es.md
+    - page title: translated-title.ca.md
+    - page title: translated-title.en.md
+    - page title: translated-title.es.md
+
+extra:
+  # Default mkdocs-material alternate links for untranslated pages
+  # https://squidfunk.github.io/mkdocs-material/setup/changing-the-language/#site-language-selector
+  # For translated pages the language name is replaced by the string configured in i18n plugin
+  # secction and link is replaced by the link to the translated page
+  alternate:
+    - name: "English (Home)"
+      link: ""
+      lang: en
+
+    - name: "Català (Inici)"
+      link: index.ca/
+      lang: ca
+
+    - name: "Castellano (Inicio)"
+      link: index.es/
+      lang: es

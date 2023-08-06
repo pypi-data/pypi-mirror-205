@@ -1,0 +1,6 @@
+src/mkdocs_i18n.egg-info/
+src/mkdocs_i18n/__pycache__/
+site/
+.coverage
+build/
+dist/
