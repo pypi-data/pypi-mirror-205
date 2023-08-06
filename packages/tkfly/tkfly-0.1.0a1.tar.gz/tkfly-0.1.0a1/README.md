@@ -1,0 +1,30 @@
+# tkfly
+基于`tkinter`及`tcl / tk`扩展的中型组件库
+([tklib -大小约3.7MB](https://core.tcl-lang.org/tklib))
+
+帮助你开发大型高级的程序
+
+## 教程
+
+### 开始
+tkfly通过tkinter调用tcl导入tklib实现，可以实现tklib库所能实现的各种功能。
+```bash
+python -m pip install tkfly
+```
+
+让我来运行一个最简单工具提示吧！
+(基于[tklib/tooltip](https://core.tcl-lang.org/tklib/doc/trunk/embedded/md/tklib/files/modules/tooltip/tooltip.md))
+```python
+from tkinter import Tk, ttk
+from tkfly import FlyToolTip
+
+root = Tk()
+
+tooltip = FlyToolTip()
+
+button = ttk.Button()
+tooltip.tooltip(button, "button1")
+button.pack()
+
+root.mainloop()
+```
