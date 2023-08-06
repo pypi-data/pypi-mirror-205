@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: ChatLLM
+Version: 2023.4.26.9.50.3
+Summary: Create a Python package.
+Home-page: https://github.com/yuanjie-ai/llm4gpt
+Author: yuanjie
+Author-email: 313303303@qq.com
+License: MIT license
+Keywords: chatllm
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+![image](https://img.shields.io/pypi/v/llm4gpt.svg) ![image](https://img.shields.io/travis/yuanjie-ai/llm4gpt.svg) ![image](https://readthedocs.org/projects/llm4gpt/badge/?version=latest)
+
+
+
+<h1 align = "center">🔥ChatLLM🔥</h1>
+
+---
+
+# Install
+
+```python
+pip install -U llm4gpt
+```
+
+# [Docs](https://jie-yuan.github.io/ChatLLM/)
+
+# Usages
+
+```python
+from chatllm.applications import ChatBase
+
+qa = ChatBase()
+qa.load_llm4chat(model_name_or_path="MODEL")
+
+for i, _ in qa(query='周杰伦是谁', knowledge_base='周杰伦是傻子'):
+    pass
+# 根据已知信息无法回答该问题，因为周杰伦是中国内地流行歌手、演员、音乐制作人、导演，
+# 是具有一定的知名度和专业能力的人物，没有提供足够的信息无法判断他是傻子。
+```
+
+---
+
+# TODO
+
+- [ ] 增加UI
+
+- [x] 增加本地知识库组件
+
+- [ ] 增加互联网搜索组件
+
+- [ ] 增加知识图谱组件
+
+- [ ] 增加微调模块
+
+- [ ] 增加流式输出
+
+
+
+
+
+=======
+History
+=======
+
+0.0.0 (2023-04-11)
+------------------
+
+* First release on PyPI.
