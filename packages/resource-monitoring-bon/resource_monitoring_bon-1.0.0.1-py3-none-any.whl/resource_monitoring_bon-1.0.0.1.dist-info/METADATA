@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: resource-monitoring-bon
+Version: 1.0.0.1
+Summary: Resource Monitoring Package
+Home-page: 
+Author: bon
+Author-email: kbsrnqhstjr@naver.com
+License: MIT
+Requires-Python: >=3
+

@@ -1,0 +1,1 @@
+"pythonw.exe" "%RESOURCE_TASK%\resource_monitoring_runner.py"
