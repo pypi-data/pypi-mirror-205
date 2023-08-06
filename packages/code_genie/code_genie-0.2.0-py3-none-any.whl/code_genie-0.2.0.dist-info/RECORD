@@ -1,0 +1,11 @@
+code_genie/__init__.py,sha256=Kjic9TDjJeRnBghQPixuSRitQxX1qEGsYBXqVVuLtC0,240
+code_genie/_cache.py,sha256=MM1nMjo2zgebBonnSAmxcLdp0fYLZuywgWuFCsKSGEY,3041
+code_genie/client.py,sha256=ehmxuw2SYra3eWpM6Cq8DEOmxrv0X88EfOG9eXac9lQ,1678
+code_genie/genie/__init__.py,sha256=AMcptYDTDFKWdPc2oI0O9AJE2-kJultBbi_JzeRVmZM,89
+code_genie/genie/base.py,sha256=kxqcS7GwqmfJSpq67-WXPadlpzZrm8v_RUtXeIEC6AM,4705
+code_genie/genie/genie.py,sha256=E4iRQVt7fncor42OYd21czYXAGxSBoR6vi4cETkWE_c,501
+code_genie/genie/pandas.py,sha256=R_xTnKnvtOsN1y_5C2WYsGWuysQBJsbqil9uQkNoMBU,3407
+code_genie-0.2.0.dist-info/LICENSE,sha256=9ykOe4v81xDj9HKlREFmyVFEbTVStMK-DohV5Gijxmo,1069
+code_genie-0.2.0.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+code_genie-0.2.0.dist-info/METADATA,sha256=BhIwNdxd1MyQ-NfEamEgUXNCxoUBQen0HUODU1MBgk8,3021
+code_genie-0.2.0.dist-info/RECORD,,
