@@ -1,0 +1,15 @@
+gpgi-0.11.1.dist-info/RECORD,,
+gpgi-0.11.1.dist-info/METADATA,sha256=5gPanjuYHxg-0f0KVZ7H0JAFMw7vjX1kW2Zst6L8Dcg,13833
+gpgi-0.11.1.dist-info/top_level.txt,sha256=NkHFSfdww4GthI1O5kk2Fx9JSAvwNdlmqABt-C83pEk,5
+gpgi-0.11.1.dist-info/WHEEL,sha256=5DQRW5VdkIxH8e7ylwa-YBCXLhSZeqHiz1ZmuOscrlo,148
+gpgi/__init__.py,sha256=6NpdbzV-77RT36JHH8bOvfqtRaBeNejfXCu3vFr9Frk,82
+gpgi/_backports.py,sha256=3dEMM7a3wDJzAx9f32vl3cGEPBGoU_qx1EQ7mghk00w,1546
+gpgi/_typing.py,sha256=0GQCji8qQADJW3g64-nwWSv_p4hM2t1JYjcpUPzDAsg,211
+gpgi/api.py,sha256=fsFiDczgOtNSFVukQmcVwKLxOk63StqDJu_UEgQTz3E,1312
+gpgi/_boundaries.py,sha256=hsLRyjgUgQI5dA3rr4OaJEoNB2JrDfUn9wzzDCqdiAA,4734
+gpgi/types.py,sha256=7E8EjdwbNNSLRRsWsq05A52WdYXGx9gic7oH_4lHinE,27129
+gpgi/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gpgi/lib/_indexing.py,sha256=CQX7JjH99XFdo3Dl6DqSPz6KdwLQ-oFzYwmqgXD13lg,1810
+gpgi/lib/_deposition_methods.py,sha256=vNMPi9aELlCPF1A5oCilegmdbi02h8ONqW_gJF23a2w,8314
+gpgi/clib/_deposition_methods.cpython-38-x86_64-linux-gnu.so,sha256=V27LGfNB-jwUwQBlycfMNl6cjkow-9djMf-aracIOgM,3315568
+gpgi/clib/_indexing.cpython-38-x86_64-linux-gnu.so,sha256=gNo-SG8xNFfDaDF2gwHAsl4IgYAgavb5yufBSZBMBFA,1544800
