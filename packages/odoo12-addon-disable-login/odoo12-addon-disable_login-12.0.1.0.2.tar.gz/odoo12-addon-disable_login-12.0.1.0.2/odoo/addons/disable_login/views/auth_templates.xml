@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+        <template id="login" inherit_id="web.login" name="Disable Non OAuth Login form">
+					<xpath expr="//label[@for='login']" position="replace" />
+					<xpath expr="//input[@name='login']" position="replace"/>
+					<xpath expr="//label[@for='password']" position="replace" />
+					<xpath expr="//input[@name='password']" position="replace"/>
+					<xpath expr="//button[@name='redirect']" position="replace" />
+					<xpath expr="//button[@type='submit']" position="replace" />
+        </template>
+        <template id="remove_providers" inherit_id="auth_oauth.providers" name="Remove - or -">
+					<xpath expr="//em" position="replace" />
+        </template>
+</odoo>

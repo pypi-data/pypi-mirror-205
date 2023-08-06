@@ -1,0 +1,12 @@
+setup.py
+odoo/addons/disable_login/__init__.py
+odoo/addons/disable_login/__manifest__.py
+odoo/addons/disable_login/controllers/__init__.py
+odoo/addons/disable_login/controllers/main.py
+odoo/addons/disable_login/views/auth_templates.xml
+odoo12_addon_disable_login.egg-info/PKG-INFO
+odoo12_addon_disable_login.egg-info/SOURCES.txt
+odoo12_addon_disable_login.egg-info/dependency_links.txt
+odoo12_addon_disable_login.egg-info/not-zip-safe
+odoo12_addon_disable_login.egg-info/requires.txt
+odoo12_addon_disable_login.egg-info/top_level.txt
