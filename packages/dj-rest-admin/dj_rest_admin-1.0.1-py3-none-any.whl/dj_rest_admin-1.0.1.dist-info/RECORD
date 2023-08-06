@@ -1,0 +1,11 @@
+dj_rest_admin/__init__.py,sha256=xAuWOKF6KHAw0OdEV35Il3JS1BUa3ZJAmap6RMGDS9w,370
+dj_rest_admin/apps.py,sha256=RPciQKGrhK0fXAB_F-Qp0wERUfb1f-f5dV2_IVJir5I,248
+dj_rest_admin/decorators.py,sha256=OdZH1ylJ6hcFBK-OssTIoqZezAxiWhAkZ-UUBALmGb4,1094
+dj_rest_admin/restmodeladmin.py,sha256=GByXWYKjnOQALnGH-zIBlnOo--hXrWWJGWceL34zUBM,449
+dj_rest_admin/sites.py,sha256=LDEO6AL8yZV1LoLMKM5N0X1zGhj7RaFjsB2GYPr23nk,5434
+dj_rest_admin/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dj_rest_admin-1.0.1.dist-info/LICENSE,sha256=iGzeF1gsPcC22n4QMP1bYsEpSEiO96H8T1r2JIf3yx8,1069
+dj_rest_admin-1.0.1.dist-info/METADATA,sha256=BlKteMwYxcTbRTk9cxZKUKqiVC_eWRNsz8Tb5iuUWAE,6339
+dj_rest_admin-1.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+dj_rest_admin-1.0.1.dist-info/top_level.txt,sha256=_8lQ_92ws05aT0GEIbrZsrcbXm-5ReuvaqxOa9UaGxQ,14
+dj_rest_admin-1.0.1.dist-info/RECORD,,
