@@ -1,0 +1,7 @@
+aiohttp
+aiofiles
+ujson
+dataclasses
+dataclasses-json
+python-dateutil
+python-magic-bin
