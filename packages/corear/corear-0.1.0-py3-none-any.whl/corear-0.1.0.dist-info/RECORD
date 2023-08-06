@@ -1,0 +1,8 @@
+corear/__init__.py,sha256=aI8Q_L81MQIcdeCBbokU3KnM3OcRXZNh04skwTYdTz4,24
+corear/core/core.bf,sha256=DRLiamCU9obU0j04jzlqCxVItUQujLqB4p00POQGGb8,16785
+corear/main.py,sha256=Mrcp9pUy41B2Wizy2cKx4ye6hvVgpHuANOsqBjHcR6c,831
+corear/master.bf,sha256=Ma5PNiP0eJNqmOoh9OBMzq_wiS7KcOQhKIdtbeoGi6Y,4582
+corear/src/RUNME.bf,sha256=2598bfagT963x0DTnNduNtfEvWshsRwQsGHqF2aQ5S8,1585
+corear-0.1.0.dist-info/METADATA,sha256=DMeJbrMF54ojC4M5Lfrzcs-0KaR2VYRUHwx9MsukvO0,363
+corear-0.1.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+corear-0.1.0.dist-info/RECORD,,
