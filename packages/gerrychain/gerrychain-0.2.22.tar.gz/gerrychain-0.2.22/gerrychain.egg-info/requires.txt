@@ -1,0 +1,8 @@
+pandas
+scipy
+networkx
+matplotlib
+
+[geo]
+shapely>=2.0.1
+geopandas>=0.12.2
