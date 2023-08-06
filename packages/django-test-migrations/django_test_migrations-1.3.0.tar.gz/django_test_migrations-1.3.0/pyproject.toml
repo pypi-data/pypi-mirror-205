@@ -1,0 +1,73 @@
+[tool.poetry]
+name = "django-test-migrations"
+version = "1.3.0"
+description = "Test django schema and data migrations, including ordering"
+license = "MIT"
+
+authors = [
+  "sobolevn <mail@sobolevn.me>"
+]
+
+readme = "README.md"
+
+repository = "https://github.com/wemake-services/django-test-migrations"
+
+keywords = [
+  "django",
+  "django-tests",
+  "django-migrations",
+  "django-orm",
+  "migrations",
+  "orm",
+  "sql",
+  "tests",
+  "test",
+  "pytest",
+  "pytest-plugin"
+]
+
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Operating System :: OS Independent",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Topic :: Internet :: WWW/HTTP",
+  "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+  "Framework :: Django",
+  "Framework :: Django :: 3.2",
+  "Framework :: Django :: 4.0",
+  "Framework :: Django :: 4.1",
+]
+
+[tool.poetry.plugins.pytest11]
+django_test_migrations = "django_test_migrations.contrib.pytest_plugin"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+typing_extensions = ">=3.6,<5"
+
+[tool.poetry.dev-dependencies]
+django = "^4.2"
+
+mypy = "^1.2"
+wemake-python-styleguide = "^0.17"
+flake8-pytest-style = "^1.7"
+nitpick = "^0.33"
+
+safety = "^2.3"
+
+pytest = "^7.3"
+pytest-cov = "^4.0"
+pytest-randomly = "^3.12"
+pytest-django = "^4.5"
+pytest-mock = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core>=1.5.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.nitpick]
+style = "https://raw.githubusercontent.com/wemake-services/wemake-python-styleguide/master/styles/nitpick-style-wemake.toml"
+
