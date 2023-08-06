@@ -1,0 +1,39 @@
+name: deploy
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Release version'
+        required: true
+        default: '1.2.3'
+
+jobs:
+
+  deploy:
+    runs-on: ubuntu-latest
+    environment: deploy
+    permissions:
+      id-token: write  # For PyPI trusted publishers.
+      contents: write  # For tag and release notes.
+    env:
+      SETUPTOOLS_SCM_PRETEND_VERSION: ${{ github.event.inputs.version }}
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Build and Check Package
+      uses: hynek/build-and-inspect-python-package@v1.5
+
+    - name: Download Package
+      uses: actions/download-artifact@v3
+      with:
+        name: Packages
+        path: dist
+
+    - name: Publish package to PyPI
+      uses: pypa/gh-action-pypi-publish@v1.8.5
+
+    - uses: actions-ecosystem/action-push-tag@v1
+      with:
+        tag: ${{ github.event.inputs.version }}

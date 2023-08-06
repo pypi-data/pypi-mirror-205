@@ -1,0 +1,5 @@
+pytest
+
+[dev]
+pre-commit
+tox
