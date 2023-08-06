@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: fischer
+Version: 0.1.2
+Home-page: https://github.com/Fischer-pixel/MDLS
+Author: Fischer-pixel
+License: MIT Licence
+Platform: any
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+
+<div align="center">
+
+<h1>MDLS-model-building</h1>
+本科毕业设计-多角度动态光散射建模与仿真<br><br>
+
+</div>
+
+------
+
+## 简介
+本仓库具有以下特点:
++ 仓库中的源码已整合发布在pypi中；
+```bash
+pip install fischer
+```
++ 可以个性化调节参数;
++ 可实现任意单峰、双峰分布的电场自相关曲线、等效平均粒径、体积频度分布散点图；
++ 支持加入噪声和产生数据集；
++ 整合了koppel论文中所提的累积量法;
+## 环境配置
+我们推荐你使用anaconda来配置环境。
+
+以下指令需在Python版本大于3.6的环境当中执行:
+```bash
+# 安装numpy及其核心依赖，若已安装则跳过
+pip install numpy matplotlib tqdm PyMieScat
+
+```
+
+你也可以通过pip来安装依赖：
+
+**注意**: `也可使用`requirements.txt`来安装依赖`
+
+```bash
+pip install -r requirements.txt
+```
+
+
+
