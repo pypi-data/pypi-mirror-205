@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: rmsp-gui
+Version: 0.0.1
+Summary: Resource management system GUI for python
+Home-page: https://github.com/aldenleung/rmsp-gui/
+Author: Alden Leung
+Author-email: alden.leung@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Description-Content-Type: text/markdown
+
+# Resource Management System (RMS) GUI Manual
+
+The package provides GUI support to the `rmsp` package. 
+
+## Installation
+
+```
+pip install rmsp-gui
+```
+
+## Quick start
+
+To start the RMS set up:
+
+```python
+DBPATH = "/path/to/db/"
+DBNAME = "test.db"
+DBRESDIR = "Resources/"
+LIBPATH = f"{DBPATH}RMSLibrary/"
+import sys
+import logging
+logger = logging.getLogger("rmspool")
+logger.setLevel("INFO")
+logger.addHandler(logging.StreamHandler(sys.stdout))
+
+# RMS Core
+from rmsp import rmscore
+from rmsp import rmsbuilder
+from rmsp.rmstemplate import RMSTemplateLibrary
+rms = rmscore.ResourceManagementSystem(f"{DBPATH}{DBNAME}", f"{DBPATH}{DBRESDIR}")
+rmspool = rmsbuilder.RMSProcessWrapPool(rms, 1)
+rmsb = rmsbuilder.RMSUnrunTasksBuilder(rmspool)
+rmstlib = RMSTemplateLibrary(rmsb, LIBPATH)
+
+# Interactor
+from rmsp.rmsinteractor import RMSPoolInteractionCore, RMSInteractionCore, RMSTemplateLibraryInteractionCore
+from rmsp.interactorhelper import LocalInteractor
+rms_interactor = LocalInteractor(RMSInteractionCore(rms))
+rmspool_interactor = LocalInteractor(RMSPoolInteractionCore(rmspool))
+rmstemplatelib_interactor = LocalInteractor(RMSTemplateLibraryInteractionCore(rmstlib))
+
+```
+
+
+
+#### Starting GUI in jupyter
+
+```python
+%gui qt5
+
+from rmsp.rmsgui.qt.mainapp import RMSWindow
+win = RMSWindow(rms_interactor, rmspool_interactor, rmstemplatelib_interactor)
+win.showMaximized()
+
+
+```
+
+#### Starting GUI in python script
+
+```python
+from PyQt5.QtWidgets import QApplication
+app = QApplication([])
+
+from rmsp.rmsgui.qt.mainapp import RMSWindow
+win = RMSWindow(rms_interactor, rmspool_interactor, rmstemplatelib_interactor)
+win.showMaximized()
+
+app.exec()
+```
+
+
+
+

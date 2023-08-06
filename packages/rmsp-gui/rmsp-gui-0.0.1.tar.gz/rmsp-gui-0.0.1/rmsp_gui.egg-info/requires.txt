@@ -1,0 +1,8 @@
+PyQt5
+networkx
+matplotlib
+matplotlib-venn
+genomictools
+biodata
+rmsp
+pyBigWig
