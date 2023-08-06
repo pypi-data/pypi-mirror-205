@@ -1,0 +1,41 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Dispozitivul a fost configurat deja",
+            "device_unsupported": "Dispozitivul nu este acceptat.",
+            "reauth_successful": "Re-autentificarea s-a realizat cu succes",
+            "reauth_unsuccessful": "Re-autentificarea nu a reu\u0219it, te rug\u0103m s\u0103 elimini integrarea \u0219i s\u0103 o reconfigurezi."
+        },
+        "error": {
+            "cannot_connect": "A e\u0219uat conectarea",
+            "invalid_auth": "Autentificare nevalid\u0103",
+            "unknown": "Eroare nea\u0219teptat\u0103"
+        },
+        "flow_title": "{host}",
+        "step": {
+            "confirm_discovery": {
+                "description": "Dore\u0219ti s\u0103 configurezi monitorul Nettigo Air de la {host}?"
+            },
+            "credentials": {
+                "data": {
+                    "password": "Parola",
+                    "username": "Utilizator"
+                },
+                "description": "Te rug\u0103m s\u0103 introduci numele de utilizator \u0219i parola"
+            },
+            "reauth_confirm": {
+                "data": {
+                    "password": "Parola",
+                    "username": "Utilizator"
+                },
+                "description": "Te rug\u0103m s\u0103 introduci numele de utilizator \u0219i parola corect\u0103 pentru gazda: {host}"
+            },
+            "user": {
+                "data": {
+                    "host": "Gazd\u0103 (host)"
+                },
+                "description": "Configureaz\u0103 integrarea Nettigo Air Monitor."
+            }
+        }
+    }
+}

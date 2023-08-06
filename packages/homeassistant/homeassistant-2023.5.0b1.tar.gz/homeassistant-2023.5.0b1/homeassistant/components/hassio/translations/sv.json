@@ -1,0 +1,52 @@
+{
+    "entity": {
+        "binary_sensor": {
+            "state": {
+                "name": "K\u00f6r"
+            }
+        },
+        "sensor": {
+            "agent_version": {
+                "name": "OS Agent version"
+            },
+            "cpu_percent": {
+                "name": "CPU-procent"
+            },
+            "disk_free": {
+                "name": "Fri disk"
+            },
+            "disk_total": {
+                "name": "Total disk"
+            },
+            "disk_used": {
+                "name": "Disk anv\u00e4nds"
+            },
+            "memory_percent": {
+                "name": "Minnesprocent"
+            },
+            "version": {
+                "name": "Version"
+            },
+            "version_latest": {
+                "name": "Nyaste versionen"
+            }
+        }
+    },
+    "system_health": {
+        "info": {
+            "agent_version": "Agentversion",
+            "board": "Kort",
+            "disk_total": "Total disk",
+            "disk_used": "Disk som anv\u00e4nds",
+            "docker_version": "Docker-version",
+            "healthy": "Frisk",
+            "host_os": "V\u00e4rdens operativsystem",
+            "installed_addons": "Installerade till\u00e4gg",
+            "supervisor_api": "Supervisor API",
+            "supervisor_version": "Supervisor version",
+            "supported": "St\u00f6ds",
+            "update_channel": "Uppdatera kanal",
+            "version_api": "Version API"
+        }
+    }
+}

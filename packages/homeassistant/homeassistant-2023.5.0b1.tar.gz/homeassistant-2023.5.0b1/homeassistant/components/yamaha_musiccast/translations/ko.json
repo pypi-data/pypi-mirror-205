@@ -1,0 +1,23 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "\uae30\uae30\uac00 \uc774\ubbf8 \uad6c\uc131\ub418\uc5c8\uc2b5\ub2c8\ub2e4",
+            "yxc_control_url_missing": "\uc81c\uc5b4 URL\uc740 ssdp \uc124\uba85\uc5d0 \uc81c\uacf5\ub418\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4."
+        },
+        "error": {
+            "no_musiccast_device": "\uc774 \uc7a5\uce58\ub294 MusicCast \uc7a5\uce58\uac00 \uc544\ub2cc \uac83 \uac19\uc2b5\ub2c8\ub2e4."
+        },
+        "flow_title": "MusicCast: {name}",
+        "step": {
+            "confirm": {
+                "description": "\uc124\uc815\uc744 \uc2dc\uc791\ud558\uc2dc\uaca0\uc2b5\ub2c8\uae4c?"
+            },
+            "user": {
+                "data": {
+                    "host": "\ud638\uc2a4\ud2b8"
+                },
+                "description": "MusicCast\ub97c Home Assistant\uc640 \ud1b5\ud569\ud558\ub3c4\ub85d \uc124\uc815\ud569\ub2c8\ub2e4."
+            }
+        }
+    }
+}

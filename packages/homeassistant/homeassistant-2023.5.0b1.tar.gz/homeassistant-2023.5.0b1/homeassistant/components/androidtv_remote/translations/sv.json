@@ -1,0 +1,34 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Enheten \u00e4r redan konfigurerad",
+            "cannot_connect": "Det gick inte att ansluta"
+        },
+        "error": {
+            "cannot_connect": "Det gick inte att ansluta",
+            "unknown": "Ov\u00e4ntat fel"
+        },
+        "flow_title": "{namn}",
+        "step": {
+            "pair": {
+                "data": {
+                    "pin": "Pin kod"
+                },
+                "description": "Ange PIN-koden som visas p\u00e5 din TV"
+            },
+            "reauth_confirm": {
+                "description": "Du m\u00e5ste para ihop igen med Android TV ( {name} )."
+            },
+            "user": {
+                "data": {
+                    "host": "V\u00e4rd"
+                },
+                "description": "Ange IP-adressen f\u00f6r den Android TV som du vill l\u00e4gga till i Home Assistant. Den sl\u00e5s p\u00e5 och en parningskod kommer att visas p\u00e5 den som du m\u00e5ste ange p\u00e5 n\u00e4sta sk\u00e4rm."
+            },
+            "zeroconf_confirm": {
+                "description": "Vill du l\u00e4gga till Android TV ( {name} ) till Home Assistant? Den sl\u00e5s p\u00e5 och en parningskod kommer att visas p\u00e5 den som du m\u00e5ste ange p\u00e5 n\u00e4sta sk\u00e4rm.",
+                "title": "Uppt\u00e4ckte Android TV"
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "entity": {
+        "select": {
+            "pipeline": {
+                "name": "Pipeline d'assistant",
+                "state": {
+                    "preferred": "Pr\u00e9f\u00e9r\u00e9"
+                }
+            }
+        }
+    }
+}
