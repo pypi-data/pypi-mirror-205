@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: pykuda2
+Version: 0.1.1
+Summary: 
+License: MIT
+Keywords: kuda,pykuda,kudapy
+Author: Jennifer
+Author-email: st.jennyandy@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: httpx (>=0.24.0,<0.25.0)
+Description-Content-Type: text/markdown
+
+# PyKuda2
+A developer friendly wrapper for kuda API 
+
+## Installation
+```bash
+$ pip install pykuda2
+```
+
+## Documentation
+You can find the documentation for this package [here](https://gray-adeyi.github.io/pykuda2-docs/)
