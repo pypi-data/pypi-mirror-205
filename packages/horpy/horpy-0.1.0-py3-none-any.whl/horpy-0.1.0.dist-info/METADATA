@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: horpy
+Version: 0.1.0
+Summary: Um pacote que plota gráficos 2D para a função radial do átomo de hidrogênio e 3D para a parte angular.
+Author: Ramon Medeiro
+Author-email: r.medeiro10@gmail.com
+Requires-Python: >=3.10,<3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: matplotlib (>=3.7.1,<4.0.0)
+Requires-Dist: numpy (>=1.24.3,<2.0.0)
+Requires-Dist: pyqt5 (>=5.15.9,<6.0.0)
+Requires-Dist: scipy (>=1.10.1,<2.0.0)
+Requires-Dist: seaborn (>=0.12.2,<0.13.0)
+Description-Content-Type: text/markdown
+
+# HPy
+
+HPy is a script created for educational purposes. It plots graphs of the radial and angular part of the wave function of the hydrogen atom, a topic covered in early quantum chemistry courses. 
+Enjoy!!
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/102380417/160179534-4399ec3f-2da1-4dff-8e96-21b6773a63b5.png" width="500px" />
+</div>
+
+# Installation
+
+```
+$ pip install horpy 
+or
+$ pip3 install horpy
+```
+
+# Examples
+
+In the first example, it is the radial part of the wave function of the hydrogen atom. The quantum numbers n and l are 2 and 0, respectively.
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/102380417/160179600-fa6fa5ef-dff7-4a84-9463-de1ed2fa2bf4.png" width="450px" />
+</div>
+
+In the second example, it is the angular part of the wave function of the hydrogen atom. The quantum numbers l and m are 3 and 0, respectively.
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/102380417/160179675-dc7be4f6-ac05-4e69-a350-b9c902e59c7a.png" width="450px" />
+</div>
+
