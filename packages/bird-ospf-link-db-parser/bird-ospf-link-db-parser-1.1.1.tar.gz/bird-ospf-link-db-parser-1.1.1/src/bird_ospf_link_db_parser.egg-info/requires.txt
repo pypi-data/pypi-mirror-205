@@ -1,0 +1,13 @@
+python-dotenv
+pytz
+python-dateutil
+jsonschema
+
+[dev]
+build
+twine
+
+[test]
+pytest>=6
+coverage
+freezegun
