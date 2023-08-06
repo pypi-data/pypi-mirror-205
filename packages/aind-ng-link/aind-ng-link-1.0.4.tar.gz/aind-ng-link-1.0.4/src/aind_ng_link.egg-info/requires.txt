@@ -1,0 +1,15 @@
+pandas
+sphinx
+pint>=0.18
+numpy>=1.21.6
+neuroglancer>=2.36
+xmltodict>=0.13.0
+
+[dev]
+black
+coverage
+flake8
+interrogate
+isort
+Sphinx
+pygit2

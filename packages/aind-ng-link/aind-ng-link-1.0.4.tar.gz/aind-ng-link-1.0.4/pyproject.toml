@@ -1,0 +1,81 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aind-ng-link"
+description = "Python package for the generation of neuroglancer links"
+license = {text = "MIT"}
+requires-python = ">=3.7"
+authors = [
+    {name = "David Feng", email="david.feng@alleninstitute.org"},
+    {name = "Sharmishtaa Seshamani", email="sharmishtaas@alleninstitute.org"},
+    {name = "Camilo Laiton", email="camilo.laiton@alleninstitute.org"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3"
+]
+dynamic = ["version", "readme"]
+
+dependencies = [
+    'pandas',
+    'sphinx',
+    'pint >= 0.18',
+    'numpy >= 1.21.6',
+    'neuroglancer >= 2.36', 
+    'xmltodict >= 0.13.0'
+]
+
+[project.optional-dependencies]
+dev = [
+    'black',
+    'coverage',
+    'flake8',
+    'interrogate',
+    'isort',
+    'Sphinx',
+    'pygit2'
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.dynamic]
+version = {attr = "ng_link.__version__"}
+readme = {file = ["README.md"]}
+
+[tool.black]
+line-length = 79
+target_version = ['py36']
+exclude = '''
+
+(
+  /(
+      \.eggs         # exclude a few common directories in the
+    | \.git          # root of the project
+    | \.hg
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | _build
+    | build
+    | dist
+  )/
+  | .gitignore
+)
+'''
+
+[tool.coverage.run]
+omit = ["*__init__*"]
+source = ["ng_link", "tests"]
+
+[tool.coverage.report]
+exclude_lines = ["if __name__ == .__main__.:"]
+fail_under = 0
+
+[tool.isort]
+line_length = 79
+
+[tool.interrogate]
+exclude = ["setup.py", "docs", "build", "src/ng_link/scripts/"]
+fail-under = 100
