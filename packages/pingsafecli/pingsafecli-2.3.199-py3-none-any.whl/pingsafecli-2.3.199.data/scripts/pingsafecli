@@ -1,0 +1,14 @@
+#!python
+from pingsafecli.main import PingSafeCli
+import warnings
+import sys
+import argparse
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description='Code Scanner')
+    parser.add_argument('rego_file_path', type=str, help='path to rego file')
+    parser.add_argument('repo_path', type=str, help='path to rego file')
+    args = parser.parse_args()
+    with warnings.catch_warnings():
+        warnings.simplefilter("ignore", category=SyntaxWarning)
+        sys.exit(PingSafeCli().run(args.repo_path, args.rego_file_path))
