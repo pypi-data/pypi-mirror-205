@@ -1,0 +1,12 @@
+soda/__init__.py,sha256=EMD9lJeZ9onQLh6QhfPslPh2eEGQ-HI4OjeEFyiY5vU,274
+soda/config_mod.py,sha256=sARVTFqFDF0mdqLd-GY-Qp7gkO46jOiuGI5U4IfmGtk,123
+soda/custom_tags.py,sha256=m91wl8Pc9j1a0sRt_ZnndgAkVK1n9TOrUYn13V2LTuE,2081
+soda/paths.py,sha256=DNJH3mVwJBzs5gvtD5_vEisgBg936mmp3qWBcALs9jM,7353
+soda/point.py,sha256=F0sqct1krvtu6arigASk4_f_EXbdcnrwGewVoQDannk,11905
+soda/tags.py,sha256=QTD8x3tnIcn_xj9dmCPz_q9jlTHDJfacnwjkpDaPwNo,8656
+soda/utils.py,sha256=w0TzALHB7SiQ_9pNt1l9t2lCysBgZUEifCx_-s2IGbg,1551
+soda/xml_parse.py,sha256=UOCDIVY3SDAHlzMhWCPoa1ubxrCfwrHdC2vE1JMYrEo,924
+soda_svg-1.1.5.dist-info/LICENSE,sha256=R4GoPJpzVG-ZdT75me9KbSk9QjuLEpD1bWj8-R6kIKk,1073
+soda_svg-1.1.5.dist-info/METADATA,sha256=GVDH4H_us4Puf3w4cJ446p45n4lbzKbcOllqKBpespA,11707
+soda_svg-1.1.5.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+soda_svg-1.1.5.dist-info/RECORD,,
