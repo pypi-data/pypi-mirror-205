@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: FisInMa
+Version: 0.1.0
+Summary: Optimal experimental design utilizing the Fischer information matrix
+Project-URL: Home-page, https://github.com/Spatial-Systems-Biology-Freiburg/Model-Design-Fischer-Information-Matrix
+Project-URL: Bug Tracker, https://github.com/Spatial-Systems-Biology-Freiburg/Model-Design-Fischer-Information-Matrix/issues
+Project-URL: Documentation, https://spatial-systems-biology-freiburg.github.io/FisInMa/
+Project-URL: Source code, https://github.com/Spatial-Systems-Biology-Freiburg/FisInMa
+Author-email: Jonas Pleyer <jonas.pleyer@fdm.uni-freiburg.de>, Polina Gaindrik <p.gaindrik@tsenso.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pydantic
+Requires-Dist: pymongo
+Requires-Dist: pytest
+Requires-Dist: scipy
+Description-Content-Type: text/markdown
+
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Spatial-Systems-Biology-Freiburg/FisInMa/build.yml?style=flat-square)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Spatial-Systems-Biology-Freiburg/FisInMa/sphinx.yml?label=docs&style=flat-square)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Spatial-Systems-Biology-Freiburg/FisInMa/test.yml?label=tests&style=flat-square)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Spatial-Systems-Biology-Freiburg/FisInMa/linting.yml?label=checks&style=flat-square)
+
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/fisinma?style=flat-square)
+![PyPI - License](https://img.shields.io/pypi/l/fisinma?style=flat-square)
+
+# Fischer Information Matrix (FisInMa)
+This tools analyzes ODEs for optimality criteria and maximes their Fischer Information Matrix (see [Wikipedia](https://en.wikipedia.org/wiki/Fisher_information) )
+
+Find the documentation on [spatial-systems-biology-freiburg.github.io/FisInMa](https://spatial-systems-biology-freiburg.github.io/FisInMa/)
+
+The name of the package is still undecided and is tracked under [Issue #24](https://github.com/spatial-systems-biology-freiburg/FisInMa/issues/24).
