@@ -1,0 +1,16 @@
+unisci/__init__.py,sha256=GWl2ZlbJV8cuqkrkvYWTo1xdXSmgcD78NsOhl7Oy98I,87
+unisci/constants.py,sha256=YNwIOgp2y_6vQJDd5cuSAF9Bo0z9DB0UAQINTx37dBM,386
+unisci/conversion_factors.py,sha256=-eE74XY5xqkGCB-FB5e2DSmvw46SPFESl2fs_ETw3NE,1508
+unisci/error.py,sha256=DpMmcVQSOrhR8QjPI90LDtNmbov-_qm-rPEcxS6u4DU,607
+unisci/metric.py,sha256=HEumij2OlqNtTvL6yGnXsO3GPVM9WFEwzCQvJ7Kcn6o,1840
+unisci/types.py,sha256=oBvzkwRBL15oM-ga3p0GmFYrCrrq0Mt0Nr-3VD_Z_7c,38836
+unisci/formulas/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+unisci/formulas/chemistry.py,sha256=28Bx9NFJdmqEZv5JWcZCISnZUcupg5U4T5Ecw1xyuAY,8112
+unisci/periodic/periodic-table-lookup.json,sha256=fqMkUXmvR04Z6Pyf-qJLaEDmrGXYCTwWVrueQYF9ty0,259692
+unisci/periodic/periodic-table-numbers.json,sha256=qNf_Y5SKdLROG9-TvUGEwRpva97LJLBkryubuSaKbyk,2257
+unisci/periodic/periodic-table-symbols.json,sha256=wSkd85NPEofjZTF12Ay4Z6wIZfdgosyPf9E6gcOMmTg,2233
+unisci-1.1.1.dist-info/LICENSE,sha256=RkmbR0t-OTj6vs_LhcDOKuyUqO_Wb7VzSgyi0nBlOcE,1071
+unisci-1.1.1.dist-info/METADATA,sha256=YHePrMjhxcLhRlTRY5SGPnuEAwvobJmcrv2zTDtRx_U,1457
+unisci-1.1.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+unisci-1.1.1.dist-info/top_level.txt,sha256=0DgWEJgR55xJanVNy5-GQl7MLxh1mydDlBrIpIYhXxc,7
+unisci-1.1.1.dist-info/RECORD,,
