@@ -1,0 +1,9 @@
+run: ./dist/{{ data.new_app_name }}_darwin_amd64_v1/{{ data.new_app_name }}
+	./dist/{{ data.new_app_name }}_darwin_amd64_v1/{{ data.new_app_name }}
+
+./dist/{{ data.new_app_name }}_darwin_amd64_v1/{{ data.new_app_name }}: main.go cmd/*.go
+	gofumpt -w main.go
+	goreleaser build --single-target --snapshot --clean
+
+clean:
+	rm -rf dist
