@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: saheffects
+Version: 0.1.1
+Summary: saheffects  is a Python package for applying various image filters to images.
+Home-page: https://github.com/SahSofts/saheffects
+Author: SahSofts
+Author-email: sahsofts97@gmail.com
+License: MIT license
+Keywords: saheffects
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+==========
+saheffects
+==========
+
+
+.. image:: https://img.shields.io/pypi/v/saheffects.svg
+        :target: https://pypi.python.org/pypi/saheffects
+
+.. image:: https://img.shields.io/travis/SahSofts/saheffects.svg
+        :target: https://travis-ci.com/SahSofts/saheffects
+
+.. image:: https://readthedocs.org/projects/saheffects/badge/?version=latest
+        :target: https://saheffects.readthedocs.io/en/latest/?version=latest
+        :alt: Documentation Status
+
+
+.. image:: https://pyup.io/repos/github/SahSofts/saheffects/shield.svg
+     :target: https://pyup.io/repos/github/SahSofts/saheffects/
+     :alt: Updates
+
+
+
+saheffects  is a Python package for applying various image filters to images.
+
+
+* Free software: MIT license
+* Documentation: https://saheffects.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+- SahSofts <sahsofts97@gmail.com>
+- OpenCv   <https://opencv.org/>
+- saheffects
+
+
+=======
+History
+=======
+
+0.1.0 (2023-04-29)
+------------------
+
+* First release on PyPI.
