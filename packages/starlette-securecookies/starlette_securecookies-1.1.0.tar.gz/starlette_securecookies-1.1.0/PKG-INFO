@@ -1,0 +1,129 @@
+Metadata-Version: 2.1
+Name: starlette-securecookies
+Version: 1.1.0
+Summary: Secure cookie middleware for Starlette applications.
+Keywords: starlette fastapi middleware encryption cookies
+Home-page: https://securecookies.thearchitector.dev
+Author-Email: Elias Gabriel <me@eliasfgabriel.com>
+License: BSD 3-Clause License
+        
+        Copyright (c) 2022, Elias Gabriel
+        All rights reserved.
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:
+        
+        1. Redistributions of source code must retain the above copyright notice, this
+           list of conditions and the following disclaimer.
+        
+        2. Redistributions in binary form must reproduce the above copyright notice,
+           this list of conditions and the following disclaimer in the documentation
+           and/or other materials provided with the distribution.
+        
+        3. Neither the name of the copyright holder nor the names of its
+           contributors may be used to endorse or promote products derived from
+           this software without specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+        AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+Project-URL: Homepage, https://securecookies.thearchitector.dev
+Project-URL: Documentation, https://securecookies.thearchitector.dev
+Project-URL: Repository, https://github.com/thearchitector/starlette-securecookies
+Project-URL: Changelog, https://github.com/thearchitector/starlette-securecookies/blob/main/CHANGELOG.md
+Requires-Python: ~=3.7
+Requires-Dist: starlette>=0.6.1
+Requires-Dist: cryptography>=2.2
+Requires-Dist: typing_extensions; python_version < "3.8"
+Requires-Dist: starlette-csrf>=1.4.2; extra == "csrf"
+Provides-Extra: csrf
+Description-Content-Type: text/markdown
+
+# starlette-securecookies
+
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/thearchitector/starlette-securecookies/CI.yaml?label=tests&style=flat-square)
+![PyPI - Downloads](https://img.shields.io/pypi/dw/starlette-securecookies?style=flat-square)
+![GitHub](https://img.shields.io/github/license/thearchitector/starlette-securecookies?style=flat-square)
+[![Buy a tree](https://img.shields.io/badge/Treeware-%F0%9F%8C%B3-lightgreen?style=flat-square)](https://ecologi.com/eliasgabriel?r=6128126916bfab8bd051026c)
+
+Customizable middleware for adding automatic cookie encryption and decryption to Starlette applications.
+
+Tested support on Python 3.7, 3.8, 3.9, and 3.10, 3.11 on macOS, Windows, and Linux.
+
+## How it works?
+
+```mermaid
+sequenceDiagram
+    Browser->>+Middleware: Encrypted 'Cookie' header
+    Middleware->>+Application: Decrypted cookies
+    Application->>-Middleware: Plaintext cookies
+    Middleware->>-Browser: Encrypted 'Set-Cookie' header
+    Note over Application: *The Application may be your service<br />or any additional middleware.
+```
+
+For any incoming cookies:
+
+1. Requests sent from the client's browser to your application are intercepted by `SecureCookiesMiddleware`.
+2. All `Cookie` headers are parsed and filter. Only cookies in the `included_cookies` and `excluded_cookies` parameters are parsed. All cookies are included by default.
+3. The cookies are decrypted. If cookie cannot be decrypted, or is otherwise invalid, it is discarded by default (`discard_invalid=True`).
+4. Any included and valid encrypted cookies in the ASGI request scope are replaced by the decrypted ones.
+5. The request scope is passed to any future middleware, and eventually your application. Cookies can be read normally anywhere downstream.
+
+For any outgoing cookies:
+
+7. Your application sets cookies with `response.set_cookie` as usual.
+8. Other middleware run and add additional cookies, like [SessionMiddleware](https://www.starlette.io/middleware/#sessionmiddleware).
+9. All responses returned by your application are intercepted by `SecureCookiesMiddleware`.
+10. Cookies in the `included_cookies` and `excluded_cookies` parameters are re-encrypted, and their attributes (like `"SameSite"` and `"HttpOnly"`) are overridden by the parameters set in `SecureCookiesMiddleware` if set.
+11. The cookies in the response are replaced by the re-encrypted cookies, and the response is eventually propagated to the client's browser.
+
+## Installation
+
+```sh
+$ pdm add starlette-securecookies
+# or
+$ python -m pip install --user starlette-securecookies
+```
+
+## Usage
+
+This is a Starlette-based middleware, so it can be used in any Starlette application or Starlette-based framework (like [FastAPI](https://fastapi.tiangolo.com/advanced/middleware/)).
+
+For example,
+
+```python
+from starlette.applications import Starlette
+from starlette.middleware import Middleware
+
+from securecookies import SecureCookiesMiddleware
+
+middleware = [
+    Middleware(
+        SecureCookiesMiddleware, secrets=["SUPER SECRET SECRET"],
+        # your other middleware
+    )
+]
+
+app = Starlette(routes=..., middleware=middleware)
+```
+
+Note that if you're using another middleware that injects cookies into the response (such as [SessionMiddleware](https://www.starlette.io/middleware/#sessionmiddleware)), you have to make sure `SecureCookiesMiddleware` executes _after_ it so the cookie is present at encryption-time. Counter intuitively, in practice this means ensuring `SecureCookiesMiddleware` is _first_ in the list of middleware.
+
+### Extras
+
+`starlette-securecookies` provides some extras that introduce or patch secure cookie functionality into existing tools. They all reside in the `securecookies.extras` module. Currently there is only one, but more are welcome by recommendation or Pull Request!
+
+- **`csrf.SecureCSRFMiddleware`**: Adds compatibility to the CSRF middleware provided by [starlette_csrf](https://github.com/frankie567/starlette-csrf). To use it, simply add it to your list of middleware (keep in mind the ordering). If you don't want to specify `starlette_csrf` as a direct dependency, you can also install it through the `[csrf]` package extra.
+
+## License
+
+This software is licensed under the [BSD 3-Clause License](LICENSE).
+
+This package is Treeware. If you use it in production, consider buying the world a tree to thank me for my work. By contributing to my forest, you’ll be creating employment for local families and restoring wildlife habitats.

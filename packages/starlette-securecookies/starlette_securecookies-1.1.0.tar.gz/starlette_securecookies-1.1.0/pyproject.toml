@@ -1,0 +1,68 @@
+[project]
+name = "starlette-securecookies"
+version = "1.1.0"
+description = "Secure cookie middleware for Starlette applications."
+authors = [
+    { name = "Elias Gabriel", email = "me@eliasfgabriel.com" },
+]
+keywords = [
+    "starlette",
+    "fastapi",
+    "middleware",
+    "encryption",
+    "cookies",
+]
+readme = "README.md"
+requires-python = "~=3.7"
+dependencies = [
+    "starlette>=0.6.1",
+    "cryptography>=2.2",
+    "typing_extensions; python_version < '3.8'",
+]
+
+[project.license]
+file = "LICENSE"
+
+[project.optional-dependencies]
+csrf = [
+    "starlette-csrf>=1.4.2",
+]
+
+[project.urls]
+homepage = "https://securecookies.thearchitector.dev"
+documentation = "https://securecookies.thearchitector.dev"
+repository = "https://github.com/thearchitector/starlette-securecookies"
+changelog = "https://github.com/thearchitector/starlette-securecookies/blob/main/CHANGELOG.md"
+
+[tool.pdm.build]
+includes = [
+    "CHANGELOG.md",
+    "securecookies/",
+]
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pytest~=7.2.2",
+    "pdoc~=13.1.0",
+    "httpx~=0.23.3",
+    "itsdangerous~=2.1.2",
+]
+
+[tool.pdm.scripts]
+docs = "pdoc -o docs --no-search --mermaid securecookies"
+
+[tool.pytest.ini_options]
+addopts = "-svv"
+testpaths = [
+    "tests",
+]
+
+[tool.mypy]
+python_version = "3.7"
+strict = true
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
