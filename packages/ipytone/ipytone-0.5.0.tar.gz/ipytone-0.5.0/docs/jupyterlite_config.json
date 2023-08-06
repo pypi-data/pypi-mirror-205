@@ -1,0 +1,5 @@
+{
+  "XeusPythonEnv": {
+    "environment_file": "environment-jupyterlite.yml"
+  }
+}
