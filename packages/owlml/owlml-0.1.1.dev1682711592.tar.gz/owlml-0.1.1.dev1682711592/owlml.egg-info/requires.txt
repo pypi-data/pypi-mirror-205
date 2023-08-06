@@ -1,0 +1,12 @@
+cvat-sdk<2.4.0
+fire
+randomname
+
+[dev]
+black
+isort
+jupyter
+pydocstyle
+pylint
+pytest
+pytest-cov
