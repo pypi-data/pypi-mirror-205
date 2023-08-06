@@ -1,0 +1,10 @@
+randomgroups/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+randomgroups/_version.py,sha256=C_sEDFDxz5lXxlK-Oo8_UXoTORDgjzXO4KLRiUAkVKA,160
+randomgroups/algorithm.py,sha256=l_CbhRa87sbeieiNQPNOOFQOszIQS6f6mzPbH7Mhw34,8102
+randomgroups/create_matching.py,sha256=j6p6fN1KuxaxOyy6p9aKKeO4VQ8hXj12gMT6MQP_azY,11066
+randomgroups/io.py,sha256=d5Ai2Mn2LxTuSmO5xuont-xIaZjHwlehUIpXWAJFDlI,6186
+randomgroups-0.0.4.dist-info/LICENSE,sha256=3jWcdg1MESFzifWqCnYYifmz2ljWGpncuV5_veQM-z8,1070
+randomgroups-0.0.4.dist-info/METADATA,sha256=mBYcKRAkcIIlzRrdJjRqNxvm2i3Bw8LW7fofpdM9KIU,4993
+randomgroups-0.0.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+randomgroups-0.0.4.dist-info/top_level.txt,sha256=snXnmA2pXqQ9j6L-rUGa7r-gDIvKNq5R9KEQs9Viy30,13
+randomgroups-0.0.4.dist-info/RECORD,,
