@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: oscliantivirus
+Version: 0.0.1
+Summary: 🛡️🛠️ "oscliantivirus" is an advanced antivirus package designed for both developers and standard users to provide custom security features for their systems.
+Home-page: https://github.com/yourusername/oscliantivirus
+Author: Juste Elysée MALNADILA
+Author-email: malandilajusteelysee@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+"OS-CLI-antivirus" is an advanced, flexible and full-fledged antivirus package designed to provide a comprehensive security solution for both developers and standard users alike. With its cutting-edge technology, "Oscliantivirus" offers unparalleled security features that are tailor-made to address a wide range of security threats in modern operating systems. 
+
+In addition to its robust security capabilities, "Oscliantivirus" boasts a user-friendly interface that provides users with an intuitive and customizable experience. This includes an optional Graphical User Interface (GUI) for standard users who may not be familiar with command-line tools. 
+
+"Oscliantivirus" is specifically designed to enhance operating system security defense by providing customizable and advanced security measures. It can be easily integrated into existing systems and is compatible with a wide range of operating systems, including Linux, Windows, and macOS. 
+
+With "Oscliantivirus", developers can enjoy advanced features such as real-time monitoring, file and memory scanning, and rootkit detection. It also includes a range of customizable features, including the ability to exclude files or directories from scans, schedule scans at specific intervals, and set up notifications for potential security threats.
+
+For standard users, "Oscliantivirus" provides an easy-to-use interface that allows for customizable scans and real-time protection. Users can easily configure the software to meet their specific security needs, without having to possess advanced technical knowledge.
+
+Overall, "Oscliantivirus" is a powerful and adaptable security solution that provides cutting-edge security technology to developers and standard users alike. Whether you're looking for an antivirus solution for your personal or professional needs, "Oscliantivirus" is the perfect choice for enhancing your operating system's security defense.
