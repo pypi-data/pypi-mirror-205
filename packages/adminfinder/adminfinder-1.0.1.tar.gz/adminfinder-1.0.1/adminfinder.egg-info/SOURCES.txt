@@ -1,0 +1,12 @@
+LICENSE
+LICENSE.txt
+README.txt
+setup.py
+adminfinder/__init__.py
+adminfinder/app.py
+adminfinder.egg-info/PKG-INFO
+adminfinder.egg-info/SOURCES.txt
+adminfinder.egg-info/dependency_links.txt
+adminfinder.egg-info/entry_points.txt
+adminfinder.egg-info/requires.txt
+adminfinder.egg-info/top_level.txt
