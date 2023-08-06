@@ -1,0 +1,17 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Dispozitivul a fost configurat deja"
+        },
+        "error": {
+            "not_found": "Nu s-au descoperit dispozitive in re\u021bea"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "code": "Codul sta\u021biei"
+                }
+            }
+        }
+    }
+}

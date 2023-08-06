@@ -1,0 +1,47 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Dispozitivul a fost configurat deja",
+            "already_in_progress": "Fluxul de configura\u021bie este deja \u00een desf\u0103\u0219urare",
+            "reauth_successful": "Re-autentificarea s-a realizat cu succes"
+        },
+        "error": {
+            "connection_error": "Conexiunea la ESP nu se poate realiza. Asigur\u0103-te c\u0103 fi\u0219ierul YAML con\u021bine o linie cu \u201eapi:\u201d.",
+            "invalid_auth": "Autentificare nevalid\u0103",
+            "invalid_psk": "Cheia de criptare a transportului nu este valid\u0103. Te rug\u0103m s\u0103 verifici c\u0103 este cea pe care ai specificat-o \u00een configura\u021bie",
+            "resolve_error": "Nu se poate rezolva adresa ESP-ului. Dac\u0103 aceast\u0103 eroare persist\u0103, te rug\u0103m s\u0103 setezi o adrsea IP static\u0103."
+        },
+        "flow_title": "{name}",
+        "step": {
+            "authenticate": {
+                "data": {
+                    "password": "Parola"
+                },
+                "description": "Te rug\u0103m s\u0103 introduci parola pe care ai setat-o in configura\u021bia pentru {name}."
+            },
+            "discovery_confirm": {
+                "description": "Dore\u0219ti s\u0103 adaugi nodul ESPHome `{name}` \u00een Home Assistant?",
+                "title": "Nod ESPHome descoperit"
+            },
+            "encryption_key": {
+                "data": {
+                    "noise_psk": "Cheie de criptare"
+                },
+                "description": "Te rug\u0103m s\u0103 introduci cheia de criptare pentru {name}. O po\u021bi reg\u0103si \u00een panoul de bord ESPHome sau \u00een configura\u021bia dispozitivului t\u0103u."
+            },
+            "reauth_confirm": {
+                "data": {
+                    "noise_psk": "Cheie de criptare"
+                },
+                "description": "Dispozitivul ESPHome {name} a activat criptarea transportului sau a schimbat cheia de criptare. Te rug\u0103m s\u0103 introduci cheia actualizat\u0103. O po\u021bi reg\u0103si \u00een panoul de bord ESPHome sau \u00een configura\u021bia dispozitivului t\u0103u."
+            },
+            "user": {
+                "data": {
+                    "host": "Gazd\u0103 (host)",
+                    "port": "Port"
+                },
+                "description": "Te rug\u0103m s\u0103 introduci set\u0103rile de conexiune pentru nodul t\u0103u [ESPHome]({esphome_url})."
+            }
+        }
+    }
+}

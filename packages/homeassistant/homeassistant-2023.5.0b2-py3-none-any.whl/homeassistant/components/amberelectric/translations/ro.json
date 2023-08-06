@@ -1,0 +1,20 @@
+{
+    "config": {
+        "step": {
+            "site": {
+                "data": {
+                    "site_name": "Nume sit",
+                    "site_nmi": "NMI sit"
+                },
+                "description": "Selecteaz\u0103 NMI-ul sitului pe care dore\u0219ti s\u0103-l adaugi"
+            },
+            "user": {
+                "data": {
+                    "api_token": "Token API",
+                    "site_id": "ID sit"
+                },
+                "description": "Mergi la {api_url} pentru a genera o cheie de API"
+            }
+        }
+    }
+}
