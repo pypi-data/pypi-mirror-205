@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: resource-monitoring-bon
+Version: 1.0.0.4
+Summary: Resource Monitoring Package
+Home-page: 
+Author: bon
+Author-email: kbsrnqhstjr@naver.com
+License: MIT
+Requires-Python: >=3
+Requires-Dist: certifi (==2022.12.7)
+Requires-Dist: cffi (==1.15.1)
+Requires-Dist: charset-normalizer (==3.1.0)
+Requires-Dist: cryptography (==3.*)
+Requires-Dist: ecdsa (==0.18.0)
+Requires-Dist: idna (==3.4)
+Requires-Dist: keycloak-client (==0.15.4)
+Requires-Dist: psutil (==5.9.3)
+Requires-Dist: pyasn1 (==0.4.8)
+Requires-Dist: pycparser (==2.21)
+Requires-Dist: pydantic (==1.10.5)
+Requires-Dist: PyJWT (==2.6.0)
+Requires-Dist: python-jose (==3.3.0)
+Requires-Dist: pywin32 (==305)
+Requires-Dist: requests (==2.25.*)
+Requires-Dist: rsa (==4.9)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: slack-sdk (==3.20.1)
+Requires-Dist: typing-extensions (==4.5.0)
+Requires-Dist: urllib3 (==1.26.14)
+
