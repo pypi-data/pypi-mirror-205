@@ -1,0 +1,13 @@
+rigatoni/__init__.py,sha256=imYlV06PkpJIMj5UgSZA2JM3C01LWutSdT2ueGhO3KE,849
+rigatoni/core.py,sha256=gL-YuS3xhy2bG54BQHa62pEMRNF-s0XolA9meqjryoM,25806
+rigatoni/delegates.py,sha256=nsdaPk8R5EBubkWQTJ1q7qZdpPzCcIDJAVBXHcXiXmY,1197
+rigatoni/noodle_objects.py,sha256=l3ryOQqmGIxpvpos4zMKP5AKK75PWMnoGcjmHnayZgo,13260
+rigatoni/server.py,sha256=yt1403NMp0KUsIGbTs5PU4dirVURwY57-1eG8USGZdY,3332
+rigatoni/geometry/__init__.py,sha256=TA2qjmEgYCNTlft8jZp3Yg1FlwO8qUM5F7ZAJJvi7xE,515
+rigatoni/geometry/byte_server.py,sha256=m2JVcpztjU11wxC3Zf9L4swqvUot71qWwtcan23DcB8,4285
+rigatoni/geometry/geometry_creation.py,sha256=2qH1tRqA1DYVLsbLT5cFTObhpgnyuGCNjXe8EXVAiQE,23858
+rigatoni/geometry/geometry_objects.py,sha256=UlZX10pqnXWNk6_4vCIP9-UHo_RKLFFIx7-Abogl3ro,836
+rigatoni-0.1.5.dist-info/LICENSE,sha256=wbydzE_MPD8huBXJQgbT-xopCoISSvqyOA1beDlbb_E,1101
+rigatoni-0.1.5.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+rigatoni-0.1.5.dist-info/METADATA,sha256=8KlWcHYW8QRt9VFPnfW1RdagqZIA5IwGZwL_qc-6Mvk,5540
+rigatoni-0.1.5.dist-info/RECORD,,
