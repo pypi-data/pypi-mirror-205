@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+burrowkv/__init__.py
+burrowkv/burrowkv.py
+burrowkv.egg-info/PKG-INFO
+burrowkv.egg-info/SOURCES.txt
+burrowkv.egg-info/dependency_links.txt
+burrowkv.egg-info/top_level.txt
+tests/__init__.py
+tests/test_burrowkv.py
