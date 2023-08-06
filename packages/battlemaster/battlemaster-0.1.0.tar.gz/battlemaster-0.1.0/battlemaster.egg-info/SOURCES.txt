@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+battlemaster/__init__.py
+battlemaster.egg-info/PKG-INFO
+battlemaster.egg-info/SOURCES.txt
+battlemaster.egg-info/dependency_links.txt
+battlemaster.egg-info/top_level.txt
+test/test_battlemaster.py
