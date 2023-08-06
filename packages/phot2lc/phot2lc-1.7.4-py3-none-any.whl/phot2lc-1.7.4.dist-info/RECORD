@@ -1,0 +1,16 @@
+phot2lc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+phot2lc/config.dat,sha256=xso3z2QfvMiSMOJSW2y2TJbHe5O6adqPwkcs0Ou25kU,281
+phot2lc/photfunc.py,sha256=eS3VD-4L7FnkG_OFltc9W_7Ci0aodfneRUhIXnepTjA,17242
+phot2lc/teledat.py,sha256=O4Cu3FKj7g9lPRsIofrmQoTcwgGWqMhLLRO2qFQLGBg,4266
+phot2lc/ucm_utils.py,sha256=hon2g1b4a-D2JvtpjXkrTYR8IunbnLQBGQ7A70QSl5g,5861
+phot2lc/version_history.txt,sha256=YLlAMCWWEbpmRkRH-VBV_C8t4-Szp7ONSGxwYBNcGV4,21321
+phot2lc-1.7.4.data/scripts/addstar,sha256=_jgcuRgw4T_LQEDFFoORaS0zF7vu4SKxKQ5VFtGTY9s,2320
+phot2lc-1.7.4.data/scripts/phot2lc,sha256=4xtsDR59wZN2Tk7zk-4LXhifllOF9AYwPgApPdxEq0g,83843
+phot2lc-1.7.4.data/scripts/photconfig,sha256=bt7epg8xiBDNrZaEmgD4v8jazObISBmZdSTWYHLRtXg,333
+phot2lc-1.7.4.data/scripts/quicklook,sha256=L3qYoE7dxakuXzhbjrbhXeHPyQkTo5kxwoEOhLVF0Vg,9070
+phot2lc-1.7.4.data/scripts/weldlc,sha256=KuZvkvAvu4d8GHPh-zwg4qmRcuK42vuySi8xsVj37_M,5968
+phot2lc-1.7.4.dist-info/LICENSE,sha256=arDuzGmnrCw0bOZloIRpCoJyYznAlS4NMqZSsd-mhNA,1058
+phot2lc-1.7.4.dist-info/METADATA,sha256=GJxJRJOg9POVrobTSJaJ1MguTKMOq22wD8ZsiOupJbE,1219
+phot2lc-1.7.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+phot2lc-1.7.4.dist-info/top_level.txt,sha256=c7LVtxC3hjWtLErVJ2w6iqMccq4p9rLMxDngB5RoNhY,8
+phot2lc-1.7.4.dist-info/RECORD,,
