@@ -1,0 +1,3 @@
+[console_scripts]
+gbs=gbs.__main__:main
+
