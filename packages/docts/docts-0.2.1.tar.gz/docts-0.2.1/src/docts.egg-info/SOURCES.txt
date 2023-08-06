@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+src/docts/__init__.py
+src/docts/__main__.py
+src/docts.egg-info/PKG-INFO
+src/docts.egg-info/SOURCES.txt
+src/docts.egg-info/dependency_links.txt
+src/docts.egg-info/entry_points.txt
+src/docts.egg-info/requires.txt
+src/docts.egg-info/top_level.txt
