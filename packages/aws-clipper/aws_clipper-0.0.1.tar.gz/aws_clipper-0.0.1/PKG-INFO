@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: aws-clipper
+Version: 0.0.1
+Summary: Dump config for AWS CLI
+License: MIT
+Author: Tsunenobu Kai
+Author-email: kai2nenobu@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pyyaml (>=6.0,<7.0)
+Description-Content-Type: text/markdown
+
+# aws-clipper
+
+`aws-clipper` dumps AWS CLI config from a simple YAML file.
+
