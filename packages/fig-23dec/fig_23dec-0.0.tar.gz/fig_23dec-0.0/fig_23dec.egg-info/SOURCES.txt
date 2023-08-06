@@ -1,0 +1,13 @@
+setup.cfg
+setup.py
+fig_23dec.egg-info/PKG-INFO
+fig_23dec.egg-info/SOURCES.txt
+fig_23dec.egg-info/dependency_links.txt
+fig_23dec.egg-info/not-zip-safe
+fig_23dec.egg-info/top_level.txt
+fig_23dec/circle/__init__.py
+fig_23dec/circle/code.py
+fig_23dec/square/__init__.py
+fig_23dec/square/code.py
+fig_23dec/triangle/__init__.py
+fig_23dec/triangle/code.py
