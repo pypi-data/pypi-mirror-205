@@ -1,0 +1,10 @@
+lpynn/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lpynn/perceptron/__init__.py,sha256=GO_Jrp7KDaq616CXLi6tqY1XidJzP9Oiva1qIgIt-OY,132
+lpynn/perceptron/goto.py,sha256=meY7ISmas5Azt2fSIKJ9I2sJlJeT8i6HeAKZDLxGwts,7587
+lpynn/perceptron/lpython.py,sha256=ko_ipqKsPiboGn9iUiHKOU0CT2wkM0SvsF-yL6ggR3c,15500
+lpynn/perceptron/perceptron_main.py,sha256=DF2LxaMlVaS2vy1bHLh-ScRO2J8unNjl3yBn9d_Nscw,4154
+lpynn-0.0.2.dist-info/LICENSE,sha256=0T28YWG1ZYPWNMs-ZT3lufoEeu_UjvzjBcFlOH9XaRw,1072
+lpynn-0.0.2.dist-info/METADATA,sha256=medUqCWhCCu-sophLOiN05lwLceg4a7LrtO8J0pirSQ,1195
+lpynn-0.0.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+lpynn-0.0.2.dist-info/top_level.txt,sha256=isqCczobJyhWVkA3Kzn-lQYqX04F0QIdXW7XdOJmOHs,6
+lpynn-0.0.2.dist-info/RECORD,,
