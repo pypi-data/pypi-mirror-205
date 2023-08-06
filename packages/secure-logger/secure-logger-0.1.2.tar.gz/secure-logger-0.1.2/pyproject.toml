@@ -1,0 +1,66 @@
+[tool.black]
+line-length = 120
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta:__legacy__"
+
+#------------------------------------------------------------------------------
+# PyPi meta data
+#------------------------------------------------------------------------------
+[project]
+name = "secure-logger"
+version = "0.1.2"
+authors = [
+  { name="Lawrence McDaniel", email="lpm0073@gmail.com" }
+]
+description = "A function decorator for beautiful and complete logging"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+]
+dependencies = [
+  "validators",
+]
+
+keywords = ["Python", "Logger"]
+
+[project.urls]
+Homepage = "https://github.com/lpm0073/secure-logger"
+Documentation = "https://github.com/lpm0073/secure-logger"
+Repository = "https://github.com/lpm0073/secure-logger"
+Changelog = "https://github.com/lpm0073/secure-logger/blob/main/CHANGELOG.md"
+"Bug Tracker" = "https://github.com/lpm0073/secure-logger/issues"
+
+#------------------------------------------------------------------------------
+# see: https://setuptools.pypa.io/en/latest/userguide/dependency_management.html
+#------------------------------------------------------------------------------
+[project.optional-dependencies]
+local = [
+    "pre-commit",
+    "black",
+    "flake8",
+    "ipython"
+]

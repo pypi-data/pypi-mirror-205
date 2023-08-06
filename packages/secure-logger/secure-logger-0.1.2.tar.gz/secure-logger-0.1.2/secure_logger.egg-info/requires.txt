@@ -1,0 +1,7 @@
+validators
+
+[local]
+pre-commit
+black
+flake8
+ipython
