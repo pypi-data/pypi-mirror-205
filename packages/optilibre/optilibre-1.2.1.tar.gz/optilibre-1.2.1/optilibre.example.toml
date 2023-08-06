@@ -1,0 +1,51 @@
+# Example file to put inside the folder(s) where to be optimized files will be put in
+# Configure Images
+[optiimage]
+version=1.0
+in_path="/IN_PATH"
+out_path="/PATH"
+src_on_success="move"  # keep, move (to src_on_success_dest), delete
+src_on_failure="keep"
+src_on_success_dest="/PATH/WHEN/SUCCESS"
+codec="jpeg"
+
+[optiimage.jpeg]
+m=80
+
+# Configure Videos
+[optivideo]
+version=1.0
+in_path="/IN_PATH"
+out_path="/PATH"
+src_on_success="move"
+src_on_failure="keep"
+src_on_success_dest="/PATH/WHEN/SUCCESS"
+container="mp4"  # optional, will be guessed depending on the video codec if not set.
+
+[optivideo.meta]
+map_metadata=0
+
+[optivideo.audio]
+enabled=true
+codec="aac"
+
+[optivideo.aac]
+t='r'
+
+[optivideo.video]
+enabled=true
+codec="libx264"
+
+[optivideo.libx264]
+crf=23
+preset="medium"
+
+# Example h265
+#[optivideo.video]
+#enabled=true
+#codec="libx265"
+#
+#[optivideo.libx265]
+#crf=24
+#preset="medium"
+#pix_fmt="yuv420p"
