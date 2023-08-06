@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: sa-node-architecture
+Version: 1.0.0
+Summary: Node Architecture: A simple method to communicate between applications using UNIX sockets
+Home-page: https://github.com/Simply-Artificial/NodeArchitecture
+Author: ItsMeAlfie0
+Author-email: simply-artificial@itsmealfie0.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: Unix
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Node Architecture
+> **Note**   
+> README to be completed

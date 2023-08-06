@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+node_architecture/Client.py
+node_architecture/__init__.py
+node_architecture/abc.py
+node_architecture/Server/Receiver.py
+node_architecture/Server/Server.py
+node_architecture/Server/__init__.py
+sa_node_architecture.egg-info/PKG-INFO
+sa_node_architecture.egg-info/SOURCES.txt
+sa_node_architecture.egg-info/dependency_links.txt
+sa_node_architecture.egg-info/top_level.txt
