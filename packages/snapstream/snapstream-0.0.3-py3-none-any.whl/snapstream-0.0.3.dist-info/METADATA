@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: snapstream
+Version: 0.0.3
+Summary: Streamline your Kafka data processing, this tool aims to standardize streaming data from multiple Kafka clusters. With a pub-sub approach, multiple functions can easily subscribe to incoming messages, serialization can be specified per topic, and data is automatically processed by data sink functions.
+Home-page: https://github.com/Menziess/snapstream
+License: MIT
+Keywords: kafka,pubsub
+Author: Menziess
+Author-email: stefan_schenk@hotmail.com
+Requires-Python: >=3.8.1,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: avro (>=1.11.1,<2.0.0)
+Requires-Dist: confluent-kafka (>=2.0.2,<3.0.0)
+Requires-Dist: pypubsub (>=4.0.3,<5.0.0)
+Requires-Dist: pyright (>=1.1.302,<2.0.0)
+Requires-Dist: rocksdict (>=0.3.10,<0.4.0)
+Requires-Dist: toolz (>=0.12.0,<0.13.0)
+Project-URL: Repository, https://github.com/Menziess/snapstream
+Description-Content-Type: text/markdown
+
+[![Test Python Package](https://github.com/Menziess/snapstream/actions/workflows/python-test.yml/badge.svg)](https://github.com/Menziess/snapstream/actions/workflows/python-test.yml)
+
+# Snapstream
+
+<img src="https://raw.githubusercontent.com/menziess/snapstream/master/res/logo.png" width="25%" height="25%" align="right" />
+
+A tiny data-flow model with a user-friendly interface that provides sensible defaults for Kafka integration, message serialization/deserialization, and data caching.
+
+## Installation
+
+```sh
+pip install snapstream
+```
+
+## Usage
+
+We `snap` iterables to user functions, and process them in parallel when we call `stream`:
+
+![demo](https://raw.githubusercontent.com/menziess/snapstream/master/res/demo.gif)
+
+We pass the callable `print` to print out the return value. Multiple iterables and sinks can be passed.
+
+```py
+from snapstream import snap, stream
+
+@snap(range(5), sink=[print])
+def handler(msg):
+    yield f'Hello {msg}'
+
+stream()
+```
+
+```sh
+Hello 0
+Hello 1
+Hello 2
+Hello 3
+Hello 4
+```
+
+To try it out for yourself, spin up a local kafka broker with [docker-compose.yml](docker-compose.yml), using `localhost:29091` to connect:
+
+```sh
+docker compose up broker -d
+```
+
+Use the cli tool to inspect Topic/Cache:
+
+```sh
+snapstream topic emoji --offset -2
+```
+
+```
+>>> timestamp: 2023-04-28T17:31:51.775000+00:00
+>>> offset: 0
+>>> key:
+🏆
+```
+
+## Features
+
+- [`snapstream.snap`](snapstream/__init__.py): bind streams (iterables) and sinks (callables) to user defined handler functions
+- [`snapstream.stream`](snapstream/__init__.py): start streaming
+- [`snapstream.Topic`](snapstream/core.py): consume from (iterable) and produce to (callable) kafka using [**confluent-kafka**](https://docs.confluent.io/platform/current/clients/confluent-kafka-python/html/index.html)
+- [`snapstream.Cache`](snapstream/caching.py): store data to disk using [**rocksdict**](https://congyuwang.github.io/RocksDict/rocksdict.html)
+- [`snapstream.Conf`](snapstream/core.py): set global kafka configuration (can be overridden per topic)
+- [`snapstream.codecs.AvroCodec`](snapstream/codecs.py): serialize and deserialize avro messages
+- [`snapstream.codecs.JsonCodec`](snapstream/codecs.py): serialize and deserialize json messages
+

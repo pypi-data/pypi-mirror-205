@@ -1,0 +1,11 @@
+snapstream/__init__.py,sha256=4CRofXyHWyQmJ8pHCk1nlgetfDSI0y_mZskqSfR-C90,2181
+snapstream/__main__.py,sha256=qd32cpWFa2Pa6eHzphAUboYjj3nt0wNIXf9_gOo1tEc,7580
+snapstream/caching.py,sha256=WiTkcrzvssHYNXCQvwUdDLxKjzVDKbcIjvasuQdiCIM,9509
+snapstream/codecs.py,sha256=BjbrPWhXW8wKebh4pjBFOAGKBv4JVCvUQ52GLk9Aw9Y,2538
+snapstream/core.py,sha256=l7pNckFrnJ5JBe3L6hbVZt0h-ns2lMv8iNh9EZU1JyI,8531
+snapstream/utils.py,sha256=82xXHnFt4XtZ-6OI5sNRy3FTMG9lVVfotmb_1ZqGBEg,3241
+snapstream-0.0.3.dist-info/LICENSE,sha256=clyyECX2GHiE-4UwTnzB9fY7k9KeppBSeCu9U4kLSlQ,1065
+snapstream-0.0.3.dist-info/METADATA,sha256=IwicjO4bUmrhHAq22iyo6v8X7BEGvUuJH9N1b-_TG18,3386
+snapstream-0.0.3.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+snapstream-0.0.3.dist-info/entry_points.txt,sha256=rlhZHNeFsMotKwbJBvhNOC234q_Z5VFWi-HYgrC_xAE,55
+snapstream-0.0.3.dist-info/RECORD,,
