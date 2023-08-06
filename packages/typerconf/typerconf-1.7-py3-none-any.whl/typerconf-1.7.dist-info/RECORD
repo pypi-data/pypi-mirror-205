@@ -1,0 +1,8 @@
+typerconf/.gitignore,sha256=14GNAIXVZFnTv4YhegCyrOBnN79i2rSEKdcShzPmZZE,30
+typerconf/Makefile,sha256=1l7-qXX_bMGudBSDP3T2S6TtxmFN1tKbf7RNPUEBci8,258
+typerconf/__init__.py,sha256=B469ZwwLgxdXbEjc4yY9noc7aceBK_d6YIAvfntxT3w,8192
+typerconf/init.nw,sha256=ZdV-S6LqxB8q9gl44404dIExuZPITqzTD-LS1d6yw94,22325
+typerconf-1.7.dist-info/LICENSE,sha256=MAeY6b3f2eyrZasde3JOsc6TzcZF7tLdNPPnwVdsqz4,1074
+typerconf-1.7.dist-info/METADATA,sha256=6gjjJSINT8DrCC_3GCJQ7pMuIcPoEIRgozePm5kXWUg,2508
+typerconf-1.7.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+typerconf-1.7.dist-info/RECORD,,
