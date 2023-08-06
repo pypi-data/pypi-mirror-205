@@ -1,0 +1,3 @@
+[console_scripts]
+request5 = request5:main
+
