@@ -1,0 +1,2 @@
+[console_scripts]
+notifications-tui = notifications_tui.main:main
