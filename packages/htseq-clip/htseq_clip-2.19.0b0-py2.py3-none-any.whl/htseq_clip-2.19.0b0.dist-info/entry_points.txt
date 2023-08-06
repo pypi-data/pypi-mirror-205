@@ -1,0 +1,2 @@
+[console_scripts]
+htseq-clip = clip.command_line:main
