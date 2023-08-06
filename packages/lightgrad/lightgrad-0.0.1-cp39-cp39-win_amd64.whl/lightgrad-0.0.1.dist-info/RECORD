@@ -1,0 +1,8 @@
+lightgrad/__init__.py,sha256=Jd6p8lzk9xb1uKz01NFkUgzLyoZHhowgIJSG7Rum1lM,128
+lightgrad/engine.cp39-win_amd64.pyd,sha256=h0oMRJFnfLuFaBt13jKmVhHN9LFWd7ba8EVeo_pC6RU,15872
+lightgrad/nn.py,sha256=bUh2RDURx6fptjGNvdr0pJnSnhfdOLxcKG4zxU8XFxs,1654
+lightgrad-0.0.1.dist-info/LICENSE,sha256=I9-TT3QLBOLpZBW7WmTax0oguajG2rxL-XLtu9F9tC0,1077
+lightgrad-0.0.1.dist-info/METADATA,sha256=7hkyBCbJuFp4hfN2_UMiw9V_35NZyWMJL2WfK6aW4ZA,659
+lightgrad-0.0.1.dist-info/WHEEL,sha256=eep6QWEFiQfg2wcclssb_WY-D33AnLYLnEKGA9Rn-VU,100
+lightgrad-0.0.1.dist-info/top_level.txt,sha256=kGrb9ootwRC3C3U5sSIPY4jNFpAF9o9UP2Sklbc3g5g,10
+lightgrad-0.0.1.dist-info/RECORD,,
