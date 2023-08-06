@@ -1,0 +1,12 @@
+besecure_developer_toolkit/__init__.py,sha256=Wuqlr-YfqAJfYOaEzY9A4fwQLCQbiE4l1oNsYvrT9Ew,340
+besecure_developer_toolkit/__main__.py,sha256=VoeoeyRBgoc5pgCotR18s6YJ9Avs0mArU-nW9VHNidk,203
+besecure_developer_toolkit/cli.py,sha256=OJqZ7ODEWOzdss5E_ZZiYvYvSWMuXDq00bFmdwPtjwI,5674
+besecure_developer_toolkit/config.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+besecure_developer_toolkit/src/create_ossp_master.py,sha256=JknnEjRwONAddVDWHDxIa_2RUBmahk3leoY82HKJe5c,8561
+besecure_developer_toolkit/src/create_version_data.py,sha256=xDykKgMnkVZZ6dGumh_wDwGSoqx4H6jqLGZIH6_WTDg,5204
+besecure_developer_toolkit/src/generate_report.py,sha256=TdDaG82DjaqOXaDPxS4anc0gWQbM7GaZz2hQnbJHEK4,5254
+besecure_developer_toolkit-0.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+besecure_developer_toolkit-0.0.3.dist-info/METADATA,sha256=paBvDAvZBrP0oa8tGdAGe7ErxkzDsouikOg1GUUxSQc,1804
+besecure_developer_toolkit-0.0.3.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+besecure_developer_toolkit-0.0.3.dist-info/entry_points.txt,sha256=v-KcPGD4ZnNFKrG9AviTLrMhIqsWGh3SN4SgT4V8IMg,75
+besecure_developer_toolkit-0.0.3.dist-info/RECORD,,
