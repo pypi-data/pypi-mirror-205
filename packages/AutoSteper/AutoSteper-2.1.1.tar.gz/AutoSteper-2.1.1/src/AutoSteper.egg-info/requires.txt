@@ -1,0 +1,16 @@
+importlib-metadata
+pytest-shutil
+ase
+numpy
+pandas
+networkx
+tqdm
+matplotlib>=3.6.0
+seaborn
+dpdispatcher
+openpyxl
+
+[testing]
+setuptools
+pytest
+pytest-cov
