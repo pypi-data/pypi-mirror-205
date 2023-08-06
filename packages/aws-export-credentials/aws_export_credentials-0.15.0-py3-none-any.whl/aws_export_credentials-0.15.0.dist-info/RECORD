@@ -1,0 +1,9 @@
+aws_export_credentials/__init__.py,sha256=D2HEm-BxFY5dh2nvpOKs-0neSuTcTlWeaE26nV1K3Jk,54
+aws_export_credentials/__main__.py,sha256=GugxBvKka3kW2IKl9Cs0ZetTDc0qgGPdqAoT1vA4kxQ,48
+aws_export_credentials/aws_export_credentials.py,sha256=QKQWsh5vrcTBKrYPA8cypV5Y9o9odlzJJutxRX452yI,19231
+aws_export_credentials/config_file_writer.py,sha256=nEGou_nu07cbJRcVYdWHMyGhUM3qIF5yI6aXnnXXITQ,9860
+aws_export_credentials-0.15.0.dist-info/LICENSE,sha256=9j8RqO8bPFqn4auDoWpegssMFBSlrw52EoRAO4PJyOA,11340
+aws_export_credentials-0.15.0.dist-info/METADATA,sha256=REH8LeuvcT22aN3HGbc91BnH71HpnwpniujAydJr5-w,10674
+aws_export_credentials-0.15.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+aws_export_credentials-0.15.0.dist-info/entry_points.txt,sha256=XWkyoq8Tm6SFh_AdLLWs4qGnxOV2m1llqNs8zFBtvYo,70
+aws_export_credentials-0.15.0.dist-info/RECORD,,
