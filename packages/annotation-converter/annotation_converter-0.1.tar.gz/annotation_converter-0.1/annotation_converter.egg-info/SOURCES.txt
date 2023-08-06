@@ -1,0 +1,7 @@
+setup.py
+annotation_converter.egg-info/PKG-INFO
+annotation_converter.egg-info/SOURCES.txt
+annotation_converter.egg-info/dependency_links.txt
+annotation_converter.egg-info/entry_points.txt
+annotation_converter.egg-info/requires.txt
+annotation_converter.egg-info/top_level.txt
