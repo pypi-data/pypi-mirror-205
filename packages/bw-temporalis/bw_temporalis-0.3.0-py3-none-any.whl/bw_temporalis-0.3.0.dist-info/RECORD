@@ -1,0 +1,16 @@
+bw_temporalis/__init__.py,sha256=2_DwWO2eVkb421o7ivJJmI2_LIAeBZnQ9ny1_7phWws,316
+bw_temporalis/lca.py,sha256=nIrUXa9ChIcn9GNEU96aoP1K4kaxOElhkpUMHvSuLUA,7804
+bw_temporalis/temporal_distribution.py,sha256=kelUIt_kycn0jXFMyXDV-zP5VOdF73FkdFvxtbmztNg,5352
+bw_temporalis/timeline.py,sha256=uUt1YSUQNRu7H9PZR2lf5KlziR6faYcNAwhShXvujLw,6513
+bw_temporalis/utils.py,sha256=eMijE0Fj1ybpYS7tXf8Q-8metttN9eAiFhzhblZ4yzk,1197
+bw_temporalis/lcia/__init__.py,sha256=hTgE8dtFocNWcv44lczzInvp-DOP-BXs2153ihIsByw,60
+bw_temporalis/lcia/climate.py,sha256=uQxFCYFTsxNNOymFqJCHCDD3trWVwkpbp_t1i5Rei3E,4538
+docs/conf.py,sha256=8zABGfrL0t00u0FLzGZRdwEEPS7eT363bmXlHxwX4Fs,1151
+examples/__init__.py,sha256=SzYYOKEk8jy3-5U8GJuawV5eY7HLnAshSjVc2-YY4k8,1500
+examples/ia.py,sha256=PKMfvJX9o-NlocvbN4oLA3voOQulizaQ-T1ixY7-GhI,4350
+examples/inv.py,sha256=63YbqF2j2-LWh64ax1o1PgYrYbiT_haJ-HOFGZHG_5k,6149
+bw_temporalis-0.3.0.dist-info/LICENSE,sha256=iXduHbBZrhifzYevSBD-7Wk9enNRkvtzp5U8Jt21GPE,1456
+bw_temporalis-0.3.0.dist-info/METADATA,sha256=zd4-HcLjDpqtHA1tb67nyVxcUqq3Vh4qUZdjpLV4kBY,3544
+bw_temporalis-0.3.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+bw_temporalis-0.3.0.dist-info/top_level.txt,sha256=fbMqwPyrH5540RG54Od-KGDWRFTA-T1ldRdzE_6p6hg,28
+bw_temporalis-0.3.0.dist-info/RECORD,,
