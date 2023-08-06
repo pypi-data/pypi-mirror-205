@@ -1,0 +1,8 @@
+README.md
+setup.py
+printername.egg-info/PKG-INFO
+printername.egg-info/SOURCES.txt
+printername.egg-info/dependency_links.txt
+printername.egg-info/top_level.txt
+test/__init__.py
+test/printer.py
