@@ -1,0 +1,17 @@
+jdevtools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jdevtools/jCLI.py,sha256=NxkMDLBwYpX8vBJN_k7y40i3LRfE4gR_pu4EY6ZpQUE,94
+jdevtools/jgui.py,sha256=0TYoMj4iAiBrx2e2o6Z3WLRtdKg0pu4aVn2lfMlLNU0,467
+jdevtools/jweb.py,sha256=pql_BcU6PzVW8HtI1bHIIZ-2pbqWHMp3zy8OF9YXhWk,57
+jdevtools/bots/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jdevtools/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jdevtools/extras/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jdevtools/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jdevtools/models/jkanda.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jdevtools/models/jkissalu.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jdevtools/models/jmesso.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jdevtools/servers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+selfetch-0.0.0.1.dist-info/METADATA,sha256=rDpkI4NdoVU0TufdG29vX7TXtg-QghJ8JdiI2XXpgHQ,1316
+selfetch-0.0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+selfetch-0.0.0.1.dist-info/entry_points.txt,sha256=wkP3W_3FeiR7H2zKn60YYNsrW8E_8_vJZzJnr45rEd0,52
+selfetch-0.0.0.1.dist-info/top_level.txt,sha256=mMBb9XP2GwDgeASHi1jl3eOuBMA2I68Ew_26gkdcMn4,10
+selfetch-0.0.0.1.dist-info/RECORD,,
