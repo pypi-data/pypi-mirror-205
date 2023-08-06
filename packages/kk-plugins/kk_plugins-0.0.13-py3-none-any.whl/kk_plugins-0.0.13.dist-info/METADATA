@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: kk-plugins
+Version: 0.0.13
+Summary: kk plugins
+Home-page: https://github.com/kk-plugins
+License: MIT
+Keywords: kk-plugins
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: redis (~=4.5.4)
+Requires-Dist: Scrapy (~=2.7.1)
+Requires-Dist: requests (~=2.28.1)
+Requires-Dist: Twisted (~=22.10.0)
+Requires-Dist: Pillow (~=9.3.0)
+
+# kk plugins
+
+# v0.0.1
+init project
