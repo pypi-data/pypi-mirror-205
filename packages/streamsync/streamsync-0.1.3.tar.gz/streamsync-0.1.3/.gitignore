@@ -1,0 +1,16 @@
+**/.venv/
+**/.vscode/
+*.pyc
+**/__pycache__
+**/.mypy_cache
+**/.pytest_cache
+**/node_modules/
+docs/docs/.vitepress/cache/
+ui/dist/
+build/
+dist/
+src/streamsync.egg-info/
+*:Zone.Identifier
+*.DS_Store
+src/streamsync/static
+playground/
