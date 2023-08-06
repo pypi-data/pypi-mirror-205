@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: geocam
+Version: 0.0.1
+Summary: Camera control software for geotechnical research applications.
+Author-email: Hilario Greggi <greggi.hilario@gmail.com>, Sam Stanier <sas229@cam.ac.uk>, Zewen Wang <zewen.wang@research.uwa.edu.au>, Wenhan Du <wenhan.du@research.uwa.edu.au>, Barry Lehane <barry.lehane@uwa.edu.au>
+Project-URL: Homepage, https://github.com/sas229/geocam
+Project-URL: Bug Tracker, https://github.com/sas229/geocam/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# geocam
+Camera control software for geotechnical research applications.

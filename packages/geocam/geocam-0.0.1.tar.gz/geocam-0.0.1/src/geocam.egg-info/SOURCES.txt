@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/geocam/controller.py
+src/geocam.egg-info/PKG-INFO
+src/geocam.egg-info/SOURCES.txt
+src/geocam.egg-info/dependency_links.txt
+src/geocam.egg-info/requires.txt
+src/geocam.egg-info/top_level.txt
