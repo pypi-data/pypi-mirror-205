@@ -1,0 +1,12 @@
+defaults:
+- _self_
+remove: false
+initialized: true
+hydra_logging:
+  loggers:
+    logging_example:
+      level: INFO
+hydra:
+  run:
+    dir: ''
+  output_subdir: null
