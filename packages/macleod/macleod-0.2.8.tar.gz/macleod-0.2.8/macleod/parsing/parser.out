@@ -1,0 +1,3415 @@
+Created by PLY version 3.11 (http://www.dabeaz.com/ply)
+
+Grammar
+
+Rule 0     S' -> starter
+Rule 1     starter -> COMMENT ontology
+Rule 2     starter -> ontology
+Rule 3     ontology -> LPAREN START URI statement RPAREN
+Rule 4     ontology -> LPAREN START statement RPAREN
+Rule 5     ontology -> statement
+Rule 6     title -> LPAREN TITLE NONLOGICAL RPAREN
+Rule 7     title -> LPAREN TITLE URI RPAREN
+Rule 8     ontology -> LPAREN START error
+Rule 9     ontology -> LPAREN START URI error
+Rule 10    restriction -> LPAREN RESTRICT NONLOGICAL LPAREN START statement RPAREN RPAREN
+Rule 11    module -> LPAREN TITLE NONLOGICAL LPAREN START statement RPAREN RPAREN
+Rule 12    statement -> axiom statement
+Rule 13    statement -> import statement
+Rule 14    statement -> comment statement
+Rule 15    statement -> module statement
+Rule 16    statement -> const statement
+Rule 17    statement -> title statement
+Rule 18    statement -> restriction statement
+Rule 19    statement -> axiom
+Rule 20    statement -> import
+Rule 21    statement -> comment
+Rule 22    statement -> module
+Rule 23    statement -> const
+Rule 24    statement -> restriction
+Rule 25    const -> LPAREN SET LPAREN NONLOGICAL NAME_STRING RPAREN RPAREN
+Rule 26    inline -> LPAREN CLCOMMENT QUOTED_STRING
+Rule 27    comment -> LPAREN CLCOMMENT QUOTED_STRING RPAREN
+Rule 28    comment -> LPAREN CLCOMMENT error RPAREN
+Rule 29    import -> LPAREN IMPORT URI RPAREN
+Rule 30    import -> LPAREN IMPORT error
+Rule 31    axiom -> commented_axiom
+Rule 32    axiom -> negation
+Rule 33    axiom -> universal
+Rule 34    axiom -> existential
+Rule 35    axiom -> conjunction
+Rule 36    axiom -> disjunction
+Rule 37    axiom -> implication
+Rule 38    axiom -> biconditional
+Rule 39    axiom -> predicate
+Rule 40    axiom -> commented_predicate
+Rule 41    base_axiom -> negation
+Rule 42    base_axiom -> universal
+Rule 43    base_axiom -> existential
+Rule 44    base_axiom -> conjunction
+Rule 45    base_axiom -> disjunction
+Rule 46    base_axiom -> implication
+Rule 47    base_axiom -> biconditional
+Rule 48    base_axiom -> predicate
+Rule 49    commented_axiom -> inline base_axiom RPAREN
+Rule 50    negation -> LPAREN NOT axiom RPAREN
+Rule 51    conjunction -> LPAREN AND axiom_list RPAREN
+Rule 52    conjunction -> LPAREN AND error
+Rule 53    disjunction -> LPAREN OR axiom_list RPAREN
+Rule 54    disjunction -> LPAREN OR error
+Rule 55    axiom_list -> axiom axiom_list
+Rule 56    axiom_list -> axiom
+Rule 57    implication -> LPAREN IF axiom axiom RPAREN
+Rule 58    implication -> LPAREN IF error
+Rule 59    implication -> LPAREN IF axiom error
+Rule 60    biconditional -> LPAREN IFF axiom axiom RPAREN
+Rule 61    biconditional -> LPAREN IFF error
+Rule 62    biconditional -> LPAREN IFF axiom error
+Rule 63    existential -> LPAREN EXISTS LPAREN nonlogicals RPAREN axiom RPAREN
+Rule 64    existential -> LPAREN EXISTS LPAREN error
+Rule 65    existential -> LPAREN EXISTS LPAREN nonlogicals RPAREN error
+Rule 66    universal -> LPAREN FORALL LPAREN nonlogicals RPAREN axiom RPAREN
+Rule 67    universal -> LPAREN FORALL LPAREN error
+Rule 68    universal -> LPAREN FORALL LPAREN nonlogicals RPAREN error
+Rule 69    commented_predicate -> LPAREN LPAREN CLCOMMENT QUOTED_STRING NONLOGICAL RPAREN parameter RPAREN
+Rule 70    commented_predicate -> LPAREN LPAREN CLCOMMENT QUOTED_STRING NAME_STRING RPAREN parameter RPAREN
+Rule 71    predicate -> LPAREN NONLOGICAL parameter RPAREN
+Rule 72    predicate -> LPAREN NAME_STRING parameter RPAREN
+Rule 73    predicate -> LPAREN SET parameter RPAREN
+Rule 74    predicate -> LPAREN SET LPAREN NONLOGICAL NONLOGICAL RPAREN RPAREN
+Rule 75    predicate -> LPAREN NONLOGICAL error RPAREN
+Rule 76    parameter -> function parameter
+Rule 77    parameter -> nonlogicals parameter
+Rule 78    parameter -> function
+Rule 79    parameter -> nonlogicals
+Rule 80    function -> LPAREN NONLOGICAL parameter RPAREN
+Rule 81    function -> LPAREN NONLOGICAL error RPAREN
+Rule 82    nonlogicals -> NONLOGICAL nonlogicals
+Rule 83    nonlogicals -> NONLOGICAL
+
+Terminals, with rules where they appear
+
+AND                  : 51 52
+CLCOMMENT            : 26 27 28 69 70
+COMMENT              : 1
+EXISTS               : 63 64 65
+FORALL               : 66 67 68
+IF                   : 57 58 59
+IFF                  : 60 61 62
+IMPORT               : 29 30
+LPAREN               : 3 4 6 7 8 9 10 10 11 11 25 25 26 27 28 29 30 50 51 52 53 54 57 58 59 60 61 62 63 63 64 64 65 65 66 66 67 67 68 68 69 69 70 70 71 72 73 74 74 75 80 81
+NAME_STRING          : 25 70 72
+NONLOGICAL           : 6 10 11 25 69 71 74 74 75 80 81 82 83
+NOT                  : 50
+OR                   : 53 54
+QUOTED_STRING        : 26 27 69 70
+RESTRICT             : 10
+RPAREN               : 3 4 6 7 10 10 11 11 25 25 27 28 29 49 50 51 53 57 60 63 63 65 66 66 68 69 69 70 70 71 72 73 74 74 75 80 81
+SET                  : 25 73 74
+START                : 3 4 8 9 10 11
+TITLE                : 6 7 11
+URI                  : 3 7 9 29
+error                : 8 9 28 30 52 54 58 59 61 62 64 65 67 68 75 81
+
+Nonterminals, with rules where they appear
+
+axiom                : 12 19 50 55 56 57 57 59 60 60 62 63 66
+axiom_list           : 51 53 55
+base_axiom           : 49
+biconditional        : 38 47
+comment              : 14 21
+commented_axiom      : 31
+commented_predicate  : 40
+conjunction          : 35 44
+const                : 16 23
+disjunction          : 36 45
+existential          : 34 43
+function             : 76 78
+implication          : 37 46
+import               : 13 20
+inline               : 49
+module               : 15 22
+negation             : 32 41
+nonlogicals          : 63 65 66 68 77 79 82
+ontology             : 1 2
+parameter            : 69 70 71 72 73 76 77 80
+predicate            : 39 48
+restriction          : 18 24
+starter              : 0
+statement            : 3 4 5 10 11 12 13 14 15 16 17 18
+title                : 17
+universal            : 33 42
+
+Parsing method: LALR
+
+state 0
+
+    (0) S' -> . starter
+    (1) starter -> . COMMENT ontology
+    (2) starter -> . ontology
+    (3) ontology -> . LPAREN START URI statement RPAREN
+    (4) ontology -> . LPAREN START statement RPAREN
+    (5) ontology -> . statement
+    (8) ontology -> . LPAREN START error
+    (9) ontology -> . LPAREN START URI error
+    (12) statement -> . axiom statement
+    (13) statement -> . import statement
+    (14) statement -> . comment statement
+    (15) statement -> . module statement
+    (16) statement -> . const statement
+    (17) statement -> . title statement
+    (18) statement -> . restriction statement
+    (19) statement -> . axiom
+    (20) statement -> . import
+    (21) statement -> . comment
+    (22) statement -> . module
+    (23) statement -> . const
+    (24) statement -> . restriction
+    (31) axiom -> . commented_axiom
+    (32) axiom -> . negation
+    (33) axiom -> . universal
+    (34) axiom -> . existential
+    (35) axiom -> . conjunction
+    (36) axiom -> . disjunction
+    (37) axiom -> . implication
+    (38) axiom -> . biconditional
+    (39) axiom -> . predicate
+    (40) axiom -> . commented_predicate
+    (29) import -> . LPAREN IMPORT URI RPAREN
+    (30) import -> . LPAREN IMPORT error
+    (27) comment -> . LPAREN CLCOMMENT QUOTED_STRING RPAREN
+    (28) comment -> . LPAREN CLCOMMENT error RPAREN
+    (11) module -> . LPAREN TITLE NONLOGICAL LPAREN START statement RPAREN RPAREN
+    (25) const -> . LPAREN SET LPAREN NONLOGICAL NAME_STRING RPAREN RPAREN
+    (6) title -> . LPAREN TITLE NONLOGICAL RPAREN
+    (7) title -> . LPAREN TITLE URI RPAREN
+    (10) restriction -> . LPAREN RESTRICT NONLOGICAL LPAREN START statement RPAREN RPAREN
+    (49) commented_axiom -> . inline base_axiom RPAREN
+    (50) negation -> . LPAREN NOT axiom RPAREN
+    (66) universal -> . LPAREN FORALL LPAREN nonlogicals RPAREN axiom RPAREN
+    (67) universal -> . LPAREN FORALL LPAREN error
+    (68) universal -> . LPAREN FORALL LPAREN nonlogicals RPAREN error
+    (63) existential -> . LPAREN EXISTS LPAREN nonlogicals RPAREN axiom RPAREN
+    (64) existential -> . LPAREN EXISTS LPAREN error
+    (65) existential -> . LPAREN EXISTS LPAREN nonlogicals RPAREN error
+    (51) conjunction -> . LPAREN AND axiom_list RPAREN
+    (52) conjunction -> . LPAREN AND error
+    (53) disjunction -> . LPAREN OR axiom_list RPAREN
+    (54) disjunction -> . LPAREN OR error
+    (57) implication -> . LPAREN IF axiom axiom RPAREN
+    (58) implication -> . LPAREN IF error
+    (59) implication -> . LPAREN IF axiom error
+    (60) biconditional -> . LPAREN IFF axiom axiom RPAREN
+    (61) biconditional -> . LPAREN IFF error
+    (62) biconditional -> . LPAREN IFF axiom error
+    (71) predicate -> . LPAREN NONLOGICAL parameter RPAREN
+    (72) predicate -> . LPAREN NAME_STRING parameter RPAREN
+    (73) predicate -> . LPAREN SET parameter RPAREN
+    (74) predicate -> . LPAREN SET LPAREN NONLOGICAL NONLOGICAL RPAREN RPAREN
+    (75) predicate -> . LPAREN NONLOGICAL error RPAREN
+    (69) commented_predicate -> . LPAREN LPAREN CLCOMMENT QUOTED_STRING NONLOGICAL RPAREN parameter RPAREN
+    (70) commented_predicate -> . LPAREN LPAREN CLCOMMENT QUOTED_STRING NAME_STRING RPAREN parameter RPAREN
+    (26) inline -> . LPAREN CLCOMMENT QUOTED_STRING
+
+    COMMENT         shift and go to state 2
+    LPAREN          shift and go to state 4
+
+    starter                        shift and go to state 1
+    ontology                       shift and go to state 3
+    statement                      shift and go to state 5
+    axiom                          shift and go to state 6
+    import                         shift and go to state 7
+    comment                        shift and go to state 8
+    module                         shift and go to state 9
+    const                          shift and go to state 10
+    title                          shift and go to state 11
+    restriction                    shift and go to state 12
+    commented_axiom                shift and go to state 13
+    negation                       shift and go to state 14
+    universal                      shift and go to state 15
+    existential                    shift and go to state 16
+    conjunction                    shift and go to state 17
+    disjunction                    shift and go to state 18
+    implication                    shift and go to state 19
+    biconditional                  shift and go to state 20
+    predicate                      shift and go to state 21
+    commented_predicate            shift and go to state 22
+    inline                         shift and go to state 23
+
+state 1
+
+    (0) S' -> starter .
+
+
+
+state 2
+
+    (1) starter -> COMMENT . ontology
+    (3) ontology -> . LPAREN START URI statement RPAREN
+    (4) ontology -> . LPAREN START statement RPAREN
+    (5) ontology -> . statement
+    (8) ontology -> . LPAREN START error
+    (9) ontology -> . LPAREN START URI error
+    (12) statement -> . axiom statement
+    (13) statement -> . import statement
+    (14) statement -> . comment statement
+    (15) statement -> . module statement
+    (16) statement -> . const statement
+    (17) statement -> . title statement
+    (18) statement -> . restriction statement
+    (19) statement -> . axiom
+    (20) statement -> . import
+    (21) statement -> . comment
+    (22) statement -> . module
+    (23) statement -> . const
+    (24) statement -> . restriction
+    (31) axiom -> . commented_axiom
+    (32) axiom -> . negation
+    (33) axiom -> . universal
+    (34) axiom -> . existential
+    (35) axiom -> . conjunction
+    (36) axiom -> . disjunction
+    (37) axiom -> . implication
+    (38) axiom -> . biconditional
+    (39) axiom -> . predicate
+    (40) axiom -> . commented_predicate
+    (29) import -> . LPAREN IMPORT URI RPAREN
+    (30) import -> . LPAREN IMPORT error
+    (27) comment -> . LPAREN CLCOMMENT QUOTED_STRING RPAREN
+    (28) comment -> . LPAREN CLCOMMENT error RPAREN
+    (11) module -> . LPAREN TITLE NONLOGICAL LPAREN START statement RPAREN RPAREN
+    (25) const -> . LPAREN SET LPAREN NONLOGICAL NAME_STRING RPAREN RPAREN
+    (6) title -> . LPAREN TITLE NONLOGICAL RPAREN
+    (7) title -> . LPAREN TITLE URI RPAREN
+    (10) restriction -> . LPAREN RESTRICT NONLOGICAL LPAREN START statement RPAREN RPAREN
+    (49) commented_axiom -> . inline base_axiom RPAREN
+    (50) negation -> . LPAREN NOT axiom RPAREN
+    (66) universal -> . LPAREN FORALL LPAREN nonlogicals RPAREN axiom RPAREN
+    (67) universal -> . LPAREN FORALL LPAREN error
+    (68) universal -> . LPAREN FORALL LPAREN nonlogicals RPAREN error
+    (63) existential -> . LPAREN EXISTS LPAREN nonlogicals RPAREN axiom RPAREN
+    (64) existential -> . LPAREN EXISTS LPAREN error
+    (65) existential -> . LPAREN EXISTS LPAREN nonlogicals RPAREN error
+    (51) conjunction -> . LPAREN AND axiom_list RPAREN
+    (52) conjunction -> . LPAREN AND error
+    (53) disjunction -> . LPAREN OR axiom_list RPAREN
+    (54) disjunction -> . LPAREN OR error
+    (57) implication -> . LPAREN IF axiom axiom RPAREN
+    (58) implication -> . LPAREN IF error
+    (59) implication -> . LPAREN IF axiom error
+    (60) biconditional -> . LPAREN IFF axiom axiom RPAREN
+    (61) biconditional -> . LPAREN IFF error
+    (62) biconditional -> . LPAREN IFF axiom error
+    (71) predicate -> . LPAREN NONLOGICAL parameter RPAREN
+    (72) predicate -> . LPAREN NAME_STRING parameter RPAREN
+    (73) predicate -> . LPAREN SET parameter RPAREN
+    (74) predicate -> . LPAREN SET LPAREN NONLOGICAL NONLOGICAL RPAREN RPAREN
+    (75) predicate -> . LPAREN NONLOGICAL error RPAREN
+    (69) commented_predicate -> . LPAREN LPAREN CLCOMMENT QUOTED_STRING NONLOGICAL RPAREN parameter RPAREN
+    (70) commented_predicate -> . LPAREN LPAREN CLCOMMENT QUOTED_STRING NAME_STRING RPAREN parameter RPAREN
+    (26) inline -> . LPAREN CLCOMMENT QUOTED_STRING
+
+    LPAREN          shift and go to state 4
+
+    ontology                       shift and go to state 24
+    statement                      shift and go to state 5
+    axiom                          shift and go to state 6
+    import                         shift and go to state 7
+    comment                        shift and go to state 8
+    module                         shift and go to state 9
+    const                          shift and go to state 10
+    title                          shift and go to state 11
+    restriction                    shift and go to state 12
+    commented_axiom                shift and go to state 13
+    negation                       shift and go to state 14
+    universal                      shift and go to state 15
+    existential                    shift and go to state 16
+    conjunction                    shift and go to state 17
+    disjunction                    shift and go to state 18
+    implication                    shift and go to state 19
+    biconditional                  shift and go to state 20
+    predicate                      shift and go to state 21
+    commented_predicate            shift and go to state 22
+    inline                         shift and go to state 23
+
+state 3
+
+    (2) starter -> ontology .
+
+    $end            reduce using rule 2 (starter -> ontology .)
+
+
+state 4
+
+    (3) ontology -> LPAREN . START URI statement RPAREN
+    (4) ontology -> LPAREN . START statement RPAREN
+    (8) ontology -> LPAREN . START error
+    (9) ontology -> LPAREN . START URI error
+    (29) import -> LPAREN . IMPORT URI RPAREN
+    (30) import -> LPAREN . IMPORT error
+    (27) comment -> LPAREN . CLCOMMENT QUOTED_STRING RPAREN
+    (28) comment -> LPAREN . CLCOMMENT error RPAREN
+    (11) module -> LPAREN . TITLE NONLOGICAL LPAREN START statement RPAREN RPAREN
+    (25) const -> LPAREN . SET LPAREN NONLOGICAL NAME_STRING RPAREN RPAREN
+    (6) title -> LPAREN . TITLE NONLOGICAL RPAREN
+    (7) title -> LPAREN . TITLE URI RPAREN
+    (10) restriction -> LPAREN . RESTRICT NONLOGICAL LPAREN START statement RPAREN RPAREN
+    (50) negation -> LPAREN . NOT axiom RPAREN
+    (66) universal -> LPAREN . FORALL LPAREN nonlogicals RPAREN axiom RPAREN
+    (67) universal -> LPAREN . FORALL LPAREN error
+    (68) universal -> LPAREN . FORALL LPAREN nonlogicals RPAREN error
+    (63) existential -> LPAREN . EXISTS LPAREN nonlogicals RPAREN axiom RPAREN
+    (64) existential -> LPAREN . EXISTS LPAREN error
+    (65) existential -> LPAREN . EXISTS LPAREN nonlogicals RPAREN error
+    (51) conjunction -> LPAREN . AND axiom_list RPAREN
+    (52) conjunction -> LPAREN . AND error
+    (53) disjunction -> LPAREN . OR axiom_list RPAREN
+    (54) disjunction -> LPAREN . OR error
+    (57) implication -> LPAREN . IF axiom axiom RPAREN
+    (58) implication -> LPAREN . IF error
+    (59) implication -> LPAREN . IF axiom error
+    (60) biconditional -> LPAREN . IFF axiom axiom RPAREN
+    (61) biconditional -> LPAREN . IFF error
+    (62) biconditional -> LPAREN . IFF axiom error
+    (71) predicate -> LPAREN . NONLOGICAL parameter RPAREN
+    (72) predicate -> LPAREN . NAME_STRING parameter RPAREN
+    (73) predicate -> LPAREN . SET parameter RPAREN
+    (74) predicate -> LPAREN . SET LPAREN NONLOGICAL NONLOGICAL RPAREN RPAREN
+    (75) predicate -> LPAREN . NONLOGICAL error RPAREN
+    (69) commented_predicate -> LPAREN . LPAREN CLCOMMENT QUOTED_STRING NONLOGICAL RPAREN parameter RPAREN
+    (70) commented_predicate -> LPAREN . LPAREN CLCOMMENT QUOTED_STRING NAME_STRING RPAREN parameter RPAREN
+    (26) inline -> LPAREN . CLCOMMENT QUOTED_STRING
+
+    START           shift and go to state 26
+    IMPORT          shift and go to state 27
+    CLCOMMENT       shift and go to state 28
+    TITLE           shift and go to state 29
+    SET             shift and go to state 31
+    RESTRICT        shift and go to state 33
+    NOT             shift and go to state 34
+    FORALL          shift and go to state 35
+    EXISTS          shift and go to state 36
+    AND             shift and go to state 37
+    OR              shift and go to state 38
+    IF              shift and go to state 39
+    IFF             shift and go to state 40
+    NONLOGICAL      shift and go to state 30
+    NAME_STRING     shift and go to state 32
+    LPAREN          shift and go to state 25
+
+
+state 5
+
+    (5) ontology -> statement .
+
+    $end            reduce using rule 5 (ontology -> statement .)
+
+
+state 6
+
+    (12) statement -> axiom . statement
+    (19) statement -> axiom .
+    (12) statement -> . axiom statement
+    (13) statement -> . import statement
+    (14) statement -> . comment statement
+    (15) statement -> . module statement
+    (16) statement -> . const statement
+    (17) statement -> . title statement
+    (18) statement -> . restriction statement
+    (19) statement -> . axiom
+    (20) statement -> . import
+    (21) statement -> . comment
+    (22) statement -> . module
+    (23) statement -> . const
+    (24) statement -> . restriction
+    (31) axiom -> . commented_axiom
+    (32) axiom -> . negation
+    (33) axiom -> . universal
+    (34) axiom -> . existential
+    (35) axiom -> . conjunction
+    (36) axiom -> . disjunction
+    (37) axiom -> . implication
+    (38) axiom -> . biconditional
+    (39) axiom -> . predicate
+    (40) axiom -> . commented_predicate
+    (29) import -> . LPAREN IMPORT URI RPAREN
+    (30) import -> . LPAREN IMPORT error
+    (27) comment -> . LPAREN CLCOMMENT QUOTED_STRING RPAREN
+    (28) comment -> . LPAREN CLCOMMENT error RPAREN
+    (11) module -> . LPAREN TITLE NONLOGICAL LPAREN START statement RPAREN RPAREN
+    (25) const -> . LPAREN SET LPAREN NONLOGICAL NAME_STRING RPAREN RPAREN
+    (6) title -> . LPAREN TITLE NONLOGICAL RPAREN
+    (7) title -> . LPAREN TITLE URI RPAREN
+    (10) restriction -> . LPAREN RESTRICT NONLOGICAL LPAREN START statement RPAREN RPAREN
+    (49) commented_axiom -> . inline base_axiom RPAREN
+    (50) negation -> . LPAREN NOT axiom RPAREN
+    (66) universal -> . LPAREN FORALL LPAREN nonlogicals RPAREN axiom RPAREN
+    (67) universal -> . LPAREN FORALL LPAREN error
+    (68) universal -> . LPAREN FORALL LPAREN nonlogicals RPAREN error
+    (63) existential -> . LPAREN EXISTS LPAREN nonlogicals RPAREN axiom RPAREN
+    (64) existential -> . LPAREN EXISTS LPAREN error
+    (65) existential -> . LPAREN EXISTS LPAREN nonlogicals RPAREN error
+    (51) conjunction -> . LPAREN AND axiom_list RPAREN
+    (52) conjunction -> . LPAREN AND error
+    (53) disjunction -> . LPAREN OR axiom_list RPAREN
+    (54) disjunction -> . LPAREN OR error
+    (57) implication -> . LPAREN IF axiom axiom RPAREN
+    (58) implication -> . LPAREN IF error
+    (59) implication -> . LPAREN IF axiom error
+    (60) biconditional -> . LPAREN IFF axiom axiom RPAREN
+    (61) biconditional -> . LPAREN IFF error
+    (62) biconditional -> . LPAREN IFF axiom error
+    (71) predicate -> . LPAREN NONLOGICAL parameter RPAREN
+    (72) predicate -> . LPAREN NAME_STRING parameter RPAREN
+    (73) predicate -> . LPAREN SET parameter RPAREN
+    (74) predicate -> . LPAREN SET LPAREN NONLOGICAL NONLOGICAL RPAREN RPAREN
+    (75) predicate -> . LPAREN NONLOGICAL error RPAREN
+    (69) commented_predicate -> . LPAREN LPAREN CLCOMMENT QUOTED_STRING NONLOGICAL RPAREN parameter RPAREN
+    (70) commented_predicate -> . LPAREN LPAREN CLCOMMENT QUOTED_STRING NAME_STRING RPAREN parameter RPAREN
+    (26) inline -> . LPAREN CLCOMMENT QUOTED_STRING
+
+    $end            reduce using rule 19 (statement -> axiom .)
+    RPAREN          reduce using rule 19 (statement -> axiom .)
+    LPAREN          shift and go to state 42
+
+    axiom                          shift and go to state 6
+    statement                      shift and go to state 41
+    import                         shift and go to state 7
+    comment                        shift and go to state 8
+    module                         shift and go to state 9
+    const                          shift and go to state 10
+    title                          shift and go to state 11
+    restriction                    shift and go to state 12
+    commented_axiom                shift and go to state 13
+    negation                       shift and go to state 14
+    universal                      shift and go to state 15
+    existential                    shift and go to state 16
+    conjunction                    shift and go to state 17
+    disjunction                    shift and go to state 18
+    implication                    shift and go to state 19
+    biconditional                  shift and go to state 20
+    predicate                      shift and go to state 21
+    commented_predicate            shift and go to state 22
+    inline                         shift and go to state 23
+
+state 7
+
+    (13) statement -> import . statement
+    (20) statement -> import .
+    (12) statement -> . axiom statement
+    (13) statement -> . import statement
+    (14) statement -> . comment statement
+    (15) statement -> . module statement
+    (16) statement -> . const statement
+    (17) statement -> . title statement
+    (18) statement -> . restriction statement
+    (19) statement -> . axiom
+    (20) statement -> . import
+    (21) statement -> . comment
+    (22) statement -> . module
+    (23) statement -> . const
+    (24) statement -> . restriction
+    (31) axiom -> . commented_axiom
+    (32) axiom -> . negation
+    (33) axiom -> . universal
+    (34) axiom -> . existential
+    (35) axiom -> . conjunction
+    (36) axiom -> . disjunction
+    (37) axiom -> . implication
+    (38) axiom -> . biconditional
+    (39) axiom -> . predicate
+    (40) axiom -> . commented_predicate
+    (29) import -> . LPAREN IMPORT URI RPAREN
+    (30) import -> . LPAREN IMPORT error
+    (27) comment -> . LPAREN CLCOMMENT QUOTED_STRING RPAREN
+    (28) comment -> . LPAREN CLCOMMENT error RPAREN
+    (11) module -> . LPAREN TITLE NONLOGICAL LPAREN START statement RPAREN RPAREN
+    (25) const -> . LPAREN SET LPAREN NONLOGICAL NAME_STRING RPAREN RPAREN
+    (6) title -> . LPAREN TITLE NONLOGICAL RPAREN
+    (7) title -> . LPAREN TITLE URI RPAREN
+    (10) restriction -> . LPAREN RESTRICT NONLOGICAL LPAREN START statement RPAREN RPAREN
+    (49) commented_axiom -> . inline base_axiom RPAREN
+    (50) negation -> . LPAREN NOT axiom RPAREN
+    (66) universal -> . LPAREN FORALL LPAREN nonlogicals RPAREN axiom RPAREN
+    (67) universal -> . LPAREN FORALL LPAREN error
+    (68) universal -> . LPAREN FORALL LPAREN nonlogicals RPAREN error
+    (63) existential -> . LPAREN EXISTS LPAREN nonlogicals RPAREN axiom RPAREN
+    (64) existential -> . LPAREN EXISTS LPAREN error
+    (65) existential -> . LPAREN EXISTS LPAREN nonlogicals RPAREN error
+    (51) conjunction -> . LPAREN AND axiom_list RPAREN
+    (52) conjunction -> . LPAREN AND error
+    (53) disjunction -> . LPAREN OR axiom_list RPAREN
+    (54) disjunction -> . LPAREN OR error
+    (57) implication -> . LPAREN IF axiom axiom RPAREN
+    (58) implication -> . LPAREN IF error
+    (59) implication -> . LPAREN IF axiom error
+    (60) biconditional -> . LPAREN IFF axiom axiom RPAREN
+    (61) biconditional -> . LPAREN IFF error
+    (62) biconditional -> . LPAREN IFF axiom error
+    (71) predicate -> . LPAREN NONLOGICAL parameter RPAREN
+    (72) predicate -> . LPAREN NAME_STRING parameter RPAREN
+    (73) predicate -> . LPAREN SET parameter RPAREN
+    (74) predicate -> . LPAREN SET LPAREN NONLOGICAL NONLOGICAL RPAREN RPAREN
+    (75) predicate -> . LPAREN NONLOGICAL error RPAREN
+    (69) commented_predicate -> . LPAREN LPAREN CLCOMMENT QUOTED_STRING NONLOGICAL RPAREN parameter RPAREN
+    (70) commented_predicate -> . LPAREN LPAREN CLCOMMENT QUOTED_STRING NAME_STRING RPAREN parameter RPAREN
+    (26) inline -> . LPAREN CLCOMMENT QUOTED_STRING
+
+    $end            reduce using rule 20 (statement -> import .)
+    RPAREN          reduce using rule 20 (statement -> import .)
+    LPAREN          shift and go to state 42
+
+    import                         shift and go to state 7
+    statement                      shift and go to state 43
+    axiom                          shift and go to state 6
+    comment                        shift and go to state 8
+    module                         shift and go to state 9
+    const                          shift and go to state 10
+    title                          shift and go to state 11
+    restriction                    shift and go to state 12
+    commented_axiom                shift and go to state 13
+    negation                       shift and go to state 14
+    universal                      shift and go to state 15
+    existential                    shift and go to state 16
+    conjunction                    shift and go to state 17
+    disjunction                    shift and go to state 18
+    implication                    shift and go to state 19
+    biconditional                  shift and go to state 20
+    predicate                      shift and go to state 21
+    commented_predicate            shift and go to state 22
+    inline                         shift and go to state 23
+
+state 8
+
+    (14) statement -> comment . statement
+    (21) statement -> comment .
+    (12) statement -> . axiom statement
+    (13) statement -> . import statement
+    (14) statement -> . comment statement
+    (15) statement -> . module statement
+    (16) statement -> . const statement
+    (17) statement -> . title statement
+    (18) statement -> . restriction statement
+    (19) statement -> . axiom
+    (20) statement -> . import
+    (21) statement -> . comment
+    (22) statement -> . module
+    (23) statement -> . const
+    (24) statement -> . restriction
+    (31) axiom -> . commented_axiom
+    (32) axiom -> . negation
+    (33) axiom -> . universal
+    (34) axiom -> . existential
+    (35) axiom -> . conjunction
+    (36) axiom -> . disjunction
+    (37) axiom -> . implication
+    (38) axiom -> . biconditional
+    (39) axiom -> . predicate
+    (40) axiom -> . commented_predicate
+    (29) import -> . LPAREN IMPORT URI RPAREN
+    (30) import -> . LPAREN IMPORT error
+    (27) comment -> . LPAREN CLCOMMENT QUOTED_STRING RPAREN
+    (28) comment -> . LPAREN CLCOMMENT error RPAREN
+    (11) module -> . LPAREN TITLE NONLOGICAL LPAREN START statement RPAREN RPAREN
+    (25) const -> . LPAREN SET LPAREN NONLOGICAL NAME_STRING RPAREN RPAREN
+    (6) title -> . LPAREN TITLE NONLOGICAL RPAREN
+    (7) title -> . LPAREN TITLE URI RPAREN
+    (10) restriction -> . LPAREN RESTRICT NONLOGICAL LPAREN START statement RPAREN RPAREN
+    (49) commented_axiom -> . inline base_axiom RPAREN
+    (50) negation -> . LPAREN NOT axiom RPAREN
+    (66) universal -> . LPAREN FORALL LPAREN nonlogicals RPAREN axiom RPAREN
+    (67) universal -> . LPAREN FORALL LPAREN error
+    (68) universal -> . LPAREN FORALL LPAREN nonlogicals RPAREN error
+    (63) existential -> . LPAREN EXISTS LPAREN nonlogicals RPAREN axiom RPAREN
+    (64) existential -> . LPAREN EXISTS LPAREN error
+    (65) existential -> . LPAREN EXISTS LPAREN nonlogicals RPAREN error
+    (51) conjunction -> . LPAREN AND axiom_list RPAREN
+    (52) conjunction -> . LPAREN AND error
+    (53) disjunction -> . LPAREN OR axiom_list RPAREN
+    (54) disjunction -> . LPAREN OR error
+    (57) implication -> . LPAREN IF axiom axiom RPAREN
+    (58) implication -> . LPAREN IF error
+    (59) implication -> . LPAREN IF axiom error
+    (60) biconditional -> . LPAREN IFF axiom axiom RPAREN
+    (61) biconditional -> . LPAREN IFF error
+    (62) biconditional -> . LPAREN IFF axiom error
+    (71) predicate -> . LPAREN NONLOGICAL parameter RPAREN
+    (72) predicate -> . LPAREN NAME_STRING parameter RPAREN
+    (73) predicate -> . LPAREN SET parameter RPAREN
+    (74) predicate -> . LPAREN SET LPAREN NONLOGICAL NONLOGICAL RPAREN RPAREN
+    (75) predicate -> . LPAREN NONLOGICAL error RPAREN
+    (69) commented_predicate -> . LPAREN LPAREN CLCOMMENT QUOTED_STRING NONLOGICAL RPAREN parameter RPAREN
+    (70) commented_predicate -> . LPAREN LPAREN CLCOMMENT QUOTED_STRING NAME_STRING RPAREN parameter RPAREN
+    (26) inline -> . LPAREN CLCOMMENT QUOTED_STRING
+
+    $end            reduce using rule 21 (statement -> comment .)
+    RPAREN          reduce using rule 21 (statement -> comment .)
+    LPAREN          shift and go to state 42
+
+    comment                        shift and go to state 8
+    statement                      shift and go to state 44
+    axiom                          shift and go to state 6
+    import                         shift and go to state 7
+    module                         shift and go to state 9
+    const                          shift and go to state 10
+    title                          shift and go to state 11
+    restriction                    shift and go to state 12
+    commented_axiom                shift and go to state 13
+    negation                       shift and go to state 14
+    universal                      shift and go to state 15
+    existential                    shift and go to state 16
+    conjunction                    shift and go to state 17
+    disjunction                    shift and go to state 18
+    implication                    shift and go to state 19
+    biconditional                  shift and go to state 20
+    predicate                      shift and go to state 21
+    commented_predicate            shift and go to state 22
+    inline                         shift and go to state 23
+
+state 9
+
+    (15) statement -> module . statement
+    (22) statement -> module .
+    (12) statement -> . axiom statement
+    (13) statement -> . import statement
+    (14) statement -> . comment statement
+    (15) statement -> . module statement
+    (16) statement -> . const statement
+    (17) statement -> . title statement
+    (18) statement -> . restriction statement
+    (19) statement -> . axiom
+    (20) statement -> . import
+    (21) statement -> . comment
+    (22) statement -> . module
+    (23) statement -> . const
+    (24) statement -> . restriction
+    (31) axiom -> . commented_axiom
+    (32) axiom -> . negation
+    (33) axiom -> . universal
+    (34) axiom -> . existential
+    (35) axiom -> . conjunction
+    (36) axiom -> . disjunction
+    (37) axiom -> . implication
+    (38) axiom -> . biconditional
+    (39) axiom -> . predicate
+    (40) axiom -> . commented_predicate
+    (29) import -> . LPAREN IMPORT URI RPAREN
+    (30) import -> . LPAREN IMPORT error
+    (27) comment -> . LPAREN CLCOMMENT QUOTED_STRING RPAREN
+    (28) comment -> . LPAREN CLCOMMENT error RPAREN
+    (11) module -> . LPAREN TITLE NONLOGICAL LPAREN START statement RPAREN RPAREN
+    (25) const -> . LPAREN SET LPAREN NONLOGICAL NAME_STRING RPAREN RPAREN
+    (6) title -> . LPAREN TITLE NONLOGICAL RPAREN
+    (7) title -> . LPAREN TITLE URI RPAREN
+    (10) restriction -> . LPAREN RESTRICT NONLOGICAL LPAREN START statement RPAREN RPAREN
+    (49) commented_axiom -> . inline base_axiom RPAREN
+    (50) negation -> . LPAREN NOT axiom RPAREN
+    (66) universal -> . LPAREN FORALL LPAREN nonlogicals RPAREN axiom RPAREN
+    (67) universal -> . LPAREN FORALL LPAREN error
+    (68) universal -> . LPAREN FORALL LPAREN nonlogicals RPAREN error
+    (63) existential -> . LPAREN EXISTS LPAREN nonlogicals RPAREN axiom RPAREN
+    (64) existential -> . LPAREN EXISTS LPAREN error
+    (65) existential -> . LPAREN EXISTS LPAREN nonlogicals RPAREN error
+    (51) conjunction -> . LPAREN AND axiom_list RPAREN
+    (52) conjunction -> . LPAREN AND error
+    (53) disjunction -> . LPAREN OR axiom_list RPAREN
+    (54) disjunction -> . LPAREN OR error
+    (57) implication -> . LPAREN IF axiom axiom RPAREN
+    (58) implication -> . LPAREN IF error
+    (59) implication -> . LPAREN IF axiom error
+    (60) biconditional -> . LPAREN IFF axiom axiom RPAREN
+    (61) biconditional -> . LPAREN IFF error
+    (62) biconditional -> . LPAREN IFF axiom error
+    (71) predicate -> . LPAREN NONLOGICAL parameter RPAREN
+    (72) predicate -> . LPAREN NAME_STRING parameter RPAREN
+    (73) predicate -> . LPAREN SET parameter RPAREN
+    (74) predicate -> . LPAREN SET LPAREN NONLOGICAL NONLOGICAL RPAREN RPAREN
+    (75) predicate -> . LPAREN NONLOGICAL error RPAREN
+    (69) commented_predicate -> . LPAREN LPAREN CLCOMMENT QUOTED_STRING NONLOGICAL RPAREN parameter RPAREN
+    (70) commented_predicate -> . LPAREN LPAREN CLCOMMENT QUOTED_STRING NAME_STRING RPAREN parameter RPAREN
+    (26) inline -> . LPAREN CLCOMMENT QUOTED_STRING
+
+    $end            reduce using rule 22 (statement -> module .)
+    RPAREN          reduce using rule 22 (statement -> module .)
+    LPAREN          shift and go to state 42
+
+    module                         shift and go to state 9
+    statement                      shift and go to state 45
+    axiom                          shift and go to state 6
+    import                         shift and go to state 7
+    comment                        shift and go to state 8
+    const                          shift and go to state 10
+    title                          shift and go to state 11
+    restriction                    shift and go to state 12
+    commented_axiom                shift and go to state 13
+    negation                       shift and go to state 14
+    universal                      shift and go to state 15
+    existential                    shift and go to state 16
+    conjunction                    shift and go to state 17
+    disjunction                    shift and go to state 18
+    implication                    shift and go to state 19
+    biconditional                  shift and go to state 20
+    predicate                      shift and go to state 21
+    commented_predicate            shift and go to state 22
+    inline                         shift and go to state 23
+
+state 10
+
+    (16) statement -> const . statement
+    (23) statement -> const .
+    (12) statement -> . axiom statement
+    (13) statement -> . import statement
+    (14) statement -> . comment statement
+    (15) statement -> . module statement
+    (16) statement -> . const statement
+    (17) statement -> . title statement
+    (18) statement -> . restriction statement
+    (19) statement -> . axiom
+    (20) statement -> . import
+    (21) statement -> . comment
+    (22) statement -> . module
+    (23) statement -> . const
+    (24) statement -> . restriction
+    (31) axiom -> . commented_axiom
+    (32) axiom -> . negation
+    (33) axiom -> . universal
+    (34) axiom -> . existential
+    (35) axiom -> . conjunction
+    (36) axiom -> . disjunction
+    (37) axiom -> . implication
+    (38) axiom -> . biconditional
+    (39) axiom -> . predicate
+    (40) axiom -> . commented_predicate
+    (29) import -> . LPAREN IMPORT URI RPAREN
+    (30) import -> . LPAREN IMPORT error
+    (27) comment -> . LPAREN CLCOMMENT QUOTED_STRING RPAREN
+    (28) comment -> . LPAREN CLCOMMENT error RPAREN
+    (11) module -> . LPAREN TITLE NONLOGICAL LPAREN START statement RPAREN RPAREN
+    (25) const -> . LPAREN SET LPAREN NONLOGICAL NAME_STRING RPAREN RPAREN
+    (6) title -> . LPAREN TITLE NONLOGICAL RPAREN
+    (7) title -> . LPAREN TITLE URI RPAREN
+    (10) restriction -> . LPAREN RESTRICT NONLOGICAL LPAREN START statement RPAREN RPAREN
+    (49) commented_axiom -> . inline base_axiom RPAREN
+    (50) negation -> . LPAREN NOT axiom RPAREN
+    (66) universal -> . LPAREN FORALL LPAREN nonlogicals RPAREN axiom RPAREN
+    (67) universal -> . LPAREN FORALL LPAREN error
+    (68) universal -> . LPAREN FORALL LPAREN nonlogicals RPAREN error
+    (63) existential -> . LPAREN EXISTS LPAREN nonlogicals RPAREN axiom RPAREN
+    (64) existential -> . LPAREN EXISTS LPAREN error
+    (65) existential -> . LPAREN EXISTS LPAREN nonlogicals RPAREN error
+    (51) conjunction -> . LPAREN AND axiom_list RPAREN
+    (52) conjunction -> . LPAREN AND error
+    (53) disjunction -> . LPAREN OR axiom_list RPAREN
+    (54) disjunction -> . LPAREN OR error
+    (57) implication -> . LPAREN IF axiom axiom RPAREN
+    (58) implication -> . LPAREN IF error
+    (59) implication -> . LPAREN IF axiom error
+    (60) biconditional -> . LPAREN IFF axiom axiom RPAREN
+    (61) biconditional -> . LPAREN IFF error
+    (62) biconditional -> . LPAREN IFF axiom error
+    (71) predicate -> . LPAREN NONLOGICAL parameter RPAREN
+    (72) predicate -> . LPAREN NAME_STRING parameter RPAREN
+    (73) predicate -> . LPAREN SET parameter RPAREN
+    (74) predicate -> . LPAREN SET LPAREN NONLOGICAL NONLOGICAL RPAREN RPAREN
+    (75) predicate -> . LPAREN NONLOGICAL error RPAREN
+    (69) commented_predicate -> . LPAREN LPAREN CLCOMMENT QUOTED_STRING NONLOGICAL RPAREN parameter RPAREN
+    (70) commented_predicate -> . LPAREN LPAREN CLCOMMENT QUOTED_STRING NAME_STRING RPAREN parameter RPAREN
+    (26) inline -> . LPAREN CLCOMMENT QUOTED_STRING
+
+    $end            reduce using rule 23 (statement -> const .)
+    RPAREN          reduce using rule 23 (statement -> const .)
+    LPAREN          shift and go to state 42
+
+    const                          shift and go to state 10
+    statement                      shift and go to state 46
+    axiom                          shift and go to state 6
+    import                         shift and go to state 7
+    comment                        shift and go to state 8
+    module                         shift and go to state 9
+    title                          shift and go to state 11
+    restriction                    shift and go to state 12
+    commented_axiom                shift and go to state 13
+    negation                       shift and go to state 14
+    universal                      shift and go to state 15
+    existential                    shift and go to state 16
+    conjunction                    shift and go to state 17
+    disjunction                    shift and go to state 18
+    implication                    shift and go to state 19
+    biconditional                  shift and go to state 20
+    predicate                      shift and go to state 21
+    commented_predicate            shift and go to state 22
+    inline                         shift and go to state 23
+
+state 11
+
+    (17) statement -> title . statement
+    (12) statement -> . axiom statement
+    (13) statement -> . import statement
+    (14) statement -> . comment statement
+    (15) statement -> . module statement
+    (16) statement -> . const statement
+    (17) statement -> . title statement
+    (18) statement -> . restriction statement
+    (19) statement -> . axiom
+    (20) statement -> . import
+    (21) statement -> . comment
+    (22) statement -> . module
+    (23) statement -> . const
+    (24) statement -> . restriction
+    (31) axiom -> . commented_axiom
+    (32) axiom -> . negation
+    (33) axiom -> . universal
+    (34) axiom -> . existential
+    (35) axiom -> . conjunction
+    (36) axiom -> . disjunction
+    (37) axiom -> . implication
+    (38) axiom -> . biconditional
+    (39) axiom -> . predicate
+    (40) axiom -> . commented_predicate
+    (29) import -> . LPAREN IMPORT URI RPAREN
+    (30) import -> . LPAREN IMPORT error
+    (27) comment -> . LPAREN CLCOMMENT QUOTED_STRING RPAREN
+    (28) comment -> . LPAREN CLCOMMENT error RPAREN
+    (11) module -> . LPAREN TITLE NONLOGICAL LPAREN START statement RPAREN RPAREN
+    (25) const -> . LPAREN SET LPAREN NONLOGICAL NAME_STRING RPAREN RPAREN
+    (6) title -> . LPAREN TITLE NONLOGICAL RPAREN
+    (7) title -> . LPAREN TITLE URI RPAREN
+    (10) restriction -> . LPAREN RESTRICT NONLOGICAL LPAREN START statement RPAREN RPAREN
+    (49) commented_axiom -> . inline base_axiom RPAREN
+    (50) negation -> . LPAREN NOT axiom RPAREN
+    (66) universal -> . LPAREN FORALL LPAREN nonlogicals RPAREN axiom RPAREN
+    (67) universal -> . LPAREN FORALL LPAREN error
+    (68) universal -> . LPAREN FORALL LPAREN nonlogicals RPAREN error
+    (63) existential -> . LPAREN EXISTS LPAREN nonlogicals RPAREN axiom RPAREN
+    (64) existential -> . LPAREN EXISTS LPAREN error
+    (65) existential -> . LPAREN EXISTS LPAREN nonlogicals RPAREN error
+    (51) conjunction -> . LPAREN AND axiom_list RPAREN
+    (52) conjunction -> . LPAREN AND error
+    (53) disjunction -> . LPAREN OR axiom_list RPAREN
+    (54) disjunction -> . LPAREN OR error
+    (57) implication -> . LPAREN IF axiom axiom RPAREN
+    (58) implication -> . LPAREN IF error
+    (59) implication -> . LPAREN IF axiom error
+    (60) biconditional -> . LPAREN IFF axiom axiom RPAREN
+    (61) biconditional -> . LPAREN IFF error
+    (62) biconditional -> . LPAREN IFF axiom error
+    (71) predicate -> . LPAREN NONLOGICAL parameter RPAREN
+    (72) predicate -> . LPAREN NAME_STRING parameter RPAREN
+    (73) predicate -> . LPAREN SET parameter RPAREN
+    (74) predicate -> . LPAREN SET LPAREN NONLOGICAL NONLOGICAL RPAREN RPAREN
+    (75) predicate -> . LPAREN NONLOGICAL error RPAREN
+    (69) commented_predicate -> . LPAREN LPAREN CLCOMMENT QUOTED_STRING NONLOGICAL RPAREN parameter RPAREN
+    (70) commented_predicate -> . LPAREN LPAREN CLCOMMENT QUOTED_STRING NAME_STRING RPAREN parameter RPAREN
+    (26) inline -> . LPAREN CLCOMMENT QUOTED_STRING
+
+    LPAREN          shift and go to state 42
+
+    title                          shift and go to state 11
+    statement                      shift and go to state 47
+    axiom                          shift and go to state 6
+    import                         shift and go to state 7
+    comment                        shift and go to state 8
+    module                         shift and go to state 9
+    const                          shift and go to state 10
+    restriction                    shift and go to state 12
+    commented_axiom                shift and go to state 13
+    negation                       shift and go to state 14
+    universal                      shift and go to state 15
+    existential                    shift and go to state 16
+    conjunction                    shift and go to state 17
+    disjunction                    shift and go to state 18
+    implication                    shift and go to state 19
+    biconditional                  shift and go to state 20
+    predicate                      shift and go to state 21
+    commented_predicate            shift and go to state 22
+    inline                         shift and go to state 23
+
+state 12
+
+    (18) statement -> restriction . statement
+    (24) statement -> restriction .
+    (12) statement -> . axiom statement
+    (13) statement -> . import statement
+    (14) statement -> . comment statement
+    (15) statement -> . module statement
+    (16) statement -> . const statement
+    (17) statement -> . title statement
+    (18) statement -> . restriction statement
+    (19) statement -> . axiom
+    (20) statement -> . import
+    (21) statement -> . comment
+    (22) statement -> . module
+    (23) statement -> . const
+    (24) statement -> . restriction
+    (31) axiom -> . commented_axiom
+    (32) axiom -> . negation
+    (33) axiom -> . universal
+    (34) axiom -> . existential
+    (35) axiom -> . conjunction
+    (36) axiom -> . disjunction
+    (37) axiom -> . implication
+    (38) axiom -> . biconditional
+    (39) axiom -> . predicate
+    (40) axiom -> . commented_predicate
+    (29) import -> . LPAREN IMPORT URI RPAREN
+    (30) import -> . LPAREN IMPORT error
+    (27) comment -> . LPAREN CLCOMMENT QUOTED_STRING RPAREN
+    (28) comment -> . LPAREN CLCOMMENT error RPAREN
+    (11) module -> . LPAREN TITLE NONLOGICAL LPAREN START statement RPAREN RPAREN
+    (25) const -> . LPAREN SET LPAREN NONLOGICAL NAME_STRING RPAREN RPAREN
+    (6) title -> . LPAREN TITLE NONLOGICAL RPAREN
+    (7) title -> . LPAREN TITLE URI RPAREN
+    (10) restriction -> . LPAREN RESTRICT NONLOGICAL LPAREN START statement RPAREN RPAREN
+    (49) commented_axiom -> . inline base_axiom RPAREN
+    (50) negation -> . LPAREN NOT axiom RPAREN
+    (66) universal -> . LPAREN FORALL LPAREN nonlogicals RPAREN axiom RPAREN
+    (67) universal -> . LPAREN FORALL LPAREN error
+    (68) universal -> . LPAREN FORALL LPAREN nonlogicals RPAREN error
+    (63) existential -> . LPAREN EXISTS LPAREN nonlogicals RPAREN axiom RPAREN
+    (64) existential -> . LPAREN EXISTS LPAREN error
+    (65) existential -> . LPAREN EXISTS LPAREN nonlogicals RPAREN error
+    (51) conjunction -> . LPAREN AND axiom_list RPAREN
+    (52) conjunction -> . LPAREN AND error
+    (53) disjunction -> . LPAREN OR axiom_list RPAREN
+    (54) disjunction -> . LPAREN OR error
+    (57) implication -> . LPAREN IF axiom axiom RPAREN
+    (58) implication -> . LPAREN IF error
+    (59) implication -> . LPAREN IF axiom error
+    (60) biconditional -> . LPAREN IFF axiom axiom RPAREN
+    (61) biconditional -> . LPAREN IFF error
+    (62) biconditional -> . LPAREN IFF axiom error
+    (71) predicate -> . LPAREN NONLOGICAL parameter RPAREN
+    (72) predicate -> . LPAREN NAME_STRING parameter RPAREN
+    (73) predicate -> . LPAREN SET parameter RPAREN
+    (74) predicate -> . LPAREN SET LPAREN NONLOGICAL NONLOGICAL RPAREN RPAREN
+    (75) predicate -> . LPAREN NONLOGICAL error RPAREN
+    (69) commented_predicate -> . LPAREN LPAREN CLCOMMENT QUOTED_STRING NONLOGICAL RPAREN parameter RPAREN
+    (70) commented_predicate -> . LPAREN LPAREN CLCOMMENT QUOTED_STRING NAME_STRING RPAREN parameter RPAREN
+    (26) inline -> . LPAREN CLCOMMENT QUOTED_STRING
+
+    $end            reduce using rule 24 (statement -> restriction .)
+    RPAREN          reduce using rule 24 (statement -> restriction .)
+    LPAREN          shift and go to state 42
+
+    restriction                    shift and go to state 12
+    statement                      shift and go to state 48
+    axiom                          shift and go to state 6
+    import                         shift and go to state 7
+    comment                        shift and go to state 8
+    module                         shift and go to state 9
+    const                          shift and go to state 10
+    title                          shift and go to state 11
+    commented_axiom                shift and go to state 13
+    negation                       shift and go to state 14
+    universal                      shift and go to state 15
+    existential                    shift and go to state 16
+    conjunction                    shift and go to state 17
+    disjunction                    shift and go to state 18
+    implication                    shift and go to state 19
+    biconditional                  shift and go to state 20
+    predicate                      shift and go to state 21
+    commented_predicate            shift and go to state 22
+    inline                         shift and go to state 23
+
+state 13
+
+    (31) axiom -> commented_axiom .
+
+    LPAREN          reduce using rule 31 (axiom -> commented_axiom .)
+    $end            reduce using rule 31 (axiom -> commented_axiom .)
+    RPAREN          reduce using rule 31 (axiom -> commented_axiom .)
+    error           reduce using rule 31 (axiom -> commented_axiom .)
+
+
+state 14
+
+    (32) axiom -> negation .
+
+    LPAREN          reduce using rule 32 (axiom -> negation .)
+    $end            reduce using rule 32 (axiom -> negation .)
+    RPAREN          reduce using rule 32 (axiom -> negation .)
+    error           reduce using rule 32 (axiom -> negation .)
+
+
+state 15
+
+    (33) axiom -> universal .
+
+    LPAREN          reduce using rule 33 (axiom -> universal .)
+    $end            reduce using rule 33 (axiom -> universal .)
+    RPAREN          reduce using rule 33 (axiom -> universal .)
+    error           reduce using rule 33 (axiom -> universal .)
+
+
+state 16
+
+    (34) axiom -> existential .
+
+    LPAREN          reduce using rule 34 (axiom -> existential .)
+    $end            reduce using rule 34 (axiom -> existential .)
+    RPAREN          reduce using rule 34 (axiom -> existential .)
+    error           reduce using rule 34 (axiom -> existential .)
+
+
+state 17
+
+    (35) axiom -> conjunction .
+
+    LPAREN          reduce using rule 35 (axiom -> conjunction .)
+    $end            reduce using rule 35 (axiom -> conjunction .)
+    RPAREN          reduce using rule 35 (axiom -> conjunction .)
+    error           reduce using rule 35 (axiom -> conjunction .)
+
+
+state 18
+
+    (36) axiom -> disjunction .
+
+    LPAREN          reduce using rule 36 (axiom -> disjunction .)
+    $end            reduce using rule 36 (axiom -> disjunction .)
+    RPAREN          reduce using rule 36 (axiom -> disjunction .)
+    error           reduce using rule 36 (axiom -> disjunction .)
+
+
+state 19
+
+    (37) axiom -> implication .
+
+    LPAREN          reduce using rule 37 (axiom -> implication .)
+    $end            reduce using rule 37 (axiom -> implication .)
+    RPAREN          reduce using rule 37 (axiom -> implication .)
+    error           reduce using rule 37 (axiom -> implication .)
+
+
+state 20
+
+    (38) axiom -> biconditional .
+
+    LPAREN          reduce using rule 38 (axiom -> biconditional .)
+    $end            reduce using rule 38 (axiom -> biconditional .)
+    RPAREN          reduce using rule 38 (axiom -> biconditional .)
+    error           reduce using rule 38 (axiom -> biconditional .)
+
+
+state 21
+
+    (39) axiom -> predicate .
+
+    LPAREN          reduce using rule 39 (axiom -> predicate .)
+    $end            reduce using rule 39 (axiom -> predicate .)
+    RPAREN          reduce using rule 39 (axiom -> predicate .)
+    error           reduce using rule 39 (axiom -> predicate .)
+
+
+state 22
+
+    (40) axiom -> commented_predicate .
+
+    LPAREN          reduce using rule 40 (axiom -> commented_predicate .)
+    $end            reduce using rule 40 (axiom -> commented_predicate .)
+    RPAREN          reduce using rule 40 (axiom -> commented_predicate .)
+    error           reduce using rule 40 (axiom -> commented_predicate .)
+
+
+state 23
+
+    (49) commented_axiom -> inline . base_axiom RPAREN
+    (41) base_axiom -> . negation
+    (42) base_axiom -> . universal
+    (43) base_axiom -> . existential
+    (44) base_axiom -> . conjunction
+    (45) base_axiom -> . disjunction
+    (46) base_axiom -> . implication
+    (47) base_axiom -> . biconditional
+    (48) base_axiom -> . predicate
+    (50) negation -> . LPAREN NOT axiom RPAREN
+    (66) universal -> . LPAREN FORALL LPAREN nonlogicals RPAREN axiom RPAREN
+    (67) universal -> . LPAREN FORALL LPAREN error
+    (68) universal -> . LPAREN FORALL LPAREN nonlogicals RPAREN error
+    (63) existential -> . LPAREN EXISTS LPAREN nonlogicals RPAREN axiom RPAREN
+    (64) existential -> . LPAREN EXISTS LPAREN error
+    (65) existential -> . LPAREN EXISTS LPAREN nonlogicals RPAREN error
+    (51) conjunction -> . LPAREN AND axiom_list RPAREN
+    (52) conjunction -> . LPAREN AND error
+    (53) disjunction -> . LPAREN OR axiom_list RPAREN
+    (54) disjunction -> . LPAREN OR error
+    (57) implication -> . LPAREN IF axiom axiom RPAREN
+    (58) implication -> . LPAREN IF error
+    (59) implication -> . LPAREN IF axiom error
+    (60) biconditional -> . LPAREN IFF axiom axiom RPAREN
+    (61) biconditional -> . LPAREN IFF error
+    (62) biconditional -> . LPAREN IFF axiom error
+    (71) predicate -> . LPAREN NONLOGICAL parameter RPAREN
+    (72) predicate -> . LPAREN NAME_STRING parameter RPAREN
+    (73) predicate -> . LPAREN SET parameter RPAREN
+    (74) predicate -> . LPAREN SET LPAREN NONLOGICAL NONLOGICAL RPAREN RPAREN
+    (75) predicate -> . LPAREN NONLOGICAL error RPAREN
+
+    LPAREN          shift and go to state 58
+
+    base_axiom                     shift and go to state 49
+    negation                       shift and go to state 50
+    universal                      shift and go to state 51
+    existential                    shift and go to state 52
+    conjunction                    shift and go to state 53
+    disjunction                    shift and go to state 54
+    implication                    shift and go to state 55
+    biconditional                  shift and go to state 56
+    predicate                      shift and go to state 57
+
+state 24
+
+    (1) starter -> COMMENT ontology .
+
+    $end            reduce using rule 1 (starter -> COMMENT ontology .)
+
+
+state 25
+
+    (69) commented_predicate -> LPAREN LPAREN . CLCOMMENT QUOTED_STRING NONLOGICAL RPAREN parameter RPAREN
+    (70) commented_predicate -> LPAREN LPAREN . CLCOMMENT QUOTED_STRING NAME_STRING RPAREN parameter RPAREN
+
+    CLCOMMENT       shift and go to state 59
+
+
+state 26
+
+    (3) ontology -> LPAREN START . URI statement RPAREN
+    (4) ontology -> LPAREN START . statement RPAREN
+    (8) ontology -> LPAREN START . error
+    (9) ontology -> LPAREN START . URI error
+    (12) statement -> . axiom statement
+    (13) statement -> . import statement
+    (14) statement -> . comment statement
+    (15) statement -> . module statement
+    (16) statement -> . const statement
+    (17) statement -> . title statement
+    (18) statement -> . restriction statement
+    (19) statement -> . axiom
+    (20) statement -> . import
+    (21) statement -> . comment
+    (22) statement -> . module
+    (23) statement -> . const
+    (24) statement -> . restriction
+    (31) axiom -> . commented_axiom
+    (32) axiom -> . negation
+    (33) axiom -> . universal
+    (34) axiom -> . existential
+    (35) axiom -> . conjunction
+    (36) axiom -> . disjunction
+    (37) axiom -> . implication
+    (38) axiom -> . biconditional
+    (39) axiom -> . predicate
+    (40) axiom -> . commented_predicate
+    (29) import -> . LPAREN IMPORT URI RPAREN
+    (30) import -> . LPAREN IMPORT error
+    (27) comment -> . LPAREN CLCOMMENT QUOTED_STRING RPAREN
+    (28) comment -> . LPAREN CLCOMMENT error RPAREN
+    (11) module -> . LPAREN TITLE NONLOGICAL LPAREN START statement RPAREN RPAREN
+    (25) const -> . LPAREN SET LPAREN NONLOGICAL NAME_STRING RPAREN RPAREN
+    (6) title -> . LPAREN TITLE NONLOGICAL RPAREN
+    (7) title -> . LPAREN TITLE URI RPAREN
+    (10) restriction -> . LPAREN RESTRICT NONLOGICAL LPAREN START statement RPAREN RPAREN
+    (49) commented_axiom -> . inline base_axiom RPAREN
+    (50) negation -> . LPAREN NOT axiom RPAREN
+    (66) universal -> . LPAREN FORALL LPAREN nonlogicals RPAREN axiom RPAREN
+    (67) universal -> . LPAREN FORALL LPAREN error
+    (68) universal -> . LPAREN FORALL LPAREN nonlogicals RPAREN error
+    (63) existential -> . LPAREN EXISTS LPAREN nonlogicals RPAREN axiom RPAREN
+    (64) existential -> . LPAREN EXISTS LPAREN error
+    (65) existential -> . LPAREN EXISTS LPAREN nonlogicals RPAREN error
+    (51) conjunction -> . LPAREN AND axiom_list RPAREN
+    (52) conjunction -> . LPAREN AND error
+    (53) disjunction -> . LPAREN OR axiom_list RPAREN
+    (54) disjunction -> . LPAREN OR error
+    (57) implication -> . LPAREN IF axiom axiom RPAREN
+    (58) implication -> . LPAREN IF error
+    (59) implication -> . LPAREN IF axiom error
+    (60) biconditional -> . LPAREN IFF axiom axiom RPAREN
+    (61) biconditional -> . LPAREN IFF error
+    (62) biconditional -> . LPAREN IFF axiom error
+    (71) predicate -> . LPAREN NONLOGICAL parameter RPAREN
+    (72) predicate -> . LPAREN NAME_STRING parameter RPAREN
+    (73) predicate -> . LPAREN SET parameter RPAREN
+    (74) predicate -> . LPAREN SET LPAREN NONLOGICAL NONLOGICAL RPAREN RPAREN
+    (75) predicate -> . LPAREN NONLOGICAL error RPAREN
+    (69) commented_predicate -> . LPAREN LPAREN CLCOMMENT QUOTED_STRING NONLOGICAL RPAREN parameter RPAREN
+    (70) commented_predicate -> . LPAREN LPAREN CLCOMMENT QUOTED_STRING NAME_STRING RPAREN parameter RPAREN
+    (26) inline -> . LPAREN CLCOMMENT QUOTED_STRING
+
+    URI             shift and go to state 60
+    error           shift and go to state 62
+    LPAREN          shift and go to state 42
+
+    statement                      shift and go to state 61
+    axiom                          shift and go to state 6
+    import                         shift and go to state 7
+    comment                        shift and go to state 8
+    module                         shift and go to state 9
+    const                          shift and go to state 10
+    title                          shift and go to state 11
+    restriction                    shift and go to state 12
+    commented_axiom                shift and go to state 13
+    negation                       shift and go to state 14
+    universal                      shift and go to state 15
+    existential                    shift and go to state 16
+    conjunction                    shift and go to state 17
+    disjunction                    shift and go to state 18
+    implication                    shift and go to state 19
+    biconditional                  shift and go to state 20
+    predicate                      shift and go to state 21
+    commented_predicate            shift and go to state 22
+    inline                         shift and go to state 23
+
+state 27
+
+    (29) import -> LPAREN IMPORT . URI RPAREN
+    (30) import -> LPAREN IMPORT . error
+
+    URI             shift and go to state 63
+    error           shift and go to state 64
+
+
+state 28
+
+    (27) comment -> LPAREN CLCOMMENT . QUOTED_STRING RPAREN
+    (28) comment -> LPAREN CLCOMMENT . error RPAREN
+    (26) inline -> LPAREN CLCOMMENT . QUOTED_STRING
+
+    QUOTED_STRING   shift and go to state 65
+    error           shift and go to state 66
+
+
+state 29
+
+    (11) module -> LPAREN TITLE . NONLOGICAL LPAREN START statement RPAREN RPAREN
+    (6) title -> LPAREN TITLE . NONLOGICAL RPAREN
+    (7) title -> LPAREN TITLE . URI RPAREN
+
+    NONLOGICAL      shift and go to state 67
+    URI             shift and go to state 68
+
+
+state 30
+
+    (71) predicate -> LPAREN NONLOGICAL . parameter RPAREN
+    (75) predicate -> LPAREN NONLOGICAL . error RPAREN
+    (76) parameter -> . function parameter
+    (77) parameter -> . nonlogicals parameter
+    (78) parameter -> . function
+    (79) parameter -> . nonlogicals
+    (80) function -> . LPAREN NONLOGICAL parameter RPAREN
+    (81) function -> . LPAREN NONLOGICAL error RPAREN
+    (82) nonlogicals -> . NONLOGICAL nonlogicals
+    (83) nonlogicals -> . NONLOGICAL
+
+    error           shift and go to state 72
+    LPAREN          shift and go to state 69
+    NONLOGICAL      shift and go to state 70
+
+    parameter                      shift and go to state 71
+    function                       shift and go to state 73
+    nonlogicals                    shift and go to state 74
+
+state 31
+
+    (25) const -> LPAREN SET . LPAREN NONLOGICAL NAME_STRING RPAREN RPAREN
+    (73) predicate -> LPAREN SET . parameter RPAREN
+    (74) predicate -> LPAREN SET . LPAREN NONLOGICAL NONLOGICAL RPAREN RPAREN
+    (76) parameter -> . function parameter
+    (77) parameter -> . nonlogicals parameter
+    (78) parameter -> . function
+    (79) parameter -> . nonlogicals
+    (80) function -> . LPAREN NONLOGICAL parameter RPAREN
+    (81) function -> . LPAREN NONLOGICAL error RPAREN
+    (82) nonlogicals -> . NONLOGICAL nonlogicals
+    (83) nonlogicals -> . NONLOGICAL
+
+    LPAREN          shift and go to state 75
+    NONLOGICAL      shift and go to state 70
+
+    parameter                      shift and go to state 76
+    function                       shift and go to state 73
+    nonlogicals                    shift and go to state 74
+
+state 32
+
+    (72) predicate -> LPAREN NAME_STRING . parameter RPAREN
+    (76) parameter -> . function parameter
+    (77) parameter -> . nonlogicals parameter
+    (78) parameter -> . function
+    (79) parameter -> . nonlogicals
+    (80) function -> . LPAREN NONLOGICAL parameter RPAREN
+    (81) function -> . LPAREN NONLOGICAL error RPAREN
+    (82) nonlogicals -> . NONLOGICAL nonlogicals
+    (83) nonlogicals -> . NONLOGICAL
+
+    LPAREN          shift and go to state 69
+    NONLOGICAL      shift and go to state 70
+
+    parameter                      shift and go to state 77
+    function                       shift and go to state 73
+    nonlogicals                    shift and go to state 74
+
+state 33
+
+    (10) restriction -> LPAREN RESTRICT . NONLOGICAL LPAREN START statement RPAREN RPAREN
+
+    NONLOGICAL      shift and go to state 78
+
+
+state 34
+
+    (50) negation -> LPAREN NOT . axiom RPAREN
+    (31) axiom -> . commented_axiom
+    (32) axiom -> . negation
+    (33) axiom -> . universal
+    (34) axiom -> . existential
+    (35) axiom -> . conjunction
+    (36) axiom -> . disjunction
+    (37) axiom -> . implication
+    (38) axiom -> . biconditional
+    (39) axiom -> . predicate
+    (40) axiom -> . commented_predicate
+    (49) commented_axiom -> . inline base_axiom RPAREN
+    (50) negation -> . LPAREN NOT axiom RPAREN
+    (66) universal -> . LPAREN FORALL LPAREN nonlogicals RPAREN axiom RPAREN
+    (67) universal -> . LPAREN FORALL LPAREN error
+    (68) universal -> . LPAREN FORALL LPAREN nonlogicals RPAREN error
+    (63) existential -> . LPAREN EXISTS LPAREN nonlogicals RPAREN axiom RPAREN
+    (64) existential -> . LPAREN EXISTS LPAREN error
+    (65) existential -> . LPAREN EXISTS LPAREN nonlogicals RPAREN error
+    (51) conjunction -> . LPAREN AND axiom_list RPAREN
+    (52) conjunction -> . LPAREN AND error
+    (53) disjunction -> . LPAREN OR axiom_list RPAREN
+    (54) disjunction -> . LPAREN OR error
+    (57) implication -> . LPAREN IF axiom axiom RPAREN
+    (58) implication -> . LPAREN IF error
+    (59) implication -> . LPAREN IF axiom error
+    (60) biconditional -> . LPAREN IFF axiom axiom RPAREN
+    (61) biconditional -> . LPAREN IFF error
+    (62) biconditional -> . LPAREN IFF axiom error
+    (71) predicate -> . LPAREN NONLOGICAL parameter RPAREN
+    (72) predicate -> . LPAREN NAME_STRING parameter RPAREN
+    (73) predicate -> . LPAREN SET parameter RPAREN
+    (74) predicate -> . LPAREN SET LPAREN NONLOGICAL NONLOGICAL RPAREN RPAREN
+    (75) predicate -> . LPAREN NONLOGICAL error RPAREN
+    (69) commented_predicate -> . LPAREN LPAREN CLCOMMENT QUOTED_STRING NONLOGICAL RPAREN parameter RPAREN
+    (70) commented_predicate -> . LPAREN LPAREN CLCOMMENT QUOTED_STRING NAME_STRING RPAREN parameter RPAREN
+    (26) inline -> . LPAREN CLCOMMENT QUOTED_STRING
+
+    LPAREN          shift and go to state 79
+
+    axiom                          shift and go to state 80
+    commented_axiom                shift and go to state 13
+    negation                       shift and go to state 14
+    universal                      shift and go to state 15
+    existential                    shift and go to state 16
+    conjunction                    shift and go to state 17
+    disjunction                    shift and go to state 18
+    implication                    shift and go to state 19
+    biconditional                  shift and go to state 20
+    predicate                      shift and go to state 21
+    commented_predicate            shift and go to state 22
+    inline                         shift and go to state 23
+
+state 35
+
+    (66) universal -> LPAREN FORALL . LPAREN nonlogicals RPAREN axiom RPAREN
+    (67) universal -> LPAREN FORALL . LPAREN error
+    (68) universal -> LPAREN FORALL . LPAREN nonlogicals RPAREN error
+
+    LPAREN          shift and go to state 81
+
+
+state 36
+
+    (63) existential -> LPAREN EXISTS . LPAREN nonlogicals RPAREN axiom RPAREN
+    (64) existential -> LPAREN EXISTS . LPAREN error
+    (65) existential -> LPAREN EXISTS . LPAREN nonlogicals RPAREN error
+
+    LPAREN          shift and go to state 82
+
+
+state 37
+
+    (51) conjunction -> LPAREN AND . axiom_list RPAREN
+    (52) conjunction -> LPAREN AND . error
+    (55) axiom_list -> . axiom axiom_list
+    (56) axiom_list -> . axiom
+    (31) axiom -> . commented_axiom
+    (32) axiom -> . negation
+    (33) axiom -> . universal
+    (34) axiom -> . existential
+    (35) axiom -> . conjunction
+    (36) axiom -> . disjunction
+    (37) axiom -> . implication
+    (38) axiom -> . biconditional
+    (39) axiom -> . predicate
+    (40) axiom -> . commented_predicate
+    (49) commented_axiom -> . inline base_axiom RPAREN
+    (50) negation -> . LPAREN NOT axiom RPAREN
+    (66) universal -> . LPAREN FORALL LPAREN nonlogicals RPAREN axiom RPAREN
+    (67) universal -> . LPAREN FORALL LPAREN error
+    (68) universal -> . LPAREN FORALL LPAREN nonlogicals RPAREN error
+    (63) existential -> . LPAREN EXISTS LPAREN nonlogicals RPAREN axiom RPAREN
+    (64) existential -> . LPAREN EXISTS LPAREN error
+    (65) existential -> . LPAREN EXISTS LPAREN nonlogicals RPAREN error
+    (51) conjunction -> . LPAREN AND axiom_list RPAREN
+    (52) conjunction -> . LPAREN AND error
+    (53) disjunction -> . LPAREN OR axiom_list RPAREN
+    (54) disjunction -> . LPAREN OR error
+    (57) implication -> . LPAREN IF axiom axiom RPAREN
+    (58) implication -> . LPAREN IF error
+    (59) implication -> . LPAREN IF axiom error
+    (60) biconditional -> . LPAREN IFF axiom axiom RPAREN
+    (61) biconditional -> . LPAREN IFF error
+    (62) biconditional -> . LPAREN IFF axiom error
+    (71) predicate -> . LPAREN NONLOGICAL parameter RPAREN
+    (72) predicate -> . LPAREN NAME_STRING parameter RPAREN
+    (73) predicate -> . LPAREN SET parameter RPAREN
+    (74) predicate -> . LPAREN SET LPAREN NONLOGICAL NONLOGICAL RPAREN RPAREN
+    (75) predicate -> . LPAREN NONLOGICAL error RPAREN
+    (69) commented_predicate -> . LPAREN LPAREN CLCOMMENT QUOTED_STRING NONLOGICAL RPAREN parameter RPAREN
+    (70) commented_predicate -> . LPAREN LPAREN CLCOMMENT QUOTED_STRING NAME_STRING RPAREN parameter RPAREN
+    (26) inline -> . LPAREN CLCOMMENT QUOTED_STRING
+
+    error           shift and go to state 84
+    LPAREN          shift and go to state 79
+
+    axiom_list                     shift and go to state 83
+    axiom                          shift and go to state 85
+    commented_axiom                shift and go to state 13
+    negation                       shift and go to state 14
+    universal                      shift and go to state 15
+    existential                    shift and go to state 16
+    conjunction                    shift and go to state 17
+    disjunction                    shift and go to state 18
+    implication                    shift and go to state 19
+    biconditional                  shift and go to state 20
+    predicate                      shift and go to state 21
+    commented_predicate            shift and go to state 22
+    inline                         shift and go to state 23
+
+state 38
+
+    (53) disjunction -> LPAREN OR . axiom_list RPAREN
+    (54) disjunction -> LPAREN OR . error
+    (55) axiom_list -> . axiom axiom_list
+    (56) axiom_list -> . axiom
+    (31) axiom -> . commented_axiom
+    (32) axiom -> . negation
+    (33) axiom -> . universal
+    (34) axiom -> . existential
+    (35) axiom -> . conjunction
+    (36) axiom -> . disjunction
+    (37) axiom -> . implication
+    (38) axiom -> . biconditional
+    (39) axiom -> . predicate
+    (40) axiom -> . commented_predicate
+    (49) commented_axiom -> . inline base_axiom RPAREN
+    (50) negation -> . LPAREN NOT axiom RPAREN
+    (66) universal -> . LPAREN FORALL LPAREN nonlogicals RPAREN axiom RPAREN
+    (67) universal -> . LPAREN FORALL LPAREN error
+    (68) universal -> . LPAREN FORALL LPAREN nonlogicals RPAREN error
+    (63) existential -> . LPAREN EXISTS LPAREN nonlogicals RPAREN axiom RPAREN
+    (64) existential -> . LPAREN EXISTS LPAREN error
+    (65) existential -> . LPAREN EXISTS LPAREN nonlogicals RPAREN error
+    (51) conjunction -> . LPAREN AND axiom_list RPAREN
+    (52) conjunction -> . LPAREN AND error
+    (53) disjunction -> . LPAREN OR axiom_list RPAREN
+    (54) disjunction -> . LPAREN OR error
+    (57) implication -> . LPAREN IF axiom axiom RPAREN
+    (58) implication -> . LPAREN IF error
+    (59) implication -> . LPAREN IF axiom error
+    (60) biconditional -> . LPAREN IFF axiom axiom RPAREN
+    (61) biconditional -> . LPAREN IFF error
+    (62) biconditional -> . LPAREN IFF axiom error
+    (71) predicate -> . LPAREN NONLOGICAL parameter RPAREN
+    (72) predicate -> . LPAREN NAME_STRING parameter RPAREN
+    (73) predicate -> . LPAREN SET parameter RPAREN
+    (74) predicate -> . LPAREN SET LPAREN NONLOGICAL NONLOGICAL RPAREN RPAREN
+    (75) predicate -> . LPAREN NONLOGICAL error RPAREN
+    (69) commented_predicate -> . LPAREN LPAREN CLCOMMENT QUOTED_STRING NONLOGICAL RPAREN parameter RPAREN
+    (70) commented_predicate -> . LPAREN LPAREN CLCOMMENT QUOTED_STRING NAME_STRING RPAREN parameter RPAREN
+    (26) inline -> . LPAREN CLCOMMENT QUOTED_STRING
+
+    error           shift and go to state 87
+    LPAREN          shift and go to state 79
+
+    axiom_list                     shift and go to state 86
+    axiom                          shift and go to state 85
+    commented_axiom                shift and go to state 13
+    negation                       shift and go to state 14
+    universal                      shift and go to state 15
+    existential                    shift and go to state 16
+    conjunction                    shift and go to state 17
+    disjunction                    shift and go to state 18
+    implication                    shift and go to state 19
+    biconditional                  shift and go to state 20
+    predicate                      shift and go to state 21
+    commented_predicate            shift and go to state 22
+    inline                         shift and go to state 23
+
+state 39
+
+    (57) implication -> LPAREN IF . axiom axiom RPAREN
+    (58) implication -> LPAREN IF . error
+    (59) implication -> LPAREN IF . axiom error
+    (31) axiom -> . commented_axiom
+    (32) axiom -> . negation
+    (33) axiom -> . universal
+    (34) axiom -> . existential
+    (35) axiom -> . conjunction
+    (36) axiom -> . disjunction
+    (37) axiom -> . implication
+    (38) axiom -> . biconditional
+    (39) axiom -> . predicate
+    (40) axiom -> . commented_predicate
+    (49) commented_axiom -> . inline base_axiom RPAREN
+    (50) negation -> . LPAREN NOT axiom RPAREN
+    (66) universal -> . LPAREN FORALL LPAREN nonlogicals RPAREN axiom RPAREN
+    (67) universal -> . LPAREN FORALL LPAREN error
+    (68) universal -> . LPAREN FORALL LPAREN nonlogicals RPAREN error
+    (63) existential -> . LPAREN EXISTS LPAREN nonlogicals RPAREN axiom RPAREN
+    (64) existential -> . LPAREN EXISTS LPAREN error
+    (65) existential -> . LPAREN EXISTS LPAREN nonlogicals RPAREN error
+    (51) conjunction -> . LPAREN AND axiom_list RPAREN
+    (52) conjunction -> . LPAREN AND error
+    (53) disjunction -> . LPAREN OR axiom_list RPAREN
+    (54) disjunction -> . LPAREN OR error
+    (57) implication -> . LPAREN IF axiom axiom RPAREN
+    (58) implication -> . LPAREN IF error
+    (59) implication -> . LPAREN IF axiom error
+    (60) biconditional -> . LPAREN IFF axiom axiom RPAREN
+    (61) biconditional -> . LPAREN IFF error
+    (62) biconditional -> . LPAREN IFF axiom error
+    (71) predicate -> . LPAREN NONLOGICAL parameter RPAREN
+    (72) predicate -> . LPAREN NAME_STRING parameter RPAREN
+    (73) predicate -> . LPAREN SET parameter RPAREN
+    (74) predicate -> . LPAREN SET LPAREN NONLOGICAL NONLOGICAL RPAREN RPAREN
+    (75) predicate -> . LPAREN NONLOGICAL error RPAREN
+    (69) commented_predicate -> . LPAREN LPAREN CLCOMMENT QUOTED_STRING NONLOGICAL RPAREN parameter RPAREN
+    (70) commented_predicate -> . LPAREN LPAREN CLCOMMENT QUOTED_STRING NAME_STRING RPAREN parameter RPAREN
+    (26) inline -> . LPAREN CLCOMMENT QUOTED_STRING
+
+    error           shift and go to state 89
+    LPAREN          shift and go to state 79
+
+    axiom                          shift and go to state 88
+    commented_axiom                shift and go to state 13
+    negation                       shift and go to state 14
+    universal                      shift and go to state 15
+    existential                    shift and go to state 16
+    conjunction                    shift and go to state 17
+    disjunction                    shift and go to state 18
+    implication                    shift and go to state 19
+    biconditional                  shift and go to state 20
+    predicate                      shift and go to state 21
+    commented_predicate            shift and go to state 22
+    inline                         shift and go to state 23
+
+state 40
+
+    (60) biconditional -> LPAREN IFF . axiom axiom RPAREN
+    (61) biconditional -> LPAREN IFF . error
+    (62) biconditional -> LPAREN IFF . axiom error
+    (31) axiom -> . commented_axiom
+    (32) axiom -> . negation
+    (33) axiom -> . universal
+    (34) axiom -> . existential
+    (35) axiom -> . conjunction
+    (36) axiom -> . disjunction
+    (37) axiom -> . implication
+    (38) axiom -> . biconditional
+    (39) axiom -> . predicate
+    (40) axiom -> . commented_predicate
+    (49) commented_axiom -> . inline base_axiom RPAREN
+    (50) negation -> . LPAREN NOT axiom RPAREN
+    (66) universal -> . LPAREN FORALL LPAREN nonlogicals RPAREN axiom RPAREN
+    (67) universal -> . LPAREN FORALL LPAREN error
+    (68) universal -> . LPAREN FORALL LPAREN nonlogicals RPAREN error
+    (63) existential -> . LPAREN EXISTS LPAREN nonlogicals RPAREN axiom RPAREN
+    (64) existential -> . LPAREN EXISTS LPAREN error
+    (65) existential -> . LPAREN EXISTS LPAREN nonlogicals RPAREN error
+    (51) conjunction -> . LPAREN AND axiom_list RPAREN
+    (52) conjunction -> . LPAREN AND error
+    (53) disjunction -> . LPAREN OR axiom_list RPAREN
+    (54) disjunction -> . LPAREN OR error
+    (57) implication -> . LPAREN IF axiom axiom RPAREN
+    (58) implication -> . LPAREN IF error
+    (59) implication -> . LPAREN IF axiom error
+    (60) biconditional -> . LPAREN IFF axiom axiom RPAREN
+    (61) biconditional -> . LPAREN IFF error
+    (62) biconditional -> . LPAREN IFF axiom error
+    (71) predicate -> . LPAREN NONLOGICAL parameter RPAREN
+    (72) predicate -> . LPAREN NAME_STRING parameter RPAREN
+    (73) predicate -> . LPAREN SET parameter RPAREN
+    (74) predicate -> . LPAREN SET LPAREN NONLOGICAL NONLOGICAL RPAREN RPAREN
+    (75) predicate -> . LPAREN NONLOGICAL error RPAREN
+    (69) commented_predicate -> . LPAREN LPAREN CLCOMMENT QUOTED_STRING NONLOGICAL RPAREN parameter RPAREN
+    (70) commented_predicate -> . LPAREN LPAREN CLCOMMENT QUOTED_STRING NAME_STRING RPAREN parameter RPAREN
+    (26) inline -> . LPAREN CLCOMMENT QUOTED_STRING
+
+    error           shift and go to state 91
+    LPAREN          shift and go to state 79
+
+    axiom                          shift and go to state 90
+    commented_axiom                shift and go to state 13
+    negation                       shift and go to state 14
+    universal                      shift and go to state 15
+    existential                    shift and go to state 16
+    conjunction                    shift and go to state 17
+    disjunction                    shift and go to state 18
+    implication                    shift and go to state 19
+    biconditional                  shift and go to state 20
+    predicate                      shift and go to state 21
+    commented_predicate            shift and go to state 22
+    inline                         shift and go to state 23
+
+state 41
+
+    (12) statement -> axiom statement .
+
+    $end            reduce using rule 12 (statement -> axiom statement .)
+    RPAREN          reduce using rule 12 (statement -> axiom statement .)
+
+
+state 42
+
+    (29) import -> LPAREN . IMPORT URI RPAREN
+    (30) import -> LPAREN . IMPORT error
+    (27) comment -> LPAREN . CLCOMMENT QUOTED_STRING RPAREN
+    (28) comment -> LPAREN . CLCOMMENT error RPAREN
+    (11) module -> LPAREN . TITLE NONLOGICAL LPAREN START statement RPAREN RPAREN
+    (25) const -> LPAREN . SET LPAREN NONLOGICAL NAME_STRING RPAREN RPAREN
+    (6) title -> LPAREN . TITLE NONLOGICAL RPAREN
+    (7) title -> LPAREN . TITLE URI RPAREN
+    (10) restriction -> LPAREN . RESTRICT NONLOGICAL LPAREN START statement RPAREN RPAREN
+    (50) negation -> LPAREN . NOT axiom RPAREN
+    (66) universal -> LPAREN . FORALL LPAREN nonlogicals RPAREN axiom RPAREN
+    (67) universal -> LPAREN . FORALL LPAREN error
+    (68) universal -> LPAREN . FORALL LPAREN nonlogicals RPAREN error
+    (63) existential -> LPAREN . EXISTS LPAREN nonlogicals RPAREN axiom RPAREN
+    (64) existential -> LPAREN . EXISTS LPAREN error
+    (65) existential -> LPAREN . EXISTS LPAREN nonlogicals RPAREN error
+    (51) conjunction -> LPAREN . AND axiom_list RPAREN
+    (52) conjunction -> LPAREN . AND error
+    (53) disjunction -> LPAREN . OR axiom_list RPAREN
+    (54) disjunction -> LPAREN . OR error
+    (57) implication -> LPAREN . IF axiom axiom RPAREN
+    (58) implication -> LPAREN . IF error
+    (59) implication -> LPAREN . IF axiom error
+    (60) biconditional -> LPAREN . IFF axiom axiom RPAREN
+    (61) biconditional -> LPAREN . IFF error
+    (62) biconditional -> LPAREN . IFF axiom error
+    (71) predicate -> LPAREN . NONLOGICAL parameter RPAREN
+    (72) predicate -> LPAREN . NAME_STRING parameter RPAREN
+    (73) predicate -> LPAREN . SET parameter RPAREN
+    (74) predicate -> LPAREN . SET LPAREN NONLOGICAL NONLOGICAL RPAREN RPAREN
+    (75) predicate -> LPAREN . NONLOGICAL error RPAREN
+    (69) commented_predicate -> LPAREN . LPAREN CLCOMMENT QUOTED_STRING NONLOGICAL RPAREN parameter RPAREN
+    (70) commented_predicate -> LPAREN . LPAREN CLCOMMENT QUOTED_STRING NAME_STRING RPAREN parameter RPAREN
+    (26) inline -> LPAREN . CLCOMMENT QUOTED_STRING
+
+    IMPORT          shift and go to state 27
+    CLCOMMENT       shift and go to state 28
+    TITLE           shift and go to state 29
+    SET             shift and go to state 31
+    RESTRICT        shift and go to state 33
+    NOT             shift and go to state 34
+    FORALL          shift and go to state 35
+    EXISTS          shift and go to state 36
+    AND             shift and go to state 37
+    OR              shift and go to state 38
+    IF              shift and go to state 39
+    IFF             shift and go to state 40
+    NONLOGICAL      shift and go to state 30
+    NAME_STRING     shift and go to state 32
+    LPAREN          shift and go to state 25
+
+
+state 43
+
+    (13) statement -> import statement .
+
+    $end            reduce using rule 13 (statement -> import statement .)
+    RPAREN          reduce using rule 13 (statement -> import statement .)
+
+
+state 44
+
+    (14) statement -> comment statement .
+
+    $end            reduce using rule 14 (statement -> comment statement .)
+    RPAREN          reduce using rule 14 (statement -> comment statement .)
+
+
+state 45
+
+    (15) statement -> module statement .
+
+    $end            reduce using rule 15 (statement -> module statement .)
+    RPAREN          reduce using rule 15 (statement -> module statement .)
+
+
+state 46
+
+    (16) statement -> const statement .
+
+    $end            reduce using rule 16 (statement -> const statement .)
+    RPAREN          reduce using rule 16 (statement -> const statement .)
+
+
+state 47
+
+    (17) statement -> title statement .
+
+    $end            reduce using rule 17 (statement -> title statement .)
+    RPAREN          reduce using rule 17 (statement -> title statement .)
+
+
+state 48
+
+    (18) statement -> restriction statement .
+
+    $end            reduce using rule 18 (statement -> restriction statement .)
+    RPAREN          reduce using rule 18 (statement -> restriction statement .)
+
+
+state 49
+
+    (49) commented_axiom -> inline base_axiom . RPAREN
+
+    RPAREN          shift and go to state 92
+
+
+state 50
+
+    (41) base_axiom -> negation .
+
+    RPAREN          reduce using rule 41 (base_axiom -> negation .)
+
+
+state 51
+
+    (42) base_axiom -> universal .
+
+    RPAREN          reduce using rule 42 (base_axiom -> universal .)
+
+
+state 52
+
+    (43) base_axiom -> existential .
+
+    RPAREN          reduce using rule 43 (base_axiom -> existential .)
+
+
+state 53
+
+    (44) base_axiom -> conjunction .
+
+    RPAREN          reduce using rule 44 (base_axiom -> conjunction .)
+
+
+state 54
+
+    (45) base_axiom -> disjunction .
+
+    RPAREN          reduce using rule 45 (base_axiom -> disjunction .)
+
+
+state 55
+
+    (46) base_axiom -> implication .
+
+    RPAREN          reduce using rule 46 (base_axiom -> implication .)
+
+
+state 56
+
+    (47) base_axiom -> biconditional .
+
+    RPAREN          reduce using rule 47 (base_axiom -> biconditional .)
+
+
+state 57
+
+    (48) base_axiom -> predicate .
+
+    RPAREN          reduce using rule 48 (base_axiom -> predicate .)
+
+
+state 58
+
+    (50) negation -> LPAREN . NOT axiom RPAREN
+    (66) universal -> LPAREN . FORALL LPAREN nonlogicals RPAREN axiom RPAREN
+    (67) universal -> LPAREN . FORALL LPAREN error
+    (68) universal -> LPAREN . FORALL LPAREN nonlogicals RPAREN error
+    (63) existential -> LPAREN . EXISTS LPAREN nonlogicals RPAREN axiom RPAREN
+    (64) existential -> LPAREN . EXISTS LPAREN error
+    (65) existential -> LPAREN . EXISTS LPAREN nonlogicals RPAREN error
+    (51) conjunction -> LPAREN . AND axiom_list RPAREN
+    (52) conjunction -> LPAREN . AND error
+    (53) disjunction -> LPAREN . OR axiom_list RPAREN
+    (54) disjunction -> LPAREN . OR error
+    (57) implication -> LPAREN . IF axiom axiom RPAREN
+    (58) implication -> LPAREN . IF error
+    (59) implication -> LPAREN . IF axiom error
+    (60) biconditional -> LPAREN . IFF axiom axiom RPAREN
+    (61) biconditional -> LPAREN . IFF error
+    (62) biconditional -> LPAREN . IFF axiom error
+    (71) predicate -> LPAREN . NONLOGICAL parameter RPAREN
+    (72) predicate -> LPAREN . NAME_STRING parameter RPAREN
+    (73) predicate -> LPAREN . SET parameter RPAREN
+    (74) predicate -> LPAREN . SET LPAREN NONLOGICAL NONLOGICAL RPAREN RPAREN
+    (75) predicate -> LPAREN . NONLOGICAL error RPAREN
+
+    NOT             shift and go to state 34
+    FORALL          shift and go to state 35
+    EXISTS          shift and go to state 36
+    AND             shift and go to state 37
+    OR              shift and go to state 38
+    IF              shift and go to state 39
+    IFF             shift and go to state 40
+    NONLOGICAL      shift and go to state 30
+    NAME_STRING     shift and go to state 32
+    SET             shift and go to state 93
+
+
+state 59
+
+    (69) commented_predicate -> LPAREN LPAREN CLCOMMENT . QUOTED_STRING NONLOGICAL RPAREN parameter RPAREN
+    (70) commented_predicate -> LPAREN LPAREN CLCOMMENT . QUOTED_STRING NAME_STRING RPAREN parameter RPAREN
+
+    QUOTED_STRING   shift and go to state 94
+
+
+state 60
+
+    (3) ontology -> LPAREN START URI . statement RPAREN
+    (9) ontology -> LPAREN START URI . error
+    (12) statement -> . axiom statement
+    (13) statement -> . import statement
+    (14) statement -> . comment statement
+    (15) statement -> . module statement
+    (16) statement -> . const statement
+    (17) statement -> . title statement
+    (18) statement -> . restriction statement
+    (19) statement -> . axiom
+    (20) statement -> . import
+    (21) statement -> . comment
+    (22) statement -> . module
+    (23) statement -> . const
+    (24) statement -> . restriction
+    (31) axiom -> . commented_axiom
+    (32) axiom -> . negation
+    (33) axiom -> . universal
+    (34) axiom -> . existential
+    (35) axiom -> . conjunction
+    (36) axiom -> . disjunction
+    (37) axiom -> . implication
+    (38) axiom -> . biconditional
+    (39) axiom -> . predicate
+    (40) axiom -> . commented_predicate
+    (29) import -> . LPAREN IMPORT URI RPAREN
+    (30) import -> . LPAREN IMPORT error
+    (27) comment -> . LPAREN CLCOMMENT QUOTED_STRING RPAREN
+    (28) comment -> . LPAREN CLCOMMENT error RPAREN
+    (11) module -> . LPAREN TITLE NONLOGICAL LPAREN START statement RPAREN RPAREN
+    (25) const -> . LPAREN SET LPAREN NONLOGICAL NAME_STRING RPAREN RPAREN
+    (6) title -> . LPAREN TITLE NONLOGICAL RPAREN
+    (7) title -> . LPAREN TITLE URI RPAREN
+    (10) restriction -> . LPAREN RESTRICT NONLOGICAL LPAREN START statement RPAREN RPAREN
+    (49) commented_axiom -> . inline base_axiom RPAREN
+    (50) negation -> . LPAREN NOT axiom RPAREN
+    (66) universal -> . LPAREN FORALL LPAREN nonlogicals RPAREN axiom RPAREN
+    (67) universal -> . LPAREN FORALL LPAREN error
+    (68) universal -> . LPAREN FORALL LPAREN nonlogicals RPAREN error
+    (63) existential -> . LPAREN EXISTS LPAREN nonlogicals RPAREN axiom RPAREN
+    (64) existential -> . LPAREN EXISTS LPAREN error
+    (65) existential -> . LPAREN EXISTS LPAREN nonlogicals RPAREN error
+    (51) conjunction -> . LPAREN AND axiom_list RPAREN
+    (52) conjunction -> . LPAREN AND error
+    (53) disjunction -> . LPAREN OR axiom_list RPAREN
+    (54) disjunction -> . LPAREN OR error
+    (57) implication -> . LPAREN IF axiom axiom RPAREN
+    (58) implication -> . LPAREN IF error
+    (59) implication -> . LPAREN IF axiom error
+    (60) biconditional -> . LPAREN IFF axiom axiom RPAREN
+    (61) biconditional -> . LPAREN IFF error
+    (62) biconditional -> . LPAREN IFF axiom error
+    (71) predicate -> . LPAREN NONLOGICAL parameter RPAREN
+    (72) predicate -> . LPAREN NAME_STRING parameter RPAREN
+    (73) predicate -> . LPAREN SET parameter RPAREN
+    (74) predicate -> . LPAREN SET LPAREN NONLOGICAL NONLOGICAL RPAREN RPAREN
+    (75) predicate -> . LPAREN NONLOGICAL error RPAREN
+    (69) commented_predicate -> . LPAREN LPAREN CLCOMMENT QUOTED_STRING NONLOGICAL RPAREN parameter RPAREN
+    (70) commented_predicate -> . LPAREN LPAREN CLCOMMENT QUOTED_STRING NAME_STRING RPAREN parameter RPAREN
+    (26) inline -> . LPAREN CLCOMMENT QUOTED_STRING
+
+    error           shift and go to state 96
+    LPAREN          shift and go to state 42
+
+    statement                      shift and go to state 95
+    axiom                          shift and go to state 6
+    import                         shift and go to state 7
+    comment                        shift and go to state 8
+    module                         shift and go to state 9
+    const                          shift and go to state 10
+    title                          shift and go to state 11
+    restriction                    shift and go to state 12
+    commented_axiom                shift and go to state 13
+    negation                       shift and go to state 14
+    universal                      shift and go to state 15
+    existential                    shift and go to state 16
+    conjunction                    shift and go to state 17
+    disjunction                    shift and go to state 18
+    implication                    shift and go to state 19
+    biconditional                  shift and go to state 20
+    predicate                      shift and go to state 21
+    commented_predicate            shift and go to state 22
+    inline                         shift and go to state 23
+
+state 61
+
+    (4) ontology -> LPAREN START statement . RPAREN
+
+    RPAREN          shift and go to state 97
+
+
+state 62
+
+    (8) ontology -> LPAREN START error .
+
+    $end            reduce using rule 8 (ontology -> LPAREN START error .)
+
+
+state 63
+
+    (29) import -> LPAREN IMPORT URI . RPAREN
+
+    RPAREN          shift and go to state 98
+
+
+state 64
+
+    (30) import -> LPAREN IMPORT error .
+
+    LPAREN          reduce using rule 30 (import -> LPAREN IMPORT error .)
+    $end            reduce using rule 30 (import -> LPAREN IMPORT error .)
+    RPAREN          reduce using rule 30 (import -> LPAREN IMPORT error .)
+
+
+state 65
+
+    (27) comment -> LPAREN CLCOMMENT QUOTED_STRING . RPAREN
+    (26) inline -> LPAREN CLCOMMENT QUOTED_STRING .
+
+    RPAREN          shift and go to state 99
+    LPAREN          reduce using rule 26 (inline -> LPAREN CLCOMMENT QUOTED_STRING .)
+
+
+state 66
+
+    (28) comment -> LPAREN CLCOMMENT error . RPAREN
+
+    RPAREN          shift and go to state 100
+
+
+state 67
+
+    (11) module -> LPAREN TITLE NONLOGICAL . LPAREN START statement RPAREN RPAREN
+    (6) title -> LPAREN TITLE NONLOGICAL . RPAREN
+
+    LPAREN          shift and go to state 101
+    RPAREN          shift and go to state 102
+
+
+state 68
+
+    (7) title -> LPAREN TITLE URI . RPAREN
+
+    RPAREN          shift and go to state 103
+
+
+state 69
+
+    (80) function -> LPAREN . NONLOGICAL parameter RPAREN
+    (81) function -> LPAREN . NONLOGICAL error RPAREN
+
+    NONLOGICAL      shift and go to state 104
+
+
+state 70
+
+    (82) nonlogicals -> NONLOGICAL . nonlogicals
+    (83) nonlogicals -> NONLOGICAL .
+    (82) nonlogicals -> . NONLOGICAL nonlogicals
+    (83) nonlogicals -> . NONLOGICAL
+
+  ! shift/reduce conflict for NONLOGICAL resolved as shift
+    LPAREN          reduce using rule 83 (nonlogicals -> NONLOGICAL .)
+    RPAREN          reduce using rule 83 (nonlogicals -> NONLOGICAL .)
+    NONLOGICAL      shift and go to state 70
+
+  ! NONLOGICAL      [ reduce using rule 83 (nonlogicals -> NONLOGICAL .) ]
+
+    nonlogicals                    shift and go to state 105
+
+state 71
+
+    (71) predicate -> LPAREN NONLOGICAL parameter . RPAREN
+
+    RPAREN          shift and go to state 106
+
+
+state 72
+
+    (75) predicate -> LPAREN NONLOGICAL error . RPAREN
+
+    RPAREN          shift and go to state 107
+
+
+state 73
+
+    (76) parameter -> function . parameter
+    (78) parameter -> function .
+    (76) parameter -> . function parameter
+    (77) parameter -> . nonlogicals parameter
+    (78) parameter -> . function
+    (79) parameter -> . nonlogicals
+    (80) function -> . LPAREN NONLOGICAL parameter RPAREN
+    (81) function -> . LPAREN NONLOGICAL error RPAREN
+    (82) nonlogicals -> . NONLOGICAL nonlogicals
+    (83) nonlogicals -> . NONLOGICAL
+
+    RPAREN          reduce using rule 78 (parameter -> function .)
+    LPAREN          shift and go to state 69
+    NONLOGICAL      shift and go to state 70
+
+    function                       shift and go to state 73
+    parameter                      shift and go to state 108
+    nonlogicals                    shift and go to state 74
+
+state 74
+
+    (77) parameter -> nonlogicals . parameter
+    (79) parameter -> nonlogicals .
+    (76) parameter -> . function parameter
+    (77) parameter -> . nonlogicals parameter
+    (78) parameter -> . function
+    (79) parameter -> . nonlogicals
+    (80) function -> . LPAREN NONLOGICAL parameter RPAREN
+    (81) function -> . LPAREN NONLOGICAL error RPAREN
+    (82) nonlogicals -> . NONLOGICAL nonlogicals
+    (83) nonlogicals -> . NONLOGICAL
+
+    RPAREN          reduce using rule 79 (parameter -> nonlogicals .)
+    LPAREN          shift and go to state 69
+    NONLOGICAL      shift and go to state 70
+
+    nonlogicals                    shift and go to state 74
+    parameter                      shift and go to state 109
+    function                       shift and go to state 73
+
+state 75
+
+    (25) const -> LPAREN SET LPAREN . NONLOGICAL NAME_STRING RPAREN RPAREN
+    (74) predicate -> LPAREN SET LPAREN . NONLOGICAL NONLOGICAL RPAREN RPAREN
+    (80) function -> LPAREN . NONLOGICAL parameter RPAREN
+    (81) function -> LPAREN . NONLOGICAL error RPAREN
+
+    NONLOGICAL      shift and go to state 110
+
+
+state 76
+
+    (73) predicate -> LPAREN SET parameter . RPAREN
+
+    RPAREN          shift and go to state 111
+
+
+state 77
+
+    (72) predicate -> LPAREN NAME_STRING parameter . RPAREN
+
+    RPAREN          shift and go to state 112
+
+
+state 78
+
+    (10) restriction -> LPAREN RESTRICT NONLOGICAL . LPAREN START statement RPAREN RPAREN
+
+    LPAREN          shift and go to state 113
+
+
+state 79
+
+    (50) negation -> LPAREN . NOT axiom RPAREN
+    (66) universal -> LPAREN . FORALL LPAREN nonlogicals RPAREN axiom RPAREN
+    (67) universal -> LPAREN . FORALL LPAREN error
+    (68) universal -> LPAREN . FORALL LPAREN nonlogicals RPAREN error
+    (63) existential -> LPAREN . EXISTS LPAREN nonlogicals RPAREN axiom RPAREN
+    (64) existential -> LPAREN . EXISTS LPAREN error
+    (65) existential -> LPAREN . EXISTS LPAREN nonlogicals RPAREN error
+    (51) conjunction -> LPAREN . AND axiom_list RPAREN
+    (52) conjunction -> LPAREN . AND error
+    (53) disjunction -> LPAREN . OR axiom_list RPAREN
+    (54) disjunction -> LPAREN . OR error
+    (57) implication -> LPAREN . IF axiom axiom RPAREN
+    (58) implication -> LPAREN . IF error
+    (59) implication -> LPAREN . IF axiom error
+    (60) biconditional -> LPAREN . IFF axiom axiom RPAREN
+    (61) biconditional -> LPAREN . IFF error
+    (62) biconditional -> LPAREN . IFF axiom error
+    (71) predicate -> LPAREN . NONLOGICAL parameter RPAREN
+    (72) predicate -> LPAREN . NAME_STRING parameter RPAREN
+    (73) predicate -> LPAREN . SET parameter RPAREN
+    (74) predicate -> LPAREN . SET LPAREN NONLOGICAL NONLOGICAL RPAREN RPAREN
+    (75) predicate -> LPAREN . NONLOGICAL error RPAREN
+    (69) commented_predicate -> LPAREN . LPAREN CLCOMMENT QUOTED_STRING NONLOGICAL RPAREN parameter RPAREN
+    (70) commented_predicate -> LPAREN . LPAREN CLCOMMENT QUOTED_STRING NAME_STRING RPAREN parameter RPAREN
+    (26) inline -> LPAREN . CLCOMMENT QUOTED_STRING
+
+    NOT             shift and go to state 34
+    FORALL          shift and go to state 35
+    EXISTS          shift and go to state 36
+    AND             shift and go to state 37
+    OR              shift and go to state 38
+    IF              shift and go to state 39
+    IFF             shift and go to state 40
+    NONLOGICAL      shift and go to state 30
+    NAME_STRING     shift and go to state 32
+    SET             shift and go to state 93
+    LPAREN          shift and go to state 25
+    CLCOMMENT       shift and go to state 114
+
+
+state 80
+
+    (50) negation -> LPAREN NOT axiom . RPAREN
+
+    RPAREN          shift and go to state 115
+
+
+state 81
+
+    (66) universal -> LPAREN FORALL LPAREN . nonlogicals RPAREN axiom RPAREN
+    (67) universal -> LPAREN FORALL LPAREN . error
+    (68) universal -> LPAREN FORALL LPAREN . nonlogicals RPAREN error
+    (82) nonlogicals -> . NONLOGICAL nonlogicals
+    (83) nonlogicals -> . NONLOGICAL
+
+    error           shift and go to state 117
+    NONLOGICAL      shift and go to state 70
+
+    nonlogicals                    shift and go to state 116
+
+state 82
+
+    (63) existential -> LPAREN EXISTS LPAREN . nonlogicals RPAREN axiom RPAREN
+    (64) existential -> LPAREN EXISTS LPAREN . error
+    (65) existential -> LPAREN EXISTS LPAREN . nonlogicals RPAREN error
+    (82) nonlogicals -> . NONLOGICAL nonlogicals
+    (83) nonlogicals -> . NONLOGICAL
+
+    error           shift and go to state 119
+    NONLOGICAL      shift and go to state 70
+
+    nonlogicals                    shift and go to state 118
+
+state 83
+
+    (51) conjunction -> LPAREN AND axiom_list . RPAREN
+
+    RPAREN          shift and go to state 120
+
+
+state 84
+
+    (52) conjunction -> LPAREN AND error .
+
+    LPAREN          reduce using rule 52 (conjunction -> LPAREN AND error .)
+    $end            reduce using rule 52 (conjunction -> LPAREN AND error .)
+    RPAREN          reduce using rule 52 (conjunction -> LPAREN AND error .)
+    error           reduce using rule 52 (conjunction -> LPAREN AND error .)
+
+
+state 85
+
+    (55) axiom_list -> axiom . axiom_list
+    (56) axiom_list -> axiom .
+    (55) axiom_list -> . axiom axiom_list
+    (56) axiom_list -> . axiom
+    (31) axiom -> . commented_axiom
+    (32) axiom -> . negation
+    (33) axiom -> . universal
+    (34) axiom -> . existential
+    (35) axiom -> . conjunction
+    (36) axiom -> . disjunction
+    (37) axiom -> . implication
+    (38) axiom -> . biconditional
+    (39) axiom -> . predicate
+    (40) axiom -> . commented_predicate
+    (49) commented_axiom -> . inline base_axiom RPAREN
+    (50) negation -> . LPAREN NOT axiom RPAREN
+    (66) universal -> . LPAREN FORALL LPAREN nonlogicals RPAREN axiom RPAREN
+    (67) universal -> . LPAREN FORALL LPAREN error
+    (68) universal -> . LPAREN FORALL LPAREN nonlogicals RPAREN error
+    (63) existential -> . LPAREN EXISTS LPAREN nonlogicals RPAREN axiom RPAREN
+    (64) existential -> . LPAREN EXISTS LPAREN error
+    (65) existential -> . LPAREN EXISTS LPAREN nonlogicals RPAREN error
+    (51) conjunction -> . LPAREN AND axiom_list RPAREN
+    (52) conjunction -> . LPAREN AND error
+    (53) disjunction -> . LPAREN OR axiom_list RPAREN
+    (54) disjunction -> . LPAREN OR error
+    (57) implication -> . LPAREN IF axiom axiom RPAREN
+    (58) implication -> . LPAREN IF error
+    (59) implication -> . LPAREN IF axiom error
+    (60) biconditional -> . LPAREN IFF axiom axiom RPAREN
+    (61) biconditional -> . LPAREN IFF error
+    (62) biconditional -> . LPAREN IFF axiom error
+    (71) predicate -> . LPAREN NONLOGICAL parameter RPAREN
+    (72) predicate -> . LPAREN NAME_STRING parameter RPAREN
+    (73) predicate -> . LPAREN SET parameter RPAREN
+    (74) predicate -> . LPAREN SET LPAREN NONLOGICAL NONLOGICAL RPAREN RPAREN
+    (75) predicate -> . LPAREN NONLOGICAL error RPAREN
+    (69) commented_predicate -> . LPAREN LPAREN CLCOMMENT QUOTED_STRING NONLOGICAL RPAREN parameter RPAREN
+    (70) commented_predicate -> . LPAREN LPAREN CLCOMMENT QUOTED_STRING NAME_STRING RPAREN parameter RPAREN
+    (26) inline -> . LPAREN CLCOMMENT QUOTED_STRING
+
+    RPAREN          reduce using rule 56 (axiom_list -> axiom .)
+    LPAREN          shift and go to state 79
+
+    axiom                          shift and go to state 85
+    axiom_list                     shift and go to state 121
+    commented_axiom                shift and go to state 13
+    negation                       shift and go to state 14
+    universal                      shift and go to state 15
+    existential                    shift and go to state 16
+    conjunction                    shift and go to state 17
+    disjunction                    shift and go to state 18
+    implication                    shift and go to state 19
+    biconditional                  shift and go to state 20
+    predicate                      shift and go to state 21
+    commented_predicate            shift and go to state 22
+    inline                         shift and go to state 23
+
+state 86
+
+    (53) disjunction -> LPAREN OR axiom_list . RPAREN
+
+    RPAREN          shift and go to state 122
+
+
+state 87
+
+    (54) disjunction -> LPAREN OR error .
+
+    LPAREN          reduce using rule 54 (disjunction -> LPAREN OR error .)
+    $end            reduce using rule 54 (disjunction -> LPAREN OR error .)
+    RPAREN          reduce using rule 54 (disjunction -> LPAREN OR error .)
+    error           reduce using rule 54 (disjunction -> LPAREN OR error .)
+
+
+state 88
+
+    (57) implication -> LPAREN IF axiom . axiom RPAREN
+    (59) implication -> LPAREN IF axiom . error
+    (31) axiom -> . commented_axiom
+    (32) axiom -> . negation
+    (33) axiom -> . universal
+    (34) axiom -> . existential
+    (35) axiom -> . conjunction
+    (36) axiom -> . disjunction
+    (37) axiom -> . implication
+    (38) axiom -> . biconditional
+    (39) axiom -> . predicate
+    (40) axiom -> . commented_predicate
+    (49) commented_axiom -> . inline base_axiom RPAREN
+    (50) negation -> . LPAREN NOT axiom RPAREN
+    (66) universal -> . LPAREN FORALL LPAREN nonlogicals RPAREN axiom RPAREN
+    (67) universal -> . LPAREN FORALL LPAREN error
+    (68) universal -> . LPAREN FORALL LPAREN nonlogicals RPAREN error
+    (63) existential -> . LPAREN EXISTS LPAREN nonlogicals RPAREN axiom RPAREN
+    (64) existential -> . LPAREN EXISTS LPAREN error
+    (65) existential -> . LPAREN EXISTS LPAREN nonlogicals RPAREN error
+    (51) conjunction -> . LPAREN AND axiom_list RPAREN
+    (52) conjunction -> . LPAREN AND error
+    (53) disjunction -> . LPAREN OR axiom_list RPAREN
+    (54) disjunction -> . LPAREN OR error
+    (57) implication -> . LPAREN IF axiom axiom RPAREN
+    (58) implication -> . LPAREN IF error
+    (59) implication -> . LPAREN IF axiom error
+    (60) biconditional -> . LPAREN IFF axiom axiom RPAREN
+    (61) biconditional -> . LPAREN IFF error
+    (62) biconditional -> . LPAREN IFF axiom error
+    (71) predicate -> . LPAREN NONLOGICAL parameter RPAREN
+    (72) predicate -> . LPAREN NAME_STRING parameter RPAREN
+    (73) predicate -> . LPAREN SET parameter RPAREN
+    (74) predicate -> . LPAREN SET LPAREN NONLOGICAL NONLOGICAL RPAREN RPAREN
+    (75) predicate -> . LPAREN NONLOGICAL error RPAREN
+    (69) commented_predicate -> . LPAREN LPAREN CLCOMMENT QUOTED_STRING NONLOGICAL RPAREN parameter RPAREN
+    (70) commented_predicate -> . LPAREN LPAREN CLCOMMENT QUOTED_STRING NAME_STRING RPAREN parameter RPAREN
+    (26) inline -> . LPAREN CLCOMMENT QUOTED_STRING
+
+    error           shift and go to state 124
+    LPAREN          shift and go to state 79
+
+    axiom                          shift and go to state 123
+    commented_axiom                shift and go to state 13
+    negation                       shift and go to state 14
+    universal                      shift and go to state 15
+    existential                    shift and go to state 16
+    conjunction                    shift and go to state 17
+    disjunction                    shift and go to state 18
+    implication                    shift and go to state 19
+    biconditional                  shift and go to state 20
+    predicate                      shift and go to state 21
+    commented_predicate            shift and go to state 22
+    inline                         shift and go to state 23
+
+state 89
+
+    (58) implication -> LPAREN IF error .
+
+    LPAREN          reduce using rule 58 (implication -> LPAREN IF error .)
+    $end            reduce using rule 58 (implication -> LPAREN IF error .)
+    RPAREN          reduce using rule 58 (implication -> LPAREN IF error .)
+    error           reduce using rule 58 (implication -> LPAREN IF error .)
+
+
+state 90
+
+    (60) biconditional -> LPAREN IFF axiom . axiom RPAREN
+    (62) biconditional -> LPAREN IFF axiom . error
+    (31) axiom -> . commented_axiom
+    (32) axiom -> . negation
+    (33) axiom -> . universal
+    (34) axiom -> . existential
+    (35) axiom -> . conjunction
+    (36) axiom -> . disjunction
+    (37) axiom -> . implication
+    (38) axiom -> . biconditional
+    (39) axiom -> . predicate
+    (40) axiom -> . commented_predicate
+    (49) commented_axiom -> . inline base_axiom RPAREN
+    (50) negation -> . LPAREN NOT axiom RPAREN
+    (66) universal -> . LPAREN FORALL LPAREN nonlogicals RPAREN axiom RPAREN
+    (67) universal -> . LPAREN FORALL LPAREN error
+    (68) universal -> . LPAREN FORALL LPAREN nonlogicals RPAREN error
+    (63) existential -> . LPAREN EXISTS LPAREN nonlogicals RPAREN axiom RPAREN
+    (64) existential -> . LPAREN EXISTS LPAREN error
+    (65) existential -> . LPAREN EXISTS LPAREN nonlogicals RPAREN error
+    (51) conjunction -> . LPAREN AND axiom_list RPAREN
+    (52) conjunction -> . LPAREN AND error
+    (53) disjunction -> . LPAREN OR axiom_list RPAREN
+    (54) disjunction -> . LPAREN OR error
+    (57) implication -> . LPAREN IF axiom axiom RPAREN
+    (58) implication -> . LPAREN IF error
+    (59) implication -> . LPAREN IF axiom error
+    (60) biconditional -> . LPAREN IFF axiom axiom RPAREN
+    (61) biconditional -> . LPAREN IFF error
+    (62) biconditional -> . LPAREN IFF axiom error
+    (71) predicate -> . LPAREN NONLOGICAL parameter RPAREN
+    (72) predicate -> . LPAREN NAME_STRING parameter RPAREN
+    (73) predicate -> . LPAREN SET parameter RPAREN
+    (74) predicate -> . LPAREN SET LPAREN NONLOGICAL NONLOGICAL RPAREN RPAREN
+    (75) predicate -> . LPAREN NONLOGICAL error RPAREN
+    (69) commented_predicate -> . LPAREN LPAREN CLCOMMENT QUOTED_STRING NONLOGICAL RPAREN parameter RPAREN
+    (70) commented_predicate -> . LPAREN LPAREN CLCOMMENT QUOTED_STRING NAME_STRING RPAREN parameter RPAREN
+    (26) inline -> . LPAREN CLCOMMENT QUOTED_STRING
+
+    error           shift and go to state 126
+    LPAREN          shift and go to state 79
+
+    axiom                          shift and go to state 125
+    commented_axiom                shift and go to state 13
+    negation                       shift and go to state 14
+    universal                      shift and go to state 15
+    existential                    shift and go to state 16
+    conjunction                    shift and go to state 17
+    disjunction                    shift and go to state 18
+    implication                    shift and go to state 19
+    biconditional                  shift and go to state 20
+    predicate                      shift and go to state 21
+    commented_predicate            shift and go to state 22
+    inline                         shift and go to state 23
+
+state 91
+
+    (61) biconditional -> LPAREN IFF error .
+
+    LPAREN          reduce using rule 61 (biconditional -> LPAREN IFF error .)
+    $end            reduce using rule 61 (biconditional -> LPAREN IFF error .)
+    RPAREN          reduce using rule 61 (biconditional -> LPAREN IFF error .)
+    error           reduce using rule 61 (biconditional -> LPAREN IFF error .)
+
+
+state 92
+
+    (49) commented_axiom -> inline base_axiom RPAREN .
+
+    LPAREN          reduce using rule 49 (commented_axiom -> inline base_axiom RPAREN .)
+    $end            reduce using rule 49 (commented_axiom -> inline base_axiom RPAREN .)
+    RPAREN          reduce using rule 49 (commented_axiom -> inline base_axiom RPAREN .)
+    error           reduce using rule 49 (commented_axiom -> inline base_axiom RPAREN .)
+
+
+state 93
+
+    (73) predicate -> LPAREN SET . parameter RPAREN
+    (74) predicate -> LPAREN SET . LPAREN NONLOGICAL NONLOGICAL RPAREN RPAREN
+    (76) parameter -> . function parameter
+    (77) parameter -> . nonlogicals parameter
+    (78) parameter -> . function
+    (79) parameter -> . nonlogicals
+    (80) function -> . LPAREN NONLOGICAL parameter RPAREN
+    (81) function -> . LPAREN NONLOGICAL error RPAREN
+    (82) nonlogicals -> . NONLOGICAL nonlogicals
+    (83) nonlogicals -> . NONLOGICAL
+
+    LPAREN          shift and go to state 127
+    NONLOGICAL      shift and go to state 70
+
+    parameter                      shift and go to state 76
+    function                       shift and go to state 73
+    nonlogicals                    shift and go to state 74
+
+state 94
+
+    (69) commented_predicate -> LPAREN LPAREN CLCOMMENT QUOTED_STRING . NONLOGICAL RPAREN parameter RPAREN
+    (70) commented_predicate -> LPAREN LPAREN CLCOMMENT QUOTED_STRING . NAME_STRING RPAREN parameter RPAREN
+
+    NONLOGICAL      shift and go to state 128
+    NAME_STRING     shift and go to state 129
+
+
+state 95
+
+    (3) ontology -> LPAREN START URI statement . RPAREN
+
+    RPAREN          shift and go to state 130
+
+
+state 96
+
+    (9) ontology -> LPAREN START URI error .
+
+    $end            reduce using rule 9 (ontology -> LPAREN START URI error .)
+
+
+state 97
+
+    (4) ontology -> LPAREN START statement RPAREN .
+
+    $end            reduce using rule 4 (ontology -> LPAREN START statement RPAREN .)
+
+
+state 98
+
+    (29) import -> LPAREN IMPORT URI RPAREN .
+
+    LPAREN          reduce using rule 29 (import -> LPAREN IMPORT URI RPAREN .)
+    $end            reduce using rule 29 (import -> LPAREN IMPORT URI RPAREN .)
+    RPAREN          reduce using rule 29 (import -> LPAREN IMPORT URI RPAREN .)
+
+
+state 99
+
+    (27) comment -> LPAREN CLCOMMENT QUOTED_STRING RPAREN .
+
+    LPAREN          reduce using rule 27 (comment -> LPAREN CLCOMMENT QUOTED_STRING RPAREN .)
+    $end            reduce using rule 27 (comment -> LPAREN CLCOMMENT QUOTED_STRING RPAREN .)
+    RPAREN          reduce using rule 27 (comment -> LPAREN CLCOMMENT QUOTED_STRING RPAREN .)
+
+
+state 100
+
+    (28) comment -> LPAREN CLCOMMENT error RPAREN .
+
+    LPAREN          reduce using rule 28 (comment -> LPAREN CLCOMMENT error RPAREN .)
+    $end            reduce using rule 28 (comment -> LPAREN CLCOMMENT error RPAREN .)
+    RPAREN          reduce using rule 28 (comment -> LPAREN CLCOMMENT error RPAREN .)
+
+
+state 101
+
+    (11) module -> LPAREN TITLE NONLOGICAL LPAREN . START statement RPAREN RPAREN
+
+    START           shift and go to state 131
+
+
+state 102
+
+    (6) title -> LPAREN TITLE NONLOGICAL RPAREN .
+
+    LPAREN          reduce using rule 6 (title -> LPAREN TITLE NONLOGICAL RPAREN .)
+
+
+state 103
+
+    (7) title -> LPAREN TITLE URI RPAREN .
+
+    LPAREN          reduce using rule 7 (title -> LPAREN TITLE URI RPAREN .)
+
+
+state 104
+
+    (80) function -> LPAREN NONLOGICAL . parameter RPAREN
+    (81) function -> LPAREN NONLOGICAL . error RPAREN
+    (76) parameter -> . function parameter
+    (77) parameter -> . nonlogicals parameter
+    (78) parameter -> . function
+    (79) parameter -> . nonlogicals
+    (80) function -> . LPAREN NONLOGICAL parameter RPAREN
+    (81) function -> . LPAREN NONLOGICAL error RPAREN
+    (82) nonlogicals -> . NONLOGICAL nonlogicals
+    (83) nonlogicals -> . NONLOGICAL
+
+    error           shift and go to state 133
+    LPAREN          shift and go to state 69
+    NONLOGICAL      shift and go to state 70
+
+    parameter                      shift and go to state 132
+    function                       shift and go to state 73
+    nonlogicals                    shift and go to state 74
+
+state 105
+
+    (82) nonlogicals -> NONLOGICAL nonlogicals .
+
+    LPAREN          reduce using rule 82 (nonlogicals -> NONLOGICAL nonlogicals .)
+    NONLOGICAL      reduce using rule 82 (nonlogicals -> NONLOGICAL nonlogicals .)
+    RPAREN          reduce using rule 82 (nonlogicals -> NONLOGICAL nonlogicals .)
+
+
+state 106
+
+    (71) predicate -> LPAREN NONLOGICAL parameter RPAREN .
+
+    LPAREN          reduce using rule 71 (predicate -> LPAREN NONLOGICAL parameter RPAREN .)
+    $end            reduce using rule 71 (predicate -> LPAREN NONLOGICAL parameter RPAREN .)
+    RPAREN          reduce using rule 71 (predicate -> LPAREN NONLOGICAL parameter RPAREN .)
+    error           reduce using rule 71 (predicate -> LPAREN NONLOGICAL parameter RPAREN .)
+
+
+state 107
+
+    (75) predicate -> LPAREN NONLOGICAL error RPAREN .
+
+    LPAREN          reduce using rule 75 (predicate -> LPAREN NONLOGICAL error RPAREN .)
+    $end            reduce using rule 75 (predicate -> LPAREN NONLOGICAL error RPAREN .)
+    RPAREN          reduce using rule 75 (predicate -> LPAREN NONLOGICAL error RPAREN .)
+    error           reduce using rule 75 (predicate -> LPAREN NONLOGICAL error RPAREN .)
+
+
+state 108
+
+    (76) parameter -> function parameter .
+
+    RPAREN          reduce using rule 76 (parameter -> function parameter .)
+
+
+state 109
+
+    (77) parameter -> nonlogicals parameter .
+
+    RPAREN          reduce using rule 77 (parameter -> nonlogicals parameter .)
+
+
+state 110
+
+    (25) const -> LPAREN SET LPAREN NONLOGICAL . NAME_STRING RPAREN RPAREN
+    (74) predicate -> LPAREN SET LPAREN NONLOGICAL . NONLOGICAL RPAREN RPAREN
+    (80) function -> LPAREN NONLOGICAL . parameter RPAREN
+    (81) function -> LPAREN NONLOGICAL . error RPAREN
+    (76) parameter -> . function parameter
+    (77) parameter -> . nonlogicals parameter
+    (78) parameter -> . function
+    (79) parameter -> . nonlogicals
+    (80) function -> . LPAREN NONLOGICAL parameter RPAREN
+    (81) function -> . LPAREN NONLOGICAL error RPAREN
+    (82) nonlogicals -> . NONLOGICAL nonlogicals
+    (83) nonlogicals -> . NONLOGICAL
+
+    NAME_STRING     shift and go to state 135
+    NONLOGICAL      shift and go to state 134
+    error           shift and go to state 133
+    LPAREN          shift and go to state 69
+
+    parameter                      shift and go to state 132
+    function                       shift and go to state 73
+    nonlogicals                    shift and go to state 74
+
+state 111
+
+    (73) predicate -> LPAREN SET parameter RPAREN .
+
+    LPAREN          reduce using rule 73 (predicate -> LPAREN SET parameter RPAREN .)
+    $end            reduce using rule 73 (predicate -> LPAREN SET parameter RPAREN .)
+    RPAREN          reduce using rule 73 (predicate -> LPAREN SET parameter RPAREN .)
+    error           reduce using rule 73 (predicate -> LPAREN SET parameter RPAREN .)
+
+
+state 112
+
+    (72) predicate -> LPAREN NAME_STRING parameter RPAREN .
+
+    LPAREN          reduce using rule 72 (predicate -> LPAREN NAME_STRING parameter RPAREN .)
+    $end            reduce using rule 72 (predicate -> LPAREN NAME_STRING parameter RPAREN .)
+    RPAREN          reduce using rule 72 (predicate -> LPAREN NAME_STRING parameter RPAREN .)
+    error           reduce using rule 72 (predicate -> LPAREN NAME_STRING parameter RPAREN .)
+
+
+state 113
+
+    (10) restriction -> LPAREN RESTRICT NONLOGICAL LPAREN . START statement RPAREN RPAREN
+
+    START           shift and go to state 136
+
+
+state 114
+
+    (26) inline -> LPAREN CLCOMMENT . QUOTED_STRING
+
+    QUOTED_STRING   shift and go to state 137
+
+
+state 115
+
+    (50) negation -> LPAREN NOT axiom RPAREN .
+
+    LPAREN          reduce using rule 50 (negation -> LPAREN NOT axiom RPAREN .)
+    $end            reduce using rule 50 (negation -> LPAREN NOT axiom RPAREN .)
+    RPAREN          reduce using rule 50 (negation -> LPAREN NOT axiom RPAREN .)
+    error           reduce using rule 50 (negation -> LPAREN NOT axiom RPAREN .)
+
+
+state 116
+
+    (66) universal -> LPAREN FORALL LPAREN nonlogicals . RPAREN axiom RPAREN
+    (68) universal -> LPAREN FORALL LPAREN nonlogicals . RPAREN error
+
+    RPAREN          shift and go to state 138
+
+
+state 117
+
+    (67) universal -> LPAREN FORALL LPAREN error .
+
+    LPAREN          reduce using rule 67 (universal -> LPAREN FORALL LPAREN error .)
+    $end            reduce using rule 67 (universal -> LPAREN FORALL LPAREN error .)
+    RPAREN          reduce using rule 67 (universal -> LPAREN FORALL LPAREN error .)
+    error           reduce using rule 67 (universal -> LPAREN FORALL LPAREN error .)
+
+
+state 118
+
+    (63) existential -> LPAREN EXISTS LPAREN nonlogicals . RPAREN axiom RPAREN
+    (65) existential -> LPAREN EXISTS LPAREN nonlogicals . RPAREN error
+
+    RPAREN          shift and go to state 139
+
+
+state 119
+
+    (64) existential -> LPAREN EXISTS LPAREN error .
+
+    LPAREN          reduce using rule 64 (existential -> LPAREN EXISTS LPAREN error .)
+    $end            reduce using rule 64 (existential -> LPAREN EXISTS LPAREN error .)
+    RPAREN          reduce using rule 64 (existential -> LPAREN EXISTS LPAREN error .)
+    error           reduce using rule 64 (existential -> LPAREN EXISTS LPAREN error .)
+
+
+state 120
+
+    (51) conjunction -> LPAREN AND axiom_list RPAREN .
+
+    LPAREN          reduce using rule 51 (conjunction -> LPAREN AND axiom_list RPAREN .)
+    $end            reduce using rule 51 (conjunction -> LPAREN AND axiom_list RPAREN .)
+    RPAREN          reduce using rule 51 (conjunction -> LPAREN AND axiom_list RPAREN .)
+    error           reduce using rule 51 (conjunction -> LPAREN AND axiom_list RPAREN .)
+
+
+state 121
+
+    (55) axiom_list -> axiom axiom_list .
+
+    RPAREN          reduce using rule 55 (axiom_list -> axiom axiom_list .)
+
+
+state 122
+
+    (53) disjunction -> LPAREN OR axiom_list RPAREN .
+
+    LPAREN          reduce using rule 53 (disjunction -> LPAREN OR axiom_list RPAREN .)
+    $end            reduce using rule 53 (disjunction -> LPAREN OR axiom_list RPAREN .)
+    RPAREN          reduce using rule 53 (disjunction -> LPAREN OR axiom_list RPAREN .)
+    error           reduce using rule 53 (disjunction -> LPAREN OR axiom_list RPAREN .)
+
+
+state 123
+
+    (57) implication -> LPAREN IF axiom axiom . RPAREN
+
+    RPAREN          shift and go to state 140
+
+
+state 124
+
+    (59) implication -> LPAREN IF axiom error .
+
+    LPAREN          reduce using rule 59 (implication -> LPAREN IF axiom error .)
+    $end            reduce using rule 59 (implication -> LPAREN IF axiom error .)
+    RPAREN          reduce using rule 59 (implication -> LPAREN IF axiom error .)
+    error           reduce using rule 59 (implication -> LPAREN IF axiom error .)
+
+
+state 125
+
+    (60) biconditional -> LPAREN IFF axiom axiom . RPAREN
+
+    RPAREN          shift and go to state 141
+
+
+state 126
+
+    (62) biconditional -> LPAREN IFF axiom error .
+
+    LPAREN          reduce using rule 62 (biconditional -> LPAREN IFF axiom error .)
+    $end            reduce using rule 62 (biconditional -> LPAREN IFF axiom error .)
+    RPAREN          reduce using rule 62 (biconditional -> LPAREN IFF axiom error .)
+    error           reduce using rule 62 (biconditional -> LPAREN IFF axiom error .)
+
+
+state 127
+
+    (74) predicate -> LPAREN SET LPAREN . NONLOGICAL NONLOGICAL RPAREN RPAREN
+    (80) function -> LPAREN . NONLOGICAL parameter RPAREN
+    (81) function -> LPAREN . NONLOGICAL error RPAREN
+
+    NONLOGICAL      shift and go to state 142
+
+
+state 128
+
+    (69) commented_predicate -> LPAREN LPAREN CLCOMMENT QUOTED_STRING NONLOGICAL . RPAREN parameter RPAREN
+
+    RPAREN          shift and go to state 143
+
+
+state 129
+
+    (70) commented_predicate -> LPAREN LPAREN CLCOMMENT QUOTED_STRING NAME_STRING . RPAREN parameter RPAREN
+
+    RPAREN          shift and go to state 144
+
+
+state 130
+
+    (3) ontology -> LPAREN START URI statement RPAREN .
+
+    $end            reduce using rule 3 (ontology -> LPAREN START URI statement RPAREN .)
+
+
+state 131
+
+    (11) module -> LPAREN TITLE NONLOGICAL LPAREN START . statement RPAREN RPAREN
+    (12) statement -> . axiom statement
+    (13) statement -> . import statement
+    (14) statement -> . comment statement
+    (15) statement -> . module statement
+    (16) statement -> . const statement
+    (17) statement -> . title statement
+    (18) statement -> . restriction statement
+    (19) statement -> . axiom
+    (20) statement -> . import
+    (21) statement -> . comment
+    (22) statement -> . module
+    (23) statement -> . const
+    (24) statement -> . restriction
+    (31) axiom -> . commented_axiom
+    (32) axiom -> . negation
+    (33) axiom -> . universal
+    (34) axiom -> . existential
+    (35) axiom -> . conjunction
+    (36) axiom -> . disjunction
+    (37) axiom -> . implication
+    (38) axiom -> . biconditional
+    (39) axiom -> . predicate
+    (40) axiom -> . commented_predicate
+    (29) import -> . LPAREN IMPORT URI RPAREN
+    (30) import -> . LPAREN IMPORT error
+    (27) comment -> . LPAREN CLCOMMENT QUOTED_STRING RPAREN
+    (28) comment -> . LPAREN CLCOMMENT error RPAREN
+    (11) module -> . LPAREN TITLE NONLOGICAL LPAREN START statement RPAREN RPAREN
+    (25) const -> . LPAREN SET LPAREN NONLOGICAL NAME_STRING RPAREN RPAREN
+    (6) title -> . LPAREN TITLE NONLOGICAL RPAREN
+    (7) title -> . LPAREN TITLE URI RPAREN
+    (10) restriction -> . LPAREN RESTRICT NONLOGICAL LPAREN START statement RPAREN RPAREN
+    (49) commented_axiom -> . inline base_axiom RPAREN
+    (50) negation -> . LPAREN NOT axiom RPAREN
+    (66) universal -> . LPAREN FORALL LPAREN nonlogicals RPAREN axiom RPAREN
+    (67) universal -> . LPAREN FORALL LPAREN error
+    (68) universal -> . LPAREN FORALL LPAREN nonlogicals RPAREN error
+    (63) existential -> . LPAREN EXISTS LPAREN nonlogicals RPAREN axiom RPAREN
+    (64) existential -> . LPAREN EXISTS LPAREN error
+    (65) existential -> . LPAREN EXISTS LPAREN nonlogicals RPAREN error
+    (51) conjunction -> . LPAREN AND axiom_list RPAREN
+    (52) conjunction -> . LPAREN AND error
+    (53) disjunction -> . LPAREN OR axiom_list RPAREN
+    (54) disjunction -> . LPAREN OR error
+    (57) implication -> . LPAREN IF axiom axiom RPAREN
+    (58) implication -> . LPAREN IF error
+    (59) implication -> . LPAREN IF axiom error
+    (60) biconditional -> . LPAREN IFF axiom axiom RPAREN
+    (61) biconditional -> . LPAREN IFF error
+    (62) biconditional -> . LPAREN IFF axiom error
+    (71) predicate -> . LPAREN NONLOGICAL parameter RPAREN
+    (72) predicate -> . LPAREN NAME_STRING parameter RPAREN
+    (73) predicate -> . LPAREN SET parameter RPAREN
+    (74) predicate -> . LPAREN SET LPAREN NONLOGICAL NONLOGICAL RPAREN RPAREN
+    (75) predicate -> . LPAREN NONLOGICAL error RPAREN
+    (69) commented_predicate -> . LPAREN LPAREN CLCOMMENT QUOTED_STRING NONLOGICAL RPAREN parameter RPAREN
+    (70) commented_predicate -> . LPAREN LPAREN CLCOMMENT QUOTED_STRING NAME_STRING RPAREN parameter RPAREN
+    (26) inline -> . LPAREN CLCOMMENT QUOTED_STRING
+
+    LPAREN          shift and go to state 42
+
+    statement                      shift and go to state 145
+    axiom                          shift and go to state 6
+    import                         shift and go to state 7
+    comment                        shift and go to state 8
+    module                         shift and go to state 9
+    const                          shift and go to state 10
+    title                          shift and go to state 11
+    restriction                    shift and go to state 12
+    commented_axiom                shift and go to state 13
+    negation                       shift and go to state 14
+    universal                      shift and go to state 15
+    existential                    shift and go to state 16
+    conjunction                    shift and go to state 17
+    disjunction                    shift and go to state 18
+    implication                    shift and go to state 19
+    biconditional                  shift and go to state 20
+    predicate                      shift and go to state 21
+    commented_predicate            shift and go to state 22
+    inline                         shift and go to state 23
+
+state 132
+
+    (80) function -> LPAREN NONLOGICAL parameter . RPAREN
+
+    RPAREN          shift and go to state 146
+
+
+state 133
+
+    (81) function -> LPAREN NONLOGICAL error . RPAREN
+
+    RPAREN          shift and go to state 147
+
+
+state 134
+
+    (74) predicate -> LPAREN SET LPAREN NONLOGICAL NONLOGICAL . RPAREN RPAREN
+    (82) nonlogicals -> NONLOGICAL . nonlogicals
+    (83) nonlogicals -> NONLOGICAL .
+    (82) nonlogicals -> . NONLOGICAL nonlogicals
+    (83) nonlogicals -> . NONLOGICAL
+
+  ! shift/reduce conflict for RPAREN resolved as shift
+  ! shift/reduce conflict for NONLOGICAL resolved as shift
+    RPAREN          shift and go to state 148
+    LPAREN          reduce using rule 83 (nonlogicals -> NONLOGICAL .)
+    NONLOGICAL      shift and go to state 70
+
+  ! NONLOGICAL      [ reduce using rule 83 (nonlogicals -> NONLOGICAL .) ]
+  ! RPAREN          [ reduce using rule 83 (nonlogicals -> NONLOGICAL .) ]
+
+    nonlogicals                    shift and go to state 105
+
+state 135
+
+    (25) const -> LPAREN SET LPAREN NONLOGICAL NAME_STRING . RPAREN RPAREN
+
+    RPAREN          shift and go to state 149
+
+
+state 136
+
+    (10) restriction -> LPAREN RESTRICT NONLOGICAL LPAREN START . statement RPAREN RPAREN
+    (12) statement -> . axiom statement
+    (13) statement -> . import statement
+    (14) statement -> . comment statement
+    (15) statement -> . module statement
+    (16) statement -> . const statement
+    (17) statement -> . title statement
+    (18) statement -> . restriction statement
+    (19) statement -> . axiom
+    (20) statement -> . import
+    (21) statement -> . comment
+    (22) statement -> . module
+    (23) statement -> . const
+    (24) statement -> . restriction
+    (31) axiom -> . commented_axiom
+    (32) axiom -> . negation
+    (33) axiom -> . universal
+    (34) axiom -> . existential
+    (35) axiom -> . conjunction
+    (36) axiom -> . disjunction
+    (37) axiom -> . implication
+    (38) axiom -> . biconditional
+    (39) axiom -> . predicate
+    (40) axiom -> . commented_predicate
+    (29) import -> . LPAREN IMPORT URI RPAREN
+    (30) import -> . LPAREN IMPORT error
+    (27) comment -> . LPAREN CLCOMMENT QUOTED_STRING RPAREN
+    (28) comment -> . LPAREN CLCOMMENT error RPAREN
+    (11) module -> . LPAREN TITLE NONLOGICAL LPAREN START statement RPAREN RPAREN
+    (25) const -> . LPAREN SET LPAREN NONLOGICAL NAME_STRING RPAREN RPAREN
+    (6) title -> . LPAREN TITLE NONLOGICAL RPAREN
+    (7) title -> . LPAREN TITLE URI RPAREN
+    (10) restriction -> . LPAREN RESTRICT NONLOGICAL LPAREN START statement RPAREN RPAREN
+    (49) commented_axiom -> . inline base_axiom RPAREN
+    (50) negation -> . LPAREN NOT axiom RPAREN
+    (66) universal -> . LPAREN FORALL LPAREN nonlogicals RPAREN axiom RPAREN
+    (67) universal -> . LPAREN FORALL LPAREN error
+    (68) universal -> . LPAREN FORALL LPAREN nonlogicals RPAREN error
+    (63) existential -> . LPAREN EXISTS LPAREN nonlogicals RPAREN axiom RPAREN
+    (64) existential -> . LPAREN EXISTS LPAREN error
+    (65) existential -> . LPAREN EXISTS LPAREN nonlogicals RPAREN error
+    (51) conjunction -> . LPAREN AND axiom_list RPAREN
+    (52) conjunction -> . LPAREN AND error
+    (53) disjunction -> . LPAREN OR axiom_list RPAREN
+    (54) disjunction -> . LPAREN OR error
+    (57) implication -> . LPAREN IF axiom axiom RPAREN
+    (58) implication -> . LPAREN IF error
+    (59) implication -> . LPAREN IF axiom error
+    (60) biconditional -> . LPAREN IFF axiom axiom RPAREN
+    (61) biconditional -> . LPAREN IFF error
+    (62) biconditional -> . LPAREN IFF axiom error
+    (71) predicate -> . LPAREN NONLOGICAL parameter RPAREN
+    (72) predicate -> . LPAREN NAME_STRING parameter RPAREN
+    (73) predicate -> . LPAREN SET parameter RPAREN
+    (74) predicate -> . LPAREN SET LPAREN NONLOGICAL NONLOGICAL RPAREN RPAREN
+    (75) predicate -> . LPAREN NONLOGICAL error RPAREN
+    (69) commented_predicate -> . LPAREN LPAREN CLCOMMENT QUOTED_STRING NONLOGICAL RPAREN parameter RPAREN
+    (70) commented_predicate -> . LPAREN LPAREN CLCOMMENT QUOTED_STRING NAME_STRING RPAREN parameter RPAREN
+    (26) inline -> . LPAREN CLCOMMENT QUOTED_STRING
+
+    LPAREN          shift and go to state 42
+
+    statement                      shift and go to state 150
+    axiom                          shift and go to state 6
+    import                         shift and go to state 7
+    comment                        shift and go to state 8
+    module                         shift and go to state 9
+    const                          shift and go to state 10
+    title                          shift and go to state 11
+    restriction                    shift and go to state 12
+    commented_axiom                shift and go to state 13
+    negation                       shift and go to state 14
+    universal                      shift and go to state 15
+    existential                    shift and go to state 16
+    conjunction                    shift and go to state 17
+    disjunction                    shift and go to state 18
+    implication                    shift and go to state 19
+    biconditional                  shift and go to state 20
+    predicate                      shift and go to state 21
+    commented_predicate            shift and go to state 22
+    inline                         shift and go to state 23
+
+state 137
+
+    (26) inline -> LPAREN CLCOMMENT QUOTED_STRING .
+
+    LPAREN          reduce using rule 26 (inline -> LPAREN CLCOMMENT QUOTED_STRING .)
+
+
+state 138
+
+    (66) universal -> LPAREN FORALL LPAREN nonlogicals RPAREN . axiom RPAREN
+    (68) universal -> LPAREN FORALL LPAREN nonlogicals RPAREN . error
+    (31) axiom -> . commented_axiom
+    (32) axiom -> . negation
+    (33) axiom -> . universal
+    (34) axiom -> . existential
+    (35) axiom -> . conjunction
+    (36) axiom -> . disjunction
+    (37) axiom -> . implication
+    (38) axiom -> . biconditional
+    (39) axiom -> . predicate
+    (40) axiom -> . commented_predicate
+    (49) commented_axiom -> . inline base_axiom RPAREN
+    (50) negation -> . LPAREN NOT axiom RPAREN
+    (66) universal -> . LPAREN FORALL LPAREN nonlogicals RPAREN axiom RPAREN
+    (67) universal -> . LPAREN FORALL LPAREN error
+    (68) universal -> . LPAREN FORALL LPAREN nonlogicals RPAREN error
+    (63) existential -> . LPAREN EXISTS LPAREN nonlogicals RPAREN axiom RPAREN
+    (64) existential -> . LPAREN EXISTS LPAREN error
+    (65) existential -> . LPAREN EXISTS LPAREN nonlogicals RPAREN error
+    (51) conjunction -> . LPAREN AND axiom_list RPAREN
+    (52) conjunction -> . LPAREN AND error
+    (53) disjunction -> . LPAREN OR axiom_list RPAREN
+    (54) disjunction -> . LPAREN OR error
+    (57) implication -> . LPAREN IF axiom axiom RPAREN
+    (58) implication -> . LPAREN IF error
+    (59) implication -> . LPAREN IF axiom error
+    (60) biconditional -> . LPAREN IFF axiom axiom RPAREN
+    (61) biconditional -> . LPAREN IFF error
+    (62) biconditional -> . LPAREN IFF axiom error
+    (71) predicate -> . LPAREN NONLOGICAL parameter RPAREN
+    (72) predicate -> . LPAREN NAME_STRING parameter RPAREN
+    (73) predicate -> . LPAREN SET parameter RPAREN
+    (74) predicate -> . LPAREN SET LPAREN NONLOGICAL NONLOGICAL RPAREN RPAREN
+    (75) predicate -> . LPAREN NONLOGICAL error RPAREN
+    (69) commented_predicate -> . LPAREN LPAREN CLCOMMENT QUOTED_STRING NONLOGICAL RPAREN parameter RPAREN
+    (70) commented_predicate -> . LPAREN LPAREN CLCOMMENT QUOTED_STRING NAME_STRING RPAREN parameter RPAREN
+    (26) inline -> . LPAREN CLCOMMENT QUOTED_STRING
+
+    error           shift and go to state 152
+    LPAREN          shift and go to state 79
+
+    axiom                          shift and go to state 151
+    commented_axiom                shift and go to state 13
+    negation                       shift and go to state 14
+    universal                      shift and go to state 15
+    existential                    shift and go to state 16
+    conjunction                    shift and go to state 17
+    disjunction                    shift and go to state 18
+    implication                    shift and go to state 19
+    biconditional                  shift and go to state 20
+    predicate                      shift and go to state 21
+    commented_predicate            shift and go to state 22
+    inline                         shift and go to state 23
+
+state 139
+
+    (63) existential -> LPAREN EXISTS LPAREN nonlogicals RPAREN . axiom RPAREN
+    (65) existential -> LPAREN EXISTS LPAREN nonlogicals RPAREN . error
+    (31) axiom -> . commented_axiom
+    (32) axiom -> . negation
+    (33) axiom -> . universal
+    (34) axiom -> . existential
+    (35) axiom -> . conjunction
+    (36) axiom -> . disjunction
+    (37) axiom -> . implication
+    (38) axiom -> . biconditional
+    (39) axiom -> . predicate
+    (40) axiom -> . commented_predicate
+    (49) commented_axiom -> . inline base_axiom RPAREN
+    (50) negation -> . LPAREN NOT axiom RPAREN
+    (66) universal -> . LPAREN FORALL LPAREN nonlogicals RPAREN axiom RPAREN
+    (67) universal -> . LPAREN FORALL LPAREN error
+    (68) universal -> . LPAREN FORALL LPAREN nonlogicals RPAREN error
+    (63) existential -> . LPAREN EXISTS LPAREN nonlogicals RPAREN axiom RPAREN
+    (64) existential -> . LPAREN EXISTS LPAREN error
+    (65) existential -> . LPAREN EXISTS LPAREN nonlogicals RPAREN error
+    (51) conjunction -> . LPAREN AND axiom_list RPAREN
+    (52) conjunction -> . LPAREN AND error
+    (53) disjunction -> . LPAREN OR axiom_list RPAREN
+    (54) disjunction -> . LPAREN OR error
+    (57) implication -> . LPAREN IF axiom axiom RPAREN
+    (58) implication -> . LPAREN IF error
+    (59) implication -> . LPAREN IF axiom error
+    (60) biconditional -> . LPAREN IFF axiom axiom RPAREN
+    (61) biconditional -> . LPAREN IFF error
+    (62) biconditional -> . LPAREN IFF axiom error
+    (71) predicate -> . LPAREN NONLOGICAL parameter RPAREN
+    (72) predicate -> . LPAREN NAME_STRING parameter RPAREN
+    (73) predicate -> . LPAREN SET parameter RPAREN
+    (74) predicate -> . LPAREN SET LPAREN NONLOGICAL NONLOGICAL RPAREN RPAREN
+    (75) predicate -> . LPAREN NONLOGICAL error RPAREN
+    (69) commented_predicate -> . LPAREN LPAREN CLCOMMENT QUOTED_STRING NONLOGICAL RPAREN parameter RPAREN
+    (70) commented_predicate -> . LPAREN LPAREN CLCOMMENT QUOTED_STRING NAME_STRING RPAREN parameter RPAREN
+    (26) inline -> . LPAREN CLCOMMENT QUOTED_STRING
+
+    error           shift and go to state 154
+    LPAREN          shift and go to state 79
+
+    axiom                          shift and go to state 153
+    commented_axiom                shift and go to state 13
+    negation                       shift and go to state 14
+    universal                      shift and go to state 15
+    existential                    shift and go to state 16
+    conjunction                    shift and go to state 17
+    disjunction                    shift and go to state 18
+    implication                    shift and go to state 19
+    biconditional                  shift and go to state 20
+    predicate                      shift and go to state 21
+    commented_predicate            shift and go to state 22
+    inline                         shift and go to state 23
+
+state 140
+
+    (57) implication -> LPAREN IF axiom axiom RPAREN .
+
+    LPAREN          reduce using rule 57 (implication -> LPAREN IF axiom axiom RPAREN .)
+    $end            reduce using rule 57 (implication -> LPAREN IF axiom axiom RPAREN .)
+    RPAREN          reduce using rule 57 (implication -> LPAREN IF axiom axiom RPAREN .)
+    error           reduce using rule 57 (implication -> LPAREN IF axiom axiom RPAREN .)
+
+
+state 141
+
+    (60) biconditional -> LPAREN IFF axiom axiom RPAREN .
+
+    LPAREN          reduce using rule 60 (biconditional -> LPAREN IFF axiom axiom RPAREN .)
+    $end            reduce using rule 60 (biconditional -> LPAREN IFF axiom axiom RPAREN .)
+    RPAREN          reduce using rule 60 (biconditional -> LPAREN IFF axiom axiom RPAREN .)
+    error           reduce using rule 60 (biconditional -> LPAREN IFF axiom axiom RPAREN .)
+
+
+state 142
+
+    (74) predicate -> LPAREN SET LPAREN NONLOGICAL . NONLOGICAL RPAREN RPAREN
+    (80) function -> LPAREN NONLOGICAL . parameter RPAREN
+    (81) function -> LPAREN NONLOGICAL . error RPAREN
+    (76) parameter -> . function parameter
+    (77) parameter -> . nonlogicals parameter
+    (78) parameter -> . function
+    (79) parameter -> . nonlogicals
+    (80) function -> . LPAREN NONLOGICAL parameter RPAREN
+    (81) function -> . LPAREN NONLOGICAL error RPAREN
+    (82) nonlogicals -> . NONLOGICAL nonlogicals
+    (83) nonlogicals -> . NONLOGICAL
+
+    NONLOGICAL      shift and go to state 134
+    error           shift and go to state 133
+    LPAREN          shift and go to state 69
+
+    parameter                      shift and go to state 132
+    function                       shift and go to state 73
+    nonlogicals                    shift and go to state 74
+
+state 143
+
+    (69) commented_predicate -> LPAREN LPAREN CLCOMMENT QUOTED_STRING NONLOGICAL RPAREN . parameter RPAREN
+    (76) parameter -> . function parameter
+    (77) parameter -> . nonlogicals parameter
+    (78) parameter -> . function
+    (79) parameter -> . nonlogicals
+    (80) function -> . LPAREN NONLOGICAL parameter RPAREN
+    (81) function -> . LPAREN NONLOGICAL error RPAREN
+    (82) nonlogicals -> . NONLOGICAL nonlogicals
+    (83) nonlogicals -> . NONLOGICAL
+
+    LPAREN          shift and go to state 69
+    NONLOGICAL      shift and go to state 70
+
+    parameter                      shift and go to state 155
+    function                       shift and go to state 73
+    nonlogicals                    shift and go to state 74
+
+state 144
+
+    (70) commented_predicate -> LPAREN LPAREN CLCOMMENT QUOTED_STRING NAME_STRING RPAREN . parameter RPAREN
+    (76) parameter -> . function parameter
+    (77) parameter -> . nonlogicals parameter
+    (78) parameter -> . function
+    (79) parameter -> . nonlogicals
+    (80) function -> . LPAREN NONLOGICAL parameter RPAREN
+    (81) function -> . LPAREN NONLOGICAL error RPAREN
+    (82) nonlogicals -> . NONLOGICAL nonlogicals
+    (83) nonlogicals -> . NONLOGICAL
+
+    LPAREN          shift and go to state 69
+    NONLOGICAL      shift and go to state 70
+
+    parameter                      shift and go to state 156
+    function                       shift and go to state 73
+    nonlogicals                    shift and go to state 74
+
+state 145
+
+    (11) module -> LPAREN TITLE NONLOGICAL LPAREN START statement . RPAREN RPAREN
+
+    RPAREN          shift and go to state 157
+
+
+state 146
+
+    (80) function -> LPAREN NONLOGICAL parameter RPAREN .
+
+    LPAREN          reduce using rule 80 (function -> LPAREN NONLOGICAL parameter RPAREN .)
+    NONLOGICAL      reduce using rule 80 (function -> LPAREN NONLOGICAL parameter RPAREN .)
+    RPAREN          reduce using rule 80 (function -> LPAREN NONLOGICAL parameter RPAREN .)
+
+
+state 147
+
+    (81) function -> LPAREN NONLOGICAL error RPAREN .
+
+    LPAREN          reduce using rule 81 (function -> LPAREN NONLOGICAL error RPAREN .)
+    NONLOGICAL      reduce using rule 81 (function -> LPAREN NONLOGICAL error RPAREN .)
+    RPAREN          reduce using rule 81 (function -> LPAREN NONLOGICAL error RPAREN .)
+
+
+state 148
+
+    (74) predicate -> LPAREN SET LPAREN NONLOGICAL NONLOGICAL RPAREN . RPAREN
+
+    RPAREN          shift and go to state 158
+
+
+state 149
+
+    (25) const -> LPAREN SET LPAREN NONLOGICAL NAME_STRING RPAREN . RPAREN
+
+    RPAREN          shift and go to state 159
+
+
+state 150
+
+    (10) restriction -> LPAREN RESTRICT NONLOGICAL LPAREN START statement . RPAREN RPAREN
+
+    RPAREN          shift and go to state 160
+
+
+state 151
+
+    (66) universal -> LPAREN FORALL LPAREN nonlogicals RPAREN axiom . RPAREN
+
+    RPAREN          shift and go to state 161
+
+
+state 152
+
+    (68) universal -> LPAREN FORALL LPAREN nonlogicals RPAREN error .
+
+    LPAREN          reduce using rule 68 (universal -> LPAREN FORALL LPAREN nonlogicals RPAREN error .)
+    $end            reduce using rule 68 (universal -> LPAREN FORALL LPAREN nonlogicals RPAREN error .)
+    RPAREN          reduce using rule 68 (universal -> LPAREN FORALL LPAREN nonlogicals RPAREN error .)
+    error           reduce using rule 68 (universal -> LPAREN FORALL LPAREN nonlogicals RPAREN error .)
+
+
+state 153
+
+    (63) existential -> LPAREN EXISTS LPAREN nonlogicals RPAREN axiom . RPAREN
+
+    RPAREN          shift and go to state 162
+
+
+state 154
+
+    (65) existential -> LPAREN EXISTS LPAREN nonlogicals RPAREN error .
+
+    LPAREN          reduce using rule 65 (existential -> LPAREN EXISTS LPAREN nonlogicals RPAREN error .)
+    $end            reduce using rule 65 (existential -> LPAREN EXISTS LPAREN nonlogicals RPAREN error .)
+    RPAREN          reduce using rule 65 (existential -> LPAREN EXISTS LPAREN nonlogicals RPAREN error .)
+    error           reduce using rule 65 (existential -> LPAREN EXISTS LPAREN nonlogicals RPAREN error .)
+
+
+state 155
+
+    (69) commented_predicate -> LPAREN LPAREN CLCOMMENT QUOTED_STRING NONLOGICAL RPAREN parameter . RPAREN
+
+    RPAREN          shift and go to state 163
+
+
+state 156
+
+    (70) commented_predicate -> LPAREN LPAREN CLCOMMENT QUOTED_STRING NAME_STRING RPAREN parameter . RPAREN
+
+    RPAREN          shift and go to state 164
+
+
+state 157
+
+    (11) module -> LPAREN TITLE NONLOGICAL LPAREN START statement RPAREN . RPAREN
+
+    RPAREN          shift and go to state 165
+
+
+state 158
+
+    (74) predicate -> LPAREN SET LPAREN NONLOGICAL NONLOGICAL RPAREN RPAREN .
+
+    LPAREN          reduce using rule 74 (predicate -> LPAREN SET LPAREN NONLOGICAL NONLOGICAL RPAREN RPAREN .)
+    $end            reduce using rule 74 (predicate -> LPAREN SET LPAREN NONLOGICAL NONLOGICAL RPAREN RPAREN .)
+    RPAREN          reduce using rule 74 (predicate -> LPAREN SET LPAREN NONLOGICAL NONLOGICAL RPAREN RPAREN .)
+    error           reduce using rule 74 (predicate -> LPAREN SET LPAREN NONLOGICAL NONLOGICAL RPAREN RPAREN .)
+
+
+state 159
+
+    (25) const -> LPAREN SET LPAREN NONLOGICAL NAME_STRING RPAREN RPAREN .
+
+    LPAREN          reduce using rule 25 (const -> LPAREN SET LPAREN NONLOGICAL NAME_STRING RPAREN RPAREN .)
+    $end            reduce using rule 25 (const -> LPAREN SET LPAREN NONLOGICAL NAME_STRING RPAREN RPAREN .)
+    RPAREN          reduce using rule 25 (const -> LPAREN SET LPAREN NONLOGICAL NAME_STRING RPAREN RPAREN .)
+
+
+state 160
+
+    (10) restriction -> LPAREN RESTRICT NONLOGICAL LPAREN START statement RPAREN . RPAREN
+
+    RPAREN          shift and go to state 166
+
+
+state 161
+
+    (66) universal -> LPAREN FORALL LPAREN nonlogicals RPAREN axiom RPAREN .
+
+    LPAREN          reduce using rule 66 (universal -> LPAREN FORALL LPAREN nonlogicals RPAREN axiom RPAREN .)
+    $end            reduce using rule 66 (universal -> LPAREN FORALL LPAREN nonlogicals RPAREN axiom RPAREN .)
+    RPAREN          reduce using rule 66 (universal -> LPAREN FORALL LPAREN nonlogicals RPAREN axiom RPAREN .)
+    error           reduce using rule 66 (universal -> LPAREN FORALL LPAREN nonlogicals RPAREN axiom RPAREN .)
+
+
+state 162
+
+    (63) existential -> LPAREN EXISTS LPAREN nonlogicals RPAREN axiom RPAREN .
+
+    LPAREN          reduce using rule 63 (existential -> LPAREN EXISTS LPAREN nonlogicals RPAREN axiom RPAREN .)
+    $end            reduce using rule 63 (existential -> LPAREN EXISTS LPAREN nonlogicals RPAREN axiom RPAREN .)
+    RPAREN          reduce using rule 63 (existential -> LPAREN EXISTS LPAREN nonlogicals RPAREN axiom RPAREN .)
+    error           reduce using rule 63 (existential -> LPAREN EXISTS LPAREN nonlogicals RPAREN axiom RPAREN .)
+
+
+state 163
+
+    (69) commented_predicate -> LPAREN LPAREN CLCOMMENT QUOTED_STRING NONLOGICAL RPAREN parameter RPAREN .
+
+    LPAREN          reduce using rule 69 (commented_predicate -> LPAREN LPAREN CLCOMMENT QUOTED_STRING NONLOGICAL RPAREN parameter RPAREN .)
+    $end            reduce using rule 69 (commented_predicate -> LPAREN LPAREN CLCOMMENT QUOTED_STRING NONLOGICAL RPAREN parameter RPAREN .)
+    RPAREN          reduce using rule 69 (commented_predicate -> LPAREN LPAREN CLCOMMENT QUOTED_STRING NONLOGICAL RPAREN parameter RPAREN .)
+    error           reduce using rule 69 (commented_predicate -> LPAREN LPAREN CLCOMMENT QUOTED_STRING NONLOGICAL RPAREN parameter RPAREN .)
+
+
+state 164
+
+    (70) commented_predicate -> LPAREN LPAREN CLCOMMENT QUOTED_STRING NAME_STRING RPAREN parameter RPAREN .
+
+    LPAREN          reduce using rule 70 (commented_predicate -> LPAREN LPAREN CLCOMMENT QUOTED_STRING NAME_STRING RPAREN parameter RPAREN .)
+    $end            reduce using rule 70 (commented_predicate -> LPAREN LPAREN CLCOMMENT QUOTED_STRING NAME_STRING RPAREN parameter RPAREN .)
+    RPAREN          reduce using rule 70 (commented_predicate -> LPAREN LPAREN CLCOMMENT QUOTED_STRING NAME_STRING RPAREN parameter RPAREN .)
+    error           reduce using rule 70 (commented_predicate -> LPAREN LPAREN CLCOMMENT QUOTED_STRING NAME_STRING RPAREN parameter RPAREN .)
+
+
+state 165
+
+    (11) module -> LPAREN TITLE NONLOGICAL LPAREN START statement RPAREN RPAREN .
+
+    LPAREN          reduce using rule 11 (module -> LPAREN TITLE NONLOGICAL LPAREN START statement RPAREN RPAREN .)
+    $end            reduce using rule 11 (module -> LPAREN TITLE NONLOGICAL LPAREN START statement RPAREN RPAREN .)
+    RPAREN          reduce using rule 11 (module -> LPAREN TITLE NONLOGICAL LPAREN START statement RPAREN RPAREN .)
+
+
+state 166
+
+    (10) restriction -> LPAREN RESTRICT NONLOGICAL LPAREN START statement RPAREN RPAREN .
+
+    LPAREN          reduce using rule 10 (restriction -> LPAREN RESTRICT NONLOGICAL LPAREN START statement RPAREN RPAREN .)
+    $end            reduce using rule 10 (restriction -> LPAREN RESTRICT NONLOGICAL LPAREN START statement RPAREN RPAREN .)
+    RPAREN          reduce using rule 10 (restriction -> LPAREN RESTRICT NONLOGICAL LPAREN START statement RPAREN RPAREN .)
+
+WARNING: 
+WARNING: Conflicts:
+WARNING: 
+WARNING: shift/reduce conflict for NONLOGICAL in state 70 resolved as shift
+WARNING: shift/reduce conflict for RPAREN in state 134 resolved as shift
+WARNING: shift/reduce conflict for NONLOGICAL in state 134 resolved as shift

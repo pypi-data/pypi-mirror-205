@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: macleod
+Version: 0.10
+Summary: Ontology development framework
+Home-page: https://github.com/thahmann/macleod
+Author: Torsten Hahmann
+Author-email: torsten.hahmann@maine.edu
+License: GPL3
+Classifier: Programming Language :: Python :: 3.0
+Provides-Extra: GUI
+License-File: LICENCE.txt
