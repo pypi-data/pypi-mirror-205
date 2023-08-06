@@ -1,0 +1,46 @@
+import os
+
+import setuptools
+
+from version import __version__
+
+CURRENT_FILEPATH = os.path.abspath(os.path.dirname(__file__))
+VERSION_FILENAME = 'version.py'
+
+
+setuptools.setup(
+    name='bbc-dslib',
+    version=__version__,
+    author='Raphaël Berly',
+    author_email='raphael.berly@blablacar.com',
+    description='A lib for the Data Science team at Blablacar',
+    license='closed',
+    url="https://github.com/blablacar/data-dslib",
+    packages=setuptools.find_packages(),
+    python_requires='>=3.7.9',
+    install_requires=['humanfriendly', 'pyyaml', 'jinja2'],
+    extras_require={
+        'database': ['sqlalchemy', 'psycopg2-binary', 'PyMySQL', 'pandas'],
+        'facebook': ['fbprophet'],
+        'google': [
+            'google-cloud-bigquery==3.10.0',
+            'google-cloud-bigquery-storage==2.19.1',
+            'google-cloud-storage==2.8.0',
+            'google-api-python-client==2.86.0',
+            'oauth2client==4.1.3',
+            'pandas==2.0.1',
+            'pandas-gbq==0.19.1',
+            'tqdm==4.65.0',
+            'gspread==5.8.0',
+            'gspread-dataframe==3.3.0'
+        ],
+        'science': [
+            'scikit-learn==1.2.2',
+            'numpy==1.24.3',
+            'matplotlib==3.7.1',
+            'dill==0.3.6',
+            'pandas==2.0.1'
+        ],
+        'testing': ['pytest', 'pytest-cov', 'coverage', 'mock', 'testfixtures'],
+    }
+)
