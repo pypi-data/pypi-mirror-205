@@ -1,0 +1,7 @@
+xpi2pkgbuild/__init__.py,sha256=PU5p-Ue2R1ZH-HYQqcCtT4csyhk71lWWQSNcfUhayXM,169
+xpi2pkgbuild/xpi2pkgbuild.py,sha256=USRb2q-O-d-Vi6Ba0w-fnC6fCLTDcnL16NaDCMA_ljs,3620
+xpi2pkgbuild-1.0.0.dist-info/entry_points.txt,sha256=7vM1YXJ5RMuWeeV9YjGFuLVQjqcOIN1wsej7L13rOx8,63
+xpi2pkgbuild-1.0.0.dist-info/LICENSE,sha256=yNd-dHuzkM7MTHm2Nez3OgCjeTHqVdmcCJ9z9THDjIY,1069
+xpi2pkgbuild-1.0.0.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+xpi2pkgbuild-1.0.0.dist-info/METADATA,sha256=IrzWlOEw6CjcV0TkKT9Cx4Nfnj5Yg1G0Bah5Pf2_ve0,632
+xpi2pkgbuild-1.0.0.dist-info/RECORD,,
