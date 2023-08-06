@@ -1,0 +1,5 @@
+pyairtable
+requests
+boto3
+pyyaml
+python-dotenv
