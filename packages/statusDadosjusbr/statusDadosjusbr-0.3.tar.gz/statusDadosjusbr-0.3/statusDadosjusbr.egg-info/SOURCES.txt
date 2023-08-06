@@ -1,0 +1,8 @@
+README.md
+setup.py
+status/__init__.py
+status/status.py
+statusDadosjusbr.egg-info/PKG-INFO
+statusDadosjusbr.egg-info/SOURCES.txt
+statusDadosjusbr.egg-info/dependency_links.txt
+statusDadosjusbr.egg-info/top_level.txt
