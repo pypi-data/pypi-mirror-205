@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+django_rest_commons/__init__.py
+django_rest_commons/mixins.py
+django_rest_commons/serializers.py
+django_rest_commons/viewsets.py
+django_rest_commons.egg-info/PKG-INFO
+django_rest_commons.egg-info/SOURCES.txt
+django_rest_commons.egg-info/dependency_links.txt
+django_rest_commons.egg-info/top_level.txt
