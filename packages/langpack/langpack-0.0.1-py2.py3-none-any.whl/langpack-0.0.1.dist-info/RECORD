@@ -1,0 +1,11 @@
+langpack/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+langpack/app_template.py,sha256=Athx3xBnaw3twNdjtR_qbM37CRXj8-iL2e8CL0vjoaY,857
+langpack/client_template.py,sha256=76uiHaqX-YNpbl4yd62a-V1dXV5S0tcxbTXYOsGTQfI,611
+langpack/tester.py,sha256=PoDgNQe_fis7y6ZsQOITTF6M1svBZ-Sp2cE5EqTRadU,7528
+langpack/tools.py,sha256=Yg6yrUoZ9fgNU7rMErYoTS5YCeP-m9adAkDZ5JvDeYY,21745
+langpack/utils.py,sha256=2fmcJwHpoSgnscrJ47ZFYXFToIEWazooo75VQNcbTP0,7512
+langpack-0.0.1.dist-info/METADATA,sha256=MzTuVkBgtwneAmEJKWNl4oZpKy0bhM3hcB92FuMWNwM,871
+langpack-0.0.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+langpack-0.0.1.dist-info/entry_points.txt,sha256=tr9PNRuctA7z6aoVqeR4pND15CtSHpq6v-Bmjfyipyw,77
+langpack-0.0.1.dist-info/top_level.txt,sha256=j92Fj-GurEfjdOLmRWAy5wdVGVoOFqkhz6grAYs19Yw,9
+langpack-0.0.1.dist-info/RECORD,,

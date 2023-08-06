@@ -1,0 +1,4 @@
+[console_scripts]
+deploy = langpack.tools:deploy
+pack = langpack.tools:pack
+
