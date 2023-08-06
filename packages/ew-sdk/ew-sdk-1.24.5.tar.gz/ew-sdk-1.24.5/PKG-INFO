@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: ew-sdk
+Version: 1.24.5
+Summary: few
+Author-email: ewqf <qw2@g.com>
+Requires-Python: >=3.7
+Provides-Extra: testutils
+License-File: LICENSE
