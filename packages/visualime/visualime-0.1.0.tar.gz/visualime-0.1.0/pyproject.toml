@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "visualime"
+description = "Implementation of LIME focused on producing user-centric local explanations for image classifiers."
+requires-python = ">=3.8"
+authors = [
+    { name = "Kilian Kluge", email = "dev@kluge.ai" },
+    { name = "The VisuaLIME developers", email = "xai.demonstrator@gmail.com" }
+]
+readme = "README.md"
+license = { text = "Apache 2.0 License" }
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent"
+]
+dynamic = ["version", "dependencies"]
+
+[project.urls]
+"Documentation" = "https://visualime.readthedocs.io/"
+"Repository" = "https://github.com/xai-demonstrator/visualime"
+"Bug Tracker" = "https://github.com/xai-demonstrator/visualime/issues"
+
+[tool.setuptools]
+packages = ["visualime"]
+
+[tool.setuptools.dynamic]
+version = { attr = "visualime.__version__" }
+dependencies = { file = "requirements.txt" }
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = false
+plugins = ["numpy.typing.mypy_plugin"]
+
+[[tool.mypy.overrides]]
+module = [
+    "sklearn",
+    "sklearn.*",
+    "skimage",
+    "skimage.*",
+]
+ignore_missing_imports = true
