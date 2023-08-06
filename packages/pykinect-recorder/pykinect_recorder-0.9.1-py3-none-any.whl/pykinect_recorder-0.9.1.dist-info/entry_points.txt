@@ -1,0 +1,3 @@
+[console_scripts]
+pykinect=pykinect_recorder.main.cli.command:main
+

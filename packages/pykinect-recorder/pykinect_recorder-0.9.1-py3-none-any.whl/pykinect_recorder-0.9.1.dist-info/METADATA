@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: pykinect-recorder
+Version: 0.9.1
+Summary: 
+Home-page: https://github.com/unerue/pykinect-recorder
+License: MIT
+Keywords: azure,kinect,deep-learning,computer-vision
+Author: Kyung-Su Kang
+Author-email: unerue@me.com
+Requires-Python: >=3.9.1,<3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: matplotlib (>=3.7.1,<4.0.0)
+Requires-Dist: open3d (>=0.17.0,<0.18.0)
+Requires-Dist: opencv-python (>=4.7.0.72,<5.0.0.0)
+Requires-Dist: pyqtdarktheme (>=2.1.0,<3.0.0)
+Requires-Dist: pyqtgraph (>=0.13.2,<0.14.0)
+Requires-Dist: pyside6 (>=6.4.2,<7.0.0)
+Requires-Dist: qtawesome (>=1.2.3,<2.0.0)
+Requires-Dist: scikit-learn (>=1.2.2,<2.0.0)
+Requires-Dist: sounddevice (>=0.4.6,<0.5.0)
+Requires-Dist: soundfile (>=0.12.1,<0.13.0)
+Requires-Dist: termcolor (>=2.2.0,<3.0.0)
+Project-URL: Repository, https://github.com/unerue/pykinect-recorder
+Description-Content-Type: text/markdown
+
+# pykinect-recorder
+
+The pykinect-recorder is an educational/industrial library that provides sensor recording (including audio), playback, and computer vision soultions through a python wrapper of the Azure Kinect Sensor SDK.
+
+## Installation
+
+### Prerequisites
+
+[Azure Kinect SDK](https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/usage.md)
+
+#### Windows
+
+```bash
+pip install pykinect-recorder
+
+pykinect
+```
+
+## Features
+
+ML Solutions: native, mediapipe, torchvision
+
