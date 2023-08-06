@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: esppy
+Version: 0.2
+Summary: EEG Signal Processing Library
+Home-page: https://github.com/preethihiremath/esppy
+Author: preethivhiremath
+Author-email: preethivhiremath.vh@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: mne
+Requires-Dist: nolds
+
+UNKNOWN
+
