@@ -1,0 +1,4 @@
+# MANIFEST.in
+recursive-include zendron *.py
+recursive-include zendron *.yaml
+recursive-include zendron *.yml

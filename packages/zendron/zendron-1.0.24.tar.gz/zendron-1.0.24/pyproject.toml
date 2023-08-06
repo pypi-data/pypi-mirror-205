@@ -1,0 +1,40 @@
+# pyproject.toml
+
+[build-system]
+requires      = ["setuptools>=65.5.1", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zendron"
+version = "1.0.24"
+description = "Import Zotero annotations with Dendron integration"
+readme = "README.md"
+authors = [{ name = "Michael Volk", email = "michaeljvolk7@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["Zotero", "Dendron", "Markdown", "Notes", "Annotations", "VSCode"]
+dependencies = [
+    "hydra-core >= 1.3.1",
+    "tqdm >= 4.64.1",
+    "pyzotero >= 1.5.5",
+    "tomli >= 2.0.1",
+    "python-frontmatter >= 1.0.0",
+    "html2text >= 2020.1.16",
+    "Markdown >= 3.4.1",
+    "markdownify >= 0.11.6",
+    "importlib-metadata >= 6.6.0"
+]
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+dev = ["black", "bumpver", "pip-tools", "pytest"]
+
+[project.urls]
+Homepage = "https://github.com/Mjvolk3/Zendron"
+
+[project.scripts]
+zendron = "zendron.__main__:main"
