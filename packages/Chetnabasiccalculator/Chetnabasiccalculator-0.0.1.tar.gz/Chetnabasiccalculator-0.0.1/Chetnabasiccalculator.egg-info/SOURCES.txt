@@ -1,0 +1,8 @@
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+Chetnabasiccalculator.egg-info/PKG-INFO
+Chetnabasiccalculator.egg-info/SOURCES.txt
+Chetnabasiccalculator.egg-info/dependency_links.txt
+Chetnabasiccalculator.egg-info/top_level.txt
