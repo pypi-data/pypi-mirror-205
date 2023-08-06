@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pixelpotion
+Version: 0.1.0
+Summary: An open-source image processing tool based on the Pillow
+Home-page: https://github.com/mjhxyz/pixelpotion
+Author: Mao
+Author-email: mjhxyz@foxmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
