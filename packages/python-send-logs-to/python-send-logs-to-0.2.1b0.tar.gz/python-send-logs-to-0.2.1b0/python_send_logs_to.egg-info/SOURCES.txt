@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+log_to/__init__.py
+log_to/redis.py
+python_send_logs_to.egg-info/PKG-INFO
+python_send_logs_to.egg-info/SOURCES.txt
+python_send_logs_to.egg-info/dependency_links.txt
+python_send_logs_to.egg-info/requires.txt
+python_send_logs_to.egg-info/top_level.txt
