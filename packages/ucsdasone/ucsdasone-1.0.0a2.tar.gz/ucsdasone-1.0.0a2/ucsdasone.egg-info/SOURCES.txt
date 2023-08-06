@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+asone/__init__.py
+asone/__main__.py
+asone/scraper.py
+ucsdasone.egg-info/PKG-INFO
+ucsdasone.egg-info/SOURCES.txt
+ucsdasone.egg-info/dependency_links.txt
+ucsdasone.egg-info/top_level.txt
