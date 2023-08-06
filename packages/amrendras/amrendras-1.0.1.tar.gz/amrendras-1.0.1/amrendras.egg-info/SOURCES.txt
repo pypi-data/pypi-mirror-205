@@ -1,0 +1,7 @@
+setup.py
+amrendras/__init__.py
+amrendras/amrendras.py
+amrendras.egg-info/PKG-INFO
+amrendras.egg-info/SOURCES.txt
+amrendras.egg-info/dependency_links.txt
+amrendras.egg-info/top_level.txt
