@@ -1,0 +1,9 @@
+singleton_class_decorator/MetaClasses.py,sha256=znbpz_LQxwuzxXckSIPAwtuo6Iq-GSyfEXgAgZN14Pc,3498
+singleton_class_decorator/__init__.py,sha256=H1m8BTvnZ23mppglqLSepmKxpZN0-86fvWZyS6i04RU,58
+singleton_class_decorator/singleton.py,sha256=Z5mow0xTxmARBHYR9hgwoZX8bmLOrmOCSowwp5bpPss,1316
+singleton_class_decorator/utils.py,sha256=0k9bGn10MIQCxdJ9hCIYeNX_jIKSXWdjYRovCfjaEU4,793
+singleton_class_decorator-1.0.1.dist-info/LICENSE,sha256=RkY6135bvAeUZWRhCAS8KFHio7z9o0OBw1_rasblfqo,1071
+singleton_class_decorator-1.0.1.dist-info/METADATA,sha256=KfcQJh5_rxYa2cJWa-ZWU5fCCLv3jzaF4uKRIz0aB8U,5652
+singleton_class_decorator-1.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+singleton_class_decorator-1.0.1.dist-info/top_level.txt,sha256=In-w8xUfdLEHIWSCiCR44ZGPsOK8rrBm7CtuQCGfjgI,26
+singleton_class_decorator-1.0.1.dist-info/RECORD,,
