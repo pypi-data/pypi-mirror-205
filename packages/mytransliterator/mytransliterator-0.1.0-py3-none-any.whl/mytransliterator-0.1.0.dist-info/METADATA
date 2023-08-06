@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mytransliterator
+Version: 0.1.0
+Summary: transliteration
+Home-page: UNKNOWN
+Author: Sanjana
+Author-email: sanjana64885@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: dependency1 (>=1.0)
+Requires-Dist: dependency2 (>=2.0)
+
+UNKNOWN
+
+
