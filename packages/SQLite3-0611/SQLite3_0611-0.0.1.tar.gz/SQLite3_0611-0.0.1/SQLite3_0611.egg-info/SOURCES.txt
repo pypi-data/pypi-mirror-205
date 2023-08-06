@@ -1,0 +1,9 @@
+LICENSE
+pyproject.toml
+setup.py
+SQLite3_0611/__init__.py
+SQLite3_0611/api.py
+SQLite3_0611.egg-info/PKG-INFO
+SQLite3_0611.egg-info/SOURCES.txt
+SQLite3_0611.egg-info/dependency_links.txt
+SQLite3_0611.egg-info/top_level.txt
