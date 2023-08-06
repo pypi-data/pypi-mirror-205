@@ -1,0 +1,10 @@
+LICENSE.rst
+README.rst
+setup.cfg
+setup.py
+src/alxpytest/__init__.py
+src/alxpytest.egg-info/PKG-INFO
+src/alxpytest.egg-info/SOURCES.txt
+src/alxpytest.egg-info/dependency_links.txt
+src/alxpytest.egg-info/requires.txt
+src/alxpytest.egg-info/top_level.txt
