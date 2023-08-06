@@ -1,0 +1,13 @@
+doppkit/__init__.py,sha256=LcIlFjHZFfiF9Rd4UHoakmombOFkxIYk00I181frGBM,23
+doppkit/__main__.py,sha256=ItBfdwdj-JUviJn2fZoA_QYroBW8o_q4oXnqwTSXeSE,90
+doppkit/app.py,sha256=6fuDMHP6epa3lSrzEPzPTKtwM_KVHwU3X8LhDtnSN3w,3008
+doppkit/cache.py,sha256=bh7vCyPpgUe7MvDaVeFyRXFUN-KKjawB1OiaMTFpBsQ,5529
+doppkit/grid.py,sha256=vIuY_nJY2HrXN-MpAxO832V4ftEmUijiPRRhm94XdwU,4655
+doppkit/list.py,sha256=TPZHXCXks1IDGuU0s5_GMoXMfVgnNBQKcBD2J1pNlJY,1367
+doppkit/sync.py,sha256=ns8MmozLyv2iwTEZ-Pss4ZcN-Pg4sihxYEE2daJx8U8,1995
+doppkit-0.1.12.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+doppkit-0.1.12.dist-info/METADATA,sha256=LgzqPeUHMd2rXakqOrqoDLgifHZTp1onGodpmSFo4eE,14006
+doppkit-0.1.12.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+doppkit-0.1.12.dist-info/entry_points.txt,sha256=iFYAFFEyfxMNEdjRgarlTWVBa2wiVObJtED_zbxzjUI,50
+doppkit-0.1.12.dist-info/top_level.txt,sha256=gkk7wKM9DyRXJQrnwZize1HnoSJbTAqr0dtgoYIrcms,8
+doppkit-0.1.12.dist-info/RECORD,,
