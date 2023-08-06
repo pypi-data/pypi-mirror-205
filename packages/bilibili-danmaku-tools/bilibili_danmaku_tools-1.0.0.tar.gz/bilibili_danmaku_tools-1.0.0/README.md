@@ -1,0 +1,33 @@
+# BiliBili Danmaku Tools (danmakuctl)
+
+本工具可用于处理 BiliBili 主站及 [B站录播姬]](http://rec.danmuji.org) 的弹幕 XML 文件。
+ 1. 切片弹幕文件
+ 2. 合并弹幕文件
+ 3. 分析弹幕文件
+
+## 安装
+
+```bash
+pip3 install bilibili-danmaku-tools
+```
+
+## 使用
+
+```
+# 查看帮助
+danmakuctl -h
+
+# 分析弹幕文件
+danmakuctl analyze danmaku.xml
+
+# 切片弹幕文件
+danmakuctl slice --start 0 --end 7:12 danmaku.xml
+
+# 合并弹幕文件
+danmakuctl merge danmaku1.xml danmaku2.xml danmaku-all.xml
+```
+
+## 许可
+此项目以 GNU Public License v3.0 许可证发布。
+
+此项目是 [valkjsaaa/danmaku_tools](https://github.com/valkjsaaa/danmaku_tools) 的分支，由于原项目已经不再维护，故此分支将继续维护。

@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "bilibili-danmaku-tools"
+version = "1.0.0"
+description = "Merge & split danmaku XML files"
+authors = ["Joseph Chris <joseph@josephcz.xyz>"]
+license = "GPL-3.0-only"
+readme = "README.md"
+packages = [{include = "bilibili_danmaku_tools"}]
+
+[tool.poetry.scripts]
+danmakuctl = 'bilibili_danmaku_tools.cli:main'
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
