@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+INHERIT: mkdocs/base.yml  # use the shared AutoRA configuration by default
+
+site_name: AutoRA Workflow
+
+nav:
+- Introduction: 'index.md'
+- 'basic-usage.ipynb'
+- 'passing-static-parameters.ipynb'
+- "accessing-state-dependent-properties.ipynb"
+- "using-alternative-planners-and-executors.ipynb"
+# TODO: - Use workflows in batch computing environments
+- Code Reference: reference/

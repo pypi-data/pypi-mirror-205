@@ -1,0 +1,8 @@
+autora-core
+typer
+rich
+shellingham
+pyyaml
+
+[dev]
+autora-core[dev]
