@@ -1,0 +1,8 @@
+MANIFEST.in
+pyproject.toml
+setup.py
+dpshare/__init__.py
+dpshare.egg-info/PKG-INFO
+dpshare.egg-info/SOURCES.txt
+dpshare.egg-info/dependency_links.txt
+dpshare.egg-info/top_level.txt
