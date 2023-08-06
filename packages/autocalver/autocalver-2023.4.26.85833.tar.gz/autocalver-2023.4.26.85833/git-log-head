@@ -1,0 +1,7 @@
+commit 00f8f9f0883578438781d60a3373b0adda35d0c1
+Author: Moshe Zadka <moshez@users.noreply.github.com>
+Date:   2023-04-26 17:50:33 -0600
+
+    Merge pull request #12 from moshez/auto-release-trunk
+    
+    fix to name trunk
