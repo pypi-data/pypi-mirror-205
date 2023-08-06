@@ -1,0 +1,8 @@
+license.txt
+setup.py
+JustTry/__init__.py
+JustTry/calculator.py
+JustTry.egg-info/PKG-INFO
+JustTry.egg-info/SOURCES.txt
+JustTry.egg-info/dependency_links.txt
+JustTry.egg-info/top_level.txt
