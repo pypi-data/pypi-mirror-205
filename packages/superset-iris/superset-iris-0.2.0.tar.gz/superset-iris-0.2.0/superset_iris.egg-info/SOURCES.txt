@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+superset_iris/__init__.py
+superset_iris/engine.py
+superset_iris.egg-info/PKG-INFO
+superset_iris.egg-info/SOURCES.txt
+superset_iris.egg-info/dependency_links.txt
+superset_iris.egg-info/entry_points.txt
+superset_iris.egg-info/requires.txt
+superset_iris.egg-info/top_level.txt
