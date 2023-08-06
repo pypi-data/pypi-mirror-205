@@ -1,0 +1,9 @@
+README.md
+setup.py
+soscucu/__init__.py
+soscucu/english.py
+soscucu/korean.py
+soscucu.egg-info/PKG-INFO
+soscucu.egg-info/SOURCES.txt
+soscucu.egg-info/dependency_links.txt
+soscucu.egg-info/top_level.txt
