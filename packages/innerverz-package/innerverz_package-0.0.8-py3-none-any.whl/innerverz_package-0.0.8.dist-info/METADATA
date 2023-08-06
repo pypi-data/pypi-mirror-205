@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: innerverz-package
+Version: 0.0.8
+Summary: innerverz package
+Author: Innerverz-by.JJY
+Author-email: pensee0.0a@innerverz.com
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+Requires-Dist: Pillow
+Requires-Dist: numpy
+Requires-Dist: tqdm
+Requires-Dist: gdown
+Requires-Dist: insightface
+Requires-Dist: opencv-python
+
+testing...
