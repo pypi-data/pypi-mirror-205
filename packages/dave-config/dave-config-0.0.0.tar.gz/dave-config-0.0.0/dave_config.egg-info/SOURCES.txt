@@ -1,0 +1,6 @@
+README.md
+setup.py
+dave_config.egg-info/PKG-INFO
+dave_config.egg-info/SOURCES.txt
+dave_config.egg-info/dependency_links.txt
+dave_config.egg-info/top_level.txt
