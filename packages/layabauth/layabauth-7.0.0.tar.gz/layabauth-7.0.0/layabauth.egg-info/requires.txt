@@ -1,0 +1,10 @@
+httpx==0.24.*
+python-jose==3.*
+
+[testing]
+flask_restx==1.1.*
+pytest-flask==1.*
+starlette==0.17.*
+requests==2.*
+pytest-httpx==0.22.*
+pytest-cov==3.*
