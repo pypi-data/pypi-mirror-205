@@ -1,0 +1,4 @@
+[console_scripts]
+googletranslate = googletranslatepy.bin:main
+gtrans = googletranslatepy.bin:main
+
