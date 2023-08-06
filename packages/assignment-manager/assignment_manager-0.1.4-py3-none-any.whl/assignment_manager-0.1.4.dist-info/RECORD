@@ -1,0 +1,11 @@
+assignment_manager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+assignment_manager/assignments.py,sha256=Wlmoa58emyu2vm6Z7_QwMwoMo6PFyO1I2TsN4AiFH8U,3954
+assignment_manager/data.py,sha256=0r8Q4S1s48-3I27ZEyJKhs_AUf9fnMyDs6JWYNMc2QE,1811
+assignment_manager/io.py,sha256=noMM0hYyaEw5eVqpbkDPd51vtSS3jn4lEgoceiNiuM0,2440
+assignment_manager/main.py,sha256=FK9XrRMbYY9jvbYezCp45OuVV-N8oBAigAF0MffdTH4,989
+assignment_manager-0.1.4.dist-info/LICENSE,sha256=FxtjQV26vvObELD-YVeIXcWG2VxErEz2iVlTnDpybFg,1074
+assignment_manager-0.1.4.dist-info/METADATA,sha256=yMKXaW-zRQCdO1qR5IytpS_qdIZ1nw1kbP_YEWzlMXs,923
+assignment_manager-0.1.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+assignment_manager-0.1.4.dist-info/entry_points.txt,sha256=PE6C-QD13PS_eKeFLaMJw8wGXmWkjLUJUXKRykkOSUc,106
+assignment_manager-0.1.4.dist-info/top_level.txt,sha256=XdoemyoNzg5n_Wo5za1KInp3WrXfLTfIvT7QXRROxJM,19
+assignment_manager-0.1.4.dist-info/RECORD,,
