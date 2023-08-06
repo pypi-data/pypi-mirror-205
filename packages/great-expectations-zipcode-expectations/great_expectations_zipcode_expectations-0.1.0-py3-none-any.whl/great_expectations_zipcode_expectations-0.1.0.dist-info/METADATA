@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: great-expectations-zipcode-expectations
+Version: 0.1.0
+Summary: A collection of Expectations to validate zipcode data with Great Expectations.
+Author: Great Expectations
+Author-email: austin@greatexpectations.io
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: great-expectations
+Requires-Dist: pgeocode
+Requires-Dist: setuptools
+Requires-Dist: uszipcode
+Requires-Dist: zipcodes
+
+## Great Expectations Zipcode Expectations
+
+A collection of Expectations to validate zipcode data with Great Expectations.
+
+Author: [Great Expectations](https://github.com/great_expectations/great_expectations)
+
+[PyPi Link](https://python.org/pypi/great_expectations_zipcode_expectations)
