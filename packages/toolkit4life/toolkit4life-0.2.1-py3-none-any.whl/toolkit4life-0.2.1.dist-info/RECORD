@@ -1,0 +1,15 @@
+toolkit4life/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+toolkit4life/clients/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+toolkit4life/clients/_sqlalchemy.py,sha256=3QXkx3ryMDn5sy-DyjTnyRSBdYWLfcA-H2CVGWyNYeY,2613
+toolkit4life/clients/postgres.py,sha256=smqbIiNJ-yc-tVhUdoL-WDTts9otYeBpTKjY6iExG2s,1144
+toolkit4life/clients/redis.py,sha256=A-uMj96ZW0N4md0gOrJak-eMR2Oul0ih8iAH7-j9L8g,4109
+toolkit4life/clients/trino.py,sha256=RzS_h4_1jKBUagB1Cr0mKG4JW0PaS84NLxkIX_AQEgs,1347
+toolkit4life/telegram/restrictors.py,sha256=wBVzWgHCKfmxc1hx9A1zhqITMmTPUvZevCKuOxD3Sww,2768
+toolkit4life/utils/logger.py,sha256=oh0PmxqKwtVsjV4hS4fgqbiiDOEnLlJdNN0cz39VNtg,4334
+toolkit4life/utils/requests.py,sha256=PxNHDeLI0wBcgfHqRfJBt9ns33B1d_nWFHKeZI_0c1g,5397
+toolkit4life/utils/threads.py,sha256=7pkz00c0r3NIEvivniFG5VwwZmPQ8wywI_2L3K7jsv4,2620
+toolkit4life-0.2.1.dist-info/LICENSE,sha256=A8ur0NhFUE-4p5M0kzoXpjRU96uaoHhTkeU6xIUZDRs,1074
+toolkit4life-0.2.1.dist-info/METADATA,sha256=vu3ggw52ejPixMcAWZuw2JxgxBuFhbQURW2ytbVuvlY,1339
+toolkit4life-0.2.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+toolkit4life-0.2.1.dist-info/top_level.txt,sha256=rP0ioxofrIj3eVBakfuzifzwDhaFHQzYMqkwjrt3Uto,13
+toolkit4life-0.2.1.dist-info/RECORD,,
