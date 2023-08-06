@@ -1,0 +1,6 @@
+README.md
+setup.py
+yandex_noc_ck_cli.egg-info/PKG-INFO
+yandex_noc_ck_cli.egg-info/SOURCES.txt
+yandex_noc_ck_cli.egg-info/dependency_links.txt
+yandex_noc_ck_cli.egg-info/top_level.txt
