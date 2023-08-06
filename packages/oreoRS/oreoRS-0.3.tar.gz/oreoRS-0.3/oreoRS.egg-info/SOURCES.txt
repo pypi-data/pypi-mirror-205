@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+oreoRS.egg-info/PKG-INFO
+oreoRS.egg-info/SOURCES.txt
+oreoRS.egg-info/dependency_links.txt
+oreoRS.egg-info/not-zip-safe
+oreoRS.egg-info/top_level.txt
+oreoRs/__init__.py
+oreoRs/in_info.py
