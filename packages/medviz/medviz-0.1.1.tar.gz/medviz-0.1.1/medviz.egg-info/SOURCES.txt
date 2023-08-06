@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.py
+medviz/__init__.py
+medviz/example.py
+medviz/gif.py
+medviz/layered_plot.py
+medviz.egg-info/PKG-INFO
+medviz.egg-info/SOURCES.txt
+medviz.egg-info/dependency_links.txt
+medviz.egg-info/requires.txt
+medviz.egg-info/top_level.txt

@@ -1,0 +1,7 @@
+numpy>=1.19.5
+matplotlib>=3.3.4
+nibabel>=3.2.1
+imageio>=2.9.0
+
+[:python_version < "3.8"]
+importlib-metadata
