@@ -1,0 +1,13 @@
+colinote/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+colinote/cli.py,sha256=zm3wYTvi1AjhA-2Cpu6tJZe1I7WGcM0_Bxc8muCNbpc,3679
+colinote/data_types.py,sha256=tr6rGBDRcHhcEGlymCFkxy-u5z5k7TvkdGUsLxkAg4k,753
+colinote/utils.py,sha256=GmQ2md1T0GOX-FpVDiE3_S2wxGAHevgWF9I-ahT16eE,2291
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_colinote.py,sha256=6vNiQoGocsBjkijp_evjrTlXfrN3sJS_fJN6YsQCqy0,4374
+tests/test_utils.py,sha256=65QI6c_nJNWOw9Gb1pPXs9gkEYtq_J4Cs4mKDx1cHCs,1031
+colinote-0.1.0.dist-info/LICENSE,sha256=-YBVwpiHG0B24omiT__EFTNOSE9BOCsDZbSnZ5xYMmM,1066
+colinote-0.1.0.dist-info/METADATA,sha256=HGMegejzvGRxsK6-kUGoNbHnICsTxI-jKU9gfxpiOSU,2732
+colinote-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+colinote-0.1.0.dist-info/entry_points.txt,sha256=LhwhB-72lHuHPkf_nLrgK0ngtup3ut1654z2DxMpg2s,47
+colinote-0.1.0.dist-info/top_level.txt,sha256=cZGji5N-JiYc1edGIDPNOJceAhV1g3ir7QRzyWcN1Wo,15
+colinote-0.1.0.dist-info/RECORD,,
