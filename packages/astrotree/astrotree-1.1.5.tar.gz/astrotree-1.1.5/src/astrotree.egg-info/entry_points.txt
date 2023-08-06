@@ -1,0 +1,2 @@
+[console_scripts]
+astrotree = astrotree.main:main
