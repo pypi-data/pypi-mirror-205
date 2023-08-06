@@ -1,0 +1,5 @@
+pandas
+numpy<1.24
+nltk
+joblib
+scikit-learn==1.2.2
