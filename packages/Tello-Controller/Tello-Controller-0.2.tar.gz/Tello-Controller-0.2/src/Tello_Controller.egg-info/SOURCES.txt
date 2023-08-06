@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/main.py
+src/script_sender.py
+src/stats.py
+src/tello.py
+src/Controller/__init__.py
+src/Tello_Controller.egg-info/PKG-INFO
+src/Tello_Controller.egg-info/SOURCES.txt
+src/Tello_Controller.egg-info/dependency_links.txt
+src/Tello_Controller.egg-info/top_level.txt
