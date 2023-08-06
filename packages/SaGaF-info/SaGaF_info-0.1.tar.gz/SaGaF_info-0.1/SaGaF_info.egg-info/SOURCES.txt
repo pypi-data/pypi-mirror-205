@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+SaGaF_info/SaGaF_info.py
+SaGaF_info/__init__.py
+SaGaF_info.egg-info/PKG-INFO
+SaGaF_info.egg-info/SOURCES.txt
+SaGaF_info.egg-info/dependency_links.txt
+SaGaF_info.egg-info/requires.txt
+SaGaF_info.egg-info/top_level.txt
