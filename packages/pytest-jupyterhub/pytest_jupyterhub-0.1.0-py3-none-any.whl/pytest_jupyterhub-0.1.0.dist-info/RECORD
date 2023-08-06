@@ -1,0 +1,8 @@
+pytest_jupyterhub/__init__.py,sha256=OXTwK8oIIpLBm69YLlDkPJI5so8GY9ZLGmhlRXCQQzA,87
+pytest_jupyterhub/_version.py,sha256=oIiV6JDcccl0Q5HFYHZpsBIolcfpyqBHE7RNV4wfJAA,154
+pytest_jupyterhub/jupyterhub_spawners.py,sha256=b89HDo6AlmbYCX3i9KStxhACC_k0ReRQtBzkDjuaOas,2881
+pytest_jupyterhub-0.1.0.dist-info/METADATA,sha256=N_JZMKYL_7sP0VMDm_H9SUzMvTd71EzDnPL9r3Mwt9A,7813
+pytest_jupyterhub-0.1.0.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+pytest_jupyterhub-0.1.0.dist-info/entry_points.txt,sha256=zKMXwbuu8Rb8NA1YH4Bxt2wNjh4D-qX_meCOvFITrfA,78
+pytest_jupyterhub-0.1.0.dist-info/licenses/LICENSE,sha256=sH2R8_bXRmIOq9VgE8CTY3BSL5RtcrbkqVxbsgyiCis,1497
+pytest_jupyterhub-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,2 @@
+[pytest11]
+jupyterhub-spawners-plugin = pytest_jupyterhub.jupyterhub_spawners
