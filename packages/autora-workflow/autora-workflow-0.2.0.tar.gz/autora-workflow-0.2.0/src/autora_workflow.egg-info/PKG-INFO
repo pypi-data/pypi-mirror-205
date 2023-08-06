@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: autora-workflow
+Version: 0.2.0
+Summary: Workflow tools for the Autonomous Research Assistant (AutoRA) package.
+Author-email: John Gerrard Holland <john_holland1@brown.edu>
+License: MIT License
+Project-URL: homepage, https://www.empiricalresearch.ai/
+Project-URL: repository, https://github.com/AutoResearch/autora-workflow
+Project-URL: documentation, https://hollandjg.github.io/autora-workflow/
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE.md
+
+# AutoRA Workflow
