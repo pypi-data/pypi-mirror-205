@@ -1,0 +1,7 @@
+setup.py
+pytale/__init__.py
+pytale/pytale.py
+pytale.egg-info/PKG-INFO
+pytale.egg-info/SOURCES.txt
+pytale.egg-info/dependency_links.txt
+pytale.egg-info/top_level.txt
