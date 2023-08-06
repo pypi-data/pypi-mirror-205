@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+ProjZ.py.egg-info/PKG-INFO
+ProjZ.py.egg-info/SOURCES.txt
+ProjZ.py.egg-info/dependency_links.txt
+ProjZ.py.egg-info/requires.txt
+ProjZ.py.egg-info/top_level.txt
