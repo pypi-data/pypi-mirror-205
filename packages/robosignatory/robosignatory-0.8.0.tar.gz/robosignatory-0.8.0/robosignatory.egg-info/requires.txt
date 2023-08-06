@@ -1,0 +1,5 @@
+fedora_messaging
+psutil
+boto3
+click
+setuptools

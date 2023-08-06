@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: robosignatory
+Version: 0.8.0
+Summary: fedora-messaging consumer that automatically signs artifacts
+Home-page: https://pagure.io/robosignatory/
+Author: Patrick Uiterwijk
+Author-email: puiterwijk@redhat.com
+License: gplv2+
+License-File: LICENSE
