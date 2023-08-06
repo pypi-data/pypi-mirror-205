@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: simpledi
+Version: 0.4.1
+Summary: Simple dependency injection container for python
+Home-page: https://github.com/catacgc/simpledi
+Author: Catalin Costache
+Author-email: catacgc@gmail.com
+License-File: LICENSE
+
