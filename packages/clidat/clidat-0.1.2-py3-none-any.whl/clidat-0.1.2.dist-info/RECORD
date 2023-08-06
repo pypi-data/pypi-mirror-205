@@ -1,0 +1,13 @@
+clidat/__init__.py,sha256=YvuYzWnKtqBb-IqG8HAu-nhIYAsgj9Vmc_b9o7vO-js,22
+clidat/auth.py,sha256=tlTsSMBNFA4e6w4i3rL1E_KEXfnZVAPaGkJOBuESko8,725
+clidat/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clidat/commands/accounting.py,sha256=xyzs_jT4c0ZOmx318GDV0B2svyfkp7fRnRZu8SRiZVE,7148
+clidat/commands/platform.py,sha256=g2A-B9LKFua3KendjhuZAsut5zitFhtsSjjC4_OOaAU,4060
+clidat/main.py,sha256=53QF23qEC6wCqzVvqBjtIazgv5lqGgnkJTjuxBLGHBU,1449
+clidat/meta.py,sha256=p0y_hVAnAR78XKwNyIbP1sqY-_ycCKgPtshZJjeDA-s,2568
+clidat/tui/viewer.py,sha256=kWqvycdXsKd34dZNqIO_14mPTI65wC1iFrA9DV3d8MA,3179
+clidat-0.1.2.dist-info/LICENSE.md,sha256=YYsGDWcpdxqwyxW_m6GK7mTVg98CYgBcrFx50fSyxUI,1080
+clidat-0.1.2.dist-info/METADATA,sha256=K53xtjKnSl6A3cjDgdVzerzGD8GSj6uC18UOGtDEFs0,2094
+clidat-0.1.2.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+clidat-0.1.2.dist-info/entry_points.txt,sha256=fL05qcw_g6b8adTRJH7l768QtyYisR033gRHnX-t4N4,42
+clidat-0.1.2.dist-info/RECORD,,
