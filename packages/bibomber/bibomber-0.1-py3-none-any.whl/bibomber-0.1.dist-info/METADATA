@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: bibomber
+Version: 0.1
+Summary: script for sms spaming
+Home-page: https://github.com/bikmeev/bi_bomber
+Author: ilia bikmeev
+Author-email: lopolop2223@yandex.ru
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+BI Boomber
+
+sms spamer script
