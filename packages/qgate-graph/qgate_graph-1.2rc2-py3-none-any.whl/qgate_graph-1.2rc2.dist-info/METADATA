@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: qgate-graph
+Version: 1.2rc2
+Summary: Generate graphs based on outputs from Quality Gate
+Home-page: https://github.com/george0st/qgate-graph/
+Download-URL: https://pypi.org/project/qgate_graph/
+Author: Jiri Steuer
+Author-email: steuer.jiri@gmail.com
+License: MIT
+Keywords: Quality,QualityGate
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib (~=3.7)
+Requires-Dist: click (~=8.1)
+
+# Test README.md 
