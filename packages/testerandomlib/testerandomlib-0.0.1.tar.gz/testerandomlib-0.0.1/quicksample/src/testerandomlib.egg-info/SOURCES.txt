@@ -1,0 +1,7 @@
+LICENSE
+setup.py
+quicksample/src/testerandomlib.egg-info/PKG-INFO
+quicksample/src/testerandomlib.egg-info/SOURCES.txt
+quicksample/src/testerandomlib.egg-info/dependency_links.txt
+quicksample/src/testerandomlib.egg-info/top_level.txt
+quicksample/src/testerandomlib.egg-info/SOURCES.txt
