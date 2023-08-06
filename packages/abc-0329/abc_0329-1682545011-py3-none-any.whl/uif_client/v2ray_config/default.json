@@ -1,0 +1,210 @@
+{
+  "log": {
+    "loglevel": "none"
+  },
+  "inbounds": [{
+    "port": 10111,
+    "tag": "inboud_vmess_ws",
+    "listen": "127.0.0.1",
+    "protocol": "vmess",
+    "settings": {
+      "clients": [{
+        "id": "a831381d-6324-4d53-ad4f-9cda48b30648",
+        "alterId": 0
+      }]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "wsSettings": {
+        "path": "/vmess_ws"
+      }
+    }
+  }, {
+    "port": 10112,
+    "tag": "inboud_vmess_ws_ipv6",
+    "listen": "127.0.0.1",
+    "protocol": "vmess",
+    "settings": {
+      "clients": [{
+        "id": "a831381d-6324-4d53-ad4f-9cda48b30648",
+        "alterId": 0
+      }]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "wsSettings": {
+        "path": "/vmess_ws_ipv6"
+      }
+    }
+  }, {
+    "port": 10121,
+    "tag": "inboud_vmess_grpc",
+    "listen": "127.0.0.1",
+    "protocol": "vmess",
+    "settings": {
+      "clients": [{
+        "id": "a831381d-6324-4d53-ad4f-9cda48b30648",
+        "alterId": 0
+      }]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "grpcSettings": {
+        "serviceName": "vmess_grpc"
+      }
+    }
+  }, {
+    "port": 10122,
+    "tag": "inboud_vmess_grpc_ipv6",
+    "listen": "127.0.0.1",
+    "protocol": "vmess",
+    "settings": {
+      "clients": [{
+        "id": "a831381d-6324-4d53-ad4f-9cda48b30648",
+        "alterId": 0
+      }]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "grpcSettings": {
+        "serviceName": "vmess_grpc_ipv6"
+      }
+    }
+  }, {
+    "port": 10211,
+    "tag": "inboud_trojan_ws",
+    "listen": "127.0.0.1",
+    "protocol": "trojan",
+    "settings": {
+      "clients": [{
+        "password": "17146021026"
+      }]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "wsSettings": {
+        "path": "/trojan_ws"
+      }
+    }
+  }, {
+    "port": 10212,
+    "tag": "inboud_trojan_ws_ipv6",
+    "listen": "127.0.0.1",
+    "protocol": "trojan",
+    "settings": {
+      "clients": [{
+        "password": "17146021026"
+      }]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "wsSettings": {
+        "path": "/trojan_ws_ipv6"
+      }
+    }
+  }, {
+    "port": 10221,
+    "tag": "inboud_trojan_grpc",
+    "listen": "127.0.0.1",
+    "protocol": "trojan",
+    "settings": {
+      "clients": [{
+        "password": "17146021026"
+      }]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "grpcSettings": {
+        "serviceName": "trojan_grpc"
+      }
+    }
+  }, {
+    "port": 10222,
+    "tag": "inboud_trojan_grpc_ipv6",
+    "listen": "127.0.0.1",
+    "protocol": "trojan",
+    "settings": {
+      "clients": [{
+        "password": "17146021026"
+      }]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "grpcSettings": {
+        "serviceName": "trojan_grpc_ipv6"
+      }
+    }
+  }, {
+    "listen": "127.0.0.1",
+    "port": 10085,
+    "protocol": "dokodemo-door",
+    "settings": {
+      "address": "127.0.0.1"
+    },
+    "tag": "api"
+  }],
+  "api": {
+    "tag": "api",
+    "services": [
+      "HandlerService",
+      "StatsService"
+    ]
+  },
+  "policy": {
+    "levels": {
+      "0": {
+        "statsUserUplink": true,
+        "statsUserDownlink": true
+      }
+    },
+    "system": {
+      "statsInboundUplink": true,
+      "statsInboundDownlink": true,
+      "statsOutboundUplink": true,
+      "statsOutboundDownlink": true
+    }
+  },
+  "outbounds": [{
+    "tag": "IP4_out",
+    "protocol": "freedom"
+  }, {
+    "tag": "IP6_out",
+    "protocol": "freedom",
+    "settings": {
+      "domainStrategy": "UseIPv6"
+    }
+  }, {
+    "tag": "block",
+    "protocol": "blackhole",
+    "settings": {
+      "response": {
+        "type": "http"
+      }
+    }
+  }],
+  "routing": {
+    "rules": [{
+        "inboundTag": [
+          "inboud_vmess_ws_ipv6",
+          "inboud_vmess_grpc_ipv6",
+          "inboud_trojan_ws_ipv6",
+          "inboud_trojan_grpc_ipv6"
+        ],
+        "type": "field",
+        "outboundTag": "IP6_out",
+        "network": "udp,tcp"
+      },
+      {
+        "type": "field",
+        "outboundTag": "IP4_out",
+        "network": "udp,tcp"
+      }, {
+        "inboundTag": [
+          "api"
+        ],
+        "outboundTag": "api",
+        "type": "field"
+      }
+    ]
+  }
+}
