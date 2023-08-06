@@ -1,0 +1,3 @@
+[console_scripts]
+openvpn-inliner=openvpn_helpers.inline_helper:main
+
