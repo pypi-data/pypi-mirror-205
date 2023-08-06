@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: gbx
+Version: 0.0.1
+Summary: A Python gopher proxy.
+Home-page: https://github.com/supakeen/gbx
+License: MIT
+Keywords: gopher,proxy
+Author: Simon de Vlieger
+Author-email: cmdr@supakeen.com
+Requires-Python: >=3.9,<4
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: click (>=8.0,<9.0)
+Requires-Dist: python-magic (>=0.4.27,<0.5.0)
+Requires-Dist: tornado (>=6.0,<7.0)
+Project-URL: Repository, https://github.com/supakeen/gbx
+Description-Content-Type: text/markdown
+
+![gb logo, a gopher in a ball](https://src.tty.cat/supakeen/gb/raw/branch/master/doc/_static/logo-doc.png)
+
+# gbx
+
