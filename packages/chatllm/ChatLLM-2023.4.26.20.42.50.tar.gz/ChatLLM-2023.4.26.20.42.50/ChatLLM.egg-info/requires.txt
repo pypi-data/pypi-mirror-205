@@ -1,0 +1,6 @@
+meutils
+transformers
+sentence_transformers
+cpm_kernels
+pymupdf
+typer
