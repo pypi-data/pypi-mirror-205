@@ -1,0 +1,6 @@
+module.py
+setup.py
+w_cf_deployer.egg-info/PKG-INFO
+w_cf_deployer.egg-info/SOURCES.txt
+w_cf_deployer.egg-info/dependency_links.txt
+w_cf_deployer.egg-info/top_level.txt
