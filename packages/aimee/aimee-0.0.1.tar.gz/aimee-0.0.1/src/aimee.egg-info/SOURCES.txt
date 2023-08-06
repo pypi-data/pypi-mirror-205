@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/aimee/__init__.py
+src/aimee/modular.py
+src/aimee.egg-info/PKG-INFO
+src/aimee.egg-info/SOURCES.txt
+src/aimee.egg-info/dependency_links.txt
+src/aimee.egg-info/top_level.txt
