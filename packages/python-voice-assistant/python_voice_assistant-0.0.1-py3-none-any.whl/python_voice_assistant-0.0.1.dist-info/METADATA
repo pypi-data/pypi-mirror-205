@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: python-voice-assistant
+Version: 0.0.1
+Summary: Create your own voice assistant like jarvis
+Author: Zeph1rr
+Author-email: grianton535@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: loguru (>=0.7.0,<0.8.0)
+Requires-Dist: numpy (>=1.24.3,<2.0.0)
+Requires-Dist: pydantic (>=1.10.7,<2.0.0)
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Requires-Dist: silero (>=0.4.1,<0.5.0)
+Requires-Dist: sounddevice (>=0.4.6,<0.5.0)
+Requires-Dist: vosk (>=0.3.45,<0.4.0)
+Description-Content-Type: text/markdown
+
+# python_voice_assistant
+
+<p align="center">
+      <img src="https://i.ibb.co/MZ3PgBR/python-voice-assistant.png" alt="Project Logo" width="726">
+</p>
+
+<p align="center">
+    <img src="https://img.shields.io/badge/Python-3.10-blueviolet" alt="Python Version">
+    <img src="https://img.shields.io/badge/Version-1.0.0-blue" alt="Game Version">
+    <img src="https://img.shields.io/badge/License-MIT-success" alt="License">
+</p>
+
+## About
+
+Python package for creating your own voice assistants like Siri or Jarvis
+
+## Installation
+
+```
+pip install python_voice_assistant
+```
+
+## Documentation
+
+- [Русский](docs/ru_doc.md)
+- [English](docs/en_doc.md)
+
+## CONTRIBUTORS
+
+- [Zeph1rr](https://github.com/Zeph1rr) (Developer)
+
+## License
+
+Project Python voice assistant is distributed under the MIT license.

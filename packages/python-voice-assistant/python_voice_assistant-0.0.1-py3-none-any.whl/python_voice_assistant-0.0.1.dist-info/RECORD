@@ -1,0 +1,10 @@
+python_voice_assistant/__init__.py,sha256=lZ0jzbAYv6UrOXfqZFEq8bv6XMwdjnLjzbAqhNMKyOY,52
+python_voice_assistant/Helper.py,sha256=JVgshHTYx5JEY3sp2zufN7eXLydBNDSRi1CXiSZ2oKA,2988
+python_voice_assistant/languages/en.json,sha256=HUueMkKqi6BaS9YoiSHf5pVhLVit24YnT0Muqu0xcx8,152
+python_voice_assistant/languages/ru.json,sha256=cZpcDej2lz-tv_4Nq0WuT1VpQjiKXsU-tj-6MhC6CX8,239
+python_voice_assistant/Listener.py,sha256=whsaqEYfxQCqZP9vIyOgMgBJNF3ZeI7e-gWdy94GgHw,5728
+python_voice_assistant/settings.py,sha256=6otnupPLg3uAA17lvtCPhNatKnO5Fjzwx-GQPhogv8M,664
+python_voice_assistant/Speaker.py,sha256=9yZSaAWF0hH6GOatAgqPQGLMk6dtJofHwHqDXxbquXs,1090
+python_voice_assistant-0.0.1.dist-info/METADATA,sha256=IPWSaXAvShiMvODCUkWKrnX2NZtRhChY0NSQyrQSp1s,1485
+python_voice_assistant-0.0.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+python_voice_assistant-0.0.1.dist-info/RECORD,,
