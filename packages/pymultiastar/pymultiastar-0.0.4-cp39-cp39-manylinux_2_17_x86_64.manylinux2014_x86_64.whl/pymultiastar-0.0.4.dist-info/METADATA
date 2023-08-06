@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: pymultiastar
+Version: 0.0.4
+Summary: Multi-goal A* with cpp bindings to python
+Author-Email: Jeremy Castagno <jeremybyu@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.9
+Requires-Dist: numpy>=1.15
+Requires-Dist: pyproj>=3.0; extra == "geo"
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: Pillow; extra == "test"
+Requires-Dist: pyproj>=3.0; extra == "test"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: open3d>=0.17; extra == "dev"
+Requires-Dist: matplotlib; extra == "dev"
+Requires-Dist: rich; extra == "dev"
+Requires-Dist: typer; extra == "dev"
+Requires-Dist: ipdb; extra == "dev"
+Requires-Dist: Pillow; extra == "dev"
+Requires-Dist: pymultiastar[geo,test]; extra == "dev"
+Provides-Extra: geo
+Provides-Extra: test
+Provides-Extra: dev
+Description-Content-Type: text/markdown
+
+# Multi-Goal A-star
+
+This repo contains code to search for multiple goals with heterogenous values using an A* discrete planner.
+
+
+
+
+inside pymultiastar - (i,j,k) is the row, column, depth
