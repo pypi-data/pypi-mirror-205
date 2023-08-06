@@ -1,0 +1,9 @@
+LICENSE
+README.rst
+setup.py
+src/datatable_faker/__init__.py
+src/datatable_faker.egg-info/PKG-INFO
+src/datatable_faker.egg-info/SOURCES.txt
+src/datatable_faker.egg-info/dependency_links.txt
+src/datatable_faker.egg-info/requires.txt
+src/datatable_faker.egg-info/top_level.txt
