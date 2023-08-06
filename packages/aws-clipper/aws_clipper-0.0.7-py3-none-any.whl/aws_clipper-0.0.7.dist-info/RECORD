@@ -1,0 +1,9 @@
+CHANGELOG.md,sha256=G2m7Ah_R06Q8bbmmKfPFqS0imW0fKbCimzm7Sxtd01U,2603
+README.md,sha256=8NlRTvRG79FovjFDwO5cRWle74LCTuC-s4KbSHwVYR8,672
+aws_clipper/__init__.py,sha256=z-ijiFMVAWDMYxUH7Cqzrj6-55m8vp0xXjPCI7mcKBY,2789
+aws_clipper/__main__.py,sha256=GeExjNYOG0IR_6U0o8srYsxeW_BbZrRhGgg7giFPJAo,65
+aws_clipper/cli.py,sha256=yF6k7cMPAeQkAQV2enUfj0Oq6uf7ZINywy2qcs5E2kw,1323
+aws_clipper-0.0.7.dist-info/METADATA,sha256=N00gpgxf8YNLKqc6PqD-O66e4QevEsVwRgeIeBR2azI,1617
+aws_clipper-0.0.7.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+aws_clipper-0.0.7.dist-info/entry_points.txt,sha256=Q2F9kv-kbipso02lNlRFmxmPMCMVRqV29Exk1yx6Xuw,52
+aws_clipper-0.0.7.dist-info/RECORD,,
