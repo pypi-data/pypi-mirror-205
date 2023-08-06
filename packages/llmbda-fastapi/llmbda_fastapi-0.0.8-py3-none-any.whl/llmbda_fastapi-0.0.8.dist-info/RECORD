@@ -1,0 +1,10 @@
+llmbda_fastapi/__init__.py,sha256=i8z0GpF6P1SaySNwRu0ABz82ZX8oVuLH61V6sebcNOg,139
+llmbda_fastapi/chains.py,sha256=7re8DFuZ-9BncFqO4w2EVDglvt7HUPq358_EbpLXT1A,3878
+llmbda_fastapi/transformations.py,sha256=fn6IDZNsaKvIP-1pmIEz4UOGTXJzlQ3f2V2km5zRTHE,3606
+llmbda_fastapi/frontend/__init__.py,sha256=Y-ZJ6kCVS2yjmHcuNZU32Qi5A7vg1YCeqyXTovb9zX4,109
+llmbda_fastapi/frontend/input_components.py,sha256=d5aZW3eSbKjTdoB2DFXCN3lel5PxdPVqsFXE_Lq3c_4,5362
+llmbda_fastapi/frontend/upload_file.py,sha256=CpYdv3PvfcaQ1j8Lccn-xaCSlvxcP7ZuhZVDlBtMur0,2004
+llmbda_fastapi-0.0.8.dist-info/METADATA,sha256=Fh9lDT06KPxrxemJz1xTBA9OHXHHGlS-MvD5uZLlXcs,3168
+llmbda_fastapi-0.0.8.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+llmbda_fastapi-0.0.8.dist-info/top_level.txt,sha256=Dy9LRlJI8ns0fNGiQpFvjehOFUIS9GD6ODg3zRvn6wk,15
+llmbda_fastapi-0.0.8.dist-info/RECORD,,
