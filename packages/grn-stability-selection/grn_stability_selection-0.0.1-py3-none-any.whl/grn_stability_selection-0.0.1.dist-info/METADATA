@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: grn-stability-selection
+Version: 0.0.1
+Summary: Stability selection for sparse gene regulatory networks
+Home-page: https://github.com/soelmicheletti/grn-stability-selection
+Author: Soel Micheletti
+Author-email: msoel@ethz.ch
+License: MIT
+Keywords: gene regulatory networks,statistical inference
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENSE
+Requires-Dist: mixem (>=0.1.4)
+Requires-Dist: scikit-learn
+Requires-Dist: pandas
+Requires-Dist: numpy
+
+GRN - Stability Selection
