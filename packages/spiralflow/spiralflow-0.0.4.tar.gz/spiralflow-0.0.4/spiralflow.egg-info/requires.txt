@@ -1,0 +1,6 @@
+regex
+openai
+pandas
+tiktoken
+pymupdf
+bs4
