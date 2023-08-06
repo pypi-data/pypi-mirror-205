@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+mermaid/__init__.py
+mermaid/mermaid.py
+mermaid_python.egg-info/PKG-INFO
+mermaid_python.egg-info/SOURCES.txt
+mermaid_python.egg-info/dependency_links.txt
+mermaid_python.egg-info/requires.txt
+mermaid_python.egg-info/top_level.txt
