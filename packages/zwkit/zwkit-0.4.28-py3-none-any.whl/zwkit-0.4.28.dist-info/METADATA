@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: zwkit
+Version: 0.4.28
+Summary: base kit for python
+Author: bomu
+Author-email: zhaowwwjian@gmail.com
+License: Apache-2.0 license
+Platform: any
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: pywencai
+Requires-Dist: tushare
+Requires-Dist: backtrader
+Requires-Dist: joblib
+Requires-Dist: DBUtils
+Requires-Dist: clickhouse-driver
+Requires-Dist: ta-lib
+
