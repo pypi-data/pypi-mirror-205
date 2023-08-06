@@ -1,0 +1,20 @@
+numpy
+h5py
+
+[dev]
+twine
+pytest<7.2.0
+pytest-cov
+pytest-regtest
+tox
+flake8
+black@ git+https://github.com/psf/black
+isort
+sphinx
+sphinx-pynpoint-theme
+myst-parser
+
+[docs]
+sphinx
+sphinx-pynpoint-theme
+myst-parser
