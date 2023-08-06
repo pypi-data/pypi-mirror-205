@@ -1,0 +1,8 @@
+setup.py
+bestsellers.egg-info/PKG-INFO
+bestsellers.egg-info/SOURCES.txt
+bestsellers.egg-info/dependency_links.txt
+bestsellers.egg-info/requires.txt
+bestsellers.egg-info/top_level.txt
+bestselling/__init__.py
+bestselling/bestselling.py
