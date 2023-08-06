@@ -1,0 +1,9 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fullapp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fullapp/apporm.py,sha256=CKFsWm1pOkCEQQyPcgOSfkKrscPWVMe-HILeXjFfrDA,1557
+fullapp/myapp.py,sha256=2Au-uQWKTZBDjWOSi5LYJrAE0HnYv7jofOnG0MmmJmk,799
+fullapp-0.0.5.dist-info/LICENSE,sha256=ZcXqVlPytdAaarpIbXdjCllYxKgkyvBkc0oMWbC4dgI,1061
+fullapp-0.0.5.dist-info/METADATA,sha256=CYVlZl3EEQNYtuIKK7o_9vGLLkZ_oj25KMSwZrVHBsM,8143
+fullapp-0.0.5.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+fullapp-0.0.5.dist-info/top_level.txt,sha256=yCifWJNvnu1YFVoJq5uuGlamiCixsAp1VCMDMPyUSV8,17
+fullapp-0.0.5.dist-info/RECORD,,
