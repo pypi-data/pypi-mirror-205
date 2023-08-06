@@ -1,0 +1,14 @@
+pybloomer.cp311-win_amd64.pyd,sha256=F8iRUpb16JFFOGaMJcYVFTsgVvJYL49k8hIVxTPjlIw,120832
+win/getopt.c,sha256=K6EQJ410X7hW3qqKgfps2_cNVw0APQIvZAUxAC9g4FU,40279
+win/getopt.h,sha256=LJYN3PFzMmMCK9CgZizYukbjW1BiLTnpNp21wr4oxxE,6660
+win/io_win.c,sha256=PUkxcMGhnBH5FTZJ_tIW_ntA8STyxAppcmIuKxTI_8c,496
+win/io_win.h,sha256=zA2k9GsR12v4IZrreAaEACiVDvA6QKcEOHK3XreNk5U,265
+win/mman.c,sha256=HswEeYzgUvhdvwv6qLKBREBuVJ80w-0XYnsTpZBo0z8,4415
+win/mman.h,sha256=I2WiHyFdeDNY-Zy1T4v3vwDFHCvtkiuaFGUChBBJ0sA,2063
+win/unistd.h,sha256=UDdCpq8N-rTFMXV4G2EkqLERnX_nGNcEbJinCJZ93ek,1834
+pybloomer-0.6.0.dist-info/AUTHORS,sha256=rsME8fFqm1THf8tjcok0k74JrFc4DlLKiqCHChXdgMI,551
+pybloomer-0.6.0.dist-info/LICENSE,sha256=VYxYxEE3IvQVDNygMsEorwSn4rrl1qy69EhHLmdK9eI,1167
+pybloomer-0.6.0.dist-info/METADATA,sha256=uxniJmxy90kZjQqxQH7FxwejGfdioHdP6ztBQfTtWkA,4906
+pybloomer-0.6.0.dist-info/WHEEL,sha256=9wvhO-5NhjjD8YmmxAvXTPQXMDOZ50W5vklzeoqFtkM,102
+pybloomer-0.6.0.dist-info/top_level.txt,sha256=WzPeqr5UKtx4mHYV8MRwzkO-0zXml8sXEQ8Fv07ylZ4,14
+pybloomer-0.6.0.dist-info/RECORD,,
