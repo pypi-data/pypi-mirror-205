@@ -1,0 +1,9 @@
+pandas
+numpy
+matplotlib
+wordcloud
+python-dateutil
+tqdm
+
+[NLP]
+transformers
