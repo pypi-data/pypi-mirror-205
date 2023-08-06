@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pyxecm
+Version: 0.0.11
+Summary: A library to connect to Opentext Extended ECM
+Author-email: Kai Gatzweiler <kgatzweiler@opentext.com>, "Dr. Marc Diefenbruch" <mdiefenb@opentext.com>
+Project-URL: Homepage, https://github.com/opentext/pyxecm
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content :: Content Management System
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests (<3)
+Requires-Dist: requests-toolbelt
+Requires-Dist: setuptools
+Requires-Dist: kubernetes
+Requires-Dist: python-hcl2
+Requires-Dist: zipfile36
+
+# PYXECM
+
+A python library to connect to Opentext Extended ECM
