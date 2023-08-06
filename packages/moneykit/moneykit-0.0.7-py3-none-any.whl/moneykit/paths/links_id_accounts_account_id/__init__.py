@@ -1,0 +1,7 @@
+# do not import all endpoints into this module because that uses a lot of memory and stack frames
+# if you need the ability to import all endpoints from this module, import them with
+# from moneykit.paths.links_id_accounts_account_id import Api
+
+from moneykit.paths import PathValues
+
+path = PathValues.LINKS_ID_ACCOUNTS_ACCOUNT_ID
