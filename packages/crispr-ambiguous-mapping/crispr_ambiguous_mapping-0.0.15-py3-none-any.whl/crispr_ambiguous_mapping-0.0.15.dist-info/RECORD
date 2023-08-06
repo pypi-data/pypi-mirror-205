@@ -1,0 +1,5 @@
+crispr_ambiguous_mapping/__init__.py,sha256=UjTrpUJbtqd9JmXMfA0mH_qZ8RvjroSeIWbCa4MfmYc,71
+crispr_ambiguous_mapping/framework/CrisprAmbiguousMapping.py,sha256=UMhQO3K2uSFHzJRyq8rjMKrKi9HyfBkZgNZNbmoOqv0,35926
+crispr_ambiguous_mapping-0.0.15.dist-info/METADATA,sha256=2ASpGwdcZ4lx-kBIds2u4XzM8BmXxl99nsH7xpsu-YU,743
+crispr_ambiguous_mapping-0.0.15.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+crispr_ambiguous_mapping-0.0.15.dist-info/RECORD,,
