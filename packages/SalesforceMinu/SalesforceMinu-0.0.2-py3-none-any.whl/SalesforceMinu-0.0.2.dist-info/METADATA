@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: SalesforceMinu
+Version: 0.0.2
+Summary: Librería para extraer datos de minu en salesforce
+Home-page: https://github.com/BalamCor?tab=repositories
+Author: Corchado Ramos Itzae Balam
+Author-email: g7_corc18@ens.cnyn.unam.mx
+License: MIT
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: pymysql
+
+Pasos obtenidos de: https://antonio-fernandez-troyano.medium.com/crear-una-libreria-python-4e841fbd154f
