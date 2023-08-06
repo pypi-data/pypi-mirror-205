@@ -1,0 +1,15 @@
+setup.py
+numpy3/Astar.py
+numpy3/BFS.py
+numpy3/DFID.py
+numpy3/DFS.py
+numpy3/DFS2.py
+numpy3/Genetic.py
+numpy3/Hill_Climbing.py
+numpy3/Simulated_Annealing.py
+numpy3/UCS.py
+numpy3/__init__.py
+numpy3.egg-info/PKG-INFO
+numpy3.egg-info/SOURCES.txt
+numpy3.egg-info/dependency_links.txt
+numpy3.egg-info/top_level.txt
