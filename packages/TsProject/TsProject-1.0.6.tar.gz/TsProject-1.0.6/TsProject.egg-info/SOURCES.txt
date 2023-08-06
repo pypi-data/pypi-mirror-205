@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+TsProject/TsExtra.py
+TsProject/TsINIT.txt
+TsProject/TsPost.py
+TsProject/__init__.py
+TsProject.egg-info/PKG-INFO
+TsProject.egg-info/SOURCES.txt
+TsProject.egg-info/dependency_links.txt
+TsProject.egg-info/entry_points.txt
+TsProject.egg-info/requires.txt
+TsProject.egg-info/top_level.txt
+TsProject.egg-info/zip-safe
