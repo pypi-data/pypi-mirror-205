@@ -1,0 +1,2 @@
+[console_scripts]
+pff = pyFileFixity.pff:main
