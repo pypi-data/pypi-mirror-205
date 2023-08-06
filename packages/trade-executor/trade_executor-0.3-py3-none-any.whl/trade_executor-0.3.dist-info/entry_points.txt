@@ -1,0 +1,5 @@
+[console_scripts]
+get-latest-release=tradeexecutor.cli.latest_release:main
+prepare-docker-env=tradeexecutor.cli.prepare_docker_env:main
+trade-executor=tradeexecutor.cli.main:app
+
