@@ -1,0 +1,15 @@
+fastapi_code_generator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastapi_code_generator/__main__.py,sha256=gJpzrrES43qk5hXbJA_sGXtVfWFEY4r0zLqd_OMcNAk,8821
+fastapi_code_generator/modular_template/dependencies.jinja2,sha256=DKvhpclpwQpdLpjwRXUANzcvtERFywvTyWO5MTYDNe8,11
+fastapi_code_generator/modular_template/main.jinja2,sha256=UB5troub8xaHBftGVLw9Et9r8YFDv2xrLOH80tshmiw,461
+fastapi_code_generator/modular_template/routers.jinja2,sha256=Rc3Xp_xmFQ21pCLFG62JlTaGZR2ejI0SALeKlzxKaiE,1064
+fastapi_code_generator/parser.py,sha256=EiFCC2lyZOiY_4bhIGXT6vr6B1TDLRudu8odESzalK8,17015
+fastapi_code_generator/template/main.jinja2,sha256=C0K_CgwbtoSazzmL-ZcHAMXzmx29ytyI2A9swlb6SGc,1139
+fastapi_code_generator/visitor.py,sha256=wePiEKv6BcgeecdNaSu-cHOLVGPfc5KsglDlZ54Cdy0,178
+fastapi_code_generator/visitors/imports.py,sha256=gFI2F11Nc50nmXd-Z1levnRv8AgUUD2n9S2IITWjqYU,1232
+fastapi_code_generator/visitors/operations.py,sha256=ueqTDSL4ikXucDWukkys9k_wI2elyx-tYhQzs7el9xc,449
+fastapi_code_generator-0.4.2.dist-info/LICENSE,sha256=C-b8aEu2fDN5YT24yaLhHLdTAHlv3PIRbuoi5K2jP5k,1068
+fastapi_code_generator-0.4.2.dist-info/METADATA,sha256=0F0y3h6LHDdyEBSl7vKAp8ewyQfw36hChUPLiDnUrnk,22666
+fastapi_code_generator-0.4.2.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+fastapi_code_generator-0.4.2.dist-info/entry_points.txt,sha256=oX-J1SgDkFCZnRS_L2gURcyaJ7wcS3aCsVb7xJnGMzk,71
+fastapi_code_generator-0.4.2.dist-info/RECORD,,
