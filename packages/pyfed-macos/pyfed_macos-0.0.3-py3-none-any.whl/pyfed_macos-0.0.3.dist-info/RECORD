@@ -1,0 +1,8 @@
+src/__init__.py,sha256=9H8l0gvBXyZtfLVKPcbrTB8bEpNwNuPAJ8rDnmahQBA,68
+src/global_var.py,sha256=PWuD5WJgbda8b4z4ukq2MLtVbcEQv0W7AoonKhcY-Gw,354
+src/ml_socket.py,sha256=VQ4tcUnGTVbiV9tqWIubvQwjshPJmew3cYEdA89qoAk,1539
+src/pyfed.py,sha256=xn_mh5RA6hHWNaE70hS4-mPum_lGHKUVqnNB4XjR5bU,4186
+pyfed_macos-0.0.3.dist-info/METADATA,sha256=e3BXjH_4ufAUimqhGqIRu4F0PUVPU17C-f2_N_-K948,6528
+pyfed_macos-0.0.3.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+pyfed_macos-0.0.3.dist-info/licenses/LICENSE,sha256=xPaw1s6TlMU1eq_XF_36-SQpMuy_-7_r74Stc9DaMi4,1077
+pyfed_macos-0.0.3.dist-info/RECORD,,
