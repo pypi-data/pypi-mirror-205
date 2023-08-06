@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=vahatraker
+Comment=live MIDI sequencer for JACK
+GenericName=MIDI sequencer
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Categories=Music;Audio;Midi;X-Jack;AudioVideo;
+Keywords=audio;sound;jackd;sequencer;midi;tracker
+Terminal=false
+StartupNotify=false
+Icon=vht
+Exec=vht
