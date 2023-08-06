@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "blankimage"
+version = "0.1.1"
+description = "Python Command Line Tool to Generate Blank Images"
+authors = ["Sumanth <sumanthreddystar@gmail.com>"]
+maintainers  = ["Sumanth <sumanthreddystar@gmail.com>"]
+readme = "README.md"
+
+homepage = "https://pypi.org/project/blankimage/"
+repository = "https://github.com/insumanth/blankimage"
+documentation = "https://insumanth.github.io/blankimage"
+
+keywords = ["packaging", "poetry"]
+
+classifiers = [
+    # "TOPIC :: SCIENTIFIC/ENGINEERING :: IMAGE PROCESSING",
+    # "INTENDED AUDIENCE :: DEVELOPERS",
+    # "NATURAL LANGUAGE :: ENGLISH",
+    # "DEVELOPMENT STATUS :: 3 - ALPHA",
+    # "PROGRAMMING LANGUAGE :: PYTHON",
+    "Operating System :: MacOS",
+    "Operating System :: Microsoft",
+    "Operating System :: Unix",
+    "Operating System :: POSIX"
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.6"
+ril = "^0.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.scripts]
+my_package_cli = 'blankimage.parse_cli_options:main'
+

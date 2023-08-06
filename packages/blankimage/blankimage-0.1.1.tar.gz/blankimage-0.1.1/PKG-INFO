@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: blankimage
+Version: 0.1.1
+Summary: Python Command Line Tool to Generate Blank Images
+Home-page: https://pypi.org/project/blankimage/
+Keywords: packaging,poetry
+Author: Sumanth
+Author-email: sumanthreddystar@gmail.com
+Maintainer: Sumanth
+Maintainer-email: sumanthreddystar@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: ril (>=0.4.0,<0.5.0)
+Project-URL: Documentation, https://insumanth.github.io/blankimage
+Project-URL: Repository, https://github.com/insumanth/blankimage
+Description-Content-Type: text/markdown
+
+# blankimage
+Blank Image Generator CLI
+Version : 0.1.1
+
