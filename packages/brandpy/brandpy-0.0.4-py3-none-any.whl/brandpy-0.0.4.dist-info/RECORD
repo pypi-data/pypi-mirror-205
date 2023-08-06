@@ -1,0 +1,9 @@
+brandpy/__about__.py,sha256=K6Kzj24tlwYqrDv18py9thhw7B3kHlhjX5uyfG1uzv0,127
+brandpy/__init__.py,sha256=VlD2XlPOv8LDoDdrnnyeqcOOxKFmQQZyebIxJGFKw20,228
+brandpy/bw_api_caller.py,sha256=byQSF8KB5SZt8TW9mVziEFm2PCt1JWzLQ9xr3P1Kzdg,2398
+brandpy/bw_api_helper.py,sha256=vIQjEaJPNjC7tbpfwJCSiw3Sq6d5RBR2Hd1OYT5G-Eo,10309
+brandpy/bw_auth_config.py,sha256=w3_aRyvJTSYiiAIqMYlKQTrOB5Zwf5Is5qsQs1YZZEM,4520
+brandpy-0.0.4.dist-info/METADATA,sha256=SeJaRxIN2IPJmWUbnJu5wsiv3Ey5Ae-yaBdCgZofCPw,1475
+brandpy-0.0.4.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+brandpy-0.0.4.dist-info/licenses/LICENSE.txt,sha256=NGjnkxRVU7egQ69qyFaVVEyybCIF3rHFVVUXAR0sE8E,1114
+brandpy-0.0.4.dist-info/RECORD,,
