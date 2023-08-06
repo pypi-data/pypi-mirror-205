@@ -1,0 +1,20 @@
+---
+format_version: "0.111"
+revision: 
+    date: "2022-12-09"
+    authors: 
+        - {$ref: "persons/Romuald_Daniel.person.yaml#person"}
+sensor_base:
+    notes: 
+        - "HTI-96-Min Hydrophone Series PL2 Scorpion Oceanics Hydrophone with pre-amp (HTI-96MIN-PA-0007)Maximum Operating Depth:500 meters with no signal degradation Hydrophone implodes at 1,000 meters (http://www.hightechincusa.com/products/hydrophones/hti96minexportable.html)"
+    equipment:
+        model: "HTI-96-Min"
+        type: "Hydrophone"
+        description: "HiTech HTI-96-Min hydrophone, 2Hz- 30kHz"
+        manufacturer: "HiTech, inc"
+        vendor: "various"
+    seed_codes:
+        band_base: "B"
+        instrument: "D"
+    stages:
+        - base: {$ref: "sensors/stages/HiTech_HTI-96-Min_voltage-mode_theoretical.stage_base.yaml#stage_base"}
