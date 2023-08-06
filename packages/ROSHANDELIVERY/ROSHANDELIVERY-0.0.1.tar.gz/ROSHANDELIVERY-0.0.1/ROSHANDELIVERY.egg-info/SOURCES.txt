@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+DELIVERY_FEE_CALCULATOR/__init__.py
+ROSHANDELIVERY.egg-info/PKG-INFO
+ROSHANDELIVERY.egg-info/SOURCES.txt
+ROSHANDELIVERY.egg-info/dependency_links.txt
+ROSHANDELIVERY.egg-info/top_level.txt

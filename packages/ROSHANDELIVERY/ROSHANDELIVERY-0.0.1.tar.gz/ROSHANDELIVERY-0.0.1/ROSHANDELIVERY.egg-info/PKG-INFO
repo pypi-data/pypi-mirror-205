@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ROSHANDELIVERY
+Version: 0.0.1
+Summary: DELIVERY FEE CALCULATOR
+Home-page: 
+Author: Roshan Singh
+Author-email: roshsingh07@gmail.com
+License: MIT
+Keywords: calculator
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENCE.txt
+
+THIS IS THE DEILVERY CALCULATOR FOR RESTURANT MANAGEMENT PROJECT WHERE UPN THE CUSTOMER DEILVERY ADDRESS WE WILL BE CHARGING THE DEILVERY FEE.
+
+CHANGE LOGÂ 
+==============
+0.0.1 (25.04.2023)
+------------------
+-FIRST RELEASE
