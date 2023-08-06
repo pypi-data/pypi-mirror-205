@@ -1,0 +1,13 @@
+plone.transformchain-3.0.0-py3.11-nspkg.pth,sha256=A-p3CbMuHePaPWt53bhXUnHzJhSeZf4O2eZeA-vKGms,534
+plone/transformchain/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+plone/transformchain/configure.zcml,sha256=EO2PSxIegAHMMVGei_b8EtjC4X8eSFffC14X3sQJ7KY,450
+plone/transformchain/events.py,sha256=UagbH7X_vbP86-t483JJa1WV_WCb0qsRZj6cIqePDhc,995
+plone/transformchain/interfaces.py,sha256=I7W5A5LEqgCZpxmIaXvAZ4rTTsvX1BGxoXm6RjNfGuM,3488
+plone/transformchain/tests.py,sha256=ew1JKQO4JvQngH86ipdVZsgY4crOZhHljnaJsmv3acE,20058
+plone/transformchain/transformer.py,sha256=N5963fpEDEePedZUXsN5lvV2C2fHuQbYyFbE8SF4egI,2065
+plone/transformchain/zpublisher.py,sha256=KcDC5dMQUAk53ud4mG7NFWsKaLW6M1kWgBdJRgAJSKQ,3173
+plone.transformchain-3.0.0.dist-info/METADATA,sha256=124RffKul-8pwtwSmDISZfAdHKVL1m3pRChjcBx6ZJI,6663
+plone.transformchain-3.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+plone.transformchain-3.0.0.dist-info/namespace_packages.txt,sha256=56bqrkG-vurYD0l15D71FPiDL7L3QqkfRWkYkdyS7WM,6
+plone.transformchain-3.0.0.dist-info/top_level.txt,sha256=56bqrkG-vurYD0l15D71FPiDL7L3QqkfRWkYkdyS7WM,6
+plone.transformchain-3.0.0.dist-info/RECORD,,
