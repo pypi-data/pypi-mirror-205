@@ -1,0 +1,2 @@
+pyfuse3-stubs
+pyfuse3_asyncio-stubs
