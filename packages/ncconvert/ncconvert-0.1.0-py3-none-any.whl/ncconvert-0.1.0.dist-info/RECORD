@@ -1,0 +1,11 @@
+ncconvert/__init__.py,sha256=ZygAIkX6Nbjag1czWdQa-yP-GM1mBE_9ss21Xh__JFc,34
+ncconvert/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ncconvert/_version.py,sha256=iyxbHkgS1yJGtIeySh-gmqzwOuLbVveAe9CoQYWfZ0c,160
+ncconvert/csv.py,sha256=PHs__Lrna_yqOGFuQXHksQy5mrj2Up5nayIFz9x9HFc,3157
+ncconvert/parquet.py,sha256=4Hldmb3290lcg4Fa0HIpyrGUQL8sDb44yavFE67xTIw,3241
+ncconvert/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ncconvert/utils.py,sha256=qEYaLV719iGvJeibZyTZSAE5lEsy2OfocqqSyrrt1D8,1863
+ncconvert-0.1.0.dist-info/METADATA,sha256=ic68Q3n_cpfH94Pd3BsJQfj1QFNI4ul960ApxTZ4-Is,1999
+ncconvert-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+ncconvert-0.1.0.dist-info/top_level.txt,sha256=Mb07s7KYrzbVG7RaNsriA9V0kAJml1WjWnbWO8r9Tjs,10
+ncconvert-0.1.0.dist-info/RECORD,,
