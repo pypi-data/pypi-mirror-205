@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: easyfit
+Version: 0.0.21
+Summary: Fit, Predict and Score many machine learning models with few lines of code and a single object
+Home-page: UNKNOWN
+Author: Hisham Ali
+Author-email: hishamali98@gmail.com
+License: MIT License
+Keywords: EasyFit,easyfit,ezfit,EZfit
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: tqdm
+Requires-Dist: xgboost
+
+# EasyFit
+
+Fit, Predict and Score many machine learning models with few lines of code and a single object.
+
+[Documentation](https://easyfit.readthedocs.io/)
+
+# Installation
+
+1. Create and activate python virtual environment
+
+    ```bash
+    python3 -m venv env
+    source env/bin/activate
+    ```
+    
+2. Install EasyFit
+    
+    A. From pip
+
+    ```bash
+    pip install easyfit
+    ```
+    
+    B. From source
+
+    ```bash
+    git clone https://github.com/HishamAli217/EasyFit.git
+    cd EasyFit
+    pip install -r requirements.txt
+    pip install -e .
+    ```
+    
+
+
