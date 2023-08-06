@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+fabisschomagut/LICENSE
+fabisschomagut/README.md
+fabisschomagut/__init__.py
+fabisschomagut/requirements.txt
+fabisschomagut/thirdparty.json
+fabisschomagut.egg-info/PKG-INFO
+fabisschomagut.egg-info/SOURCES.txt
+fabisschomagut.egg-info/dependency_links.txt
+fabisschomagut.egg-info/top_level.txt
