@@ -1,0 +1,7 @@
+telethon
+typing_extensions
+greenback
+aiofiles
+pyyaml
+tqdm
+pyfuse3
