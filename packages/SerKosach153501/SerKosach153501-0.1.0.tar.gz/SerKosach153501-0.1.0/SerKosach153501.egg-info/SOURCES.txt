@@ -1,0 +1,13 @@
+README.md
+setup.py
+SerKosach153501/__init__.py
+SerKosach153501/constans.py
+SerKosach153501/fabric_ser.py
+SerKosach153501/json_ser.py
+SerKosach153501/sezializer.py
+SerKosach153501/xml_ser.py
+SerKosach153501.egg-info/PKG-INFO
+SerKosach153501.egg-info/SOURCES.txt
+SerKosach153501.egg-info/dependency_links.txt
+SerKosach153501.egg-info/requires.txt
+SerKosach153501.egg-info/top_level.txt
