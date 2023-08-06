@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+gestioncarpetas/__init__.py
+gestioncarpetas/folders.py
+gestioncarpetas.egg-info/PKG-INFO
+gestioncarpetas.egg-info/SOURCES.txt
+gestioncarpetas.egg-info/dependency_links.txt
+gestioncarpetas.egg-info/top_level.txt
