@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: geoquizzy
+Version: 0.0.1
+Summary: a fun geography quiz game
+Home-page: https://github.com/bassneel/geoquizzy
+Author: Bass Neel
+Author-email: maps.bassneel@gmail.com
+License: MIT license
+Keywords: geoquizzy
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# geoquizzy
+
+
+[![image](https://img.shields.io/pypi/v/geoquizzy.svg)](https://pypi.python.org/pypi/geoquizzy)
+[![image](https://img.shields.io/conda/vn/conda-forge/geoquizzy.svg)](https://anaconda.org/conda-forge/geoquizzy)
+
+
+**a fun geography quiz game**
+
+
+-   Free software: MIT license
+-   Documentation: https://bassneel.github.io/geoquizzy
+    
+
+## Features
+
+-   TODO

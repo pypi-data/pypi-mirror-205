@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+geoquizzy/__init__.py
+geoquizzy/common.py
+geoquizzy/geoquizzy.py
+geoquizzy.egg-info/PKG-INFO
+geoquizzy.egg-info/SOURCES.txt
+geoquizzy.egg-info/dependency_links.txt
+geoquizzy.egg-info/not-zip-safe
+geoquizzy.egg-info/top_level.txt
