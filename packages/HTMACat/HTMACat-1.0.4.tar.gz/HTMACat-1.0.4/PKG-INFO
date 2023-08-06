@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: HTMACat
+Version: 1.0.4
+Summary: A high-throughput modeling, calculation, and analysis framework for catalytic reaction processes.
+Home-page: https://stanfordbshan.github.io/HTMACat-kit/
+Author: Jiaqiang Yang, Feifeng Wu, Bin Shan
+Author-email: bshan@mail.hust.edu.cn
+License: GPLv3
+Description: This kit it provides key tools for high-throughput design and screening of catalytic materials. The software mainly includes functional modules such as surface structure analysis and information extraction, catalytic surface and various adsorption model construction, automatic construction of primitive reaction processes, automatic extraction of computational data and automatic extraction and construction of descriptors.
+Keywords: high-throughput,python,catalysis,modeling
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6, <3.10
