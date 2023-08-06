@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: feiticeiro-tec
+Version: 1.0.1
+Summary: Extenção flask para aumento de agilidade no processo de criação de projeto.
+Home-page: https://github.com/feiticeiro-tec/feiticeiro-tec
+Author: Silvio Henrique Cruz Da Silva
+Author-email: silviohenriquecruzdasilva@gmail.com
+License: BSD3
+Keywords: Pacote
+Description-Content-Type: text/markdown
+
+### Hi there 👋
+
+<!--
+**feiticeiro-tec/feiticeiro-tec** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
