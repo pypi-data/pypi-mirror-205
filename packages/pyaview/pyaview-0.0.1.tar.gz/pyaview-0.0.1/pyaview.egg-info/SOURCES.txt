@@ -1,0 +1,8 @@
+README.md
+setup.py
+bin/pyaview
+pyaview/__init__.py
+pyaview.egg-info/PKG-INFO
+pyaview.egg-info/SOURCES.txt
+pyaview.egg-info/dependency_links.txt
+pyaview.egg-info/top_level.txt
