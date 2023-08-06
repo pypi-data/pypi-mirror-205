@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: skeetpy
+Version: 0.1.1
+Summary: Skeetpy is a Python library for interacting with the AT protocol.
+Author-email: Yves Junqueira <yves.junqueira@gmail.com>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Project-URL: Home, https://github.com/nictuku/skeetpy
+
+# skeetpy
+Implementation of the AT protocol in Python
+
+## Authentication
+
+```
+export PDS=bsky.social
+export IDENTIFIER=yves.pt
+export PASSWORD=<app password>
+```
+
+## Run
+
+python3 skeetpy.py
+
