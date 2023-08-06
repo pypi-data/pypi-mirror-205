@@ -1,0 +1,140 @@
+{
+  "admin": {
+    "disabled": true
+  },
+  "logging": {
+    "logs": {
+      "default": {
+        "level": "DEBUG"
+      }
+    }
+  },
+  "apps": {
+    "http": {
+      "servers": {
+        "not_safe": {
+          "listen": [":80"],
+          "routes": [{
+            "match": [{
+              "path": ["/vmess_ws"]
+            }],
+            "handle": [{
+              "handler": "reverse_proxy",
+              "transport": {
+                "protocol": "http",
+                "versions": ["2"]
+              },
+              "upstreams": [{
+                "dial": "127.0.0.1:10111"
+              }]
+            }]
+          }, {
+            "match": [{
+              "path": ["/vmess_ws_ipv6"]
+            }],
+            "handle": [{
+              "handler": "reverse_proxy",
+              "transport": {
+                "protocol": "http",
+                "versions": ["2"]
+              },
+              "upstreams": [{
+                "dial": "127.0.0.1:10112"
+              }]
+            }]
+          }, {
+            "match": [{
+              "path": ["/vmess_grpc/*"]
+            }],
+            "handle": [{
+              "handler": "reverse_proxy",
+              "transport": {
+                "protocol": "http",
+                "versions": ["h2c", "2", "1.1"]
+              },
+              "upstreams": [{
+                "dial": "127.0.0.1:10121"
+              }]
+            }]
+          }, {
+            "match": [{
+              "path": ["/vmess_grpc_ipv6/*"]
+            }],
+            "handle": [{
+              "handler": "reverse_proxy",
+              "transport": {
+                "protocol": "http",
+                "versions": ["h2c", "2", "1.1"]
+              },
+              "upstreams": [{
+                "dial": "127.0.0.1:10122"
+              }]
+            }]
+          }, {
+            "match": [{
+              "path": ["/trojan_ws"]
+            }],
+            "handle": [{
+              "handler": "reverse_proxy",
+              "transport": {
+                "protocol": "http",
+                "versions": ["2"]
+              },
+              "upstreams": [{
+                "dial": "127.0.0.1:10211"
+              }]
+            }]
+          }, {
+            "match": [{
+              "path": ["/trojan_ws_ipv6"]
+            }],
+            "handle": [{
+              "handler": "reverse_proxy",
+              "transport": {
+                "protocol": "http",
+                "versions": ["2"]
+              },
+              "upstreams": [{
+                "dial": "127.0.0.1:10212"
+              }]
+            }]
+          }, {
+            "match": [{
+              "path": ["/trojan_grpc/*"]
+            }],
+            "handle": [{
+              "handler": "reverse_proxy",
+              "transport": {
+                "protocol": "http",
+                "versions": ["h2c", "2", "1.1"]
+              },
+              "upstreams": [{
+                "dial": "127.0.0.1:10221"
+              }]
+            }]
+          }, {
+            "match": [{
+              "path": ["/trojan_grpc_ipv6/*"]
+            }],
+            "handle": [{
+              "handler": "reverse_proxy",
+              "transport": {
+                "protocol": "http",
+                "versions": ["h2c", "2", "1.1"]
+              },
+              "upstreams": [{
+                "dial": "127.0.0.1:10222"
+              }]
+            }]
+          }, {
+            "handle": [{
+              "handler": "static_response",
+              "body": "fuck the world."
+            }]
+          }],
+          "protocols": ["h1", "h2", "h2c"]
+        }
+      }
+    }
+  }
+}
