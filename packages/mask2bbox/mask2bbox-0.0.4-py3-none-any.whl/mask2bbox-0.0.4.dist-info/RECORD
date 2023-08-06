@@ -1,0 +1,8 @@
+mask2bbox/__init__.py,sha256=b_jg37aw2L9NmsrqBdIo3iuF29DJOhdZdxkF7ZeVmtE,27
+mask2bbox/_bboxes.py,sha256=ewZj0aENa3VlAf3GxR3dYFILaLTrovYjtviiRMbmFSU,3847
+mask2bbox/mask2bbox.py,sha256=_FsYca3e1CeW5c417k8q_RMW2zLx7DJHntUa5kYXD8A,2114
+mask2bbox-0.0.4.dist-info/LICENSE.txt,sha256=szPsNB1d9NiWGcxpRqaX9ZY7FEd_8JoV7dFwzGhE-dw,35149
+mask2bbox-0.0.4.dist-info/METADATA,sha256=LYCz8o780yVpKP31mFhbiC8UVqdJy7oUjTky6GAmqxE,2338
+mask2bbox-0.0.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+mask2bbox-0.0.4.dist-info/top_level.txt,sha256=WJ04_7r1a-BQskGt-swOJNAmVXcrR3ALuo0Yjk3NVzY,10
+mask2bbox-0.0.4.dist-info/RECORD,,
