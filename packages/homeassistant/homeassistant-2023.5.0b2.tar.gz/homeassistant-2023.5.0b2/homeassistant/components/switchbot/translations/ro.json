@@ -1,0 +1,21 @@
+{
+    "config": {
+        "abort": {
+            "already_configured_device": "Dispozitivul a fost configurat deja",
+            "cannot_connect": "A e\u0219uat conectarea",
+            "no_devices_found": "Nu s-au descoperit dispozitive in re\u021bea",
+            "switchbot_unsupported_type": "Tipul Switchbot neacceptat.",
+            "unknown": "Eroare nea\u0219teptat\u0103"
+        },
+        "flow_title": "{name} ({address})"
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "retry_count": "Numarul de re\u00eencerc\u0103ri"
+                }
+            }
+        }
+    }
+}

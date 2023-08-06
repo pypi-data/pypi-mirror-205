@@ -1,0 +1,35 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Contul a fost configurat deja",
+            "kamereon_no_account": "Nu s-a g\u0103sit contul Kamereon",
+            "reauth_successful": "Re-autentificarea s-a realizat cu succes"
+        },
+        "error": {
+            "invalid_credentials": "Autentificare nevalid\u0103"
+        },
+        "step": {
+            "kamereon": {
+                "data": {
+                    "kamereon_account_id": "ID cont Kamereon"
+                },
+                "title": "Selecteaz\u0103 ID-ul contului Kamereon"
+            },
+            "reauth_confirm": {
+                "data": {
+                    "password": "Parola"
+                },
+                "description": "Te rug\u0103m s\u0103 actualizezi parola pentru {username}",
+                "title": "Re-autentificare integrare"
+            },
+            "user": {
+                "data": {
+                    "locale": "Set\u0103ri regionale",
+                    "password": "Parola",
+                    "username": "E-mail"
+                },
+                "title": "Date de autentificare Renault"
+            }
+        }
+    }
+}

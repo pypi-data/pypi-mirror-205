@@ -1,0 +1,29 @@
+{
+    "config": {
+        "error": {
+            "no_devices_found": "Er werden geen apparaten gevonden. Zorg ervoor dat er minimaal een Anova-apparaat online is.",
+            "unknown": "Onverwachte fout"
+        },
+        "step": {
+            "confirm": {
+                "description": "Wil je beginnen met instellen?"
+            },
+            "user": {
+                "data": {
+                    "password": "Wachtwoord",
+                    "username": "E-mail"
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "mode": {
+                "name": "Modus"
+            },
+            "water_temperature": {
+                "name": "Watertemperatuur"
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "config": {
+        "error": {
+            "invalid_auth": "Autentificare nevalid\u0103"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "password": "Parola",
+                    "username": "Utilizator"
+                },
+                "description": "Te rug\u0103m s\u0103 introduci datele de autentificare pe care le folose\u0219ti pentru a te conecta la mytotalconnectcomfort.com."
+            }
+        }
+    }
+}

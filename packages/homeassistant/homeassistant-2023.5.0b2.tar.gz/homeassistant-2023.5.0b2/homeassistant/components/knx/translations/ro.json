@@ -1,0 +1,34 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Serviciul este deja configurat",
+            "single_instance_allowed": "Deja configurat. Doar o singur\u0103 configurare este posibil\u0103."
+        },
+        "error": {
+            "cannot_connect": "A e\u0219uat conectarea"
+        },
+        "step": {
+            "manual_tunnel": {
+                "data": {
+                    "host": "Gazd\u0103 (host)",
+                    "port": "Port"
+                },
+                "description": "Te rug\u0103m s\u0103 introduci detaliile de conectare ale dispozitivului de tunelare."
+            },
+            "routing": {
+                "data": {
+                    "individual_address": "Adres\u0103 individual\u0103",
+                    "multicast_group": "Grup multicast",
+                    "multicast_port": "Port multicast"
+                },
+                "description": "Te rug\u0103m s\u0103 configurezi op\u021biunile de rutare"
+            },
+            "tunnel": {
+                "data": {
+                    "gateway": "Conexiune tunel KNX"
+                },
+                "description": "Te rug\u0103m s\u0103 selectezi un gateway din list\u0103."
+            }
+        }
+    }
+}
