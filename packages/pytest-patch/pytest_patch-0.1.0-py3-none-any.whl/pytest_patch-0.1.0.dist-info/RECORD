@@ -1,0 +1,8 @@
+pytest_patch.py,sha256=4kSCKpYaud9WDcPN18xyYQx7ZQpZVuGRcmsMzkflA4Y,3013
+pytest_patch_testmodule.py,sha256=fBzA6ZvkcdvvV2klmNBTilTEbj9HQuDgBeIrHUQHh8c,158
+pytest_patch-0.1.0.dist-info/LICENSE,sha256=ft6cP_Fi1sTEOh9zOl3fK5y2D8iX1DBRYMU2Bd6eGeI,1084
+pytest_patch-0.1.0.dist-info/METADATA,sha256=o9Nj0WrGFVAF7kfoagAGJTER6I1xPP9zMp6a8-rNwUo,3085
+pytest_patch-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+pytest_patch-0.1.0.dist-info/entry_points.txt,sha256=yyWOmDYqrEvT0t4ZMd1fNywNzDWpYxkcx-C9uuern5Y,32
+pytest_patch-0.1.0.dist-info/top_level.txt,sha256=i5ubXEkeKaapnTSE_L4kxYY8neJY0CRUItB_nAozjes,37
+pytest_patch-0.1.0.dist-info/RECORD,,
