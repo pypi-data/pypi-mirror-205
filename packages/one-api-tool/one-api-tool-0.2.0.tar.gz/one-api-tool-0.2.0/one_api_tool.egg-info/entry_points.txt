@@ -1,0 +1,4 @@
+[console_scripts]
+one-api = oneapi.commands.one_api_requst:main
+one-eval-file = oneapi.commands.one_api_eval_file:main
+one-eval-line = oneapi.commands.one_api_eval_one:main
