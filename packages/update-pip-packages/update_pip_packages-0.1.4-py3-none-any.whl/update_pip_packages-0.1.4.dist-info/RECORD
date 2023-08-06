@@ -1,0 +1,9 @@
+update_project/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+update_project/main.py,sha256=fymLsEcxXMP4ak593VuzE3ZIPDYa4dZnHTWF1y3V7PU,5867
+update_project/update_app.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+update_project/update_pip.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+update_project/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+update_pip_packages-0.1.4.dist-info/METADATA,sha256=kuXKEDRzer5_1AU83UPOJ14DF96TJf2YtnGDuacD-do,3223
+update_pip_packages-0.1.4.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+update_pip_packages-0.1.4.dist-info/entry_points.txt,sha256=20RdXmCGEv4YaBXjmo6PFT21-x_0o04OIGNrzK6GQI8,64
+update_pip_packages-0.1.4.dist-info/RECORD,,

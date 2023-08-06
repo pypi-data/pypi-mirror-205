@@ -1,0 +1,3 @@
+[console_scripts]
+update-pip-packages=update_project.main:main
+
