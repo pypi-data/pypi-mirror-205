@@ -1,0 +1,50 @@
+Metadata-Version: 2.0
+Name: bcipy
+Version: 2.0.0rc3
+Summary: Python Software for Brain-Computer Interface.
+Home-page: https://github.com/CAMBI-tech/BciPy
+Author: CAMBI
+Author-email: cambi_support@googlegroups.com
+License: Hippocratic License 2.1
+Platform: UNKNOWN
+Classifier: License :: Other/Proprietary License
+Classifier: Topic :: Scientific/Engineering :: Human Machine Interfaces
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >3.7,<3.10
+Description-Content-Type: text/markdown
+Requires-Dist: WxPython (==4.1.1)
+Requires-Dist: attrdict3 (==2.0.2)
+Requires-Dist: transformers (==4.26.0)
+Requires-Dist: torch (==1.10.1)
+Requires-Dist: construct (==2.8.14)
+Requires-Dist: mne (==1.0.2)
+Requires-Dist: pyo (==1.0.4)
+Requires-Dist: pygame (==2.1.2)
+Requires-Dist: pyglet (<=1.5.27,>=1.4)
+Requires-Dist: PsychoPy (==2023.1.0)
+Requires-Dist: openpyxl (==2.6.3)
+Requires-Dist: numpy (==1.20.3)
+Requires-Dist: sounddevice (==0.4.1)
+Requires-Dist: SoundFile (==0.12.1)
+Requires-Dist: scipy (==1.10.1)
+Requires-Dist: scikit-learn (==1.2.2)
+Requires-Dist: seaborn (==0.9.0)
+Requires-Dist: matplotlib (==3.4.2)
+Requires-Dist: pylsl (==1.14.0)
+Requires-Dist: pandas (==1.5.3)
+Requires-Dist: psutil (==5.7.2)
+Requires-Dist: Pillow (==9.0.1)
+Requires-Dist: py-cpuinfo (==7.0.0)
+Requires-Dist: pyedflib (==0.1.30)
+Requires-Dist: PyQt5 (==5.15.1)
+Requires-Dist: pywavelets (==1.4.1)
+Requires-Dist: tqdm (==4.62.2)
+
+Python Brain-Computer Interface Software
+
+
