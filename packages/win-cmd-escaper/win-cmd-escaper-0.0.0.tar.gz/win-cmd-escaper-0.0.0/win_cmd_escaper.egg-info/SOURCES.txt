@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+win_cmd_escaper.py
+win_cmd_escaper.egg-info/PKG-INFO
+win_cmd_escaper.egg-info/SOURCES.txt
+win_cmd_escaper.egg-info/dependency_links.txt
+win_cmd_escaper.egg-info/top_level.txt
