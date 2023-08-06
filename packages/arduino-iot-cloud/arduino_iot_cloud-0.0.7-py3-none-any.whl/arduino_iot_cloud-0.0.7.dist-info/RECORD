@@ -1,0 +1,10 @@
+arduino_iot_cloud/__init__.py,sha256=ZAEE16S0QnNBze22wWz6UexTxUYpXiy_micoZsD5ys4,3606
+arduino_iot_cloud/_version.py,sha256=1LmWOIRIipDRwt63Rd4fYP3hKkUXXOCBB_3JUTMCoEs,160
+arduino_iot_cloud/ucloud.py,sha256=wGtaRTzUP7SHyFxMS2cQw8AqOM2D6Z4H3-l2FAVMGRI,16018
+arduino_iot_cloud/umqtt.py,sha256=IKrKfXfO4pIQa7nYBufDCWi5IaooVgbMWdUwF0PVlko,8055
+arduino_iot_cloud/ussl.py,sha256=772so2A-ANrmqsnEJO2Q3dsT_cQR3buCYCvkh6LjAxM,2045
+arduino_iot_cloud-0.0.7.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+arduino_iot_cloud-0.0.7.dist-info/METADATA,sha256=k_nXlvmtFMGkv910h33sfrEr6UGPkIoCfvdC1B7qJ0E,6327
+arduino_iot_cloud-0.0.7.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+arduino_iot_cloud-0.0.7.dist-info/top_level.txt,sha256=09se_3o1iheZQTSb5q9bWrJ9zWVYfYNQXqjTz40KvFA,18
+arduino_iot_cloud-0.0.7.dist-info/RECORD,,
