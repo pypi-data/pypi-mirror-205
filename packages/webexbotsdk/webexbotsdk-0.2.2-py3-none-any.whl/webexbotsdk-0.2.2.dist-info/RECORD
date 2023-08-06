@@ -1,0 +1,11 @@
+webexbotsdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+webexbotsdk/tinydb.py,sha256=QScO9rivffGbzehmiVWGIky0RBzWGDP7jANrVl6pYvw,162
+webexbotsdk/teams/__init__.py,sha256=u_ZPkowNVXgOMbdcuzV-oY8sjDNt28TeZ_AtrfgMAtw,27
+webexbotsdk/teams/bot.py,sha256=J5wULOyLOHc4xzZ7rBTYtsQAD4tABNV5q-Jtps2iP2s,5804
+webexbotsdk/teams/hook.py,sha256=GadIhx-TgfZW4bsdUtvKCbBsoWxIKWA8-LK_yTOEXtY,2564
+webexbotsdk/teams/util.py,sha256=7tYahmcmZZ3PgYm5v7Tt3WfHBKEADnhZd4qa_7-f114,465
+webexbotsdk-0.2.2.dist-info/LICENSE,sha256=w0tYoTcr9QXmtKcJPuK7vML1jiu1sHdS6nZ8nsRCZZ4,1100
+webexbotsdk-0.2.2.dist-info/METADATA,sha256=xoi-DyQrXQWDqakoHA5llmTpbYQb0qrowr6N4GV2NHo,7710
+webexbotsdk-0.2.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+webexbotsdk-0.2.2.dist-info/top_level.txt,sha256=6UIRgMu69vc73ILogc7s76XFiwge05txLs4DB2eA8-o,12
+webexbotsdk-0.2.2.dist-info/RECORD,,
