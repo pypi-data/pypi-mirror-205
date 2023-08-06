@@ -1,0 +1,30 @@
+[
+  {
+    "code": "cheat gcm",
+    "admin_gamertag": "TEST_ADMIN_GAMERTAG",
+    "player_gamertag": "TEST_PLAYER_GAMERTAG",
+    "service_id": "TEST_SERVICE_ID",
+    "executed": true
+  },
+  {
+    "code": "cheat tp blue",
+    "admin_gamertag": "TEST_ADMIN_GAMERTAG",
+    "player_gamertag": "TEST_PLAYER_GAMERTAG",
+    "service_id": "TEST_SERVICE_ID",
+    "executed": true
+  },
+  {
+    "code": "cheat tp red",
+    "admin_gamertag": "TEST_ADMIN_GAMERTAG",
+    "player_gamertag": "TEST_PLAYER_GAMERTAG",
+    "service_id": "TEST_SERVICE_ID",
+    "executed": true
+  },
+  {
+    "code": "cheat tp green",
+    "admin_gamertag": "TEST_ADMIN_GAMERTAG",
+    "player_gamertag": "TEST_PLAYER_GAMERTAG",
+    "service_id": "TEST_SERVICE_ID",
+    "executed": true
+  }
+]
