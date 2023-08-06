@@ -1,0 +1,3 @@
+[console_scripts]
+us-update-config=unscrewed.update_config:cli
+
