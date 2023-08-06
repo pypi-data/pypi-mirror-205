@@ -1,0 +1,8 @@
+pandas
+pywencai
+tushare
+backtrader
+joblib
+DBUtils
+clickhouse_driver
+ta_lib
