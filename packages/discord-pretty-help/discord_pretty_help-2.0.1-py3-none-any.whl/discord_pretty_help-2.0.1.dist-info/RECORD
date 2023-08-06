@@ -1,0 +1,10 @@
+pretty_help/__init__.py,sha256=12nmA_OtFnFdt16d96veT0bHHekZuE_EmPDgRBKyg-0,105
+pretty_help/abc_menu.py,sha256=_s1G9J-srZHkyLMKquhd_gfFO3mrCE5dqXS_5heSzKs,500
+pretty_help/app_menu.py,sha256=FHPoaZYhNmUkEL8w32OInzWFmWCJXRZ0siT2AuPOvDY,4115
+pretty_help/emoji_menu.py,sha256=RYeYuyp8RPRiYWajP12RPS82-EkWW4Zyk2uMEnOH2u8,5332
+pretty_help/pretty_help.py,sha256=aw3NR2b9ArpHiDjIsR4CzwgN76Oup9uUvtBOIgPcW1s,22368
+discord_pretty_help-2.0.1.dist-info/entry_points.txt,sha256=9_ynTDMEw9cluhwcI4O0MC1G6J98-u6xJ8Fac2o4BWo,89
+discord_pretty_help-2.0.1.dist-info/LICENSE,sha256=qWWpBBsJKy_Lfq0tbDHccm80SnqVS8AfijSse4OYe0s,1090
+discord_pretty_help-2.0.1.dist-info/METADATA,sha256=DOw-DbDfbxczc6At0ebb5u3L2P36w_0ZaHRhpMBLOuA,4460
+discord_pretty_help-2.0.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+discord_pretty_help-2.0.1.dist-info/RECORD,,
