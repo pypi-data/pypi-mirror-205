@@ -1,0 +1,7 @@
+LICENSE
+setup.py
+bubblemsg/__init__.py
+bubblemsg.egg-info/PKG-INFO
+bubblemsg.egg-info/SOURCES.txt
+bubblemsg.egg-info/dependency_links.txt
+bubblemsg.egg-info/top_level.txt
