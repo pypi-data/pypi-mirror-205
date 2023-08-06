@@ -1,0 +1,14 @@
+sesg/__init__.py,sha256=bF0E563LpuLy0q6utL2pxnG7QVnvur7DoJXah-WVGKA,118
+sesg/graph.py,sha256=MshzkQcdwmmxpe0PQkb6ZDRP9_dkHX9JS8vjOg5X7cw,8073
+sesg/metrics.py,sha256=YPCfpNAVoSD_F3bCJJMCVeNnlFhnbEsEtHau-S4m-xw,6837
+sesg/scopus/__init__.py,sha256=D9qtcYnLBTwsmNqXtwo-TiZZ2mMZAfIsrapjoGTdkrM,716
+sesg/scopus/api.py,sha256=zSBVl7dBaBsN23l5D4YBda_Ajk8IMyqzvjOSEkMTOWQ,10089
+sesg/scopus/client.py,sha256=6nH20hjJ6l9sv0oAF6OeTUqbSzA6wRieMHe68IqRpJ4,9523
+sesg/scopus/client_consumer.py,sha256=0cWUJ9SX9vH2NwXyggSDl-Gn7Iu5o5WVmLEnK495jhY,4890
+sesg/search_string.py,sha256=Xeut3Eu0I5k9mSt_HNYJzu7DcRsMH032cshLvFoIDnw,13867
+sesg/snowballing.py,sha256=hxvikJTM8UqSSN2GLnxBdROsdMsy4hHie81KCDx3faE,7959
+sesg/topic_extraction.py,sha256=3Ut8QsPJszNHjAVLFBbQ5QKR2Ro0VlvnCBr2e8V60DY,5964
+sesg-0.0.26.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+sesg-0.0.26.dist-info/METADATA,sha256=1_4Iuu3HPi9YFODCLjm41UOPBQgqTlTrFsOnvq6Zpo0,2401
+sesg-0.0.26.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+sesg-0.0.26.dist-info/RECORD,,
