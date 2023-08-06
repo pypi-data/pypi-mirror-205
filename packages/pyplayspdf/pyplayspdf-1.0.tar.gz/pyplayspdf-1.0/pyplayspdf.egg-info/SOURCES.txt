@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pyplayspdf/__init__.py
+pyplayspdf/pdf2image.py
+pyplayspdf/pdf2text.py
+pyplayspdf.egg-info/PKG-INFO
+pyplayspdf.egg-info/SOURCES.txt
+pyplayspdf.egg-info/dependency_links.txt
+pyplayspdf.egg-info/top_level.txt
