@@ -1,0 +1,4 @@
+flatten_everything
+numpy
+pandas
+rapidfuzz

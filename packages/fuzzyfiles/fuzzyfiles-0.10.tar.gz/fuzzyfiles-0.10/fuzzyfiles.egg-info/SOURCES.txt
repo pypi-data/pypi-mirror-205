@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+fuzzyfiles/LICENSE
+fuzzyfiles/README.md
+fuzzyfiles/__init__.py
+fuzzyfiles/requirements.txt
+fuzzyfiles/thirdparty.json
+fuzzyfiles.egg-info/PKG-INFO
+fuzzyfiles.egg-info/SOURCES.txt
+fuzzyfiles.egg-info/dependency_links.txt
+fuzzyfiles.egg-info/requires.txt
+fuzzyfiles.egg-info/top_level.txt
