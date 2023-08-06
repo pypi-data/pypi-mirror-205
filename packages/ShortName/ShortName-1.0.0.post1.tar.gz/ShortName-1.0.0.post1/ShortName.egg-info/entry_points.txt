@@ -1,0 +1,2 @@
+[console_scripts]
+ShortName = ShortName:main
