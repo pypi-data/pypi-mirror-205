@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "mpxl2csv"
+version = "0.2.0"
+description = "Uses Python multiprocessing to convert multiple Excel files to CSV files"
+authors = ["Harish Chauhan <harish.chauhan99@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/hariya99/mpxl2csv"
+repository = "https://github.com/hariya99/mpxl2csv"
+keywords = ["Excel", "CSV", "multiprocessing"]
+classifiers = [
+    "Environment :: Console",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+include = [
+    "LICENSE",
+]
+exclude = [
+    "resources*", 
+    "tests*",
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+openpyxl = "^3.1.2"
+xlrd = "^2.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
