@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+nanigastat/__init__.py
+nanigastat/functions.py
+nanigastat.egg-info/PKG-INFO
+nanigastat.egg-info/SOURCES.txt
+nanigastat.egg-info/dependency_links.txt
+nanigastat.egg-info/top_level.txt
