@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: urgxy-env
+Version: 0.1.4
+Summary: An OpenAI Gym Env for Panda
+Author: GXY
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: gym
+Requires-Dist: pybullet
+Requires-Dist: numpy
+
