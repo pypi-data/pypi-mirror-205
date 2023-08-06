@@ -1,0 +1,10 @@
+fps_auth_fief/__init__.py,sha256=rPSfWgIeq2YWVPyESOAwCBt8vftsTpIkuLAGDEzyRQc,22
+fps_auth_fief/backend.py,sha256=24II9NuCPDQKFJAAvXScXIY3XQ9CnxhHvIq5BvY1dto,3976
+fps_auth_fief/config.py,sha256=qL0S45_cUEoav8uLATl4HxeqoExsG-m9wBszWUwBSko,212
+fps_auth_fief/main.py,sha256=NFHpRCADKg4_CodGHhOtGuhCNfzMN_YJTTICotTssNc,616
+fps_auth_fief/routes.py,sha256=B5EUAm2suMC9a2Fbmy26b3G2sXzfhaozuGpNYRHlUA8,2781
+fps_auth_fief-0.1.5.dist-info/METADATA,sha256=K_TZWMEkfQyD60niiGPEInfKzX7zk3D8gvFTAEracvY,534
+fps_auth_fief-0.1.5.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+fps_auth_fief-0.1.5.dist-info/entry_points.txt,sha256=d0aEImTj8z1iutT9twipBcK1Gysj_PA-H8bUZoZn09s,143
+fps_auth_fief-0.1.5.dist-info/licenses/COPYING.md,sha256=mhO0ZW9EiWOPg0dUgB-lNbJ0CGwRmTdbeAg_se1SOnY,2833
+fps_auth_fief-0.1.5.dist-info/RECORD,,
