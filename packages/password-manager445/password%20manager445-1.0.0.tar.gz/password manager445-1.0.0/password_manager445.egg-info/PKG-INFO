@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: password-manager445
+Version: 1.0.0
+Summary: A simple python wrapper for creating passwords..
+Home-page: https://github.com/TheCodingFreakj/password-manager
+Download-URL: https://github.com/TheCodingFreakj/password-manager/archive/refs/tags/password-manager-1.0.0.tar.gz
+Author: Pallavi Priyadarshini
+Author-email: pallavidapriya75@gmail.com
+License: MIT
+Keywords: password manager
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Internet
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+
+A simple python wrapper for creating passwords

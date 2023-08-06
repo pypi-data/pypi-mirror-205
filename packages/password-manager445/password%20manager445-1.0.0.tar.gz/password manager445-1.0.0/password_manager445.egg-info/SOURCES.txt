@@ -1,0 +1,7 @@
+README.md
+setup.py
+password_manager445.egg-info/PKG-INFO
+password_manager445.egg-info/SOURCES.txt
+password_manager445.egg-info/dependency_links.txt
+password_manager445.egg-info/requires.txt
+password_manager445.egg-info/top_level.txt
