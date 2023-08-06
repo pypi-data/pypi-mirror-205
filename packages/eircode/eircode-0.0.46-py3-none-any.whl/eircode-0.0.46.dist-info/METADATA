@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: eircode
+Version: 0.0.46
+Summary: eircode parser and fetcher
+Home-page: https://github.com/RobertLucey/eircode
+Author: Robert Lucey
+Requires-Python: >=3.5
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: cached-property
+Requires-Dist: requests-ip-rotator
+
+eircode parser and fetcher
