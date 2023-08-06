@@ -1,0 +1,15 @@
+tamp/__init__.py,sha256=t48Ya82DguT4VgsYgmAoFp-oFdVVr5FYX60Fb84fh-s,2497
+tamp/__init__.pyi,sha256=PhfoBFBXZsDl56tqxZ00P0O_Gn0LQQcKogkQfmKiNDc,1619
+tamp/__main__.py,sha256=nCBTwGmNQjRiE6-3S-5kehZJXZBCU-U_j_X8hlFDG5I,57
+tamp/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tamp/cli/main.py,sha256=rrG765kwFB7TodfvWow1j-tKVQuCs4KPJNJ0FPRlznQ,2665
+tamp/compressor.py,sha256=oZiDd8Cggc7c7Zgqu59LkbIt_umcN2ZhOVRrr7aCCds,8237
+tamp/compressor_viper.py,sha256=cPq3FG4zO4wwryLQsKgErZqyjYh_p_A3dgfZyg_TCvU,7136
+tamp/decompressor.py,sha256=-G88ZbT2XW2YvBI15mktlmu4thj2rxV_cUnhTSTr_P4,6530
+tamp/decompressor_viper.py,sha256=viHTA23x2AsNyij-LYRa6ceGTP1iHFVq8AhtUOpf00M,9951
+tamp/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tamp-1.0.2.dist-info/LICENSE,sha256=8UsgBIwSOTy5kgBlxH-twDAhCw-cq5hJzgpooGPt7cU,11357
+tamp-1.0.2.dist-info/METADATA,sha256=L9oS9QIs5lCmS7BDIGCbTp4YKjch4WInU9mDMpuT-m0,14944
+tamp-1.0.2.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+tamp-1.0.2.dist-info/entry_points.txt,sha256=Br6vxQnUFRepvsPWB9fZ5Vi-qKwUFwLwtepK-VYkECs,46
+tamp-1.0.2.dist-info/RECORD,,
