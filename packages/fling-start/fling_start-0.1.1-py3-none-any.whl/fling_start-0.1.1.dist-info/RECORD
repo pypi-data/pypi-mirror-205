@@ -1,0 +1,10 @@
+README.md,sha256=F-5FnqK63VjFiDRvd-Su1ao348ogFUlL-1APAGa552w,156
+VERSION,sha256=6d2FB_S_DG9CRY5BrqgzrQvT9hJycjNe7pv01YVB7Wc,6
+fling/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fling/start.py,sha256=2D_9VyAVaPvjcQMJFhnNXN0bysh5Ecjs-32ViPMpPL8,427
+fling/static/start/styles.css,sha256=x6COfK9qk72rfs9XQdbKnklLgeiCLr2j8PakD8AlZLo,358
+fling/templates/start/index.html,sha256=cXlQgepi5HRmJp6YYaTqaRSyl8GSoJdoyI_kLxn1YTs,9044
+fling/templates/start/x3d.html,sha256=FaAkX3phKZ3mbXCw_85K2vj4iXmcEbs3evQT2vU0-EI,823
+fling_start-0.1.1.dist-info/METADATA,sha256=g54FJy8yZqozGaSFFYf9ZefXmf1rIpHgw0zwh3a3Eew,613
+fling_start-0.1.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+fling_start-0.1.1.dist-info/RECORD,,
