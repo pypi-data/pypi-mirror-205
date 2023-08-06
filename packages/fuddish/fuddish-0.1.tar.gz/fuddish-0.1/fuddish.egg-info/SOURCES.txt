@@ -1,0 +1,8 @@
+setup.py
+fuddish.egg-info/PKG-INFO
+fuddish.egg-info/SOURCES.txt
+fuddish.egg-info/dependency_links.txt
+fuddish.egg-info/requires.txt
+fuddish.egg-info/top_level.txt
+specialslib/__init__.py
+specialslib/specialslib.py
