@@ -1,0 +1,13 @@
+# Include the README
+include *.md
+
+# Include setup.py
+include setup.py
+include setup.cfg
+
+# Include the src files
+recursive-include src *
+
+recursive-exclude docs *
+recursive-exclude tests *
+recursive-exclude .github *
