@@ -1,0 +1,10 @@
+aws_cdk/aws_opensearchserverless/__init__.py,sha256=3NYk9_nSDrDNQ6O1zoQf0f3f2GYe5V0GQ9a0AgsX4BI,88536
+aws_cdk/aws_opensearchserverless/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_opensearchserverless/_jsii/__init__.py,sha256=CZhWJQsbtlyJr1Aoi2q9bNxFQQYbe8XZCtxd2AT8BTg,446
+aws_cdk/aws_opensearchserverless/_jsii/aws-opensearchserverless@1.200.0.jsii.tgz,sha256=J4ZJ9UlNdhNwBBrxYTq4DJRol6yoaLQWNql6cLW3FQ8,43976
+aws_cdk.aws_opensearchserverless-1.200.0.dist-info/LICENSE,sha256=YA6CL2YE08NgoURWXRTrec3mNy-KAR-_UNdiMqgNVMI,11391
+aws_cdk.aws_opensearchserverless-1.200.0.dist-info/METADATA,sha256=ToIyiwZAOp-aARljeqjpFrElWl82lEVpPshP7UywijA,3295
+aws_cdk.aws_opensearchserverless-1.200.0.dist-info/NOTICE,sha256=XtGET2JQh3C41orQUenLTefWItOqLmu2N-mGwW7t3Fo,113
+aws_cdk.aws_opensearchserverless-1.200.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+aws_cdk.aws_opensearchserverless-1.200.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_opensearchserverless-1.200.0.dist-info/RECORD,,
