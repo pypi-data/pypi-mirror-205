@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: gpt-review
+Version: 0.0.1
+Summary: Python Project for reviewing GitHub PRs with Open AI and Chat-GPT.
+Author-email: Daniel Ciborowski <dciborow@microsoft.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: azure-identity
+Requires-Dist: azure-keyvault-secrets
+Requires-Dist: llama-index
+Requires-Dist: httpx
+Requires-Dist: GitPython
+Requires-Dist: knack
+Requires-Dist: openai
+Requires-Dist: requests
+Requires-Dist: pyyaml
+Requires-Dist: bandit[toml]==1.7.4 ; extra == "test"
+Requires-Dist: black==23.1.0 ; extra == "test"
+Requires-Dist: check-manifest==0.48 ; extra == "test"
+Requires-Dist: flake8-bugbear==23.3.12 ; extra == "test"
+Requires-Dist: flake8-docstrings ; extra == "test"
+Requires-Dist: flake8-formatter_junit_xml ; extra == "test"
+Requires-Dist: flake8 ; extra == "test"
+Requires-Dist: flake8-pyproject ; extra == "test"
+Requires-Dist: pre-commit==2.17.0 ; extra == "test"
+Requires-Dist: pylint==2.17.0 ; extra == "test"
+Requires-Dist: pylint_junit ; extra == "test"
+Requires-Dist: pytest-cov>=3.0.0 ; extra == "test"
+Requires-Dist: pytest-mock ; extra == "test"
+Requires-Dist: pytest-runner ; extra == "test"
+Requires-Dist: pytest>=7.2.2 ; extra == "test"
+Requires-Dist: pytest-github-actions-annotate-failures ; extra == "test"
+Requires-Dist: shellcheck-py==0.9.0.2 ; extra == "test"
+Project-URL: Documentation, https://github.com/dciborow/action-gpt/tree/main#readme
+Project-URL: Source, https://github.com/dciborow/action-gpt
+Project-URL: Tracker, https://github.com/dciborow/action-gpt/issues
+Provides-Extra: test
+
+# GPTReview Workflow 🤖🔍
+
+Get OpenAI GPT models to suggest changes on your pull request in the comments.
+
+## How to integrate into your repo:
+
+1. Copy the workflow from this repo's .github/workflows/test-action.yml into your project in the same location and modify it to suit your needs, if you'd like. Update the action pointer from "./" to "microsoft/easy-gpt@<version>"
+2. Get an [OpenAI API Key here](https://beta.openai.com/account/api-keys)
+3. Get an [OpenAI Org ID here](https://beta.openai.com/account/org-settings)
+4. Create two secrets in your project's settings called OPENAI_API_KEY for your OpenAI API Key and OPENAI_ORG_KEY for your OpenAI Organization ID..
+
+## How to use CLI:
+
+Install the package via `pip` and set the environment variables for your OpenAI API Key and Organization ID.
+To use Azure OpenAI, set the environment variable `AZURE_OPENAI_API_URL` and `AZURE_OPENAI_API_URL_KEY` to the URL and key for your Azure OpenAI API.
+
+
+```bash
+pip install easy-gpt
+
+export OPENAI_API_KEY=<your key>
+
+export AZURE_OPENAI_API=<your azure api url>
+export AZURE_OPENAI_API_KEY=<your azure key>
+
+```
+
+## Developer Setup
+To install the package in development mode, with additional packages for testing, run the following command:
+
+```bash
+pip install -e .[test]
+```
+
