@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+CharEncoding/__init__.py
+CharEncoding.egg-info/PKG-INFO
+CharEncoding.egg-info/SOURCES.txt
+CharEncoding.egg-info/dependency_links.txt
+CharEncoding.egg-info/top_level.txt
