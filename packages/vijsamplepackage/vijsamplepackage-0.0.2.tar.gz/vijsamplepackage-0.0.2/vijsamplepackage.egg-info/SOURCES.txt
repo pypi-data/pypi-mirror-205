@@ -1,0 +1,8 @@
+setup.py
+vijsamplepackage/__init__.py
+vijsamplepackage/functions.py
+vijsamplepackage/greet.py
+vijsamplepackage.egg-info/PKG-INFO
+vijsamplepackage.egg-info/SOURCES.txt
+vijsamplepackage.egg-info/dependency_links.txt
+vijsamplepackage.egg-info/top_level.txt
