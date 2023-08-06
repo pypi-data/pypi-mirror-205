@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+CLAFX/CLAFX.py
+CLAFX/__init__.py
+CLAFX.egg-info/PKG-INFO
+CLAFX.egg-info/SOURCES.txt
+CLAFX.egg-info/dependency_links.txt
+CLAFX.egg-info/requires.txt
+CLAFX.egg-info/top_level.txt
