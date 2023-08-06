@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: streamchat-bot
+Version: 0.1.0
+Summary: A simple Python package for creating Stream Chat bots.
+Home-page: https://github.com/qzchenwl/streamchat-bot
+Author: qzchenwl
+Author-email: qzchenwl@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp
+Requires-Dist: aiohttp-socks
+Requires-Dist: aiostream
+
+# StreamChatBot
+
+A simple Python package for creating Stream Chat bots.
+
+## Installation
+
+```bash
+pip install streamchat-bot
+```
