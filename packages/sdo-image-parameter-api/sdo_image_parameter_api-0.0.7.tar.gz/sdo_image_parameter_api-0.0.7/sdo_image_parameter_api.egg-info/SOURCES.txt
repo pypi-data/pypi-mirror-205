@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+sdo_image_parameter_api.egg-info/PKG-INFO
+sdo_image_parameter_api.egg-info/SOURCES.txt
+sdo_image_parameter_api.egg-info/dependency_links.txt
+sdo_image_parameter_api.egg-info/requires.txt
+sdo_image_parameter_api.egg-info/top_level.txt
