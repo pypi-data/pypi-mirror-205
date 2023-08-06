@@ -1,0 +1,15 @@
+AUTHORS.md
+LICENSE
+README.md
+pyproject.toml
+setup.py
+fastshermanmorrison/__init__.py
+fastshermanmorrison/cython_fastshermanmorrison.c
+fastshermanmorrison/fastshermanmorrison.c
+fastshermanmorrison/fastshermanmorrison.py
+fastshermanmorrison/version.py
+fastshermanmorrison_pulsar.egg-info/PKG-INFO
+fastshermanmorrison_pulsar.egg-info/SOURCES.txt
+fastshermanmorrison_pulsar.egg-info/dependency_links.txt
+fastshermanmorrison_pulsar.egg-info/not-zip-safe
+fastshermanmorrison_pulsar.egg-info/top_level.txt
