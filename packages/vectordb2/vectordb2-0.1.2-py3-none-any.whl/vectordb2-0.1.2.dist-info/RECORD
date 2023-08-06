@@ -1,0 +1,11 @@
+vectordb/__init__.py,sha256=WRq8Azec8h8yI3CGEPJnjVUMyyle2iaNn4eYNJtOewQ,27
+vectordb/chunking.py,sha256=cN_g1Q2fjCydA3x2vynga54fq50mydVGMA7shBCbzco,2666
+vectordb/embedding.py,sha256=lgcvkGn2bmdZN_axNUvICd63Zotuyxsa-PLYDIVcTDw,822
+vectordb/memory.py,sha256=XHs4YiUeSKLYmwCyo1XvNGFdVHJdESNiF-Az616ghNM,3703
+vectordb/storage.py,sha256=KxHeCcsOy1jFXdINGJBxLAlOEIV0fhNC7B2_Py-Ti2I,1047
+vectordb/vector_search.py,sha256=kV8rBpoLF1ig418moLlxuLzUR12oSRrk3tw8hGDNLjQ,2028
+vectordb2-0.1.2.dist-info/LICENSE,sha256=yUg2xoDMuzQeK1osbp6BPAFFqXdn_rOUiKoYt3pEGL0,1068
+vectordb2-0.1.2.dist-info/METADATA,sha256=qUwmdTjO3BMO3mFHhSfaVO6GhTsCd3zuhysGJCs9hVA,1066
+vectordb2-0.1.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+vectordb2-0.1.2.dist-info/top_level.txt,sha256=4i-jiNzBF0hyDnpK-MhdA5Vp5LqAc5toymWzf5-i_A8,9
+vectordb2-0.1.2.dist-info/RECORD,,
