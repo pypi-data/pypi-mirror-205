@@ -1,0 +1,2 @@
+[console_scripts]
+report_analysis = report_analysis.analyzer:analyze_report
