@@ -1,0 +1,22 @@
+[build-system]
+requires = ["poetry-core", "oldest-supported-numpy"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "lmo"
+version = "0.1.0"
+description = "L-Moments for robust statistics."
+authors = ["Joren Hammudoglu <jhammudoglu@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10,<3.12"
+
+numpy = ">=1.22"
+scipy = ">=1.8"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3"
+pyright = "^1.1"
+ruff = "^0.0.263"
