@@ -1,0 +1,43 @@
+# Command Line ASCII Art Generator
+
+ASCIIcli is a command line interface that is powered by Python3. You can generate ASCII art by importing an image and then selecting the character set that you want to generate with.
+
+---
+
+## Installation & Building
+
+### PIP
+
+The easiest way to install ASCIIcli is by using the [PyPI library](https://pypi.org/project/asciicli/).
+You can run `pip install ASCIIcli` on any command-line with Python3 in order to install it.
+
+### Releases
+
+If you are unable to use the PyPI library you can access ASCIIcli by going to our [releases page](https://github.com/mrq-andras/asciicli/releases). There you can download the .exe file and run the CLI by going to the folder that the program is downloaded in and running `.\asciicli`
+
+---
+
+## Usage
+
+`asciicli [-h] [--width] [--height] [--set] [--random] [--invert] [--darkness] C:/full/path/to/your/image`
+
+Set 1: A -> Z  
+Set 2: 0 -> 9  
+Set 3: 0, O, o, 8, 9, 6, @, &, ., ", :  
+Set 4: ▀, ▄, ▌, ▐, ■, ◽, ◆, ►, ●, ░, ▒, ▓, █  
+Set 5: !, @, #, $, %, ^, &, *, (, ), _, +, -, =  
+
+**_NOTE: SET 3 MIGHT NOT DISPLAY CORRECTLY IN CERTAIN FONTS OR EDITORS_**
+
+If you have downloaded the application through pip input the following command in the terminal:
+`asciicli --width 40 --height 17 --set 1 --random True C:/full/path/to/your/image`
+
+If you are running the .exe package you will need to slightly alter the command by calling the exact folder of ASCIIcli
+`.\path\to\asciicli.exe --width 40 --height 17 --set 1 --random True C:/full/path/to/your/image`
+
+This command will set the width to 40, the height to 17 and the character set to one. The `--set 1` variable is optional as the default character set is one. Random has been set to true and it will take the image from assets/input.jpg and generate a .txt file titled input-ascii.jpg in the same folder as the image.
+
+Random and Invert are boolians and must be set to True/False, whereas Darkness, Set, Height and Width are all integers.
+
+---
+[`LICENSE`](./LICENSE)
