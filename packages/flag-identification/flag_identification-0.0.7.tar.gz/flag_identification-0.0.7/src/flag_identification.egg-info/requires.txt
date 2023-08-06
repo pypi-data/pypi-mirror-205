@@ -1,0 +1,14 @@
+imgaug
+aspose-words
+cairosvg
+bs4
+keras==2.11.0
+tensorflow==2.11.0
+cython
+tqdm
+requests
+pandas
+sklearn
+scikit-learn
+Pillow
+opencv-python

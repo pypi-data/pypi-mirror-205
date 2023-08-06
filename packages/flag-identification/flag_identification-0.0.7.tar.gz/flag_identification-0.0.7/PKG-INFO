@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: flag_identification
+Version: 0.0.7
+Summary: Identify a flag by an image
+Home-page: https://github.com/RobertLucey/flag-identification
+Author: Robert Lucey
+Requires-Python: >=3.6
+License-File: LICENSE
+
+Identify a flag by an image
