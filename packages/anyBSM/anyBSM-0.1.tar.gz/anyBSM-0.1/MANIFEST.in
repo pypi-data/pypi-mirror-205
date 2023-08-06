@@ -1,0 +1,4 @@
+include anyBSM/latex/tikzfeynman/*
+include anyBSM/models/*/schemes.yml
+include anyBSM/mathematica_interface/anyBSM.m
+include anyBSM/logos/*
