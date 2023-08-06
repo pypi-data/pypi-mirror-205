@@ -1,0 +1,13 @@
+meutils
+docarray
+transformers
+sentence_transformers
+
+
+# chatglm
+cpm_kernels
+
+# pdf
+pymupdf
+typer
+
