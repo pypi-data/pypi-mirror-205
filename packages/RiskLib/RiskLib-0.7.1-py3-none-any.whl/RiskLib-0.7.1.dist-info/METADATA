@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: RiskLib
+Version: 0.7.1
+Summary: using for quatitative risk management
+Author: Qihang Ma
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scipy
+
