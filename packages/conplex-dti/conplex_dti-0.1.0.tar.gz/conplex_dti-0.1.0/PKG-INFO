@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: conplex-dti
+Version: 0.1.0
+Summary: Adapting protein language models and contrastive learning for DTI prediction.
+Home-page: https://github.com/samsledje/ConPLex
+License: MIT
+Keywords: protein language models,contrastive learning,drug target interaction,DTI
+Author: samsledje
+Author-email: samsl@mit.edu
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: PyTDC (>=0.3.9,<0.4.0)
+Requires-Dist: fair-esm (>=0.1.0,<0.2.0)
+Requires-Dist: h5py (>=3.8.0,<4.0.0)
+Requires-Dist: omegaconf (>=2.3.0,<3.0.0)
+Requires-Dist: pandas (>=1.3.5,<2.0.0)
+Requires-Dist: pytorch_lightning (>=1.9.3,<2.0.0)
+Requires-Dist: rdkit (>=2022.9.5,<2023.0.0)
+Requires-Dist: rich (>=13.3.2,<14.0.0)
+Requires-Dist: scikit-learn (>=1.2.2,<2.0.0)
+Requires-Dist: torchmetrics (>=0.11.3,<0.12.0)
+Requires-Dist: tqdm (>=4.62,<5.0)
+Requires-Dist: transformers (>=4.26.1,<5.0.0)
+Requires-Dist: typer[all] (>=0.4.0,<0.5.0)
+Requires-Dist: wandb (>=0.13,<0.14)
+Project-URL: Repository, https://github.com/samsledje/ConPLex
+Description-Content-Type: text/markdown
+
+# ConPLex
+
+🚧🚧🚧 Currently under construction, you can access development code at [ConPLex_dev](https://github.com/samsledje/ConPLex_dev) 🚧🚧🚧
+
+See our manuscript on [bioRxiv](https://www.biorxiv.org/content/10.1101/2022.12.06.519374v1)
+
