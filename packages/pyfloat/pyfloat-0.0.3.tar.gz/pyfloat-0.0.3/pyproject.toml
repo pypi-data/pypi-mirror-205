@@ -1,0 +1,29 @@
+[project]
+name = "pyfloat"
+version = "0.0.3"
+authors = [
+    { name="Jesus Manresa Parres", email="dev-jesusmanresaparres@protonmail.com" },
+]
+
+description = "Python Library for doing math operations with floats without lossing precission"
+readme = "README.md"
+classifiers = [
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Programming Language :: Python :: 3",
+    "Operating System :: Unix",
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: Microsoft :: Windows",
+]
+
+keywords = ["decimal", "float", "double", "truncate", "floor", "math"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+"Homepage" = "https://github.com/sh1l0n/pyfloats"
+"Repository" = "https://github.com/sh1l0n/pyfloats"

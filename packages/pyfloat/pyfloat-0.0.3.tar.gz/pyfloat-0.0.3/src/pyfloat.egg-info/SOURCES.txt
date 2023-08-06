@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/pyfloat/__init__.py
+src/pyfloat/py_float.py
+src/pyfloat.egg-info/PKG-INFO
+src/pyfloat.egg-info/SOURCES.txt
+src/pyfloat.egg-info/dependency_links.txt
+src/pyfloat.egg-info/top_level.txt
+tests/test_pyfloat.py
+tests/test_pyfloat_profile.py
