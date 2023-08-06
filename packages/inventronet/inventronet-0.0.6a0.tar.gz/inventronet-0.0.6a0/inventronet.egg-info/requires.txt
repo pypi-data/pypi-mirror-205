@@ -1,0 +1,15 @@
+numpy
+tqdm
+
+[docs]
+sphinx
+sphinx-rtd-theme
+
+[lint]
+flake8
+ruff
+black
+
+[test]
+pytest
+pytest-cov
