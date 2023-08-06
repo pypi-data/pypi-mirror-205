@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: seas
+Version: 0.0.4
+Summary: python Signal Extraction and Segmentation
+Home-page: https://github.com/ackmanlab/pySEAS
+Author: Sydney Weiser
+Author-email: scweiser@ucsc.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: h5py
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: PyYAML
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: tifffile
+Requires-Dist: tk
+
+Data-driven filtration and segmentation of mesoscale neural dynamics
+
