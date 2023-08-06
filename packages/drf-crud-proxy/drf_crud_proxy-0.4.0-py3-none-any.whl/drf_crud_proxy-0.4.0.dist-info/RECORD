@@ -1,0 +1,11 @@
+drf_crud_proxy/__init__.py,sha256=fy9hYB5kHDyN_iL92KPhVq2DGLu7sj0G0QcgFhDbFtA,245
+drf_crud_proxy/apps.py,sha256=edvvF3-wN_YipyqFVUjxEE4UCyml9Pns7rbfhvPB_Oo,101
+drf_crud_proxy/generics.py,sha256=i0HCoGveY_Ax-wGz4Y0chmh5k3D1KUnDqZif8DBAlT8,1174
+drf_crud_proxy/mixins.py,sha256=6WJpSOKnk-nADTZvU1npGdZ1u9zGaspu5M6a4MxkobM,3305
+drf_crud_proxy/proxy.py,sha256=F2J8hFtPQgRM46iaKd95TvpIIGafKoQLvUbixXI0WDQ,3763
+drf_crud_proxy/viewsets.py,sha256=1N_3lPEBFQ_TiEdpJzh26ktw3zn2skU1mTP9FtoI2XY,621
+drf_crud_proxy-0.4.0.dist-info/LICENSE,sha256=9WP6HYzGPubKWf1YWw1UHtqR5Nu60hMmZOSDH3lnXWA,1073
+drf_crud_proxy-0.4.0.dist-info/METADATA,sha256=NfCBCXqpm6qcDwC5G3sZzAOKC7DLv8T2CqMc-TvaOiU,3443
+drf_crud_proxy-0.4.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+drf_crud_proxy-0.4.0.dist-info/top_level.txt,sha256=6mk7BKkAGYxXGS_EcouptaCwUBDZWx_JVtrCnDJSQdM,15
+drf_crud_proxy-0.4.0.dist-info/RECORD,,
