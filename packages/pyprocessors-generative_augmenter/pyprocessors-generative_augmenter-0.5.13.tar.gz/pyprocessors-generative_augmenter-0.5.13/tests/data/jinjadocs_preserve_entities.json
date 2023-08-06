@@ -1,0 +1,229 @@
+[
+  {
+    "text": "jerry goldsmith : l homme au chapeau de cow-boy dans la cabine t\u00e9l\u00e9phonique au salon de l invention ( cam\u00e9o non cr\u00e9dit\u00e9 )",
+    "identifier": "05828a36-edb1-4538-98ad-226ad93181d6",
+    "title": "05828a36-edb1-4538-98ad-226ad93181d6",
+    "metadata": {
+      "corpus": "train",
+      "language": "fr"
+    },
+    "altTexts": [
+      {
+        "name": "preserve_entities",
+        "text": "- [Artist:jerry goldsmith] : l'homme au [Clothing:chapeau de cow-boy] dans la cabine t\u00e9l\u00e9phonique au salon de l'invention (cam\u00e9o non cr\u00e9dit\u00e9)\n- Dans la cabine t\u00e9l\u00e9phonique au salon de l'invention, on peut apercevoir [Artist:jerry goldsmith] portant un [Clothing:chapeau de cow-boy] non cr\u00e9dit\u00e9.\n- Le cam\u00e9o non cr\u00e9dit\u00e9 de [Artist:jerry goldsmith] dans la cabine t\u00e9l\u00e9phonique au salon de l'invention l'a montr\u00e9 avec un [Clothing:chapeau de cow-boy].\n- Un [Clothing:chapeau de cow-boy] sur la t\u00eate, [Artist:jerry goldsmith] est apparu dans la cabine t\u00e9l\u00e9phonique au salon de l'invention lors d'un cam\u00e9o non cr\u00e9dit\u00e9.\n- La pr\u00e9sence de [Artist:jerry goldsmith] dans la cabine t\u00e9l\u00e9phonique au salon de l'invention a \u00e9t\u00e9 remarqu\u00e9e gr\u00e2ce \u00e0 son [Clothing:chapeau de cow-boy] non cr\u00e9dit\u00e9."
+      }
+    ],
+    "sentences": [
+      {
+        "start": 0,
+        "end": 121
+      }
+    ],
+    "annotations": [
+      {
+        "start": 0,
+        "end": 15,
+        "labelName": "artist",
+        "label": "Artist",
+        "text": "jerry goldsmith",
+        "createdBy": "import",
+        "createdDate": "2022-11-16T22:22:56.199Z",
+        "modifiedDate": "2022-11-16T22:22:56.199Z",
+        "status": "OK"
+      },
+      {
+        "start": 29,
+        "end": 47,
+        "labelName": "clothing",
+        "label": "Clothing",
+        "text": "chapeau de cow-boy",
+        "createdBy": "import",
+        "createdDate": "2022-11-16T22:22:56.199Z",
+        "modifiedDate": "2022-11-16T22:22:56.199Z",
+        "status": "OK"
+      }
+    ],
+    "categories": []
+  },
+  {
+    "text": "alber elbaz le remplace en tant que directeur artistique du pr\u00eat-\u00e0-porter f\u00e9minin et hedi slimane du pr\u00eat \u00e0 porter masculin .",
+    "identifier": "47b90a69-f8ee-41d1-b3a1-8905fcf1f02a",
+    "title": "47b90a69-f8ee-41d1-b3a1-8905fcf1f02a",
+    "metadata": {
+      "corpus": "dev",
+      "language": "fr"
+    },
+    "altTexts": [
+      {
+        "name": "preserve_entities",
+        "text": "- [Artist:Alber Elbaz] prend la rel\u00e8ve en tant que directeur artistique du pr\u00eat-\u00e0-porter f\u00e9minin, pendant que [Artist:Hedi Slimane] s'occupera du pr\u00eat-\u00e0-porter masculin.\n- Le pr\u00eat-\u00e0-porter f\u00e9minin aura comme nouveau directeur artistique [Artist:Alber Elbaz], tandis que [Artist:Hedi Slimane] sera en charge du pr\u00eat-\u00e0-porter masculin.\n- [Artist:Alber Elbaz] est nomm\u00e9 directeur artistique du pr\u00eat-\u00e0-porter f\u00e9minin, en remplacement de [Clothing:pr\u00eat-\u00e0-porter] masculin, qui sera d\u00e9sormais dirig\u00e9 par [Artist:Hedi Slimane].\n- [Artist:Hedi Slimane] devient le nouveau directeur artistique du pr\u00eat-\u00e0-porter masculin, tandis que [Artist:Alber Elbaz] prend le relais pour le pr\u00eat-\u00e0-porter f\u00e9minin.\n- Apr\u00e8s le d\u00e9part de [Clothing:pr\u00eat-\u00e0-porter] f\u00e9minin, c'est [Artist:Alber Elbaz] qui est nomm\u00e9 directeur artistique pour rediriger la marque, tandis que [Artist:Hedi Slimane] s'occupera du pr\u00eat-\u00e0-porter masculin."
+      }
+    ],
+    "sentences": [
+      {
+        "start": 0,
+        "end": 125
+      }
+    ],
+    "annotations": [
+      {
+        "start": 0,
+        "end": 11,
+        "labelName": "artist",
+        "label": "Artist",
+        "text": "alber elbaz",
+        "createdBy": "import",
+        "createdDate": "2022-11-20T00:09:58.862Z",
+        "modifiedDate": "2022-11-20T00:09:58.862Z",
+        "status": "OK"
+      },
+      {
+        "start": 60,
+        "end": 73,
+        "labelName": "clothing",
+        "label": "Clothing",
+        "text": "pr\u00eat-\u00e0-porter",
+        "createdBy": "import",
+        "createdDate": "2022-11-20T00:09:58.862Z",
+        "modifiedDate": "2022-11-20T00:09:58.862Z",
+        "status": "OK"
+      },
+      {
+        "start": 85,
+        "end": 97,
+        "labelName": "artist",
+        "label": "Artist",
+        "text": "hedi slimane",
+        "createdBy": "import",
+        "createdDate": "2022-11-20T00:09:58.862Z",
+        "modifiedDate": "2022-11-20T00:09:58.862Z",
+        "status": "OK"
+      }
+    ],
+    "categories": []
+  },
+  {
+    "text": "chanel se fait aussi particuli\u00e8rement remarqu\u00e9 avec lily-rose depp au bras de karl lagerfeld avec une robe de mari\u00e9e rose pastel .",
+    "identifier": "a62886ab-c553-4153-894f-33ac31e17c33",
+    "title": "a62886ab-c553-4153-894f-33ac31e17c33",
+    "metadata": {
+      "corpus": "dev",
+      "language": "fr"
+    },
+    "altTexts": [
+      {
+        "name": "preserve_entities",
+        "text": "- [PrivateCorp:Chanel] est sous les feux de la rampe gr\u00e2ce \u00e0 sa collaboration avec [Artist:Lily-Rose Depp], qui \u00e9tait aux c\u00f4t\u00e9s de [Artist:Karl Lagerfeld] pour pr\u00e9senter une magnifique [Clothing:robe de mari\u00e9e] de couleur rose pastel.\n- Avec [Artist:Lily-Rose Depp] comme \u00e9g\u00e9rie et [Artist:Karl Lagerfeld] comme c\u00e9l\u00e8bre cr\u00e9ateur, [PrivateCorp:Chanel] a suscit\u00e9 l'attention avec une robe de mari\u00e9e rose pastel.\n- [Artist:Lily-Rose Depp] a accompagn\u00e9 [Artist:Karl Lagerfeld] pour pr\u00e9senter une fabuleuse [Clothing:robe de mari\u00e9e] rose pastel pour [PrivateCorp:Chanel].\n- [PrivateCorp:Chanel] a cr\u00e9\u00e9 l'\u00e9v\u00e9nement en pr\u00e9sentant une [Clothing:robe de mari\u00e9e] rose pastel port\u00e9e par [Artist:Lily-Rose Depp], qui \u00e9tait aux c\u00f4t\u00e9s de [Artist:Karl Lagerfeld].\n- La collaboration entre [PrivateCorp:Chanel] et [Artist:Lily-Rose Depp] a atteint un sommet avec une [Clothing:robe de mari\u00e9e] rose pastel magnifiquement pr\u00e9sent\u00e9e par [Artist:Karl Lagerfeld]."
+      }
+    ],
+    "sentences": [
+      {
+        "start": 0,
+        "end": 130
+      }
+    ],
+    "annotations": [
+      {
+        "start": 0,
+        "end": 6,
+        "labelName": "privatecorp",
+        "label": "PrivateCorp",
+        "text": "chanel",
+        "createdBy": "import",
+        "createdDate": "2022-11-20T00:09:59.127Z",
+        "modifiedDate": "2022-11-20T00:09:59.127Z",
+        "status": "OK"
+      },
+      {
+        "start": 52,
+        "end": 66,
+        "labelName": "artist",
+        "label": "Artist",
+        "text": "lily-rose depp",
+        "createdBy": "import",
+        "createdDate": "2022-11-20T00:09:59.127Z",
+        "modifiedDate": "2022-11-20T00:09:59.127Z",
+        "status": "OK"
+      },
+      {
+        "start": 78,
+        "end": 92,
+        "labelName": "artist",
+        "label": "Artist",
+        "text": "karl lagerfeld",
+        "createdBy": "import",
+        "createdDate": "2022-11-20T00:09:59.127Z",
+        "modifiedDate": "2022-11-20T00:09:59.127Z",
+        "status": "OK"
+      },
+      {
+        "start": 102,
+        "end": 116,
+        "labelName": "clothing",
+        "label": "Clothing",
+        "text": "robe de mari\u00e9e",
+        "createdBy": "import",
+        "createdDate": "2022-11-20T00:09:59.127Z",
+        "modifiedDate": "2022-11-20T00:09:59.127Z",
+        "status": "OK"
+      }
+    ],
+    "categories": []
+  },
+  {
+    "text": "among his other work is his design for the diamond coronet for victoria adams marriage to david beckham in 1999 .",
+    "identifier": "b7e40aa5-993b-44a0-826e-f9d1b0452fa3",
+    "title": "b7e40aa5-993b-44a0-826e-f9d1b0452fa3",
+    "metadata": {
+      "corpus": "train"
+    },
+    "altTexts": [
+      {
+        "name": "preserve_entities",
+        "text": "- [Clothing:Coronet] designed by [Artist:Victoria Adams] was worn by [Athlete:David Beckham] during their marriage in 1999.\n- In 1999, [Artist:Victoria Adams] designed a [Clothing:coronet] for [Athlete:David Beckham] to wear at their wedding.\n- [Artist:Victoria Adams] created the diamond [Clothing:coronet] worn by [Athlete:David Beckham] during his wedding to her in 1999. \n- During their marriage in 1999, [Athlete:David Beckham] wore a [Clothing:coronet] designed by [Artist:Victoria Adams] made of diamonds.\n- The diamond [Clothing:coronet] worn by [Athlete:David Beckham] at his wedding to [Artist:Victoria Adams] was designed by her in 1999."
+      }
+    ],
+    "sentences": [
+      {
+        "start": 0,
+        "end": 113
+      }
+    ],
+    "annotations": [
+      {
+        "start": 51,
+        "end": 58,
+        "labelName": "clothing",
+        "label": "Clothing",
+        "text": "coronet",
+        "createdBy": "import",
+        "createdDate": "2022-11-19T23:48:26.971Z",
+        "modifiedDate": "2022-11-19T23:48:26.971Z",
+        "status": "OK"
+      },
+      {
+        "start": 63,
+        "end": 77,
+        "labelName": "artist",
+        "label": "Artist",
+        "text": "victoria adams",
+        "createdBy": "import",
+        "createdDate": "2022-11-19T23:48:26.971Z",
+        "modifiedDate": "2022-11-19T23:48:26.971Z",
+        "status": "OK"
+      },
+      {
+        "start": 90,
+        "end": 103,
+        "labelName": "athlete",
+        "label": "Athlete",
+        "text": "david beckham",
+        "createdBy": "import",
+        "createdDate": "2022-11-19T23:48:26.971Z",
+        "modifiedDate": "2022-11-19T23:48:26.971Z",
+        "status": "OK"
+      }
+    ],
+    "categories": []
+  }
+]

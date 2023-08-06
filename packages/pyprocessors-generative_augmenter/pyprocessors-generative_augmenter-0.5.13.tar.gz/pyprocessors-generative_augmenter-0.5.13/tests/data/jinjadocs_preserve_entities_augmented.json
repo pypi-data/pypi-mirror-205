@@ -1,0 +1,477 @@
+[
+  {
+    "text": "jerry goldsmith : l'homme au chapeau de cow-boy dans la cabine t\u00e9l\u00e9phonique au salon de l'invention (cam\u00e9o non cr\u00e9dit\u00e9)\ndans la cabine t\u00e9l\u00e9phonique au salon de l'invention, on peut apercevoir jerry goldsmith portant un chapeau de cow-boy non cr\u00e9dit\u00e9.\nle cam\u00e9o non cr\u00e9dit\u00e9 de jerry goldsmith dans la cabine t\u00e9l\u00e9phonique au salon de l'invention l'a montr\u00e9 avec un chapeau de cow-boy.\nun chapeau de cow-boy sur la t\u00eate, jerry goldsmith est apparu dans la cabine t\u00e9l\u00e9phonique au salon de l'invention lors d'un cam\u00e9o non cr\u00e9dit\u00e9.\nla pr\u00e9sence de jerry goldsmith dans la cabine t\u00e9l\u00e9phonique au salon de l'invention a \u00e9t\u00e9 remarqu\u00e9e gr\u00e2ce \u00e0 son chapeau de cow-boy non cr\u00e9dit\u00e9.",
+    "identifier": "05828a36-edb1-4538-98ad-226ad93181d6-augmentedby-preserve_entities",
+    "title": "05828a36-edb1-4538-98ad-226ad93181d6",
+    "metadata": {
+      "corpus": "train",
+      "language": "fr",
+      "augmentedby": "preserve_entities"
+    },
+    "sentences": [
+      {
+        "start": 0,
+        "end": 120
+      },
+      {
+        "start": 120,
+        "end": 251
+      },
+      {
+        "start": 251,
+        "end": 382
+      },
+      {
+        "start": 382,
+        "end": 525
+      },
+      {
+        "start": 525,
+        "end": 667
+      }
+    ],
+    "annotations": [
+      {
+        "start": 0,
+        "end": 15,
+        "label": "Artist",
+        "text": "jerry goldsmith"
+      },
+      {
+        "start": 29,
+        "end": 47,
+        "label": "Clothing",
+        "text": "chapeau de cow-boy"
+      },
+      {
+        "start": 192,
+        "end": 207,
+        "label": "Artist",
+        "text": "jerry goldsmith"
+      },
+      {
+        "start": 219,
+        "end": 237,
+        "label": "Clothing",
+        "text": "chapeau de cow-boy"
+      },
+      {
+        "start": 275,
+        "end": 290,
+        "label": "Artist",
+        "text": "jerry goldsmith"
+      },
+      {
+        "start": 362,
+        "end": 380,
+        "label": "Clothing",
+        "text": "chapeau de cow-boy"
+      },
+      {
+        "start": 385,
+        "end": 403,
+        "label": "Clothing",
+        "text": "chapeau de cow-boy"
+      },
+      {
+        "start": 417,
+        "end": 432,
+        "label": "Artist",
+        "text": "jerry goldsmith"
+      },
+      {
+        "start": 540,
+        "end": 555,
+        "label": "Artist",
+        "text": "jerry goldsmith"
+      },
+      {
+        "start": 636,
+        "end": 654,
+        "label": "Clothing",
+        "text": "chapeau de cow-boy"
+      }
+    ],
+    "categories": []
+  },
+  {
+    "text": "alber elbaz prend la rel\u00e8ve en tant que directeur artistique du pr\u00eat-\u00e0-porter f\u00e9minin, pendant que hedi slimane s'occupera du pr\u00eat-\u00e0-porter masculin.\nle pr\u00eat-\u00e0-porter f\u00e9minin aura comme nouveau directeur artistique alber elbaz, tandis que hedi slimane sera en charge du pr\u00eat-\u00e0-porter masculin.\nalber elbaz est nomm\u00e9 directeur artistique du pr\u00eat-\u00e0-porter f\u00e9minin, en remplacement de pr\u00eat-\u00e0-porter masculin, qui sera d\u00e9sormais dirig\u00e9 par hedi slimane.\nhedi slimane devient le nouveau directeur artistique du pr\u00eat-\u00e0-porter masculin, tandis que alber elbaz prend le relais pour le pr\u00eat-\u00e0-porter f\u00e9minin.\napr\u00e8s le d\u00e9part de pr\u00eat-\u00e0-porter f\u00e9minin, c'est alber elbaz qui est nomm\u00e9 directeur artistique pour rediriger la marque, tandis que hedi slimane s'occupera du pr\u00eat-\u00e0-porter masculin.",
+    "identifier": "47b90a69-f8ee-41d1-b3a1-8905fcf1f02a-augmentedby-preserve_entities",
+    "title": "47b90a69-f8ee-41d1-b3a1-8905fcf1f02a",
+    "metadata": {
+      "corpus": "dev",
+      "language": "fr",
+      "augmentedby": "preserve_entities"
+    },
+    "sentences": [
+      {
+        "start": 0,
+        "end": 150
+      },
+      {
+        "start": 150,
+        "end": 294
+      },
+      {
+        "start": 294,
+        "end": 450
+      },
+      {
+        "start": 450,
+        "end": 600
+      },
+      {
+        "start": 600,
+        "end": 782
+      }
+    ],
+    "annotations": [
+      {
+        "start": 0,
+        "end": 11,
+        "label": "Artist",
+        "text": "Alber Elbaz"
+      },
+      {
+        "start": 99,
+        "end": 111,
+        "label": "Artist",
+        "text": "Hedi Slimane"
+      },
+      {
+        "start": 215,
+        "end": 226,
+        "label": "Artist",
+        "text": "Alber Elbaz"
+      },
+      {
+        "start": 239,
+        "end": 251,
+        "label": "Artist",
+        "text": "Hedi Slimane"
+      },
+      {
+        "start": 294,
+        "end": 305,
+        "label": "Artist",
+        "text": "Alber Elbaz"
+      },
+      {
+        "start": 382,
+        "end": 395,
+        "label": "Clothing",
+        "text": "pr\u00eat-\u00e0-porter"
+      },
+      {
+        "start": 436,
+        "end": 448,
+        "label": "Artist",
+        "text": "Hedi Slimane"
+      },
+      {
+        "start": 450,
+        "end": 462,
+        "label": "Artist",
+        "text": "Hedi Slimane"
+      },
+      {
+        "start": 541,
+        "end": 552,
+        "label": "Artist",
+        "text": "Alber Elbaz"
+      },
+      {
+        "start": 619,
+        "end": 632,
+        "label": "Clothing",
+        "text": "pr\u00eat-\u00e0-porter"
+      },
+      {
+        "start": 648,
+        "end": 659,
+        "label": "Artist",
+        "text": "Alber Elbaz"
+      },
+      {
+        "start": 732,
+        "end": 744,
+        "label": "Artist",
+        "text": "Hedi Slimane"
+      }
+    ],
+    "categories": []
+  },
+  {
+    "text": "chanel est sous les feux de la rampe gr\u00e2ce \u00e0 sa collaboration avec lily-rose depp, qui \u00e9tait aux c\u00f4t\u00e9s de karl lagerfeld pour pr\u00e9senter une magnifique robe de mari\u00e9e de couleur rose pastel.\navec lily-rose depp comme \u00e9g\u00e9rie et karl lagerfeld comme c\u00e9l\u00e8bre cr\u00e9ateur, chanel a suscit\u00e9 l'attention avec une robe de mari\u00e9e rose pastel.\nlily-rose depp a accompagn\u00e9 karl lagerfeld pour pr\u00e9senter une fabuleuse robe de mari\u00e9e rose pastel pour chanel.\nchanel a cr\u00e9\u00e9 l'\u00e9v\u00e9nement en pr\u00e9sentant une robe de mari\u00e9e rose pastel port\u00e9e par lily-rose depp, qui \u00e9tait aux c\u00f4t\u00e9s de karl lagerfeld.\nla collaboration entre chanel et lily-rose depp a atteint un sommet avec une robe de mari\u00e9e rose pastel magnifiquement pr\u00e9sent\u00e9e par karl lagerfeld.",
+    "identifier": "a62886ab-c553-4153-894f-33ac31e17c33-augmentedby-preserve_entities",
+    "title": "a62886ab-c553-4153-894f-33ac31e17c33",
+    "metadata": {
+      "corpus": "dev",
+      "language": "fr",
+      "augmentedby": "preserve_entities"
+    },
+    "sentences": [
+      {
+        "start": 0,
+        "end": 190
+      },
+      {
+        "start": 190,
+        "end": 331
+      },
+      {
+        "start": 331,
+        "end": 443
+      },
+      {
+        "start": 443,
+        "end": 580
+      },
+      {
+        "start": 580,
+        "end": 728
+      }
+    ],
+    "annotations": [
+      {
+        "start": 0,
+        "end": 6,
+        "label": "PrivateCorp",
+        "text": "Chanel"
+      },
+      {
+        "start": 67,
+        "end": 81,
+        "label": "Artist",
+        "text": "Lily-Rose Depp"
+      },
+      {
+        "start": 106,
+        "end": 120,
+        "label": "Artist",
+        "text": "Karl Lagerfeld"
+      },
+      {
+        "start": 151,
+        "end": 165,
+        "label": "Clothing",
+        "text": "robe de mari\u00e9e"
+      },
+      {
+        "start": 195,
+        "end": 209,
+        "label": "Artist",
+        "text": "Lily-Rose Depp"
+      },
+      {
+        "start": 226,
+        "end": 240,
+        "label": "Artist",
+        "text": "Karl Lagerfeld"
+      },
+      {
+        "start": 265,
+        "end": 271,
+        "label": "PrivateCorp",
+        "text": "Chanel"
+      },
+      {
+        "start": 331,
+        "end": 345,
+        "label": "Artist",
+        "text": "Lily-Rose Depp"
+      },
+      {
+        "start": 359,
+        "end": 373,
+        "label": "Artist",
+        "text": "Karl Lagerfeld"
+      },
+      {
+        "start": 403,
+        "end": 417,
+        "label": "Clothing",
+        "text": "robe de mari\u00e9e"
+      },
+      {
+        "start": 435,
+        "end": 441,
+        "label": "PrivateCorp",
+        "text": "Chanel"
+      },
+      {
+        "start": 443,
+        "end": 449,
+        "label": "PrivateCorp",
+        "text": "Chanel"
+      },
+      {
+        "start": 487,
+        "end": 501,
+        "label": "Clothing",
+        "text": "robe de mari\u00e9e"
+      },
+      {
+        "start": 525,
+        "end": 539,
+        "label": "Artist",
+        "text": "Lily-Rose Depp"
+      },
+      {
+        "start": 564,
+        "end": 578,
+        "label": "Artist",
+        "text": "Karl Lagerfeld"
+      },
+      {
+        "start": 603,
+        "end": 609,
+        "label": "PrivateCorp",
+        "text": "Chanel"
+      },
+      {
+        "start": 613,
+        "end": 627,
+        "label": "Artist",
+        "text": "Lily-Rose Depp"
+      },
+      {
+        "start": 657,
+        "end": 671,
+        "label": "Clothing",
+        "text": "robe de mari\u00e9e"
+      },
+      {
+        "start": 713,
+        "end": 727,
+        "label": "Artist",
+        "text": "Karl Lagerfeld"
+      }
+    ],
+    "categories": []
+  },
+  {
+    "text": "coronet designed by victoria adams was worn by david beckham during their marriage in 1999.\nin 1999, victoria adams designed a coronet for david beckham to wear at their wedding.\nvictoria adams created the diamond coronet worn by david beckham during his wedding to her in 1999. \nduring their marriage in 1999, david beckham wore a coronet designed by victoria adams made of diamonds.\nthe diamond coronet worn by david beckham at his wedding to victoria adams was designed by her in 1999.",
+    "identifier": "b7e40aa5-993b-44a0-826e-f9d1b0452fa3-augmentedby-preserve_entities",
+    "title": "b7e40aa5-993b-44a0-826e-f9d1b0452fa3",
+    "metadata": {
+      "corpus": "train",
+      "augmentedby": "preserve_entities"
+    },
+    "sentences": [
+      {
+        "start": 0,
+        "end": 92
+      },
+      {
+        "start": 92,
+        "end": 179
+      },
+      {
+        "start": 179,
+        "end": 280
+      },
+      {
+        "start": 280,
+        "end": 385
+      },
+      {
+        "start": 385,
+        "end": 488
+      }
+    ],
+    "annotations": [
+      {
+        "start": 0,
+        "end": 7,
+        "label": "Clothing",
+        "text": "Coronet"
+      },
+      {
+        "start": 20,
+        "end": 34,
+        "label": "Artist",
+        "text": "Victoria Adams"
+      },
+      {
+        "start": 47,
+        "end": 60,
+        "label": "Athlete",
+        "text": "David Beckham"
+      },
+      {
+        "start": 101,
+        "end": 115,
+        "label": "Artist",
+        "text": "Victoria Adams"
+      },
+      {
+        "start": 127,
+        "end": 134,
+        "label": "Clothing",
+        "text": "coronet"
+      },
+      {
+        "start": 139,
+        "end": 152,
+        "label": "Athlete",
+        "text": "David Beckham"
+      },
+      {
+        "start": 179,
+        "end": 193,
+        "label": "Artist",
+        "text": "Victoria Adams"
+      },
+      {
+        "start": 214,
+        "end": 221,
+        "label": "Clothing",
+        "text": "coronet"
+      },
+      {
+        "start": 230,
+        "end": 243,
+        "label": "Athlete",
+        "text": "David Beckham"
+      },
+      {
+        "start": 311,
+        "end": 324,
+        "label": "Athlete",
+        "text": "David Beckham"
+      },
+      {
+        "start": 332,
+        "end": 339,
+        "label": "Clothing",
+        "text": "coronet"
+      },
+      {
+        "start": 352,
+        "end": 366,
+        "label": "Artist",
+        "text": "Victoria Adams"
+      },
+      {
+        "start": 397,
+        "end": 404,
+        "label": "Clothing",
+        "text": "coronet"
+      },
+      {
+        "start": 413,
+        "end": 426,
+        "label": "Athlete",
+        "text": "David Beckham"
+      },
+      {
+        "start": 445,
+        "end": 459,
+        "label": "Artist",
+        "text": "Victoria Adams"
+      }
+    ],
+    "categories": []
+  }
+]

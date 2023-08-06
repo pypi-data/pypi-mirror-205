@@ -1,0 +1,485 @@
+[
+  {
+    "text": "john williams : l'individu au chapeau de ranger dans la cabine t\u00e9l\u00e9phonique du salon de l'innovation (cam\u00e9o non cr\u00e9dit\u00e9)\nhans zimmer : l'homme avec le chapeau de western dans la cabine t\u00e9l\u00e9phonique au salon de l'innovation (cam\u00e9o non cr\u00e9dit\u00e9)\nalan silvestri : le gars avec le chapeau de cow-boy dans la cabine t\u00e9l\u00e9phonique au salon de l'innovation (cam\u00e9o non cr\u00e9dit\u00e9)",
+    "identifier": "05828a36-edb1-4538-98ad-226ad93181d6-augmentedby-substitute_entities",
+    "title": "05828a36-edb1-4538-98ad-226ad93181d6",
+    "metadata": {
+      "corpus": "train",
+      "language": "fr",
+      "augmentedby": "substitute_entities"
+    },
+    "sentences": [
+      {
+        "start": 0,
+        "end": 121
+      },
+      {
+        "start": 121,
+        "end": 243
+      },
+      {
+        "start": 243,
+        "end": 367
+      }
+    ],
+    "annotations": [
+      {
+        "start": 0,
+        "end": 13,
+        "label": "Artist",
+        "text": "John Williams"
+      },
+      {
+        "start": 121,
+        "end": 132,
+        "label": "Artist",
+        "text": "Hans Zimmer"
+      },
+      {
+        "start": 243,
+        "end": 257,
+        "label": "Artist",
+        "text": "Alan Silvestri"
+      }
+    ],
+    "categories": []
+  },
+  {
+    "text": "ralph lauren remplace alber elbaz en tant que directeur artistique du pr\u00eat-\u00e0-porter f\u00e9minin, et tom ford remplace hedi slimane du pr\u00eat-\u00e0-porter masculin.\nvirgil abloh prend la place de alber elbaz en tant que directeur artistique du pr\u00eat-\u00e0-porter f\u00e9minin, et alexander wang remplace hedi slimane du pr\u00eat-\u00e0-porter masculin.\nmarc jacobs succ\u00e8de \u00e0 alber elbaz en tant que directeur artistique du pr\u00eat-\u00e0-porter f\u00e9minin, et rick owens prend la rel\u00e8ve de hedi slimane du pr\u00eat-\u00e0-porter masculin.\nphoebe philo est nomm\u00e9e directrice artistique du pr\u00eat-\u00e0-porter f\u00e9minin en remplacement de alber elbaz, tandis que thom browne remplace hedi slimane du pr\u00eat-\u00e0-porter masculin.\ndiane von furstenberg prend la suite de alber elbaz en tant que directrice artistique du pr\u00eat-\u00e0-porter f\u00e9minin, et jonathan anderson remplace hedi slimane du pr\u00eat-\u00e0-porter masculin.",
+    "identifier": "47b90a69-f8ee-41d1-b3a1-8905fcf1f02a-augmentedby-substitute_entities",
+    "title": "47b90a69-f8ee-41d1-b3a1-8905fcf1f02a",
+    "metadata": {
+      "corpus": "dev",
+      "language": "fr",
+      "augmentedby": "substitute_entities"
+    },
+    "sentences": [
+      {
+        "start": 0,
+        "end": 154
+      },
+      {
+        "start": 154,
+        "end": 323
+      },
+      {
+        "start": 323,
+        "end": 489
+      },
+      {
+        "start": 489,
+        "end": 664
+      },
+      {
+        "start": 664,
+        "end": 845
+      }
+    ],
+    "annotations": [
+      {
+        "start": 0,
+        "end": 12,
+        "label": "Designer",
+        "text": "ralph lauren"
+      },
+      {
+        "start": 22,
+        "end": 33,
+        "label": "Artist",
+        "text": "alber elbaz"
+      },
+      {
+        "start": 70,
+        "end": 83,
+        "label": "Clothing",
+        "text": "pr\u00eat-\u00e0-porter"
+      },
+      {
+        "start": 96,
+        "end": 104,
+        "label": "Designer",
+        "text": "tom ford"
+      },
+      {
+        "start": 114,
+        "end": 126,
+        "label": "Artist",
+        "text": "hedi slimane"
+      },
+      {
+        "start": 130,
+        "end": 143,
+        "label": "Clothing",
+        "text": "pr\u00eat-\u00e0-porter"
+      },
+      {
+        "start": 154,
+        "end": 166,
+        "label": "Artist",
+        "text": "virgil abloh"
+      },
+      {
+        "start": 185,
+        "end": 196,
+        "label": "Artist",
+        "text": "alber elbaz"
+      },
+      {
+        "start": 233,
+        "end": 246,
+        "label": "Clothing",
+        "text": "pr\u00eat-\u00e0-porter"
+      },
+      {
+        "start": 259,
+        "end": 273,
+        "label": "Artist",
+        "text": "alexander wang"
+      },
+      {
+        "start": 283,
+        "end": 295,
+        "label": "Artist",
+        "text": "hedi slimane"
+      },
+      {
+        "start": 299,
+        "end": 312,
+        "label": "Clothing",
+        "text": "pr\u00eat-\u00e0-porter"
+      },
+      {
+        "start": 323,
+        "end": 334,
+        "label": "Designer",
+        "text": "marc jacobs"
+      },
+      {
+        "start": 345,
+        "end": 356,
+        "label": "Artist",
+        "text": "alber elbaz"
+      },
+      {
+        "start": 393,
+        "end": 406,
+        "label": "Clothing",
+        "text": "pr\u00eat-\u00e0-porter"
+      },
+      {
+        "start": 419,
+        "end": 429,
+        "label": "Artist",
+        "text": "rick owens"
+      },
+      {
+        "start": 449,
+        "end": 461,
+        "label": "Artist",
+        "text": "hedi slimane"
+      },
+      {
+        "start": 465,
+        "end": 478,
+        "label": "Clothing",
+        "text": "pr\u00eat-\u00e0-porter"
+      },
+      {
+        "start": 489,
+        "end": 501,
+        "label": "Artist",
+        "text": "phoebe philo"
+      },
+      {
+        "start": 538,
+        "end": 551,
+        "label": "Clothing",
+        "text": "pr\u00eat-\u00e0-porter"
+      },
+      {
+        "start": 579,
+        "end": 590,
+        "label": "Artist",
+        "text": "alber elbaz"
+      },
+      {
+        "start": 603,
+        "end": 614,
+        "label": "Designer",
+        "text": "thom browne"
+      },
+      {
+        "start": 624,
+        "end": 636,
+        "label": "Artist",
+        "text": "hedi slimane"
+      },
+      {
+        "start": 640,
+        "end": 653,
+        "label": "Clothing",
+        "text": "pr\u00eat-\u00e0-porter"
+      },
+      {
+        "start": 664,
+        "end": 685,
+        "label": "Designer",
+        "text": "diane von furstenberg"
+      },
+      {
+        "start": 704,
+        "end": 715,
+        "label": "Artist",
+        "text": "alber elbaz"
+      },
+      {
+        "start": 753,
+        "end": 766,
+        "label": "Clothing",
+        "text": "pr\u00eat-\u00e0-porter"
+      },
+      {
+        "start": 779,
+        "end": 796,
+        "label": "Artist",
+        "text": "jonathan anderson"
+      },
+      {
+        "start": 806,
+        "end": 818,
+        "label": "Artist",
+        "text": "hedi slimane"
+      },
+      {
+        "start": 822,
+        "end": 835,
+        "label": "Clothing",
+        "text": "pr\u00eat-\u00e0-porter"
+      }
+    ],
+    "categories": []
+  },
+  {
+    "text": "louis vuitton se fait aussi particuli\u00e8rement remarqu\u00e9 avec l\u00e9a seydoux au bras de olivier rousteing avec une robe de cocktail paillet\u00e9e.\ndior se fait aussi particuli\u00e8rement remarqu\u00e9 avec emma watson au bras de riccardo tisci avec une robe de soir\u00e9e vermillon.\ngucci se fait aussi particuli\u00e8rement remarqu\u00e9 avec tilda swinton au bras de john galliano avec une robe de bal verte \u00e9meraude.",
+    "identifier": "a62886ab-c553-4153-894f-33ac31e17c33-augmentedby-substitute_entities",
+    "title": "a62886ab-c553-4153-894f-33ac31e17c33",
+    "metadata": {
+      "corpus": "dev",
+      "language": "fr",
+      "augmentedby": "substitute_entities"
+    },
+    "sentences": [
+      {
+        "start": 0,
+        "end": 137
+      },
+      {
+        "start": 137,
+        "end": 260
+      },
+      {
+        "start": 260,
+        "end": 386
+      }
+    ],
+    "annotations": [
+      {
+        "start": 0,
+        "end": 13,
+        "label": "PrivateCorp",
+        "text": "Louis Vuitton"
+      },
+      {
+        "start": 59,
+        "end": 70,
+        "label": "Artist",
+        "text": "L\u00e9a Seydoux"
+      },
+      {
+        "start": 82,
+        "end": 99,
+        "label": "Artist",
+        "text": "Olivier Rousteing"
+      },
+      {
+        "start": 109,
+        "end": 125,
+        "label": "Clothing",
+        "text": "robe de cocktail"
+      },
+      {
+        "start": 137,
+        "end": 141,
+        "label": "PrivateCorp",
+        "text": "Dior"
+      },
+      {
+        "start": 187,
+        "end": 198,
+        "label": "Artist",
+        "text": "Emma Watson"
+      },
+      {
+        "start": 210,
+        "end": 224,
+        "label": "Artist",
+        "text": "Riccardo Tisci"
+      },
+      {
+        "start": 234,
+        "end": 248,
+        "label": "Clothing",
+        "text": "robe de soir\u00e9e"
+      },
+      {
+        "start": 260,
+        "end": 265,
+        "label": "PrivateCorp",
+        "text": "Gucci"
+      },
+      {
+        "start": 311,
+        "end": 324,
+        "label": "Artist",
+        "text": "Tilda Swinton"
+      },
+      {
+        "start": 336,
+        "end": 349,
+        "label": "Artist",
+        "text": "John Galliano"
+      },
+      {
+        "start": 359,
+        "end": 370,
+        "label": "Clothing",
+        "text": "robe de bal"
+      }
+    ],
+    "categories": []
+  },
+  {
+    "text": "among his other work is his design for the gold tiara for kate middleton's marriage to prince william in 2011. \namong her other work is her design for the crown for queen elizabeth ii's coronation in 1953, worn by prince phillip. \namong their other work is their design for the platinum diadem for diana spencer's wedding to prince charles in 1981. \namong his other work is his design for the ruby circlet for meghan markle's wedding to prince harry in 2018. \namong her other work is her design for the pearl headband for grace kelly's wedding to prince rainier iii in 1956.",
+    "identifier": "b7e40aa5-993b-44a0-826e-f9d1b0452fa3-augmentedby-substitute_entities",
+    "title": "b7e40aa5-993b-44a0-826e-f9d1b0452fa3",
+    "metadata": {
+      "corpus": "train",
+      "augmentedby": "substitute_entities"
+    },
+    "sentences": [
+      {
+        "start": 0,
+        "end": 112
+      },
+      {
+        "start": 112,
+        "end": 231
+      },
+      {
+        "start": 231,
+        "end": 350
+      },
+      {
+        "start": 350,
+        "end": 460
+      },
+      {
+        "start": 460,
+        "end": 574
+      }
+    ],
+    "annotations": [
+      {
+        "start": 48,
+        "end": 53,
+        "label": "Clothing",
+        "text": "tiara"
+      },
+      {
+        "start": 58,
+        "end": 72,
+        "label": "Artist",
+        "text": "kate middleton"
+      },
+      {
+        "start": 87,
+        "end": 101,
+        "label": "Athlete",
+        "text": "prince william"
+      },
+      {
+        "start": 155,
+        "end": 160,
+        "label": "Clothing",
+        "text": "crown"
+      },
+      {
+        "start": 165,
+        "end": 183,
+        "label": "Artist",
+        "text": "queen elizabeth ii"
+      },
+      {
+        "start": 214,
+        "end": 228,
+        "label": "Artist",
+        "text": "prince phillip"
+      },
+      {
+        "start": 287,
+        "end": 293,
+        "label": "Clothing",
+        "text": "diadem"
+      },
+      {
+        "start": 298,
+        "end": 311,
+        "label": "Artist",
+        "text": "diana spencer"
+      },
+      {
+        "start": 325,
+        "end": 339,
+        "label": "Athlete",
+        "text": "prince charles"
+      },
+      {
+        "start": 398,
+        "end": 405,
+        "label": "Clothing",
+        "text": "circlet"
+      },
+      {
+        "start": 410,
+        "end": 423,
+        "label": "Artist",
+        "text": "meghan markle"
+      },
+      {
+        "start": 437,
+        "end": 449,
+        "label": "Athlete",
+        "text": "prince harry"
+      },
+      {
+        "start": 509,
+        "end": 517,
+        "label": "Clothing",
+        "text": "headband"
+      },
+      {
+        "start": 522,
+        "end": 533,
+        "label": "Artist",
+        "text": "grace kelly"
+      },
+      {
+        "start": 547,
+        "end": 565,
+        "label": "Athlete",
+        "text": "prince rainier iii"
+      }
+    ],
+    "categories": []
+  }
+]
