@@ -1,0 +1,16 @@
+dhosting/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dhosting/adapter.py,sha256=kQTWAUxRFjeGlm_Pj1ByZjgr7GZYpKeWghFbUmLHOl8,2757
+dhosting/base_email.py,sha256=54pspfkiZTFoC_xvAdAJoiCZkT_NdWVYl7u7qeBkldI,830
+dhosting/connection.py,sha256=ff_rzszhi0XiNjczQ0IS_LlCZ0KN5FBN32GHKMHy7ZQ,4397
+dhosting/exceptions.py,sha256=BbECLyewemX5fyxPydWuEodFHousPkCD1566KMwpm1o,564
+dhosting/utils.py,sha256=6CFZRcvlmu5qq0Hy6THj29-WrwN54ROuAA9GZg_D4qk,2971
+dhosting_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dhosting_api/adapter.py,sha256=1HsySxrG57rVzTVQ_n-sOZ_u0QRopLp4Tczzb9W3hXk,2851
+dhosting_api/base_email.py,sha256=54pspfkiZTFoC_xvAdAJoiCZkT_NdWVYl7u7qeBkldI,830
+dhosting_api/connection.py,sha256=an59yF0_bbJCvvg0pCpEXNccFttYT0nwwfDLXa35EaQ,4815
+dhosting_api/exceptions.py,sha256=PD7Lo2i8vzx0cJI5d2nnY02rC5JZt4585SxtsBr-Boo,615
+dhosting_api/utils.py,sha256=6CFZRcvlmu5qq0Hy6THj29-WrwN54ROuAA9GZg_D4qk,2971
+dhosting_api-1.0.dist-info/METADATA,sha256=Bd8uCScR_fvy-kl16kohxz_VyRggc23y7XhazL94zF4,782
+dhosting_api-1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+dhosting_api-1.0.dist-info/top_level.txt,sha256=sKiL0eDShoBCCx2New7_1OMJkxHZvLvhOQPiI-GZmBc,13
+dhosting_api-1.0.dist-info/RECORD,,
