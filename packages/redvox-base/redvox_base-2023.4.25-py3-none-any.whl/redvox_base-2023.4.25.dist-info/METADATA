@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: redvox-base
+Version: 2023.4.25
+Summary: Specifies base dependencies used by multiple RedVox, Inc projects.
+Author: RedVox, Inc
+Requires-Python: >=3.8
+Provides-Extra: dev
+Requires-Dist: pylint (==2.17.3) ; extra == 'dev'
+Requires-Dist: mypy (==1.2.0) ; extra == 'dev'
+Requires-Dist: pdoc3 (==0.10.0) ; extra == 'dev'
+Requires-Dist: coverage (==7.2.3) ; extra == 'dev'
+Requires-Dist: twine (==4.0.2) ; extra == 'dev'
+Requires-Dist: wheel (==0.40.0) ; extra == 'dev'
+Requires-Dist: build (==0.10.0) ; extra == 'dev'
+Provides-Extra: keras
+Requires-Dist: keras (==2.12.0) ; extra == 'keras'
+Provides-Extra: lz4
+Requires-Dist: lz4 (==4.3.2) ; extra == 'lz4'
+Provides-Extra: matplotlib
+Requires-Dist: matplotlib (==3.7.1) ; extra == 'matplotlib'
+Provides-Extra: numpy
+Requires-Dist: numpy (==1.24.3) ; extra == 'numpy'
+Provides-Extra: pandas
+Requires-Dist: pandas (==2.0.1) ; extra == 'pandas'
+Provides-Extra: protobuf
+Requires-Dist: protobuf (==4.22.3) ; extra == 'protobuf'
+Provides-Extra: pyserde
+Requires-Dist: pyserde (==0.10.4) ; extra == 'pyserde'
+Provides-Extra: scikit-learn
+Requires-Dist: scikit-learn (==1.2.2) ; extra == 'scikit-learn'
+Provides-Extra: scipy
+Requires-Dist: scipy (==1.10.1) ; extra == 'scipy'
+Provides-Extra: tensorflow
+Requires-Dist: tensorflow (==2.12.0) ; extra == 'tensorflow'
+Provides-Extra: tensorflow-hub
+Requires-Dist: tensorflow-hub (==0.13.0) ; extra == 'tensorflow-hub'
+Provides-Extra: toml
+Requires-Dist: toml (==0.10.2) ; extra == 'toml'
+Requires-Dist: tomli (==2.0.1) ; extra == 'toml'
+Requires-Dist: tomli-w (==1.0.0) ; extra == 'toml'
+
