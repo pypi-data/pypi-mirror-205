@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: sentient-switchblade
+Version: 0.1.0
+Summary: Unleash Dev Tool Mastery with a Flick of Your Wrist
+Home-page: https://kegstand.dev/sentient-switchblade
+License: MIT
+Author: JensRoland
+Author-email: mail@jensroland.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: PyGithub (>=1.58.1,<2.0.0)
+Requires-Dist: checksumdir (>=1.2.0,<2.0.0)
+Requires-Dist: click (>=8.0.3,<9.0.0)
+Requires-Dist: tomlkit (>=0.11.7,<0.12.0)
+Project-URL: Repository, https://github.com/jensroland/sentient-switchblade
