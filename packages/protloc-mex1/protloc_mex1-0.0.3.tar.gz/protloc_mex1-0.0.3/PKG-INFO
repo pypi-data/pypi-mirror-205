@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: protloc_mex1
+Version: 0.0.3
+Summary: ...
+Author-email: Ze Yu Luo <1024226968@qq.com>
+Project-URL: Homepage, https://github.com/yujuan-zhang/ProtLoc-mexl
+Project-URL: Bug Tracker, https://github.com/yujuan-zhang/ProtLoc-mexl/issues
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# ProtLoc-mexl
+This project provides a pipeline for fast construction of subcellular localization prediction and model interpretation, with 42 amino acid feature characterization algorithms and GO feature extraction based on Doc2Vec. In addition, two random forest models for protein localization prediction are also provided.
+
+As the manuscript is still under review, we have not fully released the core code and pre-trained models of ProtLoc-Mex1. If you need the core code, please contact the author at 1024226968@qq.com by email.
