@@ -1,0 +1,5 @@
+setup.py
+xgh_say_hello.egg-info/PKG-INFO
+xgh_say_hello.egg-info/SOURCES.txt
+xgh_say_hello.egg-info/dependency_links.txt
+xgh_say_hello.egg-info/top_level.txt
