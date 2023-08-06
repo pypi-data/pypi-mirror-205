@@ -1,0 +1,8 @@
+opengeode_geode/__init__.py,sha256=J3Y4AqL38XzaCHxYIZ0_3o37bJhdTKVQ-xaisBzwBuU,70
+opengeode_geode/model.py,sha256=w-kYrkA9OUAwMlzpW6Cy-uI57EyjgacXc5qfVwxky9M,181
+opengeode_geode/bin/OpenGeode_geode_model.dll,sha256=iMJ8gFEj3qYN0g4MQWqAy9wzm5Ne5GXOfeEsKToLDmk,19456
+opengeode_geode/bin/opengeode_geode_py_model.cp310-win_amd64.pyd,sha256=hgImjjjXtwbJjTkZhjnUKKA9IsN9euiI2cS7dSiLMMM,146432
+OpenGeode_core.geode-0.0.0.dist-info/METADATA,sha256=0ktC5sfwnVExVDL2FGYp2yvXMEFo_z37-NtmLJR0ld8,2804
+OpenGeode_core.geode-0.0.0.dist-info/WHEEL,sha256=jrOhEbqKwvzRFSJcbYXlJCyVkgVdHg4_7__YHrdTUfw,102
+OpenGeode_core.geode-0.0.0.dist-info/top_level.txt,sha256=f3YVlb1wlHTsXDNEK7sA7b93Da-XhgUJ_cQqkrD99Cg,16
+OpenGeode_core.geode-0.0.0.dist-info/RECORD,,
