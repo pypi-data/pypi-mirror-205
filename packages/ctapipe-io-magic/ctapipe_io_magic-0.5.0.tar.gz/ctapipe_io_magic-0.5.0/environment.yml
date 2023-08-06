@@ -1,0 +1,24 @@
+name: magicio
+channels:
+  - conda-forge
+  - default
+dependencies:
+  - astropy=5
+  - python=3.10
+  - ctapipe=0.17
+  - eventio
+  - corsikaio
+  - zeromq
+  - ipython
+  - numba
+  - numpy=1.22
+  - numpydoc
+  - pytest
+  - pyyaml
+  - scipy
+  - zlib
+  - pip
+  - h5py
+  - pip:
+      - pytest_runner
+      - uproot~=5.0
