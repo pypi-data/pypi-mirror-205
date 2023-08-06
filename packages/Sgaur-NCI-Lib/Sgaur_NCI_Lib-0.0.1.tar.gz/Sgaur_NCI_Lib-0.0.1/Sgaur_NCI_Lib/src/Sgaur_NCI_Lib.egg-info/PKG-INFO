@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: Sgaur-NCI-Lib
+Version: 0.0.1
+Summary: Sample Library for Laboratory Application
+Author: Shubham Gaur NCI
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+A sample python Library deployment utility for Library Application. CPP Project. x22168044.

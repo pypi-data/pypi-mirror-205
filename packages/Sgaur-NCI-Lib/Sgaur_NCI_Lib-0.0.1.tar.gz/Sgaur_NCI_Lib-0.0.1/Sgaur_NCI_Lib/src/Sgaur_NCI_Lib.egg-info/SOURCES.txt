@@ -1,0 +1,10 @@
+setup.py
+Sgaur_NCI_Lib/src/Sgaur_NCI_Lib.egg-info/PKG-INFO
+Sgaur_NCI_Lib/src/Sgaur_NCI_Lib.egg-info/SOURCES.txt
+Sgaur_NCI_Lib/src/Sgaur_NCI_Lib.egg-info/dependency_links.txt
+Sgaur_NCI_Lib/src/Sgaur_NCI_Lib.egg-info/top_level.txt
+Sgaur_NCI_Lib/src/Sgaur_NCI_Lib.py
+Sgaur_NCI_Lib/src/Sgaur_NCI_Lib.egg-info/PKG-INFO
+Sgaur_NCI_Lib/src/Sgaur_NCI_Lib.egg-info/SOURCES.txt
+Sgaur_NCI_Lib/src/Sgaur_NCI_Lib.egg-info/dependency_links.txt
+Sgaur_NCI_Lib/src/Sgaur_NCI_Lib.egg-info/top_level.txt
