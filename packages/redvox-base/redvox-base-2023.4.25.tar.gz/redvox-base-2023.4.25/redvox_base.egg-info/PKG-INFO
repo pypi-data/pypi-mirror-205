@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: redvox-base
+Version: 2023.4.25
+Summary: Specifies base dependencies used by multiple RedVox, Inc projects.
+Author: RedVox, Inc
+Requires-Python: >=3.8
+Provides-Extra: dev
+Provides-Extra: keras
+Provides-Extra: lz4
+Provides-Extra: matplotlib
+Provides-Extra: numpy
+Provides-Extra: pandas
+Provides-Extra: protobuf
+Provides-Extra: pyserde
+Provides-Extra: scikit-learn
+Provides-Extra: scipy
+Provides-Extra: tensorflow
+Provides-Extra: tensorflow-hub
+Provides-Extra: toml
