@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: pomodoro-timer-cli
+Version: 0.2.0
+Summary: A simple CLI-based tomato timer.
+License: MIT
+Author: hungtsetse
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: miniaudio (>=1.56,<2.0)
+Requires-Dist: rich (>=13.3.5,<14.0.0)
+Requires-Dist: typer (>=0.7.0,<0.8.0)
+Description-Content-Type: text/markdown
+
+# pomodoro-timer-cli
+A simple CLI-based tomato timer.
+
+## Installation
+```bash
+pip install pomodoro-timer-cli
+```
+
+## Example
+```bash
+pomodoro
+```
+```bash
+pomodoro --help
+```
+

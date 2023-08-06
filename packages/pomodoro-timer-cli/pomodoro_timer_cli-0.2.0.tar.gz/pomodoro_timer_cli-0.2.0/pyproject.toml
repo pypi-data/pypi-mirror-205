@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pomodoro-timer-cli"
+version = "0.2.0"
+description = "A simple CLI-based tomato timer."
+authors = ["hungtsetse"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+rich = "^13.3.5"
+typer = "^0.7.0"
+miniaudio = "^1.56"
+
+[tool.poetry.scripts]
+pomodoro = "pomodoro_timer_cli.pomodoro:cli"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
