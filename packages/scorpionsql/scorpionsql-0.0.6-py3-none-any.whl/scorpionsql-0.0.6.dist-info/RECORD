@@ -1,0 +1,13 @@
+scorpionsql/__init__.py,sha256=CHUdJvPS3l7PphMt_r17ufrpB0TIJkmifpqmTNjwh84,22
+scorpionsql/aggerror.py,sha256=N8gqRnZVIeIbwRT1td_DxY7G5rljqXlMqJuxQILO_vA,1797
+scorpionsql/db.py,sha256=wRuMnq53GdHoP7-334g0eXCsCV2xSBKHvk8Nl0fMDY4,2430
+scorpionsql/errfunc.py,sha256=U8-d7tBgk5YzKt60SI3cVbvT1OXmIWPwbARWImib2_g,10597
+scorpionsql/functions.py,sha256=aS0tgFDEh_wHbXnTRf4CEJTOW6M-iyfqXHJ2x2iWuwA,8682
+scorpionsql/settings.py,sha256=89O1RpD-yuvHX8LfcATioUvwAnbhoFeB2MVU92i3N1Y,36
+scorpionsql/sql.py,sha256=j-y0-9dtphdoELavxEa0VaLmHq1mUbBg4mNGER6xqFo,8183
+scorpionsql/sqlparser.py,sha256=kQYsgL1AbJ0o4JUTGMl-p0ltyeeThezIxff6rP70DnI,5087
+scorpionsql-0.0.6.dist-info/LICENSE,sha256=Y4hq9Az-uYh56CHT2Ai5Du7BN5oouDDIQ7MarkirhSc,1054
+scorpionsql-0.0.6.dist-info/METADATA,sha256=cearcLnKxl8H7yBqlAbYCcgBC_kTLyRyUwYpOUJhqlY,368
+scorpionsql-0.0.6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+scorpionsql-0.0.6.dist-info/top_level.txt,sha256=fbz5jLohjuAdYJaKN54DMue34frfTbtvhPwPAsEs4TU,12
+scorpionsql-0.0.6.dist-info/RECORD,,
