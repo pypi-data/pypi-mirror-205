@@ -1,0 +1,7 @@
+setup.py
+anyplusone/anyplusone.py
+anyplusone.egg-info/PKG-INFO
+anyplusone.egg-info/SOURCES.txt
+anyplusone.egg-info/dependency_links.txt
+anyplusone.egg-info/not-zip-safe
+anyplusone.egg-info/top_level.txt
