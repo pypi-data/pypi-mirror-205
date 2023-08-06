@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pybullet-suite
+Version: 0.0.13
+Summary: Pybullet wrapper for easy use
+Author: Kanghyun Kim
+Author-email: kh11kim@kaist.ac.kr
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pybullet
+Requires-Dist: trimesh
+
