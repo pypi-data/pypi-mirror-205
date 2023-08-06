@@ -1,0 +1,6 @@
+setup.py
+pythoncolourlibraryV1/__init__.py
+pythoncolourlibraryV1.egg-info/PKG-INFO
+pythoncolourlibraryV1.egg-info/SOURCES.txt
+pythoncolourlibraryV1.egg-info/dependency_links.txt
+pythoncolourlibraryV1.egg-info/top_level.txt
