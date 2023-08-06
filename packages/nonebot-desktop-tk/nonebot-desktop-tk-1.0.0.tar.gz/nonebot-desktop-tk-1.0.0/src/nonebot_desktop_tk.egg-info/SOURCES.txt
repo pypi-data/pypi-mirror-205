@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/nonebot_desktop_tk/__init__.py
+src/nonebot_desktop_tk/__main__.py
+src/nonebot_desktop_tk/gui.py
+src/nonebot_desktop_tk.egg-info/PKG-INFO
+src/nonebot_desktop_tk.egg-info/SOURCES.txt
+src/nonebot_desktop_tk.egg-info/dependency_links.txt
+src/nonebot_desktop_tk.egg-info/requires.txt
+src/nonebot_desktop_tk.egg-info/top_level.txt
