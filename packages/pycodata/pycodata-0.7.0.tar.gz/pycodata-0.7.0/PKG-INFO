@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: pycodata
+Version: 0.7.0
+Summary: pycodata
+Home-page: https://milanskocic.github.io/codata/index.html
+Download-URL: https://github.com/MilanSkocic/codata
+Author: Milan Skocic
+Author-email: milan.skocic@icloud.com
+Maintainer: Milan Skocic
+Maintainer-email: milan.skocic@icloud.com
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+
+Description
+============
+
+.. readme_inclusion_start
+
+Python module containing the codata constants.
+
+For now, the wrapper must be compiled using the compiler 
+that was used to compile your python interpreter.
+
+.. readme_inclusion_end
+
+Installation
+===================
+See  ``INSTALL.txt``.
+
+Dependencies
+================
+
+See ``requirements.txt``.
+
+
+License information
+===========================
+See ``LICENSE.txt``.
