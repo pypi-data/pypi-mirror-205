@@ -1,0 +1,9 @@
+README.md
+setup.py
+tests/test_add.py
+ztestupload/__init__.py
+ztestupload/add.py
+ztestupload.egg-info/PKG-INFO
+ztestupload.egg-info/SOURCES.txt
+ztestupload.egg-info/dependency_links.txt
+ztestupload.egg-info/top_level.txt
