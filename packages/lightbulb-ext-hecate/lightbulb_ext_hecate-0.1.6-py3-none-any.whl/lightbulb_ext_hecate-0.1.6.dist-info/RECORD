@@ -1,0 +1,15 @@
+lightbulb/ext/hecate/__init__.py,sha256=x79ZHCZQDDTiFVWC4WZNywwY5Hy5q7KCZT6n6xi0JTA,451
+lightbulb/ext/hecate/__main__.py,sha256=nO2FgxIfJxdhP2WPG0Ylndmolfp9xItPDGUC7oK3xdE,838
+lightbulb/ext/hecate/errors.py,sha256=Fzw-Uio3dMoJZhXWvSfjkZB9oAqrqVcekSILoW3-tFY,1020
+lightbulb/ext/hecate/params.py,sha256=HM00tPAoWofrcRuL5OTcfQsIQVRo63q43KqfuKijKWA,1776
+lightbulb/ext/hecate/plugin.py,sha256=zaHsUnMicp_zoiMnz0TPyEE59qehTLMWG75iw6x4cuo,9341
+lightbulb/ext/hecate/properties.py,sha256=patLN0Cue9iAE35gBLGdnxQWsS5Jb8Pg0jxVa4tjokY,1452
+lightbulb/ext/hecate/template/__modify__.py,sha256=nZ9z4qpWL0XauOi0aMSOplkQ3Wug6Acv2PbW22bhwKs,651
+lightbulb/ext/hecate/template/events/GuildMessageCreateEvent.py,sha256=WqAWvvzf76w0QfOGa4bJBrEyj9dctt_CmxI6CPW6BGw,354
+lightbulb/ext/hecate/template/events/_GuildMessageDeleteEvent.py,sha256=tQ9xr86zk_1WsjcdMFMbbGw7AXzO04ezWZBr1pCwAK4,450
+lightbulb/ext/hecate/template/slash-commands/ping.py,sha256=UW0cryQR4SUT-78UD-uGlE3a9g8mGtFujbdiUNus1cQ,959
+lightbulb/ext/hecate/template/slash-commands/pong_count.py,sha256=GE3jRETFtPU0CFpnF2n5ETeu240E5tkY73VL1KCuq7k,663
+lightbulb_ext_hecate-0.1.6.dist-info/LICENSE,sha256=pRagDe5wQuD5br6bQKDysEqZEG9Y-Oi_kPeqWWi5N_Q,1063
+lightbulb_ext_hecate-0.1.6.dist-info/METADATA,sha256=OxJbZAuHBtpwIXR21gjAAarNSRHYJ3owvfEMJVw1VJc,6463
+lightbulb_ext_hecate-0.1.6.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+lightbulb_ext_hecate-0.1.6.dist-info/RECORD,,
