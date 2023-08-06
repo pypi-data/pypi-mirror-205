@@ -1,0 +1,14 @@
+psquared_client/__init__.py,sha256=Et9vB7EK_24W_klgK0Ihev06jutfx5kECzsb3d1bvjk,268
+psquared_client/display.py,sha256=OZjXCTt9B_fw524Z0ALl8jTw6eHPylvn1qXILE_kLZo,9822
+psquared_client/pp_cli.py,sha256=WRMSa548-ZDcPYu_GHdwFDm8sk6rO0KI1TRPmw3o-RU,20885
+psquared_client/psquared.py,sha256=-oSGar4e_V83qKH64IPJDj6G7WsvvF-CLVyt8LmzwO4,27124
+psquared_client/psquared_utils.py,sha256=Bv48HxhAT92MMQxvSPfPm11_cLJ2HERfj-LyGWdoHn4,13963
+psquared_client/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+psquared_client/request_error.py,sha256=vDBy86uInaPa-ZjWpPNP3x06H0_2sYOL0moHy8QcoNI,264
+psquared_client/response_error.py,sha256=nKUiBXH5IHaMl0MbsNDWmhvInUTUKmgEutI3Bgy7Hpk,361
+psquared_client/utils.py,sha256=PWs9PS8I7sxbFGblLNuahf9xmnb6ilZYf7YM7uoyF5w,3589
+psquared_client-3.0.0.dist-info/METADATA,sha256=js3Kp8FCekG4yaRvKW0G9eUr8KME_GFj6qP_ceK0hm4,501
+psquared_client-3.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+psquared_client-3.0.0.dist-info/entry_points.txt,sha256=lfU9uajakdRS512W6P6OoJE52-oJnZQolG5Kd8o3Ce8,55
+psquared_client-3.0.0.dist-info/top_level.txt,sha256=wh3R9DbDtGg7RmSf6na-1rbxzSHX8h-GUOz95Yh7Jqc,16
+psquared_client-3.0.0.dist-info/RECORD,,

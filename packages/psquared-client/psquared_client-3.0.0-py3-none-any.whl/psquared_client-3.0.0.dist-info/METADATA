@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: psquared-client
+Version: 3.0.0
+Summary: Manage the connection and communications to a PSquared server.
+Author-email: Simon Patton <sjpatton@lbl.gov>
+License: BSD-3-Clause-LBNL
+Keywords: psqured,psquared_client,pp-cli
+Classifier: Development Status :: 5 - Production/Stable 
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: <4,>=3.10
+Requires-Dist: requests (>2.28)
+
