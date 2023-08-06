@@ -1,0 +1,22 @@
+WORKDIR {{ home_dir_in_container.as_posix() }}
+
+COPY {{ tungstenkit_dir_in_build_ctx.as_posix()}} {{ tungstenkit_dir_in_container.as_posix()}}
+
+ENTRYPOINT ["{{ entrypoint.split(maxsplit=1)[0] }}"{% for e in entrypoint.split()[1:] %},"{{ e }}"{% endfor %}]
+
+{% if use_conda %}
+RUN --mount=type=cache,target=/opt/conda/pkgs conda create --yes -q -n=tungsten python={{ python_version }} && \
+    echo "conda activate tungsten" >> /etc/skel/.bashrc && \
+    echo "conda activate tungsten" >> ~/.bashrc
+{% endif %}
+
+RUN --mount=type=cache,target=/root/.cache/pip cd {{ tungstenkit_dir_in_container.as_posix()}} && pip install .
+
+{% if env_vars %}
+ENV{% for key, val in env_vars.items() %} {{ key }}={{ val }}{% endfor %}
+{% endif %}
+
+LABEL device="{{ device }}"
+{% if gpu_mem_gb %}
+LABEL gpu_mem_gb="{{ gpu_mem_gb }}"
+{% endif %}
