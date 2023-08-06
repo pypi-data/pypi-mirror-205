@@ -1,0 +1,14 @@
+LICENSE
+README.md
+VERSION.md
+pyproject.toml
+singleton_class_decorator/MetaClasses.py
+singleton_class_decorator/__init__.py
+singleton_class_decorator/singleton.py
+singleton_class_decorator/utils.py
+singleton_class_decorator.egg-info/PKG-INFO
+singleton_class_decorator.egg-info/SOURCES.txt
+singleton_class_decorator.egg-info/dependency_links.txt
+singleton_class_decorator.egg-info/top_level.txt
+tests/test_meta_classes.py
+tests/test_singleton.py
