@@ -1,0 +1,1 @@
+This is a very simple run rate calculator for cricket in this we takes value the average number of runs scored by a team per over. It can be calculated and give you a correct output.
