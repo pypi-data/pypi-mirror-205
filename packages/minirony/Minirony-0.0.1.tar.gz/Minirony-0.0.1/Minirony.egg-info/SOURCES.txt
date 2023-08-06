@@ -1,0 +1,12 @@
+setup.py
+Minirony.egg-info/PKG-INFO
+Minirony.egg-info/SOURCES.txt
+Minirony.egg-info/dependency_links.txt
+Minirony.egg-info/top_level.txt
+minirony/__init__.py
+minirony/data_transfer.py
+minirony/factory.py
+minirony/helper.py
+minirony/manager.py
+minirony/provider.py
+minirony/spark.py
