@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: aiotaika
+Version: 0.1.1
+Summary: Taika asynchronous client library for Python
+Author-email: Taika Tech Oy <dev@taikatech.fi>
+Maintainer-email: Jussi Hietanen <jussi@taikatech.fi>
+License: LGPL-2.1 license
+Project-URL: Source code, https://github.com/Taika-Tech/aiotaika-python
+Project-URL: Issue tracker, https://github.com/Taika-Tech/aiotaika-python/issues
+Keywords: async,asyncio,taika,client,iot
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: lint
+Provides-Extra: format
+Provides-Extra: docs
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+# aiotaika
+
+[![Documentation Status](https://readthedocs.org/projects/aiotaika-python/badge/?version=stable)](https://aiotaika-python.readthedocs.io/en/stable/?badge=stable)
+
+## Taika asynchronous client library for Python
+
+Requires Python version 3 and uses asyncio with aiomysql and asyncio_mqtt
+libraries.
+
+For usage examples, see examples folder of the repository.
+
+You can find aiotaika's documentation from
+[Read the Docs](https://aiotaika-python.readthedocs.io/)
