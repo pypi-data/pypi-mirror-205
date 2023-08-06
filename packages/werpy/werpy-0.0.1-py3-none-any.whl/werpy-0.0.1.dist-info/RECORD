@@ -1,0 +1,12 @@
+werpy/__init__.py,sha256=PCOW46bNZpk9KdmnFTKcBrMSJ35fRGf_297CaBBVEJc,190
+werpy/metrics.py,sha256=QYrGshQrnNCY7xKicpcTsQWax7n3jCLbW_NwILcu7cI,4606
+werpy/normalize.py,sha256=pvBiMYTHb1L_6bPyfqAVNG5VRYGLCi0yyn9CXze59W8,5322
+werpy/summary.py,sha256=xLEjaMGi3sSRxlleIVnzGDEJdBk_BkLhXD83_u-VzmE,2633
+werpy/wer.py,sha256=VLXuMCz0SItYPJflnACdFHf1xJh4MMBv7_OoDbke0yg,2258
+werpy/werp.py,sha256=-5XX3K-5mxudNDpkfRtk2fe4VktQkHvACgze3Gk3Mg4,3415
+werpy/werps.py,sha256=8xWNDS-tvONlIl7T-hrNRX2AlhK-tXWTWyjXlt2H78M,3642
+werpy/wers.py,sha256=Zlt_KOUKZkXtDSIrkYePXEktmGJa54_ZHiTtTGH1VFY,2061
+werpy-0.0.1.dist-info/METADATA,sha256=dLdgNYxVz2EYZA93-AcAoZiSNSjiIMVzGGe4l7f-ObA,7772
+werpy-0.0.1.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+werpy-0.0.1.dist-info/licenses/LICENSE,sha256=elmEy7XRjVTKQaVBd-CM5NLYucMDve48tl9gyEfnG5E,1534
+werpy-0.0.1.dist-info/RECORD,,
