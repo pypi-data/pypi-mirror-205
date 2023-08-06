@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: cryptical
+Version: 0.3
+Summary: A simple GUI password manager
+Author: Harshit Tyagi
+Author-email: damnitharshit@gmail.com
+Requires-Dist: cryptography (>=40.0.1)
+Requires-Dist: customtkinter (>=5.1.2)
+Requires-Dist: Pillow (>=9.5.0)
+Requires-Dist: setuptools (>=67.6.1)
+
