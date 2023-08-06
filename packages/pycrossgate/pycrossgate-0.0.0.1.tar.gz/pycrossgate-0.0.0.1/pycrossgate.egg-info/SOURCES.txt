@@ -1,0 +1,10 @@
+setup.py
+Core/__init__.py
+gui/__init__.py
+hybrides/__init__.py
+pycrossgate.egg-info/PKG-INFO
+pycrossgate.egg-info/SOURCES.txt
+pycrossgate.egg-info/dependency_links.txt
+pycrossgate.egg-info/entry_points.txt
+pycrossgate.egg-info/top_level.txt
+serve/__init__.py

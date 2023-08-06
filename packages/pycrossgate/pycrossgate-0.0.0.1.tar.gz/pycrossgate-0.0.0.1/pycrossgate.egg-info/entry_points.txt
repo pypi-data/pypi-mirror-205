@@ -1,0 +1,2 @@
+[console_scripts]
+pycrossgate = pycrossgate.__main__:main
