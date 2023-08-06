@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: selfetch
+Version: 0.0.0.1
+Summary:  💦♻️"selfetch" is a Python package that automatically imports missing modules on-the-fly, saving time and effort during coding 🛠️⌛
+Home-page: https://github.com/yourusername/selfetch
+Author: Juste Elysée MALNADILA
+Author-email: malandilajusteelysee@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+
+ this is a Python package designed to facilitate the importation of missing modules during coding. Rather than requiring manual importation of modules that have not been previously utilized, "selfetch" enables automatic detection and importation of such modules in real-time. This feature streamlines the coding process by eliminating the need for users to manually manage imports, allowing them to focus on writing code without distraction. "selfetch" is available for installation via PyPI using pip.
