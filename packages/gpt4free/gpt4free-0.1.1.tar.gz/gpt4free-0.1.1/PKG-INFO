@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: gpt4free
+Version: 0.1.1
+Summary:  decentralising the Ai Industry, free gpt-4/3.5 scripts through several reverse engineered api's ( poe.com, phind.com, chat.openai.com, writesonic.com, sqlchat.ai, t3nsor.com, you.com etc...)
+Home-page: https://github.com/rzashakeri/gpt4free
+Author: Reza Shakeri
+Author-email: rzashakeri@gmail.com
+License: GNU General Public License v3
+Project-URL: Homepage, https://github.com/rzashakeri/gpt4free
+Project-URL: Issue tracker, https://github.com/rzashakeri/gpt4free/issues
+Project-URL: Release notes, https://github.com/rzashakeri/gpt4free/releases
+Project-URL: Source, https://github.com/rzashakeri/gpt4free
+Project-URL: Discussions, https://github.com/rzashakeri/gpt4free/discussions
+Keywords: gpt4free,ChatGPT,Free,FreeChatGPT,Ai
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.md
+
+decentralising the Ai Industry, free gpt-4/3.5 scripts through several reverse engineered api's ( poe.com, phind.com, chat.openai.com, writesonic.com, sqlchat.ai, t3nsor.com, you.com etc...)
+
+
