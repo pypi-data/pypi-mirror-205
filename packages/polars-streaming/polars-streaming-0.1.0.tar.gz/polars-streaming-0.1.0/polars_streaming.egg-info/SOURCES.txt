@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+polars_streaming/__init__.py
+polars_streaming/core.py
+polars_streaming/exceptions.py
+polars_streaming/fileProcessor.py
+polars_streaming/kafkaProcessor.py
+polars_streaming/readwriter.py
+polars_streaming/utils.py
+polars_streaming.egg-info/PKG-INFO
+polars_streaming.egg-info/SOURCES.txt
+polars_streaming.egg-info/dependency_links.txt
+polars_streaming.egg-info/requires.txt
+polars_streaming.egg-info/top_level.txt
