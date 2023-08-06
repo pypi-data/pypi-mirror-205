@@ -1,0 +1,11 @@
+jupyter_server<2,>=1.6
+pyyaml
+jupyter-server-proxy
+jsonschema
+
+[test]
+coverage
+pytest
+pytest-asyncio
+pytest-cov
+pytest-tornasync
