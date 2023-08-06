@@ -1,0 +1,45 @@
+<p align="center">
+    <img src="./docs/static/logo.png" />
+</p>
+<p align="center">
+    <b>Tool for teams that manage the creation and modification of the </b>CHANGELOG<b> based on a specified set of changes.</b>
+</p>
+
+[![Build Status](https://badgen.net/github/release/ricardoleal20/SemPyVer/stable/blue?icon=pypi)](https://github.io)
+[![Code Coverage](https://badgen.net/badge/coverage/unknown/green)](https://github.io)
+[![Checks](https://badgen.net/github/checks/ricardoleal20/SemPyVer/main/pink)](https://opensource.org/licenses/MIT)
+[![License](https://badgen.net/github/license/ricardoleal20/SemPyVer/pink)](https://opensource.org/licenses/MIT)
+
+## Installation
+
+To install `SemPyVer`, you can do it through pip:
+
+```
+pip install sempyver
+```
+
+Please consider that it requires `Python >=3.8`
+
+## Usage
+
+_Still on work_
+
+## Contributing
+
+We welcome contributions from everyone. Before contributing, please read our [code of conduct](CODE_OF_CONDUCT.md).
+
+To contribute to Project Name, follow these steps:
+
+1. Fork this repository.
+2. Create a new branch.
+3. Make your changes and commit them.
+4. Push your changes to your fork.
+5. Create a pull request.
+
+## License
+
+Project Name is released under the [MIT License](LICENSE).
+
+## Inspiration
+
+Inspired by [Changesets](https://github.com/changesets/changesets).
