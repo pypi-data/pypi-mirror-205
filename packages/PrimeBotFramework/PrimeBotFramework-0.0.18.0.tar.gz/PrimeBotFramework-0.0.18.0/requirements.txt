@@ -1,0 +1,15 @@
+hvac              ==1.0.2
+mongoengine       ==0.22.1
+elasticsearch-dsl ==7.3.0
+requests          >=2.28.1
+pyaml             >=21.10.1
+pydantic          >=1.10.2
+cx-Oracle         ==8.3.0
+datetime
+time
+api_codes
+model
+pprint
+enum
+ecs-logging
+sendgrid
