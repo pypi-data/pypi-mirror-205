@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+pytorchgan.egg-info/PKG-INFO
+pytorchgan.egg-info/SOURCES.txt
+pytorchgan.egg-info/dependency_links.txt
+pytorchgan.egg-info/requires.txt
+pytorchgan.egg-info/top_level.txt
+test/test.py
+torchgan/__init__.py
+torchgan/models.py
