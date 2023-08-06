@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: kojo
+Version: 0.13.2
+Summary: A library to transform data through a pipeline
+Home-page: https://gitlab.com/filchos/kojo
+Author: Olaf Schneider
+Author-email: mail@olafschneider.com
+License: GNU GPLv3
+Download-URL: https://gitlab.com/filchos/kojo/-/archive/0.13.2/kojo-0.13.2.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
