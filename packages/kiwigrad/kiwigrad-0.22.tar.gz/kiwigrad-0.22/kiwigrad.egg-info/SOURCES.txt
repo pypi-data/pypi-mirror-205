@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+kiwigrad/__init__.py
+kiwigrad/engine.c
+kiwigrad/engine.py
+kiwigrad/layers.py
+kiwigrad/neurons.py
+kiwigrad/nn.py
+kiwigrad/skeleton.py
+kiwigrad.egg-info/PKG-INFO
+kiwigrad.egg-info/SOURCES.txt
+kiwigrad.egg-info/dependency_links.txt
+kiwigrad.egg-info/top_level.txt
+test/test.py
