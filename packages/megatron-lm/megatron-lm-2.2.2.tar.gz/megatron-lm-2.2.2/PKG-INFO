@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: megatron-lm
+Version: 2.2.2
+Summary: A placeholder package for megatron-lm
+Home-page: https://github.com/ashishbijlani/megatron-lm
+Author: Ashish Bijlani
+Author-email: ashish.bijlani@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Placeholder package
+
+This is a placeholder for megatron-lm package v1.1.5 
+
+

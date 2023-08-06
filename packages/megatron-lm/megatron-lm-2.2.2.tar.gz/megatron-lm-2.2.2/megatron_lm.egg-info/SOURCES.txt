@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+megatron/__init__.py
+megatron_lm.egg-info/PKG-INFO
+megatron_lm.egg-info/SOURCES.txt
+megatron_lm.egg-info/dependency_links.txt
+megatron_lm.egg-info/top_level.txt
