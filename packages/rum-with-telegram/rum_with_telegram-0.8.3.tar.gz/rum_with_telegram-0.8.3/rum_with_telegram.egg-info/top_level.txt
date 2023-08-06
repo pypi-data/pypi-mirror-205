@@ -1,0 +1,2 @@
+local_test
+rum_with_telegram
