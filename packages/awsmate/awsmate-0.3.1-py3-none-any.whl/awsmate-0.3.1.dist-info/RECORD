@@ -1,0 +1,10 @@
+awsmate/__init__.py,sha256=Utv3MlChYGQmB4hK32ba31ZAPGESkojGwNjaMFKJLc4,67
+awsmate/apigateway.py,sha256=cfFDv4jir_dEIqR2ldr8bRJGgW8d1UgR6zP_1dk9JfA,52826
+awsmate/eventbridge.py,sha256=DmX3Ta1Bxg8K3Arr_9xyTVwOuQH3YrbAK_RUHdVZ3EU,4242
+awsmate/lambdafunction.py,sha256=v3bLHcNp7AV6QyrQue8RgufMsICnmGTzQmcMTZgBcFI,1713
+awsmate/logger.py,sha256=vUUqoaQ9zBRJgKDqT_9B5ZL4Nds1O9I_zYyKj0u1WGY,1190
+awsmate/s3.py,sha256=UBBCqJ90DV67mOEdxAQhrkmAmSO1TfauhLt49IDuGRI,6908
+awsmate-0.3.1.dist-info/METADATA,sha256=_fJb7SbXuGx3f-rRkN9gx9QnRtAq_V9e7GHIWqzXcsU,3115
+awsmate-0.3.1.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+awsmate-0.3.1.dist-info/licenses/LICENSE.txt,sha256=b8nnCcy_4Nd_v_okJ6mDKCvi64jkexzbSfIag7TR5mU,13827
+awsmate-0.3.1.dist-info/RECORD,,
