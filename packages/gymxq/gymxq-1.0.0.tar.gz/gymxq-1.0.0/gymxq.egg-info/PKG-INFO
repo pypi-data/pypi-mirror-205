@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: gymxq
+Version: 1.0.0
+License-File: LICENSE
+
+
+    gymnasium like Chinese xiangqi single agent reinforcement learning environment
+    
