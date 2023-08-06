@@ -1,0 +1,9 @@
+fps_lab/__init__.py,sha256=rPSfWgIeq2YWVPyESOAwCBt8vftsTpIkuLAGDEzyRQc,22
+fps_lab/main.py,sha256=zFazb3Bew2TozlBmT1TAA6pdhY6Ee1PHmI1bxV6z0wg,733
+fps_lab/routes.py,sha256=ujWVgIWd6WV04o4YyNRrl8I9waq4lOiAjqZwbJ-zU5Y,6739
+fps_lab/static/favicon.ico,sha256=wmOKif3jYzYX7GJAiHMMHb5NrxjU8uRHKezonfPmAXY,32038
+fps_lab-0.1.5.dist-info/METADATA,sha256=oy9fOIYfeXoQuIBpZxV6NFvqrqUKSQPJs1PfAEOOHy8,514
+fps_lab-0.1.5.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+fps_lab-0.1.5.dist-info/entry_points.txt,sha256=NDnoWDb3MKb3B7pXz7UVrAiG86KgyGY-p7OxZ4Crxoc,109
+fps_lab-0.1.5.dist-info/licenses/COPYING.md,sha256=mhO0ZW9EiWOPg0dUgB-lNbJ0CGwRmTdbeAg_se1SOnY,2833
+fps_lab-0.1.5.dist-info/RECORD,,
