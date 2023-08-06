@@ -1,0 +1,13 @@
+LICENSE
+pyproject.toml
+readme.md
+src/__init__.py
+src/htmllabel.py
+src/json2markdown.py
+src/parser.py
+src/HtmlPageParser.egg-info/PKG-INFO
+src/HtmlPageParser.egg-info/SOURCES.txt
+src/HtmlPageParser.egg-info/dependency_links.txt
+src/HtmlPageParser.egg-info/top_level.txt
+tests/test_json2markdown.py
+tests/test_parser.py
