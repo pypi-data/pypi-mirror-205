@@ -1,0 +1,17 @@
+aiomonobank/__init__.py,sha256=cCWCL_QHQKlwioeaG3iJTIdMOCa_Z0G_zn34o1NjRDY,143
+aiomonobank/api.py,sha256=NNb53H0-DU01tX6mzIum9Ndnvp3SJiINCYU4tY5SZkc,5925
+aiomonobank/base.py,sha256=_bBTmZqY2We3CxNjjPVNr0mY5_oq1txVTvfhFPGq9K0,4030
+aiomonobank/monobank.py,sha256=cSpKwcxNlFWD6KyK5fnG_kjbi6jQr5wylHTrsiYINRk,7761
+aiomonobank/types/__init__.py,sha256=799mYZ1Xo2sw6SOPCsoldhN-XDHSSC8ffTFUKdS58cQ,295
+aiomonobank/types/account.py,sha256=38ZoVMZjw_DyT1RRyb6_5ROGDC-SrweYmNy_zmGIE1I,1733
+aiomonobank/types/client_info.py,sha256=wEAHKxkA39s6UL6kesnKCb9G7LvAJYbWKgvoJbJs_Vo,846
+aiomonobank/types/currency.py,sha256=Cg--x0kzer-bqM8R367BHEdvFQyi_QcZ-bOvK4AvDrM,1171
+aiomonobank/types/jar.py,sha256=lAXP8zROPcRAn9xrSZaJxCpNaQ4Sroih_LD_0pRZdcA,1001
+aiomonobank/types/statement_item.py,sha256=aJDCecwCupHL7vRK329tj0txV2wnx9i1X8tzTWTayPY,3415
+aiomonobank/types/webhook_data.py,sha256=6s2T5nuQv_hhTZdBVQRPWxDcXYaOpYHaPKMJ6xhtH4A,471
+aiomonobank/utils/__init__.py,sha256=swomibp-LRHJMvjGH_CIbJzXHO7ms4fIg0nmFdxZSkc,357
+aiomonobank/utils/exceptions.py,sha256=-92ZqCq04EBBWJ1ch-KIzwownHU_qmL7hsYfYtcPdmc,2089
+aiomonobank-1.0.2.dist-info/METADATA,sha256=Ue-_74F-_EfNhmUYVweb9LJjWKcLiHsN55Q_HQUyFlk,5072
+aiomonobank-1.0.2.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+aiomonobank-1.0.2.dist-info/licenses/LICENSE,sha256=pAL1rqQ7Vr_B405SAQw_wYX8Wkm7xMnxLDdYPdsZbj8,1063
+aiomonobank-1.0.2.dist-info/RECORD,,
