@@ -1,0 +1,4 @@
+SpiNNMachine==1!7.0.0-a5
+
+[test]
+pytest-cov
