@@ -1,0 +1,40 @@
+
+__module_name__ = "setup.py"
+__doc__ = """PYPI package distribution setup."""
+__author__ = ", ".join(["Michael E. Vinyard"])
+__email__ = ", ".join(["mvinyard.ai@gmail.com"])
+
+
+# -- specify package version: --------------------------------------------------
+__version__ = "0.0.0"
+
+
+# -- import packages: ----------------------------------------------------------
+import setuptools
+import re
+import os
+import sys
+
+
+# -- run setup: ----------------------------------------------------------------
+setuptools.setup(
+    name="calicode",
+    version="0.0.0",
+    python_requires=">3.9.0",
+    author="Michael E. Vinyard",
+    author_email="mvinyard@g.harvard.edu",
+    url=None,
+    long_description=open("README.md", encoding="utf-8").read(),
+    long_description_content_type="text/markdown",
+    description="calicode",
+    packages=setuptools.find_packages(),
+    install_requires=[
+        "pandas>=2.0.1",     
+    ],
+    classifiers=[
+        "Development Status :: 2 - Pre-Alpha",
+        "Programming Language :: Python :: 3.9",
+        "Intended Audience :: Science/Research",
+    ],
+    license="MIT",
+)

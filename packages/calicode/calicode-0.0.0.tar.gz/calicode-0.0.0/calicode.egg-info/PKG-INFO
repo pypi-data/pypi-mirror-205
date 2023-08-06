@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: calicode
+Version: 0.0.0
+Summary: calicode
+Author: Michael E. Vinyard
+Author-email: mvinyard@g.harvard.edu
+License: MIT
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >3.9.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# calicode
