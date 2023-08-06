@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: PysTools
+Version: 0.0.2
+Summary: PysTools
+Author-email: hanmind <devzhao@126.com>
+Project-URL: Homepage, https://github.com/devzhaohan/HMTools
+Project-URL: Bug Tracker, https://github.com/devzhaohan/HMTools/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+
+
+### 依赖
+- requests-toolbelt:  https://toolbelt.readthedocs.io/
+- 
