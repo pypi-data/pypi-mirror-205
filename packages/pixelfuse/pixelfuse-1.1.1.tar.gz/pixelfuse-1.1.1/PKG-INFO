@@ -1,0 +1,90 @@
+Metadata-Version: 2.1
+Name: pixelfuse
+Version: 1.1.1
+Summary: Convert any file to video and video to file
+Home-page: https://github.com/TheTS-labs/PixelFuse
+License: GPL-3.0
+Keywords: video,file,converter
+Author: Roman
+Author-email: romantovt31@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: ffmpegio (>=0.8.3,<0.9.0)
+Requires-Dist: numpy (>=1.24.2,<2.0.0)
+Requires-Dist: opencv-python (>=4.7.0.72,<5.0.0.0)
+Requires-Dist: typer[all] (>=0.7.0,<0.8.0)
+Project-URL: Repository, https://github.com/TheTS-labs/PixelFuse
+Description-Content-Type: text/markdown
+
+# PixelFuse
+
+Convert any file to video and video to file.
+
+**WARNING: videos created from files are extremely fragile**
+
+## 💿 Installation
+
+* Set up using `pip`:
+```bash
+pip install pixelfuse
+```
+* Install from `Git`:
+```bash
+pip install git+https://github.com/TheTS-labs/PixelFuse.git
+```
+
+## Usage
+
+### Convert file to video(`convertToVideo`)
+
+To convert a file into a video just write the following command:
+```bash
+python -m pixelfuse fileToVideo "test/example.text.txt"
+```
+
+Where ["test/example.text.txt"](./test/example.text.txt) the file you want to convert to video
+
+As output you get the file `output.avi` - video 640x480, 1.0 FPS, codec HFYU [like this](https://drive.google.com/file/d/1OTZ9rF-6SI73BiLEwY4gJeJ2RVddLsfn/edit)
+
+As for the parameters:
+* `path: str` - mandatory, the path to the file you want to convert
+* `fps: float` - frame rate, default is `1.0`
+* `width: int` - Video length, default is `480px`
+* `height: int` - Video height, `640px` by default
+* `fourcc: str` - Codec, a string of 4 characters, **WARNING: Use lossless codecs ONLY**, default is "`HFYU`".
+* `output: str` - Path to output file, default is "`output.avi`", **note you need to use file extension compatible with codec, for example if you use `HFYU` codec you can NOT specify `output` as `output.mp4`**
+* `verbose: int` - Output level, from 0 to 3, default is 2
+
+### Convert video to file(`convertToFile`)
+
+To get your file back now you need to use this command:
+```bash
+python -m pixelfuse videoToFile "test/example.video.avi"
+```
+
+Where ["test/example.video.avi"](./test/example.video.avi) is the file you want to convert into
+
+As output, you will get the file with the name it was converted into a video. For example, if you converted the file "example.image.jpg", when you convert the video back to a file you get a file named example.image.jpg
+
+Regarding the parameters:
+* `path: str` - Mandatory, the path to the video you want to convert back to a file
+* `verbose: int` - Output level, from 0 to 2, default is 2
+* `decoder: str` - Which decoder to use, default is an empty string. Available decoders: 
+* * `v1` - Less memory efficient decoder, may be useful if standard decoder detects meta frame by mistake. Keep in mind that all video will be loaded into RAM
+* * Blank line - Standard decoder
+
+## Warning
+
+Because of the way this converter works, the video output is **very, very** fragile
+
+In order for you to be able to convert the file back, every pixel **MUST remain unchanged**, that is what you should avoid:
+* Use ONLY lossless codecs, as all other codecs corrupt the pixels. E.g. FFMPEG `FFV1`, Huffman `HFYU`, Lagarith `LAGS`, etc.
+* Do not convert videos to other formats, as this will most likely cause pixel damage
+* Keep in mind that if you upload videos to YouTube, it will re-encode the video(and, guess what, damage the pixels), so if you want to download videos from YouTube, you'll need to use [Google Takeout](https://takeout.google.com/)
+* Do not trim the video, it will trim some of the information, and therefore the file you converted
+* Do not apply filters to the video, for example. Anything that can change pixels will damage the file and you won't be able to decode it
+
