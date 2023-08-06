@@ -1,0 +1,9 @@
+{
+    "entity": {
+        "binary_sensor": {
+            "call_in_progress": {
+                "name": "Chamada em curso"
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "latitude": "Zemljepisna \u0161irina",
+                    "longitude": "Zemljepisna dol\u017eina",
+                    "name": "Naziv"
+                },
+                "description": "Vnesite podatke o svojih son\u010dnih kolektorjih. \u010ce vam podatek ni jasen, si oglejte dokumentacijo."
+            }
+        }
+    },
+    "options": {
+        "error": {
+            "invalid_api_key": "Neveljaven API klju\u010d"
+        },
+        "step": {
+            "init": {
+                "description": "Te vrednosti omogo\u010dajo prilagoditev rezultata Forecast.Solar. \u010ce vam podatek ni jasen, si oglejte dokumentacijo."
+            }
+        }
+    }
+}

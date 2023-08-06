@@ -1,0 +1,22 @@
+{
+    "state": {
+        "tuya__led_type": {
+            "halogen": "Halogen",
+            "incandescent": "Incandescent",
+            "led": "LED"
+        },
+        "tuya__light_mode": {
+            "none": "Oprit",
+            "pos": "Indic\u0103 loca\u021bia comutatorului",
+            "relay": "\u00cendic\u0103 starea pornit/oprit a comutatorului"
+        },
+        "tuya__relay_status": {
+            "last": "Re\u021bine ultima stare",
+            "memory": "Re\u021bine ultima stare",
+            "off": "Oprit",
+            "on": "Pornit",
+            "power_off": "Oprit",
+            "power_on": "Pornit"
+        }
+    }
+}
