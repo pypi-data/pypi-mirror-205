@@ -1,0 +1,6 @@
+README.md
+setup.py
+scraper_toolkit_pggm.egg-info/PKG-INFO
+scraper_toolkit_pggm.egg-info/SOURCES.txt
+scraper_toolkit_pggm.egg-info/dependency_links.txt
+scraper_toolkit_pggm.egg-info/top_level.txt
