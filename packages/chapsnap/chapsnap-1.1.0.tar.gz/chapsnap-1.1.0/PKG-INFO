@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: chapsnap
+Version: 1.1.0
+Summary: Resync Chapters by snapping them to Scene Changes.
+Home-page: https://github.com/rlaphoenix/ChapSnap
+Keywords: python,chapters,video,analysis,scene-detection
+Author: rlaphoenix
+Author-email: rlaphoenix@pm.me
+Requires-Python: >=3.7,<3.12
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Multimedia
+Classifier: Topic :: Multimedia :: Video
+Classifier: Topic :: Utilities
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: rich (>=13.3.4,<14.0.0)
+Project-URL: Bug Tracker, https://github.com/rlaphoenix/ChapSnap/issues
+Project-URL: Changelog, https://github.com/rlaphoenix/ChapSnap/blob/master/CHANGELOG.md
+Project-URL: Forums, https://github.com/rlaphoenix/ChapSnap/discussions
+Project-URL: Repository, https://github.com/rlaphoenix/ChapSnap
+Description-Content-Type: text/markdown
+
+# ChapSnap
+
+Resync Chapters by snapping them to Scene Changes.
+
+## To-do
+
+- [x] Automatically replace the chapters in the input video container.
+
+Likely lot's more.
+
+## Contributors
+
+<a href="https://github.com/rlaphoenix"><img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/17136956?v=4&h=25&w=25&fit=cover&mask=circle&maxage=7d" alt=""/></a>
+
+## License
+
+© 2023 rlaphoenix — [GNU General Public License, Version 3.0](LICENSE)
+
