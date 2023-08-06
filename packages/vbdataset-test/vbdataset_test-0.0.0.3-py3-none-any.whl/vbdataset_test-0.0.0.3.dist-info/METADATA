@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: vbdataset-test
+Version: 0.0.0.3
+Summary: test package
+Home-page: UNKNOWN
+Author: yoonhee
+Author-email: yhkim@ncsoft.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Requires-Dist: boto3
+Requires-Dist: pymongo
+Requires-Dist: tqdm
+
+UNKNOWN
+
