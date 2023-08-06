@@ -1,0 +1,10 @@
+aws_cdk/aws_vpclattice/__init__.py,sha256=cA2wwgKPxBwfIfVzQyO8tBQkn0z9dZ0Kre61yi0NSmw,283273
+aws_cdk/aws_vpclattice/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_vpclattice/_jsii/__init__.py,sha256=eVaHNxUlRZGZQjFzl8bxP0ne6RvM8-3MISdK1zxStFQ,426
+aws_cdk/aws_vpclattice/_jsii/aws-vpclattice@1.200.0.jsii.tgz,sha256=HP9gd9_XqgqG5Jgkl5hjj4uoT1WW6YvTEsZHD_pobEs,105941
+aws_cdk.aws_vpclattice-1.200.0.dist-info/LICENSE,sha256=YA6CL2YE08NgoURWXRTrec3mNy-KAR-_UNdiMqgNVMI,11391
+aws_cdk.aws_vpclattice-1.200.0.dist-info/METADATA,sha256=2vYcnBph452VNordikoVC84Fy5_PBbya2mKfU71ZYxM,3185
+aws_cdk.aws_vpclattice-1.200.0.dist-info/NOTICE,sha256=XtGET2JQh3C41orQUenLTefWItOqLmu2N-mGwW7t3Fo,113
+aws_cdk.aws_vpclattice-1.200.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+aws_cdk.aws_vpclattice-1.200.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_vpclattice-1.200.0.dist-info/RECORD,,
