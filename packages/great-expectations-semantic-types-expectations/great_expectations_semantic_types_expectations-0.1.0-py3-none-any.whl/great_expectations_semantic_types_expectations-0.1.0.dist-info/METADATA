@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: great-expectations-semantic-types-expectations
+Version: 0.1.0
+Summary: A collection of Expectations to validate Semantically Typed Data with Great Expectations.
+Author: Great Expectations
+Author-email: austin@greatexpectations.io
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: arxiv
+Requires-Dist: barcodenumber
+Requires-Dist: blockcypher
+Requires-Dist: coinaddrvalidator
+Requires-Dist: cryptoaddress
+Requires-Dist: cryptocompare
+Requires-Dist: disposable-email-domains
+Requires-Dist: geonamescache
+Requires-Dist: great-expectations
+Requires-Dist: gtin
+Requires-Dist: holidays
+Requires-Dist: ipwhois
+Requires-Dist: isbnlib
+Requires-Dist: langid
+Requires-Dist: lxml
+Requires-Dist: pgeocode
+Requires-Dist: phonenumbers
+Requires-Dist: price-parser
+Requires-Dist: primefac
+Requires-Dist: pwnedpasswords
+Requires-Dist: py-moneyed
+Requires-Dist: pycountry
+Requires-Dist: pydnsbl
+Requires-Dist: pyephem
+Requires-Dist: python-dateutil
+Requires-Dist: python-stdnum
+Requires-Dist: pytz
+Requires-Dist: pyvat
+Requires-Dist: requests
+Requires-Dist: schwifty
+Requires-Dist: setuptools
+Requires-Dist: simple-icd-10
+Requires-Dist: sympy
+Requires-Dist: us
+Requires-Dist: user-agents
+Requires-Dist: yahoo-fin
+Requires-Dist: zipcodes
+
+## Great Expectations Semantic Types Expectations
+A collection of Expectations to validate Semantically Typed Data with Great Expectations.
+
+### What Are Semantic Types?
+
+Semantic Types categorize data by the type of information it represents. For example, consider a column with STRING data types. How do you know what the data means? You could be looking at a list of streets, cities, counties, etc. Without background information, it can be hard to know what you're looking at. That's where Semantic Types come in. The entity’s Semantic Type defines how it should be interpreted.
+
+### Why should we test on Semantic Types?
+
+Testing on these Semantic Types allows us to create more explicit, fit-for-purpose tests, unlocking questions like `Does this column contain US State abbreviations?` instead of asking `Does this column contain strings in the set [AL, AL, AR, AZ...]`
+
+### How do you know when data entities are good candidates for Semantic Types testing?
+
+Any data that you can tie to a real-world category or reference is ideal for this kind of test, e.g., phone numbers, ZIP codes, countries, coordinates, URLs, email addresses, etc.
+
+This package contains a number of Expectations to support validation of Semantically Typed Data.
+
+Author: [Great Expectations](https://github.com/great_expectations/great_expectations)
+
+[PyPi Link](https://python.org/pypi/great_expectations_semantic_types_expectations)
