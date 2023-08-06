@@ -1,0 +1,2 @@
+[console_scripts]
+kitedb = mkite.cli.run_manage:main
