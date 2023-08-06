@@ -1,0 +1,15 @@
+LICENCE.txt
+README.md
+setup.py
+app/DecisionTree/__init__.py
+app/DecisionTreeClassifier.egg-info/PKG-INFO
+app/DecisionTreeClassifier.egg-info/SOURCES.txt
+app/DecisionTreeClassifier.egg-info/dependency_links.txt
+app/DecisionTreeClassifier.egg-info/requires.txt
+app/DecisionTreeClassifier.egg-info/top_level.txt
+app/DecisionTree/src/DecisionTree.py
+app/DecisionTree/src/__init__.py
+app/DecisionTree/src/helpers.py
+app/DecisionTree/test/Full_test.py
+app/DecisionTree/test/Testing.py
+app/DecisionTree/test/__init__.py
