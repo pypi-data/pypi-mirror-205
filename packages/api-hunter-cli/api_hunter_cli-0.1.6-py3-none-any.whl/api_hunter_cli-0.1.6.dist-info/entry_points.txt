@@ -1,0 +1,3 @@
+[console_scripts]
+api-hunter-cli-post-install = api_hunter_cli.post_install:install_chromium
+apihunter = api_hunter_cli.main:app
