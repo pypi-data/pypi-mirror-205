@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: onesignal_python_api
+Version: 2.0.0
+Summary: OneSignal
+Home-page: 
+Author: OneSignal DevRel
+Author-email: devrel@onesignal.com
+Keywords: OpenAPI,OpenAPI-Generator,OneSignal
+Requires-Python: >=3.6
+License-File: LICENSE
+
+    A powerful way to send personalized messages at scale and build effective customer engagement strategies. Learn more at onesignal.com  # noqa: E501
+    
