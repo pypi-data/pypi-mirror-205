@@ -1,0 +1,30 @@
+[project]
+name = "simple-spider-tool17"
+version = "0.17"
+authors = [
+    { name = "xingc", email = "xingcys@gmail.com" },
+]
+description = "simple-spider-tool 0.0.18及后续版本兼容之前版本使用的可选扩展包"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.5"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.5",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+keywords = [
+    "simple-spider-tool",
+]
+
+[tool.hatch.build.targets.sdist]
+include = ["/simple_spider_tools", "/*.md"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
