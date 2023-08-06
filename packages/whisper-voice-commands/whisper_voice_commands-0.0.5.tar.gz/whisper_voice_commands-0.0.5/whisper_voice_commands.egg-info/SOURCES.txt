@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+whisper_mic/__init__.py
+whisper_mic/cli.py
+whisper_mic/mic.py
+whisper_voice_commands.egg-info/PKG-INFO
+whisper_voice_commands.egg-info/SOURCES.txt
+whisper_voice_commands.egg-info/dependency_links.txt
+whisper_voice_commands.egg-info/entry_points.txt
+whisper_voice_commands.egg-info/requires.txt
+whisper_voice_commands.egg-info/top_level.txt

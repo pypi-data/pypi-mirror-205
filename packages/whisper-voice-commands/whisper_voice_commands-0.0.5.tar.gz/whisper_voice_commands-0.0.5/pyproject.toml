@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "whisper_voice_commands"
+version = "0.0.5"
+authors = [
+  { name="Deven B-L", email="deven.boutin@gmail.com" },
+  { name="Blake Mallory", email="blakecmallory@gmail.com" },
+]
+description = "Execute scripts with Whisper for your microphone"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "speechrecognition",
+    "pyaudio",
+    "pydub",
+    "requests",
+    "pydantic",
+    "attrs",
+    "numpy",
+    "tdqm",
+    "more-itertools",
+    "transformers",
+    "torch",
+    "ffmpeg-python",
+    "click",
+    "openai-whisper",
+    'importlib-metadata; python_version>"3.9"'
+]
+
+[project.scripts]
+whisper-voice-commands = "whisper_mic.cli:main"
+
+
+
+[project.urls]
+"Homepage" = "https://github.com/DevenBL/whisper_mic_exec/tree/Whisper-Voice-Commands"
+"Bug Tracker" = "https://github.com/DevenBL/whisper_mic_exec/tree/Whisper-Voice-Commands/issues"
