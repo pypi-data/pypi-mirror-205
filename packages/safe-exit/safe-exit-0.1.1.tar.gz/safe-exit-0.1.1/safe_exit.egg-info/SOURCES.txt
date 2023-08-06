@@ -1,0 +1,12 @@
+LICENSE.txt
+README.rst
+setup.cfg
+setup.py
+safe_exit/__init__.py
+safe_exit.egg-info/PKG-INFO
+safe_exit.egg-info/SOURCES.txt
+safe_exit.egg-info/dependency_links.txt
+safe_exit.egg-info/requires.txt
+safe_exit.egg-info/top_level.txt
+tests/test_safe_exit_posix.py
+tests/test_safe_exit_windows.py
