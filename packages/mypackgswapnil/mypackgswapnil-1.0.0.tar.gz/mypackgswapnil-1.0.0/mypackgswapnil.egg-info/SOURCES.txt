@@ -1,0 +1,8 @@
+setup.py
+bookcount/__init__.py
+bookcount/count_book.py
+mypackgswapnil.egg-info/PKG-INFO
+mypackgswapnil.egg-info/SOURCES.txt
+mypackgswapnil.egg-info/dependency_links.txt
+mypackgswapnil.egg-info/requires.txt
+mypackgswapnil.egg-info/top_level.txt
