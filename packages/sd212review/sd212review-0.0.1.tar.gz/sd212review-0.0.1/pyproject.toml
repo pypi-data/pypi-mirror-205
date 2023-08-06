@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sd212review"
+version = "0.0.1"
+authors = [
+    {name = "Dan Roche", email = "roche@usna.edu"}
+]
+description = "Simple Python module to tell you which unit to write review questions for SD212"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+]
+
+[project.urls]
+"Homepage" = "https://github.com/sd212usna/sd212review"
