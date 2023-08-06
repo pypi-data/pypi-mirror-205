@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: lmo
+Version: 0.1.0
+Summary: L-Moments for robust statistics.
+Author: Joren Hammudoglu
+Author-email: jhammudoglu@gmail.com
+Requires-Python: >=3.10,<3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: numpy (>=1.22)
+Requires-Dist: scipy (>=1.8)
+Description-Content-Type: text/markdown
+
+# lmo
+
+*coming soon*
