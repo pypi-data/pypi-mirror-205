@@ -1,0 +1,16 @@
+setup.py,sha256=7r9Snp1ZsnRJ4b91uIwQJBICGbsVMqstGwZYHFYYPSA,418
+examples/chatcompletion.py,sha256=1VL644CqFMwi3LShqeN5TxEJzX9kI8TkhDtxZ-b94mQ,436
+examples/chatcompletion_async_vs_sync.py,sha256=aKexXFKA17-B7M69qPjXZxJGZo3QJWKDqOgRiMpimuc,1818
+examples/completion.py,sha256=YqeNfVwOfxQoygRBQrCqQlrmx8L4z7SiaK2OWhptXSg,407
+examples/langchain_babyagi.py,sha256=i1-wlAOuMLchn2DPHlpsghGDisVjNhQF6zPyZ51GPzQ,10777
+examples/langchain_multiple_tools.py,sha256=1XAkibvlBJswYmclGMArsE6y4Xu48ym1EZdGSP9CwqY,623
+examples/langchain_simple_sequential.py,sha256=cBLBI-HGdaKhw0DYmoAe8i0pCXnf8JOXQieWx__xbEw,915
+examples/langchain_sqlagent.py,sha256=Mi6EnYkBoGqAkxZAQBvkjd4-QawcFabxxTru8RuKRYw,2513
+examples/multiple_sessions.py,sha256=AvDoJ9kqKzfzOideJHvzQ9eG6hfhymmAnuRNUhHc010,1704
+log10/        __init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+log10/bigquery.py,sha256=YERZ8Onquv3nJtS7badMm2qM9FJx5VD7Ej6OvbOA0wE,2594
+log10/load.py,sha256=gDXJv0jznVZnk9stupQ71n5BkF1eH6SilP3qplWLRT8,9672
+log10_io-0.0.4.dist-info/METADATA,sha256=eGOoI_CAww_QbGl2NlpUISwx-d0KWCM24xTBF5U9Nqw,3089
+log10_io-0.0.4.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+log10_io-0.0.4.dist-info/licenses/LICENSE,sha256=ZPZK799qB-9A60QHIPE4XhPt_yOdY4SstYDx6duuEPI,1083
+log10_io-0.0.4.dist-info/RECORD,,
