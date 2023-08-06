@@ -1,0 +1,12 @@
+tornado
+python-mpd2
+python-magic
+
+[dev]
+build
+
+[test]
+pytest
+pytest-asyncio
+pytest-cov
+beautifulsoup4
