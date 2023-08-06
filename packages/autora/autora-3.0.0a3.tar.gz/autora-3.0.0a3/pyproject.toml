@@ -1,0 +1,50 @@
+[project]
+name = "autora"
+description = "Autonomous Research Assistant (AutoRA) is a framework for automating steps of the empirical research process."
+authors = [
+  { name = "Sebastian Musslick", email = "sebastian_musslick@brown.edu" },
+  { name = "John Gerrard Holland", email = "john_holland1@brown.edu" },
+]
+readme = "README.md"
+license = { file = "LICENSE.md" }
+dynamic = ["version"]
+
+dependencies = [
+  "autora-core",
+  "autora-workflow",
+]
+
+[project.optional-dependencies]
+dev = [
+  "autora-core[dev]",
+]
+
+all = [
+  "autora[all-theorists]",
+  "autora[all-experimentalists]",
+  "autora[all-experiment-runners]",
+  "autora[synthetic-experiments]",
+]
+
+all-theorists = [
+  "autora-theorist-darts",
+]
+all-experimentalists = [
+]
+all-experiment-runners = [
+]
+synthetic-experiments = [
+  "autora-synthetic-data"
+]
+
+
+[project.urls]
+homepage = "https://www.empiricalresearch.ai/"
+repository = "https://github.com/AutoResearch/autora"
+documentation = "https://autoresearch.github.io/autora/"
+
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
