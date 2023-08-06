@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: deconfounderLA
+Version: 0.0.1
+Summary: Functions needed to perform causal inference
+Home-page: UNKNOWN
+Author: Leila Sofía Asplanato
+Author-email: lasplanato@unsam.edu.ar
+License: MIT
+Keywords: causal inference
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+This is the package where I define all the functions needed to perform causal inference within the Deconfounder framework presented by Wang & Blei in their 2019 "The blessings of multiple causes".
+
+
+
+Change Log
+==================
+
+0.0.1 (26/04/2023)
+---------------------
+- First Release
+
+
