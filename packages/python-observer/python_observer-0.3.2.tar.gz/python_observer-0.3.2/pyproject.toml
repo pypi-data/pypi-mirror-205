@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "python-observer"
+version = "0.3.2"
+description = "Live reload for Python apps"
+authors = ["Skyascii <savioxavier112@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [
+    { include = "python_observer/**/*.py" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+rich = ">=12.5.1"
+humanfriendly = "^10.0"
+pyboxen = "^1.2.0"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry_bumpversion.file."python_observer/__init__.py"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+observer = "python_observer.cli:main"
