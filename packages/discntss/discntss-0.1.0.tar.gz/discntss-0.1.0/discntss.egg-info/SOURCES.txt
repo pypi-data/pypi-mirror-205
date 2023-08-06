@@ -1,0 +1,8 @@
+setup.py
+discntss.egg-info/PKG-INFO
+discntss.egg-info/SOURCES.txt
+discntss.egg-info/dependency_links.txt
+discntss.egg-info/requires.txt
+discntss.egg-info/top_level.txt
+discountlib2/__init__.py
+discountlib2/discountlib.py
