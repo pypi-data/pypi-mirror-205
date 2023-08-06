@@ -1,0 +1,7 @@
+env/__init__.py,sha256=U-qj9MDPXJg80ShGO1hK1AzbJGXG0W-hAUJYfI3kROU,242
+env/core.py,sha256=SthZkqsoUJJu2soIc2Culu-4u_pZB7HPe7NFB5S-euU,114
+env/main.py,sha256=SA6uJ42SqqRd8sHW0ywIecimZun1s4FtNB9FkKil4X4,1379
+env/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+parsenv-0.2.2.dist-info/WHEEL,sha256=B19PGBCYhWaz2p_UjAoRVh767nYQfk14Sn4TpIZ-nfU,87
+parsenv-0.2.2.dist-info/METADATA,sha256=f0iuN03KBO1kEbgiNAaShITMpbuxybxK9lslfBE_woQ,1153
+parsenv-0.2.2.dist-info/RECORD,,
