@@ -1,0 +1,5 @@
+httpx
+colorama
+filetype
+nonebot2
+nonebot_adapter_onebot
