@@ -1,0 +1,2 @@
+[console_scripts]
+buildapp = buildapp.buildapp:main
