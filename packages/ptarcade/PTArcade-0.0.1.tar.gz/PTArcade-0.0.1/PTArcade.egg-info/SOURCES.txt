@@ -1,0 +1,6 @@
+README.md
+pyproject.toml
+PTArcade.egg-info/PKG-INFO
+PTArcade.egg-info/SOURCES.txt
+PTArcade.egg-info/dependency_links.txt
+PTArcade.egg-info/top_level.txt
