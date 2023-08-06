@@ -1,0 +1,8 @@
+recurrent_memory_transformer_pytorch/__init__.py,sha256=XT2CIfJEt6v9qLFa9iPOqRjMIpsvD1Om0fKXlzTBves,140
+recurrent_memory_transformer_pytorch/attend.py,sha256=k9Mu19EFyFHe8DJzHtP5b78u2610BgmYoZL3SD9bd_c,4146
+recurrent_memory_transformer_pytorch/recurrent_memory_transformer.py,sha256=RHwOb5pxgCAyjHzGJK4JmYIU3q8-az8tEIMqWLLif6c,14404
+recurrent_memory_transformer_pytorch-0.1.7.dist-info/LICENSE,sha256=JCo3d2HvOFPGYvaXfnYX4-qjRyQvVElop5ZRITXMg-U,1066
+recurrent_memory_transformer_pytorch-0.1.7.dist-info/METADATA,sha256=cvL0ktvvoRCI8hazjJFFSYizgXRNJBNaZ3FuDWtIv2U,767
+recurrent_memory_transformer_pytorch-0.1.7.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+recurrent_memory_transformer_pytorch-0.1.7.dist-info/top_level.txt,sha256=_Lk_UYf3Wgq9vq2stgoMwRw8RTkysDSqnnIcvDjosu4,37
+recurrent_memory_transformer_pytorch-0.1.7.dist-info/RECORD,,
