@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+holamundoplayerSU.egg-info/PKG-INFO
+holamundoplayerSU.egg-info/SOURCES.txt
+holamundoplayerSU.egg-info/dependency_links.txt
+holamundoplayerSU.egg-info/top_level.txt
