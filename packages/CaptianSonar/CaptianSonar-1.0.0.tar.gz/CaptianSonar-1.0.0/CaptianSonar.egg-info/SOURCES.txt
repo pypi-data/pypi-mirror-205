@@ -1,0 +1,7 @@
+setup.py
+CaptianSonar.egg-info/PKG-INFO
+CaptianSonar.egg-info/SOURCES.txt
+CaptianSonar.egg-info/dependency_links.txt
+CaptianSonar.egg-info/top_level.txt
+CaptianSonar.egg-info/zip-safe
+pypi/zip.py

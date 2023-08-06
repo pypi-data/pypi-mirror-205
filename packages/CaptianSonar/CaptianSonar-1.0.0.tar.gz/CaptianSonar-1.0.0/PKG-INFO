@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: CaptianSonar
+Version: 1.0.0
+Summary: Sending a folder to my brother
+Home-page: https://pypi.org/search/?q=tradchat&o=
+Author: Michael Caggeso
+Author-email: laurencaggeso@gmail.com
+License: Michael`s License
+Download-URL: https://pypi.org/search/?q=tradchat&o=
+Description: Sending a folder to my brother
+Platform: UNKNOWN
+Requires: girl
