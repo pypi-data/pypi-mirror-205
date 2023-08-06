@@ -1,0 +1,15 @@
+chowlk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chowlk/anonymousClass.py,sha256=IkafobLuHwpvlrP0jdi6jIjaVql6vvsKnPBrhJabRN8,19687
+chowlk/associations.py,sha256=2u6OFYZ9H5ONCEo1PcJk2J3DwrEd7wdJlwGSyf-Rssw,27944
+chowlk/converter.py,sha256=HqNtmMNjTe2M46obj1dJmlwnvrY_o57yIoaIZJInmfU,2000
+chowlk/finding.py,sha256=Qnc7h5IK3l6aCNLdvSgu5srNS0ULe1p2DO1wUDNNhXc,71940
+chowlk/geometry.py,sha256=SrIVl7NF0U7vlqjMCcn4-5ISEdCGNMxH-EFuvuaH1HA,1104
+chowlk/transformations.py,sha256=cqIPzpLtvM5WTCWJB8JF4I93GLacZvNDUu-UBSp2UNY,6200
+chowlk/utils.py,sha256=BRBilEOy2z4TX8j7IIUQihUTUnhYJwUN7eRL2OmcG-E,3491
+chowlk/writer.py,sha256=7LPpnsuVcw_PJpgVmA1DFpDepOMPcDWDuTRld-GQl8k,57143
+chowlk_unofficial_fork-0.0.2.dist-info/LICENSE,sha256=2BpbjuIASGU2MDJFzX4N-VIOWUVMngfL5gwKb7mPU6M,11557
+chowlk_unofficial_fork-0.0.2.dist-info/METADATA,sha256=Y1MmLiDqsXe21IhGqML8wnf813pQw67iajdOFKnCmQg,5605
+chowlk_unofficial_fork-0.0.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+chowlk_unofficial_fork-0.0.2.dist-info/entry_points.txt,sha256=6B1_bJeH2r5LcsAYLfcbw_2ZLA-mq1ID53gXtFd9zLs,59
+chowlk_unofficial_fork-0.0.2.dist-info/top_level.txt,sha256=TKl_o7eZm95PVhGRtiDT0oeAupjeW6bGwzRGNNShaN0,7
+chowlk_unofficial_fork-0.0.2.dist-info/RECORD,,

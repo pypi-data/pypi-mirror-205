@@ -1,0 +1,2 @@
+[console_scripts]
+chowlk-converter = chowlk.converter:main
