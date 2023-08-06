@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: pointstorm
+Version: 1.1.0
+Summary: Emebedding vectors for real-time streaming data
+Home-page: https://github.com/xsfa/pointstorm
+Author: Tesfa Shenkute
+Author-email: tesfaaog@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+Requires-Dist: bytewax (==0.10.1)
+Requires-Dist: requests (>=2.28.0)
+Requires-Dist: kafka-python (==2.0.2)
+Requires-Dist: confluent-kafka
+Requires-Dist: faker
+Requires-Dist: transformers
+Requires-Dist: torch
+
+UNKNOWN
+
