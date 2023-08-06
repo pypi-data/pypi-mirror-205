@@ -1,0 +1,173 @@
+[
+  {
+    "text": "jerry goldsmith : l homme au chapeau de cow-boy dans la cabine t\u00e9l\u00e9phonique au salon de l invention ( cam\u00e9o non cr\u00e9dit\u00e9 )",
+    "identifier": "05828a36-edb1-4538-98ad-226ad93181d6",
+    "title": "05828a36-edb1-4538-98ad-226ad93181d6",
+    "metadata": {
+      "corpus": "train",
+      "language": "fr"
+    },
+    "altTexts": [
+      {
+        "name": "preserve_entities",
+        "text": "1. Dans la cabine t\u00e9l\u00e9phonique du salon de l'invention, on peut apercevoir Jerry Goldsmith, arborant fi\u00e8rement son chapeau de cow-boy. Bien qu'il ne soit pas cr\u00e9dit\u00e9, son cam\u00e9o ne passe pas inaper\u00e7u.\n2. Le c\u00e9l\u00e8bre compositeur Jerry Goldsmith fait une apparition remarqu\u00e9e dans la cabine t\u00e9l\u00e9phonique du salon de l'invention, portant son incontournable chapeau de cow-boy. Bien qu'il ne soit pas mentionn\u00e9 au g\u00e9n\u00e9rique, son cam\u00e9o ne passe pas inaper\u00e7u.\n3. Jerry Goldsmith, avec son chapeau de cow-boy sur la t\u00eate, est aper\u00e7u dans une cabine t\u00e9l\u00e9phonique du salon de l'invention. M\u00eame si ce n'est pas un r\u00f4le cr\u00e9dit\u00e9, sa pr\u00e9sence ne passe pas inaper\u00e7ue.\n4. Les visiteurs du salon de l'invention peuvent apercevoir Jerry Goldsmith dans une cabine t\u00e9l\u00e9phonique, avec son c\u00e9l\u00e8bre chapeau de cow-boy sur la t\u00eate. Bien qu'il n'ait pas \u00e9t\u00e9 cr\u00e9dit\u00e9 pour son cam\u00e9o, il a su se faire remarquer.\n5. Dans la cabine t\u00e9l\u00e9phonique du salon de l'invention, un homme portant un chapeau de cow-boy attire l'attention. Il s'agit en fait de Jerry Goldsmith, le c\u00e9l\u00e8bre compositeur. Bien qu'il ne soit pas cr\u00e9dit\u00e9, son apparition a su marquer les esprits."
+      }
+    ],
+    "sentences": [
+      {
+        "start": 0,
+        "end": 121
+      }
+    ],
+    "annotations": [
+      {
+        "start": 0,
+        "end": 15,
+        "labelName": "artist",
+        "label": "Artist",
+        "text": "jerry goldsmith",
+        "createdBy": "import",
+        "createdDate": "2022-11-16T22:22:56.199Z",
+        "modifiedDate": "2022-11-16T22:22:56.199Z",
+        "status": "OK"
+      },
+      {
+        "start": 29,
+        "end": 47,
+        "labelName": "clothing",
+        "label": "Clothing",
+        "text": "chapeau de cow-boy",
+        "createdBy": "import",
+        "createdDate": "2022-11-16T22:22:56.199Z",
+        "modifiedDate": "2022-11-16T22:22:56.199Z",
+        "status": "OK"
+      }
+    ],
+    "categories": []
+  },
+  {
+    "text": "alber elbaz le remplace en tant que directeur artistique du pr\u00eat-\u00e0-porter f\u00e9minin et hedi slimane du pr\u00eat \u00e0 porter masculin .",
+    "identifier": "47b90a69-f8ee-41d1-b3a1-8905fcf1f02a",
+    "title": "47b90a69-f8ee-41d1-b3a1-8905fcf1f02a",
+    "metadata": {
+      "corpus": "dev",
+      "language": "fr"
+    },
+    "altTexts": [
+      {
+        "name": "preserve_entities",
+        "text": "1. Suite \u00e0 son d\u00e9part, Alber Elbaz a \u00e9t\u00e9 choisi pour prendre la rel\u00e8ve en tant que directeur artistique du pr\u00eat-\u00e0-porter f\u00e9minin tandis que Hedi Slimane s'occupera d\u00e9sormais du pr\u00eat-\u00e0-porter masculin.\n2. Alber Elbaz succ\u00e8de \u00e0 son pr\u00e9d\u00e9cesseur en tant que directeur artistique du pr\u00eat-\u00e0-porter f\u00e9minin, tandis que Hedi Slimane assume d\u00e9sormais la responsabilit\u00e9 du pr\u00eat-\u00e0-porter masculin. \n3. Pour remplacer son ancien directeur artistique, l'entreprise a choisi Alber Elbaz pour s'occuper du pr\u00eat-\u00e0-porter f\u00e9minin, tandis que Hedi Slimane a \u00e9t\u00e9 nomm\u00e9 directeur artistique du pr\u00eat-\u00e0-porter masculin.\n4. La direction artistique du pr\u00eat-\u00e0-porter f\u00e9minin a \u00e9t\u00e9 confi\u00e9e \u00e0 Alber Elbaz, suite au d\u00e9part de son pr\u00e9d\u00e9cesseur. Hedi Slimane prendra en charge le pr\u00eat-\u00e0-porter masculin. \n5. Alber Elbaz a \u00e9t\u00e9 d\u00e9sign\u00e9 pour remplacer son pr\u00e9d\u00e9cesseur en tant que directeur artistique du pr\u00eat-\u00e0-porter f\u00e9minin, tandis que Hedi Slimane prendra en charge le pr\u00eat-\u00e0-porter masculin."
+      }
+    ],
+    "sentences": [
+      {
+        "start": 0,
+        "end": 125
+      }
+    ],
+    "annotations": [
+      {
+        "start": 0,
+        "end": 11,
+        "labelName": "artist",
+        "label": "Artist",
+        "text": "alber elbaz",
+        "createdBy": "import",
+        "createdDate": "2022-11-20T00:09:58.862Z",
+        "modifiedDate": "2022-11-20T00:09:58.862Z",
+        "status": "OK"
+      },
+      {
+        "start": 60,
+        "end": 73,
+        "labelName": "clothing",
+        "label": "Clothing",
+        "text": "pr\u00eat-\u00e0-porter",
+        "createdBy": "import",
+        "createdDate": "2022-11-20T00:09:58.862Z",
+        "modifiedDate": "2022-11-20T00:09:58.862Z",
+        "status": "OK"
+      },
+      {
+        "start": 85,
+        "end": 97,
+        "labelName": "artist",
+        "label": "Artist",
+        "text": "hedi slimane",
+        "createdBy": "import",
+        "createdDate": "2022-11-20T00:09:58.862Z",
+        "modifiedDate": "2022-11-20T00:09:58.862Z",
+        "status": "OK"
+      }
+    ],
+    "categories": []
+  },
+  {
+    "text": "chanel se fait aussi particuli\u00e8rement remarqu\u00e9 avec lily-rose depp au bras de karl lagerfeld avec une robe de mari\u00e9e rose pastel .",
+    "identifier": "a62886ab-c553-4153-894f-33ac31e17c33",
+    "title": "a62886ab-c553-4153-894f-33ac31e17c33",
+    "metadata": {
+      "corpus": "dev",
+      "language": "fr"
+    },
+    "altTexts": [
+      {
+        "name": "preserve_entities",
+        "text": "1. Chanel attire \u00e9galement tous les regards avec Lily-Rose Depp accompagnant Karl Lagerfeld, v\u00eatue d'une superbe robe de mari\u00e9e rose pastel.\n2. Lily-Rose Depp fait sensation au bras de Karl Lagerfeld dans une robe de mari\u00e9e rose pastel, cr\u00e9\u00e9e par Chanel.\n3. La pr\u00e9sence de Lily-Rose Depp en robe de mari\u00e9e rose pastel, accompagnant Karl Lagerfeld pour Chanel, ne passe pas inaper\u00e7ue.\n4. Karl Lagerfeld est accompagn\u00e9 de Lily-Rose Depp, qui porte une robe de mari\u00e9e rose pastel de la marque Chanel, attirant tous les regards.\n5. Chanel fait \u00e9galement sensation gr\u00e2ce \u00e0 Lily-Rose Depp accompagnant Karl Lagerfeld, arborant une magnifique robe de mari\u00e9e rose pastel."
+      }
+    ],
+    "sentences": [
+      {
+        "start": 0,
+        "end": 130
+      }
+    ],
+    "annotations": [
+      {
+        "start": 0,
+        "end": 6,
+        "labelName": "privatecorp",
+        "label": "PrivateCorp",
+        "text": "chanel",
+        "createdBy": "import",
+        "createdDate": "2022-11-20T00:09:59.127Z",
+        "modifiedDate": "2022-11-20T00:09:59.127Z",
+        "status": "OK"
+      },
+      {
+        "start": 52,
+        "end": 66,
+        "labelName": "artist",
+        "label": "Artist",
+        "text": "lily-rose depp",
+        "createdBy": "import",
+        "createdDate": "2022-11-20T00:09:59.127Z",
+        "modifiedDate": "2022-11-20T00:09:59.127Z",
+        "status": "OK"
+      },
+      {
+        "start": 78,
+        "end": 92,
+        "labelName": "artist",
+        "label": "Artist",
+        "text": "karl lagerfeld",
+        "createdBy": "import",
+        "createdDate": "2022-11-20T00:09:59.127Z",
+        "modifiedDate": "2022-11-20T00:09:59.127Z",
+        "status": "OK"
+      },
+      {
+        "start": 102,
+        "end": 116,
+        "labelName": "clothing",
+        "label": "Clothing",
+        "text": "robe de mari\u00e9e",
+        "createdBy": "import",
+        "createdDate": "2022-11-20T00:09:59.127Z",
+        "modifiedDate": "2022-11-20T00:09:59.127Z",
+        "status": "OK"
+      }
+    ],
+    "categories": []
+  }
+]
