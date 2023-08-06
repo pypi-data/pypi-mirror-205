@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: reorderalertforims
+Version: 1.0.0
+Summary: A Python package to identify and alert which items need to be restocked in an Inventory Management System
+Author: Vijay Shankar Reddy Hanumanth
+Author-email: x22118608@student.ncirl.ie
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+
