@@ -1,0 +1,15 @@
+examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+examples/example_native_query_executor.py,sha256=iIA8_-D__GsO_3rlj808DF3hD5H0VwXloYqTjHU6mDI,1527
+examples/example_simple_query_executor.py,sha256=NY1BR1cBOVWEsYuSC_VmBeLs8C8QMhtbUShurLnpCbI,1332
+src/DatabaseConnector.py,sha256=-j_m7hOAyxNARdZA1i7eUBq-87P25OOIdNmueaqJsgQ,1904
+src/NativeQueryExecutor.py,sha256=v2NMJDnnBBU8g_HUt5C9Y7u6xuuEZKKWdnrOd2G_0FU,3857
+src/SimpleQueryExecutor.py,sha256=hyDdofMLYNOe5xv1sFTkHLsC7aNBnoPZdZumoq1KFOE,2576
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=OtnekdXWCaoa7TGXxY6vDwd_jKnVV5TgXzPMRBxsrhU,611
+tests/test_native_query_executor.py,sha256=IOT2fVFZrNsUyrfZ6XIiYvzNi0lL5d-VKBjwcfZd8KM,2938
+tests/test_simple_query_executor.py,sha256=lXMgnYNwZ4wQYWTOvXLIp5P2QcYtV6FLSpgEvQzc6ww,2265
+psycopg2_wrappers-1.0.0.dist-info/LICENCE,sha256=LuQYZbeFxH4p18H6NkNzJaETFMEyrXb5i5l5GbDp5Ig,1088
+psycopg2_wrappers-1.0.0.dist-info/METADATA,sha256=_dBkZdVFQ_o5-NNClIm4ojoDDPsQlRZS6J133ZRP6Vk,9344
+psycopg2_wrappers-1.0.0.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+psycopg2_wrappers-1.0.0.dist-info/top_level.txt,sha256=Q_S7N67mMEsTtpw63iey_D1VmHryapvu-L7dyK92erY,19
+psycopg2_wrappers-1.0.0.dist-info/RECORD,,
