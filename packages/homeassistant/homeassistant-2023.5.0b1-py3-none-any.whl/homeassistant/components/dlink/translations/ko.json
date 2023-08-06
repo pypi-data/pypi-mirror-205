@@ -1,0 +1,24 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "\uc7a5\uce58\uac00 \uc774\ubbf8 \uad6c\uc131\ub428"
+        },
+        "error": {
+            "unknown": "\uc608\uae30\uce58 \ubabb\ud55c \uc624\ub958"
+        },
+        "step": {
+            "confirm_discovery": {
+                "data": {
+                    "use_legacy_protocol": "\ub808\uac70\uc2dc \ud504\ub85c\ud1a0\ucf5c \uc0ac\uc6a9",
+                    "username": "\uc0ac\uc6a9\uc790 \uc774\ub984"
+                }
+            },
+            "user": {
+                "data": {
+                    "host": "\ud638\uc2a4\ud2b8",
+                    "username": "\uc0ac\uc6a9\uc790 \uc774\ub984"
+                }
+            }
+        }
+    }
+}

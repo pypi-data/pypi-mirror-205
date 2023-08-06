@@ -1,0 +1,15 @@
+{
+    "state": {
+        "climacell__health_concern": {
+            "good": "\uc88b\uc74c",
+            "hazardous": "\uc704\ud5d8\ud568",
+            "moderate": "\ubcf4\ud1b5",
+            "unhealthy": "\ud574\ub85c\uc6c0",
+            "unhealthy_for_sensitive_groups": "\ubbfc\uac10\ud55c \uadf8\ub8f9\uc5d0 \ud574\ub85c\uc6c0",
+            "very_unhealthy": "\ub9e4\uc6b0 \ud574\ub85c\uc6c0"
+        },
+        "climacell__precipitation_type": {
+            "snow": "\ub208"
+        }
+    }
+}

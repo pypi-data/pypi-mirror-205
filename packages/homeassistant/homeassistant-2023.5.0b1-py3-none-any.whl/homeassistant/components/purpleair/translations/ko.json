@@ -1,0 +1,19 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "\uc7a5\uce58\uac00 \uc774\ubbf8 \uad6c\uc131\ub428",
+            "reauth_successful": "\uc7ac\uc778\uc99d \uc131\uacf5"
+        },
+        "error": {
+            "unknown": "\uc608\uae30\uce58 \ubabb\ud55c \uc624\ub958"
+        }
+    },
+    "options": {
+        "abort": {
+            "already_configured": "\uc7a5\uce58\uac00 \uc774\ubbf8 \uad6c\uc131\ub428"
+        },
+        "error": {
+            "unknown": "\uc608\uae30\uce58 \ubabb\ud55c \uc624\ub958"
+        }
+    }
+}
