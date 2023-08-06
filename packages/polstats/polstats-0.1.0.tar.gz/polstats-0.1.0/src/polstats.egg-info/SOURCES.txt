@@ -1,0 +1,9 @@
+.gitignore
+README.md
+setup.py
+src/polstats/__init__.py
+src/polstats.egg-info/PKG-INFO
+src/polstats.egg-info/SOURCES.txt
+src/polstats.egg-info/dependency_links.txt
+src/polstats.egg-info/requires.txt
+src/polstats.egg-info/top_level.txt
