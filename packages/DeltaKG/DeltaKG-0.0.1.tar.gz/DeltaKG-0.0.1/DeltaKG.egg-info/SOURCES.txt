@@ -1,0 +1,7 @@
+LICENSE.txt
+README.md
+setup.py
+DeltaKG.egg-info/PKG-INFO
+DeltaKG.egg-info/SOURCES.txt
+DeltaKG.egg-info/dependency_links.txt
+DeltaKG.egg-info/top_level.txt
