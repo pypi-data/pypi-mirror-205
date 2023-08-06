@@ -1,0 +1,64 @@
+---
+site_name: matfree documentation
+repo_url: https://github.com/pnkraemer/matfree
+repo_name: pnkraemer/matfree
+nav:
+  - Get started: [index.md]
+  - API documentation:
+      - api/montecarlo.md
+      - api/decomp.md
+      - api/hutch.md
+      - api/slq.md
+  - dev/index.md
+  - benchmarks/index.md
+theme:
+  name: material
+  palette:
+
+    # Palette toggle for light mode
+    - media: '(prefers-color-scheme: light)'
+      scheme: default
+      primary: white
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: '(prefers-color-scheme: light)'
+      scheme: slate
+      primary: black
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Fira Sans
+  features: [navigation.tabs, navigation.footer]
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            show_root_members_full_path: false
+            show_category_heading: false
+            docstring_style: numpy
+            show_if_no_docstring: true
+            show_signature_annotations: true
+            members_order: source
+watch: [matfree]
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/@pnkraemer
+      name: Nico
+  generator: false
+copyright: Copyright &copy; 2023 Nicholas Krämer
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+extra_javascript:
+  # From: https://squidfunk.github.io/mkdocs-material/reference/mathjax/#mkdocsyml
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
