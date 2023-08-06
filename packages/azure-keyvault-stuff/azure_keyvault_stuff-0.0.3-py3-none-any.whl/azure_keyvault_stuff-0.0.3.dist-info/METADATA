@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: azure-keyvault-stuff
+Version: 0.0.3
+Summary: Azure Key Vault Helper Package
+Home-page: https://github.com/george-oconnor/azure-keyvault-stuff
+Author: george.oconnor (George O' Connor)
+Author-email: <george@georgestools.com>
+Keywords: python,azure,keyvault,helper,secret,secrets,client,get,set,delete,vault,value,values,credential,credentials,azure.identity.DefaultAzureCredential()
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Azure Keyvault Stuff
+
+A package that provides functionality for interacting with an Azure Keyvault
+
+## Installation
+
+Run the following to install the package:
+
+``python -m pip install azure-keyring-stuff``
+
+## Usage
+
+```python
+from azure_keyring_stuff import getClient, getSecret, setSecret, deleteSecret
+from azure.identity import DefaultAzureCredential
+
+client = getClient(vault_name="VAULT_NAME", credential=DefaultAzureCredential())
+
+secret = getSecret(client=client, secret_name="SECRET_NAME")
+
+new_secret = setSecret(client=client, secret_name="SECRET_NAME", secret_value="SECRET_VALUE")
+
+deleted_secret = deleteSecret(client=client, secret_name="SECRET_NAME")
+
+```
