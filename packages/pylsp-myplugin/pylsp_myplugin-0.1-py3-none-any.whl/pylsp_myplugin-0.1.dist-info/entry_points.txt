@@ -1,0 +1,2 @@
+[pylsp]
+pylsp_myplugin = pylsp_myplugin.plugin

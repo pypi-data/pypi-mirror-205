@@ -1,0 +1,12 @@
+pylsp_myplugin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pylsp_myplugin/plugin.py,sha256=1nTWGqq2YMvgZtip1RevPscUgIP8iU1UzKR0mCvziKY,3081
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/conftest.py,sha256=MAu5Pemy0CgzlL1Lrvpx7iQTcXpUA1buoETmGiVd674,1634
+test/test_plugin.py,sha256=Zb51A1cS-q2Y-eUU--450BxEdfFNlk_0MJxAlB9Z7sg,2310
+pylsp_myplugin-0.1.dist-info/AUTHORS.txt,sha256=S6KaqGxsFbg10QWPcgmi0jg0pp1Kiu3yyy_6iZn1EgE,153
+pylsp_myplugin-0.1.dist-info/LICENSE,sha256=VK_uU7DhyRX4nrnL3Uc9Mwnr5QTJp_6WAfp1wQ1jhUo,1067
+pylsp_myplugin-0.1.dist-info/METADATA,sha256=bZqWuxybdnWDSM1BuBfMwtszhUunxm-WvEiQhHubqyw,3421
+pylsp_myplugin-0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+pylsp_myplugin-0.1.dist-info/entry_points.txt,sha256=QO5P59TEYMeWlr_ufKCOyPYEqCbn1E6F4mdHizuBV1E,47
+pylsp_myplugin-0.1.dist-info/top_level.txt,sha256=M8G_RWOU9YpfauJFpzHRaA-bZ0aRcgjdhib7SErxpz0,20
+pylsp_myplugin-0.1.dist-info/RECORD,,

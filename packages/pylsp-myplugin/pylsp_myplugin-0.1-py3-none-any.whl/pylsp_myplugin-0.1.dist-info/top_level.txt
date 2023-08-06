@@ -1,0 +1,2 @@
+pylsp_myplugin
+test
