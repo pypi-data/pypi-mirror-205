@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+oresat_dxwifi/__init__.py
+oresat_dxwifi/__main__.py
+oresat_dxwifi.egg-info/PKG-INFO
+oresat_dxwifi.egg-info/SOURCES.txt
+oresat_dxwifi.egg-info/dependency_links.txt
+oresat_dxwifi.egg-info/entry_points.txt
+oresat_dxwifi.egg-info/requires.txt
+oresat_dxwifi.egg-info/top_level.txt
+oresat_dxwifi/data/oresat_dxwifi.dcf
+oresat_dxwifi/data/oresat_dxwifi.eds
