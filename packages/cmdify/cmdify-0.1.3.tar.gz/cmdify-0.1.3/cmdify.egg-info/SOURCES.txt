@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+cmdify/__init__.py
+cmdify/core.py
+cmdify/identifiers.py
+cmdify/interpreters.py
+cmdify/lexica.py
+cmdify/preprocessors.py
+cmdify/result.py
+cmdify.egg-info/PKG-INFO
+cmdify.egg-info/SOURCES.txt
+cmdify.egg-info/dependency_links.txt
+cmdify.egg-info/requires.txt
+cmdify.egg-info/top_level.txt
