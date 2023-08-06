@@ -1,0 +1,4 @@
+pandas
+lxml>=4.4.1
+json5>=0.8.5
+w3lib>=1.22.0
