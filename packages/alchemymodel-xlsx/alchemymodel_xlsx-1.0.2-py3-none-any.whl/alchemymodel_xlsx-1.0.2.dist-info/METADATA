@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: alchemymodel-xlsx
+Version: 1.0.2
+Summary: A library to management excel from SQLAlchemy queries.
+Home-page: https://github.com/GM4nn/alchemymodel_xlsx
+Author: German Alejandro Castellanos Marin
+Author-email: germal150@hotmail.com
+License: UNKNOWN
+Requires-Dist: XlsxWriter (>=3.1.0)
+Requires-Dist: openpyxl (>=3.1.2)
+Requires-Dist: pandas (>=2.0.0)
+Requires-Dist: numpy (>=1.24.2)
+Requires-Dist: SQLAlchemy (>=1.4.47)
+
+Alchemy Model Xlsx
+
+
