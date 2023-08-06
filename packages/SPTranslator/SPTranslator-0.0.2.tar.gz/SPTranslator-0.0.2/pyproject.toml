@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "SPTranslator"
+version = "0.0.2"
+authors = [
+  { name="Yuta Oriike", email="nontrivial@hotmail.co.jp" },
+]
+description = "Python library for translating in-code comments and documentation while preserving syntax and structure."
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "openai",
+    "tiktoken",
+    "lark"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/uta0x89/SPTranslator"

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+SPTranslator.egg-info/PKG-INFO
+SPTranslator.egg-info/SOURCES.txt
+SPTranslator.egg-info/dependency_links.txt
+SPTranslator.egg-info/requires.txt
+SPTranslator.egg-info/top_level.txt
+sptranslator/__init__.py
+sptranslator/translator.py
+tests/test_translator.py

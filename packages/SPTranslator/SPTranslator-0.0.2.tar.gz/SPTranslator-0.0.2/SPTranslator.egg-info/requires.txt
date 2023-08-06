@@ -1,0 +1,6 @@
+openai
+tiktoken
+lark
+
+[dev]
+pytest
