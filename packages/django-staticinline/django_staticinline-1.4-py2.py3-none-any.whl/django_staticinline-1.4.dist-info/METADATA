@@ -1,0 +1,127 @@
+Metadata-Version: 2.1
+Name: django-staticinline
+Version: 1.4
+Summary: Django template tag to load static files inline with your template.
+Home-page: https://github.com/bartTC/django-staticinline
+Author: Martin Mahner
+Author-email: martin@mahner.org
+License: MIT
+Keywords: django,staticfiles,inline,performance
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Framework :: Django
+Requires-Dist: django (>=2.2)
+
+.. image:: https://badge.fury.io/py/django-staticinline.svg
+    :target: https://badge.fury.io/py/django-staticinline
+
+.. image:: https://github.com/bartTC/django-staticinline/actions/workflows/test.yml/badge.svg?branch=master
+    :target: https://github.com/bartTC/django-staticinline/actions
+
+-----
+
+|
+| 📖 Full documentation: `https://django-staticinline.readthedocs.io <https://django-staticinline.readthedocs.io>`_
+| 🐱 Github Repository: `https://github.com/bartTC/django-staticinline <https://github.com/bartTC/django-staticinline>`_
+|
+
+===================
+django-staticinline
+===================
+
+Works similar to Django's ``static`` templatetag, but this one includes
+the file directly in the template, rather than a link to it.
+
+You can additionally post-process the file content using custom 'encoder'.
+
+Compatibility Matrix:
+=====================
+
+========= === === ==== ====
+Py/Dj     3.8 3.9 3.10 3.11
+========= === === ==== ====
+2.2 (LTS)  ✓   ✓   ✓   ✓
+3.2 (LTS)  ✓   ✓   ✓   ✓
+4.0        ✓   ✓   ✓   ✓
+4.1        ✓   ✓   ✓   ✓
+4.2 (LTS)  ✓   ✓   ✓   ✓
+========= === === ==== ====
+
+Quickstart
+==========
+
+1. Put the StaticInlineAppConfig along your apps.
+
+   .. code:: python
+
+       INSTALLED_APPS = [
+           # ...
+           'staticinline.apps.StaticInlineAppConfig',
+       ]
+
+2. Load the template tag and pass a filename as you'd do with a ``static``
+   template tag. You can also post-process the file content. In the example
+   below we encode the content of the ``mykey.pem`` file with base64. Several
+   encoders are already built-in, see the `Encoder docs`_.
+
+   .. code:: django
+
+       {% load staticinline %}
+
+       <style type="text/css">{% staticinline "myfile.css" %}</style>
+       My base64 encoded Key: {% staticinline "mykey.pem" encode="base64" cache=True %}
+
+
+3. Enjoy the result:
+
+   .. code:: html
+
+       <style type="text/css">body{ color: red; }</style>
+       My base64 encoded Key: LS0tIFN1cGVyIFByaXZhdGUgS2V5IC0tLQo=
+
+.. _Encoder docs: https://docs.elephant.house/django-staticinline/encoder.html
+
+=========
+Changelog
+=========
+
+v1.4
+====
+
+- Django 3.2 to 4.2 compatibility and tests.
+- Python 3.8 to 3.11 compatibility and tests.
+
+v1.3 (2018-08-15)
+=================
+
+- Added ``cache`` and ``cache_timeout`` templatetag arguments to store rendered
+  values in cache.
+- Added ``data_response`` AppConfig method to globally override the template
+  tag response.
+
+v1.2 (2018-08-14)
+=================
+
+- Added support for Django 2.1 and Python 3.7.
+- Added proper documentation.
+- Added ``sri`` (Subresource Integrity) encoder to generate a sha256 for a
+  given file.
+
+v1.1 (2018-08-09)
+=================
+
+- Added support for custom data encoders to modify file content on the fly.
+- Added ``data`` and ``base64`` encoders, both convert data into base64.
+
+v1.0 (2018-04-29)
+=================
+
+- 🌟 Initial release.
