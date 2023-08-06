@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+readable_number/__init__.py
+readable_number/readable_number.py
+readable_number.egg-info/PKG-INFO
+readable_number.egg-info/SOURCES.txt
+readable_number.egg-info/dependency_links.txt
+readable_number.egg-info/top_level.txt
+tests/test_readable_number.py
