@@ -1,0 +1,10 @@
+hance/__init__.py,sha256=2Ku1H1PqCYx5YP8lyaC5iYmcdNUuJC-B8UNTvKQdAFU,304
+hance/hance.py,sha256=h9-br4WzizzhGKL7yVDVpONlIw5mgLeF2D0vNcdkGZ0,8676
+hance/hance_file.py,sha256=zimv0abzKPT9r-7aJ1AW4dqNNr0KnqjkDB5PCyL4MsM,3495
+hance/version.py,sha256=ZR1VA9cGs0vIK6cWK4YKLfBTnmUCAcDaaP9ARPPYxEs,21
+hance/models/speech-denoise.hance,sha256=wjcFFdSmz0qMfI_xvLx6-LHphxOGYzaHQe48fHejx54,3753426
+hance/models/speech-dereverb.hance,sha256=7X5tPL_CoBTpAIY1wrlGTrwG4zBgHfWauI5ZhpaUm3A,3753426
+hance-1.0.5.dist-info/METADATA,sha256=I4RIEnJ4y68XmVDGgHPwXbjqFhZxW0VEp1RHMuO6VUI,5933
+hance-1.0.5.dist-info/WHEEL,sha256=-Ii4AvxI1xY6ei6edHf20sWJQxzkEjIQmkF7g6dYLTo,94
+hance-1.0.5.dist-info/top_level.txt,sha256=5hVoKN0Oc5C--RMWz-DrSRV0f1Zr-JgP5woqZyNqJEo,6
+hance-1.0.5.dist-info/RECORD,,
