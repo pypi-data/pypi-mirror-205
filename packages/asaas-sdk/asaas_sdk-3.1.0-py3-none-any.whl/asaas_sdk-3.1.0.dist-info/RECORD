@@ -1,0 +1,10 @@
+asaas/__init__.py,sha256=VO4vYmUvsTrB4n4maZVnkPp9hEjXMD6srK-nCH1Tqlc,12817
+asaas/customers.py,sha256=3F8n_jTp1yJKSKvxEKMDypKy3cy7AnYEzC8jHdIYKrA,1574
+asaas/exceptions.py,sha256=yH92ipeh-ACRDzeZgLM9JY3gpYYEVy_OmoZaSLNQiYM,1649
+asaas/payments.py,sha256=UOYlYKID9aXE4F0q3aQzqdGT55pVPcnU3rZBdjoH3-k,9408
+asaas/utils.py,sha256=JP-_OJmwaz37I5DCD88A7MLHA-QF5FABTziGSCrFGC4,141
+asaas_sdk-3.1.0.dist-info/LICENSE,sha256=B5XhMZvJRxY53acglXlCYJFeyKCRd5Pn_nurqZxZ2oE,1073
+asaas_sdk-3.1.0.dist-info/METADATA,sha256=vXJY66xVJ5A4ZzqZhzQCV7MoQhCs3aQomadQZxjYhDs,2484
+asaas_sdk-3.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+asaas_sdk-3.1.0.dist-info/top_level.txt,sha256=jm8UycQCfooE3BOWd0rT6ryIrmolHeRuitqwTxFRkSA,6
+asaas_sdk-3.1.0.dist-info/RECORD,,
