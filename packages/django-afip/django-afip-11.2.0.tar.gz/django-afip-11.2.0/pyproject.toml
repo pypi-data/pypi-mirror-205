@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm>=6.2"]
+
+[tool.setuptools_scm]
+write_to = "django_afip/version.py"
+version_scheme = "post-release"
+
+[tool.pytest.ini_options]
+addopts = """
+  --reuse-db
+  --cov=django_afip
+  --cov-report=term-missing:skip-covered
+  --no-cov-on-fail
+  --color=yes
+"""
+markers = [
+  "live: Tests done with the live test environment."
+]
+DJANGO_SETTINGS_MODULE = "testapp.settings"
+
+[tool.mypy]
+ignore_missing_imports = true
+plugins = ["mypy_django_plugin.main"]
+
+[tool.django-stubs]
+django_settings_module = "testapp.settings"
+
+[tool.ruff.isort]
+force-single-line = true
+
+[tool.coverage.run]
+source = ["django_afip"]
+
+[tool.ruff]
+select = [
+    "E",
+    "F",
+    "W",
+    "B",
+    "I",
+    "UP",
+    # "N",
+    # "ANN",
+    "A",
+    "C4",
+    "PT",
+    "SIM",
+    "TID",
+]
+ignore = [
+  "PT004"
+]
+target-version = "py37"
