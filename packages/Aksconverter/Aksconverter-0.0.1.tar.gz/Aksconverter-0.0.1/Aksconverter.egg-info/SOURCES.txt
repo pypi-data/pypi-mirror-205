@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+Aksconverter.egg-info/PKG-INFO
+Aksconverter.egg-info/SOURCES.txt
+Aksconverter.egg-info/dependency_links.txt
+Aksconverter.egg-info/top_level.txt
+aksconverter_properties_pkg/__init__.py
+aksconverter_properties_pkg/aksconverter_properties.py

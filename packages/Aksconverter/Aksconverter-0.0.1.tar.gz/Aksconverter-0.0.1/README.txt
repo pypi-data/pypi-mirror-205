@@ -1,0 +1,1 @@
+This is a simple Currency Converter using api to convert currency. You have to Pass three varible {base} ,  {to}  , {amount}. Thanks
