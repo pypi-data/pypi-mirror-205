@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: verse-core
+Version: 0.0.1
+Summary: Core Verse package shared by all Verse packages
+Author-email: Rapidverse <admin@rapidverse.com>
+Project-URL: Homepage, https://github.com/rapidverse/verse
+Project-URL: Bug Tracker, https://github.com/rapidverse/verse/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Verse Core
+
+Shared package used by all Verse packages.
