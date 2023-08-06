@@ -1,0 +1,53 @@
+{
+   auto_https disable_redirects
+   auto_https off
+}
+
+:80/uif {
+   reverse_proxy 127.0.0.1:10000
+}
+
+:80/uif_ipv6 {
+   reverse_proxy 127.0.0.1:10002
+}
+
+:80/uif_http {
+   reverse_proxy 127.0.0.1:10003
+}
+
+:80/grpc/Tun {
+   @v2grpc {
+       protocol grpc
+   }
+   reverse_proxy @v2grpc h2c://127.0.0.1:10005
+}
+
+:80/uif_trojan {
+   reverse_proxy 127.0.0.1:10004
+}
+
+:80/uif_free {
+   reverse_proxy 127.0.0.1:10001
+}
+
+:80/my_proxy {
+   reverse_proxy 127.0.0.1:10800
+}
+
+:80/my_proxy_mux {
+   reverse_proxy 127.0.0.1:10801
+}
+
+:80 {
+
+   @v2grpc {
+    protocol grpc
+    path /grpc_vmess/Tun
+   }
+
+   route {
+    reverse_proxy @v2grpc h2c://127.0.0.1:10006
+   }
+
+   respond "Hello world!"
+}
