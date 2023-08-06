@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: geotran
+Version: 0.0.7
+Summary: Python Geospatial Library
+Home-page: https://github.com/tnmthai/geotran
+Author: Thai Tran
+Author-email: tnmthai@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/tnmthai/geotran/issues
+Project-URL: repository, https://github.com/tnmthai/geotran
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+The Python Geospatial Library, Geotran, is a comprehensive toolkit for geospatial data preprocessing, analysis, and modeling. It provides a variety of functions for transforming and manipulating geospatial data, including data normalization, resampling, filtering, and feature selection. It also offers a range of analytical techniques, such as spatial clustering, classification, and regression, as well as machine learning algorithms for predictive modeling.    
+
+Geotran is designed to work with a variety of geospatial data formats, including shapefiles, GeoJSON, and raster data. It also supports integration with popular geospatial tools and platforms, such as QGIS, GDAL, and ArcGIS.     
+
+Geotran is widely used in the geospatial industry, research, and open-source communities for developing geospatial applications, performing spatial analysis, and modeling complex geospatial phenomena.        
+
+Example:     
+
+```
+from geotran import raster
+
+raster.plot('RGB.byte.tif') 
+
+raster.plot_contour('RGB.byte.tif')
+
+raster.plot_hist('RGB.byte.tif',100)
