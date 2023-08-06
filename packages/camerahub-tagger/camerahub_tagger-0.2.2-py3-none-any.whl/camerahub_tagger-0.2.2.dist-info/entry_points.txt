@@ -1,0 +1,3 @@
+[console_scripts]
+tagger=camerahub_tagger.main:main
+
