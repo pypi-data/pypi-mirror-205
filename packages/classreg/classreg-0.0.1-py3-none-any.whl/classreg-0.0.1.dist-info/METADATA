@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: classreg
+Version: 0.0.1
+Summary: data analysis
+Home-page: UNKNOWN
+Author: Yizhan
+Author-email: boy87511@gmail.com
+License: UNKNOWN
+Keywords: data analysis
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: statsmodels
+Requires-Dist: scikit-learn
+
+UNKNOWN
+
+
