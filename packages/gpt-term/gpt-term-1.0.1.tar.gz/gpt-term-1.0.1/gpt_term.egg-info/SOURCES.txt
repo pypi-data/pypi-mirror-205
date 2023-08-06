@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+chat.py
+setup.py
+gpt_term/__init__.py
+gpt_term/config.ini
+gpt_term/main.py
+gpt_term.egg-info/PKG-INFO
+gpt_term.egg-info/SOURCES.txt
+gpt_term.egg-info/dependency_links.txt
+gpt_term.egg-info/entry_points.txt
+gpt_term.egg-info/requires.txt
+gpt_term.egg-info/top_level.txt
