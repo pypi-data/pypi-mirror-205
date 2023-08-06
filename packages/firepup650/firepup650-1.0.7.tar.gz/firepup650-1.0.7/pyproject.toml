@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "firepup650"
+version = "1.0.7"
+description = "Replit source"
+authors = ["Firepup650"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fkeycapture = "^1.0.0"
+collections = "^1.0.0"
+typing = "^1.0.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
