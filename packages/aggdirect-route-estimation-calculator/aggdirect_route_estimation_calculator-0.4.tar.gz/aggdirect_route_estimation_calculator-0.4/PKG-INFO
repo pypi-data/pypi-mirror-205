@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: aggdirect_route_estimation_calculator
+Version: 0.4
+Summary: Route Estimation Calculator functions
+Home-page: 
+Author: Chinmoy Das
+Author-email: 
+Keywords: Route Estimation Calculator,Route Calculator,AGGDIRECT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
