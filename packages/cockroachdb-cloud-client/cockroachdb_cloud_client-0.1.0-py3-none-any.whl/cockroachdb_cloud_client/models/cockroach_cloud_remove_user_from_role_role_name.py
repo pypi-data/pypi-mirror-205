@@ -1,0 +1,17 @@
+from enum import Enum
+
+
+class CockroachCloudRemoveUserFromRoleRoleName(str, Enum):
+    ADMIN = "ADMIN"
+    BILLING_COORDINATOR = "BILLING_COORDINATOR"
+    CLUSTER_ADMIN = "CLUSTER_ADMIN"
+    CLUSTER_CREATOR = "CLUSTER_CREATOR"
+    CLUSTER_DEVELOPER = "CLUSTER_DEVELOPER"
+    CLUSTER_OPERATOR_READER = "CLUSTER_OPERATOR_READER"
+    CLUSTER_OPERATOR_WRITER = "CLUSTER_OPERATOR_WRITER"
+    DEVELOPER = "DEVELOPER"
+    ORG_ADMIN = "ORG_ADMIN"
+    ORG_MEMBER = "ORG_MEMBER"
+
+    def __str__(self) -> str:
+        return str(self.value)
