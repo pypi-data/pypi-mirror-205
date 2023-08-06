@@ -1,0 +1,9 @@
+rclone_decrypt/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+rclone_decrypt/cli.py,sha256=-WIrv6gpIn5hKCnwF1_pItelJoOEcXgmVQjhHqAPJU8,1162
+rclone_decrypt/decrypt.py,sha256=85l4SfWT8PY745f0OAJkX0k2GHefkdiSbi9JRH-1KmE,8246
+rclone_decrypt/gui.py,sha256=z3_Ta-2Gd_tVtvA99xxJ3kwRdxT39BavdzALM40IMdg,5472
+rclone_decrypt-0.1.0.dist-info/LICENSE.md,sha256=GS5YlUUaKImAOCMqvxNOic68G-cvSAeLdVITf1Wj2jI,1075
+rclone_decrypt-0.1.0.dist-info/METADATA,sha256=_xmuv9Y7-ZqzcSy0R7YDSRHMS2W7xb8a9QoueRwWv68,549
+rclone_decrypt-0.1.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+rclone_decrypt-0.1.0.dist-info/entry_points.txt,sha256=fDyOxiaw18X-daMg-JLAGy2qm0aLJOckIPaKaxk-k7g,57
+rclone_decrypt-0.1.0.dist-info/RECORD,,

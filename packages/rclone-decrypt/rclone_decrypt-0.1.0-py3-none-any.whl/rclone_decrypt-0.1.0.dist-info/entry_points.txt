@@ -1,0 +1,3 @@
+[console_scripts]
+rclone-decrypt=rclone_decrypt.cli:cli
+
