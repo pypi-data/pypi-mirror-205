@@ -1,0 +1,12 @@
+dill
+mpi4py
+packaging
+radical.pilot>=1.22
+
+[test]
+build
+packaging
+pytest>=6.1.2
+pytest-asyncio>=0.14
+pytest-env
+radical.pilot>=1.22

@@ -1,0 +1,2 @@
+[console_scripts]
+scalems_rp_master = scalems.radical.raptor:master
