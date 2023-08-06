@@ -1,0 +1,8 @@
+picods/__init__.py,sha256=FYPbp_c4tTqCNi-4aIPz5n_SQasDA_Qa8BBe_Y6fYDw,93
+picods/plot/__init__.py,sha256=Jm2NO2e7mMlb9yTS_QluLlLhObSxPkGqtzKkaKtE0Dg,51
+picods/plot/plot.py,sha256=MZ-2oBvy6utcl9yROsxXkGpZ1kEFmwXxasqEpnNhlfw,988
+picods/table/__init__.py,sha256=HHrnDAOw-wxtDTOb1Rx5GxocxsHJcw0irJeVUFNNcs4,54
+picods/table/table.py,sha256=zk-iWrfyJWAjQSqE1RXvAp52FFlh9lMxfb3CnIpVKvo,856
+picods-0.1.5.dist-info/METADATA,sha256=PWLtoU9y-UBu7Z6Hy2rM3e_spqevq-nqxSoZMwypgO8,3801
+picods-0.1.5.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+picods-0.1.5.dist-info/RECORD,,
