@@ -1,0 +1,3 @@
+[console_scripts]
+admin = admin_dashboard.scripts.cli:cli
+
