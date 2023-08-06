@@ -1,0 +1,14 @@
+SpiNNMan==1!7.0.0-a5
+SpiNNaker_PACMAN==1!7.0.0-a5
+SpiNNaker_DataSpecification==1!7.0.0-a5
+spalloc==1!7.0.0-a5
+scipy>=0.16.0
+
+[plotting]
+matplotlib
+seaborn
+
+[test]
+pytest-cov
+testfixtures
+httpretty!=1.0.0
