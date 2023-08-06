@@ -1,0 +1,17 @@
+pygenstability/__init__.py,sha256=cP2iiGpxF-UKFWmxq8qwzTKem5pxe6loeJf4rfbDvKg,161
+pygenstability/app.py,sha256=f1ZbqHkO92eQ6TAeFUnCIqTWEQIyAu4yX2Su-GE2pgM,5465
+pygenstability/constructors.py,sha256=drwIOLRl6-wRpftAbxbVy-fZ-D9IeRPCmkXDqRZL_w8,16324
+pygenstability/generalized_louvain.cpython-36m-darwin.so,sha256=bfqo0zF9u1WlJCBC7H_qinK0eVeQ6MQhSDNqBLxc-ZA,250312
+pygenstability/io.py,sha256=rcbXTxDWW4HTT_vqpuMltwg7lb7TtGBQlMXx7mRv7QA,412
+pygenstability/optimal_scales.py,sha256=yIPlSyazYgxebo80mr91uOB5L3LawRi6wgvk3yHPF-s,4585
+pygenstability/plotting.py,sha256=8nCROV2TVpmSDutqvxO3ld7Kz3o1zYiDkq0zcaVX45E,15106
+pygenstability/pygenstability.py,sha256=i4kCf4TnL3rMBcV7lnMFcW0KRbGjOoV9a-ueiYBXcO0,15659
+pygenstability/contrib/__init__.py,sha256=C5b7l1u0qssbLc9V1aY6XP758q_KbDqCtE0tMOCVEgs,23
+pygenstability/contrib/sankey.py,sha256=4HQm_nBsRBMklwt8Qz_7NK0K0i-GBbudUWkfgP5YGkw,2303
+pygenstability/generalized_louvain/generalized_louvain.cpp,sha256=APLeJctsNyW2LbKo2EutHdJDYhXURolSrBR7RALK7Ts,7411
+PyGenStability-0.2.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+PyGenStability-0.2.1.dist-info/METADATA,sha256=VdjgZO-FhWbu1HceJcMpAaY6ya0LRj6Jjxbu37new5w,13384
+PyGenStability-0.2.1.dist-info/WHEEL,sha256=hAlYJlV-gD5QDHJE5E_dCENuZURdHw6nRXl9gkc2AVs,111
+PyGenStability-0.2.1.dist-info/entry_points.txt,sha256=EzMS6FnpOKFa4WvpAeyyN7f4tTXRN_k7E1GFHU9hDWg,59
+PyGenStability-0.2.1.dist-info/top_level.txt,sha256=KiItEBDfJsqE95W52qGlvFVJgE4RC0MixDIhO6pHD4s,15
+PyGenStability-0.2.1.dist-info/RECORD,,
