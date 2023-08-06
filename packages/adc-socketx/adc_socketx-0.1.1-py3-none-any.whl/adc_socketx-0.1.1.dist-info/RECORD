@@ -1,0 +1,10 @@
+adc_socketx/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+adc_socketx/commands.py,sha256=bJelNpkGgh0zjd3UQ1VfNWuMGmbMLLI2VM7jYo7Auoo,5622
+adc_socketx/config.py,sha256=Hzini5yV044anWWhAZhlB4o3fJ8aAmr26McrAhu_Iug,2186
+adc_socketx/data_models.py,sha256=mS-MWl1MNYJtzo-zHm_SHlVLGWumbAO0_Y0w2yoNClY,766
+adc_socketx/main.py,sha256=oOeIHsa0klKvLgMyeRdutZptxxy1rL2YwIZkIFSEo_k,5537
+adc_socketx-0.1.1.dist-info/LICENSE,sha256=wR7LngcfsKWGrovscCqmKSsaJDbYsXi-SSH0Gak_AjI,1092
+adc_socketx-0.1.1.dist-info/METADATA,sha256=T5cQl1C72HGfnsUS7nwf1lbquuXGTQjVmAfDx0I-fnM,3049
+adc_socketx-0.1.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+adc_socketx-0.1.1.dist-info/entry_points.txt,sha256=62WlF56ColfoGO1F2JxiBLAMBAolQGp3x7a6oFMq3mI,45
+adc_socketx-0.1.1.dist-info/RECORD,,
