@@ -1,0 +1,10 @@
+s3_concat/__init__.py,sha256=TY1CYLjqjfDG9myPgrrA51fkpKxtEGwvtxZUJe9cEmU,2490
+s3_concat/cli.py,sha256=ZhAJKoLCHlqlkTeq4F-qmm_d9t-u3MOZ-zk5Aku5GqA,1897
+s3_concat/multipart_upload_job.py,sha256=8ZsXJm7mztf_11JIMChRRiB8OGP-9f9PnXHk2yKvZQE,7467
+s3_concat/utils.py,sha256=HhiO-EVBRjWxFogEbtXXqYfh75B0o6sZ90CN41ISE-c,3295
+s3_concat-0.2.4.dist-info/LICENSE,sha256=-J5Wkw38TGqkmkiaDgy2LDKcqQCY-dAv7xe8QIDpmik,1078
+s3_concat-0.2.4.dist-info/METADATA,sha256=hsOu7dVxU_uZEq_aLpCfdWi2nOxSHAp4Bi1cbBq_F-A,2945
+s3_concat-0.2.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+s3_concat-0.2.4.dist-info/entry_points.txt,sha256=x8Qw3AB3bJGunpWgGVg7Qoy7CtBQ473j6kC_d6dvPrQ,49
+s3_concat-0.2.4.dist-info/top_level.txt,sha256=O5V4tMjK4_wP8LoCIh05jmlbSPz8b5TeqJgylQMZlZY,10
+s3_concat-0.2.4.dist-info/RECORD,,
