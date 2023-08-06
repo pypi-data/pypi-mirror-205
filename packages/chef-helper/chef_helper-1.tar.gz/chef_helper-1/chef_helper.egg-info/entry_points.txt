@@ -1,0 +1,2 @@
+[console_scripts]
+chef-helper = Chef_helper.client:run_client

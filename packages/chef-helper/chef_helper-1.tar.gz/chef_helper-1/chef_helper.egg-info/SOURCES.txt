@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+chef_helper.egg-info/PKG-INFO
+chef_helper.egg-info/SOURCES.txt
+chef_helper.egg-info/dependency_links.txt
+chef_helper.egg-info/entry_points.txt
+chef_helper.egg-info/requires.txt
+chef_helper.egg-info/top_level.txt
