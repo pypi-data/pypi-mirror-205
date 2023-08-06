@@ -1,0 +1,2 @@
+[console_scripts]
+verime = verime.verime:main
