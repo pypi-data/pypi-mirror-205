@@ -1,0 +1,2 @@
+[console_scripts]
+create_solar_system_ephemeris = solar_system_ephemerides.cli:main
