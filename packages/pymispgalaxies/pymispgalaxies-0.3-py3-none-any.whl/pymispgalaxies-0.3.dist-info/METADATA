@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: pymispgalaxies
+Version: 0.3
+Summary: Python API for the MISP Galaxies.
+Home-page: https://github.com/MISP/PyMISPGalaxies
+License: BSD-3-Clause
+Author: Raphaël Vinot
+Author-email: raphael.vinot@circl.lu
+Requires-Python: >=3.8.1,<4.0.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Telecommunications Industry
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Internet
+Classifier: Topic :: Security
+Requires-Dist: jsonschema (>=4.17.3,<5.0.0)
+Project-URL: Repository, https://github.com/MISP/PyMISPGalaxies
+Description-Content-Type: text/markdown
+
+# PyMISPGalaxies
+
+[![Build Status](https://travis-ci.org/MISP/PyMISPGalaxies.svg?branch=master)](https://travis-ci.org/MISP/PyMISPGalaxies)
+[![codecov.io](https://codecov.io/github/MISP/PyMISPGalaxies/coverage.svg?branch=master)](https://codecov.io/github/MISP/PyMISPGalaxies?branch=master)
+
+Pythonic way to work with the galaxies defined there: https://github.com/MISP/misp-galaxy
+
+# Usage
+
+Clusters and Galaxies are represented as immutable Python dictionaries.
+
+
