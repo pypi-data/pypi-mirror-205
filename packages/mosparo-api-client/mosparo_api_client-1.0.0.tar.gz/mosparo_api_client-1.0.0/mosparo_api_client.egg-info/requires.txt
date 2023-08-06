@@ -1,0 +1,6 @@
+requests
+
+[dev]
+pytest-runner
+requests-mock
+pip-tools
