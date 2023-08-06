@@ -1,0 +1,6 @@
+module.py
+setup.py
+publishing_service_api.egg-info/PKG-INFO
+publishing_service_api.egg-info/SOURCES.txt
+publishing_service_api.egg-info/dependency_links.txt
+publishing_service_api.egg-info/top_level.txt
