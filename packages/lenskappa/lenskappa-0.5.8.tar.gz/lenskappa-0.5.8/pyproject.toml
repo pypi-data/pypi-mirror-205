@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "lenskappa"
+version = "0.5.8"
+description = ""
+authors = ["Patrick Wells <pwells@ucdavis.edu>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.22.3"
+pandas = "^1.4.1"
+Shapely = "^1.8.1"
+astropy = "^5.0.3"
+toml = "^0.10.2"
+regions = "0.7"
+appdirs = "^1.4.4"
+scipy = "^1.8.0"
+heinlein = "^0.4.0"
+multiprocess = "^0.70.13"
+networkx = "^3.0"
+dask = {extras = ["distributed"], version = "^2023.3.2"}
+tqdm = "^4.65"
+numba = "^0.56"
+loguru = "^0.7"
+
+[tool.poetry.scripts]
+lenskappa_analysis = "lenskappa.analysis.run_analysis:run_analysis"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
