@@ -1,0 +1,16 @@
+dcb_admin_page_generator/__init__.py,sha256=NTfWW-S8QXAjYC8uxWb7SXrGLsJ8wceH2hsys4LDZKo,25
+dcb_admin_page_generator/common_class.py,sha256=Xth58G9l1QfMFiUwU1FL5MI-KdcIbQ95XyEAV45uu0I,7175
+dcb_admin_page_generator/config.py,sha256=QNRSCILjB5roRSro-seQfTjI21qqNQH1m1Aenmerd-U,6617
+dcb_admin_page_generator/funcs.py,sha256=FCO2azNDLrMuIp1WAmQeSjvVtCO9YtrR5_L9agEeLJk,1391
+dcb_admin_page_generator/main.py,sha256=65l61eiSXWUOstwEBP-HafCjtnH6n43krpMIYkE-0X0,2823
+dcb_admin_page_generator/page_class.py,sha256=N_BnF3Q_2MrpLxH5lGMytYHngdqKYuUGBTqHgP_7r9Y,6847
+dcb_admin_page_generator/template/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dcb_admin_page_generator/template/add_or_edit.vue,sha256=04pBgXqlGMm6xFaXnUOl56mMT3F9KDO1MqENuuyLcgU,2531
+dcb_admin_page_generator/template/dialog_add_or_edit.vue,sha256=fH5TaUmV5jVVcRdgKIks7nfdSpOzZ41a8lI8QBoAF78,2258
+dcb_admin_page_generator/template/dialog_list.vue,sha256=iMSBjjMsIJ3B3wrzpGkB9h4Cm03WTBuqC7IMY6qRRkY,4014
+dcb_admin_page_generator/template/list.vue,sha256=e6Siw5r_m9tTYoQBBynXQdE5Rwr3CF-pV_EM2-HbvnU,3848
+dcb_admin_page_generator-0.0.7.dist-info/LICENSE,sha256=isFtsczfULkAm7Cz-0kyrtqgs2Q5T0tr2rK3YWTZDs8,1088
+dcb_admin_page_generator-0.0.7.dist-info/METADATA,sha256=Ynz9JQrQH-s5uBxGc62Yb06bIo0zB0orLBXudVmNuSc,664
+dcb_admin_page_generator-0.0.7.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+dcb_admin_page_generator-0.0.7.dist-info/top_level.txt,sha256=itfEYL5H9FxPBgv6CepRjx9gdnAEUqtsgv_EtNFibhA,25
+dcb_admin_page_generator-0.0.7.dist-info/RECORD,,
