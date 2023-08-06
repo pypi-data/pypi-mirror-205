@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: xcnt-drivr-metadata-client
+Version: 2022.9.2
+Home-page: https://github.com/xcnt/cqrs-metadata-client
+Author: XCNT Dev Team
+Author-email: dev-infra@xcnt.io
+License: Internal
+Project-URL: GitHub, https://github.com/xcnt/drivr-metadata-client
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Requires-Dist: inflection (>=0.5.1)
+Requires-Dist: marshmallow (<4,>=3)
+Requires-Dist: sqlalchemy (<2,>=1.3)
+Requires-Dist: webargs (<9,>=7.0.0b1)
+Requires-Dist: xcnt-cqrs (>=2022.2.1)
+Requires-Dist: xcnt-cqrs-sqlalchemy (>=2022.1.1)
+Provides-Extra: apispec
+Requires-Dist: xcnt-sqlalchemy-search[apispec] (>=2022.2.2) ; extra == 'apispec'
+Requires-Dist: apispec (>=4.3.0) ; extra == 'apispec'
+Provides-Extra: kafka-http-client
+Requires-Dist: xcnt-cqrs-kafka-http-client (>=2022.2.0) ; extra == 'kafka-http-client'
+Provides-Extra: search
+Requires-Dist: xcnt-sqlalchemy-search (>=2022.2.2) ; extra == 'search'
+Provides-Extra: test
+Requires-Dist: black (>=19.10b0) ; extra == 'test'
+Requires-Dist: coverage (<8,>=7) ; extra == 'test'
+Requires-Dist: factory-boy (>=2.12.0) ; extra == 'test'
+Requires-Dist: flake8 (<7,>=6) ; extra == 'test'
+Requires-Dist: mypy (>=0.812) ; extra == 'test'
+Requires-Dist: mypy-extensions (>=0.4.3) ; extra == 'test'
+Requires-Dist: pre-commit (<4,>=3.0.4) ; extra == 'test'
+Requires-Dist: psycopg2 (<3,>=2.8.5) ; extra == 'test'
+Requires-Dist: sqlalchemy-cockroachdb (>=1.3.1) ; extra == 'test'
+Requires-Dist: pytest-cases (<4,>=1.13.1) ; extra == 'test'
+Requires-Dist: pytest (<8.0.0,>=5.4.1) ; extra == 'test'
+Requires-Dist: pytest-html ; extra == 'test'
+Requires-Dist: pytest-mock (<4,>=3.3.0) ; extra == 'test'
+Requires-Dist: python-dotenv (<1,>=0.13.0) ; extra == 'test'
+Requires-Dist: twine (<5,>=3.1.1) ; extra == 'test'
+Requires-Dist: xcnt-cqrs-mypy-plugin (>=2022.0.0) ; extra == 'test'
+Requires-Dist: python-semantic-release (<8,>=7.19.2) ; extra == 'test'
+Requires-Dist: types-setuptools ; extra == 'test'
+Requires-Dist: xcnt-cqrs-kafka-http-client (>=2022.2.0) ; extra == 'test'
+Requires-Dist: xcnt-sqlalchemy-search (>=2022.2.2) ; extra == 'test'
+Requires-Dist: xcnt-sqlalchemy-search[apispec] (>=2022.2.2) ; extra == 'test'
+Requires-Dist: apispec (>=4.3.0) ; extra == 'test'
+

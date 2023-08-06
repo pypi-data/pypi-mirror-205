@@ -1,0 +1,13 @@
+[xcnt.sqlalchemy.search.field.apigatewaycrd]
+metadata = xcnt.drivr.metadata_client.search.api_gateway_crd:MetadataFieldAPIGatewayCRDConverterPlugin
+metadata_key_value_field = xcnt.drivr.metadata_client.search.api_gateway_crd:MetadataKeyValueStoreFieldAPIGatewayCRDConverterPlugin
+
+[xcnt.sqlalchemy.search.field.apispec]
+metadata = xcnt.drivr.metadata_client.search.apispec:MetadataFieldOpenAPIConverterPlugin
+metadata_key_value_field = xcnt.drivr.metadata_client.search.apispec:MetadataKeyValueStoreFieldOpenAPIConverterPlugin
+
+[xcnt.sqlalchemy.search.field.parser]
+metadata = xcnt.drivr.metadata_client.search.parser:MetadataFieldParser
+metadata_item = xcnt.drivr.metadata_client.search.parser:MetadataItemParser
+metadata_key_value_store_field = xcnt.drivr.metadata_client.search.parser:MetadataKeyValueStoreFieldParser
+metadata_type_key = xcnt.drivr.metadata_client.search.parser:MetadataTypeKeyParser
