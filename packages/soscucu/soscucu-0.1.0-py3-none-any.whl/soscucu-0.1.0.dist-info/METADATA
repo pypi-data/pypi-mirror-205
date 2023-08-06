@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: soscucu
+Version: 0.1.0
+Summary: A simple greeting package
+Home-page: https://github.com/yourusername/greeting
+Author: Choongin
+Author-email: choongin.lee@kaist.ac.kr
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# Greeting Package
+
+A simple greeting package in Korean and English.
+
+## Usage
+
+```python
+from greeting import korean, english
+
+print(korean.say_hello()) # 안녕하세요!
+print(english.say_hello()) # Hello!
+
+
