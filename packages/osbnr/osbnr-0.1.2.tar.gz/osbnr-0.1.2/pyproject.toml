@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "OSBNR"
+version = "0.0.1"
+authors = [
+  { name="Salma El Hajjami", email="salma.elhajjami@usmba.ac.ma" },
+]
+description = "OSBNR (One Side Behavioral Noise Reduction) approach to deal with the problem of class imbalance in the presence of a behavioral noise level."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+homepage = "https://github.com/salmaelhajjami/OSBNR"

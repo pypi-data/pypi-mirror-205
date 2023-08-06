@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+osbnr/__init__.py
+osbnr/osbnr.py
+osbnr.egg-info/PKG-INFO
+osbnr.egg-info/SOURCES.txt
+osbnr.egg-info/dependency_links.txt
+osbnr.egg-info/requires.txt
+osbnr.egg-info/top_level.txt
