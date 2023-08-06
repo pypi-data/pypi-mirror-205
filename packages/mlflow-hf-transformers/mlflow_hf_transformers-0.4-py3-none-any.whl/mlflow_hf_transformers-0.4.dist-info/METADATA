@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: mlflow-hf-transformers
+Version: 0.4
+Summary: Mlflow flavors for pytorch huggingface transformers models
+Home-page: https://github.com/Warra07/mlflow-hf-transformers-flavor
+Author: Wacim Belahcel
+Author-email: wacimbelahcel@gmail.com
+License: Apache 2
+Keywords: mlflow huggingface transformers
+Requires-Dist: mlflow (==2.2.2)
+Requires-Dist: transformers[torch] (==4.21.2)
+
