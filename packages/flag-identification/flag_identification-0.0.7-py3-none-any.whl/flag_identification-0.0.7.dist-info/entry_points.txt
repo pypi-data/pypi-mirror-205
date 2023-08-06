@@ -1,0 +1,6 @@
+[console_scripts]
+download_flags = flag_identification.bin.pull_wikimedia:main
+move_additional_flags = flag_identification.bin.move_additional_flags:main
+predict_flag = flag_identification.bin.predict_single:main
+prepare_flags = flag_identification.bin.prep:main
+train_flags = flag_identification.bin.train:main
