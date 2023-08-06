@@ -1,0 +1,10 @@
+MANIFEST.in
+setup.py
+chan127_demo.egg-info/PKG-INFO
+chan127_demo.egg-info/SOURCES.txt
+chan127_demo.egg-info/dependency_links.txt
+chan127_demo.egg-info/entry_points.txt
+chan127_demo.egg-info/requires.txt
+chan127_demo.egg-info/top_level.txt
+showdf/__init__.py
+showdf/main.py
