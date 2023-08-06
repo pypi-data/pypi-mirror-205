@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: tgbox-cli
+Version: 0.1.1
+Summary: A Command Line Interface to the TGBOX
+Home-page: https://github.com/NotStatilko/tgbox-cli
+Author: NotStatilko
+Author-email: thenonproton@pm.me
+License: MIT
+Download-URL: https://github.com/NotStatilko/tgbox-cli/archive/refs/tags/v0.1.1.tar.gz
+Description: UNKNOWN
+Keywords: Telegram,Cloud-Storage,Cloud,Non-official
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Security :: Cryptography
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: fast
