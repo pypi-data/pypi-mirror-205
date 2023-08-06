@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "aligned-text-table"
+version = "0.2.0"
+description = "Parser for space-aligned tables in plain text"
+authors = ["Robin Winslow <robin@robinwinslow.co.uk>"]
+license = "Public domain"
+readme = "README.md"
+repository = "https://github.com/nottrobin/aligned-text-table"
+packages = [{include = "aligned_text_table"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
