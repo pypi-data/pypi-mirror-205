@@ -1,0 +1,11 @@
+sparke_kinematics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sparke_kinematics/base_transformations.py,sha256=JFmJd1eFHahll6Xz-9fE5H-Y-SZJFC8HPG8slYfoflI,1273
+sparke_kinematics/leg_transformations.py,sha256=oNx8AOo01nA4r9-E2vMLyAZjDJrgmR82tQiwVKbZUOQ,1833
+sparke_kinematics/sparke_base_IK.py,sha256=5CE4rEdqfIpIcHTnUKMnaKIPfSnj9rRHUKtPq61Hm98,1183
+sparke_kinematics/sparke_leg_IK.py,sha256=wTXfa98r5ZwGep98HhMKrgnpyeYnVBBenXKguSWVqoc,2201
+sparke_kinematics/test_plotter.py,sha256=F4DjC9jm0-CfY7ZKA5mW-gkXc5_bbJjD9pQMJDDy_po,9401
+sparke_kinematics-0.0.1.dist-info/LICENSE,sha256=Yx3DiwDhYO3NFA1NshSpC8TG-rSysWX2ciWkZwD6Nks,1072
+sparke_kinematics-0.0.1.dist-info/METADATA,sha256=WXquRC7SRl7RKTlRmKQEhvZssGDr8FBctLEMTxQz4sg,640
+sparke_kinematics-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+sparke_kinematics-0.0.1.dist-info/top_level.txt,sha256=9tOJgqHzVAVlqR9QbsNV5KZC0L8rc9nH4FgocOmS-Jo,18
+sparke_kinematics-0.0.1.dist-info/RECORD,,
