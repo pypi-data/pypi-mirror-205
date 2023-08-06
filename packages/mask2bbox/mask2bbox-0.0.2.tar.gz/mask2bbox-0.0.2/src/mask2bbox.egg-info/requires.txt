@@ -1,0 +1,5 @@
+numpy
+scikit-image
+
+[dev]
+pytest>=3.7
