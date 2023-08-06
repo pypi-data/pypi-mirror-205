@@ -1,0 +1,13 @@
+forgedata/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+forgedata/countries.csv,sha256=4SabP8XaLCL7x0BlAytQnZ8jNKywyJahkSxS8c_3sNo,4065
+forgedata/domains-common.csv,sha256=VATSVkjpzUGREYl2_JbRAhti8H3V1Ab31DZ3miqjeOU,6271
+forgedata/domains.csv,sha256=ZrkNaYhqjhXIL3WsllRN0p6GSPJFv2_J2pUUmK5z0mI,85116
+forgedata/firstname-female.csv,sha256=tIGyvgyysuDB0AOgqO47yJfGeDImgBVhjHFGrnLV00Y,679
+forgedata/firstname-male.csv,sha256=nSJ_dJTRNtei37i2xm2Ja2YpRiZLkCa6Qbgrc5xDxcQ,643
+forgedata/generator.py,sha256=m4wD80I3E4HeNFU_b6u33IFxGpKiCADTRLbwp8_dFxg,12061
+forgedata/lastname.csv,sha256=CDZslfPlNIZidqNHFB_NyAWdVLrI5AkfdHyOBkjL43c,1064
+forgedata-1.0.1.dist-info/LICENSE,sha256=GB7G_NLHcBC5tjBMxsOsuVWJIqew7zVg8PA3EahSJy8,1066
+forgedata-1.0.1.dist-info/METADATA,sha256=8WfSIGSZW7zHPsD4WEuw5RnCb5EAW2LtoHXtXuJwKgw,3769
+forgedata-1.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+forgedata-1.0.1.dist-info/top_level.txt,sha256=mmxtC6Yzw3Jl6ZiKcxYJq2MwlSx8CshpjkJbHCCB6ps,10
+forgedata-1.0.1.dist-info/RECORD,,
