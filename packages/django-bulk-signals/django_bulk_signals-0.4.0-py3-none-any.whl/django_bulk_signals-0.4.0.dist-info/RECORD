@@ -1,0 +1,17 @@
+bulk_signals/__init__.py,sha256=42STGor_9nKYXumfeV5tiyD_M8VdcddX7CEexmibPBk,22
+bulk_signals/apps.py,sha256=T737XYsJ6_u8tnart13qou-39pJMz0aLOtZOhsfQF9s,2992
+bulk_signals/signals.py,sha256=IXVVosihvhaCPwukBxNQ4Ssx3Nxqvm8x9LhFKQFa6F0,203
+bulk_signals/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bulk_signals/tests/apps.py,sha256=M9Xb_1IRBro5-3Aw_TP9WJBn6tZvI1CTKWdkr1imgfc,194
+bulk_signals/tests/conftest.py,sha256=XWe37mu1LHZu-WoO5b4F7h8-nCOD5r5aLAgmIY94hIY,199
+bulk_signals/tests/models.py,sha256=yFul07RCRA_Pvxv0QWvu449bgZP7KZQJ2r4_5hjkX_Y,887
+bulk_signals/tests/settings.py,sha256=-EUwoUnA1OcXjTYs-cQRIMjhwunpY8WvscFsRqS_g20,298
+bulk_signals/tests/test_skip.py,sha256=QvwRa_h1QZc6GVkgYPSt7nG3h7jUlaZJAJM-C1obF1M,1266
+bulk_signals/tests/tests.py,sha256=c5CfVn66qMp2vQ0gvr_65S6vDFV6jzvyAe1RnApnr9M,3512
+bulk_signals/tests/migrations/0001_initial.py,sha256=Sj0wAFB7GpUH6Bk2DBZBjXW-YxQsCwPee0ZQOXla4hM,737
+bulk_signals/tests/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_bulk_signals-0.4.0.dist-info/LICENSE,sha256=tyE8J_QUVVYkAFHLvtHGpHfJxrBIpg67XIN0yqBCdTk,1063
+django_bulk_signals-0.4.0.dist-info/METADATA,sha256=FjKA2ebGpsmbRbP-u5QW_QUFhMgGg_NItojIwfaNslw,2734
+django_bulk_signals-0.4.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+django_bulk_signals-0.4.0.dist-info/top_level.txt,sha256=f66XGcCM4Ga6mz-mWuswXqSXbfomH3ZaTym_Jv69afE,13
+django_bulk_signals-0.4.0.dist-info/RECORD,,
