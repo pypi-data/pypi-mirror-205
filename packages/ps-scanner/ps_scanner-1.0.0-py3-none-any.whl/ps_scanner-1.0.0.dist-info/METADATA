@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: ps-scanner
+Version: 1.0.0
+Summary: Prototype for ps-scanner
+Home-page: https://github.com/
+Author: Sachin Goyal
+Author-email: scahingoyal2022@gmail.com
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+long_description

@@ -1,0 +1,38 @@
+from checkov.terraform.runner import Runner as TerraformRunner
+import subprocess
+import uuid
+import json
+import os
+import argparse
+
+
+def scan(repo_path, rego_file_path):
+    terraform_runner = TerraformRunner()
+    graph = terraform_runner.generate_graph(repo_path)
+    input_json_dir = os.getcwd() + "/input_json/"
+    try:
+        for node in graph["nodes"]:
+            input_json_path = f"{input_json_dir}{uuid.uuid4()}.json"
+            with open(input_json_path, "w") as f:
+                json.dump(node, f)
+            # output = subprocess.check_output(["./go-rego-evaluator", input_json_path, rego_file_path])
+            # print(output)
+            subprocess.run(["./go-rego-evaluator", input_json_path, rego_file_path])
+            os.remove(input_json_path)
+    except Exception as e:
+        print(e)
+    finally:
+        files = os.listdir(input_json_dir)
+        for file in files:
+            file_path = os.path.join(input_json_dir, file)
+            if os.path.isfile(file_path):
+                os.remove(file_path)
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description='Code Scanner')
+    parser.add_argument('rego_file_path', type=str, help='path to rego file')
+    parser.add_argument('repo_path', type=str, help='path to rego file')
+    args = parser.parse_args()
+    scan(args.repo_path, args.rego_file_path)
+
