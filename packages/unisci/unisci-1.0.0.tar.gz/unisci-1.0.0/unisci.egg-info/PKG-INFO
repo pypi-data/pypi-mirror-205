@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: unisci
+Version: 1.0.0
+Summary: Units Conversions, and Science Package
+Author: Vivaan Singhvi
+Author-email: singhvi.vivaan@gmail.com
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# UniSci
+A module to perform unit conversions for almost any scientific topic!
+
+## Why Use This?
+Short for "Unit Science" UniSci is primarilty focused on being able to use any unit and easily convert it to another. It supports automatic conversions for formulas, condensation of complex units like `kg-m/s²` to `N`, and more!
+
+## Use Cases
+See some use cases in the `use_cases.ipynb` notebook, [here](https://github.com/vivaansinghvi07/conversions/blob/main/use_cases.ipynb).
