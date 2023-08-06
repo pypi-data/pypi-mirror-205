@@ -1,0 +1,10 @@
+tensorflow
+Pillow
+PyOpenGL
+pyyaml
+matplotlib
+pytz
+imageio==2.4.1
+gym
+moviepy
+pandas
