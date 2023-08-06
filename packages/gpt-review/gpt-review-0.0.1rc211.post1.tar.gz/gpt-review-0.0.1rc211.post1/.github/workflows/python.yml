@@ -1,0 +1,114 @@
+name: Python CI
+on:
+  push:
+    branches: [ main ]
+  pull_request_target:
+    branches: [ main ]
+  release:
+    types: [created]
+  workflow_dispatch:
+
+env:
+  OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+  AZURE_OPENAI_API: ${{ secrets.AZURE_OPENAI_API }}
+  AZURE_OPENAI_API_KEY: ${{ secrets.AZURE_OPENAI_API_KEY }}
+
+jobs:
+  validation:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        tools: ['black', 'bandit', 'pylint', 'flake8']
+        include:
+          - tools: pytest
+            args: -m not integration and not gpu
+          - tools: pytest
+            args: -m integration
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+      - uses: Azure/login@v1.4.6
+        continue-on-error: true
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+      - name: ${{ matrix.tools }}
+        uses: microsoft/action-python@0.4.0
+        with:
+          ${{ matrix.tools }}: true
+          args: ${{ matrix.args }}
+          workdir: '.'
+          testdir: 'tests'
+          python_version: '3.11.3'
+
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+
+      - uses: actions/setup-python@v4.6.0
+        with:
+          python-version: '3.11.3'
+          cache: 'pip' # caching pip dependencies
+
+      - name: Publish Snapshot to TestPyPi
+        uses: microsoft/action-python@0.4.0
+        continue-on-error: true
+        if: ${{ github.event_name == 'pull_request' }}
+        with:
+          pypi_publish: true
+          pypi_password: ${{ secrets.TEST_PYPI_PASSWORD  }}
+          pypi_repo: testpypi
+          version_suffix: -post${{ github.run_number }}-dev${{ github.run_attempt }}
+          workdir: '.'
+          python_version: '3.11.3'
+
+      - name: Publish RC to PyPi
+        uses: microsoft/action-python@0.4.0
+        if: ${{ github.event_name == 'push' }}
+        with:
+          pypi_publish: true
+          pypi_password: ${{ secrets.PYPI_PASSWORD }}
+          version_suffix: -rc${{ github.run_number }}-post${{ github.run_attempt }}
+          workdir: '.'
+          python_version: '3.11.3'
+
+      - name: Publish Release to PyPi
+        uses: microsoft/action-python@0.4.0
+        if: ${{ github.event_name == 'release' }}
+        with:
+          pypi_publish: true
+          pypi_password: ${{ secrets.PYPI_PASSWORD }}
+          workdir: '.'
+          python_version: '3.11.3'
+
+  coverage-unit:
+    runs-on: ubuntu-latest
+    env:
+      OS: 'ubuntu-latest'
+      PYTHON: '3.11'
+    steps:
+    - uses: actions/checkout@master
+      with:
+        ref: ${{ github.event.pull_request.head.sha }}
+    - uses: actions/setup-python@v1
+      with:
+        python-version: '3.11'
+        cache: 'pip' # caching pip dependencies
+    - run: |
+        pip install pytest pytest-cov
+        pip install -e .
+    
+    - run: pytest --cov=src --cov-report=xml --cov-fail-under 0 
+    - uses: codecov/codecov-action@v3
+      with:
+        token: ${{ secrets.CODECOV_TOKEN }}
+        flags: unittests
+
+    - run: pytest --cov=src --cov-report=xml --cov-fail-under 0 -m "integration"
+    - uses: codecov/codecov-action@v3
+      with:
+        token: ${{ secrets.CODECOV_TOKEN }}
+        flags: integration
