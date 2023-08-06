@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+license
+setup.py
+SERVIR_Template_CLI.egg-info/PKG-INFO
+SERVIR_Template_CLI.egg-info/SOURCES.txt
+SERVIR_Template_CLI.egg-info/dependency_links.txt
+SERVIR_Template_CLI.egg-info/entry_points.txt
+SERVIR_Template_CLI.egg-info/requires.txt
+SERVIR_Template_CLI.egg-info/top_level.txt
+servir_template/__init__.py
+servir_template/servir_template.py
+servir_template/app/__init__.py
+servir_template/app/__main__.py
+servir_template/app/application.py
+servir_template/support/data.json
