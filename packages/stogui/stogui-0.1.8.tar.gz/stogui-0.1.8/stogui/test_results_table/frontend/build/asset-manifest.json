@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.js": "./static/js/main.ad6bea04.chunk.js",
+    "main.js.map": "./static/js/main.ad6bea04.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.44d30fc2.js",
+    "runtime-main.js.map": "./static/js/runtime-main.44d30fc2.js.map",
+    "static/js/2.6d15c91c.chunk.js": "./static/js/2.6d15c91c.chunk.js",
+    "static/js/2.6d15c91c.chunk.js.map": "./static/js/2.6d15c91c.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.5d02d48087dbf73d69c390198230a4ff.js": "./precache-manifest.5d02d48087dbf73d69c390198230a4ff.js",
+    "service-worker.js": "./service-worker.js",
+    "static/js/2.6d15c91c.chunk.js.LICENSE.txt": "./static/js/2.6d15c91c.chunk.js.LICENSE.txt",
+    "static/media/IBMPlexSans-Bold.ttf": "./static/media/IBMPlexSans-Bold.99c6de95.ttf",
+    "static/media/IBMPlexSans-Medium.ttf": "./static/media/IBMPlexSans-Medium.ee83103a.ttf",
+    "static/media/IBMPlexSans-Regular.ttf": "./static/media/IBMPlexSans-Regular.c02b4dc6.ttf",
+    "static/media/IBMPlexSans-SemiBold.ttf": "./static/media/IBMPlexSans-SemiBold.1ca9107e.ttf",
+    "static/media/OpenSans-Regular.ttf": "./static/media/OpenSans-Regular.3ed9575d.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.44d30fc2.js",
+    "static/js/2.6d15c91c.chunk.js",
+    "static/js/main.ad6bea04.chunk.js"
+  ]
+}
