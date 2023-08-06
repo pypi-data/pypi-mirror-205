@@ -1,0 +1,2 @@
+bitget_python_connector
+examples
