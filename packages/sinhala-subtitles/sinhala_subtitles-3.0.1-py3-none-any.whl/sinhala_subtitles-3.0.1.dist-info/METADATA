@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: sinhala-subtitles
+Version: 3.0.1
+Summary: This Python library is designed to make downloading Sinhala subtitles for TV series and movies easy. To use it, simply install the library using pip and import it into your Python script.
+Home-page: 
+Author: Gavindu Tharaka
+Author-email: gavi.tharaka@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: bs4
+
+
+# Sinhala Subtitles Downloader
+
+This Python library makes it easy to download Sinhala subtitles for TV series and movies. It currently supports two websites, Baiscope and Cineru.
+
+## Installation
+
+You can install the library using pip:
+```cmd
+pip install sinhala_subtitles
+```
+
+
+## Usage
+
+To use the library, simply import it and call one of the following functions:
+
+### search(query, site=None)
+
+Searches for available Sinhala subtitles for a given TV series or movie.
+```python
+
+from sinhala_subtitles import SinhalaSubtitles 
+
+# Create an instance of the SinhalaSubtitles class 
+subtitles = SinhalaSubtitles 
+
+# Search for  Sinhala subtitles for Pirates of the Caribbean movie" 
+results = subtitles.search('Pirates of the Caribbean') 
+
+# Print the list of available subtitle files
+for  result  in results: 
+	print(result)
+```
+search subtitles with mentioning website :
+```python
+results = subtitles.search('Pirates of the Caribbean', site='baiscopelk')
+
+```
+
+* `query`: The name of the TV series or movie.
+* `site`: Optional. The website to search on. Can be "baiscopelk" or "cineru".
+
+Returns a list of available Sinhala subtitle files.
+
+
+### download(page_url)
+
+Downloads a Sinhala subtitle file from a given URL.
+```python
+from sinhala_subtitles import SinhalaSubtitles
+
+# Create an instance of the SinhalaSubtitles class
+subtitles = SinhalaSubtitles
+
+# Download Sinhala subtitles for the movie "Pirates of the Caribbean: Dead Men Tell No Tales"
+url = 'https://www.baiscopelk.com/pirates-of-the-caribbean-dead-men-tell-no-tales-2017-with-sinhala-subtitles/'
+subtitles.download(url)
+```
+* `page_url`: The URL of the subtitle file to download.
+
+Returns `True` if the download is successful, `False` otherwise.
+
+### bulk(bulk_url)
+
+Downloads a bulk of Sinhala subtitle files from a given URL.
+```python
+from sinhala_subtitles import SinhalaSubtitles
+
+# Create an instance of the SinhalaSubtitles class
+subtitles = SinhalaSubtitles
+
+# Download a bulk of Sinhala subtitles for the TV series "Supernatural"
+url = 'https://www.baiscopelk.com/tv-series/supernatural-2005/'
+subtitles.bulk(url)
+
+```
+
+* `bulk_url`: The URL of the subtitle file bulk to download.
+
+Returns a list of downloaded subtitle files.
+
+## License
+
+This library is released under the MIT license.
