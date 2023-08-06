@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: funwavetvdtools
+Version: 0.1.1
+Summary: Tools for preprocessing and postprocessing data for FUNWAVE-TVD"
+License: BSD-2-Clause
+Keywords: funwave-tvd
+Author: Michael-Angelo Y.-H. Lam
+Author-email: michaelangelo.yh.lam@gmail.com
+Maintainer: Michael-Angelo Y.-H. Lam
+Maintainer-email: michaelangelo.yh.lam@gmail.com
+Requires-Python: >=3.8,<3.12
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: bokeh (>=3.1.0,<4.0.0)
+Requires-Dist: numpy (>=1.24.3,<2.0.0)
+Requires-Dist: scipy (>=1.10.1,<2.0.0)
+Requires-Dist: tqdm (>=4.65.0,<5.0.0)
+Description-Content-Type: text/markdown
+
+# FUNWAVE-TVD-Python-Tools
