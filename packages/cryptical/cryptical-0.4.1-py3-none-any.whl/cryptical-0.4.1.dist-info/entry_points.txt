@@ -1,0 +1,2 @@
+[console_scripts]
+cryptical = cryptical.cryptical:main
