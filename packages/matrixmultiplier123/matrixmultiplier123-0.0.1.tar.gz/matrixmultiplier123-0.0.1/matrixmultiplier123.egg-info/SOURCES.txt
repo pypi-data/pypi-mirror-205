@@ -1,0 +1,8 @@
+setup.py
+libname/__init__.py
+libname/test_pip_install.py
+matrixmultiplier123.egg-info/PKG-INFO
+matrixmultiplier123.egg-info/SOURCES.txt
+matrixmultiplier123.egg-info/dependency_links.txt
+matrixmultiplier123.egg-info/requires.txt
+matrixmultiplier123.egg-info/top_level.txt
