@@ -1,0 +1,119 @@
+Metadata-Version: 2.1
+Name: ipytone
+Version: 0.5.1
+Summary: Interactive audio in Jupyter
+Project-URL: Homepage, https://github.com/benbovy/ipytone
+Author: Benoît Bovy
+License: Copyright (c) 2020 Benoit Bovy
+        All rights reserved.
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:
+        
+        1. Redistributions of source code must retain the above copyright notice, this
+           list of conditions and the following disclaimer.
+        
+        2. Redistributions in binary form must reproduce the above copyright notice,
+           this list of conditions and the following disclaimer in the documentation
+           and/or other materials provided with the distribution.
+        
+        3. Neither the name of the copyright holder nor the names of its
+           contributors may be used to endorse or promote products derived from
+           this software without specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+        AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+License-File: LICENSE.txt
+Keywords: Audio,IPython,Jupyter,Sonification,Sound,Widgets
+Classifier: Framework :: Jupyter
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: ipywidgets>=7.6.0
+Requires-Dist: numpy
+Requires-Dist: traittypes
+Provides-Extra: doc
+Requires-Dist: jupyterlite; extra == 'doc'
+Requires-Dist: jupyterlite-sphinx; extra == 'doc'
+Requires-Dist: jupyterlite-xeus-python; extra == 'doc'
+Requires-Dist: matplotlib; extra == 'doc'
+Requires-Dist: myst-nb; extra == 'doc'
+Requires-Dist: pydata-sphinx-theme; extra == 'doc'
+Requires-Dist: sphinx; extra == 'doc'
+Provides-Extra: lint
+Requires-Dist: black; extra == 'lint'
+Provides-Extra: test
+Requires-Dist: ipykernel; extra == 'test'
+Requires-Dist: pytest-cov; extra == 'test'
+Requires-Dist: pytest-mock; extra == 'test'
+Requires-Dist: pytest>=4.6; extra == 'test'
+Description-Content-Type: text/markdown
+
+# ![Ipytone](docs/_static/ipytone_logo_dark.svg)
+
+*Interactive audio in Jupyter*
+
+[![JupyterLite](https://jupyterlite.rtfd.io/en/latest/_static/badge-launch.svg)](https://ipytone.readthedocs.io/en/latest/lite/retro/notebooks/?path=quick_demo.ipynb)
+[![Tests](https://github.com/benbovy/ipytone/workflows/Test/badge.svg)](https://github.com/benbovy/ipytone/actions)
+
+Ipytone exposes many features of the [Tone.js](https://tonejs.github.io) library
+to Python as [Jupyter widgets](https://ipywidgets.readthedocs.io). It allows
+turning Jupyter into a versatile DAW (Digital Audio Workstation) for music
+creation, sound design, data sonification, and more...
+
+...like this little piece of music entirely composed and played in a Jupyter notebook,
+with a custom Earth Globe VU-meter!
+
+https://user-images.githubusercontent.com/4160723/172623510-3423505f-cd27-4770-8553-b2f0dc75384f.mov
+
+## Try Ipytone!
+
+Click [here](https://ipytone.readthedocs.io/en/latest/lite/retro/notebooks/?path=quick_demo.ipynb) or
+on the JupyterLite badge above to try ipytone in your browser without installing anything.
+
+For more advanced examples, check this repository: https://github.com/benbovy/ipytone-examples
+
+## Documentation
+
+https://ipytone.readthedocs.io
+
+## Requirements
+
+* JupyterLab >= 3.0 or Jupyter notebook.
+* numpy
+
+## Install
+
+You can install ipytone either with [pip](#with-pip) or [conda](#with-conda).
+
+### With pip
+
+```sh
+pip install ipytone
+```
+
+### With conda
+
+```sh
+conda install -c conda-forge ipytone
+```
+
+or mamba
+
+
+```sh
+mamba install -c conda-forge ipytone
+```
+
+### From source
+
+For a development installation of ipytone, check the installation section in the documentation.
