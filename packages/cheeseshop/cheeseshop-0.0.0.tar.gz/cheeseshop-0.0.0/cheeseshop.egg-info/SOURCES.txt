@@ -1,0 +1,8 @@
+README.md
+setup.py
+cheeseshop/__init__.py
+cheeseshop.egg-info/PKG-INFO
+cheeseshop.egg-info/SOURCES.txt
+cheeseshop.egg-info/dependency_links.txt
+cheeseshop.egg-info/not-zip-safe
+cheeseshop.egg-info/top_level.txt
