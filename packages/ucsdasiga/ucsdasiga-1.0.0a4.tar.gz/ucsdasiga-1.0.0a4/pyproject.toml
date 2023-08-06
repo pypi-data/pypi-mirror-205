@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ucsdasiga"
+version = "1.0.0-a.4"
+description = "A simple API wrapper and web scraper for the UCSD Associated Students (AS) instructor grade archive."
+readme = "README.md"
+authors = [ { name = "Jacob Lee", email = "Jacob.J.Lee@outlook.com" } ]
+license = { file = "LICENSE" }
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.5",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+]
+requires-python = ">=3.5"
+
+[project.urls]
+homepage = "https://github.com/JacobLee23/UCSD-AS-One"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["asiga*"]
