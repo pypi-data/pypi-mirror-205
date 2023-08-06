@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: tasxnat
+Version: 0.0.7
+Summary: Simple tasking interface.
+Author-email: "Keenan W. Wilkinson" <keenanwilkinson@outlook.com>
+License: MIT
+Keywords: tasks
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.10.0
+License-File: LICENSE.txt
+
