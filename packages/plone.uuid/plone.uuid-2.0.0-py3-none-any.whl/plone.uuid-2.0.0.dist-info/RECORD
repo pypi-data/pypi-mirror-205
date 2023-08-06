@@ -1,0 +1,14 @@
+plone.uuid-2.0.0-py3.11-nspkg.pth,sha256=A-p3CbMuHePaPWt53bhXUnHzJhSeZf4O2eZeA-vKGms,534
+plone/uuid/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+plone/uuid/adapter.py,sha256=ct_LOe4VmR9i6K9GtbhU09TjjtaQuwVsfPyHI4IyKtU,658
+plone/uuid/browser.py,sha256=XzS-L4IVNIkS7SuDGyUgT-jishYJ8xkyRrFbSuZWXh0,256
+plone/uuid/configure.zcml,sha256=GLwtMommprC85jKzD0KVLMs50aRK-VHO1pgFq9GRXS4,796
+plone/uuid/generator.py,sha256=hr6xdHZCck3v4lSq-DYRdsXZNUUuXj5Ok0Rwgnw7NMA,278
+plone/uuid/handlers.py,sha256=Iyh4GKXCRApsk4GtbvHo1e7a3IlTCx1AMntcblOY6SY,938
+plone/uuid/interfaces.py,sha256=MoiL5FARjq-CkscENoWqQoIv-Oeikbqi8XiwdJeHWD8,1135
+plone/uuid/tests.py,sha256=QRfvuQmR5hn3w1bl0JLEpiYH4xDL2_3ySP2CcAD2uJU,4502
+plone.uuid-2.0.0.dist-info/METADATA,sha256=_8DZ5_shurQe7OVMZyIWPDpXOxL3E9fpU5kDkewYWjw,6065
+plone.uuid-2.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+plone.uuid-2.0.0.dist-info/namespace_packages.txt,sha256=56bqrkG-vurYD0l15D71FPiDL7L3QqkfRWkYkdyS7WM,6
+plone.uuid-2.0.0.dist-info/top_level.txt,sha256=56bqrkG-vurYD0l15D71FPiDL7L3QqkfRWkYkdyS7WM,6
+plone.uuid-2.0.0.dist-info/RECORD,,
