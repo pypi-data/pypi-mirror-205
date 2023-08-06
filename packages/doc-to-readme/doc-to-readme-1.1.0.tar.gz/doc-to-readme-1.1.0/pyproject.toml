@@ -1,0 +1,30 @@
+[build-system]
+requires = [
+    "setuptools >= 65.0",
+    "setuptools_scm[toml]",
+    "wheel",
+]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+write_to = "src/doc_to_md/_version.py"
+
+[project]
+name = "doc-to-readme"
+dynamic = ["version"]
+authors = [
+    { name="Mirjam Ziselsberger", email="ziselsberger@gmail.com" },
+]
+description = "Automated Python Module Documentation in Markdown File (README)"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+license.file = "LICENSE"
+
+[project.urls]
+"Homepage" = "https://github.com/ziselsberger/doc_to_readme"
+"Bug Tracker" = "https://github.com/ziselsberger/doc_to_readme/issues"
