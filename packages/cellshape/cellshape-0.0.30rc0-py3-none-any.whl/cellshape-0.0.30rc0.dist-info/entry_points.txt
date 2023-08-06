@@ -1,0 +1,2 @@
+[console_scripts]
+cellshape-train = cellshape.train:main
