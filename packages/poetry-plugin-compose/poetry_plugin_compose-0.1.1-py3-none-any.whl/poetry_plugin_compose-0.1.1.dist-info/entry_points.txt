@@ -1,0 +1,3 @@
+[poetry.application.plugin]
+poetry-plugin-compose=poetry_plugin_compose.plugin:MultiPackagePlugin
+
