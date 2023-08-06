@@ -1,0 +1,16 @@
+__pycache__
+
+# Build stuff
+*.egg-info/
+dist/
+build/
+
+.DS_Store
+
+# setuptools-scm's generated version file
+_version.py
+# pytest related cruft
+test-results.xml
+/.coverage
+.pytest_cache
+report.md

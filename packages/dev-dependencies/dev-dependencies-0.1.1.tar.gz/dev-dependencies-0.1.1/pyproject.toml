@@ -1,0 +1,76 @@
+[build-system]
+requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dev-dependencies"
+authors = [
+  { name = "Justin Mills" }
+]
+description = "An opinionated library of dev-time dependencies"
+requires-python = ">=3.11"
+keywords = ["library", "dependencies"]
+license = {text = "MIT"}
+dependencies = [
+    "pydantic",
+    "black",
+    "flake8",
+    "flake8-black",
+    "ruff",
+    "mypy",
+    "pydantic",
+    "pytest",
+    "pytest-cov",
+    "pytest-xdist",
+    "pytest-mock",
+    "pytest-md",
+    "pytest-emoji",
+]
+dynamic = ["version", "readme"]
+
+[tool.setuptools]
+packages = ["devdeps"]
+
+[tool.setuptools.dynamic]
+readme = {file = ["README.md"], content-type = "text/markdown"}
+
+[tool.setuptools_scm]
+write_to = "devdeps/_version.py"
+
+[tool.black]
+extend-exclude = '''
+(
+  _version\.py
+  |something-else
+)
+'''
+
+[tool.mypy]
+plugins = [
+  "pydantic.mypy"
+]
+
+follow_imports = "silent"
+warn_redundant_casts = true
+warn_unused_ignores = true
+disallow_any_generics = true
+check_untyped_defs = true
+no_implicit_reexport = true
+
+# for strict mypy: (this is the tricky one :-))
+disallow_untyped_defs = true
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "--verbose --doctest-modules --junitxml=junit/test-results.xml --cov=devdeps --cov=tests --cov-report html --cov-report term --cov-fail-under=100 --capture=no"
+testpaths = [
+    "tests"
+]
+pythonpath = [
+    "."
+]
+
+
+[tool.coverage.run]
+branch = true
+omit = [ "devdeps/_version.py" ]

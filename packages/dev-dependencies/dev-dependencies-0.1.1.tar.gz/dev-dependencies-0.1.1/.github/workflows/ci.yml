@@ -1,0 +1,40 @@
+name: Continuous Integration
+run-name: ${{ github.actor }} has added a commit trigger this GitHub Actions
+
+on: [push]
+
+jobs:
+  continuous-integration:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          cache: pipenv
+      - name: Install pipenv
+        run: curl https://raw.githubusercontent.com/pypa/pipenv/master/get-pipenv.py | python
+      - name: Install dependencies
+        run: pipenv install --dev
+      - name: Linting
+        run: pipenv run ruff check .
+      - name: Formatting
+        run: pipenv run black --check .
+      - name: Type checking
+        run: pipenv run mypy devdeps tests
+
+      - name: Tests
+        run: |
+          pipenv run pytest --verbose --emoji --md report.md
+          cat report.md >> $GITHUB_STEP_SUMMARY
+      - name: Upload test results
+        uses: actions/upload-artifact@v3
+        with:
+          name: pytest-results
+          path: |
+            junit/test-results.xml
+            htmlcov/*
+        # Use always() to always run this step to publish test results when there are test failures
+        if: ${{ always() }}
+
+      - name: Build package
+        run: pipenv run python -m build
