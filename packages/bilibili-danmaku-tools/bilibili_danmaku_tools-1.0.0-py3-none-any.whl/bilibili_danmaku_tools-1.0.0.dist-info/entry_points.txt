@@ -1,0 +1,3 @@
+[console_scripts]
+danmakuctl=bilibili_danmaku_tools.cli:main
+
