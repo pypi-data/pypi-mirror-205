@@ -1,0 +1,77 @@
+# Sandra
+![logo](https://user-images.githubusercontent.com/26662104/234409378-4602ff85-8fb1-425d-9213-979876c78dcc.png)
+
+**Sandra implements CFB and  [OpenPGP-CFB](https://datatracker.ietf.org/doc/html/rfc4880) using vanilla Python code.**
+
+## Structure
+- `test.py` contains unit testing code to prove the correctness of the CFB and OpenPGP mode Sandra implements
+- `performance.py` runs each mode 1000 times and measures the mean running time to compare Sandra's implementation with PyCryptodome implementation
+- `src/` contains the source code for Sandra's AES implementation and Troy which is a wrapper around RSA to encrypt the whole file
+ as in RSA, the size of the data to be encrypted can't exceed the RSA modulus size
+- `txt` contains multiple txt files of varying sizes to measure the running time on different file sizes. The text is composed of the lyrics of Taylors Swift's songs.
+
+## Examples
+### RSA File Encryption using [PKCS#1 OAEP](https://datatracker.ietf.org/doc/html/rfc8017)
+```python
+import Sandra
+taylor_swift_1KB = Sandra.dataloader(1)
+data = taylor_swift_1KB
+enc_dec_rsa = Sandra.RSA(1024)
+ciphertext = enc_dec_rsa.encrypt(taylor_swift_1KB)
+print(len(ciphertext))
+plaintext = enc_dec_rsa.decrypt(ciphertext)
+print(plaintext == taylor_swift_1KB)
+```
+
+### AES CFB Mode File Encryption
+```python
+import Sandra
+with open('./txt/taylor_swift_1KB.txt', 'rb') as f:
+    taylor_swift_1KB = f.read()
+data = taylor_swift_1KB
+#Test Case from http://csrc.nist.gov/groups/STM/cavp/block-ciphers.html#aes
+data = bytes.fromhex('fffffe00000000000000000000000000')
+iv   = bytes.fromhex('fffffe00000000000000000000000000')
+key  = bytes.fromhex('00000000000000000000000000000000')
+
+enc_dec_sandra = Sandra.AES(key, sandra.MODE_CFB, iv, segment_size=16)
+ciphertext = enc_dec_sandra.encrypt(data)
+plaintext = enc_dec_sandra.decrypt(ciphertext)
+```
+
+### AES OpenPGP-CFB Mode File Encryption
+> In This mode, the first 18 bytes of cipher text contains the encrypted IV
+```python
+import Sandra
+with open('./txt/taylor_swift_1KB.txt', 'rb') as f:
+    taylor_swift_1KB = f.read()
+data = taylor_swift_1KB
+#Test Case from http://csrc.nist.gov/groups/STM/cavp/block-ciphers.html#aes
+data = bytes.fromhex('fffffe00000000000000000000000000')
+iv   = bytes.fromhex('fffffe00000000000000000000000000')
+key  = bytes.fromhex('00000000000000000000000000000000')
+
+enc_dec_sandra = Sandra.AES(key, sandra.MODE_OPENPGP, iv)
+ct = enc_dec_sandra.encrypt(data)
+eiv, ct = ct[:18], ct[18:]
+plaintext = enc_dec_sandra.decrypt(ct)
+```
+
+## Performance
+To obtain this table, run 
+```python
+import Sandra
+Sandra.performance_test()
+```
+
+| Mode     |              taylor_swift_1KB.txt  |  taylor_swift_5KB.txt |  taylor_swift_10KB.txt   | taylor_swift_100KB.txt |
+| --- | --- | --- | --- | --- |
+CFB_enc                            |   0.000013        |     0.000056   |            0.000117           |     0.001143 |
+CFB_dec                            |   0.000012        |     0.000048   |            0.000099           |     0.000973 |
+OPENPGP_enc                  |   0.000004        |     0.000013   |            0.000019           |     0.000167 |
+OPENPGP_dec                  |   0.000004        |     0.000012   |           0.000018            |    0.000154 |
+OPENPGP_SANDRA_enc  |   0.000361        |      0.001673   |            0.003596          |      0.041270 |
+OPENPGP_SANDRA_dec  |   0.000335        |      0.001641   |            0.003583          |      0.041242 |
+RSA_TROY_enc                 |   0.003013        |      0.013333   |            0.028102          |      0.279611 |
+RSA_TROY_dec                 |   0.023261        |      0.064085   |            0.122305          |      1.110127 |
+

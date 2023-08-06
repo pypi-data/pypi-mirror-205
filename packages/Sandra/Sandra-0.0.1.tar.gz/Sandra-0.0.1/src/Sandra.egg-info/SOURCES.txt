@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/Sandra/__init__.py
+src/Sandra/data.py
+src/Sandra/performance.py
+src/Sandra/sandra.py
+src/Sandra/troy.py
+src/Sandra.egg-info/PKG-INFO
+src/Sandra.egg-info/SOURCES.txt
+src/Sandra.egg-info/dependency_links.txt
+src/Sandra.egg-info/requires.txt
+src/Sandra.egg-info/top_level.txt
+src/tests/__init__.py
+src/tests/test.py
