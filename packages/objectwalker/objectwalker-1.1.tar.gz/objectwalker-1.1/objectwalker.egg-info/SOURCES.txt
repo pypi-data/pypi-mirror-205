@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+objectwalker/__init__.py
+objectwalker/__main__.py
+objectwalker/core.py
+objectwalker.egg-info/PKG-INFO
+objectwalker.egg-info/SOURCES.txt
+objectwalker.egg-info/dependency_links.txt
+objectwalker.egg-info/entry_points.txt
+objectwalker.egg-info/top_level.txt
+objectwalker/filters/__init__.py
+objectwalker/filters/filter_object.py
+objectwalker/filters/filter_path.py
+objectwalker/filters/filter_types.py
