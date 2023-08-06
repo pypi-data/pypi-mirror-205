@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: bnconverter
+Version: 0.0.1
+Summary: Python converting Bangla <=> Unicode (UTF-8) for Bengali to Bangla.
+Author: Nazrul Islam (Nadeem)
+Author-email: <nazrul.devs@gmail.com>
+Keywords: python,converting,Unicode,Bengali to Bangla
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: regex
+
+
+
+# bnunicode
+Python converting Bangla &lt;=> Unicode (UTF-8) for Bengali to Bangla.
+
+
+## License
+MPL 2.0
+
+## Installation
+
+    pip install bnunicode
+
+## Example
+    from bnunicode import UnicodeStreaming
+    
+    data = UnicodeStreaming()
+    unicode_bangla_text = 'Avgvi ‡mvbvi evsjv, Avwg ‡Zvgvh় fv‡jvevwm| wPiw`b ‡Zvgvi AvKvk, ‡Zvgvi evZvm, Avgvi c«v‡Y evRvh় evuwk॥'
+    
+    print(unicode_bangla_text)
+    
+    result=data.convertBnUniCodeToDecode(unicode_bangla_text)
+    print(result)
+    # আমার সোনার বাংলা, আমি তোমায় ভালোবাসি। চিরদিন তোমার আকাশ, তোমার বাতাস, আমার প্রাণে বাজায় বাঁশি॥
+    toPrint=test.convertBnUniCodeToDecode(result)
+    print(toPrint)
+
+## References:
+https://github.com/sh-sabbir/UnicodeToBijoy
