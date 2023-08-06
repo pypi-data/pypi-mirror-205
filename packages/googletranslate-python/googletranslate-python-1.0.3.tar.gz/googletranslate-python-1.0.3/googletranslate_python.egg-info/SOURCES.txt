@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+googletranslate_python.egg-info/PKG-INFO
+googletranslate_python.egg-info/SOURCES.txt
+googletranslate_python.egg-info/dependency_links.txt
+googletranslate_python.egg-info/entry_points.txt
+googletranslate_python.egg-info/requires.txt
+googletranslate_python.egg-info/top_level.txt
+googletranslatepy/__init__.py
+googletranslatepy/bin.py
+googletranslatepy/translator.py
+googletranslatepy/util.py
+googletranslatepy/version.json
