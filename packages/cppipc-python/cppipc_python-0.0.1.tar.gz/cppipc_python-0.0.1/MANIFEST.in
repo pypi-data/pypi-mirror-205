@@ -1,0 +1,6 @@
+recursive-include src/cpp-ipc *
+recursive-exclude src/build *
+recursive-include pybind11 *
+include setup.py
+include CMakeLists.txt
+include MANIFEST.in
