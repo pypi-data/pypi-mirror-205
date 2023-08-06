@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: oncoprinter
+Version: 0.2.0
+Summary: Draw oncoprint in Python
+Author-email: Mr-Milk <yb97643@um.edu.mo>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: marsilea
+Project-URL: Home, https://github.com/heatgraphy/oncoprinter
+
+# Oncoprinter
+
+Create cBioPortal Oncoprint in Python
+
+### Installation
+
+```shell
+pip install oncoprinter
+```
+
