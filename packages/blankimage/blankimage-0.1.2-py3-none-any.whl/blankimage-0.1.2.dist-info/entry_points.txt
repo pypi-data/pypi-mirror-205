@@ -1,0 +1,3 @@
+[console_scripts]
+blankimage=blankimage.parse_cli_options:main
+
