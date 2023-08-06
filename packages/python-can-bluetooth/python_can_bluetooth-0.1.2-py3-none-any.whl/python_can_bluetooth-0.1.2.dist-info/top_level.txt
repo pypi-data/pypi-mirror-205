@@ -1,0 +1,2 @@
+can_bluetooth
+can_bluetooth_test
