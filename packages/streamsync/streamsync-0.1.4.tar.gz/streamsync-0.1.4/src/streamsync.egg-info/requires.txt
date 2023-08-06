@@ -1,0 +1,6 @@
+fastapi<1,>=0.89.1
+websockets<11,>=10.4
+uvicorn<1,>=0.20.0
+watchdog<3,>=2.2.1
+pandas<2,>=1.5.3
+plotly-express<1,>=0.4.1
