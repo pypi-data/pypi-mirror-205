@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+newsopen-easy/__init__.py
+newsopen_easy.egg-info/PKG-INFO
+newsopen_easy.egg-info/SOURCES.txt
+newsopen_easy.egg-info/dependency_links.txt
+newsopen_easy.egg-info/top_level.txt
