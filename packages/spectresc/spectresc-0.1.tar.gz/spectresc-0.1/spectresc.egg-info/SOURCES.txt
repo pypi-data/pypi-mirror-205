@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+spectresc.egg-info/PKG-INFO
+spectresc.egg-info/SOURCES.txt
+spectresc.egg-info/dependency_links.txt
+spectresc.egg-info/not-zip-safe
+spectresc.egg-info/top_level.txt
+src/spectresc/spectres.c
+test/test_with_numpy_arange.py
