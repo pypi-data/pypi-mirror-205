@@ -1,0 +1,49 @@
+[tool.poetry]
+name = "cloud_resource_matcher"
+version = "0.1.0"
+description = "A framework to optimize costs of cloud computing deployments."
+authors = ["Tim Jentzsch <cloud_resource_matcher.projects@timjen.net>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/TimJentzsch/cloud_resource_matcher"
+exclude = ["examples", "benches", "test"]
+
+[tool.poetry.scripts]
+demo = "examples.demo:main"
+bench_mini = "benches.bench_mini:bench"
+bench_base = "benches.bench_base:bench"
+bench_complete = "benches.bench_complete:bench"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+optiframe = "^0.4.0"
+pulp = "^2.7.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.12.0"
+ruff = "^0.0.246"
+pytest = "^7.2.0"
+mypy = "^1.1.1"
+matplotlib = "^3.7.1"
+
+[tool.black]
+line-length = 100
+
+[tool.ruff]
+line-length = 100
+select = ["E", "F", "D"]
+ignore = [
+    # multi-line-summary-second-line
+    # Collides with other lint rule and is non-standard
+    "D213",
+    # one-blank-line-before-class
+    # Collides with other lint rule and is non-standard
+    "D203",
+    # undocumented-public-init
+    # Often just repeats the class name and doesn't really add new information
+    "D107"
+]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
