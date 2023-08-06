@@ -1,0 +1,7 @@
+[console_scripts]
+deploy = langpack.tools:deploy
+download_app_from_s3 = langpack.tools:download_app_from_s3
+localtest = langpack.tools:localtest
+pack = langpack.tools:pack
+push = langpack.tools:push
+
