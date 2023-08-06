@@ -1,0 +1,15 @@
+Flask-Admin==1.6.1
+Flask-Login==0.6.2
+Flask-Mail==0.9.1
+Flask-Migrate==4.0.4
+Flask-Principal==0.4.0
+Flask-SQLAlchemy==3.0.3
+Flask-Security==3.0.0
+Flask-WTF==1.0.1
+Flask==2.2.3
+SQLAlchemy-serializer==1.4.1
+SQLAlchemy==2.0.10
+WTForms==3.0.1
+email-validator
+python-dateutil
+pytz

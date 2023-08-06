@@ -1,0 +1,3 @@
+[console_scripts]
+admin = flask_admin_dashboard.scripts.cli:cli
+
