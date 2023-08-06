@@ -1,0 +1,3 @@
+qmctorch
+tests
+tests_hvd
