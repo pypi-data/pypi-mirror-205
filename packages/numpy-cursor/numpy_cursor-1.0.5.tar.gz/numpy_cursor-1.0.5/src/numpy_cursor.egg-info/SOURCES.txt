@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+src/numpy_cursor.py
+src/numpy_cursor.egg-info/PKG-INFO
+src/numpy_cursor.egg-info/SOURCES.txt
+src/numpy_cursor.egg-info/dependency_links.txt
+src/numpy_cursor.egg-info/top_level.txt
