@@ -1,0 +1,17 @@
+pydistort/__init__.py,sha256=m0UymbiqhRdmQ8HRXSJBB1IeYaGwiO10WCa28VUhj0s,110
+pydistort/image/__init__.py,sha256=Oy09ZeiBk_xr8NZXP0ISKtPnJBdCmA_89_bsaV5kgUY,51
+pydistort/image/apng_tools.py,sha256=Cerfd9sOjNevW5fFWhdqH1bI4N2MoxMqtsNIwy2JNYI,1728
+pydistort/image/default.py,sha256=0bZ-73rXfEK94qQTeqGp3kE9SxaRsyDTW0k5ocDbE5M,1526
+pydistort/image/lottie_tools.py,sha256=TcPv5PURAZUxNYN9_1HfBnasEQlrWD0ZF81MK2ZrK94,2320
+pydistort/image/seam_carving.py,sha256=EjFwCIHs7nw0pMy7TfLjYrlbvPYg6-Gyc6hXhTA8TME,4088
+pydistort/image/seam_carving_py.py,sha256=Rjkm_Vo92EQhdsUT7DFAbjDpbP3swep_yJBM3CKviEU,12371
+pydistort/image/webm_tools.py,sha256=JuMGi77LrVq_g6NBg9QGn7z18DRwdvkxgz26E6wz7Wk,1224
+pydistort/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydistort/utils/libs.py,sha256=tIQyzYwzrbqHZ8lG-vBgg-5NwEP17f75LIjSIckN0yM,140
+pydistort/utils/queue.py,sha256=F4E2s1pPm66NBddO7XVKoi5oq7kamKg3fOkjykqPYUo,867
+pydistort/utils/runners.py,sha256=THZOSeNTiI60YUQZ3rHK1tnXAcDHzxWu3Mz1d326P9k,1186
+pydistort/video/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydistort-0.0.1.dist-info/METADATA,sha256=BbHvq96FO1x78p5kA7s_yugKNxPctAeLt8FtFdpoiZU,2940
+pydistort-0.0.1.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+pydistort-0.0.1.dist-info/licenses/LICENSE,sha256=3Ux8wAircdWOzVRqzcOThGsnZkmNP43d3vGSf5qoD38,1089
+pydistort-0.0.1.dist-info/RECORD,,
