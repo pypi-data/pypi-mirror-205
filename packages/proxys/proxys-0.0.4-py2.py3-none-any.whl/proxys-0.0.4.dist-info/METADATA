@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: proxys
+Version: 0.0.4
+Summary: get free proxy regularly peer 10 minutes
+Home-page: https://github.com/zuoxiaolei/proxys
+Author: zuoxiaolei
+Author-email: 1905561110@qq.com
+License: Apache 2.0
+Project-URL: Documentation, https://github.com/zuoxiaolei/proxys
+Project-URL: Source, https://github.com/zuoxiaolei/proxys
+Keywords: proxy
+Platform: any
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: html5lib (>=1.1)
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Requires-Dist: tqdm
+Requires-Dist: retrying
+
+# Free Proxy List For Human
+
+[![Every 10 Minutes Update](https://github.com/zuoxiaolei/proxys/actions/workflows/cron.yml/badge.svg?branch=main)](https://github.com/zuoxiaolei/proxys/actions/workflows/cron.yml)
+![GitHub last commit](https://img.shields.io/github/last-commit/zuoxiaolei/proxys)
+[![caliwyr - proxy-list](https://img.shields.io/static/v1?label=zuoxiaolei&message=proxys&color=blue&logo=github)](https://github.com/zuoxiaolei/proxys "Go to GitHub repo")
+![GitHub repo size](https://img.shields.io/github/repo-size/zuoxiaolei/proxys)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/zuoxiaolei/proxys?logo=commits)](https://github.com/zuoxiaolei/proxys/commits/main)
+
+## Installing proxys and Supported Versions
+
+proxys is available on PyPI:
+
+```console
+$ pip install -U proxys
+```
+
+## python usage
+```python
+# get random proxy from proxys
+>>> import proxys
+>>> proxy = proxys.get_random_proxy()
+>>> print(proxy)
+101.109.51.152:8080
+
+# get all proxy from proxys
+>>> all_proxy = proxys.get_all_proxy()
+>>> all_proxy[:3]
+['113.57.84.39:9091', '159.65.134.97:80', '167.71.7.22:80']
+
+# validate the proxy can be use
+>>> proxys.validate_proxy(proxy)
+True
+>>> proxys.validate_proxy("127.0.0.1:80")
+False
+>>> validated_all_proxy = proxys.validate_proxy_pool(all_proxy[:10])
+>>> print(validated_all_proxy)
+['113.57.84.39:9091',
+ '159.65.134.97:80',
+ '167.71.7.22:80',
+ '112.49.34.128:9091',
+ '91.189.177.186:3128',
+ '114.113.116.67:9091',
+ '116.130.215.197:3128',
+ '27.151.3.249:9002']
+```
+
+## command line usage
+```console
+$ wget -O proxys.txt https://ghproxy.com/https://raw.githubusercontent.com/zuoxiaolei/proxys/main/proxys/proxys.txt
+```
