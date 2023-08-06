@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "squashy"
+version = "0.1.0"
+description = "Large scale graph compression and summarization tool built on Memgraph."
+authors = ["James Allen-Robertson <minyall@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+tqdm = "^4.65.0"
+mini-memgraph = "^0.1.0"
+pandas = "^2.0.0"
+plotly = "^5.14.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
