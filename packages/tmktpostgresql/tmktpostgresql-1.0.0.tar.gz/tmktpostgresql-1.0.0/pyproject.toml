@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "tmktpostgresql"
+version = "1.0.0"
+description = ""
+authors = ["ladettanguy <sti2dlab.ladettanguy@gmail.com>"]
+license = "Apache 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+psycopg2 = "^2.9.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
