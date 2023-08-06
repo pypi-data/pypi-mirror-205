@@ -1,0 +1,21 @@
+Metadata-Version: 1.2
+Name: stirpy
+Version: 1.1.0
+Summary: A Powerful scientific strings-processing library called stipy
+Home-page: UNKNOWN
+Author: KhalidWalidAghrini
+Author-email: kwaaghrini@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6

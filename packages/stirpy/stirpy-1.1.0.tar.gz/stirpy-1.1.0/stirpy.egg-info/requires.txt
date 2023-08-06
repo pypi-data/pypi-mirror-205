@@ -1,0 +1,5 @@
+numpy
+nltk
+afinn
+re
+os
