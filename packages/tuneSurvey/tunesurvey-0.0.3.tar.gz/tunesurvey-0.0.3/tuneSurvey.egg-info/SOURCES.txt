@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+tuneSurvey.egg-info/PKG-INFO
+tuneSurvey.egg-info/SOURCES.txt
+tuneSurvey.egg-info/dependency_links.txt
+tuneSurvey.egg-info/top_level.txt
