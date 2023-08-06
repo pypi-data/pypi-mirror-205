@@ -1,0 +1,6 @@
+autora-core
+autora-runner-recruitment-manager-prolific
+autora-runner-experimentation-manager-firebase
+
+[dev]
+autora-core[dev]

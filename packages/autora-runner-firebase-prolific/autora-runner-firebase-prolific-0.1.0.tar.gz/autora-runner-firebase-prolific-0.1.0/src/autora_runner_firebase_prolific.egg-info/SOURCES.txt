@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/autora/runner/firebase_prolific/__init__.py
+src/autora_runner_firebase_prolific.egg-info/PKG-INFO
+src/autora_runner_firebase_prolific.egg-info/SOURCES.txt
+src/autora_runner_firebase_prolific.egg-info/dependency_links.txt
+src/autora_runner_firebase_prolific.egg-info/requires.txt
+src/autora_runner_firebase_prolific.egg-info/top_level.txt
