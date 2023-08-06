@@ -1,0 +1,15 @@
+numpy
+pandas
+matplotlib
+matplotlib_venn
+torch
+torchvision
+scipy
+tqdm
+astropy
+astroquery
+requests
+lxml
+gaiadr3-zeropoint
+dustapprox
+scikit-learn
