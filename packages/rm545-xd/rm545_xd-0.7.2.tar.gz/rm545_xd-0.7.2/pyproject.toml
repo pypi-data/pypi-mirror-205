@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=58.1.0", "wheel>=0.37.0", "hatchling"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rm545_xd"
+version = "0.7.2"
+authors = [
+  { name = "Xuanting Dong", email = "xd67@duke.edu" },
+]
+description = "use for Quant545"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]

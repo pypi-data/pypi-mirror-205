@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+src/qrm545_xd/Option.py
+src/qrm545_xd/VaR.py
+src/qrm545_xd/__init__.py
+src/qrm545_xd/calculation.py
+src/qrm545_xd/cov_matrix.py
+src/qrm545_xd/linear_regression.py
+src/qrm545_xd/optimal_portfolio.py
+src/qrm545_xd/risk_attribution.py
+src/qrm545_xd/risk_parity.py
+src/qrm545_xd/simulation.py
+src/rm545_xd.egg-info/PKG-INFO
+src/rm545_xd.egg-info/SOURCES.txt
+src/rm545_xd.egg-info/dependency_links.txt
+src/rm545_xd.egg-info/top_level.txt
