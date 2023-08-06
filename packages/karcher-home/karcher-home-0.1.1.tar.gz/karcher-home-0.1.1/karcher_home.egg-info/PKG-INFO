@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: karcher-home
+Version: 0.1.1
+Summary: Kärcher Home Robots client
+Home-page: https://github.com/lafriks/python-karcher
+Download-URL: https://github.com/lafriks/python-karcher/releases/download/v0.1.1/karcher-home-0.1.1.tar.gz
+Author: Lauris BH
+Author-email: lauris@nix.lv
+License: MIT
+Platform: any
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Karcher Home Robots client
+
+Python library and cli to authorize into Karcher Home Robots account and fetch device information.
+
+## Usage
+
+To download `karcher-home` cli run:
+
+```sh
+pip3 install karcher-home
+```
+
+### From console
+
+```console
+Usage: karcher-home [OPTIONS] COMMAND [ARGS]...
+
+  Tool for connectiong and getting information from Kärcher Home Robots.
+
+Options:
+  -d, --debug
+  -o, --output [json|json_pretty]
+  -r, --region [eu|us|cn]         Region of the server to query. Default: 'eu'
+  --help                          Show this message and exit.
+
+Commands:
+  devices   List all devices.
+  get-urls  Get region information.
+  login     Get user session tokens.
+```
+
+### From code
+
+```python
+from karcher.karcher import KarcherHome
+
+kh = KarcherHome()
+sess = kh.login("user@email", "password")
+devices = hk.get_devices(sess)
+```
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
