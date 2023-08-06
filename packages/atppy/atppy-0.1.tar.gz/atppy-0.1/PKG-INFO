@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: atppy
+Version: 0.1
+Summary: Python library for AT Protocol
+Home-page: https://github.com/Gladdstone/atppy
+Author: Joseph Farrell
+Author-email: joe.farrell373@gmail.com
+License: MIT
+Download-URL: https://github.com/Gladdstone/atppy/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: at protocol,bluesky,bsky
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
