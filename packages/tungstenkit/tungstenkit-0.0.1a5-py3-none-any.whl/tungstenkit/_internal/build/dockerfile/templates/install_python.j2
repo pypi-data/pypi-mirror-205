@@ -1,0 +1,17 @@
+RUN --mount=type=cache,target=/var/cache/apt apt-get update -qqy && apt-get install -qqy --no-install-recommends software-properties-common && \
+    add-apt-repository ppa:deadsnakes/ppa && \
+    apt-get update -qq && \
+    apt-get install -qqy --no-install-recommends curl python{{ python_version }} python{{ python_version }}-dev python{{ python_version }}-distutils
+
+RUN ln -sf /usr/bin/python{{ python_version }} /usr/bin/python3 && \
+    ln -sf /usr/bin/pip{{ python_version }} /usr/bin/pip3 && \
+    ln -sf /usr/bin/python{{ python_version }} /usr/bin/python && \
+    ln -sf /usr/bin/pip{{ python_version }} /usr/bin/pip
+
+RUN curl -O https://bootstrap.pypa.io/get-pip.py && \
+    python3 get-pip.py && \
+    rm -rf get-pip.py
+
+{% if system_packages|length == 0 %}
+RUN apt-get clean -qq && rm -rf /var/lib/apt/lists/*
+{% endif %}
