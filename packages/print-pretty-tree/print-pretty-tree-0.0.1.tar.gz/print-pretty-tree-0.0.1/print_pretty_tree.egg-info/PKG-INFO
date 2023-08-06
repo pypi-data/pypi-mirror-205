@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: print-pretty-tree
+Version: 0.0.1
+Summary: A short description of the project.
+Home-page: https://github.com/itsbrex/print-pretty-tree
+Author: itsbrex
+Author-email: itsbrexnpm@gmail.com
+Description-Content-Type: text/markdown
+License-File: LICENSE
