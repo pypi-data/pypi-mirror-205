@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: blackmirror2
+Version: 0.0.6
+Summary: POC for Black Mirror
+Author: CAN304 Dev Team
+Requires-Python: >=3.7
