@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "rizzless_guitar_guide"
+version = "1.0.0-alpha"
+authors = [
+  { name="Michael Lacy", email="michaellacy21419@gmail.com" },
+]
+description = "The first, unoptimized version of the Rizzless Guitar Guide"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/captainrizzless/musical-practice-stuff"
+"Bug Tracker" = "https://github.com/captainrizzless/musical-practice-stuff/issues"
