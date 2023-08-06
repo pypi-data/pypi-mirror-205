@@ -1,0 +1,15 @@
+setup.py
+the_lord_of_the_rings_sdk/__init__.py
+the_lord_of_the_rings_sdk/client.py
+the_lord_of_the_rings_sdk/exceptions.py
+the_lord_of_the_rings_sdk/models.py
+the_lord_of_the_rings_sdk/utils.py
+the_lord_of_the_rings_sdk/resources/__init__.py
+the_lord_of_the_rings_sdk/resources/movie.py
+the_lord_of_the_rings_sdk/tests/__init__.py
+the_lord_of_the_rings_sdk/tests/test.py
+the_lord_of_the_rings_sdk_danilredko.egg-info/PKG-INFO
+the_lord_of_the_rings_sdk_danilredko.egg-info/SOURCES.txt
+the_lord_of_the_rings_sdk_danilredko.egg-info/dependency_links.txt
+the_lord_of_the_rings_sdk_danilredko.egg-info/requires.txt
+the_lord_of_the_rings_sdk_danilredko.egg-info/top_level.txt

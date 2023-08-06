@@ -1,0 +1,1 @@
+from the_lord_of_the_rings_sdk.resources.movie import MovieResource

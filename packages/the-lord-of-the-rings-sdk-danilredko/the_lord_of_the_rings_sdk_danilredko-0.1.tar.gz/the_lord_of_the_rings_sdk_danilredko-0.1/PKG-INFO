@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: the_lord_of_the_rings_sdk_danilredko
+Version: 0.1
+Summary: Liblab technical assessment
+Home-page: https://github.com/danilredko/DANIL-REDKO-SDK
+Author: Danil Redko
+Author-email: dredko@outlook.com
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
