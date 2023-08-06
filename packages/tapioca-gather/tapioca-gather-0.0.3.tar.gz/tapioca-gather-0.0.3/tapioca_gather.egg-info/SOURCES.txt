@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+tapioca_gather/__init__.py
+tapioca_gather/resource_mapping.py
+tapioca_gather/tapioca_gather.py
+tapioca_gather.egg-info/PKG-INFO
+tapioca_gather.egg-info/SOURCES.txt
+tapioca_gather.egg-info/dependency_links.txt
+tapioca_gather.egg-info/not-zip-safe
+tapioca_gather.egg-info/requires.txt
+tapioca_gather.egg-info/top_level.txt
