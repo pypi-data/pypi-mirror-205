@@ -1,0 +1,7 @@
+[console_scripts]
+ols=olstecnologia:start
+vb=olstecnologia.services:check_db
+vc=olstecnologia.services:check_columns
+vl=olstecnologia.services:check_lines
+vt=olstecnologia.services:check_tables
+
