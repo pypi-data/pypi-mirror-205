@@ -1,0 +1,28 @@
+from chain.contract import Contract
+from chain.database import primary
+
+@table("counter")
+class Counter(object):
+    key: primary[u64]
+    count: u64
+    def __init__(self, count: u64):
+        self.key = primary[u64](1u64)
+        self.count = count
+
+@contract(main=True)
+class MyContract(Contract):
+
+    @action('inc')
+    def inc(self):
+        table = Counter.new_table(n'hello', n'')
+        payer = n"hello"
+        key = 1u64
+        it = table.find(key)
+        if it.is_ok():
+            item: Counter = it.get_value()
+            item.count += 1u64
+            print('++++counter:', item.count)
+            table.update(it, item, payer)
+        else:
+            table.store(Counter(1u64), payer)
+            print('++++counter:', 1)
