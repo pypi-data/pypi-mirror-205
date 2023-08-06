@@ -1,0 +1,9 @@
+README.md
+setup.py
+streamchat_bot/__init__.py
+streamchat_bot/streamchat_bot.py
+streamchat_bot.egg-info/PKG-INFO
+streamchat_bot.egg-info/SOURCES.txt
+streamchat_bot.egg-info/dependency_links.txt
+streamchat_bot.egg-info/requires.txt
+streamchat_bot.egg-info/top_level.txt
