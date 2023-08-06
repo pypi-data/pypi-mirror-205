@@ -1,0 +1,12 @@
+cocojamboo/__init__.py,sha256=mMI7KbvZJJX0GDsuREHqa2os36ehTTNTMi2UR35NKbg,169
+cocojamboo/coco_eval2.py,sha256=U8KA3ndE5r22ud_Qm-OVugjNYo_YnwAZWB0-q1WWm2M,6634
+cocojamboo/coco_utils.py,sha256=X56F9rDSrC9yqk8Z3mJoJ7NdGmVx257Vo-BMzTtjuYQ,8904
+cocojamboo/cocoeval2.py,sha256=bidblW1MdqOO13XVBAsJ5lmcklvfC9BvxSfjUlRXYlo,45829
+cocojamboo/engine2.py,sha256=Znqd9tkUD5cfmmE7ZGpoJod4vaALAMWAXwhvpgL1Epk,4547
+cocojamboo/transforms.py,sha256=EI0lEInvoo0rrWYgtTopmgRwC2OVFprHyFk8P3ttEVk,23337
+cocojamboo/utils.py,sha256=rvGCU48teeTmhVdhhjwkU5kx0mPS_UomP-VW4A5WvmM,8388
+cocojamboo-2.1.2.dist-info/LICENSE,sha256=fGhY0OcdyLhYJVJwrUtQBOgLWwWL9bvECKKEMNbdv0s,19334
+cocojamboo-2.1.2.dist-info/METADATA,sha256=sJYtqcH-OnpjMS7ykKAqhTD1VjPUkyfv8avadMJEugI,23184
+cocojamboo-2.1.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+cocojamboo-2.1.2.dist-info/top_level.txt,sha256=3rwIYAcYq9KB7CSZRuiEcbMPOYdoIV4CPv25TyViAjc,11
+cocojamboo-2.1.2.dist-info/RECORD,,
