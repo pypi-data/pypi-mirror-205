@@ -1,0 +1,2 @@
+[console_scripts]
+juneyaodag = sqllineage.cli:main

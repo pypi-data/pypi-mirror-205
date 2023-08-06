@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: juneyaodag
+Version: 1.0.1
+Summary: SQL Lineage Analysis Tool powered by Python
+Home-page: 
+Author: hoey
+Author-email: cnnqjban521@gmail.com
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: sqlparse (>=0.3.1)
+Requires-Dist: networkx (>=2.4)
+Provides-Extra: ci
+Requires-Dist: bandit (==1.7.1) ; extra == 'ci'
+Requires-Dist: black ; extra == 'ci'
+Requires-Dist: flake8 ; extra == 'ci'
+Requires-Dist: flake8-blind-except ; extra == 'ci'
+Requires-Dist: flake8-builtins ; extra == 'ci'
+Requires-Dist: flake8-import-order ; extra == 'ci'
+Requires-Dist: flake8-logging-format ; extra == 'ci'
+Requires-Dist: mypy (==0.971) ; extra == 'ci'
+Requires-Dist: pytest ; extra == 'ci'
+Requires-Dist: pytest-cov ; extra == 'ci'
+Requires-Dist: tox ; extra == 'ci'
+Requires-Dist: twine ; extra == 'ci'
+Requires-Dist: wheel ; extra == 'ci'
+Provides-Extra: docs
+Requires-Dist: Sphinx (>=3.2.0) ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme (>=0.5.0) ; extra == 'docs'
+
+### 用于血缘分析
+
+
