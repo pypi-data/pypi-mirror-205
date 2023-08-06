@@ -1,0 +1,12 @@
+README.rst
+setup.cfg
+setup.py
+sneaksmc/__init__.py
+sneaksmc/client.py
+sneaksmc/crypt.py
+sneaksmc/server.py
+sneaksmc.egg-info/PKG-INFO
+sneaksmc.egg-info/SOURCES.txt
+sneaksmc.egg-info/dependency_links.txt
+sneaksmc.egg-info/requires.txt
+sneaksmc.egg-info/top_level.txt
