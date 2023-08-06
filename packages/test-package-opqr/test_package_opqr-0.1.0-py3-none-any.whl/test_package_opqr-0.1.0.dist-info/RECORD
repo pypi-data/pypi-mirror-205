@@ -1,0 +1,5 @@
+test_lib.py,sha256=0ZN_i8Wq9q8_YODfObUuxAqMjRdvoXkdMuOJzdB-AFE,38
+test_package_opqr-0.1.0.dist-info/METADATA,sha256=I7aiY6pjjRpXjVvNI3Q22evuHNiG4y9xS-Al_ezq2-8,103
+test_package_opqr-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+test_package_opqr-0.1.0.dist-info/top_level.txt,sha256=SIc8XhzBDwy7dyjXcVAB4glXcjD3UReMqTMywkYkjTY,9
+test_package_opqr-0.1.0.dist-info/RECORD,,
