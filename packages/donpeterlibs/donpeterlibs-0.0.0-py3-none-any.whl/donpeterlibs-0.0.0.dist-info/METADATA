@@ -1,0 +1,148 @@
+Metadata-Version: 2.1
+Name: donpeterlibs
+Version: 0.0.0
+Summary: An id generator that generated various types and lengths ids
+Home-page: https://github.com
+Author: Pedro Amaya
+Author-email: soypedroamaya@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Babel (==2.12.1)
+Requires-Dist: Jinja2 (==3.1.2)
+Requires-Dist: MarkupSafe (==2.1.2)
+Requires-Dist: PyYAML (==6.0)
+Requires-Dist: Pygments (==2.15.1)
+Requires-Dist: SecretStorage (==3.3.3)
+Requires-Dist: Sphinx (==6.1.3)
+Requires-Dist: alabaster (==0.7.13)
+Requires-Dist: argcomplete (==2.0.6)
+Requires-Dist: black (==23.3.0)
+Requires-Dist: bleach (==6.0.0)
+Requires-Dist: build (==0.10.0)
+Requires-Dist: certifi (==2022.12.7)
+Requires-Dist: cffi (==1.15.1)
+Requires-Dist: charset-normalizer (==2.1.1)
+Requires-Dist: click (==8.1.3)
+Requires-Dist: colorama (==0.4.6)
+Requires-Dist: commitizen (==2.42.1)
+Requires-Dist: cryptography (==40.0.2)
+Requires-Dist: decli (==0.5.2)
+Requires-Dist: docutils (==0.18.1)
+Requires-Dist: exceptiongroup (==1.1.1)
+Requires-Dist: flake8 (==6.0.0)
+Requires-Dist: idna (==3.4)
+Requires-Dist: imagesize (==1.4.1)
+Requires-Dist: importlib-metadata (==6.6.0)
+Requires-Dist: iniconfig (==2.0.0)
+Requires-Dist: jaraco.classes (==3.2.3)
+Requires-Dist: jeepney (==0.8.0)
+Requires-Dist: keyring (==23.13.1)
+Requires-Dist: markdown-it-py (==2.2.0)
+Requires-Dist: mccabe (==0.7.0)
+Requires-Dist: mdit-py-plugins (==0.3.5)
+Requires-Dist: mdurl (==0.1.2)
+Requires-Dist: more-itertools (==9.1.0)
+Requires-Dist: mypy-extensions (==1.0.0)
+Requires-Dist: myst-parser (==1.0.0)
+Requires-Dist: packaging (==23.1)
+Requires-Dist: pathspec (==0.11.1)
+Requires-Dist: pkginfo (==1.9.6)
+Requires-Dist: platformdirs (==3.2.0)
+Requires-Dist: pluggy (==1.0.0)
+Requires-Dist: prompt-toolkit (==3.0.38)
+Requires-Dist: pycodestyle (==2.10.0)
+Requires-Dist: pycparser (==2.21)
+Requires-Dist: pyflakes (==3.0.1)
+Requires-Dist: pyproject-hooks (==1.0.0)
+Requires-Dist: pytest (==7.3.1)
+Requires-Dist: questionary (==1.10.0)
+Requires-Dist: readme-renderer (==37.3)
+Requires-Dist: requests-toolbelt (==0.10.1)
+Requires-Dist: requests (==2.28.2)
+Requires-Dist: rfc3986 (==2.0.0)
+Requires-Dist: rich (==13.3.4)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: snowballstemmer (==2.2.0)
+Requires-Dist: sphinx-rtd-theme (==1.2.0)
+Requires-Dist: sphinxcontrib-applehelp (==1.0.4)
+Requires-Dist: sphinxcontrib-devhelp (==1.0.2)
+Requires-Dist: sphinxcontrib-htmlhelp (==2.0.1)
+Requires-Dist: sphinxcontrib-jquery (==4.1)
+Requires-Dist: sphinxcontrib-jsmath (==1.0.1)
+Requires-Dist: sphinxcontrib-qthelp (==1.0.3)
+Requires-Dist: sphinxcontrib-serializinghtml (==1.1.5)
+Requires-Dist: termcolor (==2.2.0)
+Requires-Dist: tomli (==2.0.1)
+Requires-Dist: tomlkit (==0.11.7)
+Requires-Dist: twine (==4.0.2)
+Requires-Dist: typing-extensions (==4.5.0)
+Requires-Dist: urllib3 (==1.26.15)
+Requires-Dist: wcwidth (==0.2.6)
+Requires-Dist: webencodings (==0.5.1)
+Requires-Dist: zipp (==3.15.0)
+
+1. bajar el repositorio
+      - git clone https://github.com/soypedroamaya/docker-ubuntu-python-pkgs.git    
+2. nos metemos dentro del repo
+      - cd docker-ubuntu-python-pkgs
+3. construimos la imagen
+      - docker build -t img-docker-ubuntu-python-pkgs .
+
+4. construimos el contenedor basado en la imagen, con interaccion en la terminal y pegada a nuestro directorio local 
+      - docker run --name cnt-docker-ubuntu-python-pkgs -it -v $(pwd):/docker-ubuntu-python-pkgs img-docker-ubuntu-python-pkgs bash
+
+4.1 nos conectamos desde visual studio y con la extension "dev containers" a nuestro contenedor corriendo
+
+5. nos movemos a la rama que necesitemos:
+    - git checkout exp
+
+6. creamos el entorno virtual de la rama
+    - python3.10 -m venv exp
+
+7. activamos el entorno virtual anterior
+    - source exp/bin/activate
+
+8. bajamos las librerias necesarias y que estan segun la rama
+    - pip install --no-cache-dir -r requirements.txt
+
+    - (opcional) => pip freeze > requirements.txt
+    nota: para sacar una lista con las versiones exactas de las librerias que ocupa ese entorno.
+
+9. creamos las librerias externas
+    - npm install
+
+------- conf de sphinx ----
+mkdir docs -> en la raiz del proyecto
+cd docs
+sphinx-quickstart -> llenar las preguntas (aqui me quede...)
+cd .. -> te salis hasta el directorio raiz
+sphinx-apidoc -o docs .
+cd docs
+
+-- agregar la palabra "modules" en el archivo index.rst, en el area del toctree
+
+make html
+meter en un browser:
+file:///Volumes/MicroSD4GB/Codigo/public/soypedroamaya/docker-ubuntu-python-pkgs/docs/_build/html/index.html
+
+
+-- commitizen
+primera vez
+    cz bump --yes --changelog  
+
+python setup.py bdist_wheel sdist
+
+pip install . (para probarlo localmente en un env)
+
+twine check dist/* (para probar que todo este bien)
+twine upload -r testpypi dist/*
+
+
+twine upload dist/*
+

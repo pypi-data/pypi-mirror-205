@@ -1,0 +1,10 @@
+soypedroamaya/__init__.py,sha256=ACLoNLqFMe6dFkCOIyGKrpB68UP9x4ADtwNQ1v9zHUc,117
+soypedroamaya/bunit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+soypedroamaya/bunit/concept/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+soypedroamaya/bunit/concept/domain/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+soypedroamaya/bunit/concept/domain/calculator.py,sha256=jQfPvDegW6CsjiPNlvZFfHucwDE7u4keHqT-hBvwGZ8,1682
+donpeterlibs-0.0.0.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+donpeterlibs-0.0.0.dist-info/METADATA,sha256=NK_FN2wzUseDFZ6vFKKb6MPhgR8wV9WZVFgQ_L7_Wg4,4991
+donpeterlibs-0.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+donpeterlibs-0.0.0.dist-info/top_level.txt,sha256=deSgI4xL2UKg79e-8Qp9nN-oHuHQ5fZPAAErjs9xN_4,14
+donpeterlibs-0.0.0.dist-info/RECORD,,
