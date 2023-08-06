@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "update-pip-packages"
+version = "0.1.4"
+description = ""
+authors = ["OleksandrMakarov"]
+readme = "README.md"
+packages = [{include = "update_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+distro = "^1.8.0"
+toml = "^0.10.2"
+
+[tool.poetry.scripts]
+update-pip-packages = "update_project.main:main"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.1"
+autopep8 = "^2.0.2"
+pytest-cov = "^4.0.0"
+flake8 = "^6.0.0"
+coverage = "^7.2.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
