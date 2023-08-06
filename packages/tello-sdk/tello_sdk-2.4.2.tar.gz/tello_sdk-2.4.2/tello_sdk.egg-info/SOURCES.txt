@@ -1,0 +1,11 @@
+LICENCE
+README.md
+pyproject.toml
+tello_sdk/Tello.py
+tello_sdk/__init__.py
+tello_sdk/telloLive.py
+tello_sdk.egg-info/PKG-INFO
+tello_sdk.egg-info/SOURCES.txt
+tello_sdk.egg-info/dependency_links.txt
+tello_sdk.egg-info/requires.txt
+tello_sdk.egg-info/top_level.txt

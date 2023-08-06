@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: tello_sdk
+Version: 2.4.2
+Summary: Python SDK fro the Tello EDU and RMTT drones, with all commands and more.
+Author: ErnGusMik
+Project-URL: Homepage, https://github.com/ErnGusMik/python-tello
+Keywords: tello,drone,sdk,python,python3,rmtt,edu,telloedu,tello-rmtt,tello-edu,sdk
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# Python Tello
+
+This is a library for easy usage of the Ryze Tello drone education edition and RoboMaster Tello Talent. Beginner Friendly! <br />
+**Current Version:**
+_2.4.2_ <br />
+SDK 3.0 is **here** and **tested**!
+
+## Requirements:
+
+- Python 3.6 or higher installed on your system (get it on [python.org](https://www.python.org/))
+- Ryze Tello EDU Edition (get one [here](https://www.ryzerobotics.com/tello-edu)) OR RoboMaster Tello Talent (get one [here](https://store.dji.com/product/robomaster-tt))
+- This package
+
+## Documentation
+
+To see the documentation, please go to the GitHub Wiki of this project, available [here](https://github.com/ErnGusMik/python-tello/wiki)
+
+## Getting Started
+
+You can get this package on PyPi (pip) and GitHub.
+To donwload using GitHub, please click [this link](https://github.com/ErnGusMik/python-tello/archive/refs/heads/main.zip). The package will start downloading.
+To download using pip, enter the following in your terminal interface (Command Prompt on Windows):
+
+```bash
+user@os$ pip install tello-sdk
+```
+
+[More info in the Docs](https://github.com/ErnGusMik/python-tello/wiki)
+
+## Usage
+
+The library is beginner friendly. Even if you are new to programming, usage should be easy.
+The Tello SDK library is made of callable functions that make the drone do something.
+
+[Refer to the Docs](https://github.com/ErnGusMik/python-tello/wiki)
+
+## Licence
+
+This library is licenced under the MIT licence.<br/>
+
+This is not the official Tello/RMTT SDK
