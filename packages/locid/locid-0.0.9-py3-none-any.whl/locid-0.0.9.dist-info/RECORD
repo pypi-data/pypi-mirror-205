@@ -1,0 +1,14 @@
+locid/__init__.py,sha256=pfLkbG22vfuzcc6aQdjdp5rhAzgo4uHkCzcyueVzNXw,16
+locid/ble.py,sha256=KKiXilbIZnxz2pYlHCgMF9iS43leb9zrr3X3vlyyr5U,11242
+locid/cli.py,sha256=XSj_Caje-QwPxZ3plplogdfpusGMbjE8xU-IyWZgNoI,3953
+locid/json_rpc_io.py,sha256=qMHSBXOO7F0RpyU2oKQUuIi61oqSB1gy4AXo0VYGBR0,3528
+locid/locid.py,sha256=JMS8K1IR5NLtAOxIIoMm8-48_rA78_Iex89UB6X8fpQ,10105
+locid/locid_jsonrpc_proto_async.py,sha256=B7ny3oL7IKQbhuUohaFPk-VbFyd7tEdDrpF0zX1Gaj0,4001
+locid/locid_jsonrpc_proto_sync.py,sha256=Pawf7ZqP0mZVtWcRtDPdKLzJQO-x0ypUeUEjfkki9I8,3397
+locid/rtb_serial_protocol.py,sha256=M2JaiZO1_Xom8kWVU_cjEllttLyW7c9pY6lEFe7nya8,4000
+locid-0.0.9.dist-info/LICENSE,sha256=2EabbPGlcNUf0ycPPPTa8pUeuNghWvrYoazwN-y0p8g,1514
+locid-0.0.9.dist-info/METADATA,sha256=xruOKuZm_2wz4CpT6eUNinvE9V21_tvTvyYaMqTplmM,488
+locid-0.0.9.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+locid-0.0.9.dist-info/entry_points.txt,sha256=Ndlx5otedQ9CO0R5nlhSG1BapJdA5rE_IA-XxEVf9ZU,41
+locid-0.0.9.dist-info/top_level.txt,sha256=ZeEKhdiF0vv6yDwVmKErbHzsAw59nEyr_yTxQjkAVNI,6
+locid-0.0.9.dist-info/RECORD,,
