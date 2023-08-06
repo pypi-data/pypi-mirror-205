@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "demo-mg"
+version = "0.2.0"
+description = ""
+authors = ["mg <gonimah@gmail.com>"]
+readme = "README.md"
+packages = [{include = "demo_mg"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
