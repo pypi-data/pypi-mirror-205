@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "corear"
+version = "0.1.0"
+description = "Runner tool for HAI CONVERSE Agents"
+authors = ["Jaseunda <me@jaseunda.com>"]
+readme = "README.md"
+packages = [{include = "corear"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
