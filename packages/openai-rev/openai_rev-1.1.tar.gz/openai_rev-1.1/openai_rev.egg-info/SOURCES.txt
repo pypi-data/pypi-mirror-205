@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+openai_rev/__init__.py
+openai_rev/__version__.py
+openai_rev.egg-info/PKG-INFO
+openai_rev.egg-info/SOURCES.txt
+openai_rev.egg-info/dependency_links.txt
+openai_rev.egg-info/requires.txt
+openai_rev.egg-info/top_level.txt
