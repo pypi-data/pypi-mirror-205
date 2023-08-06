@@ -1,0 +1,9 @@
+backendspawner/__init__.py,sha256=i5BNEWxtao_pqN0jEVOs2vhZ-ME2D4qgludsz25BVg4,158
+backendspawner/api_events.py,sha256=cbF9pE1bwknyVQSZqyEnXZ1Ei9WvnBNU3Cz35kj_8sU,4625
+backendspawner/backendspawner.py,sha256=ah5yoBv4DqkaHQyrK9Bcs4w4JDdMzZRBxhwgDfbK2GA,17611
+backendspawner/eventspawner.py,sha256=L0Bcqmi1-vRrvfMucm5wdmEAW7OucuKXRDk59lAi7Z8,10080
+jupyterhub_backendspawner-0.1.4.dist-info/LICENSE,sha256=MLX1mkflUY2yPVDWlcwSMWqDqdzjzZAxyWungG6h8qs,1498
+jupyterhub_backendspawner-0.1.4.dist-info/METADATA,sha256=OKCnQ-NXko7wH7d8yKzC-s5q47vGayinAttH9EaTt1A,505
+jupyterhub_backendspawner-0.1.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+jupyterhub_backendspawner-0.1.4.dist-info/top_level.txt,sha256=g21b85SvnVMhMo-yAwa6utrIZNFfYQ0KTuuRN1-m4cw,15
+jupyterhub_backendspawner-0.1.4.dist-info/RECORD,,
