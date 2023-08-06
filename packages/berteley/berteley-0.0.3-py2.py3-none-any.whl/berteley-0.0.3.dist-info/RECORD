@@ -1,0 +1,12 @@
+berteley/__init__.py,sha256=DhfT2obHKQbaDXQd0ywdxcfkByTCUE7jcwR6G2Wlzj8,123
+berteley/_version.py,sha256=5gPM-vIblXC558f9TEDVAr3XOHFYsZcG6ax14I2pbu8,497
+berteley/berteley.py,sha256=LCGIWyOW9N_mj5cZvOUg1QFZhrfDdqr8uVE722rq7Ao,10200
+berteley/berteley_stopwords.csv,sha256=YArXO-QAzcrL5_EjEp9ZGRmzeD4-tzUG-YblnqZbO3I,390
+berteley/preprocessing.py,sha256=KkW5Y4oGvzP0S62gYCELSZeZXS95NCqSFUBdIncS0HU,6895
+berteley/recommendation.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+berteley-0.0.3.dist-info/AUTHORS.md,sha256=Me6rOPX3u2KNx4R85QPArc9pz9OUZnArbK7DqEyfGg8,91
+berteley-0.0.3.dist-info/LICENSE,sha256=1_lMvh5JJoiHGmYLxxM1iJIOG_jIUif3SvwB-PFt5js,2502
+berteley-0.0.3.dist-info/METADATA,sha256=vw-T3F7zMCsJOBmelGWsha-FmsjvdrmSJRLl-iYjrk8,6109
+berteley-0.0.3.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+berteley-0.0.3.dist-info/top_level.txt,sha256=TTHJXzMvGZKuuq3H3jrKUZuMELqghnolMGbtWVLo3WY,9
+berteley-0.0.3.dist-info/RECORD,,
