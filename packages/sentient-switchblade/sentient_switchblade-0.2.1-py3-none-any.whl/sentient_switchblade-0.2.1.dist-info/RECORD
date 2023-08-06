@@ -1,0 +1,16 @@
+switchbladecli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+switchbladecli/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+switchbladecli/cli/__main__.py,sha256=Z3zNBOI5VRdl0Nnje3gR6hldu6UcdwQRC8CeZKMYEtM,1656
+switchbladecli/cli/bundle_cache.py,sha256=e4r4i7r1LdLowVsbcZr4OkRaFzus5jq9MiM3NVlRCEA,11308
+switchbladecli/cli/config.py,sha256=YQPnqvKNNY7CHeptJo8MeaYZBxRr4tL9iZNiF1wEHGY,472
+switchbladecli/cli/lint.py,sha256=MT9edQiWeEI3xkAUsCpc4h-OSrrmmcDuuxQrtcl7_IY,1087
+switchbladecli/cli/test.py,sha256=P6py4RZgKyHomOwuhDeyP7kvQ7zzDo3V67ldaLj7kV8,1089
+switchbladecli/cli/update.py,sha256=6ak9IQ6EPW2KV9pc_-WvrC23uQNMOsvZgFHQOxWByD8,634
+switchbladecli/modes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+switchbladecli/modes/python_poetry.py,sha256=PBGSGWVvOjAHnabyka2EYWaK7QDI805ylDceF3g23Z8,11203
+switchbladecli/utils.py,sha256=P389Iol2HHOJYpPKtkaUwvCp36toYgZ7gDAJ2-9x54A,837
+sentient_switchblade-0.2.1.dist-info/entry_points.txt,sha256=2ONOSxiJ86wNfbHCDVZw9sLb9N0OlKPuW2zrO7f7GBo,66
+sentient_switchblade-0.2.1.dist-info/LICENSE,sha256=pUKmeHOhsuTLmYhL6rLxa_CBCmWof15lrzRh8RHFw0g,1077
+sentient_switchblade-0.2.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+sentient_switchblade-0.2.1.dist-info/METADATA,sha256=PGUPsZHG4oVnHMfCImjTn0Hzb43uA3tJfkW6eounb80,9583
+sentient_switchblade-0.2.1.dist-info/RECORD,,
