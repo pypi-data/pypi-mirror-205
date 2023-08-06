@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+hackycfgparser/LICENSE
+hackycfgparser/README.md
+hackycfgparser/__init__.py
+hackycfgparser/requirements.txt
+hackycfgparser/thirdparty.json
+hackycfgparser.egg-info/PKG-INFO
+hackycfgparser.egg-info/SOURCES.txt
+hackycfgparser.egg-info/dependency_links.txt
+hackycfgparser.egg-info/requires.txt
+hackycfgparser.egg-info/top_level.txt

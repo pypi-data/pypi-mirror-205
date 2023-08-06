@@ -1,0 +1,4 @@
+include hackycfgparser/requirements.txt
+include hackycfgparser/thirdparty.json
+include hackycfgparser/LICENSE
+include hackycfgparser/README.md
