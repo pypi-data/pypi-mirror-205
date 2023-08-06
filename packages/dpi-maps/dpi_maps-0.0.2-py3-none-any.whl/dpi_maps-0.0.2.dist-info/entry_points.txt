@@ -1,0 +1,3 @@
+[console_scripts]
+dpi-maps=dpi_maps.main:app
+
