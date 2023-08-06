@@ -1,0 +1,7 @@
+pytest_reserial/__init__.py,sha256=68k25xy57X4tUeVnt89vczPuhRuDcrFXHICGQTsK-KA,93
+pytest_reserial/reserial.py,sha256=8eps9jXnNNsXJdddCbrpxCKzEkGsCiOWObLLlt6THlc,9498
+pytest_reserial-0.2.3.dist-info/entry_points.txt,sha256=FnXSLxJH-I0nM_ZfcMFbXJ_GqWOsGXkLLyqCjBdYhuY,46
+pytest_reserial-0.2.3.dist-info/LICENSE,sha256=wswDrADQ49f-hWCIZMIHa6d9MvK4wVmhVDh2TfmwX1Y,1085
+pytest_reserial-0.2.3.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+pytest_reserial-0.2.3.dist-info/METADATA,sha256=TP19zx8ufNxk6d1nzOl6r4ZJMFD-t02T3TegMH_bBCI,5096
+pytest_reserial-0.2.3.dist-info/RECORD,,
