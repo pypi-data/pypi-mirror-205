@@ -1,0 +1,10 @@
+.venv
+_tempdata
+__pycache__/
+*test.py
+*temp.*
+.vscode/
+twine.txt
+extractlib.config.json
+upload_package.bat
+extractlib.code-workspace
