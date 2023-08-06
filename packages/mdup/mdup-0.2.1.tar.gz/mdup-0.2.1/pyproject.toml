@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "mdup"
+version = "0.2.1"
+homepage = "https://github.com/alexandru-dinu/mdup"
+description = "Keep markdown files up-to-date."
+authors = ["Alexandru Dinu <alex.dinu07@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "mdup"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.0.263"
+autoflake = "^2.1.1"
+isort = "^5.12.0"
+black = "^23.3.0"
+mypy = "^1.2.0"
+
+[tool.poetry.scripts]
+mdup = "mdup.mdup:main"
+
+[tool.ruff]
+select = [
+    "E", # pycodestyle errors
+    "W", # pycodestyle warnings
+    "F", # pyflakes
+    "C4", # flake8-comprehensions
+    "B", # flake8-bugbear
+    "SIM", # flake8-simplify
+]
+ignore = [
+    "E501",  # line too long, handled by black
+]
+
+[tool.isort]
+profile = "black"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
