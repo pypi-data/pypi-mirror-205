@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "minivn"
+version = "0.1.2"
+description = "Exact nearest neighbor search library for those times when \"approximate\" just won't cut it (or is simply overkill)"
+authors = ["aismlv <adilzhan.ismailov@gmail.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.24.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.1"
+black = "^23.3.0"
+flake8 = "^6.0.0"
+pre-commit = "^3.2.2"
+pytest-cov = "^4.0.0"
+
+[tool.poetry.group.benchmark]
+optional = true
+
+[tool.poetry.group.benchmark.dependencies]
+pandas = "^2.0.1"
+altair = "5.0.0rc1"
+hnswlib = "^0.7.0"
+ipykernel = "^6.22.0"
+huggingface-hub = "^0.14.1"
+vl-convert-python = "^0.8.1"
+
+[tool.black]
+line-length = 120
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
