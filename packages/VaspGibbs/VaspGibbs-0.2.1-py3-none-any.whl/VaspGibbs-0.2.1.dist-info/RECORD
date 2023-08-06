@@ -1,0 +1,9 @@
+VaspGibbs-0.2.1.data/scripts/vasp_gibbs,sha256=2wNjSuPgEHlyVvuweEvYQjHHM-4HzoZ3G6oZseuiPvA,7121
+vaspgibbs/__init__.py,sha256=io2qMVE7EVQx1EreQERWTWtMhmnM1w--XVc1Ze0eC6w,215
+vaspgibbs/thermo.py,sha256=jhR2wzSkCZyONFj8nVQpt_mATqDsCEtG0dSvlGuhJYA,6069
+vaspgibbs/utils.py,sha256=knX2AdgIlW2tSsybhOf-HCq6yCFvqtDvzEuGo6KllQQ,5399
+VaspGibbs-0.2.1.dist-info/LICENSE.md,sha256=Hco4k5jcD6XM2VU2XVldXdLrCq_h0j5TzPNj6VpEG34,1071
+VaspGibbs-0.2.1.dist-info/METADATA,sha256=gWS_BlAUbzC9koAtCkWn6rk6KLfk81gaRW8whnbh_70,320
+VaspGibbs-0.2.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+VaspGibbs-0.2.1.dist-info/top_level.txt,sha256=41m9qThTXuhTXl5wsE0swOECrDPXYc48jNeamqbqBE4,10
+VaspGibbs-0.2.1.dist-info/RECORD,,
