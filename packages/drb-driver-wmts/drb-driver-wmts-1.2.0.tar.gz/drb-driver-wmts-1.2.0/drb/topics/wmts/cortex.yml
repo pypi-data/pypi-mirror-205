@@ -1,0 +1,8 @@
+id: 1293b94a-7e62-4e17-bc39-effcf7945cd7
+label: 'Web Map Tile Service (WMTS)'
+category: PROTOCOL
+factory: wmts
+signatures:
+  - python: |
+      return '+wmts' in node.path.scheme 
+
