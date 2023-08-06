@@ -1,0 +1,16 @@
+spectralib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spectralib/filterbank.py,sha256=sxb_FQvUzuClBU06TtMYON1yn2K49zct3LfLQ3-K-hk,6921
+spectralib/frb.py,sha256=MpYxL-ozUlBgb5n_hr_uVfFZas-2ZzTFIxxmBCLPLZc,3098
+spectralib/pulsar.py,sha256=8x_2CH5AUgGv3riKHEXHxHr06reewy-CwCdUwI-RIco,3690
+spectralib/rfi.py,sha256=TyhZ9AQ2aplfN-7k3219JsBB0B1VeJs3zBP5lMWjexo,4892
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/benchmark.py,sha256=QeBdnpFEKhr33NlXDohMZsrL1seVsaGmjGGCuO5qwws,3942
+tests/test_filterbank.py,sha256=brkjkK8pT5c8yP19aNT59wh21i93OJf3QhfECfgApqE,2520
+tests/test_frb.py,sha256=6yAsbXHBjvKu-PiclUH9o6sIpTpghNb2OKEf5vJ6xGI,1161
+tests/test_pulsar.py,sha256=mWlR9JaAo3Bid9-3uHuWnI8qimDU8A4Y8niBITJkW5k,2087
+tests/test_rfi.py,sha256=rZ-xZOLJELbISeKv1uUdqPmHfhwX0EKhIB5YbMJCgL8,1218
+spectralib-0.0.6.dist-info/LICENSE,sha256=gDRGr9HqEZgQ1JuwhFRwyb4xmVekMmagQzapz6tuus4,1086
+spectralib-0.0.6.dist-info/METADATA,sha256=CwkCgYul1hg7nn92_JEDIW8Gi_tbE0mmxeBqkhl22oY,570
+spectralib-0.0.6.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+spectralib-0.0.6.dist-info/top_level.txt,sha256=SQ82IQSUZxck-cssxt6CUeCbZQt7lI2EHILPRd17xQU,17
+spectralib-0.0.6.dist-info/RECORD,,
