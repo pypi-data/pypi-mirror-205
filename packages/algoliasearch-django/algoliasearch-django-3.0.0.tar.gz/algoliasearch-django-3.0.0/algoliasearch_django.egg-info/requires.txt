@@ -1,0 +1,2 @@
+django>=1.7
+algoliasearch<4.0,>=3.0
