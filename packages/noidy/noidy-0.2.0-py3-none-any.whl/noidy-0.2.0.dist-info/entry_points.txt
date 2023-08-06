@@ -1,0 +1,3 @@
+[console_scripts]
+noid=noidy.__main__:main
+
