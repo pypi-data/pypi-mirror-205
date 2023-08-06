@@ -1,0 +1,13 @@
+Changelog.rst
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+pyxylookup/__init__.py
+pyxylookup.egg-info/PKG-INFO
+pyxylookup.egg-info/SOURCES.txt
+pyxylookup.egg-info/dependency_links.txt
+pyxylookup.egg-info/requires.txt
+pyxylookup.egg-info/top_level.txt
+tests/__init__.py
+tests/test_lookup.py
