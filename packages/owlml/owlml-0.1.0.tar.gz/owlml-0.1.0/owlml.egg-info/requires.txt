@@ -1,0 +1,9 @@
+
+[dev]
+black
+isort
+pydocstyle
+pylint
+pytest
+pytest-cov
+jupyter
