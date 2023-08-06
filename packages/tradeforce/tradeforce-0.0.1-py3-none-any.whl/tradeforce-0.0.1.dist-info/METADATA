@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: tradeforce
+Version: 0.0.1
+Summary: Tradeforce is a comprehensive Python trading framework designed for high-performance backtesting, hyperparameter optimization, and live trading.
+License: MIT
+Author: cyclux
+Author-email: nevermind@cyclux.de
+Requires-Python: >=3.8,<3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: asyncio (>=3.4.3,<4.0.0)
+Requires-Dist: bfx-api-ws-fix (>=2.0.6,<3.0.0)
+Requires-Dist: cryptography (>=40.0.1,<41.0.0)
+Requires-Dist: numba (>=0.56.4,<0.57.0)
+Requires-Dist: numpy (<1.24)
+Requires-Dist: optuna (>=3.1.0,<4.0.0)
+Requires-Dist: pandas (>=1.5.3,<2.0.0)
+Requires-Dist: psycopg2-binary (>=2.9.5,<3.0.0)
+Requires-Dist: pyarrow (>=11.0.0,<12.0.0)
+Requires-Dist: pymongo (>=4.3.3,<5.0.0)
+Requires-Dist: pyyaml (>=6.0,<7.0)
+Requires-Dist: tqdm (>=4.65.0,<5.0.0)
+Description-Content-Type: text/markdown
+
+
+
+# -------
+# Docker
+# -------
+
+# Get bash shell in container
+docker exec -it tradeforce bash
+
+
+# Get requirments.txt
+cd /to/path/tradeforce/root
+docker build -t tradeforce:build --target build .
+docker create --name tradeforce_build tradeforce:build
+docker cp tradeforce_build:/opt/tradeforce/requirements.txt ./requirements.txt
+
+# ------------------
+# Window Powershell
+# ------------------
+
+# Run dedicated market server
+$env:RUN_MARKET_SERVER="True"; docker-compose up; Remove-Item Env:\RUN_MARKET_SERVER
+
+# Run JupyterLab
+$env:RUN_JUPYTERLAB="True"; docker-compose up; Remove-Item Env:\RUN_JUPYTERLAB
+
+# -----------
+# Linux Bash
+# -----------
+
+# Run dedicated market server
+RUN_MARKET_SERVER="True" docker-compose up
+
+# Run JupyterLab
+RUN_JUPYTERLAB="True" docker-compose up
+
