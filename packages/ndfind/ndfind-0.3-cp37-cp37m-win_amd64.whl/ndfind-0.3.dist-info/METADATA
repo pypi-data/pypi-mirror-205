@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: ndfind
+Version: 0.3
+Summary: A collection of cython-optimized search functions for NumPy
+Home-page: https://github.com/axil/ndfind
+Author: Lev Maximov
+Author-email: lev.maximov@gmail.com
+License: MIT License
+Keywords: find,first_above,first_nonzero,numpy,python
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.24)
+
+# ndfind
