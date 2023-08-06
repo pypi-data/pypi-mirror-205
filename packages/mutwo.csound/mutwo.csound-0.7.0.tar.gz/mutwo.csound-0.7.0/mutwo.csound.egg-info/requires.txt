@@ -1,0 +1,5 @@
+mutwo.core<2.0.0,>=1.0.0
+natsort<9.0.0,>=8.0.0
+
+[testing]
+pytest>=7.1.1
