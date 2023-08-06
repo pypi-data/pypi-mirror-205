@@ -1,0 +1,6 @@
+[console_scripts]
+
+
+[nbdev]
+mteval = mteval._modidx:d
+
