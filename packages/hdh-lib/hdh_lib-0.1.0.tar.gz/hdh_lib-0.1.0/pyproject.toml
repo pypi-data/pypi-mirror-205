@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "hdh-lib"
+version = "0.1.0"
+description = "Support libraries for High Desert Hacker python programs."
+authors = ["High Desert Hacker <highdeserthacker@gmail.com>"]
+readme = "README.md"
+packages = [
+  {include = "hdh_lib"},
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
