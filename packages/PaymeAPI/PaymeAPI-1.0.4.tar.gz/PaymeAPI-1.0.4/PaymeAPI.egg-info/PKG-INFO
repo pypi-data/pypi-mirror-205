@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: PaymeAPI
+Version: 1.0.4
+Summary: Easy and convenient library to create receipts and check the status of the created receipt for https://payme.uz/
+Home-page: https://github.com/AmoreForever/PaymeAPI
+Author: AmoreForever
+Author-email: me.thefarkhodov@gmail.com
+License: MIT
+Project-URL: Source, https://github.com/AmoreForever/PaymeAPI
+Requires: requests
+License-File: LICENSE
