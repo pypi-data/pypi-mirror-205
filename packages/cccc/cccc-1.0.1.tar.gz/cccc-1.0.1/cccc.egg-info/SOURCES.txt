@@ -1,0 +1,6 @@
+cccc.py
+setup.py
+cccc.egg-info/PKG-INFO
+cccc.egg-info/SOURCES.txt
+cccc.egg-info/dependency_links.txt
+cccc.egg-info/top_level.txt
