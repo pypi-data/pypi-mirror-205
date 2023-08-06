@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: custom-plotly-templates
+Version: 2.0.1
+Summary: Custom templates and configurations for Plotly
+Home-page: https://github.com/rusmux/custom-plotly-templates
+License: MIT
+Keywords: plotly,template,config
+Author: Ruslan Mukhametshin
+Author-email: rusmux21@gmail.com
+Requires-Python: >=3.8,<3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: plotly (>=5.14.1)
+Description-Content-Type: text/markdown
+
+# Custom plotly templates
+
+[![PyPI](https://img.shields.io/pypi/v/custom-plotly-templates?color=brightgreen)](https://pypi.org/project/custom-plotly-templates/)
+
+[![wemake-python-styleguide](https://img.shields.io/badge/style-wemake-000000.svg)](https://wemake-python-styleguide.readthedocs.io/en/latest/)
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit)](https://github.com/pre-commit/pre-commit)
+
+Custom templates and configurations for Plotly. Developed primary for my personal use.
+
+Can be installed with `pip install custom-plotly-templates`.
+
+# Usage
+
+```Python
+from custom_plotly_templates import set_template, set_render_config
+
+set_template("custom_white")
+set_render_config()
+```
+
