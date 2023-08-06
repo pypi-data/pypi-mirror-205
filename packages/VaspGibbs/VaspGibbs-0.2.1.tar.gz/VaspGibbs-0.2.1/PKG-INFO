@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: VaspGibbs
+Version: 0.2.1
+Summary: A simplified way to get Gibbs free energy from Vasp calculations
+Home-page: https://github.com/ftherrien/VaspGibbs
+Author: Felix Therrien
+Author-email: felix.therrien@gmail.com
+License: MIT
+Requires-Python: >=3
+License-File: LICENSE.md
