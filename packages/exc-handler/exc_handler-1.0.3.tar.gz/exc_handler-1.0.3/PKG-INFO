@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: exc_handler
+Version: 1.0.3
+Summary: This module handles exception handling for Python applications. It catches exceptions thrown by the application and prints out a stack trace with color-coded syntax for better readability.
+Author: iineolineii
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
