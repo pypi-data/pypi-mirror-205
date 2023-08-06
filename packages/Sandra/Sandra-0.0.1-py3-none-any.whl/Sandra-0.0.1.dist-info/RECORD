@@ -1,0 +1,12 @@
+Sandra/__init__.py,sha256=wBQe5sMawTUTTWbB0tpfhoBwYVagzGIX7byMHD3UyLE,85
+Sandra/data.py,sha256=oPIVQCIScbg7UFHG4lTQcXbbDg6VI1kkJ2zHz9TETzA,534
+Sandra/performance.py,sha256=T7oaTXE9rQrLIlTohTC4OLXPfyn0cLy1cda9F6_LAnQ,2805
+Sandra/sandra.py,sha256=CXJH5Yoq-9JQAtqKxzta7nvDTDKlWUiExLCAzgwFepo,4965
+Sandra/troy.py,sha256=RHTTt0Qq8DO0IezLKBJZo1LWIoF-zPioY2nwRBCmoDI,1332
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test.py,sha256=ProcxYky6XLRRXkcQ5kTydIRUM6xVGzdOHDNUc_eMOc,4331
+Sandra-0.0.1.dist-info/LICENSE,sha256=CV8lCbA9wdvHGNw1nKtKcEX4FuOfKn0RLP4LiRgC68k,1076
+Sandra-0.0.1.dist-info/METADATA,sha256=VtoTglacnHo0yV_PG_S1YqnNaEj2CCrYT4o9GQUJ9hk,4310
+Sandra-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+Sandra-0.0.1.dist-info/top_level.txt,sha256=Tk_lUa_YCwHuEN5kE77vgM4bynOk3y8w1ssdX_6YyTU,13
+Sandra-0.0.1.dist-info/RECORD,,
