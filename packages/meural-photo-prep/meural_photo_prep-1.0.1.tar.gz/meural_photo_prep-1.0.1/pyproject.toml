@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "meural-photo-prep"
+version = "v1.0.1"
+description = "Module to assist in preparing photos for Netgear's Meural Canvas"
+authors = ["James Arnett <james.arnett@gmail.com>"]
+readme = "README.md"
+packages = [{include = "meural_photo_prep"}]
+repository = "https://github.com/ironScripter/meural-photo-prep/"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pillow = "^9.5.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = ["poetry.core.masonry.api"]
