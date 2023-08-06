@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: simple-gomoku
+Version: 2.2.1
+Summary: simple_gomoku
+Author: M.Uchiyama
+License: MIT
+Keywords: simple_gomoku
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+
+# simple_gomoku
+python code for Udemy.
+
+Udemyの教材でライブラリーとして使用するためにインストールされます。
