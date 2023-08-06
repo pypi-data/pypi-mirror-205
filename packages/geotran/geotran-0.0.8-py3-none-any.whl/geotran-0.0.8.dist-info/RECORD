@@ -1,0 +1,8 @@
+geotran/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+geotran/geofuncs.py,sha256=Thp0relTYBBrEnNuwYHWPY4VcWgQWf2BG6PGFwcXTUk,628
+geotran/raster.py,sha256=5-22mkJZrAdSsVpDTHmj4LjhLUqs_iMnF_HxVOb__xA,3163
+geotran-0.0.8.dist-info/LICENSE.txt,sha256=C0NXGwiaBMVzk-kZya0oeJeWQZV4fhbu3tHviayeo6Y,1066
+geotran-0.0.8.dist-info/METADATA,sha256=GqslCXTTptLk7fzkneuH5C_h8UrPe4GaBIn5QufA0B0,1617
+geotran-0.0.8.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+geotran-0.0.8.dist-info/top_level.txt,sha256=qVlJmW95d9XvHt8aSzOExUcwQtv-hJaO1rnQM1BsPU8,8
+geotran-0.0.8.dist-info/RECORD,,
