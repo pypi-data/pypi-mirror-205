@@ -1,0 +1,9 @@
+tasxnat/__init__.py,sha256=7C77W9tSndwRT39hum44VZMKc8WRir4zd31u-ZbGGsM,369
+tasxnat/objects.py,sha256=2JWvYJ-7NcGW5RSi4RkaRtKmJP4FkPaslMzKyJG6yms,8817
+tasxnat/protocols.py,sha256=LBKs6CV3bnFpQu_8KEx9rEMs9SmsR3ke8V7D_eIxrn8,8377
+tasxnat/utilities.py,sha256=8iVRsaPtWqbPNhgsfLg7tIOK3kuGeeChHtNkDN6ts98,4218
+tasxnat-0.0.6rc1.dist-info/LICENSE.txt,sha256=Ijyqaw6wU43q8P0hbUyva2pBWfenW5yyz6iVJOtKhvo,1067
+tasxnat-0.0.6rc1.dist-info/METADATA,sha256=OEFByx4BQ1F8WvRvuhrDAAWYDna2LbmzHpDRz1SqDNQ,380
+tasxnat-0.0.6rc1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+tasxnat-0.0.6rc1.dist-info/top_level.txt,sha256=Km40-r4Ea18a2go-gNLX_cVfsZR0LlFPWB1y-fOPXYc,8
+tasxnat-0.0.6rc1.dist-info/RECORD,,
