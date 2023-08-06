@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: clothion
+Version: 0.1.0
+Summary: Reserved
+Home-page: https://github.com/astariul/clothion
+Author: Nicolas REMOND
+Author-email: remondnicola@gmail.com
+License: UNKNOWN
+Description: Reserved
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: hook
+Provides-Extra: lint
+Provides-Extra: docs
+Provides-Extra: all
+Provides-Extra: dev
