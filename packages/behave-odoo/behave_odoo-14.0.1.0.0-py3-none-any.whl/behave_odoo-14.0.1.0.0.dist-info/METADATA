@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: behave-odoo
+Version: 14.0.1.0.0
+Summary: Helper functions for simplifying the process of writing behave tests for Odoo
+Home-page: https://github.com/coopdevs/behave_odoo
+Author: Coopdevs
+Author-email: pelayo.garcia@coopdevs.org
+License: AGPLv3
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 14.0
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: Testing :: Acceptance
+Classifier: Topic :: Software Development :: Testing :: BDD
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: selenium
+Requires-Dist: behave
+
+# `behave_odoo`
+
+behave_odoo is a Python package that provides a collection of helper functions designed to simplify the process of writing [behave](https://github.com/behave) tests for Odoo 14. The package includes functions for navigating the Odoo interface, interacting with form fields, and performing common actions within the Odoo environment.
+
+## Installation
+
+To install behave_odoo, use [pip](https://pypi.org/project/behave-odoo/):
+
+```shell
+pip install behave-odoo
+```
+
+## Usage
+
+To use the behave_odoo in your project, simply import the functions you need:
+
+```python
+from behave_odoo import (
+    is_tree_view_by_column_name,
+    login,
+    navigate_menu,
+    switch_module,
+    click_button,
+    set_text_field,
+    set_select_field,
+    set_autocomplete_field,
+    ensure_readonly_mode,
+    select_dropdown_item,
+    switch_form_tab,
+    get_first_fields_from_tree_view,
+)
+```
+
+Or use it with prefix:
+
+```python
+import behave_odoo as bodoo
+
+@given('the user log in on the Odoo Instance')
+def step_impl(context):
+    bodoo.login(context)
+```
+
+Refer to the package's [documentation](https://coopdevs.github.io/behave_odoo/) for detailed information on each function and how to use them in your tests.
+
+## Contributing
+
+We welcome contributions to the behave_odoo project. If you find a bug or would like to request a new feature, please open an issue on the [project's issue tracker](https://github.com/coopdevs/behave_odoo/issues). If you would like to contribute code, please fork the repository and submit a pull request.
+
+## License
+
+behave_odoo is released under the AGPL-3.0 License. See the `LICENSE` file for more information.
+
+## Support
+
+If you encounter any issues while using behave_odoo, please report them on the project's issue tracker.
