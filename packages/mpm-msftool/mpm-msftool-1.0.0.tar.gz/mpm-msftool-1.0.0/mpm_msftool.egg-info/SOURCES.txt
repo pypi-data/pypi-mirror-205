@@ -1,0 +1,13 @@
+COPYING
+README.md
+setup.py
+mpm_msftool.egg-info/PKG-INFO
+mpm_msftool.egg-info/SOURCES.txt
+mpm_msftool.egg-info/dependency_links.txt
+mpm_msftool.egg-info/entry_points.txt
+mpm_msftool.egg-info/top_level.txt
+msftool/__init__.py
+msftool/__main__.py
+msftool/cli.py
+msftool/packer.py
+msftool/unpacker.py

@@ -1,0 +1,2 @@
+[console_scripts]
+msftool = msftool.__main__:main
