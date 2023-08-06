@@ -1,0 +1,5 @@
+setup.py
+catnapmodule.egg-info/PKG-INFO
+catnapmodule.egg-info/SOURCES.txt
+catnapmodule.egg-info/dependency_links.txt
+catnapmodule.egg-info/top_level.txt
