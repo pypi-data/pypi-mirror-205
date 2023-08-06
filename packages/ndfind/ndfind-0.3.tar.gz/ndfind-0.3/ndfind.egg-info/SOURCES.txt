@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+ndfind/__init__.py
+ndfind/main.c
+ndfind/main.pyx
+ndfind.egg-info/PKG-INFO
+ndfind.egg-info/SOURCES.txt
+ndfind.egg-info/dependency_links.txt
+ndfind.egg-info/not-zip-safe
+ndfind.egg-info/requires.txt
+ndfind.egg-info/top_level.txt
