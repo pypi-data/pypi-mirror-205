@@ -1,0 +1,2 @@
+[console_scripts]
+vault-dump = vault_dump.main:main
