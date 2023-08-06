@@ -1,0 +1,2 @@
+[console_scripts]
+aws_toolset = aws_toolset.aws_toolset:main
