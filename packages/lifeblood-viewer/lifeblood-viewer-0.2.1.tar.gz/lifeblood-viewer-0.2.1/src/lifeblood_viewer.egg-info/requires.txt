@@ -1,0 +1,8 @@
+imgui~=1.4
+glfw~=2.5
+PyOpenGL~=3.1
+PySide2~=5.15
+lz4~=4.0
+lifeblood~=0.1
+grandalf~=0.7
+numpy~=1.21
