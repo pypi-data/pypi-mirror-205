@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: akiraPyYaml
+Version: 1.0.11
+Summary: Library for interacting with files and data in yaml format
+Home-page: https://github.com/toshuomj
+Author: Marc Jose Rubio
+Author-email: joserubiomarc@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Library for interacting with files and data in yaml format 
+
+[By Marc Jose Rubio](https://github.com/toshuomj)
+
+Library for interacting with files and data in yaml format
+
+## Prerequisites
+
+   [Python 3](https://www.python.org/downloads/release/python-3101/)
+
+## Example of use
+
+```
+from akiraPyYaml import read_yaml_from_file
+
+read_yaml_from_file('file.yaml')
+```
+
+[Donate](paypal.me/marcjose1)
+
+
