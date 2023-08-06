@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: bam-core
+Version: 2023.4.30.1682822967
+Summary: Shared code for BAM Automations
+Home-page: http://bushwickayudamutua.org
+Author: BAM
+Author-email: hola@bushwickayudamutua.com
+Requires-Dist: pyairtable
+Requires-Dist: requests
+Requires-Dist: boto3
+Requires-Dist: pyyaml
+Requires-Dist: python-dotenv
+
