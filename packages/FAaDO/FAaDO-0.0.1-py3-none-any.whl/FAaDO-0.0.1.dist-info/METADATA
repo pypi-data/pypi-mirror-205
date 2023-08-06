@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: FAaDO
+Version: 0.0.1
+Home-page: https://github.com/rAlexandre00/FADO
+Maintainer: Rodrigo Simoes
+Maintainer-email: rsimoes@lasige.di.fc.ul.pt
+License: MIT
+Keywords: Federated Attack and Defense Orchestrator
+Requires-Dist: torch (==1.13.1)
+Requires-Dist: tensorflow (==2.11.0)
+Requires-Dist: PyYAML (==6.0)
+Requires-Dist: py7zr (==0.20.4)
+Requires-Dist: numpy (==1.21)
+Requires-Dist: pandas (==1.5.2)
+

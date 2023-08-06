@@ -1,0 +1,2 @@
+[console_scripts]
+fado = fado.cli.fado_run:cli
