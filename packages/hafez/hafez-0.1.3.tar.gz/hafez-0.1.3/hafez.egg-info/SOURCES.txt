@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+hafez/__init__.py
+hafez/main.py
+hafez.egg-info/PKG-INFO
+hafez.egg-info/SOURCES.txt
+hafez.egg-info/dependency_links.txt
+hafez.egg-info/requires.txt
+hafez.egg-info/top_level.txt
+hafez/data/hafez.db
+hafez/utils/__init__.py
+hafez/utils/db.py
+hafez/utils/formating.py
