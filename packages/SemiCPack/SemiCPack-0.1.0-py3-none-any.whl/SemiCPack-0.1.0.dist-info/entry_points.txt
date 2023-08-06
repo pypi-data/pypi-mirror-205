@@ -1,0 +1,3 @@
+[console_scripts]
+SemiCPack = SemiCPack.main:main
+
