@@ -1,0 +1,126 @@
+# ipyrust
+Simple and hackable jupyter kernel for running rust codes inside a python notebook.
+
+Rather than providing a true interactive experience, this kernel will just extract the rust code from the notebook, compile it on the fly and print the result. It is meant as a drop-in replacement for your main rust file.
+
+Install with:
+```
+pip install ipyrust
+```
+
+The package itself is in pure python, and will just call the cargo compiler already installed in your system. Of course, you have to install cargo in order to make it work. Other build tools should work as well.
+
+## Motivation
+Other packages, such provide a better interactive experience when working with cpp, yet they introduce a lot of magic behind the scene. While developing algorithms with rust, you usually care more about speed and low level control. This package guarantees no overhead - it just transpiles your notebook into a plain `.rs` file: you may even check the result by yourself. Moreover, since this package is just a ~300lines pure python script, it's way easier to setup.
+
+## Usage
+
+*Note: you may find a complete example here, [example.ipynb](https://github.com/lucafabbian/ipycpp/blob/main/example/example.ipynb)*
+
+Create a python notebook in the same folder of your `Cargo.toml` file. Done! Test your configuration by adding an hello world cell such as:
+
+```rust
+fn main() {
+  println!("Hello, world!");
+}
+```
+
+
+
+If you wish, you may override the default configuration using comments.
+- `$$ipyrust_file`: this is the location where your code would be extracted. Defaults to `src/main.rs`
+- `$$ipyrust_build`: this is the command ipyrust should use to pre-compile your code before running it. Default to none.
+- `$$ipyrust_run`: this is the command ipyrust should use to compile your code. Default to `cargo run -q` (q is the "quiet" flag)
+
+For example:
+```cpp
+// $$ipyrust_file: src/main.rs
+// $$ipyrust_run: cargo run
+
+
+fn main() {
+  println!("Hello, world!");
+  // this will print full output from cargo
+}
+```
+
+## Special formatting
+You may provide non-textual data to the notebook, such as html or images, by printing some special tags. This feature is enabled by default, and let you create interactive notebooks.
+
+### disable
+To disable any kind of special data for the rest of the cell, just print `$$$ipykernelr_disable_special_output$$$` at the beginning of your main.
+
+For example:
+```rust
+println!("$$$ipykernelr_disable_special_output$$$");
+```
+In this way, you will be sure that any further output will be printed "as is".
+
+### images or other files
+You may display an image (or another kind of file) by printing the special tag `$$$ipykernelr_file$$$` followed by the image path. ipycpp will guess the kind of file from the extension. For example:
+```rust
+println!("$$$ipykernelr_file$$$myfolder/myimage.png");
+```
+
+### html
+Mark html regions with `$$$ipykernelr_html_start$$$` and `$$$ipykernelr_html_end$$$` (newline required). You may also add some javascript logic to create interactive widgets.
+
+Basic example:
+```rust
+const HTML : &str = r##"<b>some html</b>"##;
+
+fn main() {
+  println!("$$$ipykernelr_html_start$$$\n{HTML}\n$$$ipykernelr_html_end$$$\n");
+}
+```
+
+Advanced example (this will create an interactive widget using the [PetiteVue library](https://github.com/vuejs/petite-vue); the widget will display a number and two buttons to increment or decrement it):
+```rust
+// widget example
+
+const HTML : &str = r##"
+
+  <div class="widgetcontainer">
+    <div class="widget" v-scope="{ count: 0 }">
+      <button @click="count--">-</button>
+      {{ count }}
+      <button @click="count++">+</button>
+    </div>
+  
+    <script>
+    if(!window.INSTALL_PETITE_VUE){
+      let resolve = null;
+      window.INSTALL_PETITE_VUE = new Promise(r => resolve = r);
+      function loadPetiteVue(){
+        var script = document.createElement('script');
+        script.src = 'https://unpkg.com/petite-vue';
+        script.onload = resolve;
+        script.onerror = () => setTimeout(loadPetiteVue, 1000)
+        document.head.appendChild(script);
+      }
+      loadPetiteVue()
+    }
+  
+    {
+      // get current element right now, and mount it as soon as petite-vue is loaded
+      let element = document.currentScript.previousElementSibling;
+      window.INSTALL_PETITE_VUE.then(() => PetiteVue.createApp().mount(element));
+    }
+  
+    </script>
+  </div>
+"##;
+
+fn main() {
+  println!("$$$ipykernelr_html_start$$$\n{HTML}\n$$$ipykernelr_html_end$$$\n");
+}
+```
+
+
+## Authors and license
+
+Main author: Luca Fabbian <luca.fabbian.1999@gmail.com>
+
+Freely distributed under MIT license.
+
+Feel free to open a github issue to report bugs or submit feature requests!

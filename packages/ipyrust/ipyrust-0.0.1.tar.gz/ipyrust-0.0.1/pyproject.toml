@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ipyrust"
+version = "0.0.1"
+authors = [
+  { name="Luca Fabbian", email="luca.fabbian.1999@gmail.com" },
+]
+description = "Simple jupyter kernel for Rust in pure python!"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  'ipykernel >= 6',
+]
+
+[project.urls]
+"Homepage" = "https://github.com/lucafabbian/ipyrust"
+"Bug Tracker" = "https://github.com/lucafabbian/ipyrust/issues"
+
+
+# Install the kernel.json file inside jupyter's data directory
+[tool.hatch.build.targets.wheel.shared-data]
+"kernel.json" = "share/jupyter/kernels/ipyrust/kernel.json"
