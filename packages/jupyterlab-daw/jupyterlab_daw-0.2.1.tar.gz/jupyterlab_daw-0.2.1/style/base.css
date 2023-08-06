@@ -1,0 +1,60 @@
+/*
+    See the JupyterLab Developer Guide for useful CSS Patterns:
+
+    https://jupyterlab.readthedocs.io/en/stable/developer/css.html
+*/
+
+.jp-daw-mod-dirty {
+  border-color: var(--jp-warn-color1) !important;
+}
+
+.jp-daw-TransportPosition > input {
+  width: 6em;
+  text-align: center;
+  font-family: var(--jp-code-font-family-default);
+  color: var(--jp-ui-font-color1);
+  background-color: var(--jp-layout-color1);
+  border: var(--jp-border-width) solid var(--jp-layout-color4);
+  border-radius: var(--jp-border-radius);
+  height: 100%;
+  font-size: 14px;
+}
+
+.jp-daw-TransportPosition > input:disabled {
+  color: var(--jp-ui-font-color2);
+}
+
+.jp-daw-Meter > div {
+  background-color: var(--jp-layout-color2);
+  border: var(--jp-border-width) solid var(--jp-layout-color4);
+  border-radius: var(--jp-border-radius);
+  height: 21px;
+}
+
+.jp-daw-TopBar {
+  display: flex;
+  flex-grow: 1 !important;
+  min-height: unset !important;
+  height: var(--jp-private-menubar-height);
+  border-bottom: var(--jp-border-width) solid var(--jp-border-color0);
+  justify-content: right;
+  margin-left: 5px;
+}
+
+.jp-daw-LabShell[data-shell-mode='single-document'] .jp-daw-TopBar {
+  border-bottom: unset;
+}
+
+.jp-daw-TopBar > .jp-daw-TopBar-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin-left: 2px;
+  line-height: calc(
+    var(--jp-private-menubar-height) - var(--jp-border-width)
+  ) !important;
+}
+
+.jp-Toolbar.jp-daw-TopBar {
+  box-shadow: unset;
+}
