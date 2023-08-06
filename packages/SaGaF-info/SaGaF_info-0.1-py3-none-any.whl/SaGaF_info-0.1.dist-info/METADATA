@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: SaGaF-info
+Version: 0.1
+Summary: For developers
+Home-page: https://t.me/CCIIUU
+Author: Legends
+Author-email: Alaaposhnaq@gmail.com
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Keywords: LegendsLIB
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+
+<h1 align="center">SaGaF_info</h1>
+<p align="center">It's a Usefull Project for Developers ... TO GET USERNAME INFO </p>
+
+<p align="center"> • DevVlopered The Lib BY CCIIUU - sagaf • </p>
+
+
+## Installing :
+```
+pip install SaGaF_info
+```
+INFO:  TO GET USERNAME INFO 
+```
