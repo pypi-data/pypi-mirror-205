@@ -1,0 +1,7 @@
+LICENCE.txt
+README.md
+setup.py
+cheeseforyaterminal.egg-info/PKG-INFO
+cheeseforyaterminal.egg-info/SOURCES.txt
+cheeseforyaterminal.egg-info/dependency_links.txt
+cheeseforyaterminal.egg-info/top_level.txt
