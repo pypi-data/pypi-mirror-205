@@ -1,0 +1,9 @@
+vnn/__init__.py,sha256=1lSJWPA9lD3ip45lmxjtLyd2E3dkOiMB0hVPANVQLwQ,365
+vnn/classic.py,sha256=kP0uVAvqCZvSI6IfiYpHYCtCsOb26UeC71a8l5h8PLY,3932
+vnn/dropout.py,sha256=pqCpcOJUx5ljzlCExQkNFJmeCZrshS4iIsV7BzFqxpo,4044
+vnn/functional.py,sha256=4GflLeLMmhKfIEdMgwb3BM7npAQnBMm8rYZqhi5pV6M,3973
+vnn/variational.py,sha256=m2qhNHhvwRwfQUEkkZdMmbOGOtPwP9oL61PEJ-EQSK8,13221
+vnn-0.2.0.dist-info/METADATA,sha256=5Fi9sc3pJyJqBn939S28ziYpRkElgilwJZ1-U7Oxfn8,5103
+vnn-0.2.0.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+vnn-0.2.0.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+vnn-0.2.0.dist-info/RECORD,,
