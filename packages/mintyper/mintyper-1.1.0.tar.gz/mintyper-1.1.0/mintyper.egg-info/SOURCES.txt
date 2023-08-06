@@ -1,0 +1,14 @@
+README.md
+setup.py
+bin/mintyper
+mintyper/__init__.py
+mintyper/ccphylo.py
+mintyper/findBestTemplate.py
+mintyper/kma.py
+mintyper/mintyperPipeline.py
+mintyper/validateInput.py
+mintyper/version.py
+mintyper.egg-info/PKG-INFO
+mintyper.egg-info/SOURCES.txt
+mintyper.egg-info/dependency_links.txt
+mintyper.egg-info/top_level.txt
