@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+interactions_restful/__init__.py
+interactions_restful/abc.py
+interactions_restful/decorators.py
+interactions_restful/extension.py
+interactions_restful/py.typed
+interactions_restful.egg-info/PKG-INFO
+interactions_restful.egg-info/SOURCES.txt
+interactions_restful.egg-info/dependency_links.txt
+interactions_restful.egg-info/requires.txt
+interactions_restful.egg-info/top_level.txt
+interactions_restful/backends/fast_api.py
+interactions_restful/backends/flask_api.py
