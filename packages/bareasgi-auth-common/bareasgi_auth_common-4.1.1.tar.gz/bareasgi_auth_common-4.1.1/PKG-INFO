@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: bareasgi-auth-common
+Version: 4.1.1
+Summary: 
+Home-page: https://github.com/rob-blackbourn/bareASGI-auth-common
+License: Apache-2.0
+Author: Rob Blackbourn
+Author-email: rob.blackbourn@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: PyJWT (>=2.6,<3.0)
+Requires-Dist: bareasgi (>=4.4,<5.0)
+Requires-Dist: bareclient (>=5.0,<6.0)
+Project-URL: Repository, https://github.com/rob-blackbourn/bareASGI-auth-common
+Description-Content-Type: text/markdown
+
+# bareASGI-auth-common
+
+Common code for authentication with bareASGI.

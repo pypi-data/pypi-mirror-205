@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "bareASGI-auth-common"
+version = "4.1.1"
+description = ""
+authors = ["Rob Blackbourn <rob.blackbourn@gmail.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+packages = [
+    { include = "bareasgi_auth_common" },
+]
+repository = "https://github.com/rob-blackbourn/bareASGI-auth-common"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+bareclient = "^5.0"
+PyJWT = "^2.6"
+bareasgi = "^4.4"
+
+[tool.poetry.dev-dependencies]
+autopep8 = "^2.0"
+mypy = "^1.2"
+pytest = "^7.3"
+pylint = "^2.17"
+
+[build-system]
+requires = ["poetry>=1.0"]
+build-backend = "poetry.masonry.api"
