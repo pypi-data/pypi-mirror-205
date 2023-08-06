@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+QTNOME/QTNOME.py
+QTNOME_P_Y_R_O_B_O_T.egg-info/PKG-INFO
+QTNOME_P_Y_R_O_B_O_T.egg-info/SOURCES.txt
+QTNOME_P_Y_R_O_B_O_T.egg-info/dependency_links.txt
+QTNOME_P_Y_R_O_B_O_T.egg-info/requires.txt
+QTNOME_P_Y_R_O_B_O_T.egg-info/top_level.txt
