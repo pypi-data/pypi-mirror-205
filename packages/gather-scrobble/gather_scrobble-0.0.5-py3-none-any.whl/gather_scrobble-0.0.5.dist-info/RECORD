@@ -1,0 +1,13 @@
+gather_scrobble/__init__.py,sha256=DXPkXoql6jbAyyAjwppXCOTWBVKeU34ANSpYuaydoyg,100
+gather_scrobble/cli.py,sha256=vxxTayza8wc4q_j6C3ZIYk-Qz2rgaZsreKYU5iQ7r-8,1967
+gather_scrobble/config.py,sha256=4l087FsgM9V9KdQQvt_elk-FX_jihKN7-EFa1IWwr6s,5576
+gather_scrobble/info.py,sha256=gLaMvz10o1CSyXAw3yWeaTbEVNbavGd1kLXs_YSJTm4,455
+gather_scrobble/scrobble.py,sha256=DpoFxQH3HhNq5KMZAoFApz0BVuD16SxfSYmT1vVNE1g,5031
+gather_scrobble/test.py,sha256=yvQDUIQvIvi49qkQg49F8wPi9tbsbQ11nCe6Y39dgh0,1591
+gather_scrobble/utils.py,sha256=zNkdNZIgsLQx_G2uvAGc-eCG699-6DvmacFqvs1Sa3s,344
+gather_scrobble-0.0.5.dist-info/LICENSE,sha256=UiekenSQ1wTYaHPCsHAcsVjH-1uaCm3LRl9Ib1BNnW0,1089
+gather_scrobble-0.0.5.dist-info/METADATA,sha256=FXkmcXvloJeMWtccmOasqOBA1KX0Pbsq12GgyY7fIYw,10828
+gather_scrobble-0.0.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+gather_scrobble-0.0.5.dist-info/entry_points.txt,sha256=4DMJTrUzrnA1QEUR0w2tBKceO4Ll7MAvBmYH1wrei0I,61
+gather_scrobble-0.0.5.dist-info/top_level.txt,sha256=H_psH15OvSUIUcGKDtpVkrcdEsuJ3Fy2wAB9rQPUXmQ,16
+gather_scrobble-0.0.5.dist-info/RECORD,,
