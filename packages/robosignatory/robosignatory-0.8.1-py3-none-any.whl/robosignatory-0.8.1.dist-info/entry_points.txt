@@ -1,0 +1,6 @@
+[console_scripts]
+robosignatory = robosignatory.cli:cli
+
+[robosignatory.signing.helpers]
+echo = robosignatory.utils:EchoHelper
+sigul = robosignatory.utils:SigulHelper
