@@ -1,0 +1,14 @@
+pylbmisc/__about__.py,sha256=Q1x74geL0LH9DSoGyGynb5PII2o45P7AW8YWKHsCQVM,128
+pylbmisc/__init__.py,sha256=st9AqzeIk2IL7AAipKe2rpCtFtpThBUZRe2f32sQ8wQ,106
+pylbmisc/io.py,sha256=H3qDnG5VrHf4DdzvnJVozyrA42_bmQC2_PMmzwQgDzQ,2476
+pylbmisc/utils.py,sha256=4b4qZ7dOSNW8arpv4gp_QLpO_SQ7Gzy_8zMSqrpZp4o,6888
+pylbmisc/experiments/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pylbmisc/experiments/pytest.py,sha256=WGY7te_r1U4Q7BI5H4eGpkL-xQXvt3q_tO6XSoJ4e6k,30
+pylbmisc/experiments/sphinx.py,sha256=J7a1WLiwkXiMlYCPS2Ti157uBEB6cGyBqubrvTQhEbw,722
+pylbmisc/scripts/__init__.py,sha256=0hTPvqMxkdqj2-iTF0iQTzcXz1ifKOGTSyxF3SF8ZPU,59
+pylbmisc/scripts/pylbtestapp.py,sha256=y8HPiN1D38o4FohXdsUxn4uSnMIKztm2ErmQSvn2RhU,57
+pylbmisc-0.0.1.dist-info/METADATA,sha256=ojJ5NA6dn5BHIS3xwfHDxYLK5_Xsgi43WGxYNv-4qBU,1071
+pylbmisc-0.0.1.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+pylbmisc-0.0.1.dist-info/entry_points.txt,sha256=063_ExR_XUnEP0zxZb9k4IFr8zIP24mW5HPOW7T4jyE,74
+pylbmisc-0.0.1.dist-info/licenses/LICENSE.txt,sha256=5aT3WrmEoc6ekmcilfK6fT6E1ABPBr-c54AfN3HmC1c,1098
+pylbmisc-0.0.1.dist-info/RECORD,,
