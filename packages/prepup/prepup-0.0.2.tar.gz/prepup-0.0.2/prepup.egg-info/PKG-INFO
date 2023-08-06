@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: prepup
+Version: 0.0.2
+Summary: Prepup is a free, open-source package that lets you open, explore, visualize and pre-process datasets in your computer's terminal.
+Home-page: https://github.com/sudhanshumukherjeexx/prepup
+Author: Sudhanshu Mukherjee
+Author-email: sudhanshumukherjeexx@gmail.com
+License: MIT license
+Keywords: prepup
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+# prepup
+
+
+[![image](https://img.shields.io/pypi/v/prepup.svg)](https://pypi.python.org/pypi/prepup)
+[![image](https://img.shields.io/conda/vn/conda-forge/prepup.svg)](https://anaconda.org/conda-forge/prepup)
+
+
+**Prepup is a free, open-source package that lets you open, explore, visualize and pre-process datasets in your computer's terminal.**
+
+
+-   Free software: MIT license
+-   Documentation: https://sudhanshumukherjeexx.github.io/prepup
+    
+
+## Features
+
+-   TODO

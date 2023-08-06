@@ -1,0 +1,17 @@
+AUTHORS.rst
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+prepup/__init__.py
+prepup/common.py
+prepup/prepup.py
+prepup.egg-info/PKG-INFO
+prepup.egg-info/SOURCES.txt
+prepup.egg-info/dependency_links.txt
+prepup.egg-info/not-zip-safe
+prepup.egg-info/requires.txt
+prepup.egg-info/top_level.txt
+tests/test_prepup.py
