@@ -1,0 +1,10 @@
+photerr/__init__.py,sha256=3AeIIVXH5B-iu_JveA9uFqNhiJyjDCJgq2Ir9rXo-Kg,337
+photerr/euclid.py,sha256=eFWs9LgCBD4UvaA2o8EVSaxpGzFmbmBhoKd6az-xBKE,1362
+photerr/lsst.py,sha256=q9HNBgDyFE4Vq5SyQjw46snfplkEXPwDBwiTLZ7rSDs,2218
+photerr/model.py,sha256=Nid_Tm8P6cQmP7yJfLfVzD-4NGMNyFLEX0hlS4RmLNc,18351
+photerr/params.py,sha256=x0nESVTIUiJDkuTG0xpzUTIdFGVgPelt-Vo7lPfeAJ4,19273
+photerr/roman.py,sha256=d5Remm6o0FMGBTn50a-Q90-9KS22_tnxP-Cg0bITEmo,1424
+photerr-1.1.0.dist-info/LICENSE,sha256=L8UtrsUobTeIo2cYywQntsowAJT7MIuN9vMT8FJKidg,1079
+photerr-1.1.0.dist-info/METADATA,sha256=L9qbonGqOGqZ5b5ABsRsTyjVP4U2d1ag3GNV7DUq0kM,12414
+photerr-1.1.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+photerr-1.1.0.dist-info/RECORD,,
