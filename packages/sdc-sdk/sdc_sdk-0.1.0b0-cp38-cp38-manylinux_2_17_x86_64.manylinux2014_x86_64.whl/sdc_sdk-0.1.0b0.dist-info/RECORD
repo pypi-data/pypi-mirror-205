@@ -1,0 +1,16 @@
+sdc_sdk-0.1.0b0.dist-info/METADATA,sha256=07dtIW8DeYnSaQUxlTcFJH6lTo3Ucdm0RQT1HOcPl7Q,561
+sdc_sdk-0.1.0b0.dist-info/WHEEL,sha256=82Wkr2Lag2dORBGM375Z9_JVKxb2Fhvp7wOacHsh7mU,148
+sdc_sdk-0.1.0b0.dist-info/top_level.txt,sha256=hsOJYiMLnt7jAeCzve_5sQslVfTR0FF9dEI_45qBvtU,69
+sdc_sdk-0.1.0b0.dist-info/RECORD,,
+sdc/auth_frame.py,sha256=dvgGLnOVEY-vjjfJ1HBYjNzRgdAxPPKS5M7Lvs808dk,12208
+sdc/error.py,sha256=0mrRhVgDVo1PLogkP6doH3VgnqIhNpcGvsgFlp6sz_M,1099
+sdc/__init__.py,sha256=ZlS2SsOXZUZfTRSV1ISZcNm9qt-n1hLu10HXpRTgCig,581
+sdc/crypto/symm.py,sha256=yQLQ9fPcz0qSTgdnmhwOS1QOFYgamVE1QWmXUGtxhKU,1431
+sdc/crypto/asymm.py,sha256=m3G1rjXNzqiaXRSoRnmk3F7bFsy5RVEg1KKr6BbRT1U,6650
+sdc/crypto/__init__.py,sha256=ZlS2SsOXZUZfTRSV1ISZcNm9qt-n1hLu10HXpRTgCig,581
+sdc/crypto/constants.py,sha256=H1yu1wwb9kaVmMCRo5njzZgNYJy15Q7ai2vknUmKvfc,626
+sdc/ual/__init__.py,sha256=ZlS2SsOXZUZfTRSV1ISZcNm9qt-n1hLu10HXpRTgCig,581
+sdc/ual/constants.py,sha256=IrVDhjGgH5ZGFPMkQ2BfMkJRcy-KfC0FtziNYHaSSD8,634
+sdc/ual/ual.py,sha256=IJwJFqhQw1mSMarONQsxtj46cjeyPCqPr_4nh6Y8Ko8,3642
+sdc/lib/libverification.cpython-38-x86_64-linux-gnu.so,sha256=Q72zW4j8IQVic3pw2ZB-vR6U3nmUiNOTQvdSSIZ_MNs,9016928
+sdc/lib/libgeneration.cpython-38-x86_64-linux-gnu.so,sha256=J3p2ig4iUDaGwMKvGtpdS5JpLhBu0RaVLgr-ECLaSyw,10488448

@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: sdc-sdk
+Version: 0.1.0b0
+Summary: Secure Data Capsule SDK for python
+Home-page: https://github.com/secretflow/secure-data-capsule-sdk
+Author: secretflow
+Author-email: secretflow-contact@service.alipay.com
+License: Apache 2.0
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown
+Requires-Dist: cryptography
+Requires-Dist: grpcio
+Requires-Dist: sdc-apis
+
+Secure Data Capsule SDK for python
