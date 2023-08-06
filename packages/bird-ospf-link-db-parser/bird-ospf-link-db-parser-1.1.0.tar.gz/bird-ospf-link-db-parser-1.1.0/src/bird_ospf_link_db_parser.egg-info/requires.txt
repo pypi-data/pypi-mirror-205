@@ -1,0 +1,8 @@
+
+[dev]
+build
+
+[test]
+pytest>=6
+coverage
+freezegun
