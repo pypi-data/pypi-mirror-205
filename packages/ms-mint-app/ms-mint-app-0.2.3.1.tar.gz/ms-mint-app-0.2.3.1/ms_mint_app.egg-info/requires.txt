@@ -1,0 +1,10 @@
+ms-mint
+xlsxwriter
+waitress
+dash
+dash_extensions
+dash_bootstrap_components
+flask_login
+urllib3
+dash_tabulator
+dash_uploader
