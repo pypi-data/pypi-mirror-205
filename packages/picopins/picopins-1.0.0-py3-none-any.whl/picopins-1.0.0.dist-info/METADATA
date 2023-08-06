@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: picopins
+Version: 1.0.0
+Summary: A command-line pinout for the Raspberry Pi Pico W
+Project-URL: GitHub, https://www.github.com/pinout-xyz/picopins
+Project-URL: Homepage, https://pico.pinout.xyz
+Author-email: Philip Howard <pinout@gadgetoid.com>
+Maintainer-email: Philip Howard <pinout@gadgetoid.com>
+License: MIT License
+        
+        Copyright (c) 2023 Gadgetoid (Phil Howard).
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Keywords: Pico,Raspberry
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development
+Classifier: Topic :: System :: Hardware
+Requires-Python: >=3.7
+Requires-Dist: rich
+Description-Content-Type: text/markdown
+
+# Raspberry Pi Pico GPIO Pinout
+
+[![Build Status](https://img.shields.io/github/actions/workflow/status/pinout-xyz/picopins/test.yml?branch=main)](https://github.com/pinout-xyz/picopins/actions/workflows/test.yml)
+[![Coverage Status](https://coveralls.io/repos/github/pinout-xyz/picopins/badge.svg?branch=master)](https://coveralls.io/github/pinout-xyz/picopins?branch=master)
+[![PyPi Package](https://img.shields.io/pypi/v/picopins.svg)](https://pypi.python.org/pypi/picopins)
+[![Python Versions](https://img.shields.io/pypi/pyversions/picopins.svg)](https://pypi.python.org/pypi/picopins)
+
+Generated from [the Pimoroni Python Boilerplate](https://github.com/pimoroni/boilerplate-python).
+
+# Installing
+
+* Just run `python3 -m pip install picopins`
+# Changelog
+
+1.0.0
+-----
+
+* Initial Release
+* Ported from https://gist.github.com/Gadgetoid/192af85a3eb05d4a6ac1db076c4ef118

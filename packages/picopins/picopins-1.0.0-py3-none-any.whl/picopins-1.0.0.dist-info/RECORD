@@ -1,0 +1,11 @@
+CHANGELOG.md,sha256=EcXJBlahUNHiO1nbF4c2plf6OzoxJ176hFj2jR1s6YE,125
+LICENSE,sha256=ngcJMbvFbfUqHGNhncFSebMwBalLEhuVg8Qxc4vonA4,1081
+README.md,sha256=HZeHIF73qrDvJEIML6DEpkaZs313DLc3py1_JvMzDlQ,749
+examples/README.md,sha256=jmMjosiv_A57ss5ms6_zWXkMmhkPHwPgtzj3K9WL9Rg,11
+picopins/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+picopins/__main__.py,sha256=ux7sMjF1TVWk7nifarWhS2BVMSsToLVeH5IIQIPzaRY,7315
+picopins-1.0.0.dist-info/METADATA,sha256=u0KA4UHDx3xZteHU1okGblhX3zdwPaN1tSX9TcX-Qfs,3207
+picopins-1.0.0.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+picopins-1.0.0.dist-info/entry_points.txt,sha256=4sM_zOoLw_rAcejnqp2s0PCh18HeuYVWMAv-akq7xZQ,52
+picopins-1.0.0.dist-info/licenses/LICENSE,sha256=ngcJMbvFbfUqHGNhncFSebMwBalLEhuVg8Qxc4vonA4,1081
+picopins-1.0.0.dist-info/RECORD,,
