@@ -1,0 +1,13 @@
+developergpt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+developergpt/__main__.py,sha256=Ke709mJqAqvdMFc-VlNbiTTN9g9TGZKwFrCqUHR94RA,138
+developergpt/cli.py,sha256=jJQh1Z8UTqLTbg2Oc9wQzva5hfDEvaPVeCbNcehXVMI,7615
+developergpt/config.py,sha256=YgqFq20lNZxky3tu7hbiQKPJdQyOlMOp5pRX6YYFDto,1167
+developergpt/huggingface_adapter.py,sha256=eFGG91S205Dke47k4bv64hS0a3_jwMCvhzTW-ooyjD0,10663
+developergpt/openai_adapter.py,sha256=stKoPx1yMIW8pQRx2RipYLn7OnezInEuTq2VT0AyfkU,9380
+developergpt/utils.py,sha256=YrW1SGv2TbWVov1hLXo3NSmNEac5E0kXiexIFvPJB48,7741
+developergpt-0.2.4.dist-info/LICENSE,sha256=4ubllnZPPBGl82mvNFT0s6ZfX3nIo3G9WN7WATSeiFI,1067
+developergpt-0.2.4.dist-info/METADATA,sha256=6s_k-PYDY0xt0aOGiDuqCf_Zu0IYfqdVhaZEVcY4kwU,6078
+developergpt-0.2.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+developergpt-0.2.4.dist-info/entry_points.txt,sha256=kIQ-ucJFXXlUnEY9v8hUdNDKatgboyxhpx6FYlabWkM,60
+developergpt-0.2.4.dist-info/top_level.txt,sha256=0Pk0u4R5SvOTvH3B12dJJgAMzjHMwi8Kw9x1j-Rq0Lo,13
+developergpt-0.2.4.dist-info/RECORD,,
