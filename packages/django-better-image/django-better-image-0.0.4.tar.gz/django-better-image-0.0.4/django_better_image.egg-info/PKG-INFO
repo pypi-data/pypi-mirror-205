@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: django-better-image
+Version: 0.0.4
+Summary: Better Django ImageField
+Home-page: https://github.com/elapouya/django-better-image
+Author: Eric Lapouyade
+Author-email: elapouya@gmail.com
+License: LGPL 2.1
+Keywords: ImageField
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 1.10
+Classifier: Framework :: Django :: 1.11
+Classifier: Framework :: Django :: 1.9
+Classifier: Framework :: Django :: 2.0
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Provides-Extra: tests
+Provides-Extra: docs
+License-File: LICENSE
+
+
+===================
+django-better-image
+===================
+
+Django app for better ImageField
+
+
+News
+====
+
+
+

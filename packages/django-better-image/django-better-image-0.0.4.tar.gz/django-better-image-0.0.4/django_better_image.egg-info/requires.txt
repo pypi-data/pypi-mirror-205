@@ -1,0 +1,8 @@
+django>=3
+pillow
+
+[docs]
+Sphinx
+sphinxcontrib-napoleon
+
+[tests]
