@@ -1,0 +1,6 @@
+collective.transmogrifier
+setuptools
+
+[test]
+plone.api
+plone.app.testing

@@ -1,0 +1,6 @@
+graft src/collective
+graft docs
+include *.rst
+exclude *.txt tox.ini
+recursive-include export_scripts *.py
+global-exclude *.pyc
