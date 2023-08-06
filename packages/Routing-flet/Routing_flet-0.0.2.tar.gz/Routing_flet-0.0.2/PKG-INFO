@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: Routing_flet
+Version: 0.0.2
+Summary: Enrutamiento y login requerido facil con flet
+Home-page: https://github.com/Dxsxsx/Routing_flet
+Download-URL: https://github.com/Dxsxsx/Routing_flet
+Author: Dxsxsx
+Project-URL: Bug Tracker, https://github.com/Dxsxsx/Routing_flet/releases
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Requires: flet
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Routing_flet -> Enrutamiento y protección de paginas facil con flet
+---
+# instalar
+```
+pip install Routing-flet
+```
+# Actualizar
+```
+pip install Routing-flet --upgrade
+```
+---
+# Ejemplo:
+```
+import flet as ft
+from Routing_flet import RoutePage
+
+def main(page: ft.Page):
+
+    ruta = RoutePage(page)
+    ruta.run()
+
+ft.app(target=main, view=ft.WEB_BROWSER, port=9999, route_url_strategy='hash')
+```
