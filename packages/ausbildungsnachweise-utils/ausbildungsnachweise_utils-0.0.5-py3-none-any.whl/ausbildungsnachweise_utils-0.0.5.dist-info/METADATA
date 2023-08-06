@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ausbildungsnachweise-utils
+Version: 0.0.5
+Summary: Utilities to generate Ausbildungsnachweise PDFs from human readable input formats.
+Home-page: https://github.com/twyleg/ausbildungsnachweis_utils
+Author: Torsten Wylegala
+Author-email: mail@twyleg.de
+License: GPL 3.0
+Keywords: ausbildungsnachweis ausbildungsnachweise pdf
+Requires-Dist: PyMuPDF
+Requires-Dist: python-docx
+
+# ausbildungsnachweis_utils
