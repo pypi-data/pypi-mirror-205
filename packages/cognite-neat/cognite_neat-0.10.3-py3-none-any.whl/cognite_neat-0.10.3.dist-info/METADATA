@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: cognite-neat
+Version: 0.10.3
+Summary: Knowledge graph transformation
+Author: Nikola Vasiljevic
+Author-email: nikola.vasiljevic@cognite.com
+Requires-Python: >=3.11,<3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: PyYAML
+Requires-Dist: cognite-sdk (>=6,<7)
+Requires-Dist: deepdiff
+Requires-Dist: fastapi (>=0.95,<0.96)
+Requires-Dist: google-api-python-client
+Requires-Dist: google-auth-oauthlib
+Requires-Dist: gspread
+Requires-Dist: openpyxl
+Requires-Dist: oxrdflib[oxigraph] (>=0.3.3,<0.4.0)
+Requires-Dist: pandas
+Requires-Dist: prometheus-client (>=0.16.0,<0.17.0)
+Requires-Dist: pydantic
+Requires-Dist: python-multipart (>=0.0.6,<0.0.7)
+Requires-Dist: rdflib
+Requires-Dist: requests
+Requires-Dist: schedule (>=1,<2)
+Requires-Dist: urllib3 (>=1.26,<2.0)
+Requires-Dist: uvicorn[standard] (>=0.21.0,<0.22.0)
