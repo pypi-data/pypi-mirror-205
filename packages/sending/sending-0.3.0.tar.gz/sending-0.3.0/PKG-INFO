@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: sending
+Version: 0.3.0
+Summary: Library for pub/sub usage within an async application
+Author: Nicholas Wold
+Author-email: nick@nicholaswold.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: all
+Provides-Extra: jupyter
+Provides-Extra: redis
+Provides-Extra: websockets
+Requires-Dist: aioredis[hiredis] (>=2.0.0,<3.0.0) ; extra == "redis" or extra == "all"
+Requires-Dist: ipykernel (>=6.15.1,<7.0.0) ; extra == "jupyter" or extra == "all"
+Requires-Dist: jupyter_client (>=7.3.0,<8.0.0) ; extra == "jupyter" or extra == "all"
+Requires-Dist: websockets (>=10.3,<11.0) ; extra == "websockets" or extra == "all"
