@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: apollo-sdk
+Version: 0.1.1
+Summary: Build automated decision making workflows. Aggregate your LLMs all into one place and build from there using one api.
+Author: Apollo API, Inc.
+Author-email: adrbrownx@gmail.com
+License: Elastic License v2
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE

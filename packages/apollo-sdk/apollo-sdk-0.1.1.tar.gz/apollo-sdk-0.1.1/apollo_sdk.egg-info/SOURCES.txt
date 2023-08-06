@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+apollo/__init__.py
+apollo/client.py
+apollo/const.py
+apollo/exceptions.py
+apollo/manager.py
+apollo/resource.py
+apollo_sdk.egg-info/PKG-INFO
+apollo_sdk.egg-info/SOURCES.txt
+apollo_sdk.egg-info/dependency_links.txt
+apollo_sdk.egg-info/requires.txt
+apollo_sdk.egg-info/top_level.txt
