@@ -1,0 +1,11 @@
+boto3
+deepl
+google-cloud-translate
+langcodes
+modernmt
+python-dotenv[cli]
+requests
+sacrebleu[ja,ko]
+unbabel-comet
+
+[dev]
