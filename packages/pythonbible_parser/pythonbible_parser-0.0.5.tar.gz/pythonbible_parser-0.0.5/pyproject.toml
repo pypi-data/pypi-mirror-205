@@ -1,0 +1,51 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "pythonbible_parser"
+author = "Nathan Patton"
+author-email = "npatton@gmail.com"
+home-page = "https://github.com/avendesora/pythonbible-parser"
+classifiers = [
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "License :: OSI Approved :: MIT License"
+]
+requires = [
+    "defusedxml >=0.7.1",
+    "pythonbible ==0.8",
+]
+description-file = "README.md"
+requires-python = ">=3.7"
+
+[tool.flit.metadata.urls]
+Documentation = "https://github.com/avendesora/pythonbible-parser"
+Source = "https://github.com/avendesora/pythonbible-parser"
+
+[tool.flit.metadata.requires-extra]
+test = [
+    "pytest >=7.1.2",
+    "pytest-cov >=3.0.0",
+]
+doc = [
+]
+dev = [
+    "pre-commit >=2.20.0",
+]
+all = [
+]
+
+[tool.isort]
+profile = "black"
+add_imports = "from __future__ import annotations"
