@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: fASP
+Version: 0.1.0
+Summary: Efficient enumeration of fixed points in Boolean networks using answer set programming
+Project-URL: Code, https://github.com/giang-trinh/fASP
+Author-email: Sylvain Soliman <Sylvain.Soliman@inria.fr>, Van-Giang Trinh <giang.trinh91@gmail.com>
+License-Expression: GPL-3.0
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Requires-Dist: networkx>=2.2
+Requires-Dist: pyeda>=0.28
+Provides-Extra: dev
+Requires-Dist: black; extra == 'dev'
+Requires-Dist: flake8-mypy; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# fASP
+Efficient enumeration of fixed points in Boolean networks using answer set programming
