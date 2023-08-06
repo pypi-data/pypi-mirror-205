@@ -1,0 +1,16 @@
+name: spectrum_utils
+channels:
+  - defaults
+  - bioconda
+  - conda-forge
+dependencies:
+  - altair
+  - appdirs
+  - fastobo
+  - lark>=1.0
+  - matplotlib
+  - numba>=0.47
+  - numpy
+  - pandas
+  - pyteomics>=4.5
+  - python>=3.8
