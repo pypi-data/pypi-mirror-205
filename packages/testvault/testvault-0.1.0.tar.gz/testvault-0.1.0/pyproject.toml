@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "testvault"
+version = "0.1.0"
+description = ""
+authors = ["Common Fate <hello@commonfate.io>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+structlog = "^23.1.0"
+requests = "^2.28.2"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

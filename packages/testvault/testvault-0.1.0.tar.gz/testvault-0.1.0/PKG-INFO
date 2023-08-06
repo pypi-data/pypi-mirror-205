@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: testvault
+Version: 0.1.0
+Summary: 
+License: MIT
+Author: Common Fate
+Author-email: hello@commonfate.io
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: requests (>=2.28.2,<3.0.0)
+Requires-Dist: structlog (>=23.1.0,<24.0.0)
+Description-Content-Type: text/markdown
+
+# testvault-python-sdk
+
+A Python SDK for TestVault. TestVault is a sample service used to demonstrate building Common Fate Access Providers to automate entitlements. TestVault is a fictional password management service similar to 1Password or Lastpass.
+
+Common Fate hosts the TestVault service at `https://prod.testvault.granted.run`.
+
+The source code for the TestVault service can be found at https://github.com/common-fate/testvault.
+
