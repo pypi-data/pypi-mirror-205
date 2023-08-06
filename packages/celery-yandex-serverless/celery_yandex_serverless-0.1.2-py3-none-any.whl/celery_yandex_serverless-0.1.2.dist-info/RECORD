@@ -1,0 +1,5 @@
+celery_yandex_serverless/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+celery_yandex_serverless/django.py,sha256=Imwmbcjz0ojV5Nh1NGftls-6ft2V5SKKzR98XsstB3U,3381
+celery_yandex_serverless-0.1.2.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+celery_yandex_serverless-0.1.2.dist-info/METADATA,sha256=B6OugPcH4eovThdrE07qqOHwcl6Xd_5qMH51n5fgvDM,6811
+celery_yandex_serverless-0.1.2.dist-info/RECORD,,
