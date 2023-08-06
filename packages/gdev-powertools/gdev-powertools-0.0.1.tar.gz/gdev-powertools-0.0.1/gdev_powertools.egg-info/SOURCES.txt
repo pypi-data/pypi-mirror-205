@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+gdev_powertools.egg-info/PKG-INFO
+gdev_powertools.egg-info/SOURCES.txt
+gdev_powertools.egg-info/dependency_links.txt
+gdev_powertools.egg-info/requires.txt
+gdev_powertools.egg-info/top_level.txt
+useful_tasks/__init__.py
+useful_tasks/make_response.py
+useful_tasks/utilities.py
