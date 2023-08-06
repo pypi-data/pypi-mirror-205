@@ -1,0 +1,6 @@
+wheel
+# PyQt5
+silx
+numpy
+python-dateutil
+python-kafka
