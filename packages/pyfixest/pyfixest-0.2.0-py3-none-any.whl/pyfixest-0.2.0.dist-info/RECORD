@@ -1,0 +1,11 @@
+pyfixest/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyfixest/api.py,sha256=f8DROtqFsH2qrd_HSEbwttYYGGfWayG1oDlHjSsf30U,2159
+pyfixest/demean.py,sha256=O9q1g6880543WkaZ6I0E0Aw2Xg9KYYTTjqc04HNJWdQ,2407
+pyfixest/feols.py,sha256=Mmm09kRu8jD60vizA9b5m-DROBFM532CocnGh3WTfUg,5405
+pyfixest/fixest.py,sha256=Xl7UyKWdVwh65TAv_yWBhVHdCGAIZ_An86okiVoamo8,7792
+pyfixest/FormulaParser.py,sha256=y9yygg6-qZRzQl_vo9Vbpxg3SZnenXgB31WJ8_LKgt4,7725
+pyfixest/utils.py,sha256=sAVD-h-Lrnd60Ia4hluGuqrqFeb3f_UHUvyHv1NB_JI,1145
+pyfixest-0.2.0.dist-info/LICENSE.md,sha256=0YVoSLxvwJcsUTFKuxbLmF6951ozvkprU_uM2wiDO7U,1096
+pyfixest-0.2.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+pyfixest-0.2.0.dist-info/METADATA,sha256=Eb98MrYAYe-2p4a_c78p9uK3hR817NeHRHFUXOjYH3Q,3595
+pyfixest-0.2.0.dist-info/RECORD,,
