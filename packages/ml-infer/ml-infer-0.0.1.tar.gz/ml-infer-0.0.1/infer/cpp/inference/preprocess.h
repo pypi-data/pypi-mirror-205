@@ -1,0 +1,17 @@
+#pragma once
+
+#include <pybind11/pybind11.h>
+#include <torch/extension.h>
+
+#include "config.h"
+
+using namespace pybind11::literals;
+using namespace torch::jit;
+
+namespace inference::preprocess {
+
+Module insert_all_observers(Module &mod, const config::Config &config, bool copy);
+
+void add_module(pybind11::module &m);
+
+}  // namespace inference::preprocess

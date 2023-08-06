@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: ml-infer
+Version: 0.0.1
+Summary: Inference toolkit for machine learning models
+Home-page: https://github.com/codekansas/inference
+Author: Benjamin Bolte
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+
+# Infer
+
+`infer` is a toolchain for doing optimized neural network inference with a number of different backends.
+
+## Supported Backend
+
+- TensorRT
+- CoreML
+
+## References
+
+- [Official TensorRT Export Pipeline](https://github.com/pytorch/TensorRT)

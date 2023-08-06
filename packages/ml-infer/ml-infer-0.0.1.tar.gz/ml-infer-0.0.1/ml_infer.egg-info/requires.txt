@@ -1,0 +1,15 @@
+torch>=2.0.0
+
+[dev]
+matplotlib
+networkx
+numpy
+black
+cmake
+darglint
+mypy
+pybind11
+pytest
+ruff
+clang-format
+cmake-format
