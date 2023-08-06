@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+psycopg_infdate/__init__.py
+psycopg_infdate.egg-info/PKG-INFO
+psycopg_infdate.egg-info/SOURCES.txt
+psycopg_infdate.egg-info/dependency_links.txt
+psycopg_infdate.egg-info/requires.txt
+psycopg_infdate.egg-info/top_level.txt
