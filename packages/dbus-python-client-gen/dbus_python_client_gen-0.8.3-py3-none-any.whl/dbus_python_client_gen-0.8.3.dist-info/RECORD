@@ -1,0 +1,9 @@
+dbus_python_client_gen/__init__.py,sha256=hyK61Yj5a3600lc1N6DHQWpFqhoke35gL_A71wxv448,646
+dbus_python_client_gen/_errors.py,sha256=UL3g1xHYyNX1_G0Vk5Qwo2T_lmYaE5dRPbWpyZfu3OA,5357
+dbus_python_client_gen/_invokers.py,sha256=Pah5FV_Vfsvh3fMnfLQwxXXh_fGULScBpOGoG3jCXJE,16119
+dbus_python_client_gen/_version.py,sha256=N4-vujsBs5hWZTAc6iAk60SY8CTdh2d8li_-mbpKVNI,376
+dbus_python_client_gen-0.8.3.dist-info/LICENSE,sha256=OT6vK5Kz1JvqE545tv0gW26ZxJmZmYauxVVFhqgw390,16726
+dbus_python_client_gen-0.8.3.dist-info/METADATA,sha256=liVrymfrJ18L0M3U_FAf_jdJ3ruhnjD7cHjrYv7jPww,4811
+dbus_python_client_gen-0.8.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+dbus_python_client_gen-0.8.3.dist-info/top_level.txt,sha256=Xn6M88QvM5Zn1Ua87KppRwYc0TMwGmLOi-1ElFCKa7s,23
+dbus_python_client_gen-0.8.3.dist-info/RECORD,,
