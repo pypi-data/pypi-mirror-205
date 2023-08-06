@@ -1,0 +1,6 @@
+[kedro.project_commands]
+snowflake=kedro_snowflake.cli:commands
+
+[kedro.starters]
+starter=kedro_snowflake.starters:starters
+
