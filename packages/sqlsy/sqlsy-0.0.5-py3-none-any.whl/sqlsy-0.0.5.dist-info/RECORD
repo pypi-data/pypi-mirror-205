@@ -1,0 +1,12 @@
+sqlsy/__init__.py,sha256=TJZvRSsUXihGApvOB2-daajGzXVYT5b-Gq6K44k7Mj0,105
+sqlsy/__main__.py,sha256=A8w4amgjen60VRRccX6UudDLg7lMxqi_hZLHCFPW37Y,93
+sqlsy/engine.py,sha256=fEc1wXDCyplbFJbRTDy1JNPD6EVi7LLPsN4tOOlZa4k,5733
+sqlsy/schema.py,sha256=0Pb8ZvLmTLcTGe-773Y1nZNtCAnBNl0wxlfA-alFLs8,1954
+sqlsy/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sqlsy/utils/custom_callbacks.py,sha256=TT7zgw3kNwJjPbiOQNxI3mO9g88uWyPLrk0RVSxTkPw,846
+sqlsy/utils/mapping.py,sha256=znVtshzPz91nXqQi1WZnplABlOTB3vZ6L_ThBNgfZ4c,1257
+sqlsy-0.0.5.dist-info/METADATA,sha256=3qTsqz6nWoMKZCtXNTGr_xe7vOx9qlC7pfdGz5e9ibk,3908
+sqlsy-0.0.5.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+sqlsy-0.0.5.dist-info/entry_points.txt,sha256=0oJ3Cy3uaF1MZeEPufq5sFv4IlAi4zVxctP-jGevF0g,49
+sqlsy-0.0.5.dist-info/top_level.txt,sha256=s2iuFSaTf8dlUexIRadowGTDc_KrNKjcb9kCwd_bmVo,6
+sqlsy-0.0.5.dist-info/RECORD,,
