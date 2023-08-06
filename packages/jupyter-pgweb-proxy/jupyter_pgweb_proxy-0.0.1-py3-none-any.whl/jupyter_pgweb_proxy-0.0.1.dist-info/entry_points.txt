@@ -1,0 +1,2 @@
+[jupyter_serverproxy_servers]
+pgweb = jupyter_pgweb_proxy:run_app
