@@ -1,0 +1,25 @@
+Screen {
+    align: center middle;
+}
+
+.mode-label {
+    align: center middle;
+    padding: 2;
+    width: 52;
+}
+
+.mode-button {
+    align: center bottom;
+    width: 52;
+}
+
+.label-one-line {
+    width: 100%;
+    height: 1;
+    background: rgb(129, 127, 2);
+}
+.label-full-screen {
+    width: 100%;
+    height: 99%;
+    background: rgb(0, 129, 138);
+}
