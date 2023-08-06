@@ -1,0 +1,4 @@
+[console_scripts]
+search=src.search:main
+subscrape=src.subscraper:main
+
