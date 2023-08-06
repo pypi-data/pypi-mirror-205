@@ -1,0 +1,22 @@
+# [build-system]
+# requires = ["hatchling"]
+# build-backend = "hatchling.build"
+
+# [project]
+# name = "easyfit"
+# version = "0.0.1"
+# authors = [{ name = "Hisham Ali", email = "hishamali98@gmail.com" }]
+# dependencies = ["scikit-learn", "pandas", "xgboost", "tqdm"]
+# description = "Fit, Predict and Score many machine learning models with few lines of code and a single object"
+# readme = "README.md"
+# requires-python = ">=3.8"
+# classifiers = [
+#   "Programming Language :: Python :: 3",
+#   "License :: OSI Approved :: MIT License",
+#   "Operating System :: OS Independent",
+# ]
+# license = { file = "LICENSE" }
+# keywords = ['EasyFit', 'easyfit', 'ezfit', 'EZfit']
+
+# [project.urls]
+# Repository = "https://github.com/HishamAli217/EasyFit"

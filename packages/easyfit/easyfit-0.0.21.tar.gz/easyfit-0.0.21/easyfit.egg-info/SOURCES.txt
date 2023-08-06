@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+easyfit/__init__.py
+easyfit/_models.py
+easyfit/classifiers.py
+easyfit/exceptions.py
+easyfit/regressors.py
+easyfit.egg-info/PKG-INFO
+easyfit.egg-info/SOURCES.txt
+easyfit.egg-info/dependency_links.txt
+easyfit.egg-info/requires.txt
+easyfit.egg-info/top_level.txt
