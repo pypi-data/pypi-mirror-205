@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pytest_patch.py
+pytest_patch_testmodule.py
+setup.py
+pytest_patch.egg-info/PKG-INFO
+pytest_patch.egg-info/SOURCES.txt
+pytest_patch.egg-info/dependency_links.txt
+pytest_patch.egg-info/entry_points.txt
+pytest_patch.egg-info/requires.txt
+pytest_patch.egg-info/top_level.txt
+tests/test_patch_config.py
+tests/test_pytest_patch.py
+tests/test_pytest_patch_testmodule.py
