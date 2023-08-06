@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: simple_distance_calculator
+Version: 0.0.1
+Summary: A distance calculator
+Home-page: https://github.com/Aivcho/distance_calculator
+Author: Aivcho
+Author-email: achomskis@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/plain
+License-File: LICENSE.txt
+
+Distance calculator that has these functions
+-convert address to lat and lon
+-covert lat and lon to address
+-Haversine formula - distance in km
+-Spherical Law of Cosines - distance in km
+-Equirectangular Approximation
+
+to calculate distances you need to use lat and lon
