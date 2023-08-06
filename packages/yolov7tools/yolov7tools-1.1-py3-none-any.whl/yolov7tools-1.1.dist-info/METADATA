@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: yolov7tools
+Version: 1.1
+Requires-Dist: opencv-python
+Requires-Dist: numpy
+Requires-Dist: fiftyone
+Requires-Dist: tqdm
+Requires-Dist: joblib
+
