@@ -1,0 +1,2 @@
+[console_scripts]
+pylossless_qc = pylossless.dash.pylossless_qc:main
