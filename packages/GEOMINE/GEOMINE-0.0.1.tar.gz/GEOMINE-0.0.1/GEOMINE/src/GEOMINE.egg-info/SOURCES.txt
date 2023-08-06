@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+GEOMINE/src/GEOMINE.py
+GEOMINE/src/GEOMINE.egg-info/PKG-INFO
+GEOMINE/src/GEOMINE.egg-info/SOURCES.txt
+GEOMINE/src/GEOMINE.egg-info/dependency_links.txt
+GEOMINE/src/GEOMINE.egg-info/requires.txt
+GEOMINE/src/GEOMINE.egg-info/top_level.txt
