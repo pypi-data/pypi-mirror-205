@@ -1,0 +1,41 @@
+numpy>=1.18
+scipy!=1.9.2,>=1.4
+pandas>=1.0
+patsy>=0.5.2
+packaging>=21.3
+
+[:python_version == "3.10" and platform_system == "Windows" and platform_python_implementation != "PyPy"]
+numpy>=1.22.3
+
+[:sys_platform == "win32"]
+scipy!=1.9.2,>=1.4
+
+[build]
+cython>=0.29.26
+
+[develop]
+cython>=0.29.26
+cython<3.0.0,>=0.29.28
+setuptools_scm[toml]~=7.0.0
+oldest-supported-numpy>=2022.4.18
+matplotlib>=3
+colorama
+joblib
+pytest~=7.0.1
+pytest-randomly
+pytest-xdist
+flake8
+isort
+
+[develop:os_name == "nt"]
+pywinpty
+
+[docs]
+sphinx
+nbconvert
+jupyter_client
+ipykernel
+matplotlib
+nbformat
+numpydoc
+pandas-datareader
