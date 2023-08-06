@@ -1,0 +1,13 @@
+License
+README.md
+setup.py
+src/__init__.py
+src/editor.py
+src/gulistandb.py
+src/reader.py
+src/writter.py
+src/gulistandb.egg-info/PKG-INFO
+src/gulistandb.egg-info/SOURCES.txt
+src/gulistandb.egg-info/dependency_links.txt
+src/gulistandb.egg-info/requires.txt
+src/gulistandb.egg-info/top_level.txt
