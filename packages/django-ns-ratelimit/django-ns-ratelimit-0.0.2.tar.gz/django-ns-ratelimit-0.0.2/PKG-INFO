@@ -1,0 +1,114 @@
+Metadata-Version: 2.1
+Name: django-ns-ratelimit
+Version: 0.0.2
+Summary: A Django app for limit authorized and anonymous users.
+Home-page: UNKNOWN
+Author: shailesh jadhav
+License: UNKNOWN
+Description: # DJANGO-NS-RATELIMIT
+        
+        ## Project description
+        django-ns-ratelimit is django app for limit requests using rate limit class, decorators and middleware.
+        
+        ## Installation
+        
+        ```
+        pip install -i https://test.pypi.org/simple/ django-ns-ratelimit==1.0
+        ```
+        
+        
+        ## Usage
+        
+        # Periods in format:
+        ```
+            S: For seconds
+            M: For minutes
+            H: For hour
+            D: For Day
+        
+            e.g: "10S" "1M" "1D"
+        ```
+        
+        ## Decorators
+        ### user_method_ratelimit:
+        Used for user specific request rate limiting for class base apis
+        
+        ```
+        class SampleView(APIView):
+            @user_method_ratelimit(5, "1M")
+            def get(self, request):
+                pass
+        ```
+        
+        ### anon_method_ratelimit:
+        Used for Anonymous user requests rate limiting for class base apis
+        
+        ```
+        class SampleView(APIView):
+            @anon_method_ratelimit(5, "1M")
+            def get(self, request):
+                pass
+        ```
+        
+        ### user_func_ratelimit:
+        Used for user specific request rate limiting for function base apis
+        
+        ```
+        class SampleView(APIView):
+            @user_func_ratelimit(5, "1M")
+            def get(self, request):
+                pass
+        ```
+        
+        ### anon_func_ratelimit:
+        Used for Anonymous user requests rate limiting for function base apis
+        
+        ```
+        class SampleView(APIView):
+            @anon_func_ratelimit(5, "1M")
+            def get(self, request):
+                pass
+        ```
+        
+        ## Middlewares
+        
+        ### UserRateLimitMiddleware
+        
+        Add this django settings Middlewares for User rate limiting
+        ```
+        MIDDLEWARE = [
+            .
+            .
+            .
+            .
+            "ratelimit.middleware.UserRateLimitMiddleware",
+        ]
+        ```
+        
+        ### AnonRateLimitMiddleware
+        
+        Add this django settings Middlewares for Anonymous rate limiting
+        ```
+        MIDDLEWARE = [
+            .
+            .
+            .
+            .
+            "ratelimit.middleware.AnonRateLimitMiddleware",
+        ]
+        ```
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
