@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: giternity
+Version: 0.6
+Summary: Mirror git repositories and retrieve metadata for cgit.
+Home-page: https://github.com/rahiel/giternity
+Author: Rahiel Kasim
+Author-email: rahielkasim@gmail.com
+License: GPLv3+
+Keywords: giternity git mirror cgit
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Software Development :: Version Control :: Git
+Classifier: Topic :: System :: Archiving :: Mirroring
+Requires-Python: >=3.5
+License-File: LICENSE.txt
+Requires-Dist: requests
+Requires-Dist: toml
+
