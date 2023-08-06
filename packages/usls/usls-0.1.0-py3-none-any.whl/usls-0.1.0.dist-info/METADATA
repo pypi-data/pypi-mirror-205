@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: usls
+Version: 0.1.0
+Summary: Useless CV toolkits
+Home-page: https://github.com/jamjamjon/usls
+Author: jamjamjon
+License: GPL-3.0
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: BaiduSpider
+Requires-Dist: hydra-core
+Requires-Dist: numpy
+Requires-Dist: omegaconf
+Requires-Dist: opencv-python
+Requires-Dist: packaging
+Requires-Dist: Pillow
+Requires-Dist: psutil
+Requires-Dist: Pygments
+Requires-Dist: pynvml
+Requires-Dist: PyYAML
+Requires-Dist: requests
+Requires-Dist: rich
+Requires-Dist: tqdm
+
+# usls
+uselesss
