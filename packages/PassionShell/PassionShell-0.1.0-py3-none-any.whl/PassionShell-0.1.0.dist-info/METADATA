@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: PassionShell
+Version: 0.1.0
+Summary: The PassionShell for the Passion programming language
+Author: WhatDoWeDoNow
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# About
+PassionShell is a Bash-like sub-language made in Python for the Passion programming langauge.
+
+# How to Use
+In the shell, type `pip install PassionShell`, and in your Python code, `from PassionShell import PassionShell`.
+
+# Functions and Classes
+## Classes
+PassionShell comes with one class, `PassionShell`. To use it, create an instance of the class, and add this code:
+```
+from PassionShell import PassionShell
+ps = PassionShell()
+ps.loop()
+```
+First, it gets the class and imports it into the local namespace. Next, it creates an instance of the class, `ps`, and finally, calls the `loop` method to continously take input, and execute it.
+
+## Functions
+PassionShell currently does not come with any top-level functions.
