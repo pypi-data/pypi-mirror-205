@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+setup.py
+Chinese_webtext_spider.egg-info/PKG-INFO
+Chinese_webtext_spider.egg-info/SOURCES.txt
+Chinese_webtext_spider.egg-info/dependency_links.txt
+Chinese_webtext_spider.egg-info/requires.txt
+Chinese_webtext_spider.egg-info/top_level.txt
+zhspider/__init__.py
+zhspider/evaluator.py
+zhspider/extractor.py
+zhspider/large.pt
+zhspider/spider.py
+zhspider/spiders.py
