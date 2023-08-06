@@ -1,0 +1,10 @@
+CHANGELOG.md,sha256=uiSBkjyo7r1gNMQkWI3aQtADAaugzf0-yI7QfXsSKhk,673
+securecookies/__init__.py,sha256=g6ZH_3bbo-HuVS6s3NETsFWBoyxD5rrzwaG7kz9XZ3c,202
+securecookies/extras/__init__.py,sha256=d4fMttrH9SkwcDTe1J1xGP-34_8e1DtFf0bHNjc-n5Y,551
+securecookies/extras/csrf.py,sha256=l1dD9SjNHbCxtHhwkcO1j_VCQ4ZZGAam1Ek_uIEislQ,1611
+securecookies/middleware.py,sha256=SOgWVYerlig1Ja3Wnkxs1OmGSZh78VqjHXMBo2UWsh4,6991
+securecookies/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+starlette_securecookies-1.1.0.dist-info/METADATA,sha256=IYo48yyNIGsIFFtndXaZqxqdaEV8ktECqlAM8TJwwoI,7120
+starlette_securecookies-1.1.0.dist-info/WHEEL,sha256=7dGFtUmOf30dPBLpGD2z643cxg89joO7p3JHBAwDv6E,90
+starlette_securecookies-1.1.0.dist-info/licenses/LICENSE,sha256=igl8BMLz80BbCZO0C8A8OWV0CvhZ4b0eqWTFj5-27x8,1521
+starlette_securecookies-1.1.0.dist-info/RECORD,,
