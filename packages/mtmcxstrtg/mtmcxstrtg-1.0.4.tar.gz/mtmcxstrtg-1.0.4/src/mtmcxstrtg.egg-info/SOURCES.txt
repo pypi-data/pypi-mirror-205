@@ -1,0 +1,16 @@
+README.md
+setup.py
+scripts/run.py
+src/mtmcxstrtg/__init__.py
+src/mtmcxstrtg/account.py
+src/mtmcxstrtg/config.py
+src/mtmcxstrtg/flow.py
+src/mtmcxstrtg/util.py
+src/mtmcxstrtg.egg-info/PKG-INFO
+src/mtmcxstrtg.egg-info/SOURCES.txt
+src/mtmcxstrtg.egg-info/dependency_links.txt
+src/mtmcxstrtg.egg-info/not-zip-safe
+src/mtmcxstrtg.egg-info/requires.txt
+src/mtmcxstrtg.egg-info/top_level.txt
+src/mtmcxstrtg/strategy/__init__.py
+src/mtmcxstrtg/strategy/cta_deviation_signal_strategy.py
