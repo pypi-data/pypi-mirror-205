@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: lvpyio
+Version: 1.3.0
+Summary: A reader/writer for DaVis images, vector fields, and particle fields
+Home-page: https://www.lavision.de/
+Author: LaVision GmbH
+Author-email: python@lavision.de
+License: Free To Use But Restricted
+Platform: Windows
+Platform: Linux
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+License-File: ThirdPartyLicenses/LICENSE_boost.txt
+License-File: ThirdPartyLicenses/LICENSE_log4cxx.txt
+License-File: ThirdPartyLicenses/LICENSE_pugixml.txt
+License-File: ThirdPartyLicenses/LICENSE_qt.txt
+License-File: ThirdPartyLicenses/LICENSE_zlib.txt
+Requires-Dist: numpy (>=1.19.1)
+Provides-Extra: plotting
+Requires-Dist: matplotlib (>=3.2.1) ; extra == 'plotting'
+
+This package is a reader and writer for DaVis image sets, vector sets and
+particle fields (`.set`), as well as vector fields (`.vc7`, `.vec`) and images
+(`.im7`, `.imx`).
+
+Detailed documentation with examples can be downloaded at:
+https://www.lavision.de/en/downloads/software/python_add_ons.php.
+
+# Difference between Lvpyio and Lvpyio_wrapped
+
+There are two packages to choose from: [lvpyio](https://pypi.org/project/lvpyio/)
+and [lvpyio_wrapped](https://pypi.org/project/lvpyio_wrapped/). Their interface 
+is identical. Most users should use `lvpyio`. Users who wish to use Qt 5 and
+`lvpyio` in the same Python process might need `lvpyio_wrapped`. See the
+documentation referenced above for details.
+
+# Miscellaneous
+
+Before version 1.3.0, `lvpyio` was called `lvreader`.
+
+# Feedback
+
+Please report bugs and confusing error messages to <python@lavision.de>.
+
+

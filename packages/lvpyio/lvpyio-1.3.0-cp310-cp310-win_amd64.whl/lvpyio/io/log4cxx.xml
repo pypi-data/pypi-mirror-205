@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<!-- A minimal configuration that suppresses the "no appender could be found" warning. -->
+<log4j:configuration xmlns:log4j='http://jakarta.apache.org/log4j/'>
+	<root>
+		<priority value="OFF"/>
+	</root>
+</log4j:configuration>
