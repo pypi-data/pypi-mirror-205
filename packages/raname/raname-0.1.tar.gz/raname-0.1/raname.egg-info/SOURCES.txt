@@ -1,0 +1,7 @@
+raname.py
+setup.py
+raname.egg-info/PKG-INFO
+raname.egg-info/SOURCES.txt
+raname.egg-info/dependency_links.txt
+raname.egg-info/requires.txt
+raname.egg-info/top_level.txt
