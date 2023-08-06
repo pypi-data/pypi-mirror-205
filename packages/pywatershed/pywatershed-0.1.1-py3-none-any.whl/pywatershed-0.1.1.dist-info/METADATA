@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: pywatershed
+Version: 0.1.1
+Summary: pywatershed is a hydrologic model
+Home-page: https://github.com/EC-USGS/prmsNHMpy
+Download-URL: https://pypi.org/project/pywatershed
+Author: USGS Enterprise Capacity Team
+Author-email: modflow@usgs.gov
+Maintainer: James McCreight
+Maintainer-email: jmccreight@usgs.gov
+License: CC0
+Project-URL: Bug Tracker, https://github.com/EC-USGS/pywatershed/issues
+Project-URL: Source Code, https://github.com/EC-USGS/pywatershed
+Keywords: PRMS,hydrology
+Platform: Mac OS-X
+Platform: Linux
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering :: Hydrology
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: epiweeks
+Requires-Dist: netCDF4
+Requires-Dist: networkx
+Requires-Dist: numpy
+Requires-Dist: numba
+Requires-Dist: pandas
+Requires-Dist: pyyaml
+Requires-Dist: xarray
+
+pywatershed is a Python package for hydrologic modeling
