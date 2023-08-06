@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: NegoTools
+Version: 0.8
+Summary: nego tools
+Home-page: https://github.com/AlexandroLuis/NegoTools
+Author: Alexandro Rocha
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: random2
+Requires-Dist: scikit-learn
+Requires-Dist: thompson-sampling
+
+UNKNOWN
+
