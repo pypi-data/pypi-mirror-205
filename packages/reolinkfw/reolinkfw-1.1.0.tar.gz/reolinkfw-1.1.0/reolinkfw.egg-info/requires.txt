@@ -1,0 +1,7 @@
+aiohttp
+lxml
+pakler
+pycramfs==1.0.0
+PySquashfsImage==0.8.0
+python-lzo
+ubi-reader
