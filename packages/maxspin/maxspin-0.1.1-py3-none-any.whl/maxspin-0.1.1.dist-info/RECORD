@@ -1,0 +1,9 @@
+maxspin/__init__.py,sha256=lMldQNBRcE2Col4iEJ0C1nuHob6XpKdB5orpHH6kjdI,195
+maxspin/binning.py,sha256=Cg_FnmwEjsIXUv0sCNfqlXbzajwzIx_9IHvwkw5ccK8,3139
+maxspin/gamma_mh.py,sha256=s0w-EHMT3FkWhedGKn5KA5O8V5PzzsK5Beb52QtmS-g,832
+maxspin/objectives.py,sha256=vxA-dZGqAFLmaixu6IihxcLcJVhY_oTJxqAK_byjhPE,366
+maxspin/pairwise.py,sha256=ClYHmMJJn2mWgPJWAZCL4vZrc9AaV3YwdIWTfBZMVEQ,10784
+maxspin/spatial_information.py,sha256=nZa1MsoRC7VkmPR8-5pO2ms4KMzCcdxlaHPC70J7XbQ,31303
+maxspin-0.1.1.dist-info/METADATA,sha256=-u6eeVNNX5JBg5j5oAjG9hULoKRc_xNFjuYzcDNFjgQ,5037
+maxspin-0.1.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+maxspin-0.1.1.dist-info/RECORD,,
