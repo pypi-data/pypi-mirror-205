@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+src/quizpython/__init__.py
+src/quizpython.egg-info/PKG-INFO
+src/quizpython.egg-info/SOURCES.txt
+src/quizpython.egg-info/dependency_links.txt
+src/quizpython.egg-info/requires.txt
+src/quizpython.egg-info/top_level.txt
