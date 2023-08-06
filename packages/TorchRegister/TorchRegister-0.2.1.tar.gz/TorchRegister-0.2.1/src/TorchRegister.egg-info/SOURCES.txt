@@ -1,0 +1,13 @@
+LICENSE.md
+MANIFEST.in
+README.md
+setup.py
+src/TorchRegister/__init__.py
+src/TorchRegister/torchregister.py
+src/TorchRegister/utils.py
+src/TorchRegister/warpings.py
+src/TorchRegister.egg-info/PKG-INFO
+src/TorchRegister.egg-info/SOURCES.txt
+src/TorchRegister.egg-info/dependency_links.txt
+src/TorchRegister.egg-info/requires.txt
+src/TorchRegister.egg-info/top_level.txt
