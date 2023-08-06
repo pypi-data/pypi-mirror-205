@@ -1,0 +1,10 @@
+pydatafs/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+pydatafs/errors.py,sha256=Q-rDoz3jelcaTjj9pw3B_GRn9e6wAvlNKl5Q9S_75Rg,416
+pydatafs/files.py,sha256=f3lX9p4cazJQgFoVTvoPYr-VEDnjibo9q-vFVQoeYLo,6489
+pydatafs/filesystem.py,sha256=uboSxKmhgO8PB-mYr5UWH_08U1Lisy6tB6PaIMdUQnE,13481
+pydatafs/handle.py,sha256=nAcdeVNTBxmE9uCE7bzkM5gOY6jmIDMWuX4l8A9mgIM,615
+pydatafs-0.1.0.dist-info/LICENSE,sha256=1-_AQVsua01ANxGjydvvc3NR5Qx-SFNoTMkc4OSETys,1054
+pydatafs-0.1.0.dist-info/METADATA,sha256=oZj8vDmUZAEeeICH7RaJQhgMx1g4-_5CxmsOSejthOU,2104
+pydatafs-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+pydatafs-0.1.0.dist-info/top_level.txt,sha256=iRR8iNA8NHMmtOvjqbVk-ANrsl5Avlus8FeVro6MDpc,9
+pydatafs-0.1.0.dist-info/RECORD,,
