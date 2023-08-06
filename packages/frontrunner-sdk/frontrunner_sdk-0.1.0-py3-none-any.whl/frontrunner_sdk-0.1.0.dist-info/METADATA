@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: frontrunner-sdk
+Version: 0.1.0
+Summary: Frontrunner SDK
+Home-page: https://github.com/GetFrontrunner/frontrunner-sdk
+Author: Frontrunner
+Author-email: support@getfrontrunner.com
+License: Apache-2.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Topic :: Games/Entertainment
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8,<4
+Requires-Dist: aiohttp (~=3.8.4)
+Requires-Dist: certifi (>=14.05.14)
+Requires-Dist: grpcio
+Requires-Dist: injective-py (==0.6.*)
+Requires-Dist: protobuf (==3.*)
+Requires-Dist: python-dateutil (>=2.5.3)
+Requires-Dist: six (>=1.10)
+Requires-Dist: urllib3 (>=1.15.1)
+
