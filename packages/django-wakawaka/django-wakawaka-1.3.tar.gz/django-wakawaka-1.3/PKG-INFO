@@ -1,0 +1,179 @@
+Metadata-Version: 2.1
+Name: django-wakawaka
+Version: 1.3
+Summary: A simple Django based wiki system.
+Home-page: https://github.com/bartTC/django-wakawaka
+Author: Martin Mahner
+Author-email: martin@mahner.org
+License: MIT
+Keywords: django,pastebin
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Framework :: Django
+Requires-Python: >=3.8
+License-File: LICENSE
+
+.. image:: https://badge.fury.io/py/django-wakawaka.svg
+    :target: https://badge.fury.io/py/django-wakawaka
+
+*Compatibility Matrix:*
+
+========= === === ==== ====
+Py/Dj     3.8 3.9 3.10 3.11
+========= === === ==== ====
+3.2 (LTS)  ✓   ✓   ✓    ✓
+4.0        ✓   ✓   ✓    ✓
+4.1        ✓   ✓   ✓    ✓
+4.2 (LTS)  ✓   ✓   ✓    ✓
+========= === === ==== ====
+
+===============
+django-wakawaka
+===============
+
+django-wakawaka is a super simple wiki system written in Python using the
+Django framework.
+
+* Links between Wiki pages are automatically resolved by their CamelCase naming
+  scheme.
+
+* It automatically keeps track of revision changes of a Page, while
+  providing the ability to revert to earlier states.
+
+* It also has a quite comprehensive permission integration, taking care of
+  Django's default create/edit/delete permissions.
+
+* Wakawaka is an application and indented to be placed in an existing project.
+
+Some screenshots from the *Example Project*:
+
+* `WikiIndex Page`_
+* `Revision List`_
+* `Page History`_
+* `Page List`_
+
+.. _WikiIndex Page: https://github.com/bartTC/django-wakawaka/raw/master/docs/_static/overview.png
+.. _Revision List: https://github.com/bartTC/django-wakawaka/raw/master/docs/_static/revisions.png
+.. _Page History: https://github.com/bartTC/django-wakawaka/raw/master/docs/_static/history.png
+.. _Page List: https://github.com/bartTC/django-wakawaka/raw/master/docs/_static/pagelist.png
+
+
+Installation:
+=============
+
+1. Put ``wakawaka`` to your INSTALLED_APPS in your settings.py within your
+   django project.
+2. Add ``(r'^wiki/', include('wakawaka.urls')),`` to your urls.py.
+
+That's all. Wakawaka has no other dependencies than Django 1.11 or later.
+
+
+Configuration:
+==============
+
+Wakawaka takes care of Django's permission system. Grant your users always a
+pair of ``wikipage`` and ``revision`` permissions either what they should do.
+(Adding, changing or deleting WikiPages)
+
+Optional Settings:
+------------------
+
+The name of your first wiki page is defined as ``WikiIndex``. You can change
+this by adding a setting ``WAKAWAKA_DEFAULT_INDEX`` to your settings.py.
+Example::
+
+    WAKAWAKA_DEFAULT_INDEX = 'Home'
+
+Words that are written in CamelCase (a pair of one upper letter followed by
+*n* lower letters) are automatically treated as internal wiki links. You can
+change this behaviour by adding a setting ``WAKAWAKA_SLUG_REGEX`` to your
+settings.py. This holds a regular expression of the wiki name format. Default::
+
+    WAKAWAKA_SLUG_REGEX = r'((([A-Z]+[a-z]+){2,})(/([A-Z]+[a-z]+){2,})*)'
+
+
+Attachments:
+============
+
+Wakawaka does not provide the ability to store file attachments to wiki pages.
+To do so, have a look on the side project `django-attachments`_ which provides
+a unobstrusive way to add attachments to models.
+
+
+Testing and Development:
+========================
+
+The project comes with a test library which can be simply invoked by Tox,
+which tests the project under all current Python and Django versions::
+
+    $ pip install tox
+    $ tox
+
+To run the testsuite manually in your development environment, install the
+project using pipenv_::
+
+    $ pipenv install
+    $ pipenv run tests
+
+
+Example Project:
+================
+
+The application comes with a sample project. This gives you a brief overview
+about the Wiki features, and can help you with the integration of the
+application into an existing project. It's alo used for the test suite::
+
+    $ pipenv install
+    $ pipenv run ./manage.py migrate
+    $ pipenv run ./manage.py createsuperuser
+    $ pipenv run ./manage.py runserver
+
+.. _django-attachments: https://github.com/bartTC/django-attachments
+.. _pipenv: https://pipenv.readthedocs.io/
+
+==========
+Changelog:
+==========
+
+v1.3 (2022-04-30):
+
+- Added support for Django 3.2 to 4.2.
+- Added support for Python 3.8 to 3.11.
+
+v1.2 (2020-01-08):
+
+- Dropped support for Python 2.7.
+- Added support for Python 3.8.
+- Added support for Django 2.2 and 3.0.
+
+v1.1 (2019-01-21):
+
+- Django 2.1 compatibility and and further cleanup.
+- Dropped support for Django <v1.11.
+- Dropped "authenticated" url patterns which were not functional since a while.
+
+v1.0 (2016-11-26):
+
+- Django 1.10 compatibility and total cleanup.
+- Full Python 3 compatibility.
+- Removed Pinax Group support.
+- Tests.
+
+v0.3: (2009-08-06):
+
+- If a wikipage was not found, the view now raises a proper Http404 instead of
+  a (silent) HttpResponseNotFound. This gives you the ability to display a
+  proper 404 page.
+- All templates are now translatable using gettext.
+
+v0.2 (2009-07-22):
+
+- Edit-forms are now replaceable
