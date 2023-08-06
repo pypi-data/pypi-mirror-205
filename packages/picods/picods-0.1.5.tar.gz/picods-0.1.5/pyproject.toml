@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "picods"
+version = "0.1.5"
+description = "Pico Data Science: A small, personal use case, Data Science library."
+authors = ["Pablo <pablohuggem@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "picods"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.5.3"
+matplotlib = "^3.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
