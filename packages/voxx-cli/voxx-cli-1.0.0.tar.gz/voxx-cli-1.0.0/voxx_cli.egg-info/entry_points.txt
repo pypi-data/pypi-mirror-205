@@ -1,0 +1,2 @@
+[console_scripts]
+voxx-cli = voxx.__main__:main
