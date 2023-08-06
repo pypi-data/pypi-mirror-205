@@ -1,0 +1,8 @@
+pyproject.toml
+setup.py
+chemistry_converter.egg-info/PKG-INFO
+chemistry_converter.egg-info/SOURCES.txt
+chemistry_converter.egg-info/dependency_links.txt
+chemistry_converter.egg-info/entry_points.txt
+chemistry_converter.egg-info/requires.txt
+chemistry_converter.egg-info/top_level.txt

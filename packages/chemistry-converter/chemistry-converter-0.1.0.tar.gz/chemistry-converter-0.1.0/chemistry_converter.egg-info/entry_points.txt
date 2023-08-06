@@ -1,0 +1,2 @@
+[console_scripts]
+grams_to_moles = chemistry_converter.converter:main
