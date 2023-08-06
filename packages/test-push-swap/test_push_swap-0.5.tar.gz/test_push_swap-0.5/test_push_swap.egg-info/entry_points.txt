@@ -1,0 +1,3 @@
+[console_scripts]
+test_push_swap = test_push_swap.post_install:main
+
