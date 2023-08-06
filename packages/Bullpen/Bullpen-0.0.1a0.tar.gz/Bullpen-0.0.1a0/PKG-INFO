@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: Bullpen
+Version: 0.0.1a0
+Summary: A workflow management suite for arbitrary actions
+Home-page: https://github.com/ty-porter/Bullpen
+Author: Tyler Porter
+Author-email: tyler.b.porter@gmail.com
+License: MIT
+Description: # `Bullpen`
+        
+        `Bullpen` is a Python package for managing workflows and is designed to be as lightweight as possible.
+        
+        ## Installation
+        
+        `Bullpen` is in the [Python Package Index (PyPI)](http://pypi.python.org/pypi/Bullpen/).
+        Installing with ``pip`` is recommended for all systems.
+        
+        ```sh
+        pip install Bullpen
+        ```
+        
+        ## Contact
+        
+        Tyler Porter
+        
+        tyler.b.porter@gmail.com
+Keywords: LED matrix,matrix,raspberry pi,raspberry,RPI,LED
+Platform: ANY
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Other Audience
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Natural Language :: English
+Classifier: Topic :: Other/Nonlisted Topic
+Description-Content-Type: text/markdown
