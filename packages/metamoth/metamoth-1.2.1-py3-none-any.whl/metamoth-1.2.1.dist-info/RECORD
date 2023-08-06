@@ -1,0 +1,17 @@
+metamoth/__init__.py,sha256=uSZfIPOIPvy7uUCjJHRlZgCWcB9pXiNHXlITemZL_4A,452
+metamoth/artist.py,sha256=QE_v_s6JnkUERt9tO6YIURaPXBiRFXtK8TprOI5XBWk,2019
+metamoth/audio.py,sha256=VLVuNC7xSmHtuVxqWkK-SK-7elVpSMrhc69v2gja-E4,1116
+metamoth/chunks.py,sha256=fDK_1bEKykdjHpV9LyQa2PPeqb70OBiVuFhTRnL8H6o,2929
+metamoth/comments.py,sha256=3gE4KT3bjHyFnzX3CjE5qtS3nhMKBn0mADMjLT8wE6I,1741
+metamoth/config.py,sha256=_fLtfYiQJbGSjr64O5vP42PK7MbdxsdyWC0IJvk5I4w,13698
+metamoth/enums.py,sha256=l2F02mVXcDOsYZVkeg83DcqFADM4tskPv9c3VU136qA,2558
+metamoth/mediainfo.py,sha256=U2lkBcaPCTsPH5jFKiwI1xwKBCE3f3l07zzZoxkDQxo,1973
+metamoth/metadata.py,sha256=FqgH6fz1XANvMWRvAKuD8tDlENAlRm7XoD3gGa-yDOE,6919
+metamoth/metamoth.py,sha256=2wsDBiHJawJzK4ipTquDukRxHWqMISBrullOlpg6grg,1086
+metamoth/parsing.py,sha256=ARATwX_lVZinzrRJ08BmhlTB4TEXdmyvBQaT-SAMzco,25607
+metamoth/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metamoth-1.2.1.dist-info/METADATA,sha256=ZDjwVZF9_ToluT9f8tYdUVQ13PPAo0LEoh7aMdsgy9M,14681
+metamoth-1.2.1.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+metamoth-1.2.1.dist-info/licenses/AUTHORS.rst,sha256=xf9JEx8b5VHaw0zVeoXdMF1PHM7sW6aG9SY12cpI8Bw,184
+metamoth-1.2.1.dist-info/licenses/LICENSE,sha256=f16-KT-fJ36ipAPDUYW1mzn2-gmqua-pHkwDBRpCL60,1086
+metamoth-1.2.1.dist-info/RECORD,,
