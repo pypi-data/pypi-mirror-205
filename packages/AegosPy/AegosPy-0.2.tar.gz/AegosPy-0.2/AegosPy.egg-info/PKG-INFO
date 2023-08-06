@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: AegosPy
+Version: 0.2
+Summary: Aegos Programming
+Author: Aegos
+Author-email: syakkml@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
