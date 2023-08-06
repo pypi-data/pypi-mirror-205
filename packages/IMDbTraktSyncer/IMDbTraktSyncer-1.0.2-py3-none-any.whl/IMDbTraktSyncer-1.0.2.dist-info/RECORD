@@ -1,0 +1,13 @@
+IMDbTraktSyncer/IMDbTraktSyncer.py,sha256=pouzx-WYkIyY6PQl0xY1J6O-sIK5IyrTxGjqlFThNIs,6373
+IMDbTraktSyncer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+IMDbTraktSyncer/authTrakt.py,sha256=0ndLBCeU4MUOgWFhpN95Wts2ZWfBak4zFOL2aJoTOuQ,2280
+IMDbTraktSyncer/checkChromedriver.py,sha256=avoHoGZNh8fTUqULOcegtQ2jK-eEBrNhrPMG0MY8u74,642
+IMDbTraktSyncer/imdbRatings.py,sha256=K7hnJhTNrcS6AlncHfL7LwzoO7O2mHC4KZ-IB3CntMs,3697
+IMDbTraktSyncer/traktRatings.py,sha256=vr_X95XfBbhcf8BNXzZ0QxHIZsTLvK3Khf8xQLa-H1E,1802
+IMDbTraktSyncer/verifyCredentials.py,sha256=QxoLc4sM_qiY4h3p5l2MxzINUhtlhY73zvWjS4PtIXA,1782
+IMDbTraktSyncer-1.0.2.dist-info/LICENSE,sha256=TurJ7nbwuV-NDrWqjQDTEigJ6FuSm9swkpneNm3W6cA,1079
+IMDbTraktSyncer-1.0.2.dist-info/METADATA,sha256=9o4EpCODa4t0QQ4oKlmtEQlDdEYXZsbaP06H1ALRBtM,4898
+IMDbTraktSyncer-1.0.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+IMDbTraktSyncer-1.0.2.dist-info/entry_points.txt,sha256=M5WXfP56ZKIkDM9LsDuTkayAsa7KQUWhKM-bcH_ccXg,73
+IMDbTraktSyncer-1.0.2.dist-info/top_level.txt,sha256=pSNINUyoaBMV57D8FNTkigXqDqYl_4TVuudO_LymCe8,16
+IMDbTraktSyncer-1.0.2.dist-info/RECORD,,
