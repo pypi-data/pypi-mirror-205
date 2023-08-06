@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pydefillama
+Version: 1.0.2
+Summary: Python Wrapper for DefiLlama endpoints
+Home-page: https://github.com/Artemis-xyz/DefiLlama-Python-Client
+Author: Artemis.xyz
+Author-email: team@artemis.xyz
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: wheel
+Requires-Dist: requests
+
+# pyllama: a DefiLlama Python client
