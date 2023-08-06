@@ -1,0 +1,173 @@
+# -----------------------------------------------------------
+# Copyright (c) 2023 Lauris BH
+# SPDX-License-Identifier: MIT
+# -----------------------------------------------------------
+
+import click
+import dataclasses
+import json
+import logging
+
+from karcher.exception import KarcherHomeException
+from karcher.karcher import KarcherHome
+from karcher.consts import Region
+
+try:
+    from rich import print as echo
+except ImportError:
+    echo = click.echo
+
+
+class EnhancedJSONEncoder(json.JSONEncoder):
+    def default(self, o):
+        if dataclasses.is_dataclass(o):
+            return dataclasses.asdict(o)
+        return super().default(o)
+
+
+class GlobalContextObject:
+    def __init__(self,
+                 debug: int = 0,
+                 output: str = 'json',
+                 region: Region = Region.EU
+                 ):
+        self.debug = debug
+        self.output = output
+        self.region = region
+
+    def print(self, result):
+        data_variable = getattr(result, 'data', None)
+        if data_variable is not None:
+            result = data_variable
+        if self.output == 'json_pretty':
+            echo(json.dumps(result, cls=EnhancedJSONEncoder, indent=4))
+        else:
+            echo(json.dumps(result, cls=EnhancedJSONEncoder))
+
+
+@click.group()
+@click.option('-d', '--debug', is_flag=True, help='Enable debug mode.')
+@click.option(
+    '-o',
+    '--output',
+    type=click.Choice(['json', 'json_pretty']),
+    default='json',
+    help='Output format. Default: "json"')
+@click.option(
+    '-r',
+    '--region',
+    type=click.Choice([Region.EU, Region.US, Region.CN]),
+    default=Region.EU,
+    help='Region of the server to query. Default: "eu"')
+@click.pass_context
+def cli(ctx: click.Context, debug: int, output: str, region: Region):
+    """Tool for connectiong and getting information from Kärcher Home Robots."""
+    level = logging.INFO
+    if debug > 0:
+        level = logging.DEBUG
+
+    logging.basicConfig(level=level)
+
+    ctx.obj = GlobalContextObject(debug=debug, output=output, region=region)
+
+
+def safe_cli():
+    try:
+        cli()
+    except KarcherHomeException as ex:
+        echo(json.dumps({
+            'code': ex.code,
+            'message': ex.message
+        }))
+        return
+
+
+@cli.command()
+@click.pass_context
+def urls(ctx: click.Context):
+    """Get region information."""
+
+    kh = KarcherHome(region=ctx.obj.region)
+    d = kh.get_urls()
+
+    ctx.obj.print(d)
+
+
+@cli.command()
+@click.option('--username', '-u', help='Username to login with.')
+@click.option('--password', '-p', help='Password to login with.')
+@click.pass_context
+def login(ctx: click.Context, username: str, password: str):
+    """Get user session tokens."""
+
+    kh = KarcherHome(region=ctx.obj.region)
+    ctx.obj.print(kh.login(username, password))
+
+
+@cli.command()
+@click.option('--username', '-u', default=None, help='Username to login with.')
+@click.option('--password', '-p', default=None, help='Password to login with.')
+@click.option('--auth-token', '-t', default=None, help='Authorization token.')
+@click.pass_context
+def devices(ctx: click.Context, username: str, password: str, token: str):
+    """List all devices."""
+
+    kh = KarcherHome(region=ctx.obj.region)
+    if token is not None:
+        kh.login_token(token, '')
+    elif username is not None and password is not None:
+        kh.login(username, password)
+    else:
+        raise click.BadParameter(
+            'Must provide either token or username and password.')
+
+    devices = kh.get_devices()
+
+    # Logout if we used a username and password
+    if token is None:
+        kh.logout()
+
+    ctx.obj.print(devices)
+
+
+@cli.command()
+@click.option('--username', '-u', default=None, help='Username to login with.')
+@click.option('--password', '-p', default=None, help='Password to login with.')
+@click.option('--auth-token', '-t', default=None, help='Authorization token.')
+@click.option('--mqtt-token', '-m', default=None, help='MQTT authorization token.')
+@click.option('--device-id', '-d', required=True, help='Device ID.')
+@click.pass_context
+def device_properties(
+    ctx: click.Context,
+    username: str,
+    password: str,
+    auth_token: str,
+    mqtt_token: str,
+    device_id: str):
+    """Get device properties."""
+
+    kh = KarcherHome(region=ctx.obj.region)
+    if auth_token is not None:
+        kh.login_token(auth_token, mqtt_token)
+    elif username is not None and password is not None:
+        kh.login(username, password)
+    else:
+        raise click.BadParameter(
+            'Must provide either token or username and password.')
+
+    dev = None
+    for device in kh.get_devices():
+        if device.device_id == device_id:
+            dev = device
+            break
+
+    if dev is None:
+        raise click.BadParameter('Device ID not found.')
+
+    props = kh.get_device_properties(dev)
+
+    # Logout if we used a username and password
+    if auth_token is None:
+        kh.logout()
+
+    ctx.obj.print(props)
