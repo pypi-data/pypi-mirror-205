@@ -1,0 +1,11 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.cfg
+src/CobWeb/__init__.py
+src/CobWeb/crawler.py
+src/CobWeb_lnx.egg-info/PKG-INFO
+src/CobWeb_lnx.egg-info/SOURCES.txt
+src/CobWeb_lnx.egg-info/dependency_links.txt
+src/CobWeb_lnx.egg-info/requires.txt
+src/CobWeb_lnx.egg-info/top_level.txt
