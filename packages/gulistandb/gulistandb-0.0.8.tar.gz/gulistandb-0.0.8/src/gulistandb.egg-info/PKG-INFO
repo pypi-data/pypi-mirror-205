@@ -1,0 +1,176 @@
+Metadata-Version: 2.1
+Name: gulistandb
+Version: 0.0.8
+Summary: This is a user-friendly local database package designed for beginners. You don't need to know any query language - simply import the package and use its methods according to the documentation. The data will be automatically saved in a CSV file in a 'data' folder within your current working directory. This package is perfect for small-scale projects or for those who are just getting started with beginner python project
+Home-page: https://github.com/AzazAhmedLipu79/GuliStan_DB
+Author: Azaz Ahmed Lipu
+Author-email: lipuahmedazaz79@gmail.com
+License: MIT
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: License
+
+## Welcome To GulistanDB 👋
+
+GulistanDB is a simple Python-based local database for small-scale projects. With GulistanDB, users can create, drop, and rename tables, insert records, and read data without needing knowledge of SQL. The package automatically creates a 'data' folder within the current working directory to store the CSV files. Created with beginners in mind, GulistanDB is easy to use and perfect for those who want to manage their data without dealing with complex databases.
+
+Gulistandb is a Python package that simplifies file interaction for small-scale projects where using SQL or NoSQL databases is too time-consuming. It allows users to create, read, insert, and delete data in CSV or JSON files, which are stored in a Data folder in the current working directory. Gulistandb is not a database, but it tries to behave like one.
+
+This Python library that lets you create local databases using CSV or JSON files. It is designed for small-scale projects that do not require complex queries or operations. You can use it to store any kind of data, such as user information, product details, inventory records, etc. GulistanDB is also ideal for beginners who want to learn how to work with data in Python without having to install or configure anything. All you need is to import the Table class from gulistandb and start creating your tables. GulistanDB will automatically create a ‘data’ folder in your current working directory and save your data there. You can then perform basic operations such as inserting, reading, deleting, and renaming your tables. GulistanDB is not a full-fledged database, but it tries to behave like one. It is a simple and convenient solution for your data needs.
+
+It is a simple Python-based local database for small-scale projects. With GulistanDB, users can create, drop, and rename tables, insert records, and read data without needing knowledge of SQL. The package automatically creates a 'data' folder within the current working directory to store the CSV files. Created with beginners in mind, GulistanDB is easy to use and perfect for those who want to manage their data without dealing with complex databases.
+
+GulistanDB can be used for:
+
+- Developing and testing applications that require a local database without installing SQL Server or other complex databases
+- Storing and managing data for small-scale projects that do not need high performance or scalability
+- Learning and experimenting with database concepts and operations using CSV or JSON files
+- Creating and manipulating data tables with simple Python commands and syntax
+- Migrating data from CSV or JSON files to Azure SQL Database or other cloud databases easily
+- Storing and retrieving configuration settings for your application
+- Saving and loading user preferences and profiles
+- Logging and analyzing data from sensors or devices
+- Creating and updating inventory lists or product catalogs
+- Generating and exporting reports or charts
+
+- Data analysis and visualization
+- Web scraping and crawling
+- Machine learning and AI
+- Testing and debugging
+
+Are you looking for a simple and fast way to store and manage your data in Python? Do you want to avoid the hassle of setting up and learning SQL or other databases? If so, you might be interested in GulistanDB, a Python package that lets you create local databases using CSV or JSON files. GulistanDB is designed for small-scale projects that do not require complex queries or operations. You can use it to store any kind of data, such as user information, product details, inventory records, etc. GulistanDB is also ideal for beginners who want to learn how to work with data in Python without having to install or configure anything. All you need is to import the Table class from gulistandb and start creating your tables. GulistanDB will automatically create a 'data' folder in your current working directory and save your data there. You can then perform basic operations such as inserting, reading, deleting, and renaming your tables. GulistanDB is not a full-fledged database, but it tries to behave like one. It is a simple and convenient solution for your data needs. To learn more about GulistanDB and how to use it, please visit azazahmedlipu79.github.io/gulistanDB/.
+
+## How to INSTALL
+
+Install GulistanDB
+
+```python
+  pip install gulistandb
+```
+
+## Usage/Examples
+
+```python
+from gulistandb import Table
+
+
+Book_Library = Table('Book_Library_NY', 'BookName','ISBN','BookPAGES', fileType='json')
+
+
+
+```
+
+| Method | Example                                      | Description                                                 |
+| ------ | -------------------------------------------- | ----------------------------------------------------------- |
+| rename | xyzDB.rename(NewfileName, fileType=Optional) | Rename the table to a new name and/or a new file type       |
+| drop   | xyzDB.drop()                                 | Deletes the file containing the table data, if it exists    |
+| read   | xyzDB.read(OutputFormat:optional='dict')     | Read the table data from the file and return it as a string |
+| get    | xyzDB.get()                                  | Same As Read But Slow and Manual Process                    |
+| insert | xyzDB.insert(datas)                          | Inserts new data into the table file                        |
+| clear  | xyzDB.clear()                                | To clear table file's Data                                  |
+| UPDATE | \_\_\_                                       | Coming Soon                                                 |
+| DELETE | \_\_\_                                       | Coming Soon                                                 |
+
+## Methodopedia
+
+### Create Table:
+
+###### To Create A Table
+
+```python
+# Table(<Table Name>, <*columns>, <**fileType: optional>)
+  BOOK_LIB = Table('MyBookDB','ID','Name','Pages' fileType='json')
+```
+
+1. The Table() class takes a table name, column names, and an optional fileType as arguments.
+2. When called, it creates a new table with the provided name and columns (in the order they were provided), and saves it in JSON or CSV format, depending on the file type specified. If no file type is specified, the default format is CSV.
+3. The table is saved in a 'Data' folder in the current directory.
+
+### Rename:
+
+###### To Rename The Table
+
+```python
+# BOOK_LIB.rename(newName: str, **fileType: optional)
+  BOOK_LIB.rename('OurBookDB')
+```
+
+1. The rename() method of a Table object takes a new name as an argument to rename the table.
+2. If the optional argument fileType is provided, it will also change the format of the table file to the new type. If no file type is provided, the table will be renamed with its current file type.
+3. Note: that this method will delete the previous file and create a new file with the new name and format(if provided), so be sure to use it carefully.
+
+### Drop:
+
+###### To Delete The Table File
+
+```python
+BOOK_LIB.drop()
+```
+
+1. The drop() method of a Table object deletes the file containing the table's data. Use this method with caution, as it will permanently delete the table file and all its contents, with no option for recovery.
+
+### Read
+
+```python
+# BOOK_LIB.read(Oformat:optional='dict')
+
+BOOK_LIB.read(Oformat='dict')
+
+```
+
+1. The read() method is called on a Table object to return the table's data in either dictionary or Pandas DataFrame format.
+2. By default, the method returns the data in the table's file type format, but you can optionally specify a different output format using the Oformat argument (e.g. Oformat='dict').
+3. Note that because this method uses Pandas, it is a very fast way to overview the data
+
+### Get
+
+```python
+BOOK_LIB.get()
+```
+
+1.The get() method of a Table object returns all the data in the table. Note that this is a manual process, so it may be slow for large tables.
+
+### Clear
+
+```python
+BOOK_LIB.clear()
+```
+
+1. The clear() method is called on a Table object to erase all data in its file and reset the file name to its default.
+2. You can also provide the optional argument ClrTable=True to clear the table name as well, which may be necessary in some exceptional cases.
+
+### Insert:
+
+###### To Insert Data
+
+```python
+#For Insert In Json File
+BOOK_LIB.insert({'ID': '101', 'Name': 'Atomic Habits', 'Pages': '327'})
+#For Insert In Csv File
+BOOK_LIB.insert('ID': '101', 'Name': 'Atomic Habits', 'Pages': '327')
+```
+
+1. The insert() method is called on a Table object to add a single record (row) to the file.
+2. The format of the record must be in the appropriate format for the table's file type (e.g. JSON or CSV), and the length of the data being inserted must match the number of columns in the table and be in the correct order.
+3. For JSON files, pass a dictionary to the method containing key-value pairs representing the column names and data for the new record.
+4. For CSV files, pass a string with the column data separated by commas in the same order as the table's columns.
+
+#### UPDATE
+
+Coming Soon...
+
+#### DELETE RECORD
+
+Coming Soon...
+
+## License
+
+[MIT](/License)
+
+## Screenshots
+
+![App Screenshot](https://i.ibb.co/n7mPbNh/gdb.png)
+
+## Support
+
+For support, email lipuahmedazaz79@gmail.com.
