@@ -1,0 +1,12 @@
+oso_sdk/__init__.py,sha256=rhTCT1rgyikGRJ9K8NaVH0-3HdG-X9NQsvz7R7AZMNE,3067
+oso_sdk/constants.py,sha256=fsRcS5rqTyudKZJ6RNy5GqXb-0jqbIQfWpq8zEKNgg4,83
+oso_sdk/exceptions.py,sha256=P1Ra_Pu3-uvkn3JMTGqMeKlSL3oT7OEVXDEiEuGMHfE,47
+oso_sdk/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oso_sdk/integrations/__init__.py,sha256=Zu7pix3Fct0mjMRQpoQt1a7jhSiJ9T1rQZzFAicYwd4,3400
+oso_sdk/integrations/fastapi.py,sha256=41BQD5Oo69PBwnYd5HFM0lJ20QvfUcesFSilM_0kDVs,4234
+oso_sdk/integrations/flask.py,sha256=sigoETJZv5Jm87JxXyO2XDSrnyZmOo6kkzYGZe_3h-Q,3975
+oso_sdk/integrations/utils.py,sha256=MYzEgriekIbn6UP2nSA2MWH0ULTytjyxTmaDBNf_aLw,1710
+oso_sdk-0.3.1.dist-info/METADATA,sha256=q9NQDZKWXA1WISmi8_MFQQZxXSxbJrXWoTt0n_hgQQ0,4142
+oso_sdk-0.3.1.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+oso_sdk-0.3.1.dist-info/licenses/LICENSE,sha256=5pQP9Q-QMQj7Qw8DMqC1zGLmirRp2VJUl1eZ92365dQ,11348
+oso_sdk-0.3.1.dist-info/RECORD,,
