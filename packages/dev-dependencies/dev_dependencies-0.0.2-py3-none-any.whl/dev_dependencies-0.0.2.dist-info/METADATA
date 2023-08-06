@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: dev-dependencies
+Version: 0.0.2
+Summary: An opinionated library of dev-time dependencies
+Author: Justin Mills
+License: MIT
+Keywords: library,dependencies
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pydantic
+Requires-Dist: black
+Requires-Dist: flake8
+Requires-Dist: flake8-black
+Requires-Dist: ruff
+Requires-Dist: mypy
+Requires-Dist: pytest
+Requires-Dist: pytest-mock
+Requires-Dist: hypothesis
+Requires-Dist: pytest-cov
+Requires-Dist: pytest-xdist
+Requires-Dist: pytest-md
+Requires-Dist: pytest-emoji
+
+# Dev Dependencies
+
+Opinionated development dependencies for python projects.
+
+Install this as your only dev dependency to pick up a bunch of common dev-time libraries you may need for things like linting, type checking and tests.
+
+## Installation
+
+    # Using pipenv:
+    pipenv install -d dev-dependencies
+
+## What you get
+
+* Linting
+
+      ruff check .
+      black --check .
+      # There is also flake8, but ruff is just nicer
+      flake8
+
+* Type checking
+
+      mypy devdeps tests
+
+* Tests
+
+      pytest
+
+## Building a package to release
+
+    # Build a distribution (for releases, do this on main with a fresh tag)
+    python -m build
+
+    # To release that package
+    twine upload dist/dev-dependencies-*.tar.gz dist/dev_dependencies-*-py3-none-any.whl
+
+    # To see what the current version will be
+    python -m setuptools_scm
+
+
