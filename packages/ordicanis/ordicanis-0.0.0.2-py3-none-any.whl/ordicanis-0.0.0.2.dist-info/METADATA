@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ordicanis
+Version: 0.0.0.2
+Summary: 💎👨‍💻"ordicanis" is a Python package that automatically imports missing modules on-the-fly, saving time and effort during coding 🛠️⌛
+Home-page: https://github.com/yourusername/ordicanis
+Author: Juste Elysée MALNADILA
+Author-email: malandilajusteelysee@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+
