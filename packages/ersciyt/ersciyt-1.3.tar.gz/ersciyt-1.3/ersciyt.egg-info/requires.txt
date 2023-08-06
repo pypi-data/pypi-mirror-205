@@ -1,0 +1,4 @@
+django
+yt-dlp
+pytube3
+youtube-transcript-api
