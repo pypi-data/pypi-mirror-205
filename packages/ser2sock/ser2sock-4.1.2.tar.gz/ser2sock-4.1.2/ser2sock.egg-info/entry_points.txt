@@ -1,0 +1,3 @@
+[console_scripts]
+ser2sock = ser2sock.server:main
+

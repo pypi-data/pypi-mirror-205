@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+ser2sock/__init__.py
+ser2sock/bridge.py
+ser2sock/comm.py
+ser2sock/config.py
+ser2sock/index.tpl
+ser2sock/server.py
+ser2sock/web.py
+ser2sock.egg-info/PKG-INFO
+ser2sock.egg-info/SOURCES.txt
+ser2sock.egg-info/dependency_links.txt
+ser2sock.egg-info/entry_points.txt
+ser2sock.egg-info/requires.txt
+ser2sock.egg-info/top_level.txt
+ser2sock.egg-info/zip-safe
