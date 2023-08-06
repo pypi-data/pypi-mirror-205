@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: dhuolib
+Version: 0.1.0
+Home-page: https://gitlab.engdb.com.br/dhuo-plat/dhuo-data/data-science/dhuolib
+Author: Antonio Carlos de Lima Junior
+Author-email: antonio.lima@engdb.com.br
+License: MIT
+Keywords: datascience datapipeline mlops
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: Natural Language :: English
+Description-Content-Type: text/markdown
+
+# dhuolib
+
+![Version](https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000)
+[![License: MIT](https://img.shields.io/badge/License-MIT-grenn.svg)](#)
+
+> Library for data science on DHuO Data 
+
+### 🏠 [Homepage](https://gitlab.engdb.com.br/dhuo-plat/dhuo-data/data-science/dhuolib)
+
+## Install
+
+
+`dhuolib` supports Python 3.8 and higher.
+
+### System-wide or user-wide installation with pipx
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install `dhuolib`.
+
+```sh
+$ pip install dhuolib
+```
+
+## Usage
+
+Login at DHuO Platform
+```sh
+$ dh login
+```
+
+Create Project
+```sh
+$ dh create [project_name]
+```
+
+List Projects
+```sh
+$ dh list 
+```
+
+Status of current project
+```sh
+$ dh status
+```
+
+Clone project
+```sh
+$ dh get [project_id]
+```
