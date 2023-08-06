@@ -1,0 +1,147 @@
+Metadata-Version: 2.1
+Name: via-hub-logistc
+Version: 1.0.15
+Summary: This project is intended to be a facilitator for new developments for test automation
+Author: Jaderson Macedo
+Author-email: jaderson.macedo@viavarejo.com.br
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+# Biblioteca customizada para testes automatizados com robotframework
+
+A finalidade deste documento é a de passar informações das funções e keywords que estão sendo entregues.
+
+## 🔧 Instalação
+	$ pip install via-hub-logistic
+
+## 🚀 Keywords:
+**Microsoft Azure**
+  ```robotframework
+    *** Settings ***
+    $  Library    via_hub_logistc.keywords.kws_microsoft.ViaAzure
+  ```
+  - *Azure Connect Blob Server*<br>
+    *Create connect with microsoft blob server*
+    
+    >&nbsp;*Parameters:*<br>
+    >&ensp;**host: str**<br>
+    >&emsp;A url used for connect blob server<br>
+    >&ensp;**account_name: str**<br>
+    >&emsp;A username for connect account server<br>
+    >&ensp;**account_key: str** <br>
+    >&emsp;A access token the account<br>
+      
+    >&nbsp;*Returns:*<br>
+    >&ensp;*blob connect server or none for a search with no result*<br>
+ 
+  - *Azure List All Directories In Container*<br>
+    *A list all directories in container*
+    
+    >&nbsp;*Parameters:*<br>
+    >&ensp;**connection: blob connect server**<br>
+    >&emsp;A connect blob server<br>
+    >&ensp;**container_name: str**<br>
+    >&emsp;A name the of container in blob server<br>
+    >&ensp;**folder: str** <br>
+    >&emsp;A name the of folder for list as container<br>
+    >&ensp;**format: bolean, optional** <br>
+    >&emsp;Default false for return o path name the folder, true for return o full path name with folder <br>      
+
+    >&nbsp;*Returns:*<br>
+    >&ensp;*List json with all directories in a container or none for a search with no result*<br>
+
+  - Azure Is Exist Directory In Container
+    *Is check if directory exist in container*
+    
+    >&nbsp;*Parameters:*<br>
+    >&ensp;**connection: blob connect server**<br>
+    >&emsp;A connect blob server<br>
+    >&ensp;**container_name: str**<br>
+    >&emsp;A name the of container in blob server<br>
+    >&ensp;**folder: str** <br>
+    >&emsp;A name the of folder for list as container<br>
+    >&ensp;**directory: str** <br>
+    >&emsp;Default false for return o path name the folder, true for return o full path name with folder <br>      
+
+    >&nbsp;*Returns:*<br>
+    >&ensp;*True if the folder exists in the container or False if the folder not exist in container*<br>
+
+**Ibm Db2**
+
+  ```robotframework
+    *** Settings***
+    $  Library    via_hub_logistc.keywords.kws_db2.ViaDb2
+  ```
+  - Db2 Connect To Dataase
+    *Create connect with BD2*
+    
+    >&nbsp;*Parameters:*<br>
+    >&ensp;**host: str**<br>
+    >&emsp;A url used for connect db2 database<br>
+    >&ensp;**db_name: str**<br>
+    >&emsp;A name the of database<br>
+    >&ensp;**user_id: str** <br>
+    >&emsp;A name the of connect db2<br>
+    >&ensp;**password: str** <br>
+    >&emsp;A password the of connect db2<br>      
+
+    >&nbsp;*Returns:*<br>
+    >&ensp;*Db2 connect server or none for a search with no result*<br>
+
+
+  - Db2 Execute Qury
+    *Execute query in BD2*
+    
+    >&nbsp;*Parameters:*<br>
+    >&ensp;**connection: Db2 connect server**<br>
+    >&emsp;A connect db2 server<br>
+    >&ensp;**query: str**<br>
+    >&emsp;Query which will be used in the search<br>
+
+    >&nbsp;*Returns:*<br>
+    >&ensp;*List json or  none for a search with no result*<br>
+
+**Mongodb**
+
+  ```robotframework
+    *** Settings***
+    $  Library    via_hub_logistc.keywords.kws_mongodb.ViaMongo
+  ```
+  - Mongo Connect To Database
+	  > Return conncection with mongoDB<br>
+    > Params:<br>
+    > - **strConnction**:  string connection :: *str*<br>
+
+  - Mongo Disconnect To Database
+	  > Execute a disconnection with the server <br>
+    > Params:<br>
+    > - **client**: connection :: *Connection*<br>
+
+  - Mongo Find All
+	  > Returns one json or list the json result <br>
+    > Params:<br>
+    > - **client**: connection :: *Connection*<br>
+    > - **baseName**: name the database :: *str*<br>
+    > - **collectionName**: name the collection:: *str*<br>
+
+  - Mongo Find By Parameter
+	  > Returns one json or list the json result by parameter <br>
+    > Params:<br>
+    > - **client**: connection :: *Connection*<br>
+    > - **baseName**: name the database :: *str*<br>
+    > - **collectionName**: name the collection:: *str*<br>
+    > - **query**: Query which will be used in the search:: *dict*<br>
+
+**Mongodb**
+
+  ```robotframework
+    *** Settings***
+    $  Library    via_hub_logistc.keywords.kws_text.ViaText
+  ```
+  - Split Text
+	  > Return text divide<br>
+    > Params:<br>
+    > - **text**:  text :: *str*<br>
+    > - **lengh**:  size limit caracteres :: *int*<br>
