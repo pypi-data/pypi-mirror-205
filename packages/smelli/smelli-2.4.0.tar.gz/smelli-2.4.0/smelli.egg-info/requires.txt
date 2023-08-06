@@ -1,0 +1,8 @@
+flavio>=2.5.4
+multipledispatch
+numpy>=1.16.5
+pandas
+wilson
+
+[testing]
+pytest
