@@ -1,0 +1,6 @@
+setup.py
+pipcoloringliberyV2/__init__.py
+pipcoloringliberyV2.egg-info/PKG-INFO
+pipcoloringliberyV2.egg-info/SOURCES.txt
+pipcoloringliberyV2.egg-info/dependency_links.txt
+pipcoloringliberyV2.egg-info/top_level.txt
