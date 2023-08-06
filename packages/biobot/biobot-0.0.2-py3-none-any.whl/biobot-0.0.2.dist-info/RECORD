@@ -1,0 +1,16 @@
+biobot/__init__.py,sha256=5nKLPBINijkHmH7dq1_jlJS4Ex4_3WQeP8LWa4CytTE,120
+biobot/_modidx.py,sha256=F9WLsxZU7BbVtvK0THVmz4kEre_Cqyzjxm1yTVM-reA,3998
+biobot/_nbdev.py,sha256=lxmYw_g_qiRHOLW8HHEQRY87L0UxPoVtG3Jix43QGJo,3126
+biobot/base.py,sha256=RLEUchXCgCcukrp5f5_MPwHjjb_PvAV-WNDAgNWkGHM,1451
+biobot/completion.py,sha256=4vHMdJqvnnJCD8DRhFMg9toyvlctrQvoMXvW6f0SZaM,5578
+biobot/constants.py,sha256=BhuTOnFbZFnIgf6eJB5l-2R4QWv2kBMgtm0vwThIY9E,2634
+biobot/discord.py,sha256=UM_ljOy5NKbDGlqpWgty6Yk0i6iT0jlqkoQzi7iC-D0,9352
+biobot/moderation.py,sha256=ukAnc0EXG_JWui9YsSevqKeDto_zzk4m-Iadf8x2_Mo,2676
+biobot/utils.py,sha256=kVium7mouj2Kt5b_E-8n5wzAvph36AHIeFfqeR3BzJI,2379
+biobot/whatsapp.py,sha256=n18LhrrhoyfYYPyB8dB1AKrn8AAjeO447_WtcHRTd7M,1158
+biobot/yowsup.py,sha256=r9_eE896_Kn6Cm6j99MGAB7nUH3MZ8wO75FtCv-X9Bs,3255
+biobot-0.0.2.dist-info/LICENSE,sha256=W58fa1KH6tKXDxjL5TKQ3lEgGRVAkcE5gt7NUODbmMs,1063
+biobot-0.0.2.dist-info/METADATA,sha256=kjdq774GLmn1oIhafBPeOmgmkJBx-693q5cisxrEG40,963
+biobot-0.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+biobot-0.0.2.dist-info/top_level.txt,sha256=8NVgSOQjwZX9ms1kjcsO52mZVGPAwmmf5cg9ywSSfJs,7
+biobot-0.0.2.dist-info/RECORD,,
