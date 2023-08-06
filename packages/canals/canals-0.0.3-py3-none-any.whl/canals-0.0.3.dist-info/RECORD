@@ -1,0 +1,10 @@
+canals/__about__.py,sha256=FIXUSBa-8xqohw6pJjWnzlbevt-Gby9N0mcvNCt3vKA,122
+canals/__init__.py,sha256=oRGTowpwvzAr74Uxc45VJSEWToRP-IYMo6sIL3wazHY,445
+canals/component.py,sha256=Pa-ex89pgKovw3VZY20BPQsFI6HV6SWeIJ_knw7-ZaE,8720
+canals/pipeline/__init__.py,sha256=s79HrnDQ1m9ARp53lHLTNooTVGSxtrk7xSYq6bUl-WU,288
+canals/pipeline/pipeline.py,sha256=mwPiJodBd5EWxju0squhxiR5BQwdHVpj2VmU3rLpVM0,30093
+canals/pipeline/save_load.py,sha256=MwM0r3UUCsxDreWSdiP0-RI58Mtr102wx8K6Rp0wb0Y,8753
+canals-0.0.3.dist-info/METADATA,sha256=oXmRB3q-5Kxn6_o_6lit12tUYazlqSRIydiPcQ9FqK4,3008
+canals-0.0.3.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+canals-0.0.3.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+canals-0.0.3.dist-info/RECORD,,
