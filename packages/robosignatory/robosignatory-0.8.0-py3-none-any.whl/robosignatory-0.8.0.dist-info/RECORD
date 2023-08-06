@@ -1,0 +1,15 @@
+robosignatory/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+robosignatory/atomic.py,sha256=Oi00biC5olshk9OfSCnIyhXAKc4AvlPbsczW-DWf8EA,1445
+robosignatory/cli.py,sha256=WVshbhqPr66QHmOMHefBTuPB7wYv8nC6ZTcNzv2-L8g,2371
+robosignatory/consumer.py,sha256=cS15koVHmbDlkR-LTUV7AJLvTMNw-cfhRe0ZvKH_K3E,2236
+robosignatory/coreos.py,sha256=gxVF0QWl7C8BA84HtRzHpFMAbeePyWEIRBxQBLyNdY8,6763
+robosignatory/tag.py,sha256=cLrX3yMjVytmTqMbsHwRRE9TTUquj5aRD00yuaCG0i8,12068
+robosignatory/utils.py,sha256=nhQdktD_QFkHGpSaRjejOcn82d_C4wPbbtVrgpPzFFQ,6064
+robosignatory/work.py,sha256=KlN50Svnwl-WsCmNFTfcwJuguG5qtAA_unFhH0jT0xY,2381
+robosignatory/xml.py,sha256=BmiPnUNo-9q2VtNcgJzA7d9PrR4wUYb2O2Vwns4ioOM,3448
+robosignatory-0.8.0.dist-info/LICENSE,sha256=Ix9-3Mc1LXc0qW7vC4Aw93mCZ4xRaHb8uB4lsy1oVkw,18002
+robosignatory-0.8.0.dist-info/METADATA,sha256=zME_PdNJgMUWL1hohaIEUetQ1v4k_TTBPsl-aCnpHSM,394
+robosignatory-0.8.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+robosignatory-0.8.0.dist-info/entry_points.txt,sha256=eYhpyUhoU1o1T6kfFV2Yoofnsb7xUrdb2uOx4iVjUuM,167
+robosignatory-0.8.0.dist-info/top_level.txt,sha256=bDipufjp5kZFq6_3Go1QLWm5OUJVt2qgH5iCYpBB35c,14
+robosignatory-0.8.0.dist-info/RECORD,,
