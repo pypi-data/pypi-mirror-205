@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+katlas/__init__.py
+katlas/cli.py
+katlas.egg-info/PKG-INFO
+katlas.egg-info/SOURCES.txt
+katlas.egg-info/dependency_links.txt
+katlas.egg-info/entry_points.txt
+katlas.egg-info/top_level.txt
+tests/test_motif.py
