@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: dsplib
+Version: 0.8.0
+Summary: A set of tools for DSP projects
+Author-email: Alexander Rodionov <tandav@tandav.me>
+Project-URL: source, https://github.com/tandav/dsplib
+Project-URL: issues, https://github.com/tandav/dsplib/issues
+Project-URL: release notes, https://github.com/tandav/dsplib/releases
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+
+![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/tandav/dsplib)
+
+# dsplib
+
+```sh
+pip install dsplib
+```
