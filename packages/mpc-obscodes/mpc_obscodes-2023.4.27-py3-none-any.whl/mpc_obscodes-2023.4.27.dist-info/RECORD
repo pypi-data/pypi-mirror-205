@@ -1,0 +1,13 @@
+mpc_obscodes/__init__.py,sha256=IgAaFqaGEa6onHjX398aB44Woibw3gHoFnAkArMwzQo,187
+mpc_obscodes/compare.py,sha256=QkGRG1cGhBtLQeeI6RzuetdrW-EY0XkvuPxAhhkcy3Q,1011
+mpc_obscodes/fetch.py,sha256=_iVs8sn4mIgcUZod7s10bG94KFdh4QCfzyj6C3N-hxc,3448
+mpc_obscodes/obscodes_extended.json,sha256=ab--LYU8Op1pqT0qCtb2qgKmGv3OPnH_8HQJmtwoIiA,245177
+mpc_obscodes/obscodes_extended.md5,sha256=9ERrrPS3g03ZCDB2yuDOl4z_cYmaSSYM12nL2fAdncI,56
+mpc_obscodes/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mpc_obscodes/tests/test_compare.py,sha256=BgONFYFmFYegpJfUK9MBYHdDpWfUwht6vHOYoBF2Uvo,451
+mpc_obscodes/tests/test_fetch.py,sha256=Y6PQPaxcilBOTodPGYCRfGutLreVBjxraS7EhnP1kCs,649
+mpc_obscodes/tests/test_mpc_obscodes.py,sha256=rKktJmAvvNh-w21IhIokc_MR48oshaCOoZfVMzg3N64,508
+mpc_obscodes-2023.4.27.dist-info/METADATA,sha256=0DAvsxkiRhPapkPTirWN_GtCw2XU4go2ia4mMEpNtXw,1121
+mpc_obscodes-2023.4.27.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+mpc_obscodes-2023.4.27.dist-info/top_level.txt,sha256=fqb97C0H_5v5clZKvsvHkZU2FrC8k4Iyl4jmE4Q3Srk,13
+mpc_obscodes-2023.4.27.dist-info/RECORD,,
