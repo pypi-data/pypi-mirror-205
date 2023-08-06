@@ -1,0 +1,3 @@
+[console_scripts]
+tegda = tegda.cli:main
+
