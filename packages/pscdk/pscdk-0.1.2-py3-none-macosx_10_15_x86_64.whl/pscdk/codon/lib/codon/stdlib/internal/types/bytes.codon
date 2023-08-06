@@ -1,0 +1,124 @@
+# Copyright (C) 2022-2023 Exaloop Inc. <https://exaloop.io>
+
+from C import memcmp(cobj, cobj, u32) -> i32
+from internal.gc import sizeof
+from internal.types.error import IndexError
+
+def s2b(s: str) -> byte:
+    return byte(ord(s))
+
+@extend
+class Bytes:
+    def __new__(ptr: Ptr[byte], sz: int) -> Bytes:
+        return (sz, ptr)
+
+    def __new__(S: Static[str]) -> Bytes:
+        return (S.len, S.ptr)
+
+    def __new__(sz: int=0) -> Bytes:
+        return (sz, Ptr[byte](sz))
+
+    def __copy__(self) -> Bytes:
+        p = Ptr[byte](self.len)
+        str.memcpy(p.as_byte(), self.ptr.as_byte(), self.len * sizeof(byte))
+        return (self.len, p)
+
+    def __deepcopy__(self) -> Bytes:
+        p = Ptr[byte](self.len)
+        i = 0
+        while i < self.len:
+            p[i] = self.ptr[i].__deepcopy__()
+            i += 1
+        return (self.len, p)
+
+    def __len__(self) -> int:
+        return self.len
+
+    def __bool__(self) -> bool:
+        return bool(self.len)
+
+    def __eq__(self, other: Bytes) -> bool:
+        if self.len != other.len:
+            return False
+        if memcmp(self.ptr, other.ptr, u32(self.len)) == 0i32:
+            return True
+        return False
+
+    # def __repr__(self) -> str:
+    #     return f"b'{str(self.ptr, self.len)}'"
+
+    def _idx_check(self, idx: int, msg: str):
+        if idx >= self.len or idx < 0:
+            raise IndexError(msg)
+
+    def __getitem__(self, index: int) -> u8:
+        if index < 0:
+            index += self.__len__()
+        self._idx_check(index, "bytes index out of range")
+        return u8(int(self.ptr[index]))
+
+    # def __setitem__(self, index: int, what: byte):
+    #     if index < 0:
+    #         index += self.__len__()
+    #     self._idx_check(index, "Index out of range")
+    #     self.ptr[index] = what
+
+    def slice(self, s: int, e: int) -> Bytes:
+        return (e - s, self.ptr + s)
+
+    def __iter__(self) -> Generator[byte]:
+        i = 0
+        n = len(self)
+        while i < n:
+            yield self.ptr[i]
+            i += 1
+
+    def __repr__(self) -> str:
+        v = _strbuf(len(self) + 3)
+        v.append(s2b("b"))
+        q, qe = s2b("'"), "\\'"
+        found_single = False
+        found_double = False
+        for c in self:
+            if c == s2b("'"):
+                found_single = True
+            elif c == s2b('"'):
+                found_double = True
+
+        if found_single and not found_double:
+            q, qe = s2b('"'), '\\"'
+
+        v.append(q)
+        for c in self:
+            if c == s2b("\n"):
+                v.append(s2b("\\"))
+                v.append(s2b("n"))
+            elif c == s2b("\r"):
+                v.append(s2b("\\"))
+                v.append(s2b("n"))
+            elif c == ord("\t"):
+                v.append(s2b("\\"))
+                v.append(s2b("t"))
+            # elif c == ord("\\"):
+            #     d = "\\\\"
+            elif c == q:
+                v.append(qe)
+            else:
+                b = int(c)
+                if not (32 <= b <= 126):
+                    h = "0123456789abcdef"
+                    v.append("\\x")
+                    v.append(h[b // 16])
+                    v.append(h[b % 16])
+                else:
+                    v.append(c)
+        v.append(q)
+        return v.__str__()
+
+@extend
+class str:
+    def __prefix_b__(s: str, N: Static[int]) -> Bytes:
+        return Bytes(s.c_str(), s.len)
+
+bytes = Bytes
+
