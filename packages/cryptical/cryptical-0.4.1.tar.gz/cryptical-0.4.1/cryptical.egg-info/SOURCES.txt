@@ -1,0 +1,8 @@
+README.md
+setup.py
+cryptical.egg-info/PKG-INFO
+cryptical.egg-info/SOURCES.txt
+cryptical.egg-info/dependency_links.txt
+cryptical.egg-info/entry_points.txt
+cryptical.egg-info/requires.txt
+cryptical.egg-info/top_level.txt
