@@ -1,0 +1,57 @@
+[tool.poetry]
+name = "kedro-snowflake"
+version = "0.1.1"
+description = "Kedro plugin with Snowflake / Snowpark support"
+readme = "README.md"
+authors = ['GetInData MLOPS <mlops@getindata.com>']
+maintainers = ['GetInData MLOPS <mlops@getindata.com>']
+homepage = "https://github.com/getindata/kedro-snowflake"
+repository = "https://github.com/getindata/kedro-snowflake"
+documentation = "https://kedro-snowflake.readthedocs.io/"
+keywords = ['kedro', 'snowflake', 'snowpark', 'mlops']
+license = "Apache-2.0"
+classifiers = [
+    "Development Status :: 4 - Beta", # license and python versions added automatically
+]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.coverage.run]
+branch = true
+relative_files = true
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "raise NotImplementedError"
+]
+
+[tool.isort]
+known_third_party = ["pydantic","semver","setuptools"]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.9"
+kedro = ">=0.18.7,<0.19"
+snowflake-snowpark-python = {version = ">=1.0.0,<1.1.0", extras = ["pandas"]}
+kedro-datasets = {version = ">=1.2.0,<1.3.0", extras = ["pandas-csvdataset", "pandas-exceldataset", "pandas-parquetdataset", "snowflake-snowparktabledataset"]}
+backoff = "^2.2.1"
+cloudpickle = ">=1.6.0,<=2.0.0"
+zstandard = "^0.20.0"
+pydantic = "^1.10.7"
+tabulate = "^0.9.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "<7"
+pytest-cov = ">=2.8.0, <4.0.0"
+tox = ">=3.25.1"
+pre-commit = "2.20.0"
+
+[tool.poetry.plugins] # Optional super table
+
+[tool.poetry.plugins."kedro.project_commands"]
+"snowflake" = "kedro_snowflake.cli:commands"
+
+[tool.poetry.plugins."kedro.starters"]
+"starter" = "kedro_snowflake.starters:starters"
