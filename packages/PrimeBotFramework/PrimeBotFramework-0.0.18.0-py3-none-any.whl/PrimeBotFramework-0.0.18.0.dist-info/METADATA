@@ -1,0 +1,302 @@
+Metadata-Version: 2.1
+Name: PrimeBotFramework
+Version: 0.0.18.0
+Summary: Um pacote de padronizacao de pacotes a serem utilizados pela Prime
+Home-page: 
+Author: Prime Control
+Author-email: 
+License: MIT
+Keywords: PrimeBotFramework
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: ~=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: hvac (==1.0.2)
+Requires-Dist: mongoengine (==0.22.1)
+Requires-Dist: elasticsearch-dsl (==7.3.0)
+Requires-Dist: dateUts (==0.1.0)
+Requires-Dist: ecs-logging
+Requires-Dist: datetime
+Requires-Dist: requests (>=2.28.1)
+Requires-Dist: pyaml (>=21.10.1)
+Requires-Dist: pydantic (>=1.10.2)
+Requires-Dist: cx-Oracle (==8.3.0)
+Requires-Dist: sendgrid (==6.10.0)
+Requires-Dist: certifi (==2022.12.7)
+
+# PrimeBotFramework
+Este Pacote foi desenvolvido com o intuito de facilitar e agilizar o desenolvimento de automaÃ§Ãµes com base no _Robot Framework_.
+Neste Pacote podese encontrar diversos sistemas e suas implementaÃ§oes.
+
+### InstalaÃ§Ã£o
+```ssh
+pip install PrimeBotFramework
+```
+
+___
+## _DeathByCaptcha_
+
+### Usage
+```py
+from PromeBot.DeathByCaptcha import DeathByCaptcha
+
+token = "MY TOKEN HERE"
+h_id  = "H ID FROM WEB PAGE"
+url   = "PAGE URL"
+dth = DeathByCaptcha(token)
+solved = dth.resolveHCaptcha(h_id,url,timeout=30)
+
+print(solved)
+
+```
+
+___
+## _Vault_
+
+
+### UtilizaÃ§Ã£o
+```py
+from PromeBot.Vault import VaultClient
+
+token = "s.WrhdYlmstBXsdNIL2ztsccPF"
+vCli = VaultClient(token)
+cred = vCli.get_credentials("facebook","secrets")
+
+print(cred)
+
+```
+___
+
+## _OData_
+
+### UtilizaÃ§Ã£o
+#### Conectando ao serviÃ§o
+```py
+from PromeBot.OData import OauthParams,ExchangeGraph
+
+config = OauthParams(
+        username      = "<username>",
+        password      = "<password>",
+        client_id     = "<client_id>",
+        client_secret = "<client_secret>",
+        tenant_id     = "<tenant_id>",
+        user_id       = "<user_id>"
+    )
+OData = ExchangeGraph(config=config)
+```
+
+## CPF CNPJ
+```py
+set_token(TOKEN))
+consulta_cnpj(cnpj) = 
+```
+
+#### Enviando email
+```py
+
+msg = OData.newMessage()
+msg.set_subject("test Subject")
+msg.set_body("Text","Esse e um email de teste!")
+msg.set_toRecipients(["MyEmail@some.com"])
+msg.set_attachments([".../myfile.txt"])
+msg.send()
+```
+#### Pastas
+```py
+folders = OData.get_folders()
+print(folders)
+```
+#### Lendo Emails de uma pasta
+```py
+subf  = OData.get_folder_by_path("Teste/subfolder1")
+mails = subf.get_mails()
+print(mails)
+```
+#### Lendo Emails nao lidos
+```py
+#PODE ADCIONAR O PARAMETRO -> top=1 PRA TRAZER SO 1 ITEM
+mails  = subf.get_mails(filter="isRead eq true")
+print(mails)
+```
+
+#### Marcando email como lido
+```py
+mails[0].set_read(True)
+```
+___
+## _Documents_
+### UtilizaÃ§Ã£o
+#### 
+```py
+from PrimeBot.Documents import cnpjDigitoVerificador
+# ADCIONA OS 2 DIGITOS VERIFICADORES AO FINAL DO CNPJ
+cnpj = "XXXXXX0001XX"
+cnpj = cnpjDigitoVerificador(cnpj)
+print(cnpj)
+```
+___
+## _OData_
+
+___
+## _Mongo_
+
+___
+## _Elastic_
+
+## _ListenerECS_
+# PrimeLogger
+Biblioteca que criar um arquivo de log em formato ECS, para sincronizaÃ§Ã£o com Filebeat e Elasticsearch, sendo possivel enviar mensagens de logs e KPIS de forma estruturada dentro do Robot Framework.
+### ImportaÃ§Ã£o e uso com Robot Framework
+Exemplo:
+```
+       *** Settings ***
+        Library     Primebot.ListenerECS    elastic_test    C:${/}logs${/}log.json
+Uso:
+```
+Keywords:
+    Start Elastic: inicia a conexao com o elastic
+        Obs.: Usar keyword apÃ³s as variÃ¡veis de ambiente terem sido carregadas
+
+    Log    Mensagem de Log Customizada    level=INFO
+```
+## Autores
+* Patrick Geovani - patrick.geovani@primecontrol.com.br
+* Jones Sabino - jones.sabino@primecontrol.com.br
+```
+
+
+
+# OracleDB
+Biblioteca que conecta a um database Oracle e executa queries.
+### ImportaÃ§Ã£o e uso com Robot Framework
+Exemplo:
+```
+       *** Settings ***
+        Library     Primebot.OracleDB
+Uso:
+```
+Keywords:
+    Execute Query: inicia a conexao com o database e realiza a query solicitada
+        Parametros: 
+                    user
+                    password
+                    dsn 
+                    encoding
+                    query:
+
+```
+## Autores
+* Patrick Geovani - patrick.geovani@primecontrol.com.br
+* Fabio Neves -     fabio.neves@primecontrol.com.br
+```
+
+# D4Sign
+Biblioteca para utilizaÃ§Ã£o de endpoints do serviÃ§o D4Sign .
+### ImportaÃ§Ã£o e uso com Robot Framework
+Exemplo:
+```
+       *** Settings ***
+        Library     Primebot.D4Sign
+Uso:
+```
+Keywords:
+    Set Token: inicia a conexao com o database e realiza a query solicitada
+    Consulta Documentos Por Fase:
+
+```
+## Autores
+* Fabio Neves -     fabio.neves@primecontrol.com.br
+```
+
+# B2E
+Biblioteca para utilizaÃ§Ã£o de endpoints do serviÃ§o B2E.
+### ImportaÃ§Ã£o e uso com Robot Framework
+Exemplo:
+```
+       *** Settings ***
+        Library     Primebot.B2E
+Uso:
+```
+Keywords:
+    autenticacao: realiza a autentizaÃ§Ã£o e retorna o token
+    atualizar_parecer_proposta: atualiza o status da proposta
+    obter_parecer_proposta: obtem o dicionario de dados da proposta    
+```
+## Autores
+* Fabio Neves -     fabio.neves@primecontrol.com.br
+```
+
+Change Log
+==========
+
+0.0.1 (2022-11-01)
+------------------
+- First Release
+
+0.0.3 (2022-11-01)
+------------------
+- Fixed ChangeLog
+
+0.0.3 (2022-11-07)
+------------------
+- DeathByCaptcha: ImplementaÃ§Ã£o da quebra de captcha por imagem.
+
+0.0.4 (2022-11-10)
+------------------
+- Documents: Ajuste na funcao de cpf para verificar '0001'
+
+0.0.5 (2022-11-17)
+------------------
+- DeathByCaptcha: foi inserido uma persistencia de 30s em captcha por imagem
+------------------
+
+0.0.6 (2022-12-08)
+- Documents: Ajuste na funcao de cpf para verificar checar se a matriz esta correta
+
+------------------
+0.0.7 (2022-12-13)
+- DeathByCaptcha: Alteracoes nos retornos das exceptions
+
+------------------
+0.0.8 (2022-12-20)
+- CpfCnpj: InclusÃ£o da biblioteca
+
+------------------
+0.0.9 (2022-12-20)
+- CpfCnpj: Ajustes para importaÃ§Ã£o do model
+
+------------------
+0.0.10 (2022-12-20)
+- CpfCnpj: Inclusao dos parametros cnpj, saldo e delay no retorno da consulta CNPJ_C
+
+------------------
+0.0.11 (2022-12-21)
+- ListenerECS: InclusÃ£o da biblioteca
+
+------------------
+0.0.12 (2022-12-21)
+- ListenerECS: AdequaÃ§Ã£o da biblioteca para consumo no Robot Framework
+
+------------------
+0.0.13 (2023-01-27)
+- CpfCnpj: AlteraÃ§Ã£o do nome da def "consulta_cnpj" para "consulta_cnpj_pacote_C"
+
+------------------
+0.0.14 (2023-01-27)
+- OracleDB: InclusÃ£o da biblioteca no pacote
+
+------------------
+0.0.15 (2023-01-30)
+- Documents: Ajuste na funcao de cpf para sempre considerar os Ãºltimos 14 caracteres
+- OracleDB: AdequaÃ§Ã£o da biblioteca para consumo no Robot Framework
+
+------------------
+0.0.16 (2023-03-16)
+- D4Sign: Inclusao da biblioteca no pacote
+
+------------------
+0.0.17 (2023-03-24)
+- B2E: Inclusao da biblioteca no pacote
