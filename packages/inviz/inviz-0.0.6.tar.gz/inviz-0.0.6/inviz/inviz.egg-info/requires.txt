@@ -1,0 +1,2 @@
+holoviews==1.15.4
+spatialpandas==0.4.7
