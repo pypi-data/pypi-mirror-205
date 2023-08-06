@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+medcam3d/__init__.py
+medcam3d/activations_and_gradients.py
+medcam3d/base_medcam3d.py
+medcam3d/grad_cam3d.py
+medcam3d.egg-info/PKG-INFO
+medcam3d.egg-info/SOURCES.txt
+medcam3d.egg-info/dependency_links.txt
+medcam3d.egg-info/requires.txt
+medcam3d.egg-info/top_level.txt
