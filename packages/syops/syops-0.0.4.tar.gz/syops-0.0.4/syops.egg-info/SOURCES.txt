@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+syops/__init__.py
+syops/engine.py
+syops/flops_counter.py
+syops/ops.py
+syops/utils.py
+syops.egg-info/PKG-INFO
+syops.egg-info/SOURCES.txt
+syops.egg-info/dependency_links.txt
+syops.egg-info/requires.txt
+syops.egg-info/top_level.txt
+syops.egg-info/zip-safe
