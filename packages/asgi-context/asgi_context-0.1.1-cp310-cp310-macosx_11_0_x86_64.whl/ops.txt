@@ -1,0 +1,4406 @@
+def Context.__init__(self):
+    self :: asgi_context.Context
+L0:
+    return 1
+
+def Context.data(self):
+    self :: asgi_context.Context
+    r0 :: dict
+    r1 :: str
+    r2 :: object
+    r3 :: str
+    r4 :: object[1]
+    r5 :: object_ptr
+    r6 :: object
+    r7 :: dict
+    r8 :: tuple[object, object, object]
+    r9 :: object
+    r10 :: str
+    r11 :: object
+    r12 :: bit
+    r13, e :: object
+    r14 :: str
+    r15 :: object
+    r16 :: object[1]
+    r17 :: object_ptr
+    r18 :: object
+    r19 :: asgi_context.RequestContextException
+    r20 :: bit
+    r21 :: dict
+L0:
+L1:
+    r0 = asgi_context.globals :: static
+    r1 = '_http_request_context'
+    r2 = CPyDict_GetItem(r0, r1)
+    if is_error(r2) goto L5 (error at data:38) else goto L2
+L2:
+    r3 = 'get'
+    r4 = [r2]
+    r5 = load_address r4
+    r6 = PyObject_VectorcallMethod(r3, r5, 9223372036854775809, 0)
+    if is_error(r6) goto L16 (error at data:38) else goto L3
+L3:
+    dec_ref r2
+    r7 = cast(dict, r6)
+    if is_error(r7) goto L5 (error at data:38) else goto L4
+L4:
+    return r7
+L5:
+    r8 = CPy_CatchError()
+    r9 = builtins :: module
+    r10 = 'LookupError'
+    r11 = CPyObject_GetAttr(r9, r10)
+    if is_error(r11) goto L13 (error at data:39) else goto L6
+L6:
+    r12 = CPy_ExceptionMatches(r11)
+    dec_ref r11
+    if r12 goto L7 else goto L11 :: bool
+L7:
+    r13 = CPy_GetExcValue()
+    e = r13
+    dec_ref e
+    r14 = "No request context available - make sure you are using the ContextMiddleware. In case you're using Starlette based framework and using add_middleware method make sure to call it after any middleware that uses http_request_context."
+    r15 = asgi_context.RequestContextException :: type
+    r16 = [r14]
+    r17 = load_address r16
+    r18 = _PyObject_Vectorcall(r15, r17, 1, 0)
+    if is_error(r18) goto L13 (error at data:40) else goto L8
+L8:
+    r19 = cast(asgi_context.RequestContextException, r18)
+    if is_error(r19) goto L13 (error at data:40) else goto L9
+L9:
+    CPy_Raise(r19)
+    dec_ref r19
+    if not 0 goto L13 (error at data:40) else goto L17 :: bool
+L10:
+    unreachable
+L11:
+    CPy_Reraise()
+    if not 0 goto L13 else goto L18 :: bool
+L12:
+    unreachable
+L13:
+    CPy_RestoreExcInfo(r8)
+    dec_ref r8
+    r20 = CPy_KeepPropagating()
+    if not r20 goto L15 else goto L14 :: bool
+L14:
+    unreachable
+L15:
+    r21 = <error> :: dict
+    return r21
+L16:
+    dec_ref r2
+    goto L5
+L17:
+    dec_ref r8
+    goto L10
+L18:
+    dec_ref r8
+    goto L12
+
+def new_context_gen.__mypyc_generator_helper__(__mypyc_self__, type, value, traceback, arg):
+    __mypyc_self__ :: asgi_context.new_context_gen
+    type, value, traceback, arg :: object
+    r0 :: asgi_context.new_context_env
+    r1 :: int
+    r2 :: object
+    r3 :: bit
+    r4 :: dict
+    r5 :: str
+    r6 :: object
+    r7 :: dict
+    r8 :: str
+    r9 :: object[2]
+    r10 :: object_ptr
+    r11 :: object
+    r12 :: bool
+    r13 :: object
+    r14 :: bool
+    r15 :: object
+    r16 :: bit
+    r17, r18, r19 :: tuple[object, object, object]
+    r20 :: dict
+    r21 :: str
+    r22, r23 :: object
+    r24 :: str
+    r25 :: object[2]
+    r26 :: object_ptr
+    r27 :: object
+    r28 :: bit
+    r29 :: object
+    r30 :: bool
+    r31 :: native_int
+    r32, r33 :: bit
+    r34 :: bool
+    r35 :: bit
+    r36 :: native_int
+    r37, r38 :: bit
+    r39 :: bool
+    r40 :: bit
+    r41 :: bool
+    r42 :: object
+L0:
+    r0 = __mypyc_self__.__mypyc_env__
+    if is_error(r0) goto L39 (error at new_context:48) else goto L1
+L1:
+    r1 = r0.__mypyc_next_label__
+    if is_error(r1) goto L40 (error at new_context:48) else goto L29
+L2:
+    r2 = load_address _Py_NoneStruct
+    r3 = type != r2
+    if r3 goto L41 else goto L5 :: bool
+L3:
+    CPyErr_SetObjectAndTraceback(type, value, traceback)
+    if not 0 goto L39 (error at new_context:48) else goto L4 :: bool
+L4:
+    unreachable
+L5:
+    r4 = asgi_context.globals :: static
+    r5 = '_http_request_context'
+    r6 = CPyDict_GetItem(r4, r5)
+    if is_error(r6) goto L40 (error at new_context:49) else goto L6
+L6:
+    r7 = PyDict_New()
+    if is_error(r7) goto L42 (error at new_context:49) else goto L7
+L7:
+    r8 = 'set'
+    r9 = [r6, r7]
+    r10 = load_address r9
+    r11 = PyObject_VectorcallMethod(r8, r10, 9223372036854775810, 0)
+    if is_error(r11) goto L43 (error at new_context:49) else goto L8
+L8:
+    dec_ref r6
+    dec_ref r7
+    r0.token = r11; r12 = is_error
+    if not r12 goto L40 (error at new_context:49) else goto L9 :: bool
+L9:
+    r13 = box(None, 1)
+    r0.__mypyc_next_label__ = 2; r14 = is_error
+    if not r14 goto L15 (error at new_context:51) else goto L44 :: bool
+L10:
+    inc_ref r13
+    return r13
+L11:
+    r15 = load_address _Py_NoneStruct
+    r16 = type != r15
+    if r16 goto L12 else goto L14 :: bool
+L12:
+    CPyErr_SetObjectAndTraceback(type, value, traceback)
+    if not 0 goto L15 (error at new_context:51) else goto L45 :: bool
+L13:
+    unreachable
+L14:
+    r17 = <error> :: tuple[object, object, object]
+    r18 = r17
+    goto L16
+L15:
+    r19 = CPy_CatchError()
+    r18 = r19
+L16:
+    r20 = asgi_context.globals :: static
+    r21 = '_http_request_context'
+    r22 = CPyDict_GetItem(r20, r21)
+    if is_error(r22) goto L46 (error at new_context:53) else goto L17
+L17:
+    r23 = r0.token
+    if is_error(r23) goto L47 (error at new_context:53) else goto L18
+L18:
+    r24 = 'reset'
+    r25 = [r22, r23]
+    r26 = load_address r25
+    r27 = PyObject_VectorcallMethod(r24, r26, 9223372036854775810, 0)
+    if is_error(r27) goto L48 (error at new_context:53) else goto L49
+L19:
+    dec_ref r22
+    dec_ref r23
+    if is_error(r18) goto L26 else goto L50
+L20:
+    CPy_Reraise()
+    if not 0 goto L22 else goto L51 :: bool
+L21:
+    unreachable
+L22:
+    if is_error(r18) goto L24 else goto L23
+L23:
+    CPy_RestoreExcInfo(r18)
+    xdec_ref r18
+L24:
+    r28 = CPy_KeepPropagating()
+    if not r28 goto L39 else goto L25 :: bool
+L25:
+    unreachable
+L26:
+    r29 = box(None, 1)
+    r0.__mypyc_next_label__ = -2; r30 = is_error
+    dec_ref r0
+    if not r30 goto L39 (error at new_context:48) else goto L27 :: bool
+L27:
+    CPyGen_SetStopIterationValue(r29)
+    if not 0 goto L39 else goto L28 :: bool
+L28:
+    unreachable
+L29:
+    r31 = r1 & 1
+    r32 = r31 == 0
+    if r32 goto L30 else goto L31 :: bool
+L30:
+    r33 = r1 == 0
+    r34 = r33
+    goto L32
+L31:
+    r35 = CPyTagged_IsEq_(r1, 0)
+    r34 = r35
+L32:
+    if r34 goto L52 else goto L33 :: bool
+L33:
+    r36 = r1 & 1
+    r37 = r36 == 0
+    if r37 goto L34 else goto L35 :: bool
+L34:
+    r38 = r1 == 2
+    dec_ref r1 :: int
+    r39 = r38
+    goto L36
+L35:
+    r40 = CPyTagged_IsEq_(r1, 2)
+    dec_ref r1 :: int
+    r39 = r40
+L36:
+    if r39 goto L11 else goto L53 :: bool
+L37:
+    r41 = raise StopIteration
+    if not r41 goto L39 (error at new_context:48) else goto L38 :: bool
+L38:
+    unreachable
+L39:
+    r42 = <error> :: object
+    return r42
+L40:
+    dec_ref r0
+    goto L39
+L41:
+    dec_ref r0
+    goto L3
+L42:
+    dec_ref r0
+    dec_ref r6
+    goto L39
+L43:
+    dec_ref r0
+    dec_ref r6
+    dec_ref r7
+    goto L39
+L44:
+    dec_ref r0
+    goto L10
+L45:
+    dec_ref r0
+    goto L13
+L46:
+    dec_ref r0
+    goto L22
+L47:
+    dec_ref r0
+    dec_ref r22
+    goto L22
+L48:
+    dec_ref r0
+    dec_ref r22
+    dec_ref r23
+    goto L22
+L49:
+    dec_ref r27
+    goto L19
+L50:
+    dec_ref r0
+    goto L20
+L51:
+    xdec_ref r18
+    goto L21
+L52:
+    dec_ref r1 :: int
+    goto L2
+L53:
+    dec_ref r0
+    goto L37
+
+def new_context_gen.__next__(__mypyc_self__):
+    __mypyc_self__ :: asgi_context.new_context_gen
+    r0, r1, r2 :: object
+L0:
+    r0 = load_address _Py_NoneStruct
+    r1 = new_context_gen.__mypyc_generator_helper__(__mypyc_self__, r0, r0, r0, r0)
+    if is_error(r1) goto L2 else goto L1
+L1:
+    return r1
+L2:
+    r2 = <error> :: object
+    return r2
+
+def new_context_gen.send(__mypyc_self__, arg):
+    __mypyc_self__ :: asgi_context.new_context_gen
+    arg, r0, r1, r2 :: object
+L0:
+    r0 = load_address _Py_NoneStruct
+    r1 = new_context_gen.__mypyc_generator_helper__(__mypyc_self__, r0, r0, r0, arg)
+    if is_error(r1) goto L2 else goto L1
+L1:
+    return r1
+L2:
+    r2 = <error> :: object
+    return r2
+
+def new_context_gen.__iter__(__mypyc_self__):
+    __mypyc_self__ :: asgi_context.new_context_gen
+L0:
+    inc_ref __mypyc_self__
+    return __mypyc_self__
+
+def new_context_gen.throw(__mypyc_self__, type, value, traceback):
+    __mypyc_self__ :: asgi_context.new_context_gen
+    type, value, traceback, r0, r1, r2 :: object
+L0:
+    r0 = load_address _Py_NoneStruct
+    if is_error(value) goto L1 else goto L7
+L1:
+    inc_ref r0
+    value = r0
+L2:
+    if is_error(traceback) goto L3 else goto L8
+L3:
+    inc_ref r0
+    traceback = r0
+L4:
+    r1 = new_context_gen.__mypyc_generator_helper__(__mypyc_self__, type, value, traceback, r0)
+    dec_ref value
+    dec_ref traceback
+    if is_error(r1) goto L6 else goto L5
+L5:
+    return r1
+L6:
+    r2 = <error> :: object
+    return r2
+L7:
+    inc_ref value
+    goto L2
+L8:
+    inc_ref traceback
+    goto L4
+
+def new_context_gen.close(__mypyc_self__):
+    __mypyc_self__ :: asgi_context.new_context_gen
+    r0 :: object
+    r1 :: str
+    r2, r3, r4, r5 :: object
+    r6 :: tuple[object, object, object]
+    r7 :: object
+    r8 :: str
+    r9 :: object
+    r10 :: tuple[object, object]
+    r11 :: object
+    r12 :: bit
+    r13 :: object
+    r14 :: bool
+    r15 :: object
+L0:
+L1:
+    r0 = builtins :: module
+    r1 = 'GeneratorExit'
+    r2 = CPyObject_GetAttr(r0, r1)
+    if is_error(r2) goto L3 else goto L2
+L2:
+    r3 = load_address _Py_NoneStruct
+    r4 = load_address _Py_NoneStruct
+    r5 = __mypyc_self__.throw(r2, r3, r4)
+    if is_error(r5) goto L3 else goto L11
+L3:
+    r6 = CPy_CatchError()
+    r7 = builtins :: module
+    r8 = 'StopIteration'
+    r9 = CPyObject_GetAttr(r7, r8)
+    if is_error(r9) goto L12 else goto L4
+L4:
+    r10 = (r2, r9)
+    dec_ref r2
+    dec_ref r9
+    r11 = box(tuple[object, object], r10)
+    r12 = CPy_ExceptionMatches(r11)
+    dec_ref r11
+    if r12 goto L5 else goto L13 :: bool
+L5:
+    CPy_RestoreExcInfo(r6)
+    dec_ref r6
+    r13 = load_address _Py_NoneStruct
+    inc_ref r13
+    return r13
+L6:
+    CPy_Reraise()
+    if not 0 goto L10 else goto L7 :: bool
+L7:
+    unreachable
+L8:
+    r14 = raise RuntimeError('generator ignored GeneratorExit')
+    if not r14 goto L10 else goto L9 :: bool
+L9:
+    unreachable
+L10:
+    r15 = <error> :: object
+    return r15
+L11:
+    dec_ref r2
+    dec_ref r5
+    goto L8
+L12:
+    dec_ref r2
+    dec_ref r6
+    goto L10
+L13:
+    dec_ref r6
+    goto L6
+
+def new_context():
+    r0 :: asgi_context.new_context_env
+    r1 :: asgi_context.new_context_gen
+    r2, r3 :: bool
+    r4 :: object
+L0:
+    r0 = new_context_env()
+    if is_error(r0) goto L5 (error at new_context:48) else goto L1
+L1:
+    r1 = new_context_gen()
+    if is_error(r1) goto L6 (error at new_context:48) else goto L2
+L2:
+    inc_ref r0
+    r1.__mypyc_env__ = r0; r2 = is_error
+    if not r2 goto L7 (error at new_context:48) else goto L3 :: bool
+L3:
+    r0.__mypyc_next_label__ = 0; r3 = is_error
+    dec_ref r0
+    if not r3 goto L8 (error at new_context:48) else goto L4 :: bool
+L4:
+    return r1
+L5:
+    r4 = <error> :: object
+    return r4
+L6:
+    dec_ref r0
+    goto L5
+L7:
+    dec_ref r0
+    dec_ref r1
+    goto L5
+L8:
+    dec_ref r1
+    goto L5
+
+def ContextMiddleware.__init__(self, app):
+    self :: asgi_context.ContextMiddleware
+    app :: object
+L0:
+    inc_ref app
+    self.app = app
+    return 1
+
+def __call___ContextMiddleware_gen.__mypyc_generator_helper__(__mypyc_self__, type, value, traceback, arg):
+    __mypyc_self__ :: asgi_context.__call___ContextMiddleware_gen
+    type, value, traceback, arg, r0, r1, r2, r3 :: object
+    r4 :: asgi_context.__call___ContextMiddleware_env
+    r5 :: int
+    r6 :: object
+    r7 :: bit
+    r8 :: str
+    r9 :: dict
+    r10 :: int32
+    r11 :: bit
+    r12, r13 :: bool
+    r14 :: dict
+    r15 :: str
+    r16 :: object
+    r17 :: str
+    r18 :: object
+    r19 :: int32
+    r20 :: bit
+    r21 :: bool
+    r22 :: asgi_context.ContextMiddleware
+    r23 :: dict
+    r24, r25, r26 :: object
+    r27 :: object[3]
+    r28 :: object_ptr
+    r29, r30 :: object
+    r31 :: bool
+    r32, r33, r34, r35, r36 :: object
+    r37 :: bool
+    r38 :: object
+    r39 :: bit
+    r40 :: object
+    r41 :: tuple[object, object, object]
+    r42 :: bool
+    r43 :: object_ptr
+    r44 :: object
+    r45, r46 :: bool
+    r47 :: tuple[object, object, object]
+    r48 :: bool
+    r49, r50 :: tuple[object, object, object]
+    r51 :: bit
+    r52, r53, r54 :: object
+    r55 :: dict
+    r56 :: str
+    r57, r58, r59 :: object
+    r60 :: str
+    r61 :: object
+    r62 :: bool
+    r63 :: str
+    r64 :: object
+    r65 :: object[1]
+    r66 :: object_ptr
+    r67 :: object
+    r68, r69 :: bool
+    r70 :: asgi_context.ContextMiddleware
+    r71 :: dict
+    r72, r73, r74 :: object
+    r75 :: object[3]
+    r76 :: object_ptr
+    r77, r78 :: object
+    r79 :: bool
+    r80, r81, r82, r83, r84 :: object
+    r85 :: bool
+    r86 :: object
+    r87 :: bit
+    r88 :: object
+    r89 :: tuple[object, object, object]
+    r90 :: bool
+    r91 :: object_ptr
+    r92 :: object
+    r93, r94 :: bool
+    r95 :: tuple[object, object, object]
+    r96 :: bool
+    r97, r98 :: tuple[object, object, object]
+    r99 :: bit
+    r100, r101, r102 :: object
+    r103 :: tuple[object, object, object]
+    r104, r105 :: bool
+    r106 :: tuple[object, object, object]
+    r107, r108, r109, r110, r111 :: object
+    r112 :: object[4]
+    r113 :: object_ptr
+    r114 :: object
+    r115 :: int32
+    r116 :: bit
+    r117 :: bool
+    r118, r119 :: tuple[object, object, object]
+    r120 :: bit
+    r121, r122, r123 :: tuple[object, object, object]
+    r124 :: bool
+    r125, r126, r127 :: object
+    r128 :: object[4]
+    r129 :: object_ptr
+    r130 :: object
+    r131 :: bit
+    r132 :: object
+    r133 :: bool
+    r134 :: native_int
+    r135, r136 :: bit
+    r137 :: bool
+    r138 :: bit
+    r139 :: native_int
+    r140, r141 :: bit
+    r142 :: bool
+    r143 :: bit
+    r144 :: native_int
+    r145, r146 :: bit
+    r147 :: bool
+    r148 :: bit
+    r149 :: bool
+    r150 :: object
+L0:
+    r0 = <error> :: object
+    r1 = r0
+    r2 = <error> :: object
+    r3 = r2
+    r4 = __mypyc_self__.__mypyc_env__
+    if is_error(r4) goto L152 (error at __call__:62) else goto L1
+L1:
+    r5 = r4.__mypyc_next_label__
+    if is_error(r5) goto L153 (error at __call__:62) else goto L137
+L2:
+    r6 = load_address _Py_NoneStruct
+    r7 = type != r6
+    if r7 goto L154 else goto L5 :: bool
+L3:
+    CPyErr_SetObjectAndTraceback(type, value, traceback)
+    if not 0 goto L151 (error at __call__:62) else goto L4 :: bool
+L4:
+    unreachable
+L5:
+    r8 = 'type'
+    r9 = r4.scope
+    if is_error(r9) goto L153 (error at __call__:63) else goto L6
+L6:
+    r10 = PyDict_Contains(r9, r8)
+    dec_ref r9
+    r11 = r10 >= 0 :: signed
+    if not r11 goto L153 (error at __call__:63) else goto L7 :: bool
+L7:
+    r12 = truncate r10: int32 to builtins.bool
+    if r12 goto L10 else goto L155 :: bool
+L8:
+    r13 = raise AssertionError("ASGI scope must contain a 'type' key")
+    if not r13 goto L151 (error at __call__:63) else goto L9 :: bool
+L9:
+    unreachable
+L10:
+    r14 = r4.scope
+    if is_error(r14) goto L153 (error at __call__:65) else goto L11
+L11:
+    r15 = 'type'
+    r16 = CPyDict_GetItem(r14, r15)
+    dec_ref r14
+    if is_error(r16) goto L153 (error at __call__:65) else goto L12
+L12:
+    r17 = 'http'
+    r18 = PyObject_RichCompare(r16, r17, 2)
+    dec_ref r16
+    if is_error(r18) goto L153 (error at __call__:65) else goto L13
+L13:
+    r19 = PyObject_IsTrue(r18)
+    dec_ref r18
+    r20 = r19 >= 0 :: signed
+    if not r20 goto L153 (error at __call__:65) else goto L14 :: bool
+L14:
+    r21 = truncate r19: int32 to builtins.bool
+    if r21 goto L156 else goto L157 :: bool
+L15:
+    r22 = r4.self
+    if is_error(r22) goto L158 (error at __call__:66) else goto L16
+L16:
+    r23 = r4.scope
+    if is_error(r23) goto L159 (error at __call__:66) else goto L17
+L17:
+    r24 = r4.receive
+    if is_error(r24) goto L160 (error at __call__:66) else goto L18
+L18:
+    r25 = r4.send
+    if is_error(r25) goto L161 (error at __call__:66) else goto L19
+L19:
+    r26 = r22.app
+    dec_ref r22
+    if is_error(r26) goto L162 (error at __call__:66) else goto L20
+L20:
+    r27 = [r23, r24, r25]
+    r28 = load_address r27
+    r29 = _PyObject_Vectorcall(r26, r28, 3, 0)
+    dec_ref r26
+    if is_error(r29) goto L162 (error at __call__:66) else goto L21
+L21:
+    dec_ref r23
+    dec_ref r24
+    dec_ref r25
+    r30 = CPy_GetCoro(r29)
+    dec_ref r29
+    if is_error(r30) goto L158 (error at __call__:66) else goto L22
+L22:
+    r4.__mypyc_temp__0 = r30; r31 = is_error
+    if not r31 goto L158 (error at __call__:-1) else goto L23 :: bool
+L23:
+    r32 = r4.__mypyc_temp__0
+    if is_error(r32) goto L158 (error at __call__:-1) else goto L24
+L24:
+    r33 = CPyIter_Next(r32)
+    dec_ref r32
+    if is_error(r33) goto L163 else goto L27
+L25:
+    r34 = CPy_FetchStopIterationValue()
+    if is_error(r34) goto L164 (error at __call__:66) else goto L26
+L26:
+    r35 = r34
+    dec_ref r35
+    goto L134
+L27:
+    r36 = r33
+L28:
+    r4.__mypyc_next_label__ = 2; r37 = is_error
+    if not r37 goto L165 (error at __call__:66) else goto L166 :: bool
+L29:
+    return r36
+L30:
+    r38 = load_address _Py_NoneStruct
+    r39 = type != r38
+    if r39 goto L31 else goto L33 :: bool
+L31:
+    CPyErr_SetObjectAndTraceback(type, value, traceback)
+    if not 0 goto L34 (error at __call__:66) else goto L167 :: bool
+L32:
+    unreachable
+L33:
+    inc_ref arg
+    r40 = arg
+    goto L51
+L34:
+    r41 = CPy_CatchError()
+    r4.__mypyc_temp__1 = r41; r42 = is_error
+    if not r42 goto L168 (error at __call__:-1) else goto L35 :: bool
+L35:
+    r43 = load_address r1
+    r44 = r4.__mypyc_temp__0
+    if is_error(r44) goto L168 (error at __call__:-1) else goto L36
+L36:
+    r45 = CPy_YieldFromErrorHandle(r44, r43)
+    dec_ref r44
+    if is_error(r45) goto L168 (error at __call__:66) else goto L37
+L37:
+    if r45 goto L43 else goto L38 :: bool
+L38:
+    if is_error(r1) goto L39 else goto L41
+L39:
+    r46 = raise UnboundLocalError('local variable "" referenced before assignment')
+    if not r46 goto L48 (error at __call__:-1) else goto L169 :: bool
+L40:
+    unreachable
+L41:
+    inc_ref r1
+    r36 = r1
+    r47 = r4.__mypyc_temp__1
+    if is_error(r47) goto L170 (error at __call__:-1) else goto L42
+L42:
+    CPy_RestoreExcInfo(r47)
+    dec_ref r47
+    goto L28
+L43:
+    if is_error(r1) goto L44 else goto L46
+L44:
+    r48 = raise UnboundLocalError('local variable "" referenced before assignment')
+    if not r48 goto L48 (error at __call__:-1) else goto L171 :: bool
+L45:
+    unreachable
+L46:
+    r35 = r1
+    dec_ref r35
+    r49 = r4.__mypyc_temp__1
+    if is_error(r49) goto L48 (error at __call__:-1) else goto L47
+L47:
+    CPy_RestoreExcInfo(r49)
+    dec_ref r49
+    goto L134
+L48:
+    r50 = r4.__mypyc_temp__1
+    dec_ref r4
+    if is_error(r50) goto L151 (error at __call__:-1) else goto L49
+L49:
+    CPy_RestoreExcInfo(r50)
+    dec_ref r50
+    r51 = CPy_KeepPropagating()
+    if not r51 goto L151 else goto L50 :: bool
+L50:
+    unreachable
+L51:
+    r52 = r4.__mypyc_temp__0
+    if is_error(r52) goto L172 (error at __call__:-1) else goto L52
+L52:
+    r53 = CPyIter_Send(r52, r40)
+    dec_ref r52
+    dec_ref r40
+    if is_error(r53) goto L173 else goto L53
+L53:
+    r36 = r53
+    goto L28
+L54:
+    r54 = CPy_FetchStopIterationValue()
+    if is_error(r54) goto L164 (error at __call__:66) else goto L55
+L55:
+    r35 = r54
+    dec_ref r35
+    goto L134
+L56:
+    r55 = asgi_context.globals :: static
+    r56 = 'new_context'
+    r57 = CPyDict_GetItem(r55, r56)
+    if is_error(r57) goto L174 (error at __call__:68) else goto L57
+L57:
+    r58 = _PyObject_Vectorcall(r57, 0, 0, 0)
+    dec_ref r57
+    if is_error(r58) goto L174 (error at __call__:68) else goto L58
+L58:
+    r59 = PyObject_Type(r58)
+    r60 = '__exit__'
+    r61 = CPyObject_GetAttr(r59, r60)
+    if is_error(r61) goto L175 (error at __call__:68) else goto L59
+L59:
+    r4.__mypyc_temp__2 = r61; r62 = is_error
+    if not r62 goto L175 (error at __call__:-1) else goto L60 :: bool
+L60:
+    r63 = '__enter__'
+    r64 = CPyObject_GetAttr(r59, r63)
+    dec_ref r59
+    if is_error(r64) goto L176 (error at __call__:68) else goto L61
+L61:
+    r65 = [r58]
+    r66 = load_address r65
+    r67 = _PyObject_Vectorcall(r64, r66, 1, 0)
+    dec_ref r64
+    if is_error(r67) goto L176 (error at __call__:68) else goto L177
+L62:
+    r4.__mypyc_temp__3 = r58; r68 = is_error
+    if not r68 goto L174 (error at __call__:-1) else goto L63 :: bool
+L63:
+    r4.__mypyc_temp__4 = 1; r69 = is_error
+    if not r69 goto L174 (error at __call__:-1) else goto L64 :: bool
+L64:
+    r70 = r4.self
+    if is_error(r70) goto L178 (error at __call__:69) else goto L65
+L65:
+    r71 = r4.scope
+    if is_error(r71) goto L179 (error at __call__:69) else goto L66
+L66:
+    r72 = r4.receive
+    if is_error(r72) goto L180 (error at __call__:69) else goto L67
+L67:
+    r73 = r4.send
+    if is_error(r73) goto L181 (error at __call__:69) else goto L68
+L68:
+    r74 = r70.app
+    dec_ref r70
+    if is_error(r74) goto L182 (error at __call__:69) else goto L69
+L69:
+    r75 = [r71, r72, r73]
+    r76 = load_address r75
+    r77 = _PyObject_Vectorcall(r74, r76, 3, 0)
+    dec_ref r74
+    if is_error(r77) goto L182 (error at __call__:69) else goto L70
+L70:
+    dec_ref r71
+    dec_ref r72
+    dec_ref r73
+    r78 = CPy_GetCoro(r77)
+    dec_ref r77
+    if is_error(r78) goto L178 (error at __call__:69) else goto L71
+L71:
+    r4.__mypyc_temp__5 = r78; r79 = is_error
+    if not r79 goto L178 (error at __call__:-1) else goto L72 :: bool
+L72:
+    r80 = r4.__mypyc_temp__5
+    if is_error(r80) goto L178 (error at __call__:-1) else goto L73
+L73:
+    r81 = CPyIter_Next(r80)
+    dec_ref r80
+    if is_error(r81) goto L183 else goto L76
+L74:
+    r82 = CPy_FetchStopIterationValue()
+    if is_error(r82) goto L105 (error at __call__:69) else goto L75
+L75:
+    r83 = r82
+    dec_ref r83
+    goto L119
+L76:
+    r84 = r81
+L77:
+    r4.__mypyc_next_label__ = 4; r85 = is_error
+    if not r85 goto L184 (error at __call__:69) else goto L185 :: bool
+L78:
+    return r84
+L79:
+    r86 = load_address _Py_NoneStruct
+    r87 = type != r86
+    if r87 goto L80 else goto L82 :: bool
+L80:
+    CPyErr_SetObjectAndTraceback(type, value, traceback)
+    if not 0 goto L83 (error at __call__:69) else goto L186 :: bool
+L81:
+    unreachable
+L82:
+    inc_ref arg
+    r88 = arg
+    goto L100
+L83:
+    r89 = CPy_CatchError()
+    r4.__mypyc_temp__6 = r89; r90 = is_error
+    if not r90 goto L187 (error at __call__:-1) else goto L84 :: bool
+L84:
+    r91 = load_address r3
+    r92 = r4.__mypyc_temp__5
+    if is_error(r92) goto L187 (error at __call__:-1) else goto L85
+L85:
+    r93 = CPy_YieldFromErrorHandle(r92, r91)
+    dec_ref r92
+    if is_error(r93) goto L187 (error at __call__:69) else goto L86
+L86:
+    if r93 goto L92 else goto L87 :: bool
+L87:
+    if is_error(r3) goto L88 else goto L90
+L88:
+    r94 = raise UnboundLocalError('local variable "" referenced before assignment')
+    if not r94 goto L97 (error at __call__:-1) else goto L188 :: bool
+L89:
+    unreachable
+L90:
+    inc_ref r3
+    r84 = r3
+    r95 = r4.__mypyc_temp__6
+    if is_error(r95) goto L189 (error at __call__:-1) else goto L91
+L91:
+    CPy_RestoreExcInfo(r95)
+    dec_ref r95
+    goto L77
+L92:
+    if is_error(r3) goto L93 else goto L95
+L93:
+    r96 = raise UnboundLocalError('local variable "" referenced before assignment')
+    if not r96 goto L97 (error at __call__:-1) else goto L190 :: bool
+L94:
+    unreachable
+L95:
+    r83 = r3
+    dec_ref r83
+    r97 = r4.__mypyc_temp__6
+    if is_error(r97) goto L97 (error at __call__:-1) else goto L96
+L96:
+    CPy_RestoreExcInfo(r97)
+    dec_ref r97
+    goto L119
+L97:
+    r98 = r4.__mypyc_temp__6
+    if is_error(r98) goto L105 (error at __call__:-1) else goto L98
+L98:
+    CPy_RestoreExcInfo(r98)
+    dec_ref r98
+    r99 = CPy_KeepPropagating()
+    if not r99 goto L105 else goto L191 :: bool
+L99:
+    unreachable
+L100:
+    r100 = r4.__mypyc_temp__5
+    if is_error(r100) goto L192 (error at __call__:-1) else goto L101
+L101:
+    r101 = CPyIter_Send(r100, r88)
+    dec_ref r100
+    dec_ref r88
+    if is_error(r101) goto L193 else goto L102
+L102:
+    r84 = r101
+    goto L77
+L103:
+    r102 = CPy_FetchStopIterationValue()
+    if is_error(r102) goto L105 (error at __call__:69) else goto L104
+L104:
+    r83 = r102
+    dec_ref r83
+    goto L119
+L105:
+    r103 = CPy_CatchError()
+    r4.__mypyc_temp__7 = r103; r104 = is_error
+    if not r104 goto L116 (error at __call__:-1) else goto L106 :: bool
+L106:
+    r4.__mypyc_temp__4 = 0; r105 = is_error
+    if not r105 goto L116 (error at __call__:68) else goto L107 :: bool
+L107:
+    r106 = CPy_GetExcInfo()
+    r107 = r106[0]
+    r108 = r106[1]
+    r109 = r106[2]
+    dec_ref r106
+    r110 = r4.__mypyc_temp__2
+    if is_error(r110) goto L194 (error at __call__:-1) else goto L108
+L108:
+    r111 = r4.__mypyc_temp__3
+    if is_error(r111) goto L195 (error at __call__:-1) else goto L109
+L109:
+    r112 = [r111, r107, r108, r109]
+    r113 = load_address r112
+    r114 = _PyObject_Vectorcall(r110, r113, 4, 0)
+    dec_ref r110
+    if is_error(r114) goto L196 (error at __call__:68) else goto L110
+L110:
+    dec_ref r111
+    dec_ref r107
+    dec_ref r108
+    dec_ref r109
+    r115 = PyObject_IsTrue(r114)
+    dec_ref r114
+    r116 = r115 >= 0 :: signed
+    if not r116 goto L116 (error at __call__:68) else goto L111 :: bool
+L111:
+    r117 = truncate r115: int32 to builtins.bool
+    if r117 goto L114 else goto L112 :: bool
+L112:
+    CPy_Reraise()
+    if not 0 goto L116 else goto L197 :: bool
+L113:
+    unreachable
+L114:
+    r118 = r4.__mypyc_temp__7
+    if is_error(r118) goto L120 (error at __call__:-1) else goto L115
+L115:
+    CPy_RestoreExcInfo(r118)
+    dec_ref r118
+    goto L119
+L116:
+    r119 = r4.__mypyc_temp__7
+    if is_error(r119) goto L120 (error at __call__:-1) else goto L117
+L117:
+    CPy_RestoreExcInfo(r119)
+    dec_ref r119
+    r120 = CPy_KeepPropagating()
+    if not r120 goto L120 else goto L198 :: bool
+L118:
+    unreachable
+L119:
+    r121 = <error> :: tuple[object, object, object]
+    r122 = r121
+    goto L121
+L120:
+    r123 = CPy_CatchError()
+    r122 = r123
+L121:
+    r124 = r4.__mypyc_temp__4
+    if is_error(r124) goto L199 (error at __call__:-1) else goto L122
+L122:
+    if r124 goto L123 else goto L127 :: bool
+L123:
+    r125 = load_address _Py_NoneStruct
+    r126 = r4.__mypyc_temp__2
+    if is_error(r126) goto L199 (error at __call__:-1) else goto L124
+L124:
+    r127 = r4.__mypyc_temp__3
+    if is_error(r127) goto L200 (error at __call__:-1) else goto L125
+L125:
+    r128 = [r127, r125, r125, r125]
+    r129 = load_address r128
+    r130 = _PyObject_Vectorcall(r126, r129, 4, 0)
+    dec_ref r126
+    if is_error(r130) goto L201 (error at __call__:68) else goto L202
+L126:
+    dec_ref r127
+L127:
+    if is_error(r122) goto L134 else goto L203
+L128:
+    CPy_Reraise()
+    if not 0 goto L130 else goto L204 :: bool
+L129:
+    unreachable
+L130:
+    if is_error(r122) goto L132 else goto L131
+L131:
+    CPy_RestoreExcInfo(r122)
+    xdec_ref r122
+L132:
+    r131 = CPy_KeepPropagating()
+    if not r131 goto L151 else goto L133 :: bool
+L133:
+    unreachable
+L134:
+    r132 = box(None, 1)
+    r4.__mypyc_next_label__ = -2; r133 = is_error
+    dec_ref r4
+    if not r133 goto L151 (error at __call__:62) else goto L135 :: bool
+L135:
+    CPyGen_SetStopIterationValue(r132)
+    if not 0 goto L151 else goto L136 :: bool
+L136:
+    unreachable
+L137:
+    r134 = r5 & 1
+    r135 = r134 == 0
+    if r135 goto L138 else goto L139 :: bool
+L138:
+    r136 = r5 == 0
+    r137 = r136
+    goto L140
+L139:
+    r138 = CPyTagged_IsEq_(r5, 0)
+    r137 = r138
+L140:
+    if r137 goto L205 else goto L141 :: bool
+L141:
+    r139 = r5 & 1
+    r140 = r139 == 0
+    if r140 goto L142 else goto L143 :: bool
+L142:
+    r141 = r5 == 2
+    r142 = r141
+    goto L144
+L143:
+    r143 = CPyTagged_IsEq_(r5, 2)
+    r142 = r143
+L144:
+    if r142 goto L206 else goto L207 :: bool
+L145:
+    r144 = r5 & 1
+    r145 = r144 == 0
+    if r145 goto L146 else goto L147 :: bool
+L146:
+    r146 = r5 == 4
+    dec_ref r5 :: int
+    r147 = r146
+    goto L148
+L147:
+    r148 = CPyTagged_IsEq_(r5, 4)
+    dec_ref r5 :: int
+    r147 = r148
+L148:
+    if r147 goto L79 else goto L208 :: bool
+L149:
+    r149 = raise StopIteration
+    if not r149 goto L151 (error at __call__:62) else goto L150 :: bool
+L150:
+    unreachable
+L151:
+    r150 = <error> :: object
+    return r150
+L152:
+    xdec_ref r1
+    xdec_ref r3
+    goto L151
+L153:
+    xdec_ref r1
+    xdec_ref r3
+    dec_ref r4
+    goto L151
+L154:
+    xdec_ref r1
+    xdec_ref r3
+    dec_ref r4
+    goto L3
+L155:
+    xdec_ref r1
+    xdec_ref r3
+    dec_ref r4
+    goto L8
+L156:
+    xdec_ref r1
+    goto L56
+L157:
+    xdec_ref r3
+    goto L15
+L158:
+    xdec_ref r1
+    dec_ref r4
+    goto L151
+L159:
+    xdec_ref r1
+    dec_ref r4
+    dec_ref r22
+    goto L151
+L160:
+    xdec_ref r1
+    dec_ref r4
+    dec_ref r22
+    dec_ref r23
+    goto L151
+L161:
+    xdec_ref r1
+    dec_ref r4
+    dec_ref r22
+    dec_ref r23
+    dec_ref r24
+    goto L151
+L162:
+    xdec_ref r1
+    dec_ref r4
+    dec_ref r23
+    dec_ref r24
+    dec_ref r25
+    goto L151
+L163:
+    xdec_ref r1
+    goto L25
+L164:
+    dec_ref r4
+    goto L151
+L165:
+    dec_ref r36
+    goto L34
+L166:
+    xdec_ref r1
+    dec_ref r4
+    goto L29
+L167:
+    xdec_ref r1
+    dec_ref r4
+    goto L32
+L168:
+    xdec_ref r1
+    goto L48
+L169:
+    dec_ref r4
+    goto L40
+L170:
+    xdec_ref r1
+    dec_ref r36
+    goto L48
+L171:
+    dec_ref r4
+    goto L45
+L172:
+    xdec_ref r1
+    dec_ref r4
+    dec_ref r40
+    goto L151
+L173:
+    xdec_ref r1
+    goto L54
+L174:
+    xdec_ref r3
+    dec_ref r4
+    goto L151
+L175:
+    xdec_ref r3
+    dec_ref r4
+    dec_ref r58
+    dec_ref r59
+    goto L151
+L176:
+    xdec_ref r3
+    dec_ref r4
+    dec_ref r58
+    goto L151
+L177:
+    dec_ref r67
+    goto L62
+L178:
+    xdec_ref r3
+    goto L105
+L179:
+    xdec_ref r3
+    dec_ref r70
+    goto L105
+L180:
+    xdec_ref r3
+    dec_ref r70
+    dec_ref r71
+    goto L105
+L181:
+    xdec_ref r3
+    dec_ref r70
+    dec_ref r71
+    dec_ref r72
+    goto L105
+L182:
+    xdec_ref r3
+    dec_ref r71
+    dec_ref r72
+    dec_ref r73
+    goto L105
+L183:
+    xdec_ref r3
+    goto L74
+L184:
+    dec_ref r84
+    goto L83
+L185:
+    xdec_ref r3
+    dec_ref r4
+    goto L78
+L186:
+    xdec_ref r3
+    dec_ref r4
+    goto L81
+L187:
+    xdec_ref r3
+    goto L97
+L188:
+    dec_ref r4
+    goto L89
+L189:
+    xdec_ref r3
+    dec_ref r84
+    goto L97
+L190:
+    dec_ref r4
+    goto L94
+L191:
+    dec_ref r4
+    goto L99
+L192:
+    xdec_ref r3
+    dec_ref r88
+    goto L105
+L193:
+    xdec_ref r3
+    goto L103
+L194:
+    dec_ref r107
+    dec_ref r108
+    dec_ref r109
+    goto L116
+L195:
+    dec_ref r107
+    dec_ref r108
+    dec_ref r109
+    dec_ref r110
+    goto L116
+L196:
+    dec_ref r107
+    dec_ref r108
+    dec_ref r109
+    dec_ref r111
+    goto L116
+L197:
+    dec_ref r4
+    goto L113
+L198:
+    dec_ref r4
+    goto L118
+L199:
+    dec_ref r4
+    goto L130
+L200:
+    dec_ref r4
+    dec_ref r126
+    goto L130
+L201:
+    dec_ref r4
+    dec_ref r127
+    goto L130
+L202:
+    dec_ref r130
+    goto L126
+L203:
+    dec_ref r4
+    goto L128
+L204:
+    xdec_ref r122
+    goto L129
+L205:
+    dec_ref r5 :: int
+    goto L2
+L206:
+    xdec_ref r3
+    dec_ref r5 :: int
+    goto L30
+L207:
+    xdec_ref r1
+    goto L145
+L208:
+    xdec_ref r3
+    dec_ref r4
+    goto L149
+
+def __call___ContextMiddleware_gen.__next__(__mypyc_self__):
+    __mypyc_self__ :: asgi_context.__call___ContextMiddleware_gen
+    r0, r1, r2 :: object
+L0:
+    r0 = load_address _Py_NoneStruct
+    r1 = __call___ContextMiddleware_gen.__mypyc_generator_helper__(__mypyc_self__, r0, r0, r0, r0)
+    if is_error(r1) goto L2 else goto L1
+L1:
+    return r1
+L2:
+    r2 = <error> :: object
+    return r2
+
+def __call___ContextMiddleware_gen.send(__mypyc_self__, arg):
+    __mypyc_self__ :: asgi_context.__call___ContextMiddleware_gen
+    arg, r0, r1, r2 :: object
+L0:
+    r0 = load_address _Py_NoneStruct
+    r1 = __call___ContextMiddleware_gen.__mypyc_generator_helper__(__mypyc_self__, r0, r0, r0, arg)
+    if is_error(r1) goto L2 else goto L1
+L1:
+    return r1
+L2:
+    r2 = <error> :: object
+    return r2
+
+def __call___ContextMiddleware_gen.__iter__(__mypyc_self__):
+    __mypyc_self__ :: asgi_context.__call___ContextMiddleware_gen
+L0:
+    inc_ref __mypyc_self__
+    return __mypyc_self__
+
+def __call___ContextMiddleware_gen.throw(__mypyc_self__, type, value, traceback):
+    __mypyc_self__ :: asgi_context.__call___ContextMiddleware_gen
+    type, value, traceback, r0, r1, r2 :: object
+L0:
+    r0 = load_address _Py_NoneStruct
+    if is_error(value) goto L1 else goto L7
+L1:
+    inc_ref r0
+    value = r0
+L2:
+    if is_error(traceback) goto L3 else goto L8
+L3:
+    inc_ref r0
+    traceback = r0
+L4:
+    r1 = __call___ContextMiddleware_gen.__mypyc_generator_helper__(__mypyc_self__, type, value, traceback, r0)
+    dec_ref value
+    dec_ref traceback
+    if is_error(r1) goto L6 else goto L5
+L5:
+    return r1
+L6:
+    r2 = <error> :: object
+    return r2
+L7:
+    inc_ref value
+    goto L2
+L8:
+    inc_ref traceback
+    goto L4
+
+def __call___ContextMiddleware_gen.close(__mypyc_self__):
+    __mypyc_self__ :: asgi_context.__call___ContextMiddleware_gen
+    r0 :: object
+    r1 :: str
+    r2, r3, r4, r5 :: object
+    r6 :: tuple[object, object, object]
+    r7 :: object
+    r8 :: str
+    r9 :: object
+    r10 :: tuple[object, object]
+    r11 :: object
+    r12 :: bit
+    r13 :: object
+    r14 :: bool
+    r15 :: object
+L0:
+L1:
+    r0 = builtins :: module
+    r1 = 'GeneratorExit'
+    r2 = CPyObject_GetAttr(r0, r1)
+    if is_error(r2) goto L3 else goto L2
+L2:
+    r3 = load_address _Py_NoneStruct
+    r4 = load_address _Py_NoneStruct
+    r5 = __mypyc_self__.throw(r2, r3, r4)
+    if is_error(r5) goto L3 else goto L11
+L3:
+    r6 = CPy_CatchError()
+    r7 = builtins :: module
+    r8 = 'StopIteration'
+    r9 = CPyObject_GetAttr(r7, r8)
+    if is_error(r9) goto L12 else goto L4
+L4:
+    r10 = (r2, r9)
+    dec_ref r2
+    dec_ref r9
+    r11 = box(tuple[object, object], r10)
+    r12 = CPy_ExceptionMatches(r11)
+    dec_ref r11
+    if r12 goto L5 else goto L13 :: bool
+L5:
+    CPy_RestoreExcInfo(r6)
+    dec_ref r6
+    r13 = load_address _Py_NoneStruct
+    inc_ref r13
+    return r13
+L6:
+    CPy_Reraise()
+    if not 0 goto L10 else goto L7 :: bool
+L7:
+    unreachable
+L8:
+    r14 = raise RuntimeError('generator ignored GeneratorExit')
+    if not r14 goto L10 else goto L9 :: bool
+L9:
+    unreachable
+L10:
+    r15 = <error> :: object
+    return r15
+L11:
+    dec_ref r2
+    dec_ref r5
+    goto L8
+L12:
+    dec_ref r2
+    dec_ref r6
+    goto L10
+L13:
+    dec_ref r6
+    goto L6
+
+def __call___ContextMiddleware_gen.__await__(__mypyc_self__):
+    __mypyc_self__ :: asgi_context.__call___ContextMiddleware_gen
+L0:
+    inc_ref __mypyc_self__
+    return __mypyc_self__
+
+def ContextMiddleware.__call__(self, scope, receive, send):
+    self :: asgi_context.ContextMiddleware
+    scope :: dict
+    receive, send :: object
+    r0 :: asgi_context.__call___ContextMiddleware_env
+    r1, r2, r3, r4 :: bool
+    r5 :: asgi_context.__call___ContextMiddleware_gen
+    r6, r7 :: bool
+    r8 :: object
+L0:
+    r0 = __call___ContextMiddleware_env()
+    if is_error(r0) goto L9 (error at __call__:62) else goto L1
+L1:
+    inc_ref self
+    r0.self = self; r1 = is_error
+    if not r1 goto L10 (error at __call__:62) else goto L2 :: bool
+L2:
+    inc_ref scope
+    r0.scope = scope; r2 = is_error
+    if not r2 goto L10 (error at __call__:62) else goto L3 :: bool
+L3:
+    inc_ref receive
+    r0.receive = receive; r3 = is_error
+    if not r3 goto L10 (error at __call__:62) else goto L4 :: bool
+L4:
+    inc_ref send
+    r0.send = send; r4 = is_error
+    if not r4 goto L10 (error at __call__:62) else goto L5 :: bool
+L5:
+    r5 = __call___ContextMiddleware_gen()
+    if is_error(r5) goto L10 (error at __call__:62) else goto L6
+L6:
+    inc_ref r0
+    r5.__mypyc_env__ = r0; r6 = is_error
+    if not r6 goto L11 (error at __call__:62) else goto L7 :: bool
+L7:
+    r0.__mypyc_next_label__ = 0; r7 = is_error
+    dec_ref r0
+    if not r7 goto L12 (error at __call__:62) else goto L8 :: bool
+L8:
+    return r5
+L9:
+    r8 = <error> :: object
+    return r8
+L10:
+    dec_ref r0
+    goto L9
+L11:
+    dec_ref r0
+    dec_ref r5
+    goto L9
+L12:
+    dec_ref r5
+    goto L9
+
+def AbstractHeadersExtractorMiddleware.__init__(self, app):
+    self :: asgi_context.AbstractHeadersExtractorMiddleware
+    app :: object
+    r0 :: bool
+    r1 :: None
+L0:
+    inc_ref app
+    self.app = app; r0 = is_error
+    if not r0 goto L2 (error at __init__:76) else goto L1 :: bool
+L1:
+    return 1
+L2:
+    r1 = <error> :: None
+    return r1
+
+def AbstractHeadersExtractorMiddleware.header_names(self):
+    self :: asgi_context.AbstractHeadersExtractorMiddleware
+    r0 :: object
+L0:
+    r0 = box(None, 1)
+    inc_ref r0
+    return r0
+
+def AbstractHeadersExtractorMiddleware.validators(self):
+    self :: asgi_context.AbstractHeadersExtractorMiddleware
+L0:
+    unreachable
+
+def __call___AbstractHeadersExtractorMiddleware_gen.__mypyc_generator_helper__(__mypyc_self__, type, value, traceback, arg):
+    __mypyc_self__ :: asgi_context.__call___AbstractHeadersExtractorMiddleware_gen
+    type, value, traceback, arg, r0, r1, r2, r3 :: object
+    r4 :: asgi_context.__call___AbstractHeadersExtractorMiddleware_env
+    r5 :: int
+    r6 :: object
+    r7 :: bit
+    r8 :: str
+    r9 :: dict
+    r10 :: int32
+    r11 :: bit
+    r12, r13 :: bool
+    r14 :: dict
+    r15 :: str
+    r16 :: object
+    r17 :: str
+    r18 :: object
+    r19 :: int32
+    r20 :: bit
+    r21 :: bool
+    r22 :: asgi_context.AbstractHeadersExtractorMiddleware
+    r23 :: dict
+    r24, r25, r26 :: object
+    r27 :: object[3]
+    r28 :: object_ptr
+    r29, r30 :: object
+    r31 :: bool
+    r32, r33, r34, r35, r36 :: object
+    r37 :: bool
+    r38 :: object
+    r39 :: bit
+    r40 :: object
+    r41 :: tuple[object, object, object]
+    r42 :: bool
+    r43 :: object_ptr
+    r44 :: object
+    r45, r46 :: bool
+    r47 :: tuple[object, object, object]
+    r48 :: bool
+    r49, r50 :: tuple[object, object, object]
+    r51 :: bit
+    r52, r53, r54 :: object
+    r55 :: dict
+    r56 :: bool
+    r57 :: dict
+    r58 :: str
+    r59, r60 :: object
+    r61, r62 :: bool
+    r63, r64, r65, r66 :: object
+    r67, r68 :: bool
+    r69 :: object
+    r70, r71 :: bool
+    r72 :: object
+    r73 :: bool
+    r74 :: object
+    r75 :: str
+    r76 :: object[1]
+    r77 :: object_ptr
+    r78 :: object
+    r79 :: str
+    r80 :: object[1]
+    r81 :: object_ptr
+    r82, r83 :: object
+    r84 :: str
+    r85 :: object[1]
+    r86 :: object_ptr
+    r87 :: object
+    r88 :: dict
+    r89 :: int32
+    r90, r91 :: bit
+    r92 :: dict
+    r93 :: bool
+    r94 :: asgi_context.AbstractHeadersExtractorMiddleware
+    r95, r96 :: object
+    r97, r98 :: bool
+    r99, r100 :: object
+    r101 :: str
+    r102 :: bool
+    r103 :: dict
+    r104, r105 :: str
+    r106 :: object[1]
+    r107 :: object_ptr
+    r108 :: object
+    r109 :: str
+    r110 :: object
+    r111 :: bool
+    r112 :: asgi_context.AbstractHeadersExtractorMiddleware
+    r113 :: dict
+    r114 :: str
+    r115 :: object
+    r116 :: bool
+    r117 :: int32
+    r118 :: bit
+    r119 :: bool
+    r120 :: union[object, None]
+    r121 :: object
+    r122 :: bit
+    r123 :: object
+    r124 :: int32
+    r125 :: bit
+    r126 :: bool
+    r127, r128 :: union[object, None]
+    r129 :: object[1]
+    r130 :: object_ptr
+    r131 :: object
+    r132 :: bool
+    r133, r134, r135, r136 :: str
+    r137 :: object
+    r138 :: object[1]
+    r139 :: object_ptr
+    r140 :: object
+    r141 :: asgi_context.HeaderValidationException
+    r142 :: union[object, None]
+    r143 :: dict
+    r144 :: str
+    r145 :: object
+    r146 :: asgi_context.Context
+    r147 :: str
+    r148 :: int32
+    r149, r150 :: bit
+    r151 :: asgi_context.AbstractHeadersExtractorMiddleware
+    r152 :: dict
+    r153, r154, r155 :: object
+    r156 :: object[3]
+    r157 :: object_ptr
+    r158, r159 :: object
+    r160 :: bool
+    r161, r162, r163, r164, r165 :: object
+    r166 :: bool
+    r167 :: object
+    r168 :: bit
+    r169 :: object
+    r170 :: tuple[object, object, object]
+    r171 :: bool
+    r172 :: object_ptr
+    r173 :: object
+    r174, r175 :: bool
+    r176 :: tuple[object, object, object]
+    r177 :: bool
+    r178, r179 :: tuple[object, object, object]
+    r180 :: bit
+    r181, r182, r183, r184 :: object
+    r185 :: bool
+    r186 :: native_int
+    r187, r188 :: bit
+    r189 :: bool
+    r190 :: bit
+    r191 :: native_int
+    r192, r193 :: bit
+    r194 :: bool
+    r195 :: bit
+    r196 :: native_int
+    r197, r198 :: bit
+    r199 :: bool
+    r200 :: bit
+    r201 :: bool
+    r202 :: object
+L0:
+    r0 = <error> :: object
+    r1 = r0
+    r2 = <error> :: object
+    r3 = r2
+    r4 = __mypyc_self__.__mypyc_env__
+    if is_error(r4) goto L190 (error at __call__:88) else goto L1
+L1:
+    r5 = r4.__mypyc_next_label__
+    if is_error(r5) goto L191 (error at __call__:88) else goto L175
+L2:
+    r6 = load_address _Py_NoneStruct
+    r7 = type != r6
+    if r7 goto L192 else goto L5 :: bool
+L3:
+    CPyErr_SetObjectAndTraceback(type, value, traceback)
+    if not 0 goto L189 (error at __call__:88) else goto L4 :: bool
+L4:
+    unreachable
+L5:
+    r8 = 'type'
+    r9 = r4.scope
+    if is_error(r9) goto L191 (error at __call__:89) else goto L6
+L6:
+    r10 = PyDict_Contains(r9, r8)
+    dec_ref r9
+    r11 = r10 >= 0 :: signed
+    if not r11 goto L191 (error at __call__:89) else goto L7 :: bool
+L7:
+    r12 = truncate r10: int32 to builtins.bool
+    if r12 goto L10 else goto L193 :: bool
+L8:
+    r13 = raise AssertionError("ASGI scope must contain a 'type' key")
+    if not r13 goto L189 (error at __call__:89) else goto L9 :: bool
+L9:
+    unreachable
+L10:
+    r14 = r4.scope
+    if is_error(r14) goto L191 (error at __call__:91) else goto L11
+L11:
+    r15 = 'type'
+    r16 = CPyDict_GetItem(r14, r15)
+    dec_ref r14
+    if is_error(r16) goto L191 (error at __call__:91) else goto L12
+L12:
+    r17 = 'http'
+    r18 = PyObject_RichCompare(r16, r17, 2)
+    dec_ref r16
+    if is_error(r18) goto L191 (error at __call__:91) else goto L13
+L13:
+    r19 = PyObject_IsTrue(r18)
+    dec_ref r18
+    r20 = r19 >= 0 :: signed
+    if not r20 goto L191 (error at __call__:91) else goto L14 :: bool
+L14:
+    r21 = truncate r19: int32 to builtins.bool
+    if r21 goto L194 else goto L195 :: bool
+L15:
+    r22 = r4.self
+    if is_error(r22) goto L196 (error at __call__:92) else goto L16
+L16:
+    r23 = r4.scope
+    if is_error(r23) goto L197 (error at __call__:92) else goto L17
+L17:
+    r24 = r4.receive
+    if is_error(r24) goto L198 (error at __call__:92) else goto L18
+L18:
+    r25 = r4.send
+    if is_error(r25) goto L199 (error at __call__:92) else goto L19
+L19:
+    r26 = r22.app
+    dec_ref r22
+    if is_error(r26) goto L200 (error at __call__:92) else goto L20
+L20:
+    r27 = [r23, r24, r25]
+    r28 = load_address r27
+    r29 = _PyObject_Vectorcall(r26, r28, 3, 0)
+    dec_ref r26
+    if is_error(r29) goto L200 (error at __call__:92) else goto L21
+L21:
+    dec_ref r23
+    dec_ref r24
+    dec_ref r25
+    r30 = CPy_GetCoro(r29)
+    dec_ref r29
+    if is_error(r30) goto L196 (error at __call__:92) else goto L22
+L22:
+    r4.__mypyc_temp__8 = r30; r31 = is_error
+    if not r31 goto L196 (error at __call__:-1) else goto L23 :: bool
+L23:
+    r32 = r4.__mypyc_temp__8
+    if is_error(r32) goto L196 (error at __call__:-1) else goto L24
+L24:
+    r33 = CPyIter_Next(r32)
+    dec_ref r32
+    if is_error(r33) goto L201 else goto L27
+L25:
+    r34 = CPy_FetchStopIterationValue()
+    if is_error(r34) goto L202 (error at __call__:92) else goto L26
+L26:
+    r35 = r34
+    dec_ref r35
+    goto L172
+L27:
+    r36 = r33
+L28:
+    r4.__mypyc_next_label__ = 2; r37 = is_error
+    if not r37 goto L203 (error at __call__:92) else goto L204 :: bool
+L29:
+    return r36
+L30:
+    r38 = load_address _Py_NoneStruct
+    r39 = type != r38
+    if r39 goto L31 else goto L33 :: bool
+L31:
+    CPyErr_SetObjectAndTraceback(type, value, traceback)
+    if not 0 goto L34 (error at __call__:92) else goto L205 :: bool
+L32:
+    unreachable
+L33:
+    inc_ref arg
+    r40 = arg
+    goto L51
+L34:
+    r41 = CPy_CatchError()
+    r4.__mypyc_temp__9 = r41; r42 = is_error
+    if not r42 goto L206 (error at __call__:-1) else goto L35 :: bool
+L35:
+    r43 = load_address r1
+    r44 = r4.__mypyc_temp__8
+    if is_error(r44) goto L206 (error at __call__:-1) else goto L36
+L36:
+    r45 = CPy_YieldFromErrorHandle(r44, r43)
+    dec_ref r44
+    if is_error(r45) goto L206 (error at __call__:92) else goto L37
+L37:
+    if r45 goto L43 else goto L38 :: bool
+L38:
+    if is_error(r1) goto L39 else goto L41
+L39:
+    r46 = raise UnboundLocalError('local variable "" referenced before assignment')
+    if not r46 goto L48 (error at __call__:-1) else goto L207 :: bool
+L40:
+    unreachable
+L41:
+    inc_ref r1
+    r36 = r1
+    r47 = r4.__mypyc_temp__9
+    if is_error(r47) goto L208 (error at __call__:-1) else goto L42
+L42:
+    CPy_RestoreExcInfo(r47)
+    dec_ref r47
+    goto L28
+L43:
+    if is_error(r1) goto L44 else goto L46
+L44:
+    r48 = raise UnboundLocalError('local variable "" referenced before assignment')
+    if not r48 goto L48 (error at __call__:-1) else goto L209 :: bool
+L45:
+    unreachable
+L46:
+    r35 = r1
+    dec_ref r35
+    r49 = r4.__mypyc_temp__9
+    if is_error(r49) goto L48 (error at __call__:-1) else goto L47
+L47:
+    CPy_RestoreExcInfo(r49)
+    dec_ref r49
+    goto L172
+L48:
+    r50 = r4.__mypyc_temp__9
+    dec_ref r4
+    if is_error(r50) goto L189 (error at __call__:-1) else goto L49
+L49:
+    CPy_RestoreExcInfo(r50)
+    dec_ref r50
+    r51 = CPy_KeepPropagating()
+    if not r51 goto L189 else goto L50 :: bool
+L50:
+    unreachable
+L51:
+    r52 = r4.__mypyc_temp__8
+    if is_error(r52) goto L210 (error at __call__:-1) else goto L52
+L52:
+    r53 = CPyIter_Send(r52, r40)
+    dec_ref r52
+    dec_ref r40
+    if is_error(r53) goto L211 else goto L53
+L53:
+    r36 = r53
+    goto L28
+L54:
+    r54 = CPy_FetchStopIterationValue()
+    if is_error(r54) goto L202 (error at __call__:92) else goto L55
+L55:
+    r35 = r54
+    dec_ref r35
+    goto L172
+L56:
+    r55 = PyDict_New()
+    if is_error(r55) goto L212 (error at __call__:94) else goto L57
+L57:
+    r4.__mypyc_temp__10 = r55; r56 = is_error
+    if not r56 goto L212 (error at __call__:-1) else goto L58 :: bool
+L58:
+    r57 = r4.scope
+    if is_error(r57) goto L212 (error at __call__:94) else goto L59
+L59:
+    r58 = 'headers'
+    r59 = CPyDict_GetItem(r57, r58)
+    dec_ref r57
+    if is_error(r59) goto L212 (error at __call__:94) else goto L60
+L60:
+    r60 = PyObject_GetIter(r59)
+    if is_error(r60) goto L213 (error at __call__:94) else goto L61
+L61:
+    r4.__mypyc_temp__11 = r59; r61 = is_error
+    if not r61 goto L214 (error at __call__:-1) else goto L62 :: bool
+L62:
+    r4.__mypyc_temp__12 = r60; r62 = is_error
+    if not r62 goto L212 (error at __call__:-1) else goto L63 :: bool
+L63:
+    r63 = r4.__mypyc_temp__12
+    if is_error(r63) goto L212 (error at __call__:94) else goto L64
+L64:
+    r64 = PyIter_Next(r63)
+    dec_ref r63
+    if is_error(r64) goto L84 else goto L65
+L65:
+    r65 = PyObject_GetIter(r64)
+    dec_ref r64
+    if is_error(r65) goto L212 (error at __call__:94) else goto L66
+L66:
+    r66 = PyIter_Next(r65)
+    if is_error(r66) goto L215 else goto L69
+L67:
+    r67 = raise ValueError('not enough values to unpack')
+    if not r67 goto L189 (error at __call__:94) else goto L68 :: bool
+L68:
+    unreachable
+L69:
+    r4.name = r66; r68 = is_error
+    if not r68 goto L216 (error at __call__:94) else goto L70 :: bool
+L70:
+    r69 = PyIter_Next(r65)
+    if is_error(r69) goto L217 else goto L73
+L71:
+    r70 = raise ValueError('not enough values to unpack')
+    if not r70 goto L189 (error at __call__:94) else goto L72 :: bool
+L72:
+    unreachable
+L73:
+    r4.value = r69; r71 = is_error
+    if not r71 goto L216 (error at __call__:94) else goto L74 :: bool
+L74:
+    r72 = PyIter_Next(r65)
+    dec_ref r65
+    if is_error(r72) goto L77 else goto L218
+L75:
+    r73 = raise ValueError('too many values to unpack')
+    if not r73 goto L189 (error at __call__:94) else goto L76 :: bool
+L76:
+    unreachable
+L77:
+    r74 = r4.name
+    if is_error(r74) goto L212 (error at __call__:94) else goto L78
+L78:
+    r75 = 'decode'
+    r76 = [r74]
+    r77 = load_address r76
+    r78 = PyObject_VectorcallMethod(r75, r77, 9223372036854775809, 0)
+    if is_error(r78) goto L219 (error at __call__:94) else goto L79
+L79:
+    dec_ref r74
+    r79 = 'lower'
+    r80 = [r78]
+    r81 = load_address r80
+    r82 = PyObject_VectorcallMethod(r79, r81, 9223372036854775809, 0)
+    if is_error(r82) goto L220 (error at __call__:94) else goto L80
+L80:
+    dec_ref r78
+    r83 = r4.value
+    if is_error(r83) goto L221 (error at __call__:94) else goto L81
+L81:
+    r84 = 'decode'
+    r85 = [r83]
+    r86 = load_address r85
+    r87 = PyObject_VectorcallMethod(r84, r86, 9223372036854775809, 0)
+    if is_error(r87) goto L222 (error at __call__:94) else goto L82
+L82:
+    dec_ref r83
+    r88 = r4.__mypyc_temp__10
+    if is_error(r88) goto L223 (error at __call__:-1) else goto L83
+L83:
+    r89 = CPyDict_SetItem(r88, r82, r87)
+    dec_ref r88
+    dec_ref r82
+    dec_ref r87
+    r90 = r89 >= 0 :: signed
+    if not r90 goto L212 (error at __call__:94) else goto L63 :: bool
+L84:
+    r91 = CPy_NoErrOccured()
+    if not r91 goto L212 (error at __call__:94) else goto L85 :: bool
+L85:
+    r92 = r4.__mypyc_temp__10
+    if is_error(r92) goto L212 (error at __call__:-1) else goto L86
+L86:
+    r4.headers = r92; r93 = is_error
+    if not r93 goto L212 (error at __call__:94) else goto L87 :: bool
+L87:
+    r94 = r4.self
+    if is_error(r94) goto L212 (error at __call__:96) else goto L88
+L88:
+    r95 = r94.header_names
+    dec_ref r94
+    if is_error(r95) goto L212 (error at __call__:96) else goto L89
+L89:
+    r96 = PyObject_GetIter(r95)
+    if is_error(r96) goto L224 (error at __call__:96) else goto L90
+L90:
+    r4.__mypyc_temp__13 = r95; r97 = is_error
+    if not r97 goto L225 (error at __call__:-1) else goto L91 :: bool
+L91:
+    r4.__mypyc_temp__14 = r96; r98 = is_error
+    if not r98 goto L212 (error at __call__:-1) else goto L92 :: bool
+L92:
+    r99 = r4.__mypyc_temp__14
+    if is_error(r99) goto L212 (error at __call__:96) else goto L93
+L93:
+    r100 = PyIter_Next(r99)
+    dec_ref r99
+    if is_error(r100) goto L130 else goto L94
+L94:
+    r101 = cast(str, r100)
+    if is_error(r101) goto L212 (error at __call__:96) else goto L95
+L95:
+    r4.name = r101; r102 = is_error
+    if not r102 goto L212 (error at __call__:96) else goto L96 :: bool
+L96:
+    r103 = r4.headers
+    if is_error(r103) goto L212 (error at __call__:97) else goto L97
+L97:
+    r104 = r4.name
+    if is_error(r104) goto L226 (error at __call__:97) else goto L98
+L98:
+    r105 = 'lower'
+    r106 = [r104]
+    r107 = load_address r106
+    r108 = PyObject_VectorcallMethod(r105, r107, 9223372036854775809, 0)
+    if is_error(r108) goto L227 (error at __call__:97) else goto L99
+L99:
+    dec_ref r104
+    r109 = cast(str, r108)
+    if is_error(r109) goto L226 (error at __call__:97) else goto L100
+L100:
+    r110 = CPyDict_GetWithNone(r103, r109)
+    dec_ref r103
+    dec_ref r109
+    if is_error(r110) goto L212 (error at __call__:97) else goto L101
+L101:
+    r4.header_value = r110; r111 = is_error
+    if not r111 goto L212 (error at __call__:97) else goto L102 :: bool
+L102:
+    r112 = r4.self
+    if is_error(r112) goto L212 (error at __call__:99) else goto L103
+L103:
+    r113 = r112.validators
+    dec_ref r112
+    if is_error(r113) goto L212 (error at __call__:99) else goto L104
+L104:
+    r114 = r4.name
+    if is_error(r114) goto L228 (error at __call__:99) else goto L105
+L105:
+    r115 = CPyDict_GetWithNone(r113, r114)
+    dec_ref r113
+    dec_ref r114
+    if is_error(r115) goto L212 (error at __call__:99) else goto L106
+L106:
+    inc_ref r115
+    r4.validate = r115; r116 = is_error
+    if not r116 goto L229 (error at __call__:99) else goto L107 :: bool
+L107:
+    r117 = PyObject_IsTrue(r115)
+    dec_ref r115
+    r118 = r117 >= 0 :: signed
+    if not r118 goto L212 (error at __call__:99) else goto L108 :: bool
+L108:
+    r119 = truncate r117: int32 to builtins.bool
+    if r119 goto L109 else goto L125 :: bool
+L109:
+    r120 = r4.header_value
+    if is_error(r120) goto L212 (error at __call__:99) else goto L110
+L110:
+    r121 = load_address _Py_NoneStruct
+    r122 = r120 != r121
+    if r122 goto L111 else goto L230 :: bool
+L111:
+    r123 = cast(object, r120)
+    if is_error(r123) goto L212 (error at __call__:99) else goto L112
+L112:
+    r124 = PyObject_IsTrue(r123)
+    dec_ref r123
+    r125 = r124 >= 0 :: signed
+    if not r125 goto L212 (error at __call__:99) else goto L113 :: bool
+L113:
+    r126 = truncate r124: int32 to builtins.bool
+    if r126 goto L114 else goto L125 :: bool
+L114:
+    r127 = r4.header_value
+    if is_error(r127) goto L212 (error at __call__:100) else goto L115
+L115:
+    r128 = r4.validate
+    if is_error(r128) goto L231 (error at __call__:100) else goto L116
+L116:
+    r129 = [r127]
+    r130 = load_address r129
+    r131 = _PyObject_Vectorcall(r128, r130, 1, 0)
+    dec_ref r128
+    if is_error(r131) goto L231 (error at __call__:100) else goto L117
+L117:
+    dec_ref r127
+    r132 = unbox(bool, r131)
+    dec_ref r131
+    if is_error(r132) goto L212 (error at __call__:100) else goto L118
+L118:
+    if r132 goto L125 else goto L232 :: bool
+L119:
+    r133 = 'Header '
+    r134 = r4.name
+    dec_ref r4
+    if is_error(r134) goto L189 (error at __call__:101) else goto L120
+L120:
+    r135 = ' failed validation'
+    r136 = CPyStr_Build(3, r133, r134, r135)
+    dec_ref r134
+    if is_error(r136) goto L189 (error at __call__:101) else goto L121
+L121:
+    r137 = asgi_context.HeaderValidationException :: type
+    r138 = [r136]
+    r139 = load_address r138
+    r140 = _PyObject_Vectorcall(r137, r139, 1, 0)
+    if is_error(r140) goto L233 (error at __call__:101) else goto L122
+L122:
+    dec_ref r136
+    r141 = cast(asgi_context.HeaderValidationException, r140)
+    if is_error(r141) goto L189 (error at __call__:101) else goto L123
+L123:
+    CPy_Raise(r141)
+    dec_ref r141
+    if not 0 goto L189 (error at __call__:101) else goto L124 :: bool
+L124:
+    unreachable
+L125:
+    r142 = r4.header_value
+    if is_error(r142) goto L212 (error at __call__:103) else goto L126
+L126:
+    r143 = asgi_context.globals :: static
+    r144 = 'http_request_context'
+    r145 = CPyDict_GetItem(r143, r144)
+    if is_error(r145) goto L234 (error at __call__:103) else goto L127
+L127:
+    r146 = cast(asgi_context.Context, r145)
+    if is_error(r146) goto L234 (error at __call__:103) else goto L128
+L128:
+    r147 = r4.name
+    if is_error(r147) goto L235 (error at __call__:103) else goto L129
+L129:
+    r148 = PyObject_SetItem(r146, r147, r142)
+    dec_ref r146
+    dec_ref r147
+    dec_ref r142
+    r149 = r148 >= 0 :: signed
+    if not r149 goto L212 (error at __call__:103) else goto L92 :: bool
+L130:
+    r150 = CPy_NoErrOccured()
+    if not r150 goto L212 (error at __call__:96) else goto L131 :: bool
+L131:
+    r151 = r4.self
+    if is_error(r151) goto L212 (error at __call__:105) else goto L132
+L132:
+    r152 = r4.scope
+    if is_error(r152) goto L236 (error at __call__:105) else goto L133
+L133:
+    r153 = r4.receive
+    if is_error(r153) goto L237 (error at __call__:105) else goto L134
+L134:
+    r154 = r4.send
+    if is_error(r154) goto L238 (error at __call__:105) else goto L135
+L135:
+    r155 = r151.app
+    dec_ref r151
+    if is_error(r155) goto L239 (error at __call__:105) else goto L136
+L136:
+    r156 = [r152, r153, r154]
+    r157 = load_address r156
+    r158 = _PyObject_Vectorcall(r155, r157, 3, 0)
+    dec_ref r155
+    if is_error(r158) goto L239 (error at __call__:105) else goto L137
+L137:
+    dec_ref r152
+    dec_ref r153
+    dec_ref r154
+    r159 = CPy_GetCoro(r158)
+    dec_ref r158
+    if is_error(r159) goto L212 (error at __call__:105) else goto L138
+L138:
+    r4.__mypyc_temp__15 = r159; r160 = is_error
+    if not r160 goto L212 (error at __call__:-1) else goto L139 :: bool
+L139:
+    r161 = r4.__mypyc_temp__15
+    if is_error(r161) goto L212 (error at __call__:-1) else goto L140
+L140:
+    r162 = CPyIter_Next(r161)
+    dec_ref r161
+    if is_error(r162) goto L240 else goto L143
+L141:
+    r163 = CPy_FetchStopIterationValue()
+    if is_error(r163) goto L202 (error at __call__:105) else goto L142
+L142:
+    r164 = r163
+    dec_ref r164
+    goto L172
+L143:
+    r165 = r162
+L144:
+    r4.__mypyc_next_label__ = 4; r166 = is_error
+    if not r166 goto L241 (error at __call__:105) else goto L242 :: bool
+L145:
+    return r165
+L146:
+    r167 = load_address _Py_NoneStruct
+    r168 = type != r167
+    if r168 goto L147 else goto L149 :: bool
+L147:
+    CPyErr_SetObjectAndTraceback(type, value, traceback)
+    if not 0 goto L150 (error at __call__:105) else goto L243 :: bool
+L148:
+    unreachable
+L149:
+    inc_ref arg
+    r169 = arg
+    goto L167
+L150:
+    r170 = CPy_CatchError()
+    r4.__mypyc_temp__16 = r170; r171 = is_error
+    if not r171 goto L244 (error at __call__:-1) else goto L151 :: bool
+L151:
+    r172 = load_address r3
+    r173 = r4.__mypyc_temp__15
+    if is_error(r173) goto L244 (error at __call__:-1) else goto L152
+L152:
+    r174 = CPy_YieldFromErrorHandle(r173, r172)
+    dec_ref r173
+    if is_error(r174) goto L244 (error at __call__:105) else goto L153
+L153:
+    if r174 goto L159 else goto L154 :: bool
+L154:
+    if is_error(r3) goto L155 else goto L157
+L155:
+    r175 = raise UnboundLocalError('local variable "" referenced before assignment')
+    if not r175 goto L164 (error at __call__:-1) else goto L245 :: bool
+L156:
+    unreachable
+L157:
+    inc_ref r3
+    r165 = r3
+    r176 = r4.__mypyc_temp__16
+    if is_error(r176) goto L246 (error at __call__:-1) else goto L158
+L158:
+    CPy_RestoreExcInfo(r176)
+    dec_ref r176
+    goto L144
+L159:
+    if is_error(r3) goto L160 else goto L162
+L160:
+    r177 = raise UnboundLocalError('local variable "" referenced before assignment')
+    if not r177 goto L164 (error at __call__:-1) else goto L247 :: bool
+L161:
+    unreachable
+L162:
+    r164 = r3
+    dec_ref r164
+    r178 = r4.__mypyc_temp__16
+    if is_error(r178) goto L164 (error at __call__:-1) else goto L163
+L163:
+    CPy_RestoreExcInfo(r178)
+    dec_ref r178
+    goto L172
+L164:
+    r179 = r4.__mypyc_temp__16
+    dec_ref r4
+    if is_error(r179) goto L189 (error at __call__:-1) else goto L165
+L165:
+    CPy_RestoreExcInfo(r179)
+    dec_ref r179
+    r180 = CPy_KeepPropagating()
+    if not r180 goto L189 else goto L166 :: bool
+L166:
+    unreachable
+L167:
+    r181 = r4.__mypyc_temp__15
+    if is_error(r181) goto L248 (error at __call__:-1) else goto L168
+L168:
+    r182 = CPyIter_Send(r181, r169)
+    dec_ref r181
+    dec_ref r169
+    if is_error(r182) goto L249 else goto L169
+L169:
+    r165 = r182
+    goto L144
+L170:
+    r183 = CPy_FetchStopIterationValue()
+    if is_error(r183) goto L202 (error at __call__:105) else goto L171
+L171:
+    r164 = r183
+    dec_ref r164
+L172:
+    r184 = box(None, 1)
+    r4.__mypyc_next_label__ = -2; r185 = is_error
+    dec_ref r4
+    if not r185 goto L189 (error at __call__:88) else goto L173 :: bool
+L173:
+    CPyGen_SetStopIterationValue(r184)
+    if not 0 goto L189 else goto L174 :: bool
+L174:
+    unreachable
+L175:
+    r186 = r5 & 1
+    r187 = r186 == 0
+    if r187 goto L176 else goto L177 :: bool
+L176:
+    r188 = r5 == 0
+    r189 = r188
+    goto L178
+L177:
+    r190 = CPyTagged_IsEq_(r5, 0)
+    r189 = r190
+L178:
+    if r189 goto L250 else goto L179 :: bool
+L179:
+    r191 = r5 & 1
+    r192 = r191 == 0
+    if r192 goto L180 else goto L181 :: bool
+L180:
+    r193 = r5 == 2
+    r194 = r193
+    goto L182
+L181:
+    r195 = CPyTagged_IsEq_(r5, 2)
+    r194 = r195
+L182:
+    if r194 goto L251 else goto L252 :: bool
+L183:
+    r196 = r5 & 1
+    r197 = r196 == 0
+    if r197 goto L184 else goto L185 :: bool
+L184:
+    r198 = r5 == 4
+    dec_ref r5 :: int
+    r199 = r198
+    goto L186
+L185:
+    r200 = CPyTagged_IsEq_(r5, 4)
+    dec_ref r5 :: int
+    r199 = r200
+L186:
+    if r199 goto L146 else goto L253 :: bool
+L187:
+    r201 = raise StopIteration
+    if not r201 goto L189 (error at __call__:88) else goto L188 :: bool
+L188:
+    unreachable
+L189:
+    r202 = <error> :: object
+    return r202
+L190:
+    xdec_ref r1
+    xdec_ref r3
+    goto L189
+L191:
+    xdec_ref r1
+    xdec_ref r3
+    dec_ref r4
+    goto L189
+L192:
+    xdec_ref r1
+    xdec_ref r3
+    dec_ref r4
+    goto L3
+L193:
+    xdec_ref r1
+    xdec_ref r3
+    dec_ref r4
+    goto L8
+L194:
+    xdec_ref r1
+    goto L56
+L195:
+    xdec_ref r3
+    goto L15
+L196:
+    xdec_ref r1
+    dec_ref r4
+    goto L189
+L197:
+    xdec_ref r1
+    dec_ref r4
+    dec_ref r22
+    goto L189
+L198:
+    xdec_ref r1
+    dec_ref r4
+    dec_ref r22
+    dec_ref r23
+    goto L189
+L199:
+    xdec_ref r1
+    dec_ref r4
+    dec_ref r22
+    dec_ref r23
+    dec_ref r24
+    goto L189
+L200:
+    xdec_ref r1
+    dec_ref r4
+    dec_ref r23
+    dec_ref r24
+    dec_ref r25
+    goto L189
+L201:
+    xdec_ref r1
+    goto L25
+L202:
+    dec_ref r4
+    goto L189
+L203:
+    dec_ref r36
+    goto L34
+L204:
+    xdec_ref r1
+    dec_ref r4
+    goto L29
+L205:
+    xdec_ref r1
+    dec_ref r4
+    goto L32
+L206:
+    xdec_ref r1
+    goto L48
+L207:
+    dec_ref r4
+    goto L40
+L208:
+    xdec_ref r1
+    dec_ref r36
+    goto L48
+L209:
+    dec_ref r4
+    goto L45
+L210:
+    xdec_ref r1
+    dec_ref r4
+    dec_ref r40
+    goto L189
+L211:
+    xdec_ref r1
+    goto L54
+L212:
+    xdec_ref r3
+    dec_ref r4
+    goto L189
+L213:
+    xdec_ref r3
+    dec_ref r4
+    dec_ref r59
+    goto L189
+L214:
+    xdec_ref r3
+    dec_ref r4
+    dec_ref r60
+    goto L189
+L215:
+    xdec_ref r3
+    dec_ref r4
+    dec_ref r65
+    goto L67
+L216:
+    xdec_ref r3
+    dec_ref r4
+    dec_ref r65
+    goto L189
+L217:
+    xdec_ref r3
+    dec_ref r4
+    dec_ref r65
+    goto L71
+L218:
+    xdec_ref r3
+    dec_ref r4
+    dec_ref r72
+    goto L75
+L219:
+    xdec_ref r3
+    dec_ref r4
+    dec_ref r74
+    goto L189
+L220:
+    xdec_ref r3
+    dec_ref r4
+    dec_ref r78
+    goto L189
+L221:
+    xdec_ref r3
+    dec_ref r4
+    dec_ref r82
+    goto L189
+L222:
+    xdec_ref r3
+    dec_ref r4
+    dec_ref r82
+    dec_ref r83
+    goto L189
+L223:
+    xdec_ref r3
+    dec_ref r4
+    dec_ref r82
+    dec_ref r87
+    goto L189
+L224:
+    xdec_ref r3
+    dec_ref r4
+    dec_ref r95
+    goto L189
+L225:
+    xdec_ref r3
+    dec_ref r4
+    dec_ref r96
+    goto L189
+L226:
+    xdec_ref r3
+    dec_ref r4
+    dec_ref r103
+    goto L189
+L227:
+    xdec_ref r3
+    dec_ref r4
+    dec_ref r103
+    dec_ref r104
+    goto L189
+L228:
+    xdec_ref r3
+    dec_ref r4
+    dec_ref r113
+    goto L189
+L229:
+    xdec_ref r3
+    dec_ref r4
+    dec_ref r115
+    goto L189
+L230:
+    dec_ref r120
+    goto L125
+L231:
+    xdec_ref r3
+    dec_ref r4
+    dec_ref r127
+    goto L189
+L232:
+    xdec_ref r3
+    goto L119
+L233:
+    dec_ref r136
+    goto L189
+L234:
+    xdec_ref r3
+    dec_ref r4
+    dec_ref r142
+    goto L189
+L235:
+    xdec_ref r3
+    dec_ref r4
+    dec_ref r142
+    dec_ref r146
+    goto L189
+L236:
+    xdec_ref r3
+    dec_ref r4
+    dec_ref r151
+    goto L189
+L237:
+    xdec_ref r3
+    dec_ref r4
+    dec_ref r151
+    dec_ref r152
+    goto L189
+L238:
+    xdec_ref r3
+    dec_ref r4
+    dec_ref r151
+    dec_ref r152
+    dec_ref r153
+    goto L189
+L239:
+    xdec_ref r3
+    dec_ref r4
+    dec_ref r152
+    dec_ref r153
+    dec_ref r154
+    goto L189
+L240:
+    xdec_ref r3
+    goto L141
+L241:
+    dec_ref r165
+    goto L150
+L242:
+    xdec_ref r3
+    dec_ref r4
+    goto L145
+L243:
+    xdec_ref r3
+    dec_ref r4
+    goto L148
+L244:
+    xdec_ref r3
+    goto L164
+L245:
+    dec_ref r4
+    goto L156
+L246:
+    xdec_ref r3
+    dec_ref r165
+    goto L164
+L247:
+    dec_ref r4
+    goto L161
+L248:
+    xdec_ref r3
+    dec_ref r4
+    dec_ref r169
+    goto L189
+L249:
+    xdec_ref r3
+    goto L170
+L250:
+    dec_ref r5 :: int
+    goto L2
+L251:
+    xdec_ref r3
+    dec_ref r5 :: int
+    goto L30
+L252:
+    xdec_ref r1
+    goto L183
+L253:
+    xdec_ref r3
+    dec_ref r4
+    goto L187
+
+def __call___AbstractHeadersExtractorMiddleware_gen.__next__(__mypyc_self__):
+    __mypyc_self__ :: asgi_context.__call___AbstractHeadersExtractorMiddleware_gen
+    r0, r1, r2 :: object
+L0:
+    r0 = load_address _Py_NoneStruct
+    r1 = __call___AbstractHeadersExtractorMiddleware_gen.__mypyc_generator_helper__(__mypyc_self__, r0, r0, r0, r0)
+    if is_error(r1) goto L2 else goto L1
+L1:
+    return r1
+L2:
+    r2 = <error> :: object
+    return r2
+
+def __call___AbstractHeadersExtractorMiddleware_gen.send(__mypyc_self__, arg):
+    __mypyc_self__ :: asgi_context.__call___AbstractHeadersExtractorMiddleware_gen
+    arg, r0, r1, r2 :: object
+L0:
+    r0 = load_address _Py_NoneStruct
+    r1 = __call___AbstractHeadersExtractorMiddleware_gen.__mypyc_generator_helper__(__mypyc_self__, r0, r0, r0, arg)
+    if is_error(r1) goto L2 else goto L1
+L1:
+    return r1
+L2:
+    r2 = <error> :: object
+    return r2
+
+def __call___AbstractHeadersExtractorMiddleware_gen.__iter__(__mypyc_self__):
+    __mypyc_self__ :: asgi_context.__call___AbstractHeadersExtractorMiddleware_gen
+L0:
+    inc_ref __mypyc_self__
+    return __mypyc_self__
+
+def __call___AbstractHeadersExtractorMiddleware_gen.throw(__mypyc_self__, type, value, traceback):
+    __mypyc_self__ :: asgi_context.__call___AbstractHeadersExtractorMiddleware_gen
+    type, value, traceback, r0, r1, r2 :: object
+L0:
+    r0 = load_address _Py_NoneStruct
+    if is_error(value) goto L1 else goto L7
+L1:
+    inc_ref r0
+    value = r0
+L2:
+    if is_error(traceback) goto L3 else goto L8
+L3:
+    inc_ref r0
+    traceback = r0
+L4:
+    r1 = __call___AbstractHeadersExtractorMiddleware_gen.__mypyc_generator_helper__(__mypyc_self__, type, value, traceback, r0)
+    dec_ref value
+    dec_ref traceback
+    if is_error(r1) goto L6 else goto L5
+L5:
+    return r1
+L6:
+    r2 = <error> :: object
+    return r2
+L7:
+    inc_ref value
+    goto L2
+L8:
+    inc_ref traceback
+    goto L4
+
+def __call___AbstractHeadersExtractorMiddleware_gen.close(__mypyc_self__):
+    __mypyc_self__ :: asgi_context.__call___AbstractHeadersExtractorMiddleware_gen
+    r0 :: object
+    r1 :: str
+    r2, r3, r4, r5 :: object
+    r6 :: tuple[object, object, object]
+    r7 :: object
+    r8 :: str
+    r9 :: object
+    r10 :: tuple[object, object]
+    r11 :: object
+    r12 :: bit
+    r13 :: object
+    r14 :: bool
+    r15 :: object
+L0:
+L1:
+    r0 = builtins :: module
+    r1 = 'GeneratorExit'
+    r2 = CPyObject_GetAttr(r0, r1)
+    if is_error(r2) goto L3 else goto L2
+L2:
+    r3 = load_address _Py_NoneStruct
+    r4 = load_address _Py_NoneStruct
+    r5 = __mypyc_self__.throw(r2, r3, r4)
+    if is_error(r5) goto L3 else goto L11
+L3:
+    r6 = CPy_CatchError()
+    r7 = builtins :: module
+    r8 = 'StopIteration'
+    r9 = CPyObject_GetAttr(r7, r8)
+    if is_error(r9) goto L12 else goto L4
+L4:
+    r10 = (r2, r9)
+    dec_ref r2
+    dec_ref r9
+    r11 = box(tuple[object, object], r10)
+    r12 = CPy_ExceptionMatches(r11)
+    dec_ref r11
+    if r12 goto L5 else goto L13 :: bool
+L5:
+    CPy_RestoreExcInfo(r6)
+    dec_ref r6
+    r13 = load_address _Py_NoneStruct
+    inc_ref r13
+    return r13
+L6:
+    CPy_Reraise()
+    if not 0 goto L10 else goto L7 :: bool
+L7:
+    unreachable
+L8:
+    r14 = raise RuntimeError('generator ignored GeneratorExit')
+    if not r14 goto L10 else goto L9 :: bool
+L9:
+    unreachable
+L10:
+    r15 = <error> :: object
+    return r15
+L11:
+    dec_ref r2
+    dec_ref r5
+    goto L8
+L12:
+    dec_ref r2
+    dec_ref r6
+    goto L10
+L13:
+    dec_ref r6
+    goto L6
+
+def __call___AbstractHeadersExtractorMiddleware_gen.__await__(__mypyc_self__):
+    __mypyc_self__ :: asgi_context.__call___AbstractHeadersExtractorMiddleware_gen
+L0:
+    inc_ref __mypyc_self__
+    return __mypyc_self__
+
+def AbstractHeadersExtractorMiddleware.__call__(self, scope, receive, send):
+    self :: asgi_context.AbstractHeadersExtractorMiddleware
+    scope :: dict
+    receive, send :: object
+    r0 :: asgi_context.__call___AbstractHeadersExtractorMiddleware_env
+    r1, r2, r3, r4 :: bool
+    r5 :: asgi_context.__call___AbstractHeadersExtractorMiddleware_gen
+    r6, r7 :: bool
+    r8 :: object
+L0:
+    r0 = __call___AbstractHeadersExtractorMiddleware_env()
+    if is_error(r0) goto L9 (error at __call__:88) else goto L1
+L1:
+    inc_ref self
+    r0.self = self; r1 = is_error
+    if not r1 goto L10 (error at __call__:88) else goto L2 :: bool
+L2:
+    inc_ref scope
+    r0.scope = scope; r2 = is_error
+    if not r2 goto L10 (error at __call__:88) else goto L3 :: bool
+L3:
+    inc_ref receive
+    r0.receive = receive; r3 = is_error
+    if not r3 goto L10 (error at __call__:88) else goto L4 :: bool
+L4:
+    inc_ref send
+    r0.send = send; r4 = is_error
+    if not r4 goto L10 (error at __call__:88) else goto L5 :: bool
+L5:
+    r5 = __call___AbstractHeadersExtractorMiddleware_gen()
+    if is_error(r5) goto L10 (error at __call__:88) else goto L6
+L6:
+    inc_ref r0
+    r5.__mypyc_env__ = r0; r6 = is_error
+    if not r6 goto L11 (error at __call__:88) else goto L7 :: bool
+L7:
+    r0.__mypyc_next_label__ = 0; r7 = is_error
+    dec_ref r0
+    if not r7 goto L12 (error at __call__:88) else goto L8 :: bool
+L8:
+    return r5
+L9:
+    r8 = <error> :: object
+    return r8
+L10:
+    dec_ref r0
+    goto L9
+L11:
+    dec_ref r0
+    dec_ref r5
+    goto L9
+L12:
+    dec_ref r5
+    goto L9
+
+def __mypyc_lambda__0_build_HeadersExtractorMiddlewareFactory_obj.__get__(__mypyc_self__, instance, owner):
+    __mypyc_self__, instance, owner, r0 :: object
+    r1 :: bit
+    r2, r3 :: object
+L0:
+    r0 = load_address _Py_NoneStruct
+    r1 = instance == r0
+    if r1 goto L1 else goto L2 :: bool
+L1:
+    inc_ref __mypyc_self__
+    return __mypyc_self__
+L2:
+    r2 = PyMethod_New(__mypyc_self__, instance)
+    if is_error(r2) goto L4 else goto L3
+L3:
+    return r2
+L4:
+    r3 = <error> :: object
+    return r3
+
+def __mypyc_lambda__0_build_HeadersExtractorMiddlewareFactory_obj.__call__(__mypyc_self__, self):
+    __mypyc_self__ :: asgi_context.__mypyc_lambda__0_build_HeadersExtractorMiddlewareFactory_obj
+    self :: object
+    r0 :: asgi_context.build_HeadersExtractorMiddlewareFactory_env
+    r1 :: object
+    r2, r3 :: tuple
+L0:
+    r0 = __mypyc_self__.__mypyc_env__
+    if is_error(r0) goto L4 (error at <lambda>:117) else goto L1
+L1:
+    r1 = r0.header_names
+    dec_ref r0
+    if is_error(r1) goto L4 (error at <lambda>:117) else goto L2
+L2:
+    r2 = PySequence_Tuple(r1)
+    dec_ref r1
+    if is_error(r2) goto L4 (error at <lambda>:117) else goto L3
+L3:
+    return r2
+L4:
+    r3 = <error> :: tuple
+    return r3
+
+def __mypyc_lambda__1_build_HeadersExtractorMiddlewareFactory_obj.__get__(__mypyc_self__, instance, owner):
+    __mypyc_self__, instance, owner, r0 :: object
+    r1 :: bit
+    r2, r3 :: object
+L0:
+    r0 = load_address _Py_NoneStruct
+    r1 = instance == r0
+    if r1 goto L1 else goto L2 :: bool
+L1:
+    inc_ref __mypyc_self__
+    return __mypyc_self__
+L2:
+    r2 = PyMethod_New(__mypyc_self__, instance)
+    if is_error(r2) goto L4 else goto L3
+L3:
+    return r2
+L4:
+    r3 = <error> :: object
+    return r3
+
+def __mypyc_lambda__1_build_HeadersExtractorMiddlewareFactory_obj.__call__(__mypyc_self__, self):
+    __mypyc_self__ :: asgi_context.__mypyc_lambda__1_build_HeadersExtractorMiddlewareFactory_obj
+    self :: object
+    r0 :: asgi_context.build_HeadersExtractorMiddlewareFactory_env
+    r1 :: union[dict, None]
+    r2 :: object
+    r3 :: bit
+    r4 :: dict
+    r5 :: native_int
+    r6 :: short_int
+    r7 :: bit
+    r8, r9, r10, r11 :: dict
+L0:
+    r0 = __mypyc_self__.__mypyc_env__
+    if is_error(r0) goto L10 (error at <lambda>:118) else goto L1
+L1:
+    r1 = r0.validators
+    dec_ref r0
+    if is_error(r1) goto L10 (error at <lambda>:118) else goto L2
+L2:
+    r2 = load_address _Py_NoneStruct
+    r3 = r1 != r2
+    if r3 goto L3 else goto L11 :: bool
+L3:
+    inc_ref r1
+    r4 = cast(dict, r1)
+    if is_error(r4) goto L12 (error at <lambda>:118) else goto L4
+L4:
+    r5 = PyDict_Size(r4)
+    dec_ref r4
+    r6 = r5 << 1
+    r7 = r6 != 0
+    if r7 goto L5 else goto L11 :: bool
+L5:
+    r8 = cast(dict, r1)
+    if is_error(r8) goto L10 (error at <lambda>:118) else goto L6
+L6:
+    r9 = r8
+    goto L9
+L7:
+    r10 = PyDict_New()
+    if is_error(r10) goto L10 (error at <lambda>:118) else goto L8
+L8:
+    r9 = r10
+L9:
+    return r9
+L10:
+    r11 = <error> :: dict
+    return r11
+L11:
+    dec_ref r1
+    goto L7
+L12:
+    dec_ref r1
+    goto L10
+
+def HeadersExtractorMiddlewareFactory.build(base_name, header_names, validators):
+    base_name :: str
+    header_names :: object
+    validators :: union[dict, None]
+    r0 :: object
+    r1 :: asgi_context.build_HeadersExtractorMiddlewareFactory_env
+    r2, r3 :: bool
+    r4 :: str
+    r5 :: object[1]
+    r6 :: object_ptr
+    r7 :: object
+    r8, r9, r10, r11, r12 :: str
+    r13, name_parts :: list
+    r14 :: str
+    r15 :: ptr
+    r16 :: native_int
+    r17 :: list
+    r18 :: short_int
+    r19 :: ptr
+    r20 :: native_int
+    r21 :: short_int
+    r22 :: bit
+    r23 :: object
+    r24, name_part, r25 :: str
+    r26 :: object[1]
+    r27 :: object_ptr
+    r28 :: object
+    r29 :: str
+    r30 :: bit
+    r31 :: short_int
+    r32, name :: str
+    r33 :: asgi_context.__mypyc_lambda__0_build_HeadersExtractorMiddlewareFactory_obj
+    r34 :: bool
+    header_names_property :: object
+    r35 :: asgi_context.__mypyc_lambda__1_build_HeadersExtractorMiddlewareFactory_obj
+    r36 :: bool
+    validators_property :: object
+    r37, r38 :: str
+    r39 :: object
+    r40 :: tuple[object]
+    r41 :: str
+    r42 :: dict
+    r43 :: str
+    r44 :: object
+    r45 :: object[1]
+    r46 :: object_ptr
+    r47 :: object
+    r48 :: str
+    r49 :: dict
+    r50 :: str
+    r51 :: object
+    r52 :: object[1]
+    r53 :: object_ptr
+    r54 :: object
+    r55 :: dict
+    r56, r57 :: object
+    r58 :: object[3]
+    r59 :: object_ptr
+    r60, r61 :: object
+L0:
+    if is_error(validators) goto L1 else goto L31
+L1:
+    r0 = box(None, 1)
+    inc_ref r0
+    validators = r0
+L2:
+    r1 = build_HeadersExtractorMiddlewareFactory_env()
+    if is_error(r1) goto L32 (error at build:110) else goto L3
+L3:
+    inc_ref header_names
+    r1.header_names = header_names; r2 = is_error
+    if not r2 goto L33 (error at build:110) else goto L4 :: bool
+L4:
+    r1.validators = validators; r3 = is_error
+    if not r3 goto L34 (error at build:110) else goto L5 :: bool
+L5:
+    r4 = 'lower'
+    r5 = [base_name]
+    r6 = load_address r5
+    r7 = PyObject_VectorcallMethod(r4, r6, 9223372036854775809, 0)
+    if is_error(r7) goto L34 (error at build:115) else goto L6
+L6:
+    r8 = cast(str, r7)
+    if is_error(r8) goto L34 (error at build:115) else goto L7
+L7:
+    r9 = ' '
+    r10 = '_'
+    r11 = PyUnicode_Replace(r8, r9, r10, -1)
+    dec_ref r8
+    if is_error(r11) goto L34 (error at build:115) else goto L8
+L8:
+    r12 = '_'
+    r13 = PyUnicode_Split(r11, r12, -1)
+    dec_ref r11
+    if is_error(r13) goto L34 (error at build:115) else goto L9
+L9:
+    name_parts = r13
+    r14 = ''
+    r15 = get_element_ptr name_parts ob_size :: PyVarObject
+    r16 = load_mem r15 :: native_int*
+    r17 = PyList_New(r16)
+    if is_error(r17) goto L35 (error at build:116) else goto L10
+L10:
+    r18 = 0
+L11:
+    r19 = get_element_ptr name_parts ob_size :: PyVarObject
+    r20 = load_mem r19 :: native_int*
+    r21 = r20 << 1
+    r22 = r18 < r21 :: signed
+    if r22 goto L12 else goto L36 :: bool
+L12:
+    r23 = CPyList_GetItemUnsafe(name_parts, r18)
+    r24 = cast(str, r23)
+    if is_error(r24) goto L37 (error at build:116) else goto L13
+L13:
+    name_part = r24
+    r25 = 'capitalize'
+    r26 = [name_part]
+    r27 = load_address r26
+    r28 = PyObject_VectorcallMethod(r25, r27, 9223372036854775809, 0)
+    if is_error(r28) goto L38 (error at build:116) else goto L14
+L14:
+    dec_ref name_part
+    r29 = cast(str, r28)
+    if is_error(r29) goto L37 (error at build:116) else goto L15
+L15:
+    r30 = CPyList_SetItemUnsafe(r17, r18, r29)
+    if not r30 goto L37 (error at build:116) else goto L16 :: bool
+L16:
+    r31 = r18 + 2
+    r18 = r31
+    goto L11
+L17:
+    r32 = PyUnicode_Join(r14, r17)
+    dec_ref r17
+    if is_error(r32) goto L34 (error at build:116) else goto L18
+L18:
+    name = r32
+    r33 = __mypyc_lambda__0_build_HeadersExtractorMiddlewareFactory_obj()
+    if is_error(r33) goto L39 (error at build:117) else goto L19
+L19:
+    inc_ref r1
+    r33.__mypyc_env__ = r1; r34 = is_error
+    if not r34 goto L40 (error at build:117) else goto L20 :: bool
+L20:
+    header_names_property = r33
+    r35 = __mypyc_lambda__1_build_HeadersExtractorMiddlewareFactory_obj()
+    if is_error(r35) goto L41 (error at build:118) else goto L21
+L21:
+    r35.__mypyc_env__ = r1; r36 = is_error
+    if not r36 goto L42 (error at build:118) else goto L22 :: bool
+L22:
+    validators_property = r35
+    r37 = 'HeadersExtractorMiddleware'
+    r38 = CPyStr_Build(2, name, r37)
+    dec_ref name
+    if is_error(r38) goto L43 (error at build:121) else goto L23
+L23:
+    r39 = asgi_context.AbstractHeadersExtractorMiddleware :: type
+    r40 = (r39)
+    r41 = 'header_names'
+    r42 = asgi_context.globals :: static
+    r43 = 'cached_property'
+    r44 = CPyDict_GetItem(r42, r43)
+    if is_error(r44) goto L44 (error at build:124) else goto L24
+L24:
+    r45 = [header_names_property]
+    r46 = load_address r45
+    r47 = _PyObject_Vectorcall(r44, r46, 1, 0)
+    dec_ref r44
+    if is_error(r47) goto L44 (error at build:124) else goto L25
+L25:
+    dec_ref header_names_property
+    r48 = 'validators'
+    r49 = asgi_context.globals :: static
+    r50 = 'cached_property'
+    r51 = CPyDict_GetItem(r49, r50)
+    if is_error(r51) goto L45 (error at build:125) else goto L26
+L26:
+    r52 = [validators_property]
+    r53 = load_address r52
+    r54 = _PyObject_Vectorcall(r51, r53, 1, 0)
+    dec_ref r51
+    if is_error(r54) goto L45 (error at build:125) else goto L27
+L27:
+    dec_ref validators_property
+    r55 = CPyDict_Build(2, r41, r47, r48, r54)
+    dec_ref r47
+    dec_ref r54
+    if is_error(r55) goto L46 (error at build:123) else goto L28
+L28:
+    r56 = load_address PyType_Type
+    r57 = box(tuple[object], r40)
+    r58 = [r38, r57, r55]
+    r59 = load_address r58
+    r60 = _PyObject_Vectorcall(r56, r59, 3, 0)
+    if is_error(r60) goto L47 (error at build:120) else goto L29
+L29:
+    dec_ref r38
+    dec_ref r57
+    dec_ref r55
+    return r60
+L30:
+    r61 = <error> :: object
+    return r61
+L31:
+    inc_ref validators
+    goto L2
+L32:
+    dec_ref validators
+    goto L30
+L33:
+    dec_ref validators
+    dec_ref r1
+    goto L30
+L34:
+    dec_ref r1
+    goto L30
+L35:
+    dec_ref r1
+    dec_ref name_parts
+    goto L30
+L36:
+    dec_ref name_parts
+    goto L17
+L37:
+    dec_ref r1
+    dec_ref name_parts
+    dec_ref r17
+    goto L30
+L38:
+    dec_ref r1
+    dec_ref name_parts
+    dec_ref r17
+    dec_ref name_part
+    goto L30
+L39:
+    dec_ref r1
+    dec_ref name
+    goto L30
+L40:
+    dec_ref r1
+    dec_ref name
+    dec_ref r33
+    goto L30
+L41:
+    dec_ref r1
+    dec_ref name
+    dec_ref header_names_property
+    goto L30
+L42:
+    dec_ref name
+    dec_ref header_names_property
+    dec_ref r35
+    goto L30
+L43:
+    dec_ref header_names_property
+    dec_ref validators_property
+    goto L30
+L44:
+    dec_ref header_names_property
+    dec_ref validators_property
+    dec_ref r38
+    dec_ref r40
+    goto L30
+L45:
+    dec_ref validators_property
+    dec_ref r38
+    dec_ref r40
+    dec_ref r47
+    goto L30
+L46:
+    dec_ref r38
+    dec_ref r40
+    goto L30
+L47:
+    dec_ref r38
+    dec_ref r55
+    dec_ref r57
+    goto L30
+
+def __top_level__():
+    r0, r1 :: object
+    r2 :: bit
+    r3 :: str
+    r4 :: object
+    r5 :: dict
+    r6, r7 :: str
+    r8 :: list
+    r9, r10, r11 :: ptr
+    r12 :: str
+    r13 :: object
+    r14, r15, r16 :: str
+    r17 :: object
+    r18 :: str
+    r19 :: int32
+    r20 :: bit
+    r21, r22, r23 :: str
+    r24 :: object
+    r25 :: str
+    r26 :: int32
+    r27 :: bit
+    r28 :: dict
+    r29 :: str
+    r30 :: list
+    r31, r32 :: ptr
+    r33 :: str
+    r34 :: object
+    r35, r36, r37 :: str
+    r38 :: object
+    r39 :: str
+    r40 :: int32
+    r41 :: bit
+    r42 :: dict
+    r43, r44, r45, r46 :: str
+    r47 :: list
+    r48, r49, r50, r51, r52 :: ptr
+    r53 :: str
+    r54 :: object
+    r55, r56, r57 :: str
+    r58 :: object
+    r59 :: str
+    r60 :: int32
+    r61 :: bit
+    r62, r63, r64 :: str
+    r65 :: object
+    r66 :: str
+    r67 :: int32
+    r68 :: bit
+    r69, r70, r71 :: str
+    r72 :: object
+    r73 :: str
+    r74 :: int32
+    r75 :: bit
+    r76, r77, r78 :: str
+    r79 :: object
+    r80 :: str
+    r81 :: int32
+    r82 :: bit
+    r83 :: dict
+    r84 :: str
+    r85 :: list
+    r86, r87 :: ptr
+    r88 :: str
+    r89 :: object
+    r90, r91, r92 :: str
+    r93 :: object
+    r94 :: str
+    r95 :: int32
+    r96 :: bit
+    r97 :: dict
+    r98 :: str
+    r99 :: list
+    r100, r101 :: ptr
+    r102 :: str
+    r103 :: object
+    r104, r105, r106 :: str
+    r107 :: object
+    r108 :: str
+    r109 :: int32
+    r110 :: bit
+    r111 :: dict
+    r112 :: str
+    r113 :: list
+    r114, r115 :: ptr
+    r116 :: str
+    r117 :: object
+    r118, r119, r120 :: str
+    r121 :: object
+    r122 :: str
+    r123 :: int32
+    r124 :: bit
+    r125 :: dict
+    r126 :: str
+    r127 :: list
+    r128, r129 :: ptr
+    r130 :: str
+    r131 :: object
+    r132, r133, r134 :: str
+    r135 :: object
+    r136 :: str
+    r137 :: int32
+    r138 :: bit
+    r139 :: object
+    r140 :: dict
+    r141 :: str
+    r142 :: int32
+    r143 :: bit
+    r144 :: dict
+    r145 :: str
+    r146, r147 :: object
+    r148 :: list
+    r149, r150 :: ptr
+    r151 :: dict
+    r152 :: str
+    r153, r154, r155 :: object
+    r156 :: tuple[list, object]
+    r157, r158 :: object
+    r159 :: dict
+    r160 :: str
+    r161 :: int32
+    r162 :: bit
+    r163 :: dict
+    r164 :: str
+    r165, r166 :: object
+    r167 :: list
+    r168, r169 :: ptr
+    r170 :: dict
+    r171 :: str
+    r172, r173, r174 :: object
+    r175 :: tuple[list, object]
+    r176, r177 :: object
+    r178 :: dict
+    r179 :: str
+    r180 :: int32
+    r181 :: bit
+    r182 :: dict
+    r183 :: str
+    r184 :: object
+    r185 :: dict
+    r186 :: str
+    r187 :: object
+    r188 :: dict
+    r189 :: str
+    r190 :: object
+    r191 :: dict
+    r192 :: str
+    r193 :: object
+    r194 :: list
+    r195, r196, r197, r198 :: ptr
+    r199 :: dict
+    r200 :: str
+    r201, r202, r203 :: object
+    r204 :: tuple[list, object]
+    r205, r206 :: object
+    r207 :: dict
+    r208 :: str
+    r209 :: int32
+    r210 :: bit
+    r211 :: object
+    r212 :: dict
+    r213 :: str
+    r214 :: int32
+    r215 :: bit
+    r216 :: object
+    r217 :: dict
+    r218 :: str
+    r219 :: int32
+    r220 :: bit
+    r221 :: dict
+    r222 :: str
+    r223 :: object
+    r224 :: dict
+    r225 :: str
+    r226 :: object
+    r227 :: list
+    r228, r229 :: ptr
+    r230 :: object
+    r231 :: tuple[list, object]
+    r232, r233 :: object
+    r234 :: dict
+    r235 :: str
+    r236 :: int32
+    r237 :: bit
+    r238 :: str
+    r239 :: dict
+    r240 :: str
+    r241 :: object
+    r242 :: object[1]
+    r243 :: object_ptr
+    r244 :: object
+    r245 :: dict
+    r246 :: str
+    r247 :: int32
+    r248 :: bit
+    r249 :: object
+    r250 :: str
+    r251 :: object
+    r252 :: tuple
+    r253 :: str
+    r254, r255 :: object
+    r256, r257 :: str
+    r258 :: tuple
+    r259 :: int32
+    r260 :: bit
+    r261 :: dict
+    r262 :: str
+    r263 :: int32
+    r264 :: bit
+    r265 :: object
+    r266 :: str
+    r267 :: object
+    r268 :: tuple
+    r269 :: str
+    r270, r271 :: object
+    r272, r273 :: str
+    r274 :: tuple
+    r275 :: int32
+    r276 :: bit
+    r277 :: dict
+    r278 :: str
+    r279 :: int32
+    r280 :: bit
+    r281 :: dict
+    r282 :: str
+    r283 :: object
+    r284 :: tuple
+    r285 :: str
+    r286, r287 :: object
+    r288 :: bool
+    r289, r290 :: str
+    r291 :: tuple
+    r292 :: int32
+    r293 :: bit
+    r294 :: dict
+    r295 :: str
+    r296 :: int32
+    r297 :: bit
+    r298 :: dict
+    r299 :: str
+    r300 :: object
+    r301 :: dict
+    r302 :: str
+    r303 :: object
+    r304 :: object[1]
+    r305 :: object_ptr
+    r306 :: object
+    r307 :: dict
+    r308 :: str
+    r309 :: int32
+    r310 :: bit
+    r311 :: object
+    r312 :: str
+    r313, r314 :: object
+    r315 :: bool
+    r316, r317 :: str
+    r318 :: tuple
+    r319 :: int32
+    r320 :: bit
+    r321 :: dict
+    r322 :: str
+    r323 :: int32
+    r324 :: bit
+    r325 :: dict
+    r326 :: str
+    r327 :: object
+    r328 :: tuple
+    r329 :: str
+    r330, r331 :: object
+    r332 :: bool
+    r333, r334, r335 :: str
+    r336 :: tuple
+    r337 :: int32
+    r338 :: bit
+    r339 :: dict
+    r340 :: str
+    r341 :: int32
+    r342 :: bit
+    r343 :: object
+    r344 :: str
+    r345, r346 :: object
+    r347 :: bool
+    r348 :: str
+    r349 :: tuple
+    r350 :: int32
+    r351 :: bit
+    r352 :: dict
+    r353 :: str
+    r354 :: int32
+    r355 :: bit
+    r356 :: asgi_context.Context
+    r357 :: dict
+    r358 :: str
+    r359 :: int32
+    r360 :: bit
+    r361, r362, r363, r364, r365 :: str
+    r366 :: tuple[str, str, str, str, str]
+    r367 :: dict
+    r368 :: str
+    r369 :: object
+    r370 :: int32
+    r371 :: bit
+    r372 :: None
+L0:
+    r0 = builtins :: module
+    r1 = load_address _Py_NoneStruct
+    r2 = r0 != r1
+    if r2 goto L3 else goto L1 :: bool
+L1:
+    r3 = 'builtins'
+    r4 = PyImport_Import(r3)
+    if is_error(r4) goto L115 (error at <module>:-1) else goto L2
+L2:
+    builtins = r4 :: module
+    dec_ref r4
+L3:
+    r5 = asgi_context.globals :: static
+    r6 = 'ABC'
+    r7 = 'abstractmethod'
+    r8 = PyList_New(2)
+    if is_error(r8) goto L115 (error at <module>:1) else goto L4
+L4:
+    r9 = get_element_ptr r8 ob_item :: PyListObject
+    r10 = load_mem r9 :: ptr*
+    inc_ref r6
+    set_mem r10, r6 :: builtins.object*
+    r11 = r10 + 8
+    inc_ref r7
+    set_mem r11, r7 :: builtins.object*
+    r12 = 'abc'
+    r13 = PyImport_ImportModuleLevelObject(r12, r5, 0, r8, 0)
+    dec_ref r8
+    if is_error(r13) goto L115 (error at <module>:1) else goto L5
+L5:
+    abc = r13 :: module
+    r14 = 'abc'
+    r15 = 'ABC'
+    r16 = 'ABC'
+    r17 = CPyImport_ImportFrom(r13, r14, r15, r16)
+    if is_error(r17) goto L116 (error at <module>:1) else goto L6
+L6:
+    r18 = 'ABC'
+    r19 = CPyDict_SetItem(r5, r18, r17)
+    dec_ref r17
+    r20 = r19 >= 0 :: signed
+    if not r20 goto L116 (error at <module>:1) else goto L7 :: bool
+L7:
+    r21 = 'abc'
+    r22 = 'abstractmethod'
+    r23 = 'abstractmethod'
+    r24 = CPyImport_ImportFrom(r13, r21, r22, r23)
+    dec_ref r13
+    if is_error(r24) goto L115 (error at <module>:1) else goto L8
+L8:
+    r25 = 'abstractmethod'
+    r26 = CPyDict_SetItem(r5, r25, r24)
+    dec_ref r24
+    r27 = r26 >= 0 :: signed
+    if not r27 goto L115 (error at <module>:1) else goto L9 :: bool
+L9:
+    r28 = asgi_context.globals :: static
+    r29 = 'UserDict'
+    r30 = PyList_New(1)
+    if is_error(r30) goto L115 (error at <module>:2) else goto L10
+L10:
+    r31 = get_element_ptr r30 ob_item :: PyListObject
+    r32 = load_mem r31 :: ptr*
+    inc_ref r29
+    set_mem r32, r29 :: builtins.object*
+    r33 = 'collections'
+    r34 = PyImport_ImportModuleLevelObject(r33, r28, 0, r30, 0)
+    dec_ref r30
+    if is_error(r34) goto L115 (error at <module>:2) else goto L11
+L11:
+    collections = r34 :: module
+    r35 = 'collections'
+    r36 = 'UserDict'
+    r37 = 'UserDict'
+    r38 = CPyImport_ImportFrom(r34, r35, r36, r37)
+    dec_ref r34
+    if is_error(r38) goto L115 (error at <module>:2) else goto L12
+L12:
+    r39 = 'UserDict'
+    r40 = CPyDict_SetItem(r28, r39, r38)
+    dec_ref r38
+    r41 = r40 >= 0 :: signed
+    if not r41 goto L115 (error at <module>:2) else goto L13 :: bool
+L13:
+    r42 = asgi_context.globals :: static
+    r43 = 'Awaitable'
+    r44 = 'Callable'
+    r45 = 'Iterable'
+    r46 = 'Iterator'
+    r47 = PyList_New(4)
+    if is_error(r47) goto L115 (error at <module>:3) else goto L14
+L14:
+    r48 = get_element_ptr r47 ob_item :: PyListObject
+    r49 = load_mem r48 :: ptr*
+    inc_ref r43
+    set_mem r49, r43 :: builtins.object*
+    r50 = r49 + 8
+    inc_ref r44
+    set_mem r50, r44 :: builtins.object*
+    r51 = r49 + 16
+    inc_ref r45
+    set_mem r51, r45 :: builtins.object*
+    r52 = r49 + 24
+    inc_ref r46
+    set_mem r52, r46 :: builtins.object*
+    r53 = 'collections.abc'
+    r54 = PyImport_ImportModuleLevelObject(r53, r42, 0, r47, 0)
+    dec_ref r47
+    if is_error(r54) goto L115 (error at <module>:3) else goto L15
+L15:
+    collections.abc = r54 :: module
+    r55 = 'collections.abc'
+    r56 = 'Awaitable'
+    r57 = 'Awaitable'
+    r58 = CPyImport_ImportFrom(r54, r55, r56, r57)
+    if is_error(r58) goto L117 (error at <module>:3) else goto L16
+L16:
+    r59 = 'Awaitable'
+    r60 = CPyDict_SetItem(r42, r59, r58)
+    dec_ref r58
+    r61 = r60 >= 0 :: signed
+    if not r61 goto L117 (error at <module>:3) else goto L17 :: bool
+L17:
+    r62 = 'collections.abc'
+    r63 = 'Callable'
+    r64 = 'Callable'
+    r65 = CPyImport_ImportFrom(r54, r62, r63, r64)
+    if is_error(r65) goto L117 (error at <module>:3) else goto L18
+L18:
+    r66 = 'Callable'
+    r67 = CPyDict_SetItem(r42, r66, r65)
+    dec_ref r65
+    r68 = r67 >= 0 :: signed
+    if not r68 goto L117 (error at <module>:3) else goto L19 :: bool
+L19:
+    r69 = 'collections.abc'
+    r70 = 'Iterable'
+    r71 = 'Iterable'
+    r72 = CPyImport_ImportFrom(r54, r69, r70, r71)
+    if is_error(r72) goto L117 (error at <module>:3) else goto L20
+L20:
+    r73 = 'Iterable'
+    r74 = CPyDict_SetItem(r42, r73, r72)
+    dec_ref r72
+    r75 = r74 >= 0 :: signed
+    if not r75 goto L117 (error at <module>:3) else goto L21 :: bool
+L21:
+    r76 = 'collections.abc'
+    r77 = 'Iterator'
+    r78 = 'Iterator'
+    r79 = CPyImport_ImportFrom(r54, r76, r77, r78)
+    dec_ref r54
+    if is_error(r79) goto L115 (error at <module>:3) else goto L22
+L22:
+    r80 = 'Iterator'
+    r81 = CPyDict_SetItem(r42, r80, r79)
+    dec_ref r79
+    r82 = r81 >= 0 :: signed
+    if not r82 goto L115 (error at <module>:3) else goto L23 :: bool
+L23:
+    r83 = asgi_context.globals :: static
+    r84 = 'contextmanager'
+    r85 = PyList_New(1)
+    if is_error(r85) goto L115 (error at <module>:4) else goto L24
+L24:
+    r86 = get_element_ptr r85 ob_item :: PyListObject
+    r87 = load_mem r86 :: ptr*
+    inc_ref r84
+    set_mem r87, r84 :: builtins.object*
+    r88 = 'contextlib'
+    r89 = PyImport_ImportModuleLevelObject(r88, r83, 0, r85, 0)
+    dec_ref r85
+    if is_error(r89) goto L115 (error at <module>:4) else goto L25
+L25:
+    contextlib = r89 :: module
+    r90 = 'contextlib'
+    r91 = 'contextmanager'
+    r92 = 'contextmanager'
+    r93 = CPyImport_ImportFrom(r89, r90, r91, r92)
+    dec_ref r89
+    if is_error(r93) goto L115 (error at <module>:4) else goto L26
+L26:
+    r94 = 'contextmanager'
+    r95 = CPyDict_SetItem(r83, r94, r93)
+    dec_ref r93
+    r96 = r95 >= 0 :: signed
+    if not r96 goto L115 (error at <module>:4) else goto L27 :: bool
+L27:
+    r97 = asgi_context.globals :: static
+    r98 = 'ContextVar'
+    r99 = PyList_New(1)
+    if is_error(r99) goto L115 (error at <module>:5) else goto L28
+L28:
+    r100 = get_element_ptr r99 ob_item :: PyListObject
+    r101 = load_mem r100 :: ptr*
+    inc_ref r98
+    set_mem r101, r98 :: builtins.object*
+    r102 = 'contextvars'
+    r103 = PyImport_ImportModuleLevelObject(r102, r97, 0, r99, 0)
+    dec_ref r99
+    if is_error(r103) goto L115 (error at <module>:5) else goto L29
+L29:
+    contextvars = r103 :: module
+    r104 = 'contextvars'
+    r105 = 'ContextVar'
+    r106 = 'ContextVar'
+    r107 = CPyImport_ImportFrom(r103, r104, r105, r106)
+    dec_ref r103
+    if is_error(r107) goto L115 (error at <module>:5) else goto L30
+L30:
+    r108 = 'ContextVar'
+    r109 = CPyDict_SetItem(r97, r108, r107)
+    dec_ref r107
+    r110 = r109 >= 0 :: signed
+    if not r110 goto L115 (error at <module>:5) else goto L31 :: bool
+L31:
+    r111 = asgi_context.globals :: static
+    r112 = 'cached_property'
+    r113 = PyList_New(1)
+    if is_error(r113) goto L115 (error at <module>:6) else goto L32
+L32:
+    r114 = get_element_ptr r113 ob_item :: PyListObject
+    r115 = load_mem r114 :: ptr*
+    inc_ref r112
+    set_mem r115, r112 :: builtins.object*
+    r116 = 'functools'
+    r117 = PyImport_ImportModuleLevelObject(r116, r111, 0, r113, 0)
+    dec_ref r113
+    if is_error(r117) goto L115 (error at <module>:6) else goto L33
+L33:
+    functools = r117 :: module
+    r118 = 'functools'
+    r119 = 'cached_property'
+    r120 = 'cached_property'
+    r121 = CPyImport_ImportFrom(r117, r118, r119, r120)
+    dec_ref r117
+    if is_error(r121) goto L115 (error at <module>:6) else goto L34
+L34:
+    r122 = 'cached_property'
+    r123 = CPyDict_SetItem(r111, r122, r121)
+    dec_ref r121
+    r124 = r123 >= 0 :: signed
+    if not r124 goto L115 (error at <module>:6) else goto L35 :: bool
+L35:
+    r125 = asgi_context.globals :: static
+    r126 = 'TypeAlias'
+    r127 = PyList_New(1)
+    if is_error(r127) goto L115 (error at <module>:7) else goto L36
+L36:
+    r128 = get_element_ptr r127 ob_item :: PyListObject
+    r129 = load_mem r128 :: ptr*
+    inc_ref r126
+    set_mem r129, r126 :: builtins.object*
+    r130 = 'typing'
+    r131 = PyImport_ImportModuleLevelObject(r130, r125, 0, r127, 0)
+    dec_ref r127
+    if is_error(r131) goto L115 (error at <module>:7) else goto L37
+L37:
+    typing = r131 :: module
+    r132 = 'typing'
+    r133 = 'TypeAlias'
+    r134 = 'TypeAlias'
+    r135 = CPyImport_ImportFrom(r131, r132, r133, r134)
+    dec_ref r131
+    if is_error(r135) goto L115 (error at <module>:7) else goto L38
+L38:
+    r136 = 'TypeAlias'
+    r137 = CPyDict_SetItem(r125, r136, r135)
+    dec_ref r135
+    r138 = r137 >= 0 :: signed
+    if not r138 goto L115 (error at <module>:7) else goto L39 :: bool
+L39:
+    r139 = load_address PyDict_Type
+    r140 = asgi_context.globals :: static
+    r141 = 'Scope'
+    r142 = CPyDict_SetItem(r140, r141, r139)
+    r143 = r142 >= 0 :: signed
+    if not r143 goto L115 (error at <module>:9) else goto L40 :: bool
+L40:
+    r144 = asgi_context.globals :: static
+    r145 = 'Callable'
+    r146 = CPyDict_GetItem(r144, r145)
+    if is_error(r146) goto L115 (error at <module>:10) else goto L41
+L41:
+    r147 = box(None, 1)
+    r148 = PyList_New(1)
+    if is_error(r148) goto L118 (error at <module>:10) else goto L42
+L42:
+    r149 = get_element_ptr r148 ob_item :: PyListObject
+    r150 = load_mem r149 :: ptr*
+    inc_ref r147
+    set_mem r150, r147 :: builtins.object*
+    r151 = asgi_context.globals :: static
+    r152 = 'Awaitable'
+    r153 = CPyDict_GetItem(r151, r152)
+    if is_error(r153) goto L119 (error at <module>:10) else goto L43
+L43:
+    r154 = load_address PyDict_Type
+    r155 = PyObject_GetItem(r153, r154)
+    dec_ref r153
+    if is_error(r155) goto L119 (error at <module>:10) else goto L44
+L44:
+    r156 = (r148, r155)
+    dec_ref r148
+    dec_ref r155
+    r157 = box(tuple[list, object], r156)
+    r158 = PyObject_GetItem(r146, r157)
+    dec_ref r146
+    dec_ref r157
+    if is_error(r158) goto L115 (error at <module>:10) else goto L45
+L45:
+    r159 = asgi_context.globals :: static
+    r160 = 'Receive'
+    r161 = CPyDict_SetItem(r159, r160, r158)
+    dec_ref r158
+    r162 = r161 >= 0 :: signed
+    if not r162 goto L115 (error at <module>:10) else goto L46 :: bool
+L46:
+    r163 = asgi_context.globals :: static
+    r164 = 'Callable'
+    r165 = CPyDict_GetItem(r163, r164)
+    if is_error(r165) goto L115 (error at <module>:11) else goto L47
+L47:
+    r166 = load_address PyDict_Type
+    r167 = PyList_New(1)
+    if is_error(r167) goto L120 (error at <module>:11) else goto L48
+L48:
+    r168 = get_element_ptr r167 ob_item :: PyListObject
+    r169 = load_mem r168 :: ptr*
+    inc_ref r166
+    set_mem r169, r166 :: builtins.object*
+    r170 = asgi_context.globals :: static
+    r171 = 'Awaitable'
+    r172 = CPyDict_GetItem(r170, r171)
+    if is_error(r172) goto L121 (error at <module>:11) else goto L49
+L49:
+    r173 = box(None, 1)
+    r174 = PyObject_GetItem(r172, r173)
+    dec_ref r172
+    if is_error(r174) goto L121 (error at <module>:11) else goto L50
+L50:
+    r175 = (r167, r174)
+    dec_ref r167
+    dec_ref r174
+    r176 = box(tuple[list, object], r175)
+    r177 = PyObject_GetItem(r165, r176)
+    dec_ref r165
+    dec_ref r176
+    if is_error(r177) goto L115 (error at <module>:11) else goto L51
+L51:
+    r178 = asgi_context.globals :: static
+    r179 = 'Send'
+    r180 = CPyDict_SetItem(r178, r179, r177)
+    dec_ref r177
+    r181 = r180 >= 0 :: signed
+    if not r181 goto L115 (error at <module>:11) else goto L52 :: bool
+L52:
+    r182 = asgi_context.globals :: static
+    r183 = 'Callable'
+    r184 = CPyDict_GetItem(r182, r183)
+    if is_error(r184) goto L115 (error at <module>:12) else goto L53
+L53:
+    r185 = asgi_context.globals :: static
+    r186 = 'Scope'
+    r187 = CPyDict_GetItem(r185, r186)
+    if is_error(r187) goto L122 (error at <module>:12) else goto L54
+L54:
+    r188 = asgi_context.globals :: static
+    r189 = 'Receive'
+    r190 = CPyDict_GetItem(r188, r189)
+    if is_error(r190) goto L123 (error at <module>:12) else goto L55
+L55:
+    r191 = asgi_context.globals :: static
+    r192 = 'Send'
+    r193 = CPyDict_GetItem(r191, r192)
+    if is_error(r193) goto L124 (error at <module>:12) else goto L56
+L56:
+    r194 = PyList_New(3)
+    if is_error(r194) goto L125 (error at <module>:12) else goto L57
+L57:
+    r195 = get_element_ptr r194 ob_item :: PyListObject
+    r196 = load_mem r195 :: ptr*
+    set_mem r196, r187 :: builtins.object*
+    r197 = r196 + 8
+    set_mem r197, r190 :: builtins.object*
+    r198 = r196 + 16
+    set_mem r198, r193 :: builtins.object*
+    r199 = asgi_context.globals :: static
+    r200 = 'Awaitable'
+    r201 = CPyDict_GetItem(r199, r200)
+    if is_error(r201) goto L126 (error at <module>:12) else goto L58
+L58:
+    r202 = box(None, 1)
+    r203 = PyObject_GetItem(r201, r202)
+    dec_ref r201
+    if is_error(r203) goto L126 (error at <module>:12) else goto L59
+L59:
+    r204 = (r194, r203)
+    dec_ref r194
+    dec_ref r203
+    r205 = box(tuple[list, object], r204)
+    r206 = PyObject_GetItem(r184, r205)
+    dec_ref r184
+    dec_ref r205
+    if is_error(r206) goto L115 (error at <module>:12) else goto L60
+L60:
+    r207 = asgi_context.globals :: static
+    r208 = 'ASGIApp'
+    r209 = CPyDict_SetItem(r207, r208, r206)
+    dec_ref r206
+    r210 = r209 >= 0 :: signed
+    if not r210 goto L115 (error at <module>:12) else goto L61 :: bool
+L61:
+    r211 = load_address PyUnicode_Type
+    r212 = asgi_context.globals :: static
+    r213 = 'HeaderName'
+    r214 = CPyDict_SetItem(r212, r213, r211)
+    r215 = r214 >= 0 :: signed
+    if not r215 goto L115 (error at <module>:14) else goto L62 :: bool
+L62:
+    r216 = load_address PyUnicode_Type
+    r217 = asgi_context.globals :: static
+    r218 = 'HeaderValue'
+    r219 = CPyDict_SetItem(r217, r218, r216)
+    r220 = r219 >= 0 :: signed
+    if not r220 goto L115 (error at <module>:15) else goto L63 :: bool
+L63:
+    r221 = asgi_context.globals :: static
+    r222 = 'Callable'
+    r223 = CPyDict_GetItem(r221, r222)
+    if is_error(r223) goto L115 (error at <module>:17) else goto L64
+L64:
+    r224 = asgi_context.globals :: static
+    r225 = 'HeaderValue'
+    r226 = CPyDict_GetItem(r224, r225)
+    if is_error(r226) goto L127 (error at <module>:17) else goto L65
+L65:
+    r227 = PyList_New(1)
+    if is_error(r227) goto L128 (error at <module>:17) else goto L66
+L66:
+    r228 = get_element_ptr r227 ob_item :: PyListObject
+    r229 = load_mem r228 :: ptr*
+    set_mem r229, r226 :: builtins.object*
+    r230 = load_address PyBool_Type
+    r231 = (r227, r230)
+    dec_ref r227
+    r232 = box(tuple[list, object], r231)
+    r233 = PyObject_GetItem(r223, r232)
+    dec_ref r223
+    dec_ref r232
+    if is_error(r233) goto L115 (error at <module>:17) else goto L67
+L67:
+    r234 = asgi_context.globals :: static
+    r235 = 'Validator'
+    r236 = CPyDict_SetItem(r234, r235, r233)
+    dec_ref r233
+    r237 = r236 >= 0 :: signed
+    if not r237 goto L115 (error at <module>:17) else goto L68 :: bool
+L68:
+    r238 = 'ctx'
+    r239 = asgi_context.globals :: static
+    r240 = 'ContextVar'
+    r241 = CPyDict_GetItem(r239, r240)
+    if is_error(r241) goto L115 (error at <module>:20) else goto L69
+L69:
+    r242 = [r238]
+    r243 = load_address r242
+    r244 = _PyObject_Vectorcall(r241, r243, 1, 0)
+    dec_ref r241
+    if is_error(r244) goto L115 (error at <module>:20) else goto L70
+L70:
+    r245 = asgi_context.globals :: static
+    r246 = '_http_request_context'
+    r247 = CPyDict_SetItem(r245, r246, r244)
+    dec_ref r244
+    r248 = r247 >= 0 :: signed
+    if not r248 goto L115 (error at <module>:20) else goto L71 :: bool
+L71:
+    r249 = builtins :: module
+    r250 = 'Exception'
+    r251 = CPyObject_GetAttr(r249, r250)
+    if is_error(r251) goto L115 (error at <module>:23) else goto L72
+L72:
+    r252 = PyTuple_Pack(1, r251)
+    dec_ref r251
+    if is_error(r252) goto L115 (error at <module>:23) else goto L73
+L73:
+    r253 = 'asgi_context'
+    r254 = asgi_context.RequestContextException_template :: type
+    r255 = CPyType_FromTemplate(r254, r252, r253)
+    dec_ref r252
+    if is_error(r255) goto L115 (error at <module>:23) else goto L74
+L74:
+    r256 = '__mypyc_attrs__'
+    r257 = '__dict__'
+    r258 = PyTuple_Pack(1, r257)
+    if is_error(r258) goto L129 (error at <module>:23) else goto L75
+L75:
+    r259 = PyObject_SetAttr(r255, r256, r258)
+    dec_ref r258
+    r260 = r259 >= 0 :: signed
+    if not r260 goto L129 (error at <module>:23) else goto L76 :: bool
+L76:
+    asgi_context.RequestContextException = r255 :: type
+    r261 = asgi_context.globals :: static
+    r262 = 'RequestContextException'
+    r263 = CPyDict_SetItem(r261, r262, r255)
+    dec_ref r255
+    r264 = r263 >= 0 :: signed
+    if not r264 goto L115 (error at <module>:23) else goto L77 :: bool
+L77:
+    r265 = builtins :: module
+    r266 = 'Exception'
+    r267 = CPyObject_GetAttr(r265, r266)
+    if is_error(r267) goto L115 (error at <module>:27) else goto L78
+L78:
+    r268 = PyTuple_Pack(1, r267)
+    dec_ref r267
+    if is_error(r268) goto L115 (error at <module>:27) else goto L79
+L79:
+    r269 = 'asgi_context'
+    r270 = asgi_context.HeaderValidationException_template :: type
+    r271 = CPyType_FromTemplate(r270, r268, r269)
+    dec_ref r268
+    if is_error(r271) goto L115 (error at <module>:27) else goto L80
+L80:
+    r272 = '__mypyc_attrs__'
+    r273 = '__dict__'
+    r274 = PyTuple_Pack(1, r273)
+    if is_error(r274) goto L130 (error at <module>:27) else goto L81
+L81:
+    r275 = PyObject_SetAttr(r271, r272, r274)
+    dec_ref r274
+    r276 = r275 >= 0 :: signed
+    if not r276 goto L130 (error at <module>:27) else goto L82 :: bool
+L82:
+    asgi_context.HeaderValidationException = r271 :: type
+    r277 = asgi_context.globals :: static
+    r278 = 'HeaderValidationException'
+    r279 = CPyDict_SetItem(r277, r278, r271)
+    dec_ref r271
+    r280 = r279 >= 0 :: signed
+    if not r280 goto L115 (error at <module>:27) else goto L83 :: bool
+L83:
+    r281 = asgi_context.globals :: static
+    r282 = 'UserDict'
+    r283 = CPyDict_GetItem(r281, r282)
+    if is_error(r283) goto L115 (error at <module>:31) else goto L84
+L84:
+    r284 = PyTuple_Pack(1, r283)
+    dec_ref r283
+    if is_error(r284) goto L115 (error at <module>:31) else goto L85
+L85:
+    r285 = 'asgi_context'
+    r286 = asgi_context.Context_template :: type
+    r287 = CPyType_FromTemplate(r286, r284, r285)
+    dec_ref r284
+    if is_error(r287) goto L115 (error at <module>:31) else goto L86
+L86:
+    r288 = Context_trait_vtable_setup()
+    if is_error(r288) goto L131 (error at <module>:-1) else goto L87
+L87:
+    r289 = '__mypyc_attrs__'
+    r290 = '__dict__'
+    r291 = PyTuple_Pack(1, r290)
+    if is_error(r291) goto L131 (error at <module>:31) else goto L88
+L88:
+    r292 = PyObject_SetAttr(r287, r289, r291)
+    dec_ref r291
+    r293 = r292 >= 0 :: signed
+    if not r293 goto L131 (error at <module>:31) else goto L89 :: bool
+L89:
+    asgi_context.Context = r287 :: type
+    r294 = asgi_context.globals :: static
+    r295 = 'Context'
+    r296 = CPyDict_SetItem(r294, r295, r287)
+    dec_ref r287
+    r297 = r296 >= 0 :: signed
+    if not r297 goto L115 (error at <module>:31) else goto L90 :: bool
+L90:
+    r298 = asgi_context.globals :: static
+    r299 = 'new_context'
+    r300 = CPyDict_GetItem(r298, r299)
+    if is_error(r300) goto L115 (error at <module>:47) else goto L91
+L91:
+    r301 = asgi_context.globals :: static
+    r302 = 'contextmanager'
+    r303 = CPyDict_GetItem(r301, r302)
+    if is_error(r303) goto L132 (error at <module>:47) else goto L92
+L92:
+    r304 = [r300]
+    r305 = load_address r304
+    r306 = _PyObject_Vectorcall(r303, r305, 1, 0)
+    dec_ref r303
+    if is_error(r306) goto L132 (error at <module>:47) else goto L93
+L93:
+    dec_ref r300
+    r307 = asgi_context.globals :: static
+    r308 = 'new_context'
+    r309 = CPyDict_SetItem(r307, r308, r306)
+    dec_ref r306
+    r310 = r309 >= 0 :: signed
+    if not r310 goto L115 (error at <module>:47) else goto L94 :: bool
+L94:
+    r311 = <error> :: object
+    r312 = 'asgi_context'
+    r313 = asgi_context.ContextMiddleware_template :: type
+    r314 = CPyType_FromTemplate(r313, r311, r312)
+    if is_error(r314) goto L115 (error at <module>:56) else goto L95
+L95:
+    r315 = ContextMiddleware_trait_vtable_setup()
+    if is_error(r315) goto L133 (error at <module>:-1) else goto L96
+L96:
+    r316 = '__mypyc_attrs__'
+    r317 = 'app'
+    r318 = PyTuple_Pack(1, r317)
+    if is_error(r318) goto L133 (error at <module>:56) else goto L97
+L97:
+    r319 = PyObject_SetAttr(r314, r316, r318)
+    dec_ref r318
+    r320 = r319 >= 0 :: signed
+    if not r320 goto L133 (error at <module>:56) else goto L98 :: bool
+L98:
+    asgi_context.ContextMiddleware = r314 :: type
+    r321 = asgi_context.globals :: static
+    r322 = 'ContextMiddleware'
+    r323 = CPyDict_SetItem(r321, r322, r314)
+    dec_ref r314
+    r324 = r323 >= 0 :: signed
+    if not r324 goto L115 (error at <module>:56) else goto L99 :: bool
+L99:
+    r325 = asgi_context.globals :: static
+    r326 = 'ABC'
+    r327 = CPyDict_GetItem(r325, r326)
+    if is_error(r327) goto L115 (error at <module>:72) else goto L100
+L100:
+    r328 = PyTuple_Pack(1, r327)
+    dec_ref r327
+    if is_error(r328) goto L115 (error at <module>:72) else goto L101
+L101:
+    r329 = 'asgi_context'
+    r330 = asgi_context.AbstractHeadersExtractorMiddleware_template :: type
+    r331 = CPyType_FromTemplate(r330, r328, r329)
+    dec_ref r328
+    if is_error(r331) goto L115 (error at <module>:72) else goto L102
+L102:
+    r332 = AbstractHeadersExtractorMiddleware_trait_vtable_setup()
+    if is_error(r332) goto L134 (error at <module>:-1) else goto L103
+L103:
+    r333 = '__mypyc_attrs__'
+    r334 = 'app'
+    r335 = '__dict__'
+    r336 = PyTuple_Pack(2, r334, r335)
+    if is_error(r336) goto L134 (error at <module>:72) else goto L104
+L104:
+    r337 = PyObject_SetAttr(r331, r333, r336)
+    dec_ref r336
+    r338 = r337 >= 0 :: signed
+    if not r338 goto L134 (error at <module>:72) else goto L105 :: bool
+L105:
+    asgi_context.AbstractHeadersExtractorMiddleware = r331 :: type
+    r339 = asgi_context.globals :: static
+    r340 = 'AbstractHeadersExtractorMiddleware'
+    r341 = CPyDict_SetItem(r339, r340, r331)
+    dec_ref r331
+    r342 = r341 >= 0 :: signed
+    if not r342 goto L115 (error at <module>:72) else goto L106 :: bool
+L106:
+    r343 = <error> :: object
+    r344 = 'asgi_context'
+    r345 = asgi_context.HeadersExtractorMiddlewareFactory_template :: type
+    r346 = CPyType_FromTemplate(r345, r343, r344)
+    if is_error(r346) goto L115 (error at <module>:108) else goto L107
+L107:
+    r347 = HeadersExtractorMiddlewareFactory_trait_vtable_setup()
+    if is_error(r347) goto L135 (error at <module>:-1) else goto L108
+L108:
+    r348 = '__mypyc_attrs__'
+    r349 = PyTuple_Pack(0)
+    if is_error(r349) goto L135 (error at <module>:108) else goto L109
+L109:
+    r350 = PyObject_SetAttr(r346, r348, r349)
+    dec_ref r349
+    r351 = r350 >= 0 :: signed
+    if not r351 goto L135 (error at <module>:108) else goto L110 :: bool
+L110:
+    asgi_context.HeadersExtractorMiddlewareFactory = r346 :: type
+    r352 = asgi_context.globals :: static
+    r353 = 'HeadersExtractorMiddlewareFactory'
+    r354 = CPyDict_SetItem(r352, r353, r346)
+    dec_ref r346
+    r355 = r354 >= 0 :: signed
+    if not r355 goto L115 (error at <module>:108) else goto L111 :: bool
+L111:
+    r356 = Context()
+    if is_error(r356) goto L115 (error at <module>:130) else goto L112
+L112:
+    r357 = asgi_context.globals :: static
+    r358 = 'http_request_context'
+    r359 = CPyDict_SetItem(r357, r358, r356)
+    dec_ref r356
+    r360 = r359 >= 0 :: signed
+    if not r360 goto L115 (error at <module>:130) else goto L113 :: bool
+L113:
+    r361 = 'http_request_context'
+    r362 = 'ContextMiddleware'
+    r363 = 'HeadersExtractorMiddlewareFactory'
+    r364 = 'RequestContextException'
+    r365 = 'HeaderValidationException'
+    r366 = (r361, r362, r363, r364, r365)
+    r367 = asgi_context.globals :: static
+    r368 = '__all__'
+    r369 = box(tuple[str, str, str, str, str], r366)
+    r370 = CPyDict_SetItem(r367, r368, r369)
+    dec_ref r369
+    r371 = r370 >= 0 :: signed
+    if not r371 goto L115 (error at <module>:133) else goto L114 :: bool
+L114:
+    return 1
+L115:
+    r372 = <error> :: None
+    return r372
+L116:
+    dec_ref r13
+    goto L115
+L117:
+    dec_ref r54
+    goto L115
+L118:
+    dec_ref r146
+    goto L115
+L119:
+    dec_ref r146
+    dec_ref r148
+    goto L115
+L120:
+    dec_ref r165
+    goto L115
+L121:
+    dec_ref r165
+    dec_ref r167
+    goto L115
+L122:
+    dec_ref r184
+    goto L115
+L123:
+    dec_ref r184
+    dec_ref r187
+    goto L115
+L124:
+    dec_ref r184
+    dec_ref r187
+    dec_ref r190
+    goto L115
+L125:
+    dec_ref r184
+    dec_ref r187
+    dec_ref r190
+    dec_ref r193
+    goto L115
+L126:
+    dec_ref r184
+    dec_ref r194
+    goto L115
+L127:
+    dec_ref r223
+    goto L115
+L128:
+    dec_ref r223
+    dec_ref r226
+    goto L115
+L129:
+    dec_ref r255
+    goto L115
+L130:
+    dec_ref r271
+    goto L115
+L131:
+    dec_ref r287
+    goto L115
+L132:
+    dec_ref r300
+    goto L115
+L133:
+    dec_ref r314
+    goto L115
+L134:
+    dec_ref r331
+    goto L115
+L135:
+    dec_ref r346
+    goto L115
