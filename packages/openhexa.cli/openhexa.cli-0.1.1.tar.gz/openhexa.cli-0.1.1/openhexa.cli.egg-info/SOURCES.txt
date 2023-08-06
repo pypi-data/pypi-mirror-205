@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+openhexa.cli.egg-info/PKG-INFO
+openhexa.cli.egg-info/SOURCES.txt
+openhexa.cli.egg-info/dependency_links.txt
+openhexa.cli.egg-info/top_level.txt
