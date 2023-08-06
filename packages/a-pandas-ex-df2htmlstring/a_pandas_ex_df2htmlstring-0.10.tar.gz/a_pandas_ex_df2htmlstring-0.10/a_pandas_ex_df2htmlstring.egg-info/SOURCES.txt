@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+a_pandas_ex_df2htmlstring/LICENSE
+a_pandas_ex_df2htmlstring/README.md
+a_pandas_ex_df2htmlstring/__init__.py
+a_pandas_ex_df2htmlstring/requirements.txt
+a_pandas_ex_df2htmlstring/thirdparty.json
+a_pandas_ex_df2htmlstring.egg-info/PKG-INFO
+a_pandas_ex_df2htmlstring.egg-info/SOURCES.txt
+a_pandas_ex_df2htmlstring.egg-info/dependency_links.txt
+a_pandas_ex_df2htmlstring.egg-info/requires.txt
+a_pandas_ex_df2htmlstring.egg-info/top_level.txt
