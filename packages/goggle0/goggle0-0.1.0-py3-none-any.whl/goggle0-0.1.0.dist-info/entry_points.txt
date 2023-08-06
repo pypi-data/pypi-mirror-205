@@ -1,0 +1,3 @@
+[console_scripts]
+goggle0=goggle0.__cli__:main
+
