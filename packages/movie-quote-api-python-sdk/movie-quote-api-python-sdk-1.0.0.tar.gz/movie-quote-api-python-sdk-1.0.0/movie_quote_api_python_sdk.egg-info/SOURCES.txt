@@ -1,0 +1,7 @@
+README.md
+setup.py
+movie_quote_api_python_sdk.egg-info/PKG-INFO
+movie_quote_api_python_sdk.egg-info/SOURCES.txt
+movie_quote_api_python_sdk.egg-info/dependency_links.txt
+movie_quote_api_python_sdk.egg-info/requires.txt
+movie_quote_api_python_sdk.egg-info/top_level.txt
