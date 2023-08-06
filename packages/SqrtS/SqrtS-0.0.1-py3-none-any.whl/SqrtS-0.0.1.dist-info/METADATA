@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: SqrtS
+Version: 0.0.1
+Summary: python magic GUI package
+Home-page: https://pypi.org/project/SqrtS
+Author: cemeye
+Author-email: caomingyang2022@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pywin32
+Requires-Dist: pillow
+Requires-Dist: pyautogui
+Requires-Dist: pygame
+Requires-Dist: keyboard
+
+UNKNOWN
+
+
