@@ -1,0 +1,7 @@
+micropython_icm20948/i2c_helpers.py,sha256=Sq6BuIOtSk_eWAYKejdap01soygNWhQUOEXCIjoSlBE,3975
+micropython_icm20948/icm20948.py,sha256=wHwvzDLvtd8ImURfBWqzxpmPRLhpMM_3TQP5x8EUlis,23466
+micropython_icm20948-0.2.0.dist-info/LICENSE,sha256=RzDRQUi8478TRF8tEO9TZzAIdMZDxwpMRik2l1mwdog,1082
+micropython_icm20948-0.2.0.dist-info/METADATA,sha256=RM_ylrtXnRcZKhkL46chEKlcArnRcEdhug7oOQqrQwE,2228
+micropython_icm20948-0.2.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+micropython_icm20948-0.2.0.dist-info/top_level.txt,sha256=WluOO1LRpHhk-xicb9bIUq092o5dNuDeJpq5rnc71-c,21
+micropython_icm20948-0.2.0.dist-info/RECORD,,
