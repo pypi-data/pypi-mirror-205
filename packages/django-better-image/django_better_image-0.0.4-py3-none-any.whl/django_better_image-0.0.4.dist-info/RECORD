@@ -1,0 +1,14 @@
+django_better_image/__init__.py,sha256=w3-1mvjnHqK53T5voWfRaK_6AdRrxurdb1L_H4lHzY8,230
+django_better_image/fields.py,sha256=pV4xoSj7OiHiVYr2_63MxJWqNy5ML91MxOpSF7_-AwE,1002
+django_better_image/formfields.py,sha256=OHRP0D44dJhpz3ujMH2dqbYu2wt606UDPIrprHk1JPA,3890
+django_better_image/forms.py,sha256=Tmcb2I0C6tQchNqcuybnJZmPlxvo3C4OUsD8JZx1fVk,2691
+django_better_image/urls.py,sha256=5jcnOvzqkS77Kzxu1JGKzWln9xCZ7gL4WXwK3KsLb2o,526
+django_better_image/views.py,sha256=K4Ol4I9Itg0YQOL4TOnKe6wYc-9H3nbouTiOYJs3p_o,6733
+django_better_image/widgets.py,sha256=lQppA4gu-TNsCGRvxb6NmbGwAB-kzvkHVfNE3z7GWLQ,6506
+django_better_image/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_better_image/templatetags/django_better_image.py,sha256=ZUL1Ap-wxuvSZfv89DvA1TWyZ9VYh7VbxdH-Uz_2hnQ,454
+django_better_image-0.0.4.dist-info/LICENSE,sha256=IMF9i4xIpgCADf0U-V1cuf9HBmqWQd3qtI3FSuyW4zE,26526
+django_better_image-0.0.4.dist-info/METADATA,sha256=w3l2EHXVh8dJv5C-EuBW4mWkhv0xVrrYpj1qr6wuvBM,1204
+django_better_image-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_better_image-0.0.4.dist-info/top_level.txt,sha256=25F6GH5FH9FBC8KwUCptM3_4Z1YO3fG8DG-LToop_fg,20
+django_better_image-0.0.4.dist-info/RECORD,,
