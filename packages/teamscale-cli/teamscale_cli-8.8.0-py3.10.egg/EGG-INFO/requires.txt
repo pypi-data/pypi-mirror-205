@@ -1,0 +1,4 @@
+teamscale-client==7.1.1
+gitpython==3.1.30
+gitdb2==2.0.6
+nuitka==1.5.5
