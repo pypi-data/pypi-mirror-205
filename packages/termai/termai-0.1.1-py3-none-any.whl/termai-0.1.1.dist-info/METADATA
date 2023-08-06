@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: termai
+Version: 0.1.1
+Summary: A package for generating and manipulating text and images using OpenAI.
+Author: Brad Ganley
+Author-email: bradganley@pm.me
+Requires-Dist: click (==8.0.1)
+Requires-Dist: openai (==0.10.5)
+Requires-Dist: requests (==2.26.0)
+Requires-Dist: Pillow (==8.3.2)
+
