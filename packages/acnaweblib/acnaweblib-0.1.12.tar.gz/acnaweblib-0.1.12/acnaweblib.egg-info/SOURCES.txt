@@ -1,0 +1,7 @@
+MANIFEST.in
+README.md
+setup.py
+acnaweblib.egg-info/PKG-INFO
+acnaweblib.egg-info/SOURCES.txt
+acnaweblib.egg-info/dependency_links.txt
+acnaweblib.egg-info/top_level.txt
