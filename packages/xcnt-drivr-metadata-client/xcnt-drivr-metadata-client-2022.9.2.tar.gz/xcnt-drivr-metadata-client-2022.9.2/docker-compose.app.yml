@@ -1,0 +1,13 @@
+version: '3.2'
+
+services:
+  app:
+    build: .
+    user: root
+    command: tail -f /dev/null
+    depends_on:
+      - db
+    links:
+      - db
+    environment:
+      SQLALCHEMY_URL: "cockroachdb://root@db:26257/defaultdb"

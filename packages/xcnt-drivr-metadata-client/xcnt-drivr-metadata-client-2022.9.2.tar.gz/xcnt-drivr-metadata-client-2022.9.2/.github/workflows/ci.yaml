@@ -1,0 +1,364 @@
+# Auto-generated from https://github.com/xcnt/xcnt-gardener/blob/main/templates/library/.github/workflows/ci.yaml
+
+name: ci
+
+on: [push,workflow_dispatch]
+
+jobs:
+  select-runner-deployment:
+    name: select-runner-deployment
+    runs-on: default
+    outputs:
+      runner: ${{ env.RUNNER_DEPLOYMENT }}
+    steps:
+      - run: echo "RUNNER_DEPLOYMENT=default" >> $GITHUB_ENV
+      - run: echo "RUNNER_DEPLOYMENT=renovate" >> $GITHUB_ENV
+        if: startsWith(github.ref, 'refs/heads/renovate')
+
+  docker:
+    needs: [select-runner-deployment]
+    runs-on: ${{ needs.select-runner-deployment.outputs.runner }}
+    steps:
+      - name: Login to GCR
+        uses: docker/login-action@v2
+        with:
+          registry: eu.gcr.io
+          username: _json_key
+          password: ${{ secrets.GCR_REGISTRY_SECRET }}
+      - name: Checkout GitHub Action Repo
+        uses: actions/checkout@v3
+        with:
+          repository: xcnt/ghaction-docker-meta
+          ref: master
+          token: ${{ secrets.CI_AUTH_TOKEN }}
+          path: .github/actions/docker-meta
+      - name: Docker meta
+        id: docker_meta
+        uses: ./.github/actions/docker-meta
+        with:
+          images: |
+            eu.gcr.io/xcnt-infrastructure/drivr-metadata-client-build
+      - name: Docker meta publish
+        id: docker_meta_publish
+        uses: ./.github/actions/docker-meta
+        with:
+          images: |
+            eu.gcr.io/xcnt-infrastructure/drivr-metadata-client
+      - name: Set up QEMU
+        id: qemu
+        uses: docker/setup-qemu-action@v2
+        with:
+          image: tonistiigi/binfmt:latest
+          platforms: all
+      - name: Create Docker Context
+        run: docker context create buildx || true
+      - name: Set up Docker Buildx
+        id: buildx
+        uses: docker/setup-buildx-action@v2
+        with:
+          endpoint: buildx
+          config-inline: |
+            [registry."docker.io"]
+              mirrors = ["ci-registry.drivr.dev"]
+
+      - name: Build
+        id: docker_build
+        uses: docker/build-push-action@v4
+        with:
+          push: true
+          tags: ${{ steps.docker_meta.outputs.buildTags }}
+          platforms: "linux/amd64"   # Do only build per default in amd64, releases build arm
+          build-args: |
+            PIP_USERNAME=${{ secrets.REPOSITORY_MANAGER_USERNAME }}
+            PIP_PASSWORD=${{ secrets.REPOSITORY_MANAGER_PASSWORD }}
+            GITHUB_TOKEN=${{ secrets.CI_AUTH_TOKEN }}
+          cache-from: type=registry,ref=${{ steps.docker_meta.outputs.cacheTag }}
+          cache-to: type=inline
+
+  mypy:
+    needs: [select-runner-deployment]
+    runs-on: ${{ needs.select-runner-deployment.outputs.runner }}
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - run: echo "MYPY_VERSION=$(grep -hPos -m 1 '(?<=mypy(=|>)=)[^(\\n|")]*' requirements-dev.txt requirements.txt setup.py | head -1)" >> $GITHUB_ENV
+      - run: exit 1
+        if: env.MYPY_VERSION == ''
+      - run: pip install --disable-pip-version-check mypy==$MYPY_VERSION types-setuptools xcnt-cqrs-mypy-plugin
+        env:
+          PIP_EXTRA_INDEX_URL: https://${{ secrets.REPOSITORY_MANAGER_USERNAME}}:${{ secrets.REPOSITORY_MANAGER_PASSWORD }}@repository-manager.dev.xcnt.io/repository/pypi-hosted/simple
+      - run: mypy
+
+  flake8:
+    needs: [select-runner-deployment]
+    runs-on: ${{ needs.select-runner-deployment.outputs.runner }}
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - run: pip install --disable-pip-version-check flake8
+      - run: flake8 .
+
+
+  tests:
+    runs-on: ${{ needs.select-runner-deployment.outputs.runner }}
+    needs: [select-runner-deployment, docker]
+    steps:
+      - name: Login to GCR
+        uses: docker/login-action@v2
+        with:
+          registry: eu.gcr.io
+          username: _json_key
+          password: ${{ secrets.GCR_REGISTRY_SECRET }}
+      - name: Checkout GitHub Action Repo
+        uses: actions/checkout@v3
+        with:
+          repository: xcnt/ghaction-docker-meta
+          ref: master
+          token: ${{ secrets.CI_AUTH_TOKEN }}
+          path: .github/actions/docker-meta
+      - name: Docker meta
+        id: docker_meta
+        uses: ./.github/actions/docker-meta
+        with:
+          images: |
+            eu.gcr.io/xcnt-infrastructure/drivr-metadata-client-build
+      - uses: actions/checkout@v3
+      - name: Patch files
+        run: |
+          sed -i "s~build:.*~image: ${{ steps.docker_meta.outputs.buildTag }}~g" docker-compose.app.yml
+      - name: Bootup Docker Compose
+        uses: nick-fields/retry@v2
+        with:
+          max_attempts: 3
+          timeout_minutes: 5
+          command: docker-compose -f docker-compose.yml -f docker-compose.app.yml up -d
+      - name: Run Unit Tests
+        run: |
+          docker-compose -f docker-compose.yml -f docker-compose.app.yml exec -T app coverage run -m pytest -s --pyargs --junitxml=test-results/test.xml src/xcnt/
+      - name: Print Test Coverage
+        if: always()
+        run: |
+          docker-compose -f docker-compose.yml -f docker-compose.app.yml exec -T app coverage report
+      - name: Publish Unit Test Results
+        uses: EnricoMi/publish-unit-test-result-action@v2
+        if: always()
+        with:
+          files: test-results/**/*.xml
+
+  vulnerability-check:
+    runs-on: ${{ needs.select-runner-deployment.outputs.runner }}
+    needs: [select-runner-deployment, docker]
+    steps:
+      - name: Login to GCR
+        uses: docker/login-action@v2
+        with:
+          registry: eu.gcr.io
+          username: _json_key
+          password: ${{ secrets.GCR_REGISTRY_SECRET }}
+      - name: Checkout GitHub Action Repo
+        uses: actions/checkout@v3
+        with:
+          repository: xcnt/ghaction-docker-meta
+          ref: master
+          token: ${{ secrets.CI_AUTH_TOKEN }}
+          path: .github/actions/docker-meta
+      - name: Docker meta
+        id: docker_meta
+        uses: ./.github/actions/docker-meta
+        with:
+          images: |
+            eu.gcr.io/xcnt-infrastructure/drivr-metadata-client-build
+      - name: Run Vulnerablity Check
+        run: |
+          docker run --rm -t ${{ steps.docker_meta.outputs.buildTag }} pip freeze | docker run -i --rm pyupio/safety safety check --full-report --stdin --ignore 45114 --ignore 52365 --ignore 51457 --ignore 51668 --ignore 52322
+
+  publish-to-docker:
+    runs-on: ${{ needs.select-runner-deployment.outputs.runner }}
+    outputs:
+      image_name: ${{ steps.docker_meta_publish.outputs.deployTag }}
+    needs:
+      - select-runner-deployment
+      - mypy
+      - flake8
+      - tests
+      - vulnerability-check
+    steps:
+      - name: Login to GCR
+        uses: docker/login-action@v2
+        with:
+          registry: eu.gcr.io
+          username: _json_key
+          password: ${{ secrets.GCR_REGISTRY_SECRET }}
+      - name: Checkout GitHub Action Repo
+        uses: actions/checkout@v3
+        with:
+          repository: xcnt/ghaction-docker-meta
+          ref: master
+          token: ${{ secrets.CI_AUTH_TOKEN }}
+          path: .github/actions/docker-meta
+      - name: Docker meta
+        id: docker_meta
+        uses: ./.github/actions/docker-meta
+        with:
+          images: |
+            eu.gcr.io/xcnt-infrastructure/drivr-metadata-client-build
+      - name: Docker meta publish
+        id: docker_meta_publish
+        uses: ./.github/actions/docker-meta
+        with:
+          images: |
+            eu.gcr.io/xcnt-infrastructure/drivr-metadata-client
+      - name: Set up QEMU
+        id: qemu
+        uses: docker/setup-qemu-action@v2
+        with:
+          image: tonistiigi/binfmt:latest
+          platforms: all
+      - name: Create Docker Context
+        run: docker context create buildx || true
+      - name: Set up Docker Buildx
+        id: buildx
+        uses: docker/setup-buildx-action@v2
+        with:
+          endpoint: buildx
+          config-inline: |
+            [registry."docker.io"]
+              mirrors = ["ci-registry.drivr.dev"]
+
+      - name: Build
+        id: docker_build
+        uses: docker/build-push-action@v4
+        with:
+          push: ${{ github.event_name != 'pull_request' }}
+          tags: ${{ steps.docker_meta_publish.outputs.tags }}
+          labels: ${{ steps.docker_meta_publish.outputs.labels }}
+          build-args: |
+            GITHUB_TOKEN=${{ secrets.CI_AUTH_TOKEN }}
+            PIP_USERNAME=${{ secrets.REPOSITORY_MANAGER_USERNAME }}
+            PIP_PASSWORD=${{ secrets.REPOSITORY_MANAGER_PASSWORD }}
+          cache-from: type=registry,ref=${{ steps.docker_meta.outputs.buildTag }}
+          cache-to: type=inline
+      - name: Get current PR
+        uses: 8BitJonny/gh-get-current-pr@2.2.0
+        continue-on-error: true
+        id: pr
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          filterOutClosed: true
+      - name: Get docker image comment
+        uses: peter-evans/find-comment@v2
+        continue-on-error: true
+        id: comment
+        with:
+          issue-number: ${{ steps.pr.outputs.number }}
+          comment-author: 'github-actions[bot]'
+          body-includes: Docker images
+      - name: Post docker images to comment
+        uses: peter-evans/create-or-update-comment@v2
+        continue-on-error: true
+        with:
+          comment-id: ${{ steps.comment.outputs.comment-id }}
+          issue-number: ${{ steps.pr.outputs.number }}
+          body: |
+            ## Docker images
+            ```
+            ${{ steps.docker_meta_publish.outputs.tags }}
+            ```
+            :recycle: This comment has been updated with latest results.
+          edit-mode: replace
+
+  release:
+    runs-on: ${{ needs.select-runner-deployment.outputs.runner }}
+    needs: [select-runner-deployment, publish-to-docker]
+    concurrency: release
+    if: ${{ github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main' }}
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Checkout GitHub Action Repo
+        uses: actions/checkout@v3
+        with:
+          repository: xcnt/ghaction-python-semantic-release
+          ref: main
+          token: ${{ secrets.CI_AUTH_TOKEN }}
+          path: .github/actions/python-semantic-release
+      # Python semantic release currently only allows setting the repo url via config files.
+      - name: Inject repository url
+        run: |
+          if grep -q '\[tool\.semantic_release\]' pyproject.toml; then
+            sed -i '/\[tool.semantic_release\]/a repository_url = "${{ secrets.TWINE_REPOSITORY_URL }}"' pyproject.toml
+          else
+            printf '[tool.semantic_release]\n%s\n' ${{ secrets.TWINE_REPOSITORY_URL }} >> pyproject.toml
+          fi
+      - name: Login to GCR
+        uses: docker/login-action@v2
+        with:
+          registry: eu.gcr.io
+          username: _json_key
+          password: ${{ secrets.GCR_REGISTRY_SECRET }}
+      - name: Pull image
+        run: |
+          docker pull "$(awk '/image:/{ print $2 }' ./.github/actions/python-semantic-release/action.yml | tr -d \'\")"
+      - name: Python Semantic Release
+        uses: ./.github/actions/python-semantic-release
+        with:
+          github_token: ${{ secrets.CI_AUTH_TOKEN }}
+          repository_username: ${{ secrets.REPOSITORY_MANAGER_USERNAME }}
+          repository_password: ${{ secrets.REPOSITORY_MANAGER_PASSWORD }}
+
+  slack-gardener-notify:
+    name: slack-gardener-notify
+    runs-on: ${{ needs.select-runner-deployment.outputs.runner }}
+    if: github.ref == 'refs/heads/gardener-update' && failure()
+    needs:
+      - select-runner-deployment
+      - mypy
+      - flake8
+      - vulnerability-check
+      - tests
+    steps:
+      - uses: actions/checkout@v3
+      - uses: jwalton/gh-find-current-pr@v1
+        id: findPr
+        with:
+          state: open
+      - uses: rtCamp/action-slack-notify@v2
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+          SLACK_USERNAME: xcnt-gardener
+          SLACK_CHANNEL: drivr-dev-github
+          SLACK_COLOR: '#ff1493'
+          SLACK_TITLE: 'Gardener sync failed'
+          SLACK_ICON: https://github.com/xcnt.png?size=48
+          SLACK_MESSAGE: ${{ github.server_url }}/${{ github.repository }}/pull/${{ steps.findPr.outputs.pr }}
+
+  auto-merge:
+    name: auto-merge
+    runs-on: ${{ needs.select-runner-deployment.outputs.runner }}
+    if: github.ref == 'refs/heads/gardener-update'
+    needs:
+      - select-runner-deployment
+      - mypy
+      - flake8
+      - vulnerability-check
+      - tests
+    steps:
+      - uses: actions/checkout@v3
+      - uses: jwalton/gh-find-current-pr@v1
+        id: findPr
+        with:
+          state: open
+      - id: auto-merge
+        name: auto-merge
+        uses: "pascalgn/automerge-action@v0.15.6"
+        env:
+          GITHUB_TOKEN: ${{ secrets.CI_AUTH_TOKEN }}
+          MERGE_LABELS: ""
+          PULL_REQUEST: ${{ steps.findPr.outputs.pr }}
+          MERGE_DELETE_BRANCH: "true"
+
