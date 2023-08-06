@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: random-selector
+Version: 1.0.0
+Summary: A Python library to select a random item from a list.
+Home-page: UNKNOWN
+Author: Your Name
+Author-email: your.email@example.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
