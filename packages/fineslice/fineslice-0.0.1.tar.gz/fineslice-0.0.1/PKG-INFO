@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: fineslice
+Version: 0.0.1
+Summary: Affine slicer
+Home-page: https://github.com/nx10/fineslice
+Author: Florian Rupprecht
+License: BSD 3-Clause License
+Project-URL: Bug Tracker, https://github.com/nx10/fineslice/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# `fineslice`
+
+`fineslice` is a lightweight sampler for 3D-affine transformed images (commonly used in neuroscience) implemented in 
+pure Python + NumPy.
+
+It does not make any assumptions about the data. Pass _any_ image texture and affine matrix directly into it.
+
+### Features
+
+- Precision sampling (no need to 're-sample' and loose precision)
+- Automatically finds optimal dimensions
+- Only depends on NumPy
+
+### Usage with `nibabel`
+
+For the best performance directly pass in the `nibabel` data object as a texture:
+
+```Python
+import nibabel as nib
+import fineslice as fine
+
+img = nib.load('my_image.nii.gz')
+
+out = fine.sample_0d(
+    texture=img.dataobj,
+    affine=img.affine,
+    out_position=(0, 0, 0)
+)
+```
