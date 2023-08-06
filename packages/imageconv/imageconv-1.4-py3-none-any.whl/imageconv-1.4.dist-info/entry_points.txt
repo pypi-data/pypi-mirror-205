@@ -1,0 +1,2 @@
+[console_scripts]
+imageconv = imageconv:cli_imageconv

@@ -1,0 +1,9 @@
+imageconv.py,sha256=v5ldNB-IW8__xntKpLZoHu_mkzFci1mVrx-1VLb824c,8999
+imageconv/__init__.py,sha256=6WxB2WA60cWi-jXNRDncyy8JGfZ5jP6jfblpY3LJzFQ,63
+imageconv/__main__.py,sha256=-II8r2mubTbOaDBYuIPtSRJ391QkeLd4Jc1H-1oSZKY,89
+imageconv/imageconv.py,sha256=FbodZ-rSLUcZm1yVy5tbO3zuAyacKWdCvvOkF0CdbXA,11626
+imageconv-1.4.dist-info/METADATA,sha256=w4kTVqEb4AAIpUi4mel5z00nZHze01iNAVzNLpHRpBg,181
+imageconv-1.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+imageconv-1.4.dist-info/entry_points.txt,sha256=Is2Q55ncC1gASVBV8b6pqwvVbBWAUOzncZr0Mwipvt8,54
+imageconv-1.4.dist-info/top_level.txt,sha256=xRLnN0n10vMwixsfIIZWcqMKCyuTl6aWVzpfIglxNjI,10
+imageconv-1.4.dist-info/RECORD,,

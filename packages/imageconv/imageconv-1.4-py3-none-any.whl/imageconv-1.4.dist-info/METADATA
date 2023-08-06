@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: imageconv
+Version: 1.4
+Requires-Dist: click
+Requires-Dist: ext-pathlib
+Requires-Dist: Pillow
+Requires-Dist: pillow-heif
+Requires-Dist: natsort
+
