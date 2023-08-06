@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+freshpdf/__init__.py
+freshpdf/pdf2image.py
+freshpdf/pdf2text.py
+freshpdf.egg-info/PKG-INFO
+freshpdf.egg-info/SOURCES.txt
+freshpdf.egg-info/dependency_links.txt
+freshpdf.egg-info/top_level.txt
