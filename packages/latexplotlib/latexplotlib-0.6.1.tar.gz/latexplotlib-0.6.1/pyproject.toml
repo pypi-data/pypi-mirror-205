@@ -1,0 +1,185 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["matplotlib", "setuptools"]
+
+[project]
+authors = [
+    {email = "latexplotlib.gvxel@aleeas.com", name = "Constantin Gahr"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+dependencies = [
+    "appdirs",
+    "matplotlib"
+]
+description = "Perfect matplotlib figures for latex"
+dynamic = ["version"]
+keywords = [
+    "latex",
+    "matplotlib-figures",
+    "matplotlib-style-sheets",
+    "matplotlib-styles",
+    "python"
+]
+license = {text = "MIT"}
+name = "latexplotlib"
+readme = "README.md"
+requires-python = ">=3.7.1"
+
+[project.optional-dependencies]
+tests = [
+    "coverage",
+    "pytest",
+    "pytest-cov",
+    "pytest-mock"
+]
+
+[project.urls]
+Homepage = "https://github.com/cgahr/latexplotlib"
+Issues = "https://github.com/cgahr/latexplotlib/issues"
+
+[tool.black]
+line_length = 88
+
+[tool.coverage.report]
+exclude_lines = ["if TYPE_CHECKING:"]
+
+[tool.coverage.run]
+source = ["src"]
+
+[tool.isort]
+profile = "black"
+
+[tool.mypy]
+check_untyped_defs = true
+exclude = [
+    ".cache",
+    ".git",
+    ".ipynb_checkpoints",
+    "__pycache__",
+    "build",
+    "dist",
+    "examples",
+    "setup*",
+    "tests"
+]
+mypy_path = "src"
+no_implicit_optional = true
+no_implicit_reexport = true
+show_error_codes = true
+strict_equality = true
+warn_redundant_casts = true
+warn_return_any = true
+warn_unreachable = true
+warn_unused_configs = true
+
+[[tool.mypy.overrides]]
+ignore_missing_imports = true
+module = [
+    "matplotlib.*"
+]
+
+[tool.pytest.ini_options]
+addopts = "--cov --cov-report=html --cov-report=term"
+testpaths = [
+    "tests"
+]
+
+[tool.ruff]
+fix = true
+fixable = ["I"]
+ignore = [
+    "ANN101"  # missing-type-self
+]
+select = [
+    "F",
+    "E",
+    "W",
+    "C90",
+    "I",
+    "N",
+    # "D",
+    "UP",
+    "YTT",
+    "ANN",
+    "S",
+    "BLE",
+    "FBT",  # unclear if good or not
+    "B",
+    "A",
+    "C4",
+    "DTZ",
+    "T10",
+    "EM",
+    "EXE",
+    "ISC",
+    "ICN",
+    "G",
+    "INP",
+    "PIE",
+    "T20",
+    "PYI",
+    "PT",
+    "RSE",
+    "RET",
+    "SLF",
+    "SIM",
+    "TID",
+    "TCH",
+    "ARG",
+    "PTH",
+    "ERA",
+    "PGH",
+    "PL",
+    "TRY",
+    "NPY",
+    "RUF"
+]
+target-version = "py38"
+
+[tool.ruff.flake8-annotations]
+suppress-dummy-args = true
+
+[tool.ruff.per-file-ignores]
+"examples/*" = [
+    "ERA001",  # commented-out-code
+    "INP"  # implicit-namespace-package
+]
+"tests/*" = [
+    "ANN",
+    "ARG002",  # unused-method-argument
+    "INP",  # implicit-namespace-package
+    "PLR0913",  # too-many-arguments
+    "S101",  # assert
+    "SLF001"  # private-member-access
+]
+
+[tool.ruff.pylint]
+max-args = 5
+
+[tool.setuptools.dynamic]
+version = {attr = "latexplotlib._version.__version__"}
+
+[tool.setuptools.package-data]
+latexplotlib = ["py.typed"]
+"latexplotlib.styles" = ["*.mplstyle"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.tomlsort]
+all = true
+in_place = true
+spaces_before_inline_comment = 2
+spaces_indent_inline_array = 4
+
+[tool.tomlsort.overrides]
+"project.classifiers".inline_arrays = false
+"tool.ruff.select".inline_arrays = false
