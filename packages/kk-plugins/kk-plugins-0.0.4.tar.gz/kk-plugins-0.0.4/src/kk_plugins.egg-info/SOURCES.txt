@@ -1,0 +1,15 @@
+README.md
+setup.py
+src/cmd/__init__.py
+src/cmd/run.py
+src/filter/__init__.py
+src/filter/bloomfilter_redis.py
+src/filter/cuckoofilter_redis.py
+src/github/__init__.py
+src/github/setup.py
+src/kk_plugins.egg-info/PKG-INFO
+src/kk_plugins.egg-info/SOURCES.txt
+src/kk_plugins.egg-info/dependency_links.txt
+src/kk_plugins.egg-info/requires.txt
+src/kk_plugins.egg-info/top_level.txt
+src/scrapy_plugins/__init__.py
