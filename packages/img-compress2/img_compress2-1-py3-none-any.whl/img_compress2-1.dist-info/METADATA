@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: img-compress2
+Version: 1
+Summary: Try_一个主流图片压缩方案的自动化脚本(利用 tinify 实现666)
+Author-email: Jay <jaylcy2022@gmail.com>
+Project-URL: Homepage, https://ilovefishc.com
+Project-URL: Bug Tracker, https://fishc.com.cn
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tinify
+
+# 一个主流图片 压缩方案的自动化脚本 （利用 tinify 实现）
+
+###  实现三种图片输入的方式
+*用户可以指定需要压缩的图片文件名称（支持多个图片文件，使用空格隔开）
+* 如果用户未指定图片，默认压缩当前文件夹下所有的 jpg/ jpeg/ png/webp 图片
+
+### 支持图片的尺寸调整
+*输入宽度和高度（比如 600 800），表示按比例縮小图片，使其适合给定的尺寸
+*输入宽度（ 比如 600 0），表示按照正确的宽度调整照片，高度适配
+*输入高度（比如0 800），表示按照正确的高度调整照片，宽度适配
+*如果未输入宽度和高度，则表示按照原始分辦率来压縮图片
+
+### 调用方法
+
+import img_compress
+img_compress.tinify.key= “ ” #请在https://tinify.cn/developers申请密匙
+img_compress.compress(）＃可以指定多个图片文件，未指定则压缩当前路径下的图片
+
+注意：需先到tifiny官网申请API密匙 一>(https://tinify.cn/developers）
