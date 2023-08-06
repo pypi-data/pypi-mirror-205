@@ -1,0 +1,8 @@
+setup.py
+SemiCPack/Main.py
+SemiCPack/__init__.py
+SemiCPack.egg-info/PKG-INFO
+SemiCPack.egg-info/SOURCES.txt
+SemiCPack.egg-info/dependency_links.txt
+SemiCPack.egg-info/entry_points.txt
+SemiCPack.egg-info/top_level.txt
