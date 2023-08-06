@@ -1,0 +1,6 @@
+pyyaml
+pyserial
+termcolor
+pyopenssl
+zeroconf
+websocket-client
