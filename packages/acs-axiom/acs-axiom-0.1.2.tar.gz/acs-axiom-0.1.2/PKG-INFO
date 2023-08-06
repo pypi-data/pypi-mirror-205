@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: acs-axiom
+Version: 0.1.2
+Summary: A prototype utility for validating/applying metadata templates for scientific data.
+Home-page: https://github.com/AusClimateService/axiom
+Author: Ben Schreoter
+Author-email: ben.schroeter@csiro.au
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Atmospheric Science
+Classifier: Topic :: Scientific/Engineering :: Hydrology
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+License-File: LICENSE
+
+A prototype utility for validating/applying metadata templates for scientific data.

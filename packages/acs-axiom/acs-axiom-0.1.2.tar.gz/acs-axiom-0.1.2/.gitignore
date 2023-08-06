@@ -1,0 +1,7 @@
+**egg-info**
+__pycache__
+**.nc
+**.pyc
+**.DS_Store
+.eggs
+docs/build/
