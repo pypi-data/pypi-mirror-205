@@ -1,0 +1,4 @@
+include requirements.txt
+include requirements-test.txt
+include puncover_riscv/static/**/*
+include puncover_riscv/templates/**
