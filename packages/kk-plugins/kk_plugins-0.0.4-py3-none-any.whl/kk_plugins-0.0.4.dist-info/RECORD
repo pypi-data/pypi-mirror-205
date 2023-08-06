@@ -1,0 +1,12 @@
+cmd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cmd/run.py,sha256=ezD51MrV31vKhpBuQZ87apwTbJdUHa0zIZ1evqLc7Uw,483
+filter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+filter/bloomfilter_redis.py,sha256=40KSSlt7BRZe3fE4gKvnlM2dqLJW8gUvv2O_EPMOOsw,1298
+filter/cuckoofilter_redis.py,sha256=CcrPwcPKSCaPxDNgC6FUQqL6wizHe-WYmsZrQP7OZw8,1792
+github/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+github/setup.py,sha256=LuztDjqfrC0KFmxxdYw1InynbzvdcMf-e7CdcAf_MqE,2714
+scrapy_plugins/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kk_plugins-0.0.4.dist-info/METADATA,sha256=wVGCFVDTFkIvbXkoV7x-VqIzMWk8SizOJF0p-SaKWBE,778
+kk_plugins-0.0.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+kk_plugins-0.0.4.dist-info/top_level.txt,sha256=o6Q3cy7NCeMS5KYDOE1WwaWgeusJ_38vndsSPek3Mnk,33
+kk_plugins-0.0.4.dist-info/RECORD,,
