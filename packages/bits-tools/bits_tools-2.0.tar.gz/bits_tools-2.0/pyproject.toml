@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bits_tools"
+version = "2.0"
+authors = [
+  { name="Luke Villalobos", email="luke@bytesizeinfo.com" },
+]
+description = "A Python package to simulate bits"
+readme = "README.md"
+requires-python = ">=3.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/LukeVilla/bits"
+"Bug Tracker" = "https://github.com/LukeVilla/bits/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["bits", "exceptions"]
+namespaces = false

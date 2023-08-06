@@ -1,0 +1,10 @@
+LICENSE
+README.md
+bits.py
+pyproject.toml
+bits_tools.egg-info/PKG-INFO
+bits_tools.egg-info/SOURCES.txt
+bits_tools.egg-info/dependency_links.txt
+bits_tools.egg-info/top_level.txt
+tests/test_randombits.py
+tests/test_twobits.py
