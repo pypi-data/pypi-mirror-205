@@ -1,0 +1,4 @@
+pyradiance==0.0.9a1
+numpy
+matplotlib
+pywincalc>=3.0.0
