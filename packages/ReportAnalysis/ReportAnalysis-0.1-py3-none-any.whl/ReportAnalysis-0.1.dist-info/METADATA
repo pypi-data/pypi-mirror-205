@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: ReportAnalysis
+Version: 0.1
+Summary: A package for analyzing reports using NLTK
+Home-page: https://github.com/bappy-3/ReportAnalysis
+Author: Al Mustafiz Bappy
+Author-email: almustafizbappy@gmail.com
+Keywords: nltk report analysis
+License-File: LICENSE
+Requires-Dist: nltk
+
