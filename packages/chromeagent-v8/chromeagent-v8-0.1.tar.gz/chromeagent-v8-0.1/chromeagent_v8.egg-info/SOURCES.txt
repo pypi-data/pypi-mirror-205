@@ -1,0 +1,6 @@
+setup.py
+chromeagent_v8.egg-info/PKG-INFO
+chromeagent_v8.egg-info/SOURCES.txt
+chromeagent_v8.egg-info/dependency_links.txt
+chromeagent_v8.egg-info/requires.txt
+chromeagent_v8.egg-info/top_level.txt
