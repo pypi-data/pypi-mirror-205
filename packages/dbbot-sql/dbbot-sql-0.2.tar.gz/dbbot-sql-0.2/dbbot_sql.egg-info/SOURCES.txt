@@ -1,0 +1,17 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+dbbot/__init__.py
+dbbot/__main__.py
+dbbot/logger.py
+dbbot/run.py
+dbbot/reader/__init__.py
+dbbot/reader/database_writer.py
+dbbot/reader/reader_options.py
+dbbot/reader/robot_results_parser.py
+dbbot_sql.egg-info/PKG-INFO
+dbbot_sql.egg-info/SOURCES.txt
+dbbot_sql.egg-info/dependency_links.txt
+dbbot_sql.egg-info/requires.txt
+dbbot_sql.egg-info/top_level.txt
