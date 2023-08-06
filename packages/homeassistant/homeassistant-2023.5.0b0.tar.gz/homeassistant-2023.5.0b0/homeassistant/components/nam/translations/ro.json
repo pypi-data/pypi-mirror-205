@@ -1,0 +1,24 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Dispozitivul a fost configurat deja",
+            "device_unsupported": "Dispozitivul nu este acceptat."
+        },
+        "error": {
+            "cannot_connect": "A e\u0219uat conectarea",
+            "unknown": "Eroare nea\u0219teptat\u0103"
+        },
+        "flow_title": "{host}",
+        "step": {
+            "confirm_discovery": {
+                "description": "Dore\u0219ti s\u0103 configurezi monitorul Nettigo Air de la {host}?"
+            },
+            "user": {
+                "data": {
+                    "host": "Gazd\u0103 (host)"
+                },
+                "description": "Configureaz\u0103 integrarea Nettigo Air Monitor."
+            }
+        }
+    }
+}

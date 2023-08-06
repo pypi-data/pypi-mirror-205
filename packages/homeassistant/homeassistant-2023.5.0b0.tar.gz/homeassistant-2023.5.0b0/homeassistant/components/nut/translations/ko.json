@@ -1,0 +1,67 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "\uae30\uae30\uac00 \uc774\ubbf8 \uad6c\uc131\ub418\uc5c8\uc2b5\ub2c8\ub2e4"
+        },
+        "error": {
+            "cannot_connect": "\uc5f0\uacb0\ud558\uc9c0 \ubabb\ud588\uc2b5\ub2c8\ub2e4",
+            "unknown": "\uc608\uc0c1\uce58 \ubabb\ud55c \uc624\ub958\uac00 \ubc1c\uc0dd\ud588\uc2b5\ub2c8\ub2e4"
+        },
+        "step": {
+            "ups": {
+                "data": {
+                    "alias": "\ubcc4\uba85"
+                },
+                "title": "\ubaa8\ub2c8\ud130\ub9c1\ud560 UPS \uc120\ud0dd\ud558\uae30"
+            },
+            "user": {
+                "data": {
+                    "host": "\ud638\uc2a4\ud2b8",
+                    "password": "\ube44\ubc00\ubc88\ud638",
+                    "port": "\ud3ec\ud2b8",
+                    "username": "\uc0ac\uc6a9\uc790 \uc774\ub984"
+                },
+                "title": "NUT \uc11c\ubc84\uc5d0 \uc5f0\uacb0\ud558\uae30"
+            }
+        }
+    },
+    "device_automation": {
+        "action_type": {
+            "beeper_disable": "UPS \uc2e0\ud638\uc74c/\ubd80\uc800 \ube44\ud65c\uc131\ud654",
+            "beeper_enable": "UPS \uc2e0\ud638\uc74c/\ubd80\uc800 \ud65c\uc131\ud654",
+            "beeper_mute": "UPS \uc2e0\ud638\uc74c/\ubd80\uc800\ub97c \uc77c\uc2dc\uc801\uc73c\ub85c \uc74c\uc18c\uac70",
+            "beeper_toggle": "UPS \uc2e0\ud638\uc74c/\ubd80\uc800 \uc804\ud658",
+            "bypass_start": "UPS\ub97c \ubc14\uc774\ud328\uc2a4 \ubaa8\ub4dc\ub85c \uc804\ud658\ud569\ub2c8\ub2e4.",
+            "bypass_stop": "UPS\ub97c \ubc14\uc774\ud328\uc2a4 \ubaa8\ub4dc\uc5d0\uc11c \ud574\uc81c\ud569\ub2c8\ub2e4.",
+            "calibrate_start": "\ub7f0\ud0c0\uc784 \ubcf4\uc815 \uc2dc\uc791",
+            "calibrate_stop": "\ub7f0\ud0c0\uc784 \ubcf4\uc815 \uc911\uc9c0",
+            "load_off": "\ubd80\ud558\ub97c \uc989\uc2dc \ub044\uc2ed\uc2dc\uc624.",
+            "load_on": "\ubd80\ud558\ub97c \uc989\uc2dc \ucf1c\uc2ed\uc2dc\uc624.",
+            "reset_input_minmax": "\ucd5c\uc18c \ubc0f \ucd5c\ub300 \uc785\ub825 \uc804\uc555 \uc0c1\ud0dc \uc7ac\uc124\uc815",
+            "reset_watchdog": "\uc6cc\uce58\ub3c5 \ud0c0\uc774\uba38 \uc7ac\uc124\uc815 (\ubd80\ud558 \uac15\uc81c \uc7ac\ubd80\ud305)",
+            "shutdown_reboot": "UPS\ub97c \uc7ac\ubd80\ud305\ud558\ub294 \ub3d9\uc548 \ubd80\ud558\ub97c \uc7a0\uc2dc \uc885\ub8cc\ud569\ub2c8\ub2e4.",
+            "shutdown_reboot_graceful": "\uc9c0\uc5f0 \ud6c4 UPS\ub97c \uc7ac\ubd80\ud305\ud558\ub294 \ub3d9\uc548 \ubd80\ud558\ub97c \uc7a0\uc2dc \uc885\ub8cc\ud558\uc2ed\uc2dc\uc624.",
+            "shutdown_return": "\uc9c0\uc5f0 \ud6c4 \uac00\ub2a5\ud558\uba74 \ubd80\ud558\ub97c \ub044\uace0 \uc804\uc6d0\uc774 \ub2e4\uc2dc \ub4e4\uc5b4\uc624\uba74 \ubcf5\uadc0\ud569\ub2c8\ub2e4.",
+            "shutdown_stayoff": "\uc9c0\uc5f0 \ud6c4 \uac00\ub2a5\ud558\uba74 \ubd80\ud558\ub97c \ub044\uace0 \uc804\uc6d0\uc774 \ubcf5\uad6c\ub418\ub354\ub77c\ub3c4 \uaebc\uc9c4 \uc0c1\ud0dc\ub97c \uc720\uc9c0\ud569\ub2c8\ub2e4.",
+            "shutdown_stop": "\uc9c4\ud589 \uc911\uc778 \uc885\ub8cc \uc911\uc9c0",
+            "test_battery_start": "\ubc30\ud130\ub9ac \ud14c\uc2a4\ud2b8 \uc2dc\uc791",
+            "test_battery_start_deep": "\uc2ec\uce35 \ubc30\ud130\ub9ac \ud14c\uc2a4\ud2b8 \uc2dc\uc791",
+            "test_battery_start_quick": "\ube60\ub978 \ubc30\ud130\ub9ac \ud14c\uc2a4\ud2b8 \uc2dc\uc791",
+            "test_battery_stop": "\ubc30\ud130\ub9ac \ud14c\uc2a4\ud2b8 \uc911\uc9c0",
+            "test_failure_start": "\uc815\uc804 \uc2dc\ubbac\ub808\uc774\uc158 \uc2dc\uc791",
+            "test_failure_stop": "\uc815\uc804 \uc2dc\ubbac\ub808\uc774\uc158 \uc911\uc9c0",
+            "test_panel_start": "UPS \ud328\ub110 \ud14c\uc2a4\ud2b8 \uc2dc\uc791",
+            "test_panel_stop": "UPS \ud328\ub110 \ud14c\uc2a4\ud2b8 \uc911\uc9c0",
+            "test_system_start": "\uc2dc\uc2a4\ud15c \ud14c\uc2a4\ud2b8 \uc2dc\uc791"
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "scan_interval": "\uc2a4\uce94 \uac04\uaca9 (\ucd08)"
+                }
+            }
+        }
+    }
+}

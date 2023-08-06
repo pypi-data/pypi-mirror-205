@@ -1,0 +1,32 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Loca\u021bia este deja configurat\u0103"
+        },
+        "error": {
+            "invalid_api_key": "Cheie API nevalid\u0103"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "api_key": "Cheie API",
+                    "elevation": "Altitudine",
+                    "latitude": "Latitudine",
+                    "longitude": "Longitudine"
+                },
+                "title": "Completeaz\u0103 informa\u021biile tale"
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "from_window": "Indice UV ini\u021bial pentru fereastra de protec\u021bie",
+                    "to_window": "Indice UV de final pentru fereastra de protec\u021bie"
+                },
+                "title": "Configurare OpenUV"
+            }
+        }
+    }
+}

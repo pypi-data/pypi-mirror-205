@@ -1,0 +1,12 @@
+{
+    "config": {
+        "step": {
+            "confirm_discovery": {
+                "data": {
+                    "use_legacy_protocol": "\ub808\uac70\uc2dc \ud504\ub85c\ud1a0\ucf5c \uc0ac\uc6a9",
+                    "username": "\uc0ac\uc6a9\uc790 \uc774\ub984"
+                }
+            }
+        }
+    }
+}

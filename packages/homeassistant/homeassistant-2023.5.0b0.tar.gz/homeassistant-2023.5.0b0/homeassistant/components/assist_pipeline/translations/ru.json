@@ -1,0 +1,12 @@
+{
+    "entity": {
+        "select": {
+            "pipeline": {
+                "name": "Assist Pipeline",
+                "state": {
+                    "preferred": "\u041f\u0440\u0435\u0434\u043f\u043e\u0447\u0442\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439"
+                }
+            }
+        }
+    }
+}

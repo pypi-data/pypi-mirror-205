@@ -1,0 +1,14 @@
+{
+    "device_automation": {
+        "action_type": {
+            "select_option": "La schimbarea op\u021biunii {entity_name}"
+        },
+        "condition_type": {
+            "selected_option": "La schimbarea op\u021biunii selectate {entity_name}"
+        },
+        "trigger_type": {
+            "current_option_changed": "La schimbarea selec\u021biei {entity_name}"
+        }
+    },
+    "title": "Selectare"
+}

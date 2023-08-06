@@ -1,0 +1,54 @@
+{
+    "config": {
+        "abort": {
+            "single_instance_allowed": "\uc774\ubbf8 \uad6c\uc131\ub418\uc5c8\uc2b5\ub2c8\ub2e4. \ud558\ub098\uc758 \uc778\uc2a4\ud134\uc2a4\ub9cc \uad6c\uc131\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4."
+        }
+    },
+    "entity": {
+        "sensor": {
+            "daily_power_return_total": {
+                "name": "\uc804\ub825 \ud68c\uc218 \ucd1d\uacc4 (\uc77c)"
+            },
+            "daily_power_total_cost": {
+                "name": "\uc804\ub825 \ucd1d \ube44\uc6a9 (\uc77c)"
+            },
+            "daily_power_usage_total": {
+                "name": "\ucd1d \uc804\ub825 \uc0ac\uc6a9\ub7c9 (\uc77c)"
+            },
+            "dsmr_version": {
+                "name": "DSMR \ubc84\uc804"
+            },
+            "electricity_tariff": {
+                "name": "\uc804\uae30\uc138",
+                "state": {
+                    "high": "\ub192\uc74c",
+                    "low": "\ub0ae\uc74c"
+                }
+            },
+            "gas_cost": {
+                "name": "\uac00\uc2a4 \ube44\uc6a9"
+            },
+            "gas_meter_read": {
+                "name": "\uac00\uc2a4 \uacc4\ub7c9\uae30 \uc77d\uae30"
+            },
+            "gas_meter_usage": {
+                "name": "\uac00\uc2a4 \uacc4\ub7c9\uae30 \uc0ac\uc6a9"
+            },
+            "gas_price": {
+                "name": "\uac00\uc2a4 \uac00\uaca9"
+            },
+            "voltage_sag_l3": {
+                "name": "\uc804\uc555 \uac15\ud558 L3"
+            },
+            "voltage_swell_l1": {
+                "name": "\uc804\uc555 \uc2a4\uc6f0 L1"
+            },
+            "voltage_swell_l2": {
+                "name": "\uc804\uc555 \uc2a4\uc6f0 L2"
+            },
+            "voltage_swell_l3": {
+                "name": "\uc804\uc555 \uc2a4\uc6f0 L3"
+            }
+        }
+    }
+}

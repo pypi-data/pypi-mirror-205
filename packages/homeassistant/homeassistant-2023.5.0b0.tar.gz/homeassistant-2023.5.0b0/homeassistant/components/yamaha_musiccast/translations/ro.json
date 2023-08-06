@@ -1,0 +1,23 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Dispozitivul a fost configurat deja",
+            "yxc_control_url_missing": "URL-ul de control nu este dat \u00een descrierea ssdp."
+        },
+        "error": {
+            "no_musiccast_device": "Acest dispozitiv nu pare a fi un dispozitiv MusicCast."
+        },
+        "flow_title": "MusicCast: {name}",
+        "step": {
+            "confirm": {
+                "description": "Dore\u0219ti s\u0103 \u00eencepi configurarea?"
+            },
+            "user": {
+                "data": {
+                    "host": "Gazd\u0103 (host)"
+                },
+                "description": "Configureaz\u0103 integrarea MuscCast \u00een Home Assistant."
+            }
+        }
+    }
+}
