@@ -1,0 +1,9 @@
+pinpoint/__init__.py,sha256=MGeLAgHZWegYGr0PGP6jpfX1lxzVJO_JSyBmdSZr110,140
+pinpoint/exception.py,sha256=B4_oSRnB2Y1IAvqONVLttaRea7Q86t9VE-UkDxGDV7Y,703
+pinpoint/mail_service.py,sha256=nWwFf3bq3_xNpQJNW5okfPgCcD5UsMivnKenc9orwI8,2325
+pinpoint/sms_service.py,sha256=Zfdf073f2WMWCkqbKvS0gK9H8vKvWQwNxtkg7E8GsW4,3522
+PinPointClient-0.0.10.dist-info/LICENSE,sha256=kMDUYTNnummGMZiwFP-gcNFZ2zLkL7HnTQG4WZHlBCc,1071
+PinPointClient-0.0.10.dist-info/METADATA,sha256=dDwBlxK-AOyxYW-ohXc47BrsV8INFECx2-ZGWjpHZ0g,2409
+PinPointClient-0.0.10.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+PinPointClient-0.0.10.dist-info/top_level.txt,sha256=qx5g4X0SQHlAa3U1tUV_a1t_VwcDFbhKJ88WeU2mnD4,9
+PinPointClient-0.0.10.dist-info/RECORD,,
