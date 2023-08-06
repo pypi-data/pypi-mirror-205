@@ -1,0 +1,92 @@
+Metadata-Version: 2.1
+Name: fw-gdrive
+Version: 0.3.2
+Summary: Flyweheel Google Drive Integration Tools
+Home-page: https://gitlab.com/flywheel-io/tools/lib/fw-gdrive
+License: MIT
+Keywords: Flywheel
+Author: Flywheel
+Author-email: support@flywheel.io
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: google-api-python-client (>=2.32.0,<3.0.0)
+Requires-Dist: oauth2client (>=4.1.3,<5.0.0)
+Project-URL: Documentation, https://gitlab.com/flywheel-io/tools/lib/fw-gdrive
+Project-URL: Repository, https://gitlab.com/flywheel-io/tools/lib/fw-gdrive
+Description-Content-Type: text/markdown
+
+# fw-gdrive
+
+Helper library that provides a set of utilities to integrate Google Drive
+for common tasks including uploading files, deleting files and modifying Google Documents.
+
+## Installation
+
+Add as a `poetry` dependency to your project:
+
+```bash
+poetry add fw-gdrive
+```
+
+## Usage
+
+### Instantiate Google API Client
+
+```python
+from fw_gdrive import gapi
+# Specify the Drive API scopes
+DEFAULT_GOOGLE_API_SCOPE = [
+    # Default Drive API scopes
+    "https://www.googleapis.com/auth/drive",
+    "https://www.googleapis.com/auth/drive.appdata",
+    "https://www.googleapis.com/auth/drive.file",
+    "https://www.googleapis.com/auth/drive.metadata",
+    "https://www.googleapis.com/auth/drive.metadata.readonly",
+    "https://www.googleapis.com/auth/drive.photos.readonly",
+    "https://www.googleapis.com/auth/drive.readonly",
+    "https://www.googleapis.com/auth/drive.scripts",]
+
+# instantiate Google API Client
+google_api_client = gapi.GoogleAPIClient(service_cred_path=<path-to-credentials>, scopes=DEFAULT_GOOGLE_API_SCOPE)
+
+# use the API Client to instantiate a Google Drive Folder object
+gdrive_folder_obj = gapi.GoogleDriveFolder(folder_id=<folder-id>, api_client=google_api_client)
+```
+
+### Upload file to Google Drive Folder
+
+Once you have instantiated a Google Drive Folder object
+you can use `upload_file` method to upload file to that folder.
+
+```python
+gdrive_folder_obj = gapi.GoogleDriveFolder(folder_id=<folder-id>, api_client=google_api_client)
+gdocs_file_obj = gdrive_folder_obj.upload_file(file_name=<name-of-file-you-uploading>, file_path=<path-to-file-you-uploading>)
+```
+
+### Modify Google Documents File content
+
+There's a few handy method under `fw_gdrive.utils`
+that allow you to build request to
+modify the Google Documents file.
+Here is a quick example of how to
+replace text in the documents using `gapi.utils.replace_text`
+
+```python
+from fw_gdrive import utils
+replace_text_request = utils.replace_text(targeted_text="dummy name", 
+                        replacement_text="a better name")
+update_gear_name_result = google_docs_file_obj.update_document_request(request_call=[replace_text_request])
+```
+
+## License
+
+PUBLIC:
+[![MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
