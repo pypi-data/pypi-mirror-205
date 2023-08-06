@@ -1,0 +1,5 @@
+[drb.driver]
+wms = drb.drivers.wms:WmsFactory
+
+[drb.topic]
+wms = drb.topics.wms
