@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: model_scraper
+Version: 1.0.0
+Summary: Scrapes information model xml for models.
+Home-page: https://github.com/FINTLabs/fint-model-scraper
+Author: Henrik Knutsen
+Author-email: hknut99@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+An xml parser that gathers useful information about each model in a package from the information model xml.

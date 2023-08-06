@@ -1,0 +1,9 @@
+README.md
+setup.py
+model_scraper/__init__.py
+model_scraper/model.py
+model_scraper/model_scraper.py
+model_scraper.egg-info/PKG-INFO
+model_scraper.egg-info/SOURCES.txt
+model_scraper.egg-info/dependency_links.txt
+model_scraper.egg-info/top_level.txt
