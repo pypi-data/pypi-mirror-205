@@ -1,0 +1,17 @@
+robocorp/tasks/__init__.py,sha256=bagkHTCUPHEoBRhLpsf7-jo5AgLjc9bFJSmYu-WrSsQ,721
+robocorp/tasks/__main__.py,sha256=JOLreCPS8j4L8sBP35wGR2_nHfuxSoKgLiEUjbaQRdg,79
+robocorp/tasks/_argdispatch.py,sha256=-Lx0YMilxAdxHGdhD_fiWsa80CWFpM6b9z9vkCyTYa8,3371
+robocorp/tasks/_callback.py,sha256=UCeeOp5TWRdSNZ4AiDJm-ePHExw-mFzjixfKsL3f8AM,1230
+robocorp/tasks/_collect_tasks.py,sha256=XaxCE8_1vD8NWTag-dhkmCpuQ0Nf1cqDMh2jmuVjGEc,5048
+robocorp/tasks/_commands.py,sha256=hlAEoS4c_Na0eki4J5AHQQX5yCIxnCKP2GbDe7cs9ro,5284
+robocorp/tasks/_decorators.py,sha256=MeuycmcEyMqcUYs_q-HyNv4lSowzkouSYjTtQbUYo5k,638
+robocorp/tasks/_exceptions.py,sha256=xfir44PKb0Ef-MO54TqwakiV8ll66lF8e5b-OZK5KUc,182
+robocorp/tasks/_hooks.py,sha256=MhYrtbjKnDvK29GSsD5bRExQK_nY03xLtOtnB-Ofxg4,599
+robocorp/tasks/_log_auto_setup.py,sha256=jeQp7jlrEYbZ9C8gWO_BcQCE-cC6Ak4LXMrLgyOWINs,4519
+robocorp/tasks/_log_output_setup.py,sha256=l3AtNLaWZZr1_Lh5C4V3BhhQ9RgSYH-aYb3y2bckA6A,2335
+robocorp/tasks/_protocols.py,sha256=1CHJQrqJOveAIk3N_ZtCCbpqyt2iXoohyZcFmCWuXeE,1699
+robocorp/tasks/_task.py,sha256=yXL86UXiCwLjIikW5WczuMPMHp9UDPG_6SeZHOMB6ck,933
+robocorp/tasks/cli.py,sha256=b2ZCl1fgmLtFAgUWugPugcD4S0L1oAjtLzUyNBqiZPM,809
+robocorp_tasks-0.1.5.dist-info/METADATA,sha256=z6RpDrqf7xTBQV6eXAjnjOPQcvMOXpXdfaGGgR88Suc,5544
+robocorp_tasks-0.1.5.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+robocorp_tasks-0.1.5.dist-info/RECORD,,
