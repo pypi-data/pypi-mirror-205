@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+licensing.models.egg-info/PKG-INFO
+licensing.models.egg-info/SOURCES.txt
+licensing.models.egg-info/dependency_links.txt
+licensing.models.egg-info/requires.txt
+licensing.models.egg-info/top_level.txt
