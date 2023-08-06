@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: drill-bits
+Version: 0.0.1
+Summary: Drill-bits, handy tools for ML in Python
+Author: jiujiuche
+Author-email: jiujiuche@gmail.com
+Keywords: python,toolbox
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+# Drill-bits: handy tools for ML in Python
+
+## Install
+pip install drill-bits
+
+
