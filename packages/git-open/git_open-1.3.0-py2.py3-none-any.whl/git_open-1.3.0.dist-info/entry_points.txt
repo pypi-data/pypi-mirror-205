@@ -1,0 +1,2 @@
+[console_scripts]
+git-open = git_open.cli:cli
