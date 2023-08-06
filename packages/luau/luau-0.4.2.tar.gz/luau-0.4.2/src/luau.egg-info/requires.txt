@@ -1,0 +1,4 @@
+dpath~=2.1.5
+toml~=0.10.2
+requests~=2.28.2
+types-toml~=0.10.8.6
