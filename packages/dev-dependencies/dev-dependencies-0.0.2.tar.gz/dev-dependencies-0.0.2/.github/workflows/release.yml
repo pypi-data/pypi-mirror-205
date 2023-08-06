@@ -1,0 +1,15 @@
+name: Create a new patch release
+on: workflow_dispatch
+jobs:
+  github:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Create new patch release
+        run: .github/scripts/release.py
+        env:
+          # Do not use GITHUB_TOKEN here, which is available...reason being that
+          # any action taken using this token will never trigger another
+          # workflow, and that is exactly what we want!
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}

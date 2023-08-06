@@ -1,0 +1,14 @@
+pydantic
+black
+flake8
+flake8-black
+ruff
+mypy
+pydantic
+pytest
+pytest-mock
+hypothesis
+pytest-cov
+pytest-xdist
+pytest-md
+pytest-emoji
