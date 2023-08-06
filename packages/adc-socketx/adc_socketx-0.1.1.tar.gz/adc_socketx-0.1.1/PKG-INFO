@@ -1,0 +1,131 @@
+Metadata-Version: 2.1
+Name: adc-socketx
+Version: 0.1.1
+Summary: ADC socket data eXchange
+License: GTLAB Diagnostic, LLC
+Author: Pavel Russu
+Author-email: pavlucho@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: numpy (>=1.24.2,<2.0.0)
+Requires-Dist: soundfile (>=0.12.1,<0.13.0)
+Requires-Dist: typer[all] (>=0.7.0,<0.8.0)
+Description-Content-Type: text/markdown
+
+# `adcx` <sup>_v0.1.1_</sup>
+
+**ADC** socket data e**X**change py-script.
+
+_[GTLAB Diagnostic LLC](http://gtlab.pro), 2023_
+
+**Usage**:
+
+```console
+$ adcx [OPTIONS] COMMAND [ARGS]...
+```
+
+**Options**:
+
+* `--help`: Show this message and exit.
+
+**Commands**:
+
+* `get-info`: Get the ADC information (s/n, frequency, channels, calibration).
+* `get-lan`: Get lan configuration (port, ip, netmask, gateway, MAC).
+* `get-wav`: Record a signal from the ADC to a .wav file.
+* `reboot`: Reboot the ADC.
+* `set-lan`: Set lan (ipv4) settings (ip/netmask, gateway).
+
+## `adcx get-info`
+
+Get the ADC information (s/n, frequency, channels, calibration).
+
+**Usage**:
+
+```console
+$ adcx get-info [OPTIONS]
+```
+**Options**:
+
+* `--ip TEXT`: IPv4 connection address  [default: 192.168.0.50]
+* `--help`: Show this message and exit.
+
+## `adcx get-lan`
+
+Get lan configuration (port, ip, netmask, gateway, MAC).
+
+**Usage**:
+
+```console
+$ adcx get-lan [OPTIONS]
+```
+
+**Options**:
+
+* `--ip TEXT`: IPv4 connection address  [default: 192.168.0.50]
+* `--help`: Show this message and exit.
+
+## `adcx get-wav`
+
+Record a signal from the ADC to a .wav file.
+
+**Usage**:
+
+```console
+$ adcx get-wav [OPTIONS] SECONDS
+```
+
+**Arguments**:
+
+* `SECONDS`: [required]
+
+**Options**:
+
+* `--ch INTEGER RANGE`: Set the number of channels to record  [default: 1; 1<=x<=2]
+* `--iepe / --no-iepe`: [default: iepe]
+* `--ip TEXT`: IPv4 connection address  [default: 192.168.0.50]
+* `--out FILE`: Path and name (only .wav extension!) of the file to be written
+* `--help`: Show this message and exit.
+
+## `adcx reboot`
+
+Reboot the ADC.
+
+**Usage**:
+
+```console
+$ adcx reboot [OPTIONS]
+```
+
+**Options**:
+
+* `--ip TEXT`: IPv4 connection address  [default: 192.168.0.50]
+* `--help`: Show this message and exit.
+
+## `adcx set-lan`
+
+Set lan (ipv4) settings (ip/netmask, gateway).
+
+**Usage**:
+
+```console
+$ set-lan [OPTIONS] IPV4 [GATEWAY]
+```
+
+**Arguments**:
+
+* `IPV4`: New IPv4 address/netmask. Example: 192.168.0.50/24  [required]
+* `[GATEWAY]`: New IPv4 Gateway  [default: 192.168.0.1]
+
+**Options**:
+
+* `--ip TEXT`: IPv4 connection address  [default: 192.168.0.50]
+* `--help`: Show this message and exit.
+
+# `Contacts`
+[![Telegram Badge](https://img.shields.io/badge/-pavelrus-blue?style=social&logo=telegram&link=https://t.me/pavelrus)](https://t.me/pavelrus)<br>
+[![Gmail Badge](https://img.shields.io/badge/-pavlucho@gmail.com-c14438?style=flat&logo=Gmail&logoColor=white&link=mailto:pavlucho@gmail.com)](mailto:pavlucho@gmail.com)
+
