@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+Colors-and-Styles/__init__.py
+Colors-and-Styles/color.py
+Colors-and-Styles/style.py
+Colors_and_Styles.egg-info/PKG-INFO
+Colors_and_Styles.egg-info/SOURCES.txt
+Colors_and_Styles.egg-info/dependency_links.txt
+Colors_and_Styles.egg-info/top_level.txt
