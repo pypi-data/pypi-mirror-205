@@ -1,0 +1,17 @@
+jdevtools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jdevtools/jCLI.py,sha256=m4zJuT_UHsKmQ_YkadYWIsWM_Vpd07j_NbHKpUVuuVc,161
+jdevtools/jgui.py,sha256=hdUPLjzxtgry2A7h5PGH_UAMnde5kvek05pfrz7yTII,510
+jdevtools/jweb.py,sha256=ZbgSux8cVgWcLBAAYfgSFG0epdHJx65MLYhpgjH-7OA,169
+jdevtools/bots/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jdevtools/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jdevtools/extras/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jdevtools/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jdevtools/models/jkanda.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jdevtools/models/jkissalu.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jdevtools/models/jmesso.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jdevtools/servers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ordicanis-0.0.0.1.dist-info/METADATA,sha256=qxPoXJFBP3gRmIscDJKV2w48N3cEsnpPr3u4wwI_q7Q,660
+ordicanis-0.0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+ordicanis-0.0.0.1.dist-info/entry_points.txt,sha256=AbtK5OALJwtMbQXu7vYenJTGDEYHWdd1vA0Se4PtdfU,54
+ordicanis-0.0.0.1.dist-info/top_level.txt,sha256=mMBb9XP2GwDgeASHi1jl3eOuBMA2I68Ew_26gkdcMn4,10
+ordicanis-0.0.0.1.dist-info/RECORD,,
