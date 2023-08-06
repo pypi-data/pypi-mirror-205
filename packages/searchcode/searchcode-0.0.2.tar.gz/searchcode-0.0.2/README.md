@@ -1,0 +1,3 @@
+![searchcode-cli_banner](https://user-images.githubusercontent.com/74001397/203441377-ad53a2ab-16d6-42b3-bbec-542c9ed43534.png)
+
+This is a dummy package managed by the developer of the SearchCode API wrapper to prevent name squatting. The official name of PyPI’s SearchCode API wrapper Python package is searchcode-cli. This package ensures that if you type `pip install searchcode` by mistake you will end up with `searchcode-cli`.

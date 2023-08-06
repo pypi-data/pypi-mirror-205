@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: searchcode
+Version: 0.0.2
+Summary: Dummy package for the SearchCode API wrapper (searchcode-cli)
+Author-email: Richard Mwewa <rly0nheart@duck.com>
+Project-URL: homepage, https://pypi.python.org/pypi/searchcode-cli
+Keywords: searchcode,search-engine,codesearch,api-wrapper
+Classifier: Development Status :: 7 - Inactive
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: 
+Description-Content-Type: text/markdown
+
+![searchcode-cli_banner](https://user-images.githubusercontent.com/74001397/203441377-ad53a2ab-16d6-42b3-bbec-542c9ed43534.png)
+
+This is a dummy package managed by the developer of the SearchCode API wrapper to prevent name squatting. The official name of PyPI’s SearchCode API wrapper Python package is searchcode-cli. This package ensures that if you type `pip install searchcode` by mistake you will end up with `searchcode-cli`.
