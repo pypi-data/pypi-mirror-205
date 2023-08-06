@@ -1,0 +1,17 @@
+README.md
+README.rst
+setup.py
+pixelpotion/__init__.py
+pixelpotion/cli.py
+pixelpotion/convert.py
+pixelpotion/split_frames.py
+pixelpotion/utils.py
+pixelpotion.egg-info/PKG-INFO
+pixelpotion.egg-info/SOURCES.txt
+pixelpotion.egg-info/dependency_links.txt
+pixelpotion.egg-info/entry_points.txt
+pixelpotion.egg-info/requires.txt
+pixelpotion.egg-info/top_level.txt
+tests/__init__.py
+tests/test_convert.py
+tests/test_gif_split.py
