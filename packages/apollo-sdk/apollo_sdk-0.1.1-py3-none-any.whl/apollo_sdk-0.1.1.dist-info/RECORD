@@ -1,0 +1,11 @@
+apollo/__init__.py,sha256=_PKVZNd0PNRXBgeW-eiFz-857Ko03yVedEFBlgi38XY,1401
+apollo/client.py,sha256=gpuMQz95WTM44pkv2FcLnvB5v3ZCbRP93nClBpMSTEU,3700
+apollo/const.py,sha256=pcaTeAbsh_3mI5TK_IkWg3upC5xMMU02updPiPj7ncw,1489
+apollo/exceptions.py,sha256=YXHIANOz9omS71sFnNMsqOziekgGw74TFTwO8A966Vc,4284
+apollo/manager.py,sha256=YFbN0uwadWYqA-4r-rV-fhGam1yQfrwVnqO-Fb5Os6Y,1377
+apollo/resource.py,sha256=VFoNxSMbKSssoHRV64fW25LQMhii1BuHR7-59w0dGC0,1205
+apollo_sdk-0.1.1.dist-info/LICENSE,sha256=bb5lAHwfLrbDYoNMxQm9lYk4p74_0VFV86KcDI0KM0o,3793
+apollo_sdk-0.1.1.dist-info/METADATA,sha256=JAJnc1u3Eznh4q7-78Fzq_Xss1VveY-IAt49LoeT8Wg,1102
+apollo_sdk-0.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+apollo_sdk-0.1.1.dist-info/top_level.txt,sha256=q2RhKSzMzXAtBa3SXLNN56X8drDyPzEjfVgLFiHHRKI,7
+apollo_sdk-0.1.1.dist-info/RECORD,,
