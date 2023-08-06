@@ -1,0 +1,2 @@
+[pretix.plugin]
+pretix_fontpackfree = pretix_fontpackfree:PretixPluginMeta
