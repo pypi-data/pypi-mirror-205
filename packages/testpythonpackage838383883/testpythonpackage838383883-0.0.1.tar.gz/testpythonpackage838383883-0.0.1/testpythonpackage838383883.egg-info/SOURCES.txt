@@ -1,0 +1,13 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+TestPackage/__init__.py
+testpythonpackage.egg-info/SOURCES.txt
+testpythonpackage.egg-info/dependency_links.txt
+testpythonpackage.egg-info/top_level.txt
+testpythonpackage838383883.egg-info/PKG-INFO
+testpythonpackage838383883.egg-info/SOURCES.txt
+testpythonpackage838383883.egg-info/dependency_links.txt
+testpythonpackage838383883.egg-info/top_level.txt
