@@ -1,0 +1,10 @@
+dask_fly/__about__.py,sha256=qVcW1cWvGVLQ31NWz3iEzKX9U4QqtBQIDE98yDWSFYc,126
+dask_fly/__init__.py,sha256=8Rz7ez0FyGmb1YYrrLSK3_XvTPN23ydd5sE3Cn_IhMw,882
+dask_fly/client.py,sha256=Jn4OBVkit5LFHrok158Ij8JelGCrYTCViDLMkRTn0JM,1564
+dask_fly/scheduler.py,sha256=Ve3oyrfW91aELhLx4LqwzbSbAaqmsXy0ORfno3683bc,1509
+dask_fly/utils.py,sha256=dLi8svTTwIBf8ryZYHzJbfZFA_7xrG4qEmnp3OzwdLQ,126
+dask_fly/worker.py,sha256=ANoFXTeGP5MNKqnxICRbY-EHPP8ZYRhRdK0LYCNXMec,1742
+dask_fly-0.0.1.dist-info/METADATA,sha256=jWwoNyLrPFnM2xNhMHXM-JG0BB2bH8RUPhSEfXKSJPs,1726
+dask_fly-0.0.1.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+dask_fly-0.0.1.dist-info/licenses/LICENSE.txt,sha256=BgcaQL6PVbQOsLzAhrLpc9VdGIlB8F-P55XrpwzoDgk,1096
+dask_fly-0.0.1.dist-info/RECORD,,

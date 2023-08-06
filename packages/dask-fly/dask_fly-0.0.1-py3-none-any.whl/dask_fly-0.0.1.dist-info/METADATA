@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: dask-fly
+Version: 0.0.1
+Summary: Deploy Dask on Fly.io
+Project-URL: Documentation, https://github.com/mileszim/dask-fly#readme
+Project-URL: Issues, https://github.com/mileszim/dask-fly/issues
+Project-URL: Source, https://github.com/mileszim/dask-fly
+Author-email: Miles Zimmerman <miles@zim.dev>
+License-Expression: MIT
+License-File: LICENSE.txt
+Keywords: cloud-provider,dask,dask-distributed,dask-extention,fly
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Requires-Dist: dask~=2023.1.0
+Requires-Dist: distributed~=2023.1.0
+Requires-Dist: requests~=2.29.0
+Description-Content-Type: text/markdown
+
+# dask-fly
+
+Deploy Dask on Fly.io
+
+[![PyPI - Version](https://img.shields.io/pypi/v/dask-fly.svg)](https://pypi.org/project/dask-fly)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/dask-fly.svg)](https://pypi.org/project/dask-fly)
+
+-----
+
+<!-- markdownlint-disable-next-line no-emphasis-as-heading -->
+**Table of Contents**
+
+- [dask-fly](#dask-fly)
+  - [Installation](#installation)
+  - [License](#license)
+
+## Installation
+
+```console
+pip install dask-fly
+```
+
+## License
+
+<!-- markdownlint-disable-next-line line-length -->
+`dask-fly` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
