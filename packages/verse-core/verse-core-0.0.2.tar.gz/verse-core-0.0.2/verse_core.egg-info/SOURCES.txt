@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/async_helper.py
+src/import_helper.py
+verse_core.egg-info/PKG-INFO
+verse_core.egg-info/SOURCES.txt
+verse_core.egg-info/dependency_links.txt
+verse_core.egg-info/top_level.txt
