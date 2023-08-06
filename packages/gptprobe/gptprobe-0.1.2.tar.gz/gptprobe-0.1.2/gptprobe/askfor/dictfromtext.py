@@ -1,0 +1,1 @@
+from gptprobe.askfor.dictfrompoorlyformattedtext import ask_for_dict_from_text
