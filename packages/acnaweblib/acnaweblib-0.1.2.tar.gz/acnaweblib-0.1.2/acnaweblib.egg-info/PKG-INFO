@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: acnaweblib
+Version: 0.1.2
+Summary: Description
+Home-page: https://github.com/acnaweb/acnaweb-lib
+Author: Antonio Carlos de Lima Junior
+Author-email: antonioclj.ac@gmail.com
+License: MIT
+Keywords: funniest joke comedy flying circus
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Text Processing :: Linguistic
+
+Funniest
+--------
+
+To use (with caution), simply do::
+
+    >>> import funniest
+    >>> print funniest.joke()
