@@ -1,0 +1,8 @@
+setup.py
+offerslib/__init__.py
+offerslib/offers.py
+orgoffers.egg-info/PKG-INFO
+orgoffers.egg-info/SOURCES.txt
+orgoffers.egg-info/dependency_links.txt
+orgoffers.egg-info/requires.txt
+orgoffers.egg-info/top_level.txt

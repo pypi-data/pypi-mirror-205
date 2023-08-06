@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: orgoffers
+Version: 0.1
+Summary: A library that displays one grocery every 24 hours from a list of groceries
+Author: Challa Sravanthi
+Author-email: x21156239@student.ncirl.ie
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
