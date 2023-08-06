@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mt-auto-minhon-mlt"
+version = "1.0.1"
+readme = "README.md"
+description = "みんなの自動翻訳 Python Library"
+requires-python = ">=3.7, <3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/MIDORIBIN/mt-auto-minhon-mlt"
+"Bug Tracker" = "https://github.com/MIDORIBIN/mt-auto-minhon-mlt/issues"
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "pyproject-flake8"
+]
+
+[tool.setuptools.package-data]
+mt_auto_minhon_mlt = ["assets/support_translate.json"]
+
+[tool.black]
+target-version = ['py37', 'py38', 'py39', 'py310']
+line-length = 119
+
+[tool.flake8]
+max-line-length = 119
+exclude = "venv"

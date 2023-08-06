@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+src/__init__.py
+src/mt_auto_minhon_mlt/__init__.py
+src/mt_auto_minhon_mlt/tranlator.py
+src/mt_auto_minhon_mlt.egg-info/PKG-INFO
+src/mt_auto_minhon_mlt.egg-info/SOURCES.txt
+src/mt_auto_minhon_mlt.egg-info/dependency_links.txt
+src/mt_auto_minhon_mlt.egg-info/requires.txt
+src/mt_auto_minhon_mlt.egg-info/top_level.txt
+src/mt_auto_minhon_mlt/assets/support_translate.json
+tests/test_tranlator.py
