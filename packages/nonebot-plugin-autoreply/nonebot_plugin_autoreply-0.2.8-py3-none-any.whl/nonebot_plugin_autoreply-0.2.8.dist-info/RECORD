@@ -1,0 +1,9 @@
+nonebot_plugin_autoreply-0.2.8.dist-info/METADATA,sha256=L-fpTMQcKLbcsVxfDvumSMRNLolRSg1j00RVgaiuo20,13701
+nonebot_plugin_autoreply-0.2.8.dist-info/WHEEL,sha256=7dGFtUmOf30dPBLpGD2z643cxg89joO7p3JHBAwDv6E,90
+nonebot_plugin_autoreply-0.2.8.dist-info/licenses/LICENSE,sha256=FgRk_OWZ2NhWR9HRhUC9NhF2knljmKer-ew0H1pbhSQ,1069
+nonebot_plugin_autoreply/__init__.py,sha256=n7S1NxV-PaTLFBFZk4c7Z-EmzarR6_5P9PeOawo5r6Q,303
+nonebot_plugin_autoreply/__main__.py,sha256=ZqPWppRE4GoRSSpIBHXcV7U_6MgCSRsWcyed205112A,6557
+nonebot_plugin_autoreply/config.py,sha256=lQAiAhBLFEceu99Cvdv9f3dZhqP9L15Ui7mVHeRq6pM,3623
+nonebot_plugin_autoreply/cool_down.py,sha256=7CLziqkpcCKBZSxJyyAJLpkTCx8blXdN3TnEL-u-FBk,49
+nonebot_plugin_autoreply/util.py,sha256=WnNl4A8O9jNQiaXMvrVtPgMHFSIVpN8QFWWH6I08hq8,2001
+nonebot_plugin_autoreply-0.2.8.dist-info/RECORD,,
