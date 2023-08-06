@@ -1,0 +1,7 @@
+setup.py
+myfirstpkgkaleda46425/__init__.py
+myfirstpkgkaleda46425/add.py
+myfirstpkgkaleda46425.egg-info/PKG-INFO
+myfirstpkgkaleda46425.egg-info/SOURCES.txt
+myfirstpkgkaleda46425.egg-info/dependency_links.txt
+myfirstpkgkaleda46425.egg-info/top_level.txt
