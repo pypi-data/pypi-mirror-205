@@ -1,0 +1,8 @@
+torch
+torchvision
+torchaudio
+numpy
+transformers
+scipy
+pandas
+pyemd
