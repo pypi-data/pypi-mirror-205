@@ -1,0 +1,2 @@
+[console_scripts]
+cloudflarestatus = cloudflarestatus:main
