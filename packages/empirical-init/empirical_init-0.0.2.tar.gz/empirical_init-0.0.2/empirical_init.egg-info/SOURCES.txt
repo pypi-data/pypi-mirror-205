@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+empirical_init/__init__.py
+empirical_init/block_sparse.py
+empirical_init/ei.py
+empirical_init/grad_fn_autotest.py
+empirical_init.egg-info/PKG-INFO
+empirical_init.egg-info/SOURCES.txt
+empirical_init.egg-info/dependency_links.txt
+empirical_init.egg-info/requires.txt
+empirical_init.egg-info/top_level.txt
+tests/test_ei.py
