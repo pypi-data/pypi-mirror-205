@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/ccqppy/__init__.py
+src/ccqppy/problem_suite.py
+src/ccqppy/solution_spaces.py
+src/ccqppy/solvers.py
+src/ccqppy.egg-info/PKG-INFO
+src/ccqppy.egg-info/SOURCES.txt
+src/ccqppy.egg-info/dependency_links.txt
+src/ccqppy.egg-info/requires.txt
+src/ccqppy.egg-info/top_level.txt
+tests/test_module.py

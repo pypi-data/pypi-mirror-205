@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: ccqppy
+Version: 0.0.0
+Summary: A systematic comparison of various algorithms for solving convex constrained quadratic programming problems
+Home-page: https://github.com/palmerb4/ccqppy
+Author: Bryce Palmer
+Author-email: palmerb4@wit.edu
+Project-URL: Documentation, https://github.com/palmerb4/ccqppy
+Project-URL: Bug Reports, https://github.com/palmerb4/ccqppy/issues
+Project-URL: Source Code, https://github.com/palmerb4/ccqppy
+Keywords: quadratic programming,convex optimization
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# CCQPpy
+A systematic comparison of various algorithms for solving convex constrained quadratic programming problems with convex feasible set
