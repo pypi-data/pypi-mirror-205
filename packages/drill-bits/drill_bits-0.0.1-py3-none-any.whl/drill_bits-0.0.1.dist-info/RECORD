@@ -1,0 +1,10 @@
+drill_bits/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drill_bits/io/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drill_bits/io/io_utils.py,sha256=VEstNc4u2aJuzPKQ1AJol_zffY6HbjbyDGQ37cWXiwM,2563
+drill_bits/operation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drill_bits/operation/base_operation.py,sha256=DGxAEkcK0WICV4mRoBnH6iNIbVtxBdqDOqt17W5yBA4,3715
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drill_bits-0.0.1.dist-info/METADATA,sha256=_v8CZOZ_lbFQy54gXuGfgESR4FxZVeIkTryn9Tl6WeA,498
+drill_bits-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+drill_bits-0.0.1.dist-info/top_level.txt,sha256=4BKHOj65xbnG-42zUNsR-BJA6HRi6P2grDQ03WE76JU,17
+drill_bits-0.0.1.dist-info/RECORD,,
