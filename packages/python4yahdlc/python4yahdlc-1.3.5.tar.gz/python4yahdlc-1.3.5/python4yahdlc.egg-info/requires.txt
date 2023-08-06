@@ -1,0 +1,9 @@
+
+[examples]
+fysom
+pyserial
+
+[tests]
+black
+ruff
+tox
