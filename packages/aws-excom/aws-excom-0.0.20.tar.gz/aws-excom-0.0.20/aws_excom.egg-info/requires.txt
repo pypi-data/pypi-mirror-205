@@ -1,0 +1,13 @@
+simple-term-menu
+termcolor
+boto3>=1.26
+
+[deploy]
+build
+twine
+
+[dev]
+pytest
+pytest-virtualenv
+black
+moto
