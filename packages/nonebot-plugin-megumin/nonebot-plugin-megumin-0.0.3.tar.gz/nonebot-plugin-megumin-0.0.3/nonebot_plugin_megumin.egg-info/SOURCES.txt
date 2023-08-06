@@ -1,0 +1,9 @@
+README.md
+setup.py
+nonebot_plugin_megumin/__init__.py
+nonebot_plugin_megumin/cfg.py
+nonebot_plugin_megumin/charm.py
+nonebot_plugin_megumin.egg-info/PKG-INFO
+nonebot_plugin_megumin.egg-info/SOURCES.txt
+nonebot_plugin_megumin.egg-info/dependency_links.txt
+nonebot_plugin_megumin.egg-info/top_level.txt
