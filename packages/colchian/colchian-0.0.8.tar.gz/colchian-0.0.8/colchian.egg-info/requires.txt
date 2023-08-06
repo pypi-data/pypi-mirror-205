@@ -1,0 +1,4 @@
+
+[dev]
+mkdocs
+pymdown-extensions
