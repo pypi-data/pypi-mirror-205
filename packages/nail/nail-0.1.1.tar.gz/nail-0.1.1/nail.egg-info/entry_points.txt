@@ -1,0 +1,2 @@
+[console_scripts]
+nail = nail.main:main
