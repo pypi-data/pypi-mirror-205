@@ -1,0 +1,8 @@
+setup.py
+otsuwinhdlr/__init__.py
+otsuwinhdlr/classes.py
+otsuwinhdlr.egg-info/PKG-INFO
+otsuwinhdlr.egg-info/SOURCES.txt
+otsuwinhdlr.egg-info/dependency_links.txt
+otsuwinhdlr.egg-info/requires.txt
+otsuwinhdlr.egg-info/top_level.txt
