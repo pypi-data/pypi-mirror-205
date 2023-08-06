@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: py-bdd-context
+Version: 0.0.4
+Summary: Biblioteca com Context Manager para facilitar os testes de Behavior Driven Development (BDD)
+Home-page: https://github.com/imobanco/py-bdd-context
+License: GPLv3
+Keywords: BDD,Context Manager,tests
+Author: Imobanco
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Project-URL: Repository, https://github.com/imobanco/py-bdd-context
+Description-Content-Type: text/markdown
+
+# py-bdd-context
+
+Library with Context Manager to facilitate Behavior Driven Development (BDD) tests.
+
+This library will help you organize your tests!
+
+## Using
+There are examples of how to use the lib in the `examples` folder.
+
+
+## Installing
+https://pypi.org/project/py-bdd-context/
+```
+pip install py-bdd-context
+```
