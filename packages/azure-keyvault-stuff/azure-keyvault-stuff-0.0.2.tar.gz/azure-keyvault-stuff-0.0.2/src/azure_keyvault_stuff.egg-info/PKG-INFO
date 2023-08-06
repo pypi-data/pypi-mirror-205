@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: azure-keyvault-stuff
+Version: 0.0.2
+Summary: Azure Key Vault Helper Package
+Home-page: https://github.com/george-oconnor/azure-keyvault-stuff
+Author: george.oconnor (George O' Connor)
+Author-email: <george@georgestools.com>
+Keywords: python,azure,keyvault,helper,secret,secrets,client,get,set,delete,vault,value,values,credential,credentials,azure.identity.DefaultAzureCredential()
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Azure Keyvault Stuff
