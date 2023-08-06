@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: scarlet-shark-python
+Version: 1.0.1
+Summary: Scarlet Shark REST API Python client
+Home-page: https://github.com/PiRogueToolSuite/scarlet-shark-python
+Author: U+039b
+Author-email: esther@pts-project.org
+License: UNKNOWN
+Description: file: README.md
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Natural Language :: English
+Classifier: Topic :: Security
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown

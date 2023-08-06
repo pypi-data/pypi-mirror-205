@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+setup.py
+scarlet_shark_python/__init__.py
+scarlet_shark_python/client.py
+scarlet_shark_python.egg-info/PKG-INFO
+scarlet_shark_python.egg-info/SOURCES.txt
+scarlet_shark_python.egg-info/dependency_links.txt
+scarlet_shark_python.egg-info/requires.txt
+scarlet_shark_python.egg-info/top_level.txt
+scarlet_shark_python/clients/__init__.py
+scarlet_shark_python/clients/abstract.py
+scarlet_shark_python/clients/v04_client.py
