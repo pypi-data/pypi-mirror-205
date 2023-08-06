@@ -1,0 +1,2 @@
+[console_scripts]
+kalkulator = bosanski_kalkulator.main:main
