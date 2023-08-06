@@ -1,0 +1,8 @@
+LICENCE.txt
+README.md
+setup.py
+timecalculator/__init__.py
+timecalculator.egg-info/PKG-INFO
+timecalculator.egg-info/SOURCES.txt
+timecalculator.egg-info/dependency_links.txt
+timecalculator.egg-info/top_level.txt
