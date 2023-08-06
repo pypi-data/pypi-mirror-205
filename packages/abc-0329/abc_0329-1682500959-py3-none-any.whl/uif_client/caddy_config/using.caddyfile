@@ -1,0 +1,16 @@
+{
+   auto_https disable_redirects
+   auto_https off
+}
+
+:8000 {
+   respond "Hello world!"
+}
+
+:443 {
+   respond "Hello world!"
+}
+
+:80/uif {
+   reverse_proxy 127.0.0.1:10000
+}
