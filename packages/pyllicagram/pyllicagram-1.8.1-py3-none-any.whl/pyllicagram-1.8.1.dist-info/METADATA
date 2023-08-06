@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pyllicagram
+Version: 1.8.1
+Summary: UNKNOWN
+Home-page: https://github.com/regicid/pyllicagram
+Author: Benoit de Courson
+Author-email: b.decourson@csl.mpg.de
+License: Creative Commons
+Keywords: example project
+Platform: UNKNOWN
+Requires-Dist: pandas
+Requires-Dist: tqdm
+
+UNKNOWN
+
+
