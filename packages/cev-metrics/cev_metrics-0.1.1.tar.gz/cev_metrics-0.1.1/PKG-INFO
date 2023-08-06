@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: cev-metrics
+Version: 0.1.1
+Requires-Dist: numpy
+Requires-Dist: jupyterlab; extra == 'dev'
+Provides-Extra: dev
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# cev-metrics
+
+```sh
+hatch shell
+maturin develop && ./x.py
+```
+
