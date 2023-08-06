@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: anydoc
+Version: 0.0.0
+Summary: 🔌 Turn your GitHub Markdown documentation into a Q&A bot for Slack (more integrations to come soon!)
+Project-URL: Documentation, https://alvarobartt.github.io/anydoc
+Project-URL: Issues, https://github.com/alvarobartt/anydoc/issues
+Project-URL: Source, https://github.com/alvarobartt/anydoc
+Author-email: Alvaro Bartolome <alvarobartt@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: <3.11,>=3.8
+Provides-Extra: docs
+Requires-Dist: mkdocs-git-revision-date-localized-plugin~=1.1.0; extra == 'docs'
+Requires-Dist: mkdocs-material~=8.5.4; extra == 'docs'
+Requires-Dist: mkdocstrings[python]~=0.19.0; extra == 'docs'
+Requires-Dist: mkdocs~=1.4.0; extra == 'docs'
+Provides-Extra: quality
+Requires-Dist: black~=22.10.0; extra == 'quality'
+Requires-Dist: pre-commit~=2.20.0; extra == 'quality'
+Requires-Dist: ruff~=0.0.194; extra == 'quality'
+Provides-Extra: tests
+Requires-Dist: pytest~=7.1.2; extra == 'tests'
+Description-Content-Type: text/markdown
+
+<div align="center">
+  <h1>anydoc</h1>
+  <p>
+    <em>🔌 Turn your GitHub Markdown documentation into a Q&A bot for Slack (more integrations to come soon!)</em>
+  </p>
+</div>
+
+---
+
+`anydoc` is a Python package to easily generate a Q&A bot from your GitHub Markdown
+documentation. It is built on top of [🤗 HuggingFace Transformers](https://github.com/huggingface/transformers)
+for the embedding generation, [FAISS from Meta Research](https://github.com/facebookresearch/faiss) for the indexing
+and search, and [🦜⛓️ LangChain](https://github.com/hwchase17/langchain) (what a surprise huh?) for the
+question-answering generation using the vector store as context. Additionally, it uses
+[Slack Bolt for Python](https://github.com/slackapi/bolt-python) for the Slack integration, and 
+[GitHub FileSystem](https://github.com/fsspec/filesystem_spec/blob/master/fsspec/implementations/github.py) for
+pulling the Markdown files from GitHub.
