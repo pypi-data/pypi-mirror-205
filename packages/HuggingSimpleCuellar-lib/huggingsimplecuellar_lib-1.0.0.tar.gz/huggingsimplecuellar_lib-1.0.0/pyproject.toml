@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "HuggingSimpleCuellar_lib"
+version = "1.0.0"
+authors = [
+  { name="Emiliano Cuellar", email="ec446162@gmail.com" },
+]
+description = "Una libreria simple para usar modelos de Huggingface"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "torch",
+  "tensorflow",
+  "transformers",
+  "diffusers",
+  "pillow",
+  "requests",
+  "accelerate",
+]
+[project.urls]
+"Homepage" = "https://github.com/pypa/sampleproject"
+"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
