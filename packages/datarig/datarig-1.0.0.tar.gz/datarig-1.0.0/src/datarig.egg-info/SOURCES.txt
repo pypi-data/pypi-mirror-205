@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/datarig/__init__.py
+src/datarig/mixins.py
+src/datarig/records.py
+src/datarig.egg-info/PKG-INFO
+src/datarig.egg-info/SOURCES.txt
+src/datarig.egg-info/dependency_links.txt
+src/datarig.egg-info/requires.txt
+src/datarig.egg-info/top_level.txt
+src/datarig/data/__init__.py
+tests/test_zenodo.py
