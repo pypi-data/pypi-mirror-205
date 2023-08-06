@@ -1,0 +1,13 @@
+juno/__init__.py,sha256=cg-9UqFqCaArGr-c-XVUK4c5M99h95wMK3dIy5jkWQk,58
+juno/client_setup.py,sha256=6FOUBZKH4Y8VxovXEZtfpNDAbaKH12Qr4OEs6GYUxds,1253
+juno/event_javascript.py,sha256=VXMtgGuXrEpuwNgu-iJY86sLLsPXlrYQDwdIhB6fxFI,16283
+juno/juno.py,sha256=-Mnm3mJ46w6InqMYcvmHb-qBw9tK7YnaGyFloA2PV7o,1387
+juno/magic.py,sha256=7HGgQgJHebpCsDcAMoCEMgWBpoXI2kd6MkV627rWNt0,1423
+juno/output_parser.py,sha256=L6Xr7AdPBHrUO75kf7vZFo6yQ96jmbto3p0GGGAejd4,873
+juno/prompting_javascript.py,sha256=drMuCYsGit7JF8xMfssp3Yg6E57MI0wkjwQ8ZfzPZ-k,10061
+juno/serialize_context.py,sha256=_VXHbZJ85tpUCJdaNjJIqxo5kM78hn4uIwdeeoYKZ8Q,2381
+juno/version.py,sha256=dE80a1aDdK67pocGcNxj88JEfOhirF1Gss6BUVPJtmw,473
+juno_ai-0.0.3.dist-info/METADATA,sha256=bMLKDOmjUPlv2Fs1K4pZGYDrViVXcik8q9vXME0z0Pg,730
+juno_ai-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+juno_ai-0.0.3.dist-info/top_level.txt,sha256=ra241OiP6X6yWMbdXnapYwRGYo0kTkd6kQtrvY2kDAU,5
+juno_ai-0.0.3.dist-info/RECORD,,
