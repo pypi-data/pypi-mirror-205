@@ -1,0 +1,12 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+__main__.py,sha256=lqbpP4evHkpFnOGDakzJxs1ZlAK-Fa8XlBVDHmu4iDw,164
+calculateOverlaps1.py,sha256=rw6Sc3l89BPMEyK5cEdc1ZyZCcBBjHaz72JDtRGp5o0,3101
+calculateOverlaps2.py,sha256=0nt_e5e22-0uf8lSiKCCb9dIVX-auZS_TudCZ6QeGjs,2816
+helpers.py,sha256=LnZUQ5HnGLVVkWVACzt-sbqcI8222Z4J3b-vtJ2IFWk,8416
+rots.py,sha256=6-GM8tiRjM2zGPn2Q3lmXz9C2tHzzRzMdanS_0TR-xM,11266
+rots_py-1.0.3.dist-info/LICENSE,sha256=MF8Q89m2nJ2QwaO4ZOCOKWM_C0A_SwbNXrhbx6gIFgw,1097
+rots_py-1.0.3.dist-info/METADATA,sha256=HfUFhMYVFkK1Z4_EyGe_TyCHIUo1t1wzfze8LqVB5Io,2180
+rots_py-1.0.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+rots_py-1.0.3.dist-info/entry_points.txt,sha256=UvhBe67yPiUl6SAp3YrQ9vJuU767lAAODSa2FJxBHFM,50
+rots_py-1.0.3.dist-info/top_level.txt,sha256=oRVKFn5v5K2Ha8HVgTb9jD3tmuhwmrEp3oUovS7J3qc,69
+rots_py-1.0.3.dist-info/RECORD,,
