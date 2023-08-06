@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: subsscraper
+Version: 0.1.3
+Summary: 
+Author: tupiznak
+Author-email: akej-vonavi@mail.ru
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: hydra-core (>=1.3.2,<2.0.0)
+Requires-Dist: loguru (>=0.7.0,<0.8.0)
+Requires-Dist: requests (>=2.28.2,<3.0.0)
+Requires-Dist: yt-dlp (>=2023.3.4,<2024.0.0)
+Description-Content-Type: text/markdown
+
+SubScraper
+---------
+
+Run command for generate urls
+```commandline
+search
+search search.cnt=2 # for 2 urls
+search 'search.query="лекции таймкоды"' search.cnt=2 # override cyrillic (more quotes)
+```
+
+Run command for subscrape urls
+```commandline
+subscrape
+```
+
+Default configs
+```commandline
+search:
+  output_folder: data
+  result_file: urls.txt
+  cnt: 10
+  query: машинное обучение лекции таймкоды
+
+scraper:
+  output_folder: ${search.output_folder}/dataset
+```
+
+
