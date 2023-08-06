@@ -1,0 +1,100 @@
+[tool.poetry]
+name = "overreact"
+version = "1.2.0"
+description = "⚛️📈 Create and analyze chemical microkinetic models built from computational chemistry data"
+license = "MIT"
+
+authors = [
+  "Felipe S. S. Schneider <schneider.felipe@posgrad.ufsc.br>",
+  "Giovanni F. Caramori <giovanni.caramori@ufsc.br>",
+]
+
+readme = "README.md"
+
+homepage = "https://geem-lab.github.io/overreact-guide/"
+documentation = "https://geem-lab.github.io/overreact-guide/"
+repository = "https://github.com/geem-lab/overreact"
+
+keywords = [
+  "chemical-kinetics",
+  "computational-chemistry",
+  "microkinetics",
+  "reactions",
+  "thermochemistry",
+]
+
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Education",
+  "Intended Audience :: Science/Research",
+  "Operating System :: OS Independent",
+  "Topic :: Education",
+  "Topic :: Scientific/Engineering :: Atmospheric Science",
+  "Topic :: Scientific/Engineering :: Chemistry",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[tool.poetry.urls]
+"API documentation" = "https://geem-lab.github.io/overreact/"
+
+"PyPI" = "https://pypi.org/project/overreact/"
+
+"Bug Tracker" = "https://github.com/geem-lab/overreact/issues"
+"Discussions" = "https://github.com/geem-lab/overreact/discussions"
+
+"Citation" = "https://doi.org/10.1002/jcc.26861"
+
+[tool.poetry.scripts]
+overreact = 'overreact._cli:main'
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+
+cclib = "^1"
+scipy = "^1.10"
+
+jax = { version = "^0.4", optional = true }
+jaxlib = { version = "^0.4", optional = true }
+rich = { version = "^13", optional = true }
+thermo = { version = "^0.2", optional = true }
+# I NEED MATPLOTLIB
+
+[tool.poetry.extras]
+cli = ["rich"]
+fast = ["jax", "jaxlib"]
+solvents = ["thermo"]
+
+[tool.poetry.group.dev.dependencies]
+black = { version = "^23.3.0", extras = ["jupyter"] }
+debugpy = "^1"
+flynt = ">=0.77,<0.79"
+ipython = "^8"
+jupyter = "^1.0.0"
+matplotlib = "^3"
+mypy = ">=0.991,<1.3"
+pdoc = ">=12,<14"
+perflint = "^0.7.1"
+pytest = "^7.2.0"
+pytest-cov = "^4"
+ruff = { version = ">=0.0.210,<0.0.264", allow-prereleases = true }
+seaborn = "^0.12"
+types-setuptools = ">=65,<68"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]
+
+[tool.ruff]
+target-version = "py38"
+select = ["ALL"]
+ignore = [
+  "ANN001", # MissingTypeFunctionArgument
+  "ANN201", # MissingReturnTypePublicFunction
+  "ANN202", # MissingReturnTypePrivateFunction
+  "S101",   # AssertUsed
+]
+
+[tool.ruff.pydocstyle]
+convention = "numpy"
