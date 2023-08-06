@@ -1,0 +1,15 @@
+LICENSE,sha256=5bSWn9VokaqpjIGDuRIg0IaDFTm1ZXLXVT5akBnGMgE,1061
+docformatter/__init__.py,sha256=DA7ubKFFL4GOUiy08o2KMh3_djTJcxVPvrATAwk1IP0,1539
+docformatter/__main__.py,sha256=_fqUzVMRT77m38_DYsoDTNVAUrRPRWCXgbHw95yMSDI,2555
+docformatter/__pkginfo__.py,sha256=Qr41PsoQnT1Rem80EY8fMLAFW6Ku6V6Vd51YyMLdwnM,1191
+docformatter/configuration.py,sha256=NXb0GPtILyB-f9GUNTWAf5fpXmp5PeA25lWxwPaI2Qk,11411
+docformatter/encode.py,sha256=-fyY3oln-VEFbetnwh2294UjbTe5_44-J70GDFYuXGI,3654
+docformatter/format.py,sha256=_dZXtk38fjX3xEqzZB6Xq-YLBjXfyd6j3riCsXmjOTM,20933
+docformatter/strings.py,sha256=5OVB1L9NPCHACBQlJXD6Q9JjYAaJI5GEUybCZ60qtPE,5967
+docformatter/syntax.py,sha256=IeAweltyGvyj13TEZQcO8yvcn9e7yxt5WL72V4G4KXw,15048
+docformatter/util.py,sha256=PNQDyoDE7glFHohR0MbNPGVUNcN0D3wroAjQFxHgqtg,4572
+docformatter-1.6.4.dist-info/LICENSE,sha256=5bSWn9VokaqpjIGDuRIg0IaDFTm1ZXLXVT5akBnGMgE,1061
+docformatter-1.6.4.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+docformatter-1.6.4.dist-info/METADATA,sha256=XgaXnANGWsUvSjj9Z48luo4LPlZru60Yy26g2Pc8R08,8158
+docformatter-1.6.4.dist-info/entry_points.txt,sha256=obU7Z0GyJSwxpnPTgWR-xosHU5twk0L1FcPWHHXIyo4,59
+docformatter-1.6.4.dist-info/RECORD,,
