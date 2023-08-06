@@ -1,0 +1,8 @@
+bookcount/__init__.py,sha256=ySy8td8j1FkmID-iUMW_4UFJVbFP22X7JfjhntEXU6Y,131
+bookcount/count_book.py,sha256=NX6DMu9G4LSqbabdbVHg73oVaxXMQznY2D0tJOWEVP0,400
+pdf_generator/__init__.py,sha256=U-iWIMiY72jJFdWo77FSh8Hfbk77wMBUdPQB8_WYFS0,38
+pdf_generator/generate_pdf.py,sha256=T-VaeSlRgqrv3BDMYyudJhdbAxqt-Ah59XYIQQxpLZ0,682
+mypackgswapnil-1.0.0.dist-info/METADATA,sha256=bxpUQwFyUhGlKenG50KiyjMTnVbjuu6cZt2KbKdOQo0,436
+mypackgswapnil-1.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+mypackgswapnil-1.0.0.dist-info/top_level.txt,sha256=b4tvlb0ZB5l3zwH-gwcgoGeTBYHY9cp4AtywiMpC0z4,10
+mypackgswapnil-1.0.0.dist-info/RECORD,,
