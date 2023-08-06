@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+grn_stability_selection/__init__.py
+grn_stability_selection/stability.py
+grn_stability_selection.egg-info/PKG-INFO
+grn_stability_selection.egg-info/SOURCES.txt
+grn_stability_selection.egg-info/dependency_links.txt
+grn_stability_selection.egg-info/requires.txt
+grn_stability_selection.egg-info/top_level.txt
