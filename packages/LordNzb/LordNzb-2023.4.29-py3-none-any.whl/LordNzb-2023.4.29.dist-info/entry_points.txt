@@ -1,0 +1,2 @@
+[console_scripts]
+lordnzb = LordNzb.cli:main

@@ -1,0 +1,10 @@
+LordNzb/__init__.py,sha256=DBR8Mahd6QJFlHguBIOXk5KgaCGC2o4Ei4hqCSqqmx0,30
+LordNzb/cli.py,sha256=4I0Y-OOWhuXA3EnGo52gos0oBo7qUAQR_vJkfemKhUY,1108
+LordNzb/core/__init__.py,sha256=rTS2UvtLGVy_VaMHt_TXgJ_IU2frFhEfjCOCAg7jxnw,5045
+LordNzb/core/descriptor.py,sha256=o5bnGo1W3iDSEaS8aJ4mszz9sKXgpDTxYsI2Ukzk-EE,268
+LordNzb/core/reg.py,sha256=hFcslrN5OOGyPj6sDBQiIsfaIj6bPedALaHOny86SuE,378
+LordNzb-2023.4.29.dist-info/METADATA,sha256=2qenR9Ky_I9rk7df0QELEE4I70BRH8geayhdGPhMCHU,1458
+LordNzb-2023.4.29.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+LordNzb-2023.4.29.dist-info/entry_points.txt,sha256=Zgvx_92rfIEF_okakrnPFTG53adghUMRWAjsiH95Q8U,45
+LordNzb-2023.4.29.dist-info/top_level.txt,sha256=iTaPStFO1cRKBoVCAAuAJI_6oKY_Y7Tx6Kw3m7yMXIk,8
+LordNzb-2023.4.29.dist-info/RECORD,,
