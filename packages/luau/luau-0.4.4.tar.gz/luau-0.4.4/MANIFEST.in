@@ -1,0 +1,3 @@
+recursive-include src/luau/data rojo.exe
+recursive-include src/luau/data stylua.exe
+recursive-include src/luau/data wally-package-types.exe
