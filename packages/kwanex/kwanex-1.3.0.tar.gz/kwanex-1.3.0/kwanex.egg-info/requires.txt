@@ -1,0 +1,5 @@
+numpy
+nltk
+afinn
+tqdm
+wheel

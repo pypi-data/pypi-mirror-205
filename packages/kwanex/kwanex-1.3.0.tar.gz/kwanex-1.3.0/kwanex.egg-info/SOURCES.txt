@@ -1,0 +1,7 @@
+README.md
+setup.py
+kwanex.egg-info/PKG-INFO
+kwanex.egg-info/SOURCES.txt
+kwanex.egg-info/dependency_links.txt
+kwanex.egg-info/requires.txt
+kwanex.egg-info/top_level.txt
