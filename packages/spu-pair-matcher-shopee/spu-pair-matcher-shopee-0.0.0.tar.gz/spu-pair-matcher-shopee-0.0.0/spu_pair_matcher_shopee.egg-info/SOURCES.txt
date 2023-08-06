@@ -1,0 +1,6 @@
+README.md
+setup.py
+spu_pair_matcher_shopee.egg-info/PKG-INFO
+spu_pair_matcher_shopee.egg-info/SOURCES.txt
+spu_pair_matcher_shopee.egg-info/dependency_links.txt
+spu_pair_matcher_shopee.egg-info/top_level.txt
