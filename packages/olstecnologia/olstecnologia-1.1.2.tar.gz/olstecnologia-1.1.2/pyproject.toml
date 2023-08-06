@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "olstecnologia"
+version = "1.1.2"
+description = ""
+authors = ["Julio Pereira <juliopereira.dev@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sqlalchemy-firebird = "^0.7.6"
+fdb = "^2.0.2"
+firebird = "^0.0.2"
+tqdm = "^4.65.0"
+sqlalchemy = "1.4.39"
+geopandas = "^0.12.2"
+
+[tool.poetry.scripts]
+ols = "olstecnologia:start"
+vb = "olstecnologia.services:check_db"
+vt = "olstecnologia.services:check_tables"
+vc = "olstecnologia.services:check_columns"
+vl = "olstecnologia.services:check_lines"
+
+[tool.poetry.group.dev.dependencies]
+ipdb = "^0.13.13"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
