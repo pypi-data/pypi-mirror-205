@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "wheatly"
+version = "0.1.0"
+description = "A natural language testing tool"
+authors = ["John Carter <jfcarter2358@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/jfcarter2358/wheatly"
+keywords = ["testing", "natural language"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aphelper = "0.0.6"
+cartils = "0.0.8"
+jsoncparser = "0.0.6"
+pyyaml = "5.4.1"
+requests = "^2.29.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+wheatly = "wheatly.main:main"
