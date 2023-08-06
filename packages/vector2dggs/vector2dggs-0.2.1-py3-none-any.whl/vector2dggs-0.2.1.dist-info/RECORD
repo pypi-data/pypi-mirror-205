@@ -1,0 +1,10 @@
+vector2dggs/__init__.py,sha256=cTHJjLCMXFNx1Q8CKKo6oIt_IfqAqT9-I_aBOPpVbII,27
+vector2dggs/cli.py,sha256=rxFm5DYRI0rfccnoKtyvIQ6rcNOYXuJg60riPlohKL4,598
+vector2dggs/h3.py,sha256=xMGSOXupAIbhD2pY7SQ0cPNZSSQ5OMM4YyOUKzsh_RA,9405
+vector2dggs/katana.py,sha256=mCbEhrx579_JDo7E82rzP6WPE2Y75Gq7TbAHMlr-TwE,2817
+vector2dggs-0.2.1.dist-info/COPYING,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+vector2dggs-0.2.1.dist-info/COPYING.LESSER,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+vector2dggs-0.2.1.dist-info/METADATA,sha256=_5qWntXOpi_Jzprv6grvgRE8yX06jfugfxbJXh26gWA,9354
+vector2dggs-0.2.1.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+vector2dggs-0.2.1.dist-info/entry_points.txt,sha256=5h8LB9L2oOE5u_N7FRGtu4JDwa553iPs4u0XhcLeLZU,52
+vector2dggs-0.2.1.dist-info/RECORD,,
