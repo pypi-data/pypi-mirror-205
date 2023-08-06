@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pdftoolkit"
+version = "0.2.1"
+description = ""
+authors = ["IranTheCreator <sirzechs.gremory10@gmail.com>"]
+readme = "README.md"
+license = "GPL-3.0"
+packages = [{include = "pdftoolkit"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
