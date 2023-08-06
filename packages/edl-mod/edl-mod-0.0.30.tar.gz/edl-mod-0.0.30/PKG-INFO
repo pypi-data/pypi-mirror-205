@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: edl-mod
+Version: 0.0.30
+Summary: Module for editting and searching external dynamic lists (EDLs)
+Home-page: https://github.com/ejohnfel/edl
+Author: Eric Johnfelt
+Author-email: ejohnfel@hotmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/ejohnfel/edl/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# edl
+Add IP addresses to an external dynamic list (Black list) tool, with audit log and commentary
+
+
