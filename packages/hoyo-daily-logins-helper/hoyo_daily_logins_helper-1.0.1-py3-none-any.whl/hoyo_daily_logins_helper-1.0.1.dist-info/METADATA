@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: hoyo-daily-logins-helper
+Version: 1.0.1
+Summary: Get hoyo daily login rewards automatically!
+Home-page: https://github.com/atomicptr/hoyo-daily-logins-helper
+Author: Christopher Kaster
+Author-email: me@atomicptr.de
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: certifi (==2022.12.7)
+Requires-Dist: charset-normalizer (==3.1.0)
+Requires-Dist: requests (==2.28.2)
+Requires-Dist: urllib3 (==1.26.15)
+
+# hoyo-daily-login-helper
+
+Get hoyo daily login rewards automatically!
+
+## Usage
+
+1. Get your cookie string, open the daily check in page
+   * [Daily Check-in page for Genshin](https://act.hoyolab.com/ys/event/signin-sea-v3/index.html?act_id=e202102251931481)
+   * [Daily Check-in page for Star Rail](https://act.hoyolab.com/bbs/event/signin/hkrpg/index.html?act_id=e202303301540311)
+2. Open a development console (F12) and insert the following code:
+    ```javascript
+    document.cookie
+    ```
+3. Copy the returned string should be something like "ltoken=....; account_id=....;" this is your cookie string
+4. Open a terminal with the command prepared and enter:
+    ```bash
+    $ hoyo-daily-logins-helper --cookie="your cookie string" --genshin
+    ```
+   (or ``--starrail`` for Honkai Star Rail)
+5. Done!
+
+### Docker
+
+The command line options are also available via environment variables which
+allows you to easily run this script in Docker/Podman!
+
+```bash
+$ docker run --rm --env GAME=starrail --env COOKIE="your cookie string" ghcr.io/atomicptr/hoyo-daily-logins-helper
+```
+
+## License
+
+GNU General Public License v3
+
+![](https://www.gnu.org/graphics/gplv3-127x51.png)
