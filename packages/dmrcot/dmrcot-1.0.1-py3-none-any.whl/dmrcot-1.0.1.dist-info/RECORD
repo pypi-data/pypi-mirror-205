@@ -1,0 +1,11 @@
+dmrcot/__init__.py,sha256=QpWmY5UKEsdqwqo4UjMLA4cWUlfLwa144-QDGSVeJME,1262
+dmrcot/classes.py,sha256=q57v0YnyFkQs9UngyB-DnNkKhNuzAbBQcmCkliigpMc,5503
+dmrcot/commands.py,sha256=jRJYPOxtNz6NL-i1oYO5LJ9q-arIk7rEZY7egno8wPg,1038
+dmrcot/constants.py,sha256=uTWdX8zGFcg9li_ek4O0sSGTW7x4x-Q9Df9CIOZnR3o,1060
+dmrcot/functions.py,sha256=srZe5Hy0XsQFsyU5r6TXJCzi6I1ysdR9UpX6Wf2KSSc,7645
+dmrcot-1.0.1.dist-info/LICENSE,sha256=jZqc-Wj3f2R6V8kxJ_-l2TVieCPij2zQnNvKc4Zxsmc,557
+dmrcot-1.0.1.dist-info/METADATA,sha256=zFrmF7b7yvfcdHwlknGXL45Y-DwgZSJW54xLNA6mQZQ,5133
+dmrcot-1.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+dmrcot-1.0.1.dist-info/entry_points.txt,sha256=si3J4er8RGAnyw_GswFigcJRBCUV_zmOUDe6KyojLCk,48
+dmrcot-1.0.1.dist-info/top_level.txt,sha256=jTL5lZ-5YU7G1-8IjbcCGBUffENrI2jyYoMVkRJRJJk,7
+dmrcot-1.0.1.dist-info/RECORD,,
