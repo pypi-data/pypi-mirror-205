@@ -1,0 +1,9 @@
+pyfixest/__init__.py,sha256=-xCIOWMP8TQjT3Ef87ZbEaemSFMtXqhbnRki4HO-ypk,26
+pyfixest/feols.py,sha256=9T4W2dZtxGiDhcoNRf-m1yhmAYNq5_L_84MtzzuyplI,7563
+pyfixest/fixest.py,sha256=CDkdGTCB8Zv5AfZpco6YXlAX5eYFpSfbkf_UCds-phk,16160
+pyfixest/FormulaParser.py,sha256=Cv4Fp2oNOfOJhOXcC4UeDsib_5CwuH9F7Vg5zvPwdAs,11789
+pyfixest/utils.py,sha256=sAVD-h-Lrnd60Ia4hluGuqrqFeb3f_UHUvyHv1NB_JI,1145
+pyfixest-0.3.0.dist-info/LICENSE.md,sha256=0YVoSLxvwJcsUTFKuxbLmF6951ozvkprU_uM2wiDO7U,1096
+pyfixest-0.3.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+pyfixest-0.3.0.dist-info/METADATA,sha256=t9diWV7xvrTZv5x_3wQX8Pfwv7i35JNaCwcbSc75LZA,2556
+pyfixest-0.3.0.dist-info/RECORD,,
