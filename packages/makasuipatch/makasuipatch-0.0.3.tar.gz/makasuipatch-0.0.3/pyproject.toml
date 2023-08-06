@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "makasuipatch"
+version = "0.0.3"
+authors = [
+  { name="makabaka", email="izhangxm@gmail.com" },
+]
+description = "patch to simple ui pro package"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "simplepro"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/izhangxm/makasuipatc"
+"Bug Tracker" = "https://github.com/izhangxm/makasuipatc/issues"
+
+

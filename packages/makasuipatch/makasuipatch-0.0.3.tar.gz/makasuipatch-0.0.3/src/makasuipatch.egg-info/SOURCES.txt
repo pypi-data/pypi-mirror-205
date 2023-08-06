@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/makasuipatch/__init__.py
+src/makasuipatch/apps.py
+src/makasuipatch/decode_simplepro_file.py
+src/makasuipatch.egg-info/PKG-INFO
+src/makasuipatch.egg-info/SOURCES.txt
+src/makasuipatch.egg-info/dependency_links.txt
+src/makasuipatch.egg-info/requires.txt
+src/makasuipatch.egg-info/top_level.txt
