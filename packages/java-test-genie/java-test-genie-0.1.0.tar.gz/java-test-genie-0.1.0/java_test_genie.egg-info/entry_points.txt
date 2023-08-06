@@ -1,0 +1,3 @@
+[console_scripts]
+genie = genie.main:main
+
