@@ -1,0 +1,23 @@
+---
+name: 'Docstring Auditor'
+author: 'Rob Luke'
+description: 'Use AI to review your code documentation.'
+branding:
+  icon: 'code'
+  color: 'blue'
+
+inputs:
+  openaiApiKey:
+    description: "OpenAI API Key"
+    required: true
+
+  path:
+    description: "Path to the file or directory to run the action on"
+    required: true
+
+runs:
+  using: "docker"
+  image: "docker://ghcr.io/agencyenterprise/docstring-auditor:latest"
+  args:
+    - ${{ inputs.path }}
+    - ${{ inputs.openaiApiKey }}
