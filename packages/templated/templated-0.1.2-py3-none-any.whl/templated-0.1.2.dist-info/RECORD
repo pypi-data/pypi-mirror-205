@@ -1,0 +1,13 @@
+templated/__init__.py,sha256=ptvy4Ca4Xl-ArzUupcoWEaEuvoxVg4mUWMLRZhwud10,345
+templated/__main__.py,sha256=hPy9EWOVbHLZKuvZk3youVDjv8GE0MzQWiD52XoXkcg,17
+templated/_utils/chat2vanilla_lm.py,sha256=fm0X-9jW73e_uudIXH9w1p4mt-FnN1X1BU5xW2yJlus,999
+templated/_utils/llms.py,sha256=An2NRCMaBfJw2vdsXM-t72NNiZMAC0p2e2Y5pyfzSLo,1491
+templated/function.py,sha256=COtVXk3Cma6jm7xl-iT7fvH6TlbbsxEbrO39j_r55kk,2878
+templated/templates/__old_template.py,sha256=zFmM98X_OOc76dnij-fBFpDiH6UWgmcW6JJx0_hE0rs,3962
+templated/templates/base_template.py,sha256=qkGcJWUwBjeRWUmcpnBxhO08Tdte3FCgvZ1o8vQ1OYo,2533
+templated/templates/fstring_template.py,sha256=pNrVMXHGKsr97MI4Cv6pxdvGF4J7rkP4QpG1_xUGB-M,563
+templated/templates/jinja_template.py,sha256=kR83Yz0xRufwtXUMg2RyJaZiBXK-kOU1gOT-gvT3a0A,777
+templated-0.1.2.dist-info/LICENSE,sha256=jPfa7gIMzEZsk3AuD8dv0SjUZop3tJdrk_k1RkMhwUw,2599
+templated-0.1.2.dist-info/METADATA,sha256=QmxMnxqFdq0uANTYjgH0LDBI9MuN-oTGagU1mp7otmU,3336
+templated-0.1.2.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+templated-0.1.2.dist-info/RECORD,,
