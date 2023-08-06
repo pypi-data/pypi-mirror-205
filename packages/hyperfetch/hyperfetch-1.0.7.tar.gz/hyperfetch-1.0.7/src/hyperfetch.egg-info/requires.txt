@@ -1,0 +1,13 @@
+python-benedict==0.30.0
+codecarbon==2.1.4
+torch==1.11
+gym==0.21.0
+pandas==2.0.1
+PyYAM==6.0
+motor==3.1.2
+numpy==1.24.3
+optuna==3.1.1
+stable-baselines3==1.8.0
+rl-zoo3==1.8.0
+python-dotenv==1.0.0
+starlette==0.26.1
