@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: miniagent
+Version: 0.0.1
+Summary: Multi adaptable and simple framework
+Home-page: https://github.com/tanminkwan/local-agent
+Author: tanminkwan
+Author-email: tanminkwan@gmail.com
+Keywords: flask,sqlalchemy,scheduler
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.9
+License-File: LICENSE
+
