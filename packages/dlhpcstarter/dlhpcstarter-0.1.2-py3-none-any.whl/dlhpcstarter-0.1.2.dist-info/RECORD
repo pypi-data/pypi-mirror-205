@@ -1,0 +1,17 @@
+dlhpcstarter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dlhpcstarter/__main__.py,sha256=V5EQgv69p8pBE77kZzS0VzsvWvjg31Cjm711YDE6AZ0,4612
+dlhpcstarter/cluster.py,sha256=TXUuMnQVx7M9iPcX0SE20iIfKU37-8jn8tVwZLLw1QA,9743
+dlhpcstarter/command_line_arguments.py,sha256=hzbC5IUYoz7zaKfLB9I0DOl0fCqNnCzX3HnT1bXJ04Y,5681
+dlhpcstarter/trainer.py,sha256=KTPBuTNQn-X9XBfHeKNMcq4fumFtXqRhO2sUjhYkl9g,9793
+dlhpcstarter/utils.py,sha256=GugGdXQ5NzxEWe3Pl78PaCnTddfxfGhjujbQze4p2uA,11503
+dlhpcstarter/tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dlhpcstarter/tools/ext/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dlhpcstarter/tools/ext/collect_env_details.py,sha256=wt3L4CndjIYSqswvRprYX8l3krCSFQyQYWMC8kF4TR0,3215
+dlhpcstarter/tools/mods/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dlhpcstarter/tools/mods/logger.py,sha256=-_dMA2bPNfeK8EVEYmjpyZuaQCWJW8toy-aSn1tOZLQ,8505
+dlhpcstarter-0.1.2.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+dlhpcstarter-0.1.2.dist-info/METADATA,sha256=Q1JG2XKYx9Lm5UV4CHa0mh_yykJWjiQUxcg1G4Y1Eyk,25692
+dlhpcstarter-0.1.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+dlhpcstarter-0.1.2.dist-info/entry_points.txt,sha256=S414yits-K8nouLweeQ9S4D3MtcJHBsjZ_RPwdmLf6g,60
+dlhpcstarter-0.1.2.dist-info/top_level.txt,sha256=VGIvRY0vsjjzGxvWAJYnD5tCEB3ysqVEmv9aJX58Jk0,13
+dlhpcstarter-0.1.2.dist-info/RECORD,,
