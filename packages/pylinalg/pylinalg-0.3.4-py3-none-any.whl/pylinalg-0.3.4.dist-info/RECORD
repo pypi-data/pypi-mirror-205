@@ -1,0 +1,11 @@
+pylinalg/__init__.py,sha256=1oR_of5S_l0T9gyEZhWDK9UCO-551ikL5APndZXzlmY,245
+pylinalg/func/__init__.py,sha256=dtqfza-0YBElIi2lZLBzsaqSI5D7u_l9fCOjver9sFw,216
+pylinalg/func/matrix.py,sha256=q8lbVW8AcLGTm-r0eMv6MUzpqjstjBWQhINIBPBD0mo,19983
+pylinalg/func/misc.py,sha256=CC4B0PC7GskRtVMZ33JpRFngll3poS3CWSXoQ6XFDao,4712
+pylinalg/func/quaternion.py,sha256=hFg1O24whCzngn524pyav1h-_URWBaouEly_2U2zy6c,9272
+pylinalg/func/vector.py,sha256=LJbyCjHJmjlSsdlDhLtIWXxjl2ozWVqIweseYj6iDT8,15070
+pylinalg/obj/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pylinalg-0.3.4.dist-info/LICENSE,sha256=IB44UPIz0Mh-exTxrrCp6eLo77tGDVwlWIUOaGArHi4,1077
+pylinalg-0.3.4.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+pylinalg-0.3.4.dist-info/METADATA,sha256=yQtX0ylXGX_wnhF3esmB8koxUNYl2N6zLb5WWBiEg4c,751
+pylinalg-0.3.4.dist-info/RECORD,,
