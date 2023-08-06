@@ -1,0 +1,17 @@
+olstecnologia/__init__.py,sha256=5rivs2U5ia9uXArxLc1H8FyzIZXtDjxp_vsZsUEDo60,22
+olstecnologia/app.py,sha256=BGfPjBGv4tiCQDI8LKr3FiTvcV-vLrw-02M3Tb_CNsM,10752
+olstecnologia/config/__init__.py,sha256=-U2kKM0YXFGxoqN74V0z2wN5sjKETXR7Hmi2wr12rdk,26
+olstecnologia/config/database.py,sha256=rU08-oPuo_lofaQKd-kXVWeqW3zCly-oIPag8I2I2wQ,1836
+olstecnologia/config/fbclient.dll,sha256=7szYPUSohrQ4JQ82GKCzmg74z8xdsHTSGPnACe0famw,1330176
+olstecnologia/features/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+olstecnologia/features/read_fb_for_postgres_feature.py,sha256=FBkLfR3Vq2-mugNrc5QyF448VPYFZBQcvszIGwv_uR4,607
+olstecnologia/features/update_addres_feature.py,sha256=TFm1K82PSHKgbjgdBavlsCoXFh4Fez4b2cwjF6Y8L2c,8810
+olstecnologia/services/__init__.py,sha256=KZBtfRKuuvOOY-8a2iTc2UpAeYdFzahMiK3QS4KfImk,170
+olstecnologia/services/check_db_service.py,sha256=VG3qccCs35MSnoestUrFzrbKbZWU3_fjLis-Lco8kzE,6532
+olstecnologia/services/connection_service.py,sha256=EFyg0tFn-2nzGY5OZwOfB_igsfkpjN-0gMoLdOoAPt4,551
+olstecnologia/services/services_service.py,sha256=gzdg669q73_WZpqVrbC2K8sqqkyM9hgC86vN3WHOu7Y,7034
+olstecnologia/services/utils_service.py,sha256=6boMsUlhpc-ndr3869rltcDfG_73DJm5E4UF1HAye2Q,2117
+olstecnologia-1.1.2.dist-info/entry_points.txt,sha256=Mr5Gb-oHzFWBfvlUXeMf4ZtYVDDGRVAcfy7EjDd5YtM,195
+olstecnologia-1.1.2.dist-info/METADATA,sha256=ZvKhiGMRnUsRUQZWpDufSoX1qpXZsED3pyUvsblYYHw,548
+olstecnologia-1.1.2.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+olstecnologia-1.1.2.dist-info/RECORD,,
