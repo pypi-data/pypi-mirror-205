@@ -1,0 +1,11 @@
+lctest/__init__.py,sha256=zNgwnce1nFN_6MfFFSMP5ugo0Y6U-CMlN5IcDm5hP4s,499
+lctest/arguments.py,sha256=G3cy02KAdW2x32kQOPaSvJ-OkbNioyuYzeO8TXxgibI,704
+lctest/lib.py,sha256=qRyKyGtFXNNn-baYDuKjilWe0LZVEJz-p8rcfYmanc4,3795
+lctest/stdlib.py,sha256=M8CHHqLcKyvNGBg-WrsLCCq32FIq4r0BvoanjpxXmvE,332
+lctest/test.py,sha256=LOsaLjMZR9RBqYUH3r-ga2KGxhkSw7vr_3y2n1jDUrI,2136
+lctest/testcase.py,sha256=NQTEjKxXxVo_YoZWXTLGLrsASwDGAh3pEoVAqxYtAzo,9218
+lctest/text_format.py,sha256=R9H6pkBxSgIeS0EYIrCqYo_eSnBYr7De3jrrM3YazHs,1340
+lctest-0.1.8.dist-info/METADATA,sha256=kMiX1gcqqf4mil43av31DIdwQyD7PxyDMQ5_79bHjPI,918
+lctest-0.1.8.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+lctest-0.1.8.dist-info/top_level.txt,sha256=GHymxGoGZaWQbW_ms5mPgN22-7rV1ceA7t9sZ16v37U,7
+lctest-0.1.8.dist-info/RECORD,,
