@@ -1,0 +1,3 @@
+[console_scripts]
+Uname_cli = main.main:main
+
