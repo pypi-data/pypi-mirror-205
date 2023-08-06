@@ -1,0 +1,12 @@
+iso3166_scraper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iso3166_scraper/__main__.py,sha256=z8f999WKkuU7n7PUX9UIlstqAs0Sc1gBEHv68c5nLqQ,64
+iso3166_scraper/extractor.py,sha256=ALOc1h1Uy7IQdzFLVtoK8gZUpNH8nguBYeF8jwudKOw,1461
+iso3166_scraper/flag_mapper.py,sha256=te8UxtgsLjGpJSxhTjquVRWiNr6rjpTImgRtFluqVEA,430
+iso3166_scraper/names.py,sha256=8ljb6PfqwuO4oskSLRKGGv4oY3gQ4cXduHlV8Dk5xFM,154
+iso3166_scraper/retriever.py,sha256=2XXcYTbDq3mUZg_hIcLOPXYDwG8JoFSkNBBec0GXCeo,314
+iso3166_scraper/scraper.py,sha256=CRfxFe6B3I52cAS1LySkPd687tiMMSTb3__D4OMPd_4,2839
+iso3166_scraper-0.0.0.dist-info/METADATA,sha256=fkrJuzFo3SWa_45np3OoJ6eqiF-ly4bgbaJU-miakHo,2905
+iso3166_scraper-0.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+iso3166_scraper-0.0.0.dist-info/entry_points.txt,sha256=IKAO_w6DTzRjMcVHll6xzwxtbNH8qoH9EymOAoocsAE,65
+iso3166_scraper-0.0.0.dist-info/top_level.txt,sha256=rQKfEE2HvA01sIxRu3BMEUuI92jMgnDIjNot4epnTPA,16
+iso3166_scraper-0.0.0.dist-info/RECORD,,
