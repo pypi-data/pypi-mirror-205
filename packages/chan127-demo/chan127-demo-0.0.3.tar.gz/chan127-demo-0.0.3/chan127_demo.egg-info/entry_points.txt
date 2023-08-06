@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    showdf=showdf.main:main
+    
