@@ -1,0 +1,2 @@
+raw2l1_py: ./gfatpy/lidar/raw2l1/raw2l1_gfat/raw2l1.py
+data_dn: ./tests/datos
