@@ -1,0 +1,50 @@
+# 指标表
+name        type        alias              default_unit      possible_unit                                   description
+市盈率      财务指标         pe,市盈              null            倍                             市盈率解释
+市净率      财务指标         pb，市净             null            倍
+每股收益    财务指标          每股收益             null           元
+净利润      财务指标           净利润               亿          亿,null
+股息率      财务指标         股息率                 %          %,null
+流通股      财务指标         流通股                 亿       null
+总市值      财务指标         总市值，总值，市值        亿        亿,万亿
+销售毛利率   财务指标         销售毛利率             %          %,null
+营业收入    财务指标          营收                  亿         亿元,万亿,万亿元
+KDJ        技术指标           KDJ                null         null   枚举
+MACD       技术指标           MACD               null         null   枚举
+WR         技术指标           WR                 null          null   枚举
+RSI        技术指标           RSI                null         null   枚举
+CCI        技术指标           CCI                null         null   枚举
+MTM        技术指标           MTM                null          null   枚举
+BIAS       技术指标           BIAS               null          null   枚举
+BOLL       技术指标           BOLL               null          null   枚举
+换手率      财务指标         换手率                 %          %,null
+销售毛利率   财务指标          销售毛利率              %          %,null
+净资产收益率  财务指标           ROE                 %           %
+总资产净利率  财务指标           ROA                %            %,null
+投入资本回报率  财务指标         ROIC                %            %,null
+营业利润率      财务指标          营业利润率                %            %,null
+净利率          财务指标           净利率               %            %,null
+资产净利率      财务指标           资产净利率                %            %,null
+毛利率         财务指标            毛利率                %            %,null
+净利润增长率     财务指标           净利润增长率               %            %,null
+存货周转率      财务指标           存货周转率              %            %,null
+营业收入增长率   财务指标           营业收入增长率               %            %,null
+归母净利润增长率  财务指标           归母净利润增长率                %            %,null
+扣非净利润增长率   财务指标           扣非净利润增长率               %            %,null
+自由现金流       财务指标            自由现金流
+经营现金流
+收现比
+净现比
+分红募资比
+换手率
+大股东质押率
+存货周转天数
+应收帐款周转天数
+带息债务占比
+商誉占比
+现金短债比
+固定资产占比
+存货占比
+PEG
+流动比
+速冻比
