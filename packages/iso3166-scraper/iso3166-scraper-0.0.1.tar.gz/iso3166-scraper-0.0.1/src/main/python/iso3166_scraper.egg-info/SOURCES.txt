@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+setup.cfg
+src/main/python/iso3166_scraper/__init__.py
+src/main/python/iso3166_scraper/__main__.py
+src/main/python/iso3166_scraper/extractor.py
+src/main/python/iso3166_scraper/flag_mapper.py
+src/main/python/iso3166_scraper/names.py
+src/main/python/iso3166_scraper/retriever.py
+src/main/python/iso3166_scraper/scraper.py
+src/main/python/iso3166_scraper.egg-info/PKG-INFO
+src/main/python/iso3166_scraper.egg-info/SOURCES.txt
+src/main/python/iso3166_scraper.egg-info/dependency_links.txt
+src/main/python/iso3166_scraper.egg-info/entry_points.txt
+src/main/python/iso3166_scraper.egg-info/requires.txt
+src/main/python/iso3166_scraper.egg-info/top_level.txt
