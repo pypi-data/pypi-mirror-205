@@ -1,0 +1,17 @@
+reprepbuild/__init__.py,sha256=iHyVckZLhAkIezYp2bdeJ7iApgZv0iKNAdtJk-zllpI,775
+reprepbuild/__main__.py,sha256=bRRdW6TKMt23BaPbQXtd4vZAvFECX04PaJTfZTs1ckE,11425
+reprepbuild/articlezip.py,sha256=HJ9V8sDxz6M_t7yeP0igFmTYkyqbeIU_vCmUxTxtXSs,1803
+reprepbuild/bibtex.py,sha256=M9XKHJWGKetHSB7SQc56U-hqQG3c_8h2WkxEdvTdPMk,3517
+reprepbuild/latex.py,sha256=7SdaVw4B-MnHrD3JmaeEo_583lJ1FXLs_QXZD8kP2JE,3910
+reprepbuild/latexdep.py,sha256=n_C-SYFDQjDXVUucNZLTkuyHdVLbyb_Ls2rYK7-DqKk,4530
+reprepbuild/normalizepdf.py,sha256=owlXkgC2mFImg4-F2UIA7krK_uG0wfvvW7EmfXGdGQM,1792
+reprepbuild/pythonscript.py,sha256=L1KIKUgXmANDmvfc7m3SzCp0HpLlpSPeuNYNJolz2Gk,4119
+reprepbuild/repeat.py,sha256=859K1oBUIlL6CC9GyEh8vJvgiaTyIZwsR5vXhBC2xUY,2856
+reprepbuild/utils.py,sha256=ZBq3SE52sXHJBs-GYlBvefq2BINjGK68MNuHtjk-o1o,5130
+reprepbuild/zip.py,sha256=NanEgwHxj_cSaoO3LXhcWGZ1YBqSQKOhrUMo4XZtg9Y,2340
+RepRepBuild-0.7.2.dist-info/COPYING,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+RepRepBuild-0.7.2.dist-info/METADATA,sha256=cELWWfr0fp2v75KnjWfYNZm13R3G7LzyCLvp3_l-oAA,43136
+RepRepBuild-0.7.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+RepRepBuild-0.7.2.dist-info/entry_points.txt,sha256=qYHKDW_qJMad7Ky4QPhai3GiVJQrg4tfTC9Slr32g5w,362
+RepRepBuild-0.7.2.dist-info/top_level.txt,sha256=BhQWkd8bGLyLR5GfbEap2Qp1ag04ZzS7mMHkDHiDOhY,12
+RepRepBuild-0.7.2.dist-info/RECORD,,
