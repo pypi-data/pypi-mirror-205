@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: icpp
+Version: 2.0.3
+Summary: `icpp` had been replaced by `icpp-free`
+Home-page: https://docs.icpp.world/
+Author: icppWorld
+Author-email: icpp@icpp.world
+License: Freemium
+Keywords: Internet Computer,C++,Smart Contracts,blockchain
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: pylint (==2.13.9) ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: build ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: mkdocs ; extra == 'dev'
+Requires-Dist: types-requests ; extra == 'dev'
+
+# The icpp package has been replaced by [icpp-free](https://pypi.org/project/icpp-free/)
