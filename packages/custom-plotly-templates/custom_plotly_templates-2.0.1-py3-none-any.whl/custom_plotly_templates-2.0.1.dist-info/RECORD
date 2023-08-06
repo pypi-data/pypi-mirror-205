@@ -1,0 +1,9 @@
+custom_plotly_templates/__init__.py,sha256=WwQ1f-IUN0nv_veKg2jFknoMvlfYIj_waDsFqnli2oY,331
+custom_plotly_templates/_version.py,sha256=Op1rA_N3tJhaUCvLL0TFgVtMYNmpWGSQM6MuNf7zWts,111
+custom_plotly_templates/render_config.py,sha256=w6-w7udn_hYQJEWSRuULtP9lmbShbuMHbgTHzNfcb_E,331
+custom_plotly_templates/templates/__init__.py,sha256=3uW-gXWXLhjDUmpB4aZsgL2-9KRZcqug7_N1wlYrkKw,377
+custom_plotly_templates/templates/white.py,sha256=OjIS9W6ucwtef0Kvr_KORSg4h1WZu2qrsH0DqQxZXQg,1084
+custom_plotly_templates-2.0.1.dist-info/LICENSE,sha256=7Ec9BmTQTeAVvNmQkQDTFWvvZtF_dbC0nF26PrBfs10,1076
+custom_plotly_templates-2.0.1.dist-info/METADATA,sha256=yuW4-axP-a3Iplys2SGL_-izR8AO4MB79WSnihT3aqQ,1379
+custom_plotly_templates-2.0.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+custom_plotly_templates-2.0.1.dist-info/RECORD,,
