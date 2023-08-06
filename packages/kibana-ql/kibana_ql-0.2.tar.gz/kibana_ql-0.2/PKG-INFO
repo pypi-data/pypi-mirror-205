@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: kibana_ql
+Version: 0.2
+Summary: Package to parse Kibana Query Language (KQL) strings. 
+Author-email: Dobatymo <Dobatymo@users.noreply.github.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: genutility[string]
+Requires-Dist: parsimonious
+Project-URL: Source, https://github.com/Dobatymo/kibana-ql-python
+
+# kibana-ql
+
+Parser for the Kibana Query Language (KQL).
+
+## Install
+
+```shell
+pip install kibana-ql
+```
+
+## Use
+
+```python
+from kibana_ql import KqlParser
+p = KqlParser()
+tree = p.parse("field: value")
+p.ast(tree)  # {'field': 'field', 'value': 'value'}
+tree = p.parse('document: "tax" and @date > now-2w')
+p.ast(tree)  # {'op': 'and', 'left': {'field': 'document', 'value': 'tax'}, 'right': {'field': '@date', 'op': '>', 'value': ('now-2w',)}}
+```
+
+## Tests
+
+```shell
+py -m unittest discover -v -s tests -p "*_test.py"
+```
+
+## Notes
+
+Grammar file based on <https://github.com/elastic/kibana/blob/main/packages/kbn-es-query/src/kuery/grammar/grammar.peggy>.
+
