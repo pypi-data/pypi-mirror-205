@@ -1,0 +1,12 @@
+#!/bin/bash -e
+
+# Python interpreter
+PYTHON=python3
+
+# Struphy installation path
+cd ~
+INSTALL_PATH=$($PYTHON -c "import gvec_to_python as _; print(_.__path__[0])")
+
+echo "Makefile: $INSTALL_PATH/Makefile"
+
+command make -f $INSTALL_PATH/Makefile install_path=$INSTALL_PATH

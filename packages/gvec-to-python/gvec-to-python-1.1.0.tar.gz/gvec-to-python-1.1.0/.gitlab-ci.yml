@@ -1,0 +1,70 @@
+default:
+
+  # Each stage / job will pull and clean the image, EVERY TIME!
+  # There is no way to persist, even using `cache`, so we have to `apt install` EVERY TIME!
+  # Therefore instead of using a clear syntax with build-test-deploy, we combind everything into one single job.
+  image: python:3.8-buster
+
+  # Try to use only one job per stage. 
+  # Stupid GitLab fails to load the cache for second jobs.
+  cache: # Global `cache`.
+    paths:
+      - ipp-env
+
+  artifacts:
+    reports:
+      coverage_report:
+        coverage_format: cobertura
+        path: coverage.xml
+    paths:
+      - logs/execution.log
+      - dist/*
+
+  after_script: # Global `after_script`.
+    - tree -I 'ipp-env' # Print directory structure, but exclude virtual environment directory.
+    - ls ipp-env
+    - echo "Bye, $GITLAB_USER_LOGIN!"
+
+
+
+# Changes (e.g. apt install, pip install) do not persist across different GitLab CI jobs.
+# => Consolidate everything in GitLab CI into a single job, because the design is dumb.
+# => Since we only have one job, and GitLab Pages requires the job to be called `pages` for it to work, we now call this job `pages`.
+install_and_test:
+
+  before_script: # Overrides global `before_script`.
+
+    - echo "Hello, $GITLAB_USER_LOGIN!"
+    - python -V  # Print out python version for debugging.
+    - pwd
+
+    # Install everything.
+    - apt-get -qq update && apt-get -qq install -y gcc gfortran libblas-dev liblapack-dev libopenmpi-dev openmpi-bin rsync tree ffmpeg libsm6 libxext6
+    # To output PDF document using Sphinx.
+    # - apt-get -qq insall -y texlive-latex-recommended texlive-fonts-recommended tex-gyre texlive-latex-extra latexmk texlive-lang-cyrillic texlive-lang-greek cm-super texlive-xetex texlive-luatex fonts-freefont-otf xindy graphviz
+    - python -m venv ipp-env
+    - source ipp-env/bin/activate
+    - pip install -U pip build wheel pytest pytest-cov coverage 
+    # - pip install -r requirements.txt
+
+    # Print directory structure, but exclude virtual environment directory.
+    - tree -I 'ipp-env' 
+
+  script:
+
+    # Build: build python package, install package.
+    - echo "Run python build:"
+    - python -m build
+    - ls -lah dist
+    - echo "Install dist:"
+    - pip install -U dist/gvec_to_python-*.whl --force-reinstall
+
+    # compile 
+    - pip show gvec_to_python
+    - compile_gvec_to_python
+
+    # Test: run pytest and coverage report.
+    - echo "Run pytest and coverage report:"
+    - coverage run -m pytest
+    - coverage xml
+    - coverage report --skip-empty
