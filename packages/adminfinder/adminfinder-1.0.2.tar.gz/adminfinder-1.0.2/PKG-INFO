@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: adminfinder
+Version: 1.0.2
+Summary: A tool for finding admin panels and login pages
+Home-page: https://github.com/username/adminfinder-alpha
+Author: Keyvan Hardani
+Author-email: dev@keyvvan.com
+License: MIT
+Keywords: admin panel login page finder
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+License-File: LICENSE.txt
+
+A tool for finding admin panels and login pages. It uses a list of paths and a list of common admin panels and login pages to perform the search.
