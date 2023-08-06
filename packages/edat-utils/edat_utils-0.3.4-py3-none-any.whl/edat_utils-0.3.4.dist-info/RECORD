@@ -1,0 +1,10 @@
+edat_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+edat_utils/generic_controller.py,sha256=cAMKY6CXXcxtcJybZNfgOSx0OIl16Iw3z2ozryIuJ-c,1043
+edat_utils/query_builder.py,sha256=i81jcPUPqB0-k1IdvX_952eW7xa6lo4R3Cmli3o90_E,3924
+edat_utils/query_runner.py,sha256=ju2e_zLlOPw4QryeGKBZidKJ3-7QbACta17KM-iuTCs,1221
+edat_utils/schema.py,sha256=fOMEbutsiiPaaQmW1F_cvbxIWfrG4qzWiNkHpNxOHgA,967
+edat_utils/utils.py,sha256=5bQnK14ux69Sl-Hb8jqGMC6JpvPh8ntlShSNhGKOfm8,785
+edat_utils-0.3.4.dist-info/METADATA,sha256=eAa2mVbGUVt_jqq46ExXcX1Q0VEMV6AT5fc-Cf3YekQ,605
+edat_utils-0.3.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+edat_utils-0.3.4.dist-info/top_level.txt,sha256=UzfGNo1pgMJdNPNQ0c8XjxEkKeqFnHSVaSsMlpvjYSQ,11
+edat_utils-0.3.4.dist-info/RECORD,,
