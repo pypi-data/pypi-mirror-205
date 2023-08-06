@@ -1,0 +1,10 @@
+ai_cli/__init__.py,sha256=ZX92B-BahZJ9_jYlk3ao6KhQq1iDwC5Q7E0oVtuhd58,680
+ai_cli/bot/__init__.py,sha256=on-NH1SLotcPfflPVXmCcJIkm24JX2nyv_1Z9eQd99g,8231
+ai_cli/bot/token.py,sha256=HFne8G0iE9QGB_ceeEhg7Zy30pu2ao_09l2qJov60fc,195
+ai_cli/cli.py,sha256=04nhopz5DPA1WkPao5-8vi7jnLNGFLJbNOpNL1-XvpM,13577
+ai_cli/git.py,sha256=BYBbdeaRo2M9so_HJs9LE64wR_TDSmbAWpoASW_8z8o,4468
+ai_cli/setting.py,sha256=uInGfu-xyA6FP2ZyD0aFxMvf6SR50fM0wJAE1gjHzQ4,2882
+py_ai_cli-0.3.2.dist-info/entry_points.txt,sha256=_8-DVIOODMXYNdJCaVYW7bwbn0hKrrd66rP8zGqfVUo,37
+py_ai_cli-0.3.2.dist-info/WHEEL,sha256=B19PGBCYhWaz2p_UjAoRVh767nYQfk14Sn4TpIZ-nfU,87
+py_ai_cli-0.3.2.dist-info/METADATA,sha256=cP2qTo2AxjN50NhLkuMTpl0QCw9330Y2jJ20QNyIEPI,3815
+py_ai_cli-0.3.2.dist-info/RECORD,,
