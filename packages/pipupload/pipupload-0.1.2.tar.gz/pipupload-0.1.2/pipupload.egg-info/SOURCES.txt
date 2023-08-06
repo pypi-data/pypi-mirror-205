@@ -1,0 +1,9 @@
+setup.py
+pipupload/__init__.py
+pipupload/add_num.py
+pipupload/maintest.py
+pipupload.egg-info/PKG-INFO
+pipupload.egg-info/SOURCES.txt
+pipupload.egg-info/dependency_links.txt
+pipupload.egg-info/top_level.txt
+pipupload.egg-info/zip-safe
