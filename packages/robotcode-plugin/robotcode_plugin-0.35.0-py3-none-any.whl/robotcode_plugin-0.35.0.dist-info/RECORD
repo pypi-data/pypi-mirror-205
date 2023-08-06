@@ -1,0 +1,12 @@
+robotcode/plugin/__init__.py,sha256=WGHey2Nq8patwzsnvSjqmlmFui4QpWhj8uUSH4UMpGs,4747
+robotcode/plugin/__version__.py,sha256=w3TvNFSYTcLj3nBuRCGicelGZOzvgYOfnmgrBAuIKqY,23
+robotcode/plugin/manager.py,sha256=1N4UpmXBi8QDn0zdzPzWoMGrEOg_NSK-usa85ZroQjU,530
+robotcode/plugin/py.typed,sha256=bWew9mHgMy8LqMu7RuqQXFXLBxh2CRx0dUbSx-3wE48,27
+robotcode/plugin/specs.py,sha256=d3nYOTBwHjeA1RICMokUY9gYXNZfkccaoHLlLJDo9oI,334
+robotcode/plugin/click_helper/aliases.py,sha256=Dx3HVLzbKwG4WSdZwqnVu1gLBMJhum--J9xN21Bp_LU,1658
+robotcode/plugin/click_helper/server_options.py,sha256=fuRGCKR7WeHgFIzu1kelKwOxrGhZ6bDeVjBTm74cOEI,11361
+robotcode/plugin/click_helper/types.py,sha256=W4MCUQl70Nfc6gZezmi13W1-sTTbT0WPt-kYNcr5SXQ,3550
+robotcode_plugin-0.35.0.dist-info/METADATA,sha256=Yn9FBpYeneFOQSHXbgpbbK6cqlj1067jTzDEAzGbEZY,2023
+robotcode_plugin-0.35.0.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+robotcode_plugin-0.35.0.dist-info/licenses/LICENSE.txt,sha256=B05uMshqTA74s-0ltyHKI6yoPfJ3zYgQbvcXfDVGFf8,10280
+robotcode_plugin-0.35.0.dist-info/RECORD,,
