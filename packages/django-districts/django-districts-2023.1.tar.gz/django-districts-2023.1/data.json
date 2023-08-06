@@ -1,0 +1,4091 @@
+[
+    {
+        "model": "districts.regions",
+        "pk": 1,
+        "fields": {
+            "region": "Eastern",
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.regions",
+        "pk": 2,
+        "fields": {
+            "region": "Central",
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.regions",
+        "pk": 3,
+        "fields": {
+            "region": "Western",
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.regions",
+        "pk": 4,
+        "fields": {
+            "region": "Southern",
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.regions",
+        "pk": 4,
+        "fields": {
+            "region": "Northern",
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+
+
+
+
+
+
+    {
+        "model": "districts.districts",
+        "pk": 1,
+        "fields": {
+            "district": "Jinja",
+            "region": 1,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.districts",
+        "pk": 2,
+        "fields": {
+            "district": "Mayuge",
+            "region": 1,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.districts",
+        "pk": 3,
+        "fields": {
+            "district": "Buyende",
+            "region": 1,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.districts",
+        "pk": 4,
+        "fields": {
+            "district": "Iganga",
+            "region": 1,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.districts",
+        "pk": 5,
+        "fields": {
+            "district": "Kamuli",
+            "region": 1,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.districts",
+        "pk": 6,
+        "fields": {
+            "district": "Luuka",
+            "region": 1,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.districts",
+        "pk": 7,
+        "fields": {
+            "district": "Kampala",
+            "region": 2,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.districts",
+        "pk": 8,
+        "fields": {
+            "district": "Wakiso",
+            "region": 2,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.districts",
+        "pk": 9,
+        "fields": {
+            "district": "Mukono",
+            "region": 2,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.districts",
+        "pk": 10,
+        "fields": {
+            "district": "Luwero",
+            "region": 2,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.districts",
+        "pk": 11,
+        "fields": {
+            "district": "Nakasongola",
+            "region": 2,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.districts",
+        "pk": 12,
+        "fields": {
+            "district": "Nakaseke",
+            "region": 2,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.districts",
+        "pk": 13,
+        "fields": {
+            "district": "Buikwe",
+            "region": 2,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.districts",
+        "pk": 14,
+        "fields": {
+            "district": "Kayunga",
+            "region": 2,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.districts",
+        "pk": 15,
+        "fields": {
+            "district": "Mityana",
+            "region": 2,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.districts",
+        "pk": 16,
+        "fields": {
+            "district": "Mpigi",
+            "region": 2,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "model": "districts.county",
+        "pk": 1,
+        "fields": {
+            "county": "Butembe",
+            "district": 1,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.county",
+        "pk": 2,
+        "fields": {
+            "county": "Kagoma",
+            "district": 1,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.county",
+        "pk": 3,
+        "fields": {
+            "county": "Jinja Municipality East",
+            "district": 1,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.county",
+        "pk": 4,
+        "fields": {
+            "county": "Jinja Municipality West",
+            "district": 1,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.county",
+        "pk": 5,
+        "fields": {
+            "county": "Kampala Central Division",
+            "district": 7,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.county",
+        "pk": 6,
+        "fields": {
+            "county": "Kawempe Division North",
+            "district": 7,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.county",
+        "pk": 7,
+        "fields": {
+            "county": "Kawempe Division South",
+            "district": 7,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.county",
+        "pk": 8,
+        "fields": {
+            "county": "Makindye Division East",
+            "district": 7,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.county",
+        "pk": 9,
+        "fields": {
+            "county": "Makindye Division West",
+            "district": 7,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.county",
+        "pk": 10,
+        "fields": {
+            "county": "Nakawa Division",
+            "district": 7,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.county",
+        "pk": 11,
+        "fields": {
+            "county": "Rubaga Division North",
+            "district": 7,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.county",
+        "pk": 12,
+        "fields": {
+            "county": "Rubaga Division South",
+            "district": 7,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.county",
+        "pk": 13,
+        "fields": {
+            "county": "Busiro East",
+            "district": 8,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.county",
+        "pk": 14,
+        "fields": {
+            "county": "Busiro North",
+            "district": 8,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.county",
+        "pk": 15,
+        "fields": {
+            "county": "Busiro South",
+            "district": 8,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.county",
+        "pk": 16,
+        "fields": {
+            "county": "Entebbe Municipality",
+            "district": 8,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.county",
+        "pk": 17,
+        "fields": {
+            "county": "Kira Municipality",
+            "district": 8,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.county",
+        "pk": 18,
+        "fields": {
+            "county": "Kyadondo East",
+            "district": 8,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.county",
+        "pk": 19,
+        "fields": {
+            "county": "Makindye-Ssabagabo Municipality",
+            "district": 8,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.county",
+        "pk": 20,
+        "fields": {
+            "county": "Nansana Municipality",
+            "district": 8,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "model": "districts.subcounty",
+        "pk": 1,
+        "fields": {
+            "sub_county": "Bugembe Town Council",
+            "county": 1,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 2,
+        "fields": {
+            "sub_county": "Busedde",
+            "county": 1,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 3,
+        "fields": {
+            "sub_county": "Kakira Town Council",
+            "county": 1,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 4,
+        "fields": {
+            "sub_county": "Mafubira",
+            "county": 1,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 5,
+        "fields": {
+            "sub_county": "Budondo",
+            "county": 2,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 6,
+        "fields": {
+            "sub_county": "Butagaya",
+            "county": 2,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 7,
+        "fields": {
+            "sub_county": "Buwenge",
+            "county": 2,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 8,
+        "fields": {
+            "sub_county": "Buwenge Town Council",
+            "county": 2,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 9,
+        "fields": {
+            "sub_county": "Buyengo",
+            "county": 2,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 10,
+        "fields": {
+            "sub_county": "Jinja Central",
+            "county": 3,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 11,
+        "fields": {
+            "sub_county": "Walukuba/Masese",
+            "county": 3,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 12,
+        "fields": {
+            "sub_county": "Kimaka/Mpumudde",
+            "county": 4,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 13,
+        "fields": {
+            "sub_county": "Jinja Central",
+            "county": 4,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 14,
+        "fields": {
+            "sub_county": "Masese",
+            "county": 4,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 15,
+        "fields": {
+            "sub_county": "Kampala Central Division",
+            "county": 5,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 16,
+        "fields": {
+            "sub_county": "Kawempe Division",
+            "county": 6,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 17,
+        "fields": {
+            "sub_county": "Kawempe Division",
+            "county": 7,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 18,
+        "fields": {
+            "sub_county": "Makerere University",
+            "county": 7,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 19,
+        "fields": {
+            "sub_county": "Makindye Division",
+            "county": 8,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 20,
+        "fields": {
+            "sub_county": "Makindye Division",
+            "county": 9,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 21,
+        "fields": {
+            "sub_county": "Nakawa Division",
+            "county": 10,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 22,
+        "fields": {
+            "sub_county": "Rubaga Division",
+            "county": 11,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 23,
+        "fields": {
+            "sub_county": "Rubaga Division",
+            "county": 12,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 24,
+        "fields": {
+            "sub_county": "Kyengera Town Council",
+            "county": 13,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 25,
+        "fields": {
+            "sub_county": "Mende",
+            "county": 13,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 26,
+        "fields": {
+            "sub_county": "Wakiso",
+            "county": 13,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 27,
+        "fields": {
+            "sub_county": "Wakiso Town Council",
+            "county": 13,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 28,
+        "fields": {
+            "sub_county": "Kakiri",
+            "county": 14,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 29,
+        "fields": {
+            "sub_county": "Kakiri Town Council",
+            "county": 14,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 30,
+        "fields": {
+            "sub_county": "Masuliita",
+            "county": 14,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 31,
+        "fields": {
+            "sub_county": "Masuliita Town Council",
+            "county": 14,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 32,
+        "fields": {
+            "sub_county": "Namayumba",
+            "county": 14,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 33,
+        "fields": {
+            "sub_county": "Namayumba Town Council",
+            "county": 14,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 34,
+        "fields": {
+            "sub_county": "Bussi",
+            "county": 15,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 35,
+        "fields": {
+            "sub_county": "Kajjansi Town Council",
+            "county": 15,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 36,
+        "fields": {
+            "sub_county": "Kasanje",
+            "county": 15,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 37,
+        "fields": {
+            "sub_county": "Katabi Town Council",
+            "county": 15,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 38,
+        "fields": {
+            "sub_county": "Kyansi Town Council",
+            "county": 15,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 39,
+        "fields": {
+            "sub_county": "Division A",
+            "county": 16,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 40,
+        "fields": {
+            "sub_county": "Division B",
+            "county": 16,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 41,
+        "fields": {
+            "sub_county": "Bweyogerere Division",
+            "county": 17,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 42,
+        "fields": {
+            "sub_county": "Kira Division",
+            "county": 17,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 43,
+        "fields": {
+            "sub_county": "Namugongo Division",
+            "county": 17,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 44,
+        "fields": {
+            "sub_county": "Kasangati Town Council",
+            "county": 18,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 45,
+        "fields": {
+            "sub_county": "Bunammwaya Division",
+            "county": 19,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 46,
+        "fields": {
+            "sub_county": "Masajja Division",
+            "county": 19,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 47,
+        "fields": {
+            "sub_county": "Ndejje Division",
+            "county": 19,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 48,
+        "fields": {
+            "sub_county": "Busukuma Division",
+            "county": 20,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 49,
+        "fields": {
+            "sub_county": "Gombe Division",
+            "county": 20,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 50,
+        "fields": {
+            "sub_county": "Nabweru Division",
+            "county": 20,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.subcounty",
+        "pk": 51,
+        "fields": {
+            "sub_county": "Nansana Division",
+            "county": 20,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "model": "districts.parish",
+        "pk": 1,
+        "fields": {
+            "parish": "Budhumbuli East Ward",
+            "sub_county": 1,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 2,
+        "fields": {
+            "parish": "Katende Ward",
+            "sub_county": 1,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 3,
+        "fields": {
+            "parish": "Nakanyonyi Ward",
+            "sub_county": 1,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 4,
+        "fields": {
+            "parish": "Wanyama Ward",
+            "sub_county": 1,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 5,
+        "fields": {
+            "parish": "Bugobya",
+            "sub_county": 2,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 6,
+        "fields": {
+            "parish": "Itakaibolu",
+            "sub_county": 2,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 7,
+        "fields": {
+            "parish": "Kisasi",
+            "sub_county": 2,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 8,
+        "fields": {
+            "parish": "Nabitambala",
+            "sub_county": 2,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 9,
+        "fields": {
+            "parish": "Nalinaibi",
+            "sub_county": 2,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 10,
+        "fields": {
+            "parish": "Chico Ward",
+            "sub_county": 3,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 11,
+        "fields": {
+            "parish": "Kabyaza Ward",
+            "sub_county": 3,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 12,
+        "fields": {
+            "parish": "Kakira Ward",
+            "sub_county": 3,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 13,
+        "fields": {
+            "parish": "Karongo Ward",
+            "sub_county": 3,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 14,
+        "fields": {
+            "parish": "Mawoito Ward",
+            "sub_county": 3,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 15,
+        "fields": {
+            "parish": "Mwiri Ward",
+            "sub_county": 3,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 16,
+        "fields": {
+            "parish": "Polota Ward",
+            "sub_county": 3,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 17,
+        "fields": {
+            "parish": "Wairaka Ward",
+            "sub_county": 3,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 18,
+        "fields": {
+            "parish": "Buwekula",
+            "sub_county": 4,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 19,
+        "fields": {
+            "parish": "Buwenda TC",
+            "sub_county": 4,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 20,
+        "fields": {
+            "parish": "Mafubira",
+            "sub_county": 4,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 21,
+        "fields": {
+            "parish": "Namulesa",
+            "sub_county": 4,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 22,
+        "fields": {
+            "parish": "Wanyange",
+            "sub_county": 4,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 23,
+        "fields": {
+            "parish": "Buwagi (Kakyomya)",
+            "sub_county": 5,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 24,
+        "fields": {
+            "parish": "Ivunamba",
+            "sub_county": 5,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 25,
+        "fields": {
+            "parish": "Kibibi",
+            "sub_county": 5,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 26,
+        "fields": {
+            "parish": "Namizi",
+            "sub_county": 5,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 27,
+        "fields": {
+            "parish": "Nawangoma",
+            "sub_county": 5,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 28,
+        "fields": {
+            "parish": "Budima",
+            "sub_county": 6,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 29,
+        "fields": {
+            "parish": "Lubani",
+            "sub_county": 6,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 30,
+        "fields": {
+            "parish": "Nakakulwe (Kisozi)",
+            "sub_county": 6,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 31,
+        "fields": {
+            "parish": "Namagera",
+            "sub_county": 6,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 32,
+        "fields": {
+            "parish": "Nawampanda",
+            "sub_county": 6,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 33,
+        "fields": {
+            "parish": "Wansiimba",
+            "sub_county": 6,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 34,
+        "fields": {
+            "parish": "Buweera",
+            "sub_county": 7,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 35,
+        "fields": {
+            "parish": "Kagoma",
+            "sub_county": 7,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 36,
+        "fields": {
+            "parish": "Kaiira",
+            "sub_county": 7,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 37,
+        "fields": {
+            "parish": "Kitanaba",
+            "sub_county": 7,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 38,
+        "fields": {
+            "parish": "Magamaga",
+            "sub_county": 7,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 39,
+        "fields": {
+            "parish": "Kagaire Ward",
+            "sub_county": 8,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 40,
+        "fields": {
+            "parish": "Kalitunsi Ward",
+            "sub_county": 8,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 41,
+        "fields": {
+            "parish": "Kasalina Ward",
+            "sub_county": 8,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 42,
+        "fields": {
+            "parish": "Bulugo",
+            "sub_county": 9,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 43,
+        "fields": {
+            "parish": "Butamira",
+            "sub_county": 9,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 44,
+        "fields": {
+            "parish": "Buwabuzi",
+            "sub_county": 9,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 45,
+        "fields": {
+            "parish": "Iziru",
+            "sub_county": 9,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 46,
+        "fields": {
+            "parish": "Central Jinja East",
+            "sub_county": 10,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 47,
+        "fields": {
+            "parish": "Old Boma",
+            "sub_county": 10,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 48,
+        "fields": {
+            "parish": "Masese",
+            "sub_county": 11,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 49,
+        "fields": {
+            "parish": "Walukuba East",
+            "sub_county": 11,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 50,
+        "fields": {
+            "parish": "Walukuba West",
+            "sub_county": 11,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 51,
+        "fields": {
+            "parish": "Kimaka",
+            "sub_county": 12,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 52,
+        "fields": {
+            "parish": "Lubaga",
+            "sub_county": 12,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 53,
+        "fields": {
+            "parish": "Mpumudde",
+            "sub_county": 12,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 54,
+        "fields": {
+            "parish": "Nalufenya",
+            "sub_county": 12,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 55,
+        "fields": {
+            "parish": "Central Jinja West",
+            "sub_county": 13,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 56,
+        "fields": {
+            "parish": "Masese",
+            "sub_county": 14,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 57,
+        "fields": {
+            "parish": "Bukesa",
+            "sub_county": 15,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 58,
+        "fields": {
+            "parish": "Civic Centre",
+            "sub_county": 15,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 59,
+        "fields": {
+            "parish": "Industrial Area",
+            "sub_county": 15,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 60,
+        "fields": {
+            "parish": "Kagugube",
+            "sub_county": 15,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 61,
+        "fields": {
+            "parish": "Kamwokya I",
+            "sub_county": 15,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 62,
+        "fields": {
+            "parish": "Kamwokya II",
+            "sub_county": 15,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 63,
+        "fields": {
+            "parish": "Kisenyi I",
+            "sub_county": 15,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 64,
+        "fields": {
+            "parish": "Kisenyi II",
+            "sub_county": 15,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 65,
+        "fields": {
+            "parish": "Kisenyi III",
+            "sub_county": 15,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 66,
+        "fields": {
+            "parish": "Kololo I",
+            "sub_county": 15,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 67,
+        "fields": {
+            "parish": "Kololo II",
+            "sub_county": 15,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 68,
+        "fields": {
+            "parish": "Kololo III",
+            "sub_county": 15,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 69,
+        "fields": {
+            "parish": "Kololo IV",
+            "sub_county": 15,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 70,
+        "fields": {
+            "parish": "Mengo",
+            "sub_county": 15,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 71,
+        "fields": {
+            "parish": "Nakasero I",
+            "sub_county": 15,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 72,
+        "fields": {
+            "parish": "Nakasero II",
+            "sub_county": 15,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 73,
+        "fields": {
+            "parish": "Nakasero III",
+            "sub_county": 15,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 74,
+        "fields": {
+            "parish": "Nakasero IV",
+            "sub_county": 15,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 75,
+        "fields": {
+            "parish": "Nakivubo",
+            "sub_county": 15,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 76,
+        "fields": {
+            "parish": "Old Kampala",
+            "sub_county": 15,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 77,
+        "fields": {
+            "parish": "Bwaise I",
+            "sub_county": 16,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 78,
+        "fields": {
+            "parish": "Kanyanya",
+            "sub_county": 16,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 79,
+        "fields": {
+            "parish": "Kawempe I",
+            "sub_county": 16,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 80,
+        "fields": {
+            "parish": "Kawempe II",
+            "sub_county": 16,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 81,
+        "fields": {
+            "parish": "Kazo - Angola",
+            "sub_county": 16,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 82,
+        "fields": {
+            "parish": "Kikaya",
+            "sub_county": 16,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 83,
+        "fields": {
+            "parish": "Komamboga",
+            "sub_county": 16,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 84,
+        "fields": {
+            "parish": "Kyebando",
+            "sub_county": 16,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 85,
+        "fields": {
+            "parish": "Bwaise II",
+            "sub_county": 17,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 86,
+        "fields": {
+            "parish": "Bwaise III",
+            "sub_county": 17,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 87,
+        "fields": {
+            "parish": "Makerere I",
+            "sub_county": 17,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 88,
+        "fields": {
+            "parish": "Makerere II",
+            "sub_county": 17,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 89,
+        "fields": {
+            "parish": "Makerere III",
+            "sub_county": 17,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 90,
+        "fields": {
+            "parish": "Mulago I",
+            "sub_county": 17,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 91,
+        "fields": {
+            "parish": "Mulago II",
+            "sub_county": 17,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 92,
+        "fields": {
+            "parish": "Mulago III",
+            "sub_county": 17,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 93,
+        "fields": {
+            "parish": "Wandegeya",
+            "sub_county": 17,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 94,
+        "fields": {
+            "parish": "Muluka I",
+            "sub_county": 18,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 95,
+        "fields": {
+            "parish": "Muluka II",
+            "sub_county": 18,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 96,
+        "fields": {
+            "parish": "Muluka III",
+            "sub_county": 18,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 97,
+        "fields": {
+            "parish": "Muluka IV",
+            "sub_county": 18,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 98,
+        "fields": {
+            "parish": "Bukasa",
+            "sub_county": 19,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 99,
+        "fields": {
+            "parish": "Ggaba",
+            "sub_county": 19,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 100,
+        "fields": {
+            "parish": "Kabalagala",
+            "sub_county": 19,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 101,
+        "fields": {
+            "parish": "Kansanga",
+            "sub_county": 19,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 102,
+        "fields": {
+            "parish": "Kibuli",
+            "sub_county": 19,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 103,
+        "fields": {
+            "parish": "Kisugu",
+            "sub_county": 19,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 104,
+        "fields": {
+            "parish": "Nsambya Estate",
+            "sub_county": 19,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 105,
+        "fields": {
+            "parish": "Wabigalo",
+            "sub_county": 19,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 106,
+        "fields": {
+            "parish": "Buziga",
+            "sub_county": 20,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 107,
+        "fields": {
+            "parish": "Katwe I",
+            "sub_county": 20,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 108,
+        "fields": {
+            "parish": "Katwe II",
+            "sub_county": 20,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 109,
+        "fields": {
+            "parish": "Kibuye I",
+            "sub_county": 20,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 110,
+        "fields": {
+            "parish": "Kibuye II",
+            "sub_county": 20,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 111,
+        "fields": {
+            "parish": "Lukuli",
+            "sub_county": 20,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 112,
+        "fields": {
+            "parish": "Luwafu",
+            "sub_county": 20,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 113,
+        "fields": {
+            "parish": "Makindye I",
+            "sub_county": 20,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 114,
+        "fields": {
+            "parish": "Makindye II",
+            "sub_county": 20,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 115,
+        "fields": {
+            "parish": "Nsambya Central",
+            "sub_county": 20,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 116,
+        "fields": {
+            "parish": "Nsambya Railways",
+            "sub_county": 20,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 117,
+        "fields": {
+            "parish": "Salaama",
+            "sub_county": 20,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 118,
+        "fields": {
+            "parish": "Banda",
+            "sub_county": 21,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 119,
+        "fields": {
+            "parish": "Bugolobi",
+            "sub_county": 21,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 121,
+        "fields": {
+            "parish": "Bukoto I",
+            "sub_county": 21,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 121,
+        "fields": {
+            "parish": "Bukoto II",
+            "sub_county": 21,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 122,
+        "fields": {
+            "parish": "Butabika",
+            "sub_county": 21,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 123,
+        "fields": {
+            "parish": "Itek",
+            "sub_county": 21,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 124,
+        "fields": {
+            "parish": "Kiswa",
+            "sub_county": 21,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 125,
+        "fields": {
+            "parish": "Kiwatule",
+            "sub_county": 21,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 126,
+        "fields": {
+            "parish": "Kyambogo",
+            "sub_county": 21,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 127,
+        "fields": {
+            "parish": "Kyanja",
+            "sub_county": 21,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 128,
+        "fields": {
+            "parish": "Luzira",
+            "sub_county": 21,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 129,
+        "fields": {
+            "parish": "Luzira Prisions",
+            "sub_county": 21,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 130,
+        "fields": {
+            "parish": "Mbuya I",
+            "sub_county": 21,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 131,
+        "fields": {
+            "parish": "Mbuya II",
+            "sub_county": 21,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 132,
+        "fields": {
+            "parish": "Mutungo",
+            "sub_county": 21,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 133,
+        "fields": {
+            "parish": "Nabisunsa",
+            "sub_county": 21,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 134,
+        "fields": {
+            "parish": "Naguru I",
+            "sub_county": 21,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 135,
+        "fields": {
+            "parish": "Naguru II",
+            "sub_county": 21,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 136,
+        "fields": {
+            "parish": "Nakawa",
+            "sub_county": 21,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 137,
+        "fields": {
+            "parish": "Nakawa Institutions",
+            "sub_county": 21,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 138,
+        "fields": {
+            "parish": "Ntinda",
+            "sub_county": 21,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 139,
+        "fields": {
+            "parish": "UPK",
+            "sub_county": 21,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 140,
+        "fields": {
+            "parish": "Upper Estate",
+            "sub_county": 21,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 141,
+        "fields": {
+            "parish": "Kasubi",
+            "sub_county": 22,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 142,
+        "fields": {
+            "parish": "Lubya",
+            "sub_county": 22,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 143,
+        "fields": {
+            "parish": "Lungujja",
+            "sub_county": 22,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 144,
+        "fields": {
+            "parish": "Nakulabye",
+            "sub_county": 22,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 145,
+        "fields": {
+            "parish": "Namirembe",
+            "sub_county": 22,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 146,
+        "fields": {
+            "parish": "Busega",
+            "sub_county": 23,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 147,
+        "fields": {
+            "parish": "Kabowa",
+            "sub_county": 23,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 148,
+        "fields": {
+            "parish": "Mutundwe",
+            "sub_county": 23,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 149,
+        "fields": {
+            "parish": "Najjanankumbi I",
+            "sub_county": 23,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 150,
+        "fields": {
+            "parish": "Najjanankumbi II",
+            "sub_county": 23,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 151,
+        "fields": {
+            "parish": "Nateete",
+            "sub_county": 23,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 152,
+        "fields": {
+            "parish": "Ndeeba",
+            "sub_county": 23,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 153,
+        "fields": {
+            "parish": "Rubaga",
+            "sub_county": 23,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 154,
+        "fields": {
+            "parish": "Buddo",
+            "sub_county": 24,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 155,
+        "fields": {
+            "parish": "Kasenge",
+            "sub_county": 24,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 156,
+        "fields": {
+            "parish": "Katereke",
+            "sub_county": 24,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 157,
+        "fields": {
+            "parish": "Kikajjo",
+            "sub_county": 24,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 158,
+        "fields": {
+            "parish": "Kisozi",
+            "sub_county": 24,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 159,
+        "fields": {
+            "parish": "Kyengera",
+            "sub_county": 24,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 160,
+        "fields": {
+            "parish": "Maya",
+            "sub_county": 24,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 161,
+        "fields": {
+            "parish": "Nabbingo",
+            "sub_county": 24,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 162,
+        "fields": {
+            "parish": "Nanziga",
+            "sub_county": 24,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 163,
+        "fields": {
+            "parish": "Nsangi",
+            "sub_county": 24,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 164,
+        "fields": {
+            "parish": "Baka",
+            "sub_county": 25,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 165,
+        "fields": {
+            "parish": "Bbanda",
+            "sub_county": 25,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 166,
+        "fields": {
+            "parish": "Kaliiti",
+            "sub_county": 25,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 167,
+        "fields": {
+            "parish": "Mende",
+            "sub_county": 25,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 168,
+        "fields": {
+            "parish": "Namusera",
+            "sub_county": 25,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 169,
+        "fields": {
+            "parish": "Bukasa",
+            "sub_county": 26,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 170,
+        "fields": {
+            "parish": "Buloba",
+            "sub_county": 26,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 171,
+        "fields": {
+            "parish": "Kyebando",
+            "sub_county": 26,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 172,
+        "fields": {
+            "parish": "Lukwanga",
+            "sub_county": 26,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 173,
+        "fields": {
+            "parish": "Nakabugo",
+            "sub_county": 26,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 174,
+        "fields": {
+            "parish": "Naluvule",
+            "sub_county": 26,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 175,
+        "fields": {
+            "parish": "Sumbwe",
+            "sub_county": 26,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 176,
+        "fields": {
+            "parish": "Gombe Ward",
+            "sub_county": 27,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 177,
+        "fields": {
+            "parish": "Kasengejje Ward",
+            "sub_county": 27,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 178,
+        "fields": {
+            "parish": "Kavumba Ward",
+            "sub_county": 27,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 179,
+        "fields": {
+            "parish": "Kisimbiri Ward",
+            "sub_county": 27,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 180,
+        "fields": {
+            "parish": "Mpunga Ward",
+            "sub_county": 27,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 181,
+        "fields": {
+            "parish": "Buwanuka",
+            "sub_county": 28,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 182,
+        "fields": {
+            "parish": "Kamuli",
+            "sub_county": 28,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 183,
+        "fields": {
+            "parish": "Kikandwa",
+            "sub_county": 28,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 184,
+        "fields": {
+            "parish": "Lubbe",
+            "sub_county": 28,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 185,
+        "fields": {
+            "parish": "Luwunga",
+            "sub_county": 28,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 186,
+        "fields": {
+            "parish": "Magoggo",
+            "sub_county": 28,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 187,
+        "fields": {
+            "parish": "Nampunge",
+            "sub_county": 28,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 188,
+        "fields": {
+            "parish": "Sentema",
+            "sub_county": 28,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 189,
+        "fields": {
+            "parish": "Bukalango Ward",
+            "sub_county": 29,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 190,
+        "fields": {
+            "parish": "Busujja Ward",
+            "sub_county": 29,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 191,
+        "fields": {
+            "parish": "Kakiri Ward",
+            "sub_county": 29,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 192,
+        "fields": {
+            "parish": "Lugeye Ward",
+            "sub_county": 29,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 193,
+        "fields": {
+            "parish": "Nakyerongosa Ward",
+            "sub_county": 29,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 194,
+        "fields": {
+            "parish": "Bbaale",
+            "sub_county": 30,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 195,
+        "fields": {
+            "parish": "Kyengeza",
+            "sub_county": 30,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 196,
+        "fields": {
+            "parish": "Lugungude",
+            "sub_county": 30,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 197,
+        "fields": {
+            "parish": "Lwemwedde",
+            "sub_county": 30,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 198,
+        "fields": {
+            "parish": "Mmanze",
+            "sub_county": 30,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 199,
+        "fields": {
+            "parish": "Nakikungube",
+            "sub_county": 30,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 200,
+        "fields": {
+            "parish": "Tumbaali",
+            "sub_county": 30,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 201,
+        "fields": {
+            "parish": "Bbika Ward",
+            "sub_county": 31,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 202,
+        "fields": {
+            "parish": "Kanzize Ward",
+            "sub_county": 31,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 203,
+        "fields": {
+            "parish": "Katikamu Ward",
+            "sub_county": 31,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 204,
+        "fields": {
+            "parish": "Masuliita Ward",
+            "sub_county": 31,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 205,
+        "fields": {
+            "parish": "Bbembe",
+            "sub_county": 32,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 206,
+        "fields": {
+            "parish": "Bukondo",
+            "sub_county": 32,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 207,
+        "fields": {
+            "parish": "Kanziro",
+            "sub_county": 32,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 208,
+        "fields": {
+            "parish": "Kitayita",
+            "sub_county": 32,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 209,
+        "fields": {
+            "parish": "Kyasa",
+            "sub_county": 32,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 210,
+        "fields": {
+            "parish": "Nakedde",
+            "sub_county": 32,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 211,
+        "fields": {
+            "parish": "Kyampisi Ward",
+            "sub_county": 33,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 212,
+        "fields": {
+            "parish": "Kyanuna Ward",
+            "sub_county": 33,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 213,
+        "fields": {
+            "parish": "Luguzi Ward",
+            "sub_county": 33,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 214,
+        "fields": {
+            "parish": "Balabala",
+            "sub_county": 34,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 215,
+        "fields": {
+            "parish": "Bussi/Kisaba",
+            "sub_county": 34,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 216,
+        "fields": {
+            "parish": "Gulwe",
+            "sub_county": 34,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 217,
+        "fields": {
+            "parish": "Tebankiza",
+            "sub_county": 34,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 218,
+        "fields": {
+            "parish": "Zzinga",
+            "sub_county": 34,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 219,
+        "fields": {
+            "parish": "Bulwanyi Ward",
+            "sub_county": 35,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 220,
+        "fields": {
+            "parish": "Bweya Ward",
+            "sub_county": 35,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 221,
+        "fields": {
+            "parish": "Kasuku Ward",
+            "sub_county": 35,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 222,
+        "fields": {
+            "parish": "Kitende Ward",
+            "sub_county": 35,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 223,
+        "fields": {
+            "parish": "Nakawuka Ward",
+            "sub_county": 35,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 224,
+        "fields": {
+            "parish": "Namulanda Ward",
+            "sub_county": 35,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 225,
+        "fields": {
+            "parish": "Nankonge Ward",
+            "sub_county": 35,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 226,
+        "fields": {
+            "parish": "Nkungulatale Ward",
+            "sub_county": 35,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 227,
+        "fields": {
+            "parish": "Nsangu Ward",
+            "sub_county": 35,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 228,
+        "fields": {
+            "parish": "Ssisa Ward",
+            "sub_county": 35,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 229,
+        "fields": {
+            "parish": "Wamala Ward",
+            "sub_county": 35,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 230,
+        "fields": {
+            "parish": "Bulumbu",
+            "sub_county": 36,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 231,
+        "fields": {
+            "parish": "Bulumbu",
+            "sub_county": 36,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 232,
+        "fields": {
+            "parish": "Jungo",
+            "sub_county": 36,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 233,
+        "fields": {
+            "parish": "Kasanje",
+            "sub_county": 36,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 234,
+        "fields": {
+            "parish": "Mako",
+            "sub_county": 36,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 235,
+        "fields": {
+            "parish": "Sokolo",
+            "sub_county": 36,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 236,
+        "fields": {
+            "parish": "Ssazi",
+            "sub_county": 36,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 237,
+        "fields": {
+            "parish": "Zziba",
+            "sub_county": 36,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 238,
+        "fields": {
+            "parish": "Kabaale",
+            "sub_county": 37,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 239,
+        "fields": {
+            "parish": "Kisubi",
+            "sub_county": 37,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 240,
+        "fields": {
+            "parish": "Kitala",
+            "sub_county": 37,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 241,
+        "fields": {
+            "parish": "Nalugala",
+            "sub_county": 37,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 242,
+        "fields": {
+            "parish": "Nkumba",
+            "sub_county": 37,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 243,
+        "fields": {
+            "parish": "Bulwanyi",
+            "sub_county": 38,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 244,
+        "fields": {
+            "parish": "Bweya",
+            "sub_county": 38,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 245,
+        "fields": {
+            "parish": "Nakawuka",
+            "sub_county": 38,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 246,
+        "fields": {
+            "parish": "Namulanda",
+            "sub_county": 38,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 247,
+        "fields": {
+            "parish": "Nankonge",
+            "sub_county": 38,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 248,
+        "fields": {
+            "parish": "Ngongolo",
+            "sub_county": 38,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 249,
+        "fields": {
+            "parish": "Nkungulutale",
+            "sub_county": 38,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 250,
+        "fields": {
+            "parish": "Nsaggu",
+            "sub_county": 38,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 251,
+        "fields": {
+            "parish": "Central",
+            "sub_county": 39,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 252,
+        "fields": {
+            "parish": "Katabi",
+            "sub_county": 39,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 253,
+        "fields": {
+            "parish": "Kigungu",
+            "sub_county": 40,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 254,
+        "fields": {
+            "parish": "Kiwafu",
+            "sub_county": 40,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 255,
+        "fields": {
+            "parish": "Bweyogerere Ward",
+            "sub_county": 41,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 256,
+        "fields": {
+            "parish": "Kirinya Ward",
+            "sub_county": 41,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 257,
+        "fields": {
+            "parish": "Kimwanyi Ward",
+            "sub_county": 42,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 258,
+        "fields": {
+            "parish": "Kira Ward",
+            "sub_county": 42,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 259,
+        "fields": {
+            "parish": "Kireka Ward",
+            "sub_county": 43,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 260,
+        "fields": {
+            "parish": "Kyaliwajjala Ward",
+            "sub_county": 43,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 261,
+        "fields": {
+            "parish": "Bulamu",
+            "sub_county": 44,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 262,
+        "fields": {
+            "parish": "Gayaza",
+            "sub_county": 44,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 263,
+        "fields": {
+            "parish": "Kabubbu",
+            "sub_county": 44,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 264,
+        "fields": {
+            "parish": "Katadde",
+            "sub_county": 44,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 265,
+        "fields": {
+            "parish": "Kiteezi",
+            "sub_county": 44,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 266,
+        "fields": {
+            "parish": "Masooli",
+            "sub_county": 44,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 267,
+        "fields": {
+            "parish": "Nangabo",
+            "sub_county": 44,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 268,
+        "fields": {
+            "parish": "Wampewo",
+            "sub_county": 44,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 269,
+        "fields": {
+            "parish": "Wattuba",
+            "sub_county": 44,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 270,
+        "fields": {
+            "parish": "Bunamwaya",
+            "sub_county": 45,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 271,
+        "fields": {
+            "parish": "Mutundwe",
+            "sub_county": 45,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 272,
+        "fields": {
+            "parish": "Busabala",
+            "sub_county": 46,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 273,
+        "fields": {
+            "parish": "Masajja",
+            "sub_county": 46,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 274,
+        "fields": {
+            "parish": "Namasuba",
+            "sub_county": 46,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 275,
+        "fields": {
+            "parish": "Mutungo",
+            "sub_county": 47,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 276,
+        "fields": {
+            "parish": "Ndejje",
+            "sub_county": 47,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 277,
+        "fields": {
+            "parish": "Seguku",
+            "sub_county": 47,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 278,
+        "fields": {
+            "parish": "Busukuma",
+            "sub_county": 48,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 279,
+        "fields": {
+            "parish": "Guluddene",
+            "sub_county": 48,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 280,
+        "fields": {
+            "parish": "Kikoko",
+            "sub_county": 48,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 281,
+        "fields": {
+            "parish": "Kiwenda",
+            "sub_county": 48,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 282,
+        "fields": {
+            "parish": "Lugo",
+            "sub_county": 48,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 283,
+        "fields": {
+            "parish": "Magigye",
+            "sub_county": 48,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 284,
+        "fields": {
+            "parish": "Wamirongo",
+            "sub_county": 48,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 285,
+        "fields": {
+            "parish": "Buwambo",
+            "sub_county": 49,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 286,
+        "fields": {
+            "parish": "Gombe",
+            "sub_county": 49,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 287,
+        "fields": {
+            "parish": "Jaggala",
+            "sub_county": 49,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 288,
+        "fields": {
+            "parish": "Kiryamuli",
+            "sub_county": 49,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 289,
+        "fields": {
+            "parish": "Matugga",
+            "sub_county": 49,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 290,
+        "fields": {
+            "parish": "Migadde",
+            "sub_county": 49,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 291,
+        "fields": {
+            "parish": "Mwererwe",
+            "sub_county": 49,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 292,
+        "fields": {
+            "parish": "Nasse",
+            "sub_county": 49,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 293,
+        "fields": {
+            "parish": "Ssanga",
+            "sub_county": 49,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 294,
+        "fields": {
+            "parish": "Tikalu",
+            "sub_county": 49,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 295,
+        "fields": {
+            "parish": "Wambale",
+            "sub_county": 49,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 296,
+        "fields": {
+            "parish": "Kawanda",
+            "sub_county": 50,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 297,
+        "fields": {
+            "parish": "Maganjo",
+            "sub_county": 50,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 298,
+        "fields": {
+            "parish": "Nakyesanja",
+            "sub_county": 50,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 299,
+        "fields": {
+            "parish": "Wamala",
+            "sub_county": 50,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 300,
+        "fields": {
+            "parish": "Kazo Ward",
+            "sub_county": 51,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 301,
+        "fields": {
+            "parish": "Nabweru North Ward",
+            "sub_county": 51,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 302,
+        "fields": {
+            "parish": "nabweru South Ward",
+            "sub_county": 51,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 303,
+        "fields": {
+            "parish": "Nansana 7/8 Ochieng Ward",
+            "sub_county": 51,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 304,
+        "fields": {
+            "parish": "Nansana East Ward",
+            "sub_county": 51,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 305,
+        "fields": {
+            "parish": "Nansana West Ward",
+            "sub_county": 51,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 306,
+        "fields": {
+            "parish": "Kazo Ward",
+            "sub_county": 51,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 307,
+        "fields": {
+            "parish": "Kazo Ward",
+            "sub_county": 51,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 308,
+        "fields": {
+            "parish": "Kazo Ward",
+            "sub_county": 51,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 309,
+        "fields": {
+            "parish": "Kazo Ward",
+            "sub_county": 51,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.parish",
+        "pk": 310,
+        "fields": {
+            "parish": "Kazo Ward",
+            "sub_county": 51,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+
+
+
+
+
+
+
+
+
+    
+
+    {
+        "model": "districts.location",
+        "pk": 1,
+        "fields": {
+            "latitude": 0.0,
+            "longitude": 0.0,
+            "parish": 1,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    },
+    {
+        "model": "districts.location",
+        "pk": 2,
+        "fields": {
+            "latitude": 1.0,
+            "longitude": 1.0,
+            "parish": 2,
+            "created_at": "2023-04-26T13:13:00.000000Z",
+            "updated_at": "2023-04-26T13:13:00.000000Z"
+        }
+    }
+]
