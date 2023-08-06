@@ -1,0 +1,45 @@
+name: Auto Release
+
+on:
+  pull_request:
+    types:
+      - closed
+    branches:
+      - main
+      - extension
+
+jobs:
+  auto-release:
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.merged == true && contains(github.event.pull_request.labels.*.name, 'release')
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.11
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install setuptools_scm
+
+    - name: Get the version
+      id: get_version
+      run: echo ::set-output name=VERSION::$(python -c "import setuptools_scm; print(setuptools_scm.get_version().split('+')[0])")
+
+    - name: Create Release
+      id: create_release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+      with:
+        tag_name: v${{ steps.get_version.outputs.VERSION }}
+        release_name: Release v${{ steps.get_version.outputs.VERSION }}
+        body: Auto-generated release for version v${{ steps.get_version.outputs.VERSION }}.
+        draft: false
+        prerelease: false
