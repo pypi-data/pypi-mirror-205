@@ -1,0 +1,10 @@
+LICENSE.txt,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+README.md,sha256=3oTR5Ks9AL09pgC8YId0aq2PHMDB3TnxWDDTTiFuQwg,1342
+awesome_object_store/__init__.py,sha256=bqc6KLtn_vYPxjNqkU_S8X4kKx3wrsqqomeB1xRZvcc,757
+awesome_object_store/base.py,sha256=ZpaiCCxTat7bMT4q2JF-Wf803wqjIzJpiEici6It2tQ,3816
+awesome_object_store/gcs.py,sha256=K_h2OELQI-GPxRf9M337hPRP5Wnm2iUJRE947bHhrqw,5328
+awesome_object_store/minio.py,sha256=JHJZByATy3IlU8UjtZJZqvG7dMuKl6tSjecj25bltgs,5349
+awesome_object_store-2.2.1.dist-info/LICENSE.txt,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+awesome_object_store-2.2.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+awesome_object_store-2.2.1.dist-info/METADATA,sha256=pMZVJNBrZ7My71UK9G9XIJ9AgxTwlRH7FrK61evddjw,2659
+awesome_object_store-2.2.1.dist-info/RECORD,,
