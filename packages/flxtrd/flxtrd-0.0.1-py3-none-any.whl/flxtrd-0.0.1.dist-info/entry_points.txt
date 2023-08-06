@@ -1,0 +1,3 @@
+[console_scripts]
+gflex-trading-bot=gflex.client:main
+
