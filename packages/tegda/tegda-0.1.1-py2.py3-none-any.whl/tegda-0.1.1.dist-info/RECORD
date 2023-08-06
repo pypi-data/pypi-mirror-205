@@ -1,0 +1,11 @@
+tegda/__init__.py,sha256=Df8ehYgJkxUVN1DWwNPOlmUMFJVwneNAvbJRRPsZs-w,384
+tegda/cli.py,sha256=iOQdNnuijuOdbIsBkjqOd_IeGLX7EDVUTVqafc4Hc-M,393
+tegda/tegda.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+tegda/utils.py,sha256=lqTQtXuS_OSoHlDvZJAvtWAJLsqVuOzCUWsPD60OFZI,1365
+tegda-0.1.1.dist-info/AUTHORS.rst,sha256=vCFK5RgTnE3rSjZTUInlWUP_KrjzelpO3A9xkPkTELI,171
+tegda-0.1.1.dist-info/LICENSE,sha256=knI6hcV_jxczhQKl3jA8y9IzCy0gsrCFfX-xa2n6iYQ,6131
+tegda-0.1.1.dist-info/METADATA,sha256=kw3YwTlF-oD8kpqAYLF-Z2RDk3cKvj_1bxaHs3T6B14,1958
+tegda-0.1.1.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+tegda-0.1.1.dist-info/entry_points.txt,sha256=jNbS2GOe2qKotu1YlTG6qT8wFa1zIMiN_9ml9mCo-ys,42
+tegda-0.1.1.dist-info/top_level.txt,sha256=H4kjh19z1tJ2HNis3doc9tD5B68UDxAvPttzE7UPfBY,6
+tegda-0.1.1.dist-info/RECORD,,
