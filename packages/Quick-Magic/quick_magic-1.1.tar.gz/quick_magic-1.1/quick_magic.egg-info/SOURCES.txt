@@ -1,0 +1,13 @@
+README.md
+setup.py
+Quick_Magic/__init__.py
+Quick_Magic/__main__.py
+Quick_Magic/check.py
+Quick_Magic/commands.py
+Quick_Magic/features.py
+Quick_Magic/update_list.py
+quick_magic.egg-info/PKG-INFO
+quick_magic.egg-info/SOURCES.txt
+quick_magic.egg-info/dependency_links.txt
+quick_magic.egg-info/requires.txt
+quick_magic.egg-info/top_level.txt
