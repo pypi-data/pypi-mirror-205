@@ -1,0 +1,12 @@
+easqlite/__init__.py,sha256=slZJv1hzrLaAh_zMmCgdDh49rx1Hxf_xaHR1cXfvXhw,151
+easqlite/_blob.py,sha256=aMK6DyOAj1iT7Y5wFU1rd7Xx8mDP3XHyuZ49QPT705w,3149
+easqlite/_connection.py,sha256=58w6PanYJTiXt2pRN1MynN4ktwjUYaWS360gs15DGeE,11260
+easqlite/_cursor.py,sha256=0yXfzFxbzLxefwWxSXkS30y92AzFPTkFssmhiWmQB58,4402
+easqlite/_global.py,sha256=G8JBPfBWIur4e7yFFFrzvFnn9le59-eGK6NyjsEYgc4,1752
+easqlite/_types.py,sha256=VWhgz689dHHLf2rmtgh2OK5A2zdlVACe_PHSR8Mqsi8,280
+easqlite/_util.py,sha256=JJt4FRDt_Ex8_sEW7aUAK8LJ76HSkBbnse-FMbA8uF0,1911
+easqlite/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+easqlite-0.0.1.dist-info/LICENSE,sha256=RHsPLJeiyOUOKD5dukQYZCLOGtAIPiksJXGC4KaKQ7Q,1077
+easqlite-0.0.1.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+easqlite-0.0.1.dist-info/METADATA,sha256=DJ6DC8Wk3YgaVebexKjLdm1xKHKcbGz27Ax45QQ9Hc4,3251
+easqlite-0.0.1.dist-info/RECORD,,
