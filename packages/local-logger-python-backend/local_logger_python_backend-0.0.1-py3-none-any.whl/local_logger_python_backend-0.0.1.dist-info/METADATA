@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: local-logger-python-backend
+Version: 0.0.1
+Summary: A small local logger python package for writing the logger table
+Home-page: https://github.com/circles-zone/local-logger-python-backend
+Author: Circles
+Author-email: circles-zone <info@circles.zone>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: mysql.connector.pooling
+
+# python-backend-template
