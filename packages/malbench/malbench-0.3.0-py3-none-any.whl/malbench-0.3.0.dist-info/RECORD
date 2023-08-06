@@ -1,0 +1,14 @@
+data/banner.txt,sha256=x0HN3K8faOMAyO-QNpsgyZkgp_wuY-HzKygJCd23QZ8,545
+data/disclaimer.txt,sha256=4fFBhWArihoAKft_IAR0Z_ua7GB0C6_LHCicDUB__PI,508
+data/version.txt,sha256=VQYTU3_EiPOzcq90pAAYefASyEZbgW8bhcbTRGss-0k,5
+malbench/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+malbench/__main__.py,sha256=RXiRRlJZUbhL6-gMQRHoFDY3gTPmJOmWtXcJ2-rzlW8,2905
+malbench/args.py,sha256=f0yhhgQmG5x6oA8cavXbCG4KoYtUpPfpviDZQR0_s-o,4941
+malbench/malware.py,sha256=v_8kamYP3Z9tGolxrY0trR38GJhmmPACB6GW-vFIRQk,4830
+malbench/message.py,sha256=Uc7UG_XN9osMDa5mlL8y0Mq3tfoI8cQHroEldBoRaR4,8362
+malbench/version.py,sha256=Di9lN0pl-EFEPAU6LXMrhYjcoamLOutrW8pQfxt54Y8,435
+malbench-0.3.0.dist-info/entry_points.txt,sha256=_S0kFUM8TACHW7l4QdY4Iugy51Iig04DELQVQYK4TXk,51
+malbench-0.3.0.dist-info/LICENSE.md,sha256=oHGdT9X_4r5h6Jkg7tbtWBkFClqM6XOxRkqnBORzwOY,35803
+malbench-0.3.0.dist-info/METADATA,sha256=DLLJHjsyMS2YdcGl-s5jkB37CUVWUHPWFs8NvU4AeRM,7480
+malbench-0.3.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+malbench-0.3.0.dist-info/RECORD,,
