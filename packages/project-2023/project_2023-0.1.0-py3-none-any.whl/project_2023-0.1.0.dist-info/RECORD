@@ -1,0 +1,13 @@
+project_progress/__init__.py,sha256=R9F6LYxEm0y2Qsyop6xQYZ6FNm62UlaORTA1-3k9lhY,500
+project_progress/email_sending.py,sha256=xz6ARr2Mx-A6tDncvr5RHo4ucWKMkd7Cx0vMqE39wrc,1160
+project_progress/file_attachment.py,sha256=63j6Tu_EtBxDgpN2srqLvaxO0bZA5yWQ-XrR9yYfOf4,1360
+project_progress/reading_email_content.py,sha256=XKWVsPKGowbp7pC67iU7oKSgETB_GMyE7eNfeNFlkKw,1804
+project_progress/reading_email_title.py,sha256=bevfNhGlavY7RnD8O_t8xAjt9VoKbvHFG6ZPUh5xibs,1320
+project_progress/send_notification.py,sha256=z-lYhxFK3nwJEVmP4NMHxwyUHhfDM9Mk_jrWSYpHP3w,1426
+project_progress/slack_bot.py,sha256=fNFwjj6Ovp8WT4J8CaYbrAbywH9Vu2PsUwjqj2FMVAc,513
+project_progress/tests/test_all.py,sha256=PAOxp9eVLTifM6zz5sxCBDcDZnpNHQwnkxZzquuS0Ys,2979
+project_2023-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+project_2023-0.1.0.dist-info/METADATA,sha256=RF36698zFjvrSekhmxnRtmBq4yV27YFvvIsr7FugtMs,16388
+project_2023-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+project_2023-0.1.0.dist-info/top_level.txt,sha256=Q0--hasWtnZhqV8d6AJWHy7gIeRrX4GRXPkee8hIO7s,17
+project_2023-0.1.0.dist-info/RECORD,,
