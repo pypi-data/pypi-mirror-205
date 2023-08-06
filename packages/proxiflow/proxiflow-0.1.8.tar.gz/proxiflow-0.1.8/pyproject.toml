@@ -1,0 +1,76 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "proxiflow"
+version = "0.1.8"
+description = "Data Preprocessing flow tool in python"
+authors = [
+  {name="Martin Tomes", email= "tomesm@gmail.com"},
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+  "Development Status :: 1 - Planning",
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "Operating System :: POSIX :: Linux",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: 3.11",
+  "Topic :: Scientific/Engineering",
+]
+dependencies = [
+  "polars",
+  "numpy",
+  "click",
+  "pyaml",
+  "scipy",
+  "scikit-learn"
+]
+# dynamic = ["version"]
+
+[project.scripts]
+proxiflow = "proxiflow.cli:__main__"
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "pytype",
+    "ruff",
+    "pytest",
+    "mypy",
+    "build"
+]
+docs = [
+    "sphinx-rtd-theme>=1.2.0",
+    "sphinx",
+]
+
+
+[project.urls]
+"Repository" = "https://github.com/tomesm/proxiflow"
+"Documentation" = "http://proxiflow.readthedocs.io"
+"Bug Tracker" = "https://github.com/tomesm/proxiflow/issues"
+
+[tool.setuptools.packages]
+find = {}
+
+[tool.black]
+line-length = 120
+extend-ignore = "E203"
+
+[tool.ruff]
+select = ["E", "F"]
+line-length = 120
+
+[tool.mypy]
+disallow_untyped_defs = true
+disallow_any_unimported = true
+no_implicit_optional = true
+check_untyped_defs = true
+warn_return_any = true
+warn_unused_ignores = true
+show_error_codes = true
