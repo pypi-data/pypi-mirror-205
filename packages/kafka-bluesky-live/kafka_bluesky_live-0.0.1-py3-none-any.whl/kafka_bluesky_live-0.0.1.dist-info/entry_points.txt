@@ -1,0 +1,2 @@
+[console_scripts]
+kbl = kafka_bluesky_live.scripts.live_view_caller:main
