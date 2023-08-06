@@ -1,0 +1,2 @@
+class RoombaConnectionError(Exception):
+    pass
