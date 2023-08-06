@@ -1,0 +1,11 @@
+pydantic
+openai
+anthropic
+requests
+httpx
+aiohttp
+tokenizers
+pandas
+openpyxl
+tabulate
+XlsxWriter
