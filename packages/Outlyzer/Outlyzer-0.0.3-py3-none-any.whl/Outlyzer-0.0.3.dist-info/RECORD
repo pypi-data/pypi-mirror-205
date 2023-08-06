@@ -1,0 +1,11 @@
+Outlyzer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Outlyzer/iqr.py,sha256=r_5_ZlLyV1Xh1BnzmBFHhW5RNrkBb6-wXkWpsYqe1Jw,831
+Outlyzer/least_squares.py,sha256=x3QifpUWUvv93qh1c-tQhdqfH332ItcWxyGtLypJrKw,730
+Outlyzer/probabilistic.py,sha256=Z_qFg5PvuUqp_AMUnD7S3l5p1WSw9xnCoJdSU_mW_X0,641
+Outlyzer/visual.py,sha256=ytqmHpD-hyvkMQK1XLB_OtXZigD1i-luie-msZbXlBs,988
+Outlyzer/zscore.py,sha256=TiIYuwB_W7bDgU8SVusaYcA7E8uk1ULyptpI3g46-zM,644
+Outlyzer-0.0.3.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+Outlyzer-0.0.3.dist-info/METADATA,sha256=s2XMwyqVMCpcnf_zEAbmxsBoK8qMVWurNNhbp0RxJE4,1623
+Outlyzer-0.0.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+Outlyzer-0.0.3.dist-info/top_level.txt,sha256=ysnCCOi21nseIJQzX4g3ABcNADmi5hAD79uig3FBom8,9
+Outlyzer-0.0.3.dist-info/RECORD,,
