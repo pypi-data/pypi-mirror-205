@@ -1,0 +1,6 @@
+autora-core
+
+[dev]
+autora-core[dev]
+autora-workflow
+scikit-learn
