@@ -1,0 +1,7 @@
+squashy/__init__.py,sha256=hQIN7DwaB8MsftHIJYeOHwOTrwMB-LH_JlIY4CKmSoY,101
+squashy/agglomeration.py,sha256=QjdkW1Q39PpXR72qV1vjXPIp2DfYJ8GK7rcuNPiEI1U,12907
+squashy/decomposition.py,sha256=jaUeZz2lGlCUT_nKJsEE9jf0E2AitK_deTBHY0Z-7oA,6274
+squashy/metrics.py,sha256=d_9MpwO-l4mH9RJZ2nHVpsJA433dS3i0KHkR-hdrdoE,3469
+squashy-0.1.1.dist-info/METADATA,sha256=6YasscEUG_m0SbXMEVWkMG2TlQRDrdXwnOdaCOslocY,1611
+squashy-0.1.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+squashy-0.1.1.dist-info/RECORD,,
