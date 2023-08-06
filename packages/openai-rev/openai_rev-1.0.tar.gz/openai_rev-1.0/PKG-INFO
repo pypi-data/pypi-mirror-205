@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: openai_rev
+Version: 1.0
+Summary: making music with OpenAI (GPT-4)
+Author: bobbill
+License: Unlicense
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# openai_rev (short for OpenAI Reverbs)
+
+- functions to make music generated entired using GPT-4
+- more functions will be added
+- told GPT-4 to express itself and this is what it made, so think of the music made by these functions as expressions of GPT-4
