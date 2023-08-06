@@ -1,0 +1,14 @@
+ssbh_data_py-0.8.0.dist-info/METADATA,sha256=oic_20nAQYOWtMJdcQ83mQg88i-BxvJZ79ex8of46b8,78
+ssbh_data_py-0.8.0.dist-info/WHEEL,sha256=L98fCWQzY8AHUKCt5LhJCDWVrTp_lzcRP08bVdZXElw,110
+ssbh_data_py/adj_data.pyi,sha256=RirZuPFGNOUPtQImxDWG6xp-o8mGg-FEJe1AXJXXG1k,642
+ssbh_data_py/anim_data.pyi,sha256=V2Jn7z-GInAegwr8aRA1C6iZqhIai8dJEoOzD7e3OQc,2627
+ssbh_data_py/hlpb_data.pyi,sha256=mlME49-LZnF9tNKOdOPGf3g9K8WoCJSb9IrEgWjStT4,2092
+ssbh_data_py/skel_data.pyi,sha256=nNG7L5yOwmBA7zv5zdNk55mEQtp-SRnFxefQIr3qttg,1580
+ssbh_data_py/matl_data.pyi,sha256=2w53i9Z1jYjgQ49gHj3u4cxW75JdyrR5AgSB2H5r3qM,19612
+ssbh_data_py/meshex_data.pyi,sha256=hzyDzhdTQVB25EAxhkp3rUBnJcF5zV76m96GonluSB0,1160
+ssbh_data_py/__init__.pyi,sha256=-4AtWE6xLe4XWEfLZpV8BbqEkJFhgJbBA8RZYPtZp70,201
+ssbh_data_py/mesh_data.pyi,sha256=_SoLX9R-Y1wo4eBranVuLRynr7FTqcXdxnSen8i8UsA,2604
+ssbh_data_py/__init__.py,sha256=IBKvTWlMlCF7oXobagQcI2GPsa-S-4DjgbjlvoOchLA,27
+ssbh_data_py/modl_data.pyi,sha256=IuLxDQL4d4wdPSu9qgK4jKt5XvUjbYNZGEunYWobEZM,854
+ssbh_data_py/ssbh_data_py.cpython-310-x86_64-linux-gnu.so,sha256=WTWnDokhZBK4N_O0I5Xgr10u32erSqTdUxAIReYKMwU,2683568
+ssbh_data_py-0.8.0.dist-info/RECORD,,
