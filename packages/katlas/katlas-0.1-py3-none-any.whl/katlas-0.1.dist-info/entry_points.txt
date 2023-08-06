@@ -1,0 +1,2 @@
+[console_scripts]
+katlas = katlas.cli:main
