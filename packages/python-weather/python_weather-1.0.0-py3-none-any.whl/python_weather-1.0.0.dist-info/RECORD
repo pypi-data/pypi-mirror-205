@@ -1,0 +1,12 @@
+python_weather/__init__.py,sha256=YOIqICWZDSr4tcTMno1nVQDegxwa9UPNmAYt0DpHsss,1503
+python_weather/base.py,sha256=TyVN26ymyh_sZossGwMvnW9E5S3rMnaFqO2j2wQ8aq8,5663
+python_weather/client.py,sha256=klzes_5qrpzSn0iCozbJGGHfB1DAqyby120TjP7HXcg,5697
+python_weather/constants.py,sha256=JbLstrhKF_kfH2Dkff6u1vGVo-_bPhWmX4ydhO9CSyE,1313
+python_weather/enums.py,sha256=r_Zn-XR32SO4fTlIWPlqOnHuwNh0YA5ch7J2NZAEuE0,10164
+python_weather/errors.py,sha256=506LFIxTNLp25vWSAM1NvFPrq8nCKxO7Xr_ZTkaDzQU,1262
+python_weather/forecast.py,sha256=JCpE-g45woLlCEJIl8zWpVJvUtUc6bOsf9LRQSwwSt8,12805
+python_weather-1.0.0.dist-info/LICENSE,sha256=z-ECxiSBd6Ebqj5ds_GdvXW-xBaVFuUkOvCX5USThZg,1106
+python_weather-1.0.0.dist-info/METADATA,sha256=cejuHxxuICRWAO5gbLnCLwBixf-FXLzwF7Eo7NRqjeY,3794
+python_weather-1.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+python_weather-1.0.0.dist-info/top_level.txt,sha256=NDqLSO3dHB1tjjiNJfEg-a9_eoOmawAZynZsy9Yu48w,15
+python_weather-1.0.0.dist-info/RECORD,,
