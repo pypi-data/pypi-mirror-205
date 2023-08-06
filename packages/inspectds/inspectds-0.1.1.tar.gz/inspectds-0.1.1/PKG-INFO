@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: inspectds
+Version: 0.1.1
+Summary: 
+Author: Panos Mavrogiorgos
+Author-email: pmav99@gmail.com
+Requires-Python: >=3.9
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: grib
+Requires-Dist: cfgrib (>=0.9) ; extra == "grib"
+Requires-Dist: netcdf4
+Requires-Dist: typer
+Requires-Dist: xarray
+Requires-Dist: zarr (>=2.8)
