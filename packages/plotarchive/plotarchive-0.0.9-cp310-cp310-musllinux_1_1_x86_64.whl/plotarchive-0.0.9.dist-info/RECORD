@@ -1,0 +1,16 @@
+plotarchive/__init__.py,sha256=gGtI3DcmmD0CyjOizHVJHyZfF-TeoP0xzMFaM3M4nFQ,68
+plotarchive/src/archive.py,sha256=638EXuPyNPDdkCOEZkVPUb8-GC5uCCqvgXh-VyAYCDo,1307
+plotarchive/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+plotarchive/src/__init__.cpython-310-x86_64-linux-gnu.so,sha256=Kv5qnTwJoIa84wBIZfIqg1YWgA8jNUylSGfPRisnPKs,67328
+plotarchive/src/test.py,sha256=e9Xy9oUE5ics4buulJtoC_tG5HBb0mxiH0u03Wajz2A,76
+plotarchive/src/archive.cpython-310-x86_64-linux-gnu.so,sha256=9a-FNqMOEu2orcnlMpBTj3ik0YIWW5e1uSM2Swz4xy0,355272
+plotarchive/src/files.cpython-310-x86_64-linux-gnu.so,sha256=npgohulnSE3y2EevmzjRqVQbDTMp1pGKPY18QPJDAJQ,450832
+plotarchive/src/test.cpython-310-x86_64-linux-gnu.so,sha256=LPhmGKaR7dPyJzU3WDFYKWllkXlEZ21JXrRN8MkZO2Y,90208
+plotarchive/src/unarchive.cpython-310-x86_64-linux-gnu.so,sha256=REO6E6vIjKtpf2cWSzxCD3fVGC9K0_sdQlNdjtyPBZ0,206568
+plotarchive/src/files.py,sha256=px2GuAJeGBcNgCQpQwtbI3SdJBkTRLWYckjZYf2_5qY,1182
+plotarchive/src/unarchive.py,sha256=I5zxSqeehYony3cVWP-mJATz0IGIZzozKyTMVevOZVQ,337
+plotarchive-0.0.9.dist-info/RECORD,,
+plotarchive-0.0.9.dist-info/METADATA,sha256=Yx_xfUFU-r0oJHZbbAxWSLWhJ9Eu6eTg0jMqAlj1x6U,1298
+plotarchive-0.0.9.dist-info/LICENSE,sha256=eGB-OyVwVr0OzlyMgptOTAOD0vPwMtGABRW05jLYlaA,1065
+plotarchive-0.0.9.dist-info/top_level.txt,sha256=13vFIz_vy9KB9oJvj-e9nitVCnmHpZLoGm5JWvW-bgo,12
+plotarchive-0.0.9.dist-info/WHEEL,sha256=kP5iU3R6mT7t5J52tTplGZgHu_6osn1zKFuzyiW5OyY,113
