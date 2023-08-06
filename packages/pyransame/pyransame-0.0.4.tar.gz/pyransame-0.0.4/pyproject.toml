@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+dynamic = ["version"]
+name = "pyransame"
+requires-python = ">=3.8"
+dependencies = [
+    "pyvista",
+    "numpy",
+]
+description = "My package description"
+readme = {file = "README.md", content-type = "text/markdown"}
+keywords = ["one", "two"]
+license = {text = "MIT License"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+authors = [
+  {name = "Matthew Flamm", email = "matthewhflamm0@gmail.com"}
+]
+
+[tool.setuptools_scm]
+write_to = "src/pyransame/_version.py"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+namespaces = false
+
+[tool.isort]
+profile = "black"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
