@@ -1,0 +1,8 @@
+setup.py
+cloudkit_worker.egg-info/PKG-INFO
+cloudkit_worker.egg-info/SOURCES.txt
+cloudkit_worker.egg-info/dependency_links.txt
+cloudkit_worker.egg-info/requires.txt
+cloudkit_worker.egg-info/top_level.txt
+cloudworker/__init__.py
+cloudworker/worker.py
