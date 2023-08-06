@@ -1,0 +1,3 @@
+[console_scripts]
+func-gen=func_gen:main
+

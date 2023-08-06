@@ -1,0 +1,6 @@
+func_gen/__init__.py,sha256=XuZ8muYN0WizRXQcmhvTaW50b7LBOCblEb8vIW3n4xQ,3086
+func_gen/eval.wasm,sha256=v-4SWRgUGz9pM2_j5EQdTtU0KjKZwtdi3ronGl27Z9o,958069
+extism_func_gen-0.2.0.dist-info/METADATA,sha256=wC91xlXxtFVUzgk_MXfUMKEpnf8goVVi_h4Pu5od6w8,1216
+extism_func_gen-0.2.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+extism_func_gen-0.2.0.dist-info/entry_points.txt,sha256=b07puxq0CXlafq89szWNcp4Z3h7MAl0Ye9ITHpfPYX0,42
+extism_func_gen-0.2.0.dist-info/RECORD,,
