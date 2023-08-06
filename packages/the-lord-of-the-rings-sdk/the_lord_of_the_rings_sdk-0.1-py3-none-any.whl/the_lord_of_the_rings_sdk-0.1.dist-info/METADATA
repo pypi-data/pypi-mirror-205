@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: the-lord-of-the-rings-sdk
+Version: 0.1
+Summary: Liblab technical assessment
+Home-page: https://github.com/danilredko/liblab-test
+Author: Danil Redko
+Author-email: dredko@outlook.com
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests (==2.28.2)
+
