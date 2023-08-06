@@ -1,0 +1,87 @@
+[tool.pdm.dev-dependencies]
+dev = [
+    "crackerjack>=0.1.7",
+    "pre-commit>=3.2.2",
+]
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+fix = true
+show-fixes = true
+show-source = true
+
+[tool.ruff.isort]
+force-single-line = true
+
+[tool.ruff.mccabe]
+max-complexity = 10
+
+[tool.ruff.pydocstyle]
+convention = "google"
+
+[tool.black]
+target-version = [
+    "py311",
+]
+
+[tool.mypy]
+strict = true
+pretty = true
+
+[tool.refurb]
+enable_all = true
+
+[tool.pytype]
+inputs = [
+    "package_name",
+]
+
+[project]
+name = "schemaorg-lite"
+version = "0.1.2"
+description = "Python functions for applied use of schema.org"
+dependencies = [
+    "loguru>=0.7.0",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+keywords = [
+    "openschemas",
+    "schema.org",
+]
+classifiers = [
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+    "Operating System :: Unix",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development",
+]
+authors = [
+    { name = "Vanessa Sochat", email = "vsoch@users.noreply.github.com" },
+    { name = "lesleslie", email = "les@wedgwoodwebworks.com" },
+]
+maintainers = [
+    { name = "lesleslie", email = "les@wedgwoodwebworks.com" },
+    { name = "Vanessa Sochat", email = "vsoch@users.noreply.github.com" },
+]
+
+[project.license]
+text = "BSD-3-Clause"
+
+[project.urls]
+Homepage = "https://github.com/lesleslie/schemaorg-lite"
+Documentation = "https://github.com/lesleslie/schemaorg-lite"
+Repository = "https://github.com/lesleslie/schemaorg-lite"
+
+[project.scripts]
+
+[project.entry-points]
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
