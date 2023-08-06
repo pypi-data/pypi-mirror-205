@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: fischer
+Version: 0.1.0
+Summary: MDLS建模
+Home-page: https://github.com/Fischer-pixel/MDLS
+Author: Fischer-pixel
+License: MIT Licence
+Platform: any
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+
+MDLS建模
