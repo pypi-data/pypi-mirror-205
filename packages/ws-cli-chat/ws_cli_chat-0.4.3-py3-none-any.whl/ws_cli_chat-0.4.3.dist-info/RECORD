@@ -1,0 +1,11 @@
+ws_cli_chat/__init__.py,sha256=IlbHDF5fJWV-aisXkBMEp8r4ofClaBB5siagETR3Zlw,43
+ws_cli_chat/ascii_arts.py,sha256=3LPsCk02sG6n3lmmqr05V_sxXgobrymxbi9-w5TAHuE,6568
+ws_cli_chat/cli_chat.py,sha256=L6qmGtZQbmJqMx3hEf-v_7B0PjC_L10Vq1GMvOs8eQ0,3362
+ws_cli_chat/code_window.py,sha256=_qO5W685UKSXZHwvhGJ6WnoCHk1zEjpJn1CG9ia43N8,668
+ws_cli_chat/comands.py,sha256=RQWP09CinJGQ04yGGGF9KL5ghC8C4ppVa4kjmpLTVuM,1213
+ws_cli_chat/myconsole.py,sha256=6GjqCkIxg6zobjEGNMK544eF-S_HtenG16cybWByF3A,2858
+ws_cli_chat/render.py,sha256=eTMvjzM7ORA7y-Nfp7XzxlALfm9VRfaB6UpwBR3TzRg,775
+ws_cli_chat-0.4.3.dist-info/entry_points.txt,sha256=QCewCFNQxzfPYxQgGWymsdbhjvLNMhRSA-Shqw4COY0,49
+ws_cli_chat-0.4.3.dist-info/METADATA,sha256=U1sPuVvfH_-vfE2-PAa9aRiQuZcX3WvX0j0r7xTopTA,2146
+ws_cli_chat-0.4.3.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+ws_cli_chat-0.4.3.dist-info/RECORD,,
