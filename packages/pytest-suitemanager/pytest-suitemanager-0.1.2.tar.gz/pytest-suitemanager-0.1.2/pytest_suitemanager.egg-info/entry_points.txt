@@ -1,0 +1,3 @@
+[pytest11]
+suitemanager = pytest_suitemanager
+
