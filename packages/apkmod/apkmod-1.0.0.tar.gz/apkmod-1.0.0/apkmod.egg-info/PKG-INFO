@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: apkmod
+Version: 1.0.0
+Summary: Apk frida-gadget injector script
+Home-page: https://github.com/mon231/apkpatcher/
+Author: Ariel Tubul
+License-File: LICENSE
