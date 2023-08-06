@@ -1,0 +1,13 @@
+tof/__init__.py,sha256=txBYJOJ9ZyFSFaVlhjzHA9GJrz3ESK-DjIH_m7GnMjo,239
+tof/chopper.py,sha256=60MoFE3hDJ2c3ygEUEHxlB7W428J1LEXvNeT2KwhnFI,1341
+tof/component.py,sha256=ccG8evAU99V6G_OgeUxV419O8tJMuy7Asdb901omxFk,3384
+tof/detector.py,sha256=NvYyYTq_Bmo23zeg3KSuYnGErmTGl6pplQN7e__-xFc,457
+tof/facilities.py,sha256=CuSbfGyyB9K1Y6dR0pH7cc3cTGkgr4nv0pvbAP9Xis4,21215
+tof/model.py,sha256=TVhwoYjBNLeJvNGRSP3zb9AOqMJkljPNv6_C1tcKSOs,7020
+tof/pulse.py,sha256=MImVnAqNmAH5AiIWUzEbkDTgZ4FFE2L-PM_WiAIYWeE,3678
+tof/utils.py,sha256=Uoz-Pj_EtuwKM4tmHT-IL9U_R9JLBvWXIiuwU39dQDk,662
+tof-23.4.0.dist-info/LICENSE,sha256=JRzWrOfjgkw3AjOfolQo6jEwJN0tRESp9_4_6sKo5F4,1492
+tof-23.4.0.dist-info/METADATA,sha256=H0Jtm2Cy7s-3fxt7MqcchGQsFI0FXSyKhVxFCGe_aco,3237
+tof-23.4.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+tof-23.4.0.dist-info/top_level.txt,sha256=upC1MXnvAXCRxDTFs6kb8_Gfc-3IajmdcTWTosPJdBY,4
+tof-23.4.0.dist-info/RECORD,,
