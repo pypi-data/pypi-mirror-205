@@ -1,0 +1,6 @@
+[console_scripts]
+prysk=prysk:main
+
+[pytest11]
+prysk=pytest_prysk
+
