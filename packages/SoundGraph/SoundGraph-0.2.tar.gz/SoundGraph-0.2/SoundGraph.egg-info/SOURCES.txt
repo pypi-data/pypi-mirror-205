@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+SoundGraph.egg-info/PKG-INFO
+SoundGraph.egg-info/SOURCES.txt
+SoundGraph.egg-info/dependency_links.txt
+SoundGraph.egg-info/entry_points.txt
+SoundGraph.egg-info/requires.txt
+SoundGraph.egg-info/top_level.txt
