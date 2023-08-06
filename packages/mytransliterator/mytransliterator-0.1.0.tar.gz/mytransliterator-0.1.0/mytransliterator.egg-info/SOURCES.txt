@@ -1,0 +1,7 @@
+README.md
+setup.py
+mytransliterator.egg-info/PKG-INFO
+mytransliterator.egg-info/SOURCES.txt
+mytransliterator.egg-info/dependency_links.txt
+mytransliterator.egg-info/requires.txt
+mytransliterator.egg-info/top_level.txt
