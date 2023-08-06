@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: sqlite-sync
+Version: 0.0.7
+Summary: SQLite3 wrapper for query synchronization
+Home-page: https://github.com/RobertMeow/sqlite_sync
+Author: Robert Popov
+Author-email: robert@berht.dev
+
+SQLite3 is a lightweight embeddable database that is widely used in various projects. However, using SQLite3 multithreaded can lead to unexpected results such as data loss, blocking, recursive errors.
+
+Our library solves this problem by providing a solution for SQLite3 multithreading. We provide an improved interface that allows database relationships to be used from different connections, thus avoiding locking the database and ensuring data integrity.
+
+The library provides a simple and clear API that allows you to quickly and easily create and manipulate various UDP socket connections.
+
+Our features, such as SQLite3 concurrency, great performance, and a simple API, allow developers to interact with their database more conveniently and quickly. Our goal is to help developers build efficient and stable systems using SQLite3.
