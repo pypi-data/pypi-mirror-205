@@ -1,0 +1,3 @@
+[console_scripts]
+dns-singer=dns-singer:main
+
