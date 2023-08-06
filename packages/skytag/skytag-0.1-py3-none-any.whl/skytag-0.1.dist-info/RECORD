@@ -1,0 +1,15 @@
+skytag/__init__.py,sha256=nxoxAv4jWzgXKwQmjLxyIrrGrs1Eq42DWk9FaEldmXY,119
+skytag/__version__.py,sha256=Oz803gtLQcQVH_r0f9anMZeUr4y1KDk-X4zQIcaJnLs,18
+skytag/cl_utils.py,sha256=fiR0y1agWtyjl5kyej7jaUsNcgZWGy7i_ALVM6r73EY,3897
+skytag/default_settings.yaml,sha256=AJ04UnqVup9jDu4HTv2Ftdaiav7O7yzn2fSwu49Lo5U,2059
+skytag/setup.cfg,sha256=9zBHZC-W8_1rP8opNMdZ7W2k1_Iq65HGcAE0kWCbO2E,9654
+skytag/test_settings.yaml,sha256=oTU2GYroj4WPZRglEvo2q98baca1MPY08clZqpb0LVU,2058
+skytag/utKit.py,sha256=gaPBkeQX6PtDOBXX6YZQloP4nfsJWfvmFiqUGNl5Fi8,3387
+skytag/commonutils/__init__.py,sha256=foE3NBHXQyYMfcD5o2S4511lbWKSRMNICc3Kozp-yd8,47
+skytag/commonutils/getpackagepath.py,sha256=Vmv8-07y8QJf-GrmJoTY3KI551fNobk0dBpPkuC_IXg,358
+skytag-0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+skytag-0.1.dist-info/METADATA,sha256=NCLbnlevYqMeJ3BoSAEPbxzh0ir-eYe_b8ghibVlqvY,3927
+skytag-0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+skytag-0.1.dist-info/entry_points.txt,sha256=DN60u-e_l-GHuezCmH4sxLcR_rDc0QYiDS3IkAfw_R4,48
+skytag-0.1.dist-info/top_level.txt,sha256=2sqfgC-k-HYhsUzQTnm_5VuMzMGFh9ENbeH8OsKczjY,7
+skytag-0.1.dist-info/RECORD,,
