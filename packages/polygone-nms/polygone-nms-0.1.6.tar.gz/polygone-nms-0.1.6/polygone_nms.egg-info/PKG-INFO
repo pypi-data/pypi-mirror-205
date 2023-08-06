@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: polygone-nms
+Version: 0.1.6
+Summary: Efficient and distributed polygon Non-Maximum Suppression (NMS) library
+Home-page: https://github.com/WolodjaZ/polygone-nms
+Author: Vladimir Zaigrajew
+Author-email: vladimirzaigrajew@gmail.com
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: docs
+License-File: LICENSE
+
+# PolyGoneNMS
+
+PolyGoneNMS is a library for efficient and distributed polygon Non-Maximum Suppression (NMS) in Python. It supports various NMS methods, intersection calculations, and can handle large numbers of polygons in 1D, 2D, and 3D spaces. PolyGoneNMS uses R-tree data structures and shapely polygon objects for optimal performance.
+
+## Benchmark Plots
+
+![Benchmark results](assets/benchmark_results.png)
+
+## Features
+
+- Efficient polygon NMS for large numbers of polygons.
+- Support for various NMS methods: Default, Soft, and Class Agnostic.
+- Support for different intersection methods: IOU, IOS, and Dice.
+- R-tree data structure for efficient spatial indexing and querying.
+- Distributed processing support using Ray and Dask.
+- Comprehensive documentation and examples.
+
+## Installation
+
+You can install PolyGoneNMS using pip:
+
+```bash
+pip install polygone-nms
+```
+
+## Quickstart
+
+```python
+import numpy as np
+from polygone_nms import polygone_nms
+
+# Example input data
+data = np.array([
+    [0, 0, 1, 1, 0, 1, 0, 0, 1, 0.9],
+    [0.5, 0.5, 1.5, 1.5, 0.5, 1.5, 0, 0, 1, 0.8],
+])
+
+# Apply NMS
+results = polygone_nms(data, distributed=None, nms_method="Default", intersection_method="IOU")
+
+print(results)
+```
+
+For a more detailed guide on using PolyGoneNMS, please see the [Quickstart](https://www.example.com/) in the documentation.
+
+## Documentation
+
+Detailed documentation is available at:
+[![Docs](https://img.shields.io/badge/Docs-mkdocs-blue?style=flat)](https://wolodjaz.github.io/PolyGoneNMS)
+
+
+## Contributing
+
+We welcome contributions to the project! Please follow the usual GitHub process for submitting issues or pull requests.
+
+## License
+
+This project is licensed under the [MIT License](https://fossa.com/blog/open-source-licenses-101-mit-license/).
