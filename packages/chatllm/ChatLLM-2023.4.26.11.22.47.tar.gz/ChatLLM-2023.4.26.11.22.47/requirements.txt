@@ -1,0 +1,9 @@
+meutils
+transformers
+sentence_transformers
+
+
+# chatglm
+cpm_kernels
+
+# langchain
