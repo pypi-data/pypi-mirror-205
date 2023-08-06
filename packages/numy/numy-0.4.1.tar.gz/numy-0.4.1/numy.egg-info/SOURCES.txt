@@ -1,0 +1,6 @@
+setup.py
+numy/__init__.py
+numy.egg-info/PKG-INFO
+numy.egg-info/SOURCES.txt
+numy.egg-info/dependency_links.txt
+numy.egg-info/top_level.txt
