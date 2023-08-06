@@ -1,0 +1,2 @@
+[console_scripts]
+ytchat = fastchat.app:entry_point
