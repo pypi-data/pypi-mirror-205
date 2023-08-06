@@ -1,0 +1,13 @@
+pysnc/__init__.py,sha256=mUanVgqdSvZ-t648WGD7T8bMnaHMZMg5QI6CIi0310Q,129
+pysnc/__version__.py,sha256=fjTGyn28HS0sM6lxk5JLZSUdt2fGjs_FOXEP0btwq_0,98
+pysnc/attachment.py,sha256=mczFwFoKxyQxJvP3_ECN269NQE7_LexlIPGKUQjisZY,8875
+pysnc/auth.py,sha256=eBgm0mXdTqIkTf6P1mdDI_QTjZZygOTtxA5LzF8RN-c,3778
+pysnc/client.py,sha256=MXNKMbRwVVsPtz7qOoAE2E3qpFzi5OLUCzI3awHqc3Q,15715
+pysnc/exceptions.py,sha256=EJskLNJNzWnudLnZivajSY8IgwJVpCfcpGJTFr2Liio,953
+pysnc/query.py,sha256=XIH7gd8H54rGu0ROsYRFbp9EiQ-rFz_qhT1k6SsRUyU,3809
+pysnc/record.py,sha256=doVj2ldI_Dj8W6se6qvcBC-S_YXh5l3b4EYTW6d3v_A,35456
+pysnc/utils.py,sha256=3E5sfOEmsi2gcL_OkPJCN_Y1hRS8xSprwJkTDrkGgL8,846
+pysnc-1.1.0.dist-info/LICENSE,sha256=1Zr0TCH47LgOcUWjpU0uo2QckLSjfNHH_rmmClbRVks,1052
+pysnc-1.1.0.dist-info/METADATA,sha256=zLUfg-xcM-Uh9vD6tfIafsEL_H584Xv0y1IgZmblgG8,2694
+pysnc-1.1.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+pysnc-1.1.0.dist-info/RECORD,,
