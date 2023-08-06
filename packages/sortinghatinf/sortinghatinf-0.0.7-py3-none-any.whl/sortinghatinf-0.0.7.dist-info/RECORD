@@ -1,0 +1,17 @@
+sortinghat/__init__.py,sha256=Jjgm361lKD2k-x3JID6PUspNwEtNnBK4iQnnqKPdFI8,95
+sortinghat/model_loading.py,sha256=jq8neYNosfuUoBd_lA46D5FnoN0jhy090pBP5pQTY-s,648
+sortinghat/pylib.py,sha256=5r_xD3Fjq9Z5QUvB_NBxNLZBJEVuvShfdLKGVnteaew,11275
+sortinghat/resources/compressed_rf.pbz2,sha256=pfhuhX0o0RDWwmkI1tIJEZBBXoWhe59_pSkjFh-biN8,7649704
+sortinghat/resources/dictionaryName.pkl,sha256=kk73i17kOk4xTI0vYEQD41yz09y5Sgl7tQd0CigDU38,62660
+sortinghat/resources/dictionarySample.pkl,sha256=DnQyctpi_1-UAQdlk14zegqatsW_zsJlXTGwmB_TEkg,99103
+sortinghatinf/__init__.py,sha256=M73WraORPhLA42msXUxpLb-GJ1CZWfzbgQGxWv-VGWc,116
+sortinghatinf/model_loading.py,sha256=1fE8rriutITFZ8sr7JxtCA_L5ocF6nwOuhDDDCax8_I,1249
+sortinghatinf/pylib.py,sha256=ipqhGf1Thjja7kIwuU7vX9nra_bTytClLuucIQzZ3-c,13513
+sortinghatinf/resources/compressed_rf.pbz2,sha256=LIMMIdwv118IrWV1qCQlDZOvxvszl8wRc1Pb3qce6fo,7597854
+sortinghatinf/resources/dictionaryName.pkl,sha256=D0RMkf8xlzc5_c9YFo_Cez3SHImHL1kkzEZMGBvVXTY,35549
+sortinghatinf/resources/dictionarySample.pkl,sha256=pokDgM2B0d0y3GAt8ChYW569sRtp4_NB-0MRJwL8jlc,56070
+sortinghatinf-0.0.7.dist-info/LICENSE,sha256=XgUPcW3S1c0wWPBfmHfbYpgFldEmrdYD3ZCShZLbI6U,10771
+sortinghatinf-0.0.7.dist-info/METADATA,sha256=xd2F_mSuMkZq1x7tp8nWYDrq2jVzuoN02po0dktv_JQ,4112
+sortinghatinf-0.0.7.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+sortinghatinf-0.0.7.dist-info/top_level.txt,sha256=2lRewcZyVUQxnS90v4D0BfoDD99x3iJbQAaZOwDqk98,14
+sortinghatinf-0.0.7.dist-info/RECORD,,
