@@ -1,0 +1,7 @@
+httpx
+typer
+pydantic
+tzdata
+urlpath
+rich
+orjson
