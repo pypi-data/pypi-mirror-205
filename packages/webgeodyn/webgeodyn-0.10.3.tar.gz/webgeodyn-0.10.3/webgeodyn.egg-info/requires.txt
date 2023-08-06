@@ -1,0 +1,6 @@
+astropy
+cdflib
+h5py
+numpy
+scipy>1.1
+tornado
