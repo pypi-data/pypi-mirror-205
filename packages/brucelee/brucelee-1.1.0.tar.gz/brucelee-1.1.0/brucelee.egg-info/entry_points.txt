@@ -1,0 +1,2 @@
+[console_scripts]
+brucelee = brucelee.scripts.main:main
