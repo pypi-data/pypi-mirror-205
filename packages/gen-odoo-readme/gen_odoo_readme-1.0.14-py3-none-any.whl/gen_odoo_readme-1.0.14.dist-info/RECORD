@@ -1,0 +1,12 @@
+gen_odoo_readme-1.0.14.data/data/mypackage/gen_addon_readme.template,sha256=rc8ikk4HVqZ9wSZZ4FGJqheI843732CvMmyCQ9U6Vyg,3030
+tools/__init__.py,sha256=tmJFcbWnlgNwXFCrgJHkNSJZmxR67rAjso_lz91m_vc,23
+tools/__main__.py,sha256=3HTkxB_Jx-qC79gzf0KoeCE5ffHVKCZmFce0zbNFeAc,97
+tools/gen_addon_readme.template,sha256=rc8ikk4HVqZ9wSZZ4FGJqheI843732CvMmyCQ9U6Vyg,3030
+tools/gen_readme.py,sha256=fI_LCIz7ceKf-ZoMkKb1cgMVx6Zc21XxNTumMGXQ9lc,9476
+tools/manifest.py,sha256=n5uxv6Wq3L7fQHxX607jil68rpJZ8DXEQ2NyDTlSa2k,1199
+gen_odoo_readme-1.0.14.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+gen_odoo_readme-1.0.14.dist-info/METADATA,sha256=aOx9vbY2WSA9VsBK4C7P5g3LlBOFVPWv88YvuK5QCJ8,3009
+gen_odoo_readme-1.0.14.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+gen_odoo_readme-1.0.14.dist-info/entry_points.txt,sha256=aPbZc223ciE7WY_Uk339ZJodU1-OLgzmZGg_kiRFmc0,59
+gen_odoo_readme-1.0.14.dist-info/top_level.txt,sha256=Ib4ZA2MPBpiT0tC-0qt5RcP9g42gLddRbx9PiYGa-Fc,6
+gen_odoo_readme-1.0.14.dist-info/RECORD,,
