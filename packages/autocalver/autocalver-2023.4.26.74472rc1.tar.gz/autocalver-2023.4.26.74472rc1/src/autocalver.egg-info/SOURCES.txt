@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+git-log-head
+pyproject.toml
+src/autocalver/__init__.py
+src/autocalver/integration.py
+src/autocalver.egg-info/PKG-INFO
+src/autocalver.egg-info/SOURCES.txt
+src/autocalver.egg-info/dependency_links.txt
+src/autocalver.egg-info/entry_points.txt
+src/autocalver.egg-info/requires.txt
+src/autocalver.egg-info/top_level.txt
+tests/test_integration.py

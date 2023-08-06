@@ -1,0 +1,7 @@
+commit c7ce07c866985485862de12aafd4d08b6403f328
+Author: Moshe Zadka <moshez@users.noreply.github.com>
+Date:   2023-04-26 14:41:12 -0600
+
+    Merge pull request #9 from moshez/to-pyproject-and-beyond
+    
+    Move stuff to pyproject

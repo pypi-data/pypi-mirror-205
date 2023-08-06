@@ -1,0 +1,12 @@
+tomli
+python-dateutil
+
+[lint]
+black
+mypy
+flake8
+pylint
+
+[test]
+coverage
+pytest
