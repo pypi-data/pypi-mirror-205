@@ -1,0 +1,14 @@
+pyoscar_emr/__init__.py,sha256=xZpor7sokfBn59uhQY680j8sPtn6jqMW7LqBkZwpLkM,331
+pyoscar_emr/appointment.py,sha256=0NmoNWel7HRd6Qr1LGNYVICEDG-h3DSC0qufFrA2EXo,2050
+pyoscar_emr/appointment_status.py,sha256=gnXgEaFSRhKgbIAbePD8l0yZ39SbRo3jNeZCbQl8MAM,1311
+pyoscar_emr/demographic.py,sha256=FTMwmGrQhp8BPBq_BqCDAohmOufwVC0ZXMvbHpUpOdw,2652
+pyoscar_emr/endpoints.py,sha256=R6z62pWfS7BA1dBSmlhy69WC_un2v_h0BrMvfNaulR4,2497
+pyoscar_emr/exceptions.py,sha256=yX4gqmqGZ8vQcRZkkS2u8LeKlxrdV8-ZVxLySAOpbts,259
+pyoscar_emr/ontario_health_card.py,sha256=2t5GAxG_Tvl3Dg2Re2SLloMEJOitdKUi1ORYEV6AALE,1081
+pyoscar_emr/oscar.py,sha256=GU7BjOQTb7664_mYqzTUcuDvVisiBlmYr4BjYcKv92k,16062
+pyoscar_emr/response_type.py,sha256=DwE2rlmKpPlcY8LwBMcbCiL7Mq0vfi3__nRseDFGVFQ,191
+pyoscar_emr/util/get_oauth_creds.py,sha256=qOiiJO_YHMBr1gMSmq_6Xcej48Ca0h77OOMcDdR9p8I,7949
+pyoscar_emr-0.9.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pyoscar_emr-0.9.1.dist-info/METADATA,sha256=_-1L2sq5dJEgCvhmPL6fnnj0PXx8Sw8txpgUsntmOzg,975
+pyoscar_emr-0.9.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+pyoscar_emr-0.9.1.dist-info/RECORD,,
