@@ -1,0 +1,948 @@
+Metadata-Version: 2.1
+Name: geowatch
+Version: 0.6.0
+Home-page: https://gitlab.kitware.com/computer-vision/geowatch.git
+Author: GEOWATCH developers
+Author-email: kitware@kitware.com
+License: Apache 2
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.9
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: kwarray (>=0.6.10)
+Requires-Dist: xarray (>=0.17.0)
+Requires-Dist: filterpy (>=1.4.5)
+Requires-Dist: einops (>=0.6.0)
+Requires-Dist: dask[array] (>=2022.10.2)
+Requires-Dist: rich (>=12.3.0)
+Requires-Dist: textual (>=0.1.18)
+Requires-Dist: text-unidecode (>=1.3)
+Requires-Dist: configargparse (>=1.5.1)
+Requires-Dist: parse (>=1.19.0)
+Requires-Dist: affine (>=2.3.0)
+Requires-Dist: ubelt (>=1.2.4)
+Requires-Dist: xmltodict (>=0.12.0)
+Requires-Dist: Pygments (>=2.6.0)
+Requires-Dist: requests (>=2.27.1)
+Requires-Dist: fasteners (>=0.16.3)
+Requires-Dist: more-itertools (>=8.12.0)
+Requires-Dist: pint (>=0.17)
+Requires-Dist: retry (>=0.9.2)
+Requires-Dist: girder-client (>=3.1.15)
+Requires-Dist: tempenv (>=0.2.0)
+Requires-Dist: pystac-client (>=0.5.1)
+Requires-Dist: scriptconfig (>=0.7.7)
+Requires-Dist: pygtrie (>=2.3.3)
+Requires-Dist: networkx (>=2.8.0)
+Requires-Dist: python-dateutil (>=2.8.2)
+Requires-Dist: pytimeparse (>=1.1.8)
+Requires-Dist: progiter (>=1.1.0)
+Requires-Dist: fire (>=0.4.0)
+Requires-Dist: lark (>=1.1.2)
+Requires-Dist: lark-cython (>=0.0.12)
+Requires-Dist: distinctipy (>=1.2.1)
+Requires-Dist: kwimage (>=0.9.15)
+Requires-Dist: kwcoco (>=0.6.1)
+Requires-Dist: delayed-image (>=0.2.6)
+Requires-Dist: albumentations (==1.0.0)
+Requires-Dist: ndsampler (>=0.7.3)
+Requires-Dist: tifffile (>=2021.4.8)
+Requires-Dist: medpy (>=0.4.0)
+Requires-Dist: kwplot (>=0.4.14)
+Requires-Dist: seaborn (>=0.11.1)
+Requires-Dist: geopandas (>=0.10.2)
+Requires-Dist: utm (>=0.7.0)
+Requires-Dist: rgd-imagery-client (>=0.2.7)
+Requires-Dist: rgd-client (>=0.2.7)
+Requires-Dist: geojson (>=2.5.0)
+Requires-Dist: torchmetrics (>=0.11.0)
+Requires-Dist: torch-liberator (>=0.2.1)
+Requires-Dist: pytorch-lightning[extra] (>=1.8.6)
+Requires-Dist: torch-optimizer (>=0.1.0)
+Requires-Dist: netharn (>=0.6.1)
+Requires-Dist: kornia (<=0.5)
+Requires-Dist: kwimage-ext (>=0.2.1)
+Requires-Dist: py-cpuinfo (>=8.0.0)
+Requires-Dist: jsonargparse[signatures] (>=4.19.0)
+Requires-Dist: ruamel.yaml (>=0.17.21)
+Requires-Dist: ijson (>=3.1.4)
+Requires-Dist: lazy-loader (>=0.1)
+Requires-Dist: colormath (>=3.0.0)
+Requires-Dist: imagesize (>=1.4.1)
+Requires-Dist: pytorch-msssim (==0.1.5)
+Requires-Dist: numpy (>=1.24.1) ; python_version < "3.10"
+Requires-Dist: scipy (>=1.8.0) ; python_version < "3.10"
+Requires-Dist: shapely (>=2.0.0) ; python_version < "3.10"
+Requires-Dist: rasterio (>=1.3.4) ; python_version < "3.10"
+Requires-Dist: pandas (<2.0.0,>=1.4.2) ; python_version < "3.10"
+Requires-Dist: scikit-learn (>=1.1.0) ; python_version < "3.10"
+Requires-Dist: scikit-image (>=0.18.1) ; python_version < "3.10"
+Requires-Dist: jq (>=1.2.1) ; python_version < "3.10"
+Requires-Dist: pyproj (<3.5.0,>=3.2.1) ; python_version < "3.10"
+Requires-Dist: fiona (<1.9.0,>=1.8.22) ; python_version < "3.10"
+Requires-Dist: matplotlib (>=3.4.1) ; python_version < "3.10"
+Requires-Dist: Pillow (>=8.0.1) ; python_version < "3.10"
+Requires-Dist: psutil (>=5.8.0) ; python_version < "3.10"
+Requires-Dist: rtree (>=0.9.7) ; python_version < "3.10"
+Requires-Dist: sqlalchemy (>=1.3.22) ; python_version < "3.10"
+Requires-Dist: xxhash (>=3.0.0) ; python_version < "3.10" and python_version >= "3.9"
+Requires-Dist: numexpr (>=2.7.3) ; python_version < "3.10" and python_version >= "3.9"
+Requires-Dist: mgrs (>=1.4.3) ; python_version < "3.10" and python_version >= "3.9"
+Requires-Dist: lxml (>=4.5.2) ; python_version < "3.10" and python_version >= "3.9"
+Requires-Dist: blake3 (>=0.2.1) ; python_version < "3.11"
+Requires-Dist: torch (>=1.12.0) ; python_version < "3.11"
+Requires-Dist: torchvision (>=0.13.0) ; python_version < "3.11"
+Requires-Dist: monai (>=0.6.0) ; python_version < "3.11"
+Requires-Dist: timm (>=0.4.12) ; python_version < "3.11"
+Requires-Dist: segmentation-models-pytorch (>=0.2.0) ; python_version < "3.11"
+Requires-Dist: ujson (>=5.2.0) ; python_version < "3.11"
+Requires-Dist: numpy (>=1.24.1) ; python_version < "3.11" and python_version >= "3.10"
+Requires-Dist: scipy (>=1.8.1) ; python_version < "3.11" and python_version >= "3.10"
+Requires-Dist: shapely (>=2.0.0) ; python_version < "3.11" and python_version >= "3.10"
+Requires-Dist: rasterio (>=1.3.4) ; python_version < "3.11" and python_version >= "3.10"
+Requires-Dist: pandas (<2.0.0,>=1.4.2) ; python_version < "3.11" and python_version >= "3.10"
+Requires-Dist: scikit-learn (>=1.1.1) ; python_version < "3.11" and python_version >= "3.10"
+Requires-Dist: scikit-image (>=0.19.3) ; python_version < "3.11" and python_version >= "3.10"
+Requires-Dist: jq (>=1.2.2) ; python_version < "3.11" and python_version >= "3.10"
+Requires-Dist: pyproj (<3.5.0,>=3.3.1) ; python_version < "3.11" and python_version >= "3.10"
+Requires-Dist: fiona (<1.9.0,>=1.8.22) ; python_version < "3.11" and python_version >= "3.10"
+Requires-Dist: matplotlib (>=3.5.2) ; python_version < "3.11" and python_version >= "3.10"
+Requires-Dist: Pillow (>=9.1.1) ; python_version < "3.11" and python_version >= "3.10"
+Requires-Dist: psutil (>=5.9.1) ; python_version < "3.11" and python_version >= "3.10"
+Requires-Dist: rtree (>=1.0.0) ; python_version < "3.11" and python_version >= "3.10"
+Requires-Dist: sqlalchemy (>=1.4.37) ; python_version < "3.11" and python_version >= "3.10"
+Requires-Dist: xxhash (>=3.0.0) ; python_version < "3.11" and python_version >= "3.10"
+Requires-Dist: numexpr (>=2.8.1) ; python_version < "3.11" and python_version >= "3.10"
+Requires-Dist: lxml (>=4.6.3) ; python_version < "3.11" and python_version >= "3.10"
+Requires-Dist: lxml (>=4.2.4) ; python_version < "3.8" and python_version >= "3.7"
+Requires-Dist: numexpr (>=2.7.3) ; python_version < "3.9" and python_version >= "3.8"
+Requires-Dist: mgrs (>=1.3.7) ; python_version < "3.9" and python_version >= "3.8"
+Requires-Dist: lxml (>=4.4.1) ; python_version < "3.9" and python_version >= "3.8"
+Requires-Dist: blake3 (>=0.3.1) ; python_version < "4" and python_version >= "3.11"
+Requires-Dist: mgrs (>=1.4.3) ; python_version < "4.0" and python_version >= "3.10"
+Requires-Dist: scikit-image (>=0.20.0) ; python_version < "4.0" and python_version >= "3.11"
+Requires-Dist: xxhash (>=3.0.0) ; python_version < "4.0" and python_version >= "3.11"
+Requires-Dist: numexpr (>=2.8.4) ; python_version < "4.0" and python_version >= "3.11"
+Requires-Dist: lxml (>=4.9.2) ; python_version < "4.0" and python_version >= "3.11"
+Requires-Dist: torch (>=2.0.0) ; python_version < "4.0" and python_version >= "3.11"
+Requires-Dist: torchvision (>=0.15.1) ; python_version < "4.0" and python_version >= "3.11"
+Requires-Dist: monai (>=0.8.0) ; python_version < "4.0" and python_version >= "3.11"
+Requires-Dist: timm (>=0.6.13) ; python_version < "4.0" and python_version >= "3.11"
+Requires-Dist: ujson (>=5.6.0) ; python_version < "4.0" and python_version >= "3.11"
+Requires-Dist: xxhash (>=1.4.4) ; python_version <= "3.8"
+Requires-Dist: numpy (>=1.24.1) ; python_version >= "3.11"
+Requires-Dist: scipy (>=1.9.2) ; python_version >= "3.11"
+Requires-Dist: shapely (>=2.0.0) ; python_version >= "3.11"
+Requires-Dist: rasterio (>=1.3.4) ; python_version >= "3.11"
+Requires-Dist: pandas (<2.0.0,>=1.5.0) ; python_version >= "3.11"
+Requires-Dist: scikit-learn (>=1.1.3) ; python_version >= "3.11"
+Requires-Dist: jq (>=1.3.0) ; python_version >= "3.11"
+Requires-Dist: pyproj (<3.5.0,>=3.4.1) ; python_version >= "3.11"
+Requires-Dist: fiona (<1.9.0,>=1.8.22) ; python_version >= "3.11"
+Requires-Dist: matplotlib (>=3.5.2) ; python_version >= "3.11"
+Requires-Dist: Pillow (>=9.2.0) ; python_version >= "3.11"
+Requires-Dist: psutil (>=5.9.1) ; python_version >= "3.11"
+Requires-Dist: rtree (>=1.0.1) ; python_version >= "3.11"
+Requires-Dist: sqlalchemy (>=1.4.41) ; python_version >= "3.11"
+Provides-Extra: all
+Requires-Dist: jsonschema (>=3.2.0) ; extra == 'all'
+Requires-Dist: xdev (>=1.1.1) ; extra == 'all'
+Requires-Dist: performer-pytorch (>=1.0.11) ; extra == 'all'
+Requires-Dist: reformer-pytorch (>=1.4.3) ; extra == 'all'
+Requires-Dist: perceiver-pytorch (>=0.8.3) ; extra == 'all'
+Requires-Dist: hydra-core (>=1.3.2) ; extra == 'all'
+Requires-Dist: fels (>=1.4.0) ; extra == 'all'
+Requires-Dist: openpyxl (>=3.0.9) ; extra == 'all'
+Requires-Dist: textual (>=0.1.18) ; extra == 'all'
+Requires-Dist: cmd-queue (>=0.1.12) ; extra == 'all'
+Requires-Dist: dataframe-image (>=0.1.1) ; extra == 'all'
+Requires-Dist: wrapt (>=1.14.1) ; extra == 'all'
+Requires-Dist: pytest (>=6.2.5) ; extra == 'all'
+Requires-Dist: xdoctest (>=1.1.1) ; extra == 'all'
+Requires-Dist: pytest-cov (>=3.0.0) ; extra == 'all'
+Requires-Dist: coverage (>=6.1.1) ; extra == 'all'
+Requires-Dist: kwarray (>=0.6.10) ; extra == 'all'
+Requires-Dist: xarray (>=0.17.0) ; extra == 'all'
+Requires-Dist: filterpy (>=1.4.5) ; extra == 'all'
+Requires-Dist: einops (>=0.6.0) ; extra == 'all'
+Requires-Dist: dask[array] (>=2022.10.2) ; extra == 'all'
+Requires-Dist: rich (>=12.3.0) ; extra == 'all'
+Requires-Dist: text-unidecode (>=1.3) ; extra == 'all'
+Requires-Dist: configargparse (>=1.5.1) ; extra == 'all'
+Requires-Dist: parse (>=1.19.0) ; extra == 'all'
+Requires-Dist: affine (>=2.3.0) ; extra == 'all'
+Requires-Dist: ubelt (>=1.2.4) ; extra == 'all'
+Requires-Dist: xmltodict (>=0.12.0) ; extra == 'all'
+Requires-Dist: Pygments (>=2.6.0) ; extra == 'all'
+Requires-Dist: requests (>=2.27.1) ; extra == 'all'
+Requires-Dist: fasteners (>=0.16.3) ; extra == 'all'
+Requires-Dist: more-itertools (>=8.12.0) ; extra == 'all'
+Requires-Dist: pint (>=0.17) ; extra == 'all'
+Requires-Dist: retry (>=0.9.2) ; extra == 'all'
+Requires-Dist: girder-client (>=3.1.15) ; extra == 'all'
+Requires-Dist: tempenv (>=0.2.0) ; extra == 'all'
+Requires-Dist: pystac-client (>=0.5.1) ; extra == 'all'
+Requires-Dist: scriptconfig (>=0.7.7) ; extra == 'all'
+Requires-Dist: pygtrie (>=2.3.3) ; extra == 'all'
+Requires-Dist: networkx (>=2.8.0) ; extra == 'all'
+Requires-Dist: python-dateutil (>=2.8.2) ; extra == 'all'
+Requires-Dist: pytimeparse (>=1.1.8) ; extra == 'all'
+Requires-Dist: progiter (>=1.1.0) ; extra == 'all'
+Requires-Dist: fire (>=0.4.0) ; extra == 'all'
+Requires-Dist: lark (>=1.1.2) ; extra == 'all'
+Requires-Dist: lark-cython (>=0.0.12) ; extra == 'all'
+Requires-Dist: distinctipy (>=1.2.1) ; extra == 'all'
+Requires-Dist: kwimage (>=0.9.15) ; extra == 'all'
+Requires-Dist: kwcoco (>=0.6.1) ; extra == 'all'
+Requires-Dist: delayed-image (>=0.2.6) ; extra == 'all'
+Requires-Dist: albumentations (==1.0.0) ; extra == 'all'
+Requires-Dist: ndsampler (>=0.7.3) ; extra == 'all'
+Requires-Dist: tifffile (>=2021.4.8) ; extra == 'all'
+Requires-Dist: medpy (>=0.4.0) ; extra == 'all'
+Requires-Dist: kwplot (>=0.4.14) ; extra == 'all'
+Requires-Dist: seaborn (>=0.11.1) ; extra == 'all'
+Requires-Dist: geopandas (>=0.10.2) ; extra == 'all'
+Requires-Dist: utm (>=0.7.0) ; extra == 'all'
+Requires-Dist: rgd-imagery-client (>=0.2.7) ; extra == 'all'
+Requires-Dist: rgd-client (>=0.2.7) ; extra == 'all'
+Requires-Dist: geojson (>=2.5.0) ; extra == 'all'
+Requires-Dist: torchmetrics (>=0.11.0) ; extra == 'all'
+Requires-Dist: torch-liberator (>=0.2.1) ; extra == 'all'
+Requires-Dist: pytorch-lightning[extra] (>=1.8.6) ; extra == 'all'
+Requires-Dist: torch-optimizer (>=0.1.0) ; extra == 'all'
+Requires-Dist: netharn (>=0.6.1) ; extra == 'all'
+Requires-Dist: kornia (<=0.5) ; extra == 'all'
+Requires-Dist: kwimage-ext (>=0.2.1) ; extra == 'all'
+Requires-Dist: py-cpuinfo (>=8.0.0) ; extra == 'all'
+Requires-Dist: jsonargparse[signatures] (>=4.19.0) ; extra == 'all'
+Requires-Dist: ruamel.yaml (>=0.17.21) ; extra == 'all'
+Requires-Dist: ijson (>=3.1.4) ; extra == 'all'
+Requires-Dist: lazy-loader (>=0.1) ; extra == 'all'
+Requires-Dist: colormath (>=3.0.0) ; extra == 'all'
+Requires-Dist: imagesize (>=1.4.1) ; extra == 'all'
+Requires-Dist: pytorch-msssim (==0.1.5) ; extra == 'all'
+Requires-Dist: PyQt5 (>=5.15) ; extra == 'all'
+Requires-Dist: ipython (>=7.25.0) ; extra == 'all'
+Requires-Dist: flake8 (>=4.0.1) ; extra == 'all'
+Requires-Dist: autopep8 (>=1.5.7) ; extra == 'all'
+Requires-Dist: mkinit (>=0.3.3) ; extra == 'all'
+Requires-Dist: timerit (>=0.3.0) ; extra == 'all'
+Requires-Dist: codecarbon (>=2.0.0) ; extra == 'all'
+Requires-Dist: humanize (>=4.4.0) ; extra == 'all'
+Requires-Dist: argcomplete (>=3.0.5) ; extra == 'all'
+Provides-Extra: all-strict
+Requires-Dist: jsonschema (==3.2.0) ; extra == 'all-strict'
+Requires-Dist: xdev (==1.1.1) ; extra == 'all-strict'
+Requires-Dist: performer-pytorch (==1.0.11) ; extra == 'all-strict'
+Requires-Dist: reformer-pytorch (==1.4.3) ; extra == 'all-strict'
+Requires-Dist: perceiver-pytorch (==0.8.3) ; extra == 'all-strict'
+Requires-Dist: hydra-core (==1.3.2) ; extra == 'all-strict'
+Requires-Dist: fels (==1.4.0) ; extra == 'all-strict'
+Requires-Dist: openpyxl (==3.0.9) ; extra == 'all-strict'
+Requires-Dist: textual (==0.1.18) ; extra == 'all-strict'
+Requires-Dist: cmd-queue (==0.1.12) ; extra == 'all-strict'
+Requires-Dist: dataframe-image (==0.1.1) ; extra == 'all-strict'
+Requires-Dist: wrapt (==1.14.1) ; extra == 'all-strict'
+Requires-Dist: pytest (==6.2.5) ; extra == 'all-strict'
+Requires-Dist: xdoctest (==1.1.1) ; extra == 'all-strict'
+Requires-Dist: pytest-cov (==3.0.0) ; extra == 'all-strict'
+Requires-Dist: coverage (==6.1.1) ; extra == 'all-strict'
+Requires-Dist: kwarray (==0.6.10) ; extra == 'all-strict'
+Requires-Dist: xarray (==0.17.0) ; extra == 'all-strict'
+Requires-Dist: filterpy (==1.4.5) ; extra == 'all-strict'
+Requires-Dist: einops (==0.6.0) ; extra == 'all-strict'
+Requires-Dist: dask[array] (==2022.10.2) ; extra == 'all-strict'
+Requires-Dist: rich (==12.3.0) ; extra == 'all-strict'
+Requires-Dist: text-unidecode (==1.3) ; extra == 'all-strict'
+Requires-Dist: configargparse (==1.5.1) ; extra == 'all-strict'
+Requires-Dist: parse (==1.19.0) ; extra == 'all-strict'
+Requires-Dist: affine (==2.3.0) ; extra == 'all-strict'
+Requires-Dist: ubelt (==1.2.4) ; extra == 'all-strict'
+Requires-Dist: xmltodict (==0.12.0) ; extra == 'all-strict'
+Requires-Dist: Pygments (==2.6.0) ; extra == 'all-strict'
+Requires-Dist: requests (==2.27.1) ; extra == 'all-strict'
+Requires-Dist: fasteners (==0.16.3) ; extra == 'all-strict'
+Requires-Dist: more-itertools (==8.12.0) ; extra == 'all-strict'
+Requires-Dist: pint (==0.17) ; extra == 'all-strict'
+Requires-Dist: retry (==0.9.2) ; extra == 'all-strict'
+Requires-Dist: girder-client (==3.1.15) ; extra == 'all-strict'
+Requires-Dist: tempenv (==0.2.0) ; extra == 'all-strict'
+Requires-Dist: pystac-client (==0.5.1) ; extra == 'all-strict'
+Requires-Dist: scriptconfig (==0.7.7) ; extra == 'all-strict'
+Requires-Dist: pygtrie (==2.3.3) ; extra == 'all-strict'
+Requires-Dist: networkx (==2.8.0) ; extra == 'all-strict'
+Requires-Dist: python-dateutil (==2.8.2) ; extra == 'all-strict'
+Requires-Dist: pytimeparse (==1.1.8) ; extra == 'all-strict'
+Requires-Dist: progiter (==1.1.0) ; extra == 'all-strict'
+Requires-Dist: fire (==0.4.0) ; extra == 'all-strict'
+Requires-Dist: lark (==1.1.2) ; extra == 'all-strict'
+Requires-Dist: lark-cython (==0.0.12) ; extra == 'all-strict'
+Requires-Dist: distinctipy (==1.2.1) ; extra == 'all-strict'
+Requires-Dist: kwimage (==0.9.15) ; extra == 'all-strict'
+Requires-Dist: kwcoco (==0.6.1) ; extra == 'all-strict'
+Requires-Dist: delayed-image (==0.2.6) ; extra == 'all-strict'
+Requires-Dist: albumentations (==1.0.0) ; extra == 'all-strict'
+Requires-Dist: ndsampler (==0.7.3) ; extra == 'all-strict'
+Requires-Dist: tifffile (==2021.4.8) ; extra == 'all-strict'
+Requires-Dist: medpy (==0.4.0) ; extra == 'all-strict'
+Requires-Dist: kwplot (==0.4.14) ; extra == 'all-strict'
+Requires-Dist: seaborn (==0.11.1) ; extra == 'all-strict'
+Requires-Dist: geopandas (==0.10.2) ; extra == 'all-strict'
+Requires-Dist: utm (==0.7.0) ; extra == 'all-strict'
+Requires-Dist: rgd-imagery-client (==0.2.7) ; extra == 'all-strict'
+Requires-Dist: rgd-client (==0.2.7) ; extra == 'all-strict'
+Requires-Dist: geojson (==2.5.0) ; extra == 'all-strict'
+Requires-Dist: torchmetrics (==0.11.0) ; extra == 'all-strict'
+Requires-Dist: torch-liberator (==0.2.1) ; extra == 'all-strict'
+Requires-Dist: pytorch-lightning[extra] (==1.8.6) ; extra == 'all-strict'
+Requires-Dist: torch-optimizer (==0.1.0) ; extra == 'all-strict'
+Requires-Dist: netharn (==0.6.1) ; extra == 'all-strict'
+Requires-Dist: kornia (<=0.5) ; extra == 'all-strict'
+Requires-Dist: kwimage-ext (==0.2.1) ; extra == 'all-strict'
+Requires-Dist: py-cpuinfo (==8.0.0) ; extra == 'all-strict'
+Requires-Dist: jsonargparse[signatures] (==4.19.0) ; extra == 'all-strict'
+Requires-Dist: ruamel.yaml (==0.17.21) ; extra == 'all-strict'
+Requires-Dist: ijson (==3.1.4) ; extra == 'all-strict'
+Requires-Dist: lazy-loader (==0.1) ; extra == 'all-strict'
+Requires-Dist: colormath (==3.0.0) ; extra == 'all-strict'
+Requires-Dist: imagesize (==1.4.1) ; extra == 'all-strict'
+Requires-Dist: pytorch-msssim (==0.1.5) ; extra == 'all-strict'
+Requires-Dist: PyQt5 (==5.15) ; extra == 'all-strict'
+Requires-Dist: ipython (==7.25.0) ; extra == 'all-strict'
+Requires-Dist: flake8 (==4.0.1) ; extra == 'all-strict'
+Requires-Dist: autopep8 (==1.5.7) ; extra == 'all-strict'
+Requires-Dist: mkinit (==0.3.3) ; extra == 'all-strict'
+Requires-Dist: timerit (==0.3.0) ; extra == 'all-strict'
+Requires-Dist: codecarbon (==2.0.0) ; extra == 'all-strict'
+Requires-Dist: humanize (==4.4.0) ; extra == 'all-strict'
+Requires-Dist: argcomplete (==3.0.5) ; extra == 'all-strict'
+Requires-Dist: numpy (==1.24.1) ; (python_version < "3.10") and extra == 'all-strict'
+Requires-Dist: scipy (==1.8.0) ; (python_version < "3.10") and extra == 'all-strict'
+Requires-Dist: shapely (==2.0.0) ; (python_version < "3.10") and extra == 'all-strict'
+Requires-Dist: rasterio (==1.3.4) ; (python_version < "3.10") and extra == 'all-strict'
+Requires-Dist: pandas (<2.0.0,==1.4.2) ; (python_version < "3.10") and extra == 'all-strict'
+Requires-Dist: scikit-learn (==1.1.0) ; (python_version < "3.10") and extra == 'all-strict'
+Requires-Dist: scikit-image (==0.18.1) ; (python_version < "3.10") and extra == 'all-strict'
+Requires-Dist: jq (==1.2.1) ; (python_version < "3.10") and extra == 'all-strict'
+Requires-Dist: pyproj (<3.5.0,==3.2.1) ; (python_version < "3.10") and extra == 'all-strict'
+Requires-Dist: fiona (<1.9.0,==1.8.22) ; (python_version < "3.10") and extra == 'all-strict'
+Requires-Dist: matplotlib (==3.4.1) ; (python_version < "3.10") and extra == 'all-strict'
+Requires-Dist: Pillow (==8.0.1) ; (python_version < "3.10") and extra == 'all-strict'
+Requires-Dist: psutil (==5.8.0) ; (python_version < "3.10") and extra == 'all-strict'
+Requires-Dist: rtree (==0.9.7) ; (python_version < "3.10") and extra == 'all-strict'
+Requires-Dist: sqlalchemy (==1.3.22) ; (python_version < "3.10") and extra == 'all-strict'
+Requires-Dist: xxhash (==3.0.0) ; (python_version < "3.10" and python_version >= "3.9") and extra == 'all-strict'
+Requires-Dist: numexpr (==2.7.3) ; (python_version < "3.10" and python_version >= "3.9") and extra == 'all-strict'
+Requires-Dist: mgrs (==1.4.3) ; (python_version < "3.10" and python_version >= "3.9") and extra == 'all-strict'
+Requires-Dist: lxml (==4.5.2) ; (python_version < "3.10" and python_version >= "3.9") and extra == 'all-strict'
+Requires-Dist: blake3 (==0.2.1) ; (python_version < "3.11") and extra == 'all-strict'
+Requires-Dist: torch (==1.12.0) ; (python_version < "3.11") and extra == 'all-strict'
+Requires-Dist: torchvision (==0.13.0) ; (python_version < "3.11") and extra == 'all-strict'
+Requires-Dist: monai (==0.6.0) ; (python_version < "3.11") and extra == 'all-strict'
+Requires-Dist: timm (==0.4.12) ; (python_version < "3.11") and extra == 'all-strict'
+Requires-Dist: segmentation-models-pytorch (==0.2.0) ; (python_version < "3.11") and extra == 'all-strict'
+Requires-Dist: ujson (==5.2.0) ; (python_version < "3.11") and extra == 'all-strict'
+Requires-Dist: numpy (==1.24.1) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all-strict'
+Requires-Dist: scipy (==1.8.1) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all-strict'
+Requires-Dist: shapely (==2.0.0) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all-strict'
+Requires-Dist: rasterio (==1.3.4) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all-strict'
+Requires-Dist: pandas (<2.0.0,==1.4.2) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all-strict'
+Requires-Dist: scikit-learn (==1.1.1) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all-strict'
+Requires-Dist: scikit-image (==0.19.3) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all-strict'
+Requires-Dist: jq (==1.2.2) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all-strict'
+Requires-Dist: pyproj (<3.5.0,==3.3.1) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all-strict'
+Requires-Dist: fiona (<1.9.0,==1.8.22) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all-strict'
+Requires-Dist: matplotlib (==3.5.2) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all-strict'
+Requires-Dist: Pillow (==9.1.1) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all-strict'
+Requires-Dist: psutil (==5.9.1) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all-strict'
+Requires-Dist: rtree (==1.0.0) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all-strict'
+Requires-Dist: sqlalchemy (==1.4.37) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all-strict'
+Requires-Dist: xxhash (==3.0.0) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all-strict'
+Requires-Dist: numexpr (==2.8.1) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all-strict'
+Requires-Dist: lxml (==4.6.3) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all-strict'
+Requires-Dist: lxml (==4.2.4) ; (python_version < "3.8" and python_version >= "3.7") and extra == 'all-strict'
+Requires-Dist: numexpr (==2.7.3) ; (python_version < "3.9" and python_version >= "3.8") and extra == 'all-strict'
+Requires-Dist: mgrs (==1.3.7) ; (python_version < "3.9" and python_version >= "3.8") and extra == 'all-strict'
+Requires-Dist: lxml (==4.4.1) ; (python_version < "3.9" and python_version >= "3.8") and extra == 'all-strict'
+Requires-Dist: blake3 (==0.3.1) ; (python_version < "4" and python_version >= "3.11") and extra == 'all-strict'
+Requires-Dist: mgrs (==1.4.3) ; (python_version < "4.0" and python_version >= "3.10") and extra == 'all-strict'
+Requires-Dist: scikit-image (==0.20.0) ; (python_version < "4.0" and python_version >= "3.11") and extra == 'all-strict'
+Requires-Dist: xxhash (==3.0.0) ; (python_version < "4.0" and python_version >= "3.11") and extra == 'all-strict'
+Requires-Dist: numexpr (==2.8.4) ; (python_version < "4.0" and python_version >= "3.11") and extra == 'all-strict'
+Requires-Dist: lxml (==4.9.2) ; (python_version < "4.0" and python_version >= "3.11") and extra == 'all-strict'
+Requires-Dist: torch (==2.0.0) ; (python_version < "4.0" and python_version >= "3.11") and extra == 'all-strict'
+Requires-Dist: torchvision (==0.15.1) ; (python_version < "4.0" and python_version >= "3.11") and extra == 'all-strict'
+Requires-Dist: monai (==0.8.0) ; (python_version < "4.0" and python_version >= "3.11") and extra == 'all-strict'
+Requires-Dist: timm (==0.6.13) ; (python_version < "4.0" and python_version >= "3.11") and extra == 'all-strict'
+Requires-Dist: ujson (==5.6.0) ; (python_version < "4.0" and python_version >= "3.11") and extra == 'all-strict'
+Requires-Dist: xxhash (==1.4.4) ; (python_version <= "3.8") and extra == 'all-strict'
+Requires-Dist: numpy (==1.24.1) ; (python_version >= "3.11") and extra == 'all-strict'
+Requires-Dist: scipy (==1.9.2) ; (python_version >= "3.11") and extra == 'all-strict'
+Requires-Dist: shapely (==2.0.0) ; (python_version >= "3.11") and extra == 'all-strict'
+Requires-Dist: rasterio (==1.3.4) ; (python_version >= "3.11") and extra == 'all-strict'
+Requires-Dist: pandas (<2.0.0,==1.5.0) ; (python_version >= "3.11") and extra == 'all-strict'
+Requires-Dist: scikit-learn (==1.1.3) ; (python_version >= "3.11") and extra == 'all-strict'
+Requires-Dist: jq (==1.3.0) ; (python_version >= "3.11") and extra == 'all-strict'
+Requires-Dist: pyproj (<3.5.0,==3.4.1) ; (python_version >= "3.11") and extra == 'all-strict'
+Requires-Dist: fiona (<1.9.0,==1.8.22) ; (python_version >= "3.11") and extra == 'all-strict'
+Requires-Dist: matplotlib (==3.5.2) ; (python_version >= "3.11") and extra == 'all-strict'
+Requires-Dist: Pillow (==9.2.0) ; (python_version >= "3.11") and extra == 'all-strict'
+Requires-Dist: psutil (==5.9.1) ; (python_version >= "3.11") and extra == 'all-strict'
+Requires-Dist: rtree (==1.0.1) ; (python_version >= "3.11") and extra == 'all-strict'
+Requires-Dist: sqlalchemy (==1.4.41) ; (python_version >= "3.11") and extra == 'all-strict'
+Requires-Dist: torch-optimizer (==0.1.0) ; (python_version >= "3.6") and extra == 'all-strict'
+Requires-Dist: rich-argparse (==1.1.0) ; (python_version >= "3.7") and extra == 'all-strict'
+Requires-Dist: numpy (>=1.24.1) ; (python_version < "3.10") and extra == 'all'
+Requires-Dist: scipy (>=1.8.0) ; (python_version < "3.10") and extra == 'all'
+Requires-Dist: shapely (>=2.0.0) ; (python_version < "3.10") and extra == 'all'
+Requires-Dist: rasterio (>=1.3.4) ; (python_version < "3.10") and extra == 'all'
+Requires-Dist: pandas (<2.0.0,>=1.4.2) ; (python_version < "3.10") and extra == 'all'
+Requires-Dist: scikit-learn (>=1.1.0) ; (python_version < "3.10") and extra == 'all'
+Requires-Dist: scikit-image (>=0.18.1) ; (python_version < "3.10") and extra == 'all'
+Requires-Dist: jq (>=1.2.1) ; (python_version < "3.10") and extra == 'all'
+Requires-Dist: pyproj (<3.5.0,>=3.2.1) ; (python_version < "3.10") and extra == 'all'
+Requires-Dist: fiona (<1.9.0,>=1.8.22) ; (python_version < "3.10") and extra == 'all'
+Requires-Dist: matplotlib (>=3.4.1) ; (python_version < "3.10") and extra == 'all'
+Requires-Dist: Pillow (>=8.0.1) ; (python_version < "3.10") and extra == 'all'
+Requires-Dist: psutil (>=5.8.0) ; (python_version < "3.10") and extra == 'all'
+Requires-Dist: rtree (>=0.9.7) ; (python_version < "3.10") and extra == 'all'
+Requires-Dist: sqlalchemy (>=1.3.22) ; (python_version < "3.10") and extra == 'all'
+Requires-Dist: xxhash (>=3.0.0) ; (python_version < "3.10" and python_version >= "3.9") and extra == 'all'
+Requires-Dist: numexpr (>=2.7.3) ; (python_version < "3.10" and python_version >= "3.9") and extra == 'all'
+Requires-Dist: mgrs (>=1.4.3) ; (python_version < "3.10" and python_version >= "3.9") and extra == 'all'
+Requires-Dist: lxml (>=4.5.2) ; (python_version < "3.10" and python_version >= "3.9") and extra == 'all'
+Requires-Dist: blake3 (>=0.2.1) ; (python_version < "3.11") and extra == 'all'
+Requires-Dist: torch (>=1.12.0) ; (python_version < "3.11") and extra == 'all'
+Requires-Dist: torchvision (>=0.13.0) ; (python_version < "3.11") and extra == 'all'
+Requires-Dist: monai (>=0.6.0) ; (python_version < "3.11") and extra == 'all'
+Requires-Dist: timm (>=0.4.12) ; (python_version < "3.11") and extra == 'all'
+Requires-Dist: segmentation-models-pytorch (>=0.2.0) ; (python_version < "3.11") and extra == 'all'
+Requires-Dist: ujson (>=5.2.0) ; (python_version < "3.11") and extra == 'all'
+Requires-Dist: numpy (>=1.24.1) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all'
+Requires-Dist: scipy (>=1.8.1) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all'
+Requires-Dist: shapely (>=2.0.0) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all'
+Requires-Dist: rasterio (>=1.3.4) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all'
+Requires-Dist: pandas (<2.0.0,>=1.4.2) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all'
+Requires-Dist: scikit-learn (>=1.1.1) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all'
+Requires-Dist: scikit-image (>=0.19.3) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all'
+Requires-Dist: jq (>=1.2.2) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all'
+Requires-Dist: pyproj (<3.5.0,>=3.3.1) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all'
+Requires-Dist: fiona (<1.9.0,>=1.8.22) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all'
+Requires-Dist: matplotlib (>=3.5.2) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all'
+Requires-Dist: Pillow (>=9.1.1) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all'
+Requires-Dist: psutil (>=5.9.1) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all'
+Requires-Dist: rtree (>=1.0.0) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all'
+Requires-Dist: sqlalchemy (>=1.4.37) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all'
+Requires-Dist: xxhash (>=3.0.0) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all'
+Requires-Dist: numexpr (>=2.8.1) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all'
+Requires-Dist: lxml (>=4.6.3) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all'
+Requires-Dist: lxml (>=4.2.4) ; (python_version < "3.8" and python_version >= "3.7") and extra == 'all'
+Requires-Dist: numexpr (>=2.7.3) ; (python_version < "3.9" and python_version >= "3.8") and extra == 'all'
+Requires-Dist: mgrs (>=1.3.7) ; (python_version < "3.9" and python_version >= "3.8") and extra == 'all'
+Requires-Dist: lxml (>=4.4.1) ; (python_version < "3.9" and python_version >= "3.8") and extra == 'all'
+Requires-Dist: blake3 (>=0.3.1) ; (python_version < "4" and python_version >= "3.11") and extra == 'all'
+Requires-Dist: mgrs (>=1.4.3) ; (python_version < "4.0" and python_version >= "3.10") and extra == 'all'
+Requires-Dist: scikit-image (>=0.20.0) ; (python_version < "4.0" and python_version >= "3.11") and extra == 'all'
+Requires-Dist: xxhash (>=3.0.0) ; (python_version < "4.0" and python_version >= "3.11") and extra == 'all'
+Requires-Dist: numexpr (>=2.8.4) ; (python_version < "4.0" and python_version >= "3.11") and extra == 'all'
+Requires-Dist: lxml (>=4.9.2) ; (python_version < "4.0" and python_version >= "3.11") and extra == 'all'
+Requires-Dist: torch (>=2.0.0) ; (python_version < "4.0" and python_version >= "3.11") and extra == 'all'
+Requires-Dist: torchvision (>=0.15.1) ; (python_version < "4.0" and python_version >= "3.11") and extra == 'all'
+Requires-Dist: monai (>=0.8.0) ; (python_version < "4.0" and python_version >= "3.11") and extra == 'all'
+Requires-Dist: timm (>=0.6.13) ; (python_version < "4.0" and python_version >= "3.11") and extra == 'all'
+Requires-Dist: ujson (>=5.6.0) ; (python_version < "4.0" and python_version >= "3.11") and extra == 'all'
+Requires-Dist: xxhash (>=1.4.4) ; (python_version <= "3.8") and extra == 'all'
+Requires-Dist: numpy (>=1.24.1) ; (python_version >= "3.11") and extra == 'all'
+Requires-Dist: scipy (>=1.9.2) ; (python_version >= "3.11") and extra == 'all'
+Requires-Dist: shapely (>=2.0.0) ; (python_version >= "3.11") and extra == 'all'
+Requires-Dist: rasterio (>=1.3.4) ; (python_version >= "3.11") and extra == 'all'
+Requires-Dist: pandas (<2.0.0,>=1.5.0) ; (python_version >= "3.11") and extra == 'all'
+Requires-Dist: scikit-learn (>=1.1.3) ; (python_version >= "3.11") and extra == 'all'
+Requires-Dist: jq (>=1.3.0) ; (python_version >= "3.11") and extra == 'all'
+Requires-Dist: pyproj (<3.5.0,>=3.4.1) ; (python_version >= "3.11") and extra == 'all'
+Requires-Dist: fiona (<1.9.0,>=1.8.22) ; (python_version >= "3.11") and extra == 'all'
+Requires-Dist: matplotlib (>=3.5.2) ; (python_version >= "3.11") and extra == 'all'
+Requires-Dist: Pillow (>=9.2.0) ; (python_version >= "3.11") and extra == 'all'
+Requires-Dist: psutil (>=5.9.1) ; (python_version >= "3.11") and extra == 'all'
+Requires-Dist: rtree (>=1.0.1) ; (python_version >= "3.11") and extra == 'all'
+Requires-Dist: sqlalchemy (>=1.4.41) ; (python_version >= "3.11") and extra == 'all'
+Requires-Dist: torch-optimizer (>=0.1.0) ; (python_version >= "3.6") and extra == 'all'
+Requires-Dist: rich-argparse (>=1.1.0) ; (python_version >= "3.7") and extra == 'all'
+Provides-Extra: development
+Requires-Dist: jsonschema (>=3.2.0) ; extra == 'development'
+Requires-Dist: xdev (>=1.1.1) ; extra == 'development'
+Requires-Dist: performer-pytorch (>=1.0.11) ; extra == 'development'
+Requires-Dist: reformer-pytorch (>=1.4.3) ; extra == 'development'
+Requires-Dist: perceiver-pytorch (>=0.8.3) ; extra == 'development'
+Requires-Dist: hydra-core (>=1.3.2) ; extra == 'development'
+Requires-Dist: fels (>=1.4.0) ; extra == 'development'
+Requires-Dist: openpyxl (>=3.0.9) ; extra == 'development'
+Requires-Dist: textual (>=0.1.18) ; extra == 'development'
+Requires-Dist: cmd-queue (>=0.1.12) ; extra == 'development'
+Requires-Dist: dataframe-image (>=0.1.1) ; extra == 'development'
+Requires-Dist: wrapt (>=1.14.1) ; extra == 'development'
+Provides-Extra: development-strict
+Requires-Dist: jsonschema (==3.2.0) ; extra == 'development-strict'
+Requires-Dist: xdev (==1.1.1) ; extra == 'development-strict'
+Requires-Dist: performer-pytorch (==1.0.11) ; extra == 'development-strict'
+Requires-Dist: reformer-pytorch (==1.4.3) ; extra == 'development-strict'
+Requires-Dist: perceiver-pytorch (==0.8.3) ; extra == 'development-strict'
+Requires-Dist: hydra-core (==1.3.2) ; extra == 'development-strict'
+Requires-Dist: fels (==1.4.0) ; extra == 'development-strict'
+Requires-Dist: openpyxl (==3.0.9) ; extra == 'development-strict'
+Requires-Dist: textual (==0.1.18) ; extra == 'development-strict'
+Requires-Dist: cmd-queue (==0.1.12) ; extra == 'development-strict'
+Requires-Dist: dataframe-image (==0.1.1) ; extra == 'development-strict'
+Requires-Dist: wrapt (==1.14.1) ; extra == 'development-strict'
+Requires-Dist: torch-optimizer (==0.1.0) ; (python_version >= "3.6") and extra == 'development-strict'
+Requires-Dist: torch-optimizer (>=0.1.0) ; (python_version >= "3.6") and extra == 'development'
+Provides-Extra: graphics
+Provides-Extra: graphics-strict
+Requires-Dist: opencv-python (==3.4.15.55) ; (python_version < "3.10" and python_version >= "3.9") and extra == 'graphics-strict'
+Requires-Dist: opencv-python (==4.5.4.58) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'graphics-strict'
+Requires-Dist: opencv-python (==3.4.2.16) ; (python_version < "3.4" and python_version >= "2.7") and extra == 'graphics-strict'
+Requires-Dist: opencv-python (==3.4.2.16) ; (python_version < "3.5" and python_version >= "3.4") and extra == 'graphics-strict'
+Requires-Dist: opencv-python (==3.4.2.16) ; (python_version < "3.6" and python_version >= "3.5") and extra == 'graphics-strict'
+Requires-Dist: opencv-python (==3.4.13.47) ; (python_version < "3.7" and python_version >= "3.6") and extra == 'graphics-strict'
+Requires-Dist: opencv-python (==3.4.15.55) ; (python_version < "3.8" and python_version >= "3.7") and extra == 'graphics-strict'
+Requires-Dist: opencv-python (==3.4.15.55) ; (python_version < "3.9" and python_version >= "3.8") and extra == 'graphics-strict'
+Requires-Dist: opencv-python (==4.5.5.64) ; (python_version < "4.0" and python_version >= "3.11") and extra == 'graphics-strict'
+Requires-Dist: opencv-python (>=3.4.15.55) ; (python_version < "3.10" and python_version >= "3.9") and extra == 'graphics'
+Requires-Dist: opencv-python (>=4.5.4.58) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'graphics'
+Requires-Dist: opencv-python (>=3.4.2.16) ; (python_version < "3.4" and python_version >= "2.7") and extra == 'graphics'
+Requires-Dist: opencv-python (>=3.4.2.16) ; (python_version < "3.5" and python_version >= "3.4") and extra == 'graphics'
+Requires-Dist: opencv-python (>=3.4.2.16) ; (python_version < "3.6" and python_version >= "3.5") and extra == 'graphics'
+Requires-Dist: opencv-python (>=3.4.13.47) ; (python_version < "3.7" and python_version >= "3.6") and extra == 'graphics'
+Requires-Dist: opencv-python (>=3.4.15.55) ; (python_version < "3.8" and python_version >= "3.7") and extra == 'graphics'
+Requires-Dist: opencv-python (>=3.4.15.55) ; (python_version < "3.9" and python_version >= "3.8") and extra == 'graphics'
+Requires-Dist: opencv-python (>=4.5.5.64) ; (python_version < "4.0" and python_version >= "3.11") and extra == 'graphics'
+Provides-Extra: headless
+Provides-Extra: headless-strict
+Requires-Dist: opencv-python-headless (==3.4.15.55) ; (python_version < "3.10" and python_version >= "3.9") and extra == 'headless-strict'
+Requires-Dist: opencv-python-headless (==4.5.4.58) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'headless-strict'
+Requires-Dist: opencv-python-headless (==3.4.2.16) ; (python_version < "3.4" and python_version >= "2.7") and extra == 'headless-strict'
+Requires-Dist: opencv-python-headless (==3.4.2.16) ; (python_version < "3.5" and python_version >= "3.4") and extra == 'headless-strict'
+Requires-Dist: opencv-python-headless (==3.4.2.16) ; (python_version < "3.6" and python_version >= "3.5") and extra == 'headless-strict'
+Requires-Dist: opencv-python-headless (==3.4.13.47) ; (python_version < "3.7" and python_version >= "3.6") and extra == 'headless-strict'
+Requires-Dist: opencv-python-headless (==3.4.15.55) ; (python_version < "3.8" and python_version >= "3.7") and extra == 'headless-strict'
+Requires-Dist: opencv-python-headless (==3.4.15.55) ; (python_version < "3.9" and python_version >= "3.8") and extra == 'headless-strict'
+Requires-Dist: opencv-python-headless (==4.6.0.66) ; (python_version < "4.0" and python_version >= "3.11") and extra == 'headless-strict'
+Requires-Dist: opencv-python-headless (>=3.4.15.55) ; (python_version < "3.10" and python_version >= "3.9") and extra == 'headless'
+Requires-Dist: opencv-python-headless (>=4.5.4.58) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'headless'
+Requires-Dist: opencv-python-headless (>=3.4.2.16) ; (python_version < "3.4" and python_version >= "2.7") and extra == 'headless'
+Requires-Dist: opencv-python-headless (>=3.4.2.16) ; (python_version < "3.5" and python_version >= "3.4") and extra == 'headless'
+Requires-Dist: opencv-python-headless (>=3.4.2.16) ; (python_version < "3.6" and python_version >= "3.5") and extra == 'headless'
+Requires-Dist: opencv-python-headless (>=3.4.13.47) ; (python_version < "3.7" and python_version >= "3.6") and extra == 'headless'
+Requires-Dist: opencv-python-headless (>=3.4.15.55) ; (python_version < "3.8" and python_version >= "3.7") and extra == 'headless'
+Requires-Dist: opencv-python-headless (>=3.4.15.55) ; (python_version < "3.9" and python_version >= "3.8") and extra == 'headless'
+Requires-Dist: opencv-python-headless (>=4.6.0.66) ; (python_version < "4.0" and python_version >= "3.11") and extra == 'headless'
+Provides-Extra: optional
+Requires-Dist: PyQt5 (>=5.15) ; extra == 'optional'
+Requires-Dist: ipython (>=7.25.0) ; extra == 'optional'
+Requires-Dist: flake8 (>=4.0.1) ; extra == 'optional'
+Requires-Dist: autopep8 (>=1.5.7) ; extra == 'optional'
+Requires-Dist: mkinit (>=0.3.3) ; extra == 'optional'
+Requires-Dist: timerit (>=0.3.0) ; extra == 'optional'
+Requires-Dist: codecarbon (>=2.0.0) ; extra == 'optional'
+Requires-Dist: humanize (>=4.4.0) ; extra == 'optional'
+Requires-Dist: argcomplete (>=3.0.5) ; extra == 'optional'
+Provides-Extra: optional-strict
+Requires-Dist: PyQt5 (==5.15) ; extra == 'optional-strict'
+Requires-Dist: ipython (==7.25.0) ; extra == 'optional-strict'
+Requires-Dist: flake8 (==4.0.1) ; extra == 'optional-strict'
+Requires-Dist: autopep8 (==1.5.7) ; extra == 'optional-strict'
+Requires-Dist: mkinit (==0.3.3) ; extra == 'optional-strict'
+Requires-Dist: timerit (==0.3.0) ; extra == 'optional-strict'
+Requires-Dist: codecarbon (==2.0.0) ; extra == 'optional-strict'
+Requires-Dist: humanize (==4.4.0) ; extra == 'optional-strict'
+Requires-Dist: argcomplete (==3.0.5) ; extra == 'optional-strict'
+Requires-Dist: rich-argparse (==1.1.0) ; (python_version >= "3.7") and extra == 'optional-strict'
+Requires-Dist: rich-argparse (>=1.1.0) ; (python_version >= "3.7") and extra == 'optional'
+Provides-Extra: runtime-strict
+Requires-Dist: kwarray (==0.6.10) ; extra == 'runtime-strict'
+Requires-Dist: xarray (==0.17.0) ; extra == 'runtime-strict'
+Requires-Dist: filterpy (==1.4.5) ; extra == 'runtime-strict'
+Requires-Dist: einops (==0.6.0) ; extra == 'runtime-strict'
+Requires-Dist: dask[array] (==2022.10.2) ; extra == 'runtime-strict'
+Requires-Dist: rich (==12.3.0) ; extra == 'runtime-strict'
+Requires-Dist: textual (==0.1.18) ; extra == 'runtime-strict'
+Requires-Dist: text-unidecode (==1.3) ; extra == 'runtime-strict'
+Requires-Dist: configargparse (==1.5.1) ; extra == 'runtime-strict'
+Requires-Dist: parse (==1.19.0) ; extra == 'runtime-strict'
+Requires-Dist: affine (==2.3.0) ; extra == 'runtime-strict'
+Requires-Dist: ubelt (==1.2.4) ; extra == 'runtime-strict'
+Requires-Dist: xmltodict (==0.12.0) ; extra == 'runtime-strict'
+Requires-Dist: Pygments (==2.6.0) ; extra == 'runtime-strict'
+Requires-Dist: requests (==2.27.1) ; extra == 'runtime-strict'
+Requires-Dist: fasteners (==0.16.3) ; extra == 'runtime-strict'
+Requires-Dist: more-itertools (==8.12.0) ; extra == 'runtime-strict'
+Requires-Dist: pint (==0.17) ; extra == 'runtime-strict'
+Requires-Dist: retry (==0.9.2) ; extra == 'runtime-strict'
+Requires-Dist: girder-client (==3.1.15) ; extra == 'runtime-strict'
+Requires-Dist: tempenv (==0.2.0) ; extra == 'runtime-strict'
+Requires-Dist: pystac-client (==0.5.1) ; extra == 'runtime-strict'
+Requires-Dist: scriptconfig (==0.7.7) ; extra == 'runtime-strict'
+Requires-Dist: pygtrie (==2.3.3) ; extra == 'runtime-strict'
+Requires-Dist: networkx (==2.8.0) ; extra == 'runtime-strict'
+Requires-Dist: python-dateutil (==2.8.2) ; extra == 'runtime-strict'
+Requires-Dist: pytimeparse (==1.1.8) ; extra == 'runtime-strict'
+Requires-Dist: progiter (==1.1.0) ; extra == 'runtime-strict'
+Requires-Dist: fire (==0.4.0) ; extra == 'runtime-strict'
+Requires-Dist: lark (==1.1.2) ; extra == 'runtime-strict'
+Requires-Dist: lark-cython (==0.0.12) ; extra == 'runtime-strict'
+Requires-Dist: distinctipy (==1.2.1) ; extra == 'runtime-strict'
+Requires-Dist: kwimage (==0.9.15) ; extra == 'runtime-strict'
+Requires-Dist: kwcoco (==0.6.1) ; extra == 'runtime-strict'
+Requires-Dist: delayed-image (==0.2.6) ; extra == 'runtime-strict'
+Requires-Dist: albumentations (==1.0.0) ; extra == 'runtime-strict'
+Requires-Dist: ndsampler (==0.7.3) ; extra == 'runtime-strict'
+Requires-Dist: tifffile (==2021.4.8) ; extra == 'runtime-strict'
+Requires-Dist: medpy (==0.4.0) ; extra == 'runtime-strict'
+Requires-Dist: kwplot (==0.4.14) ; extra == 'runtime-strict'
+Requires-Dist: seaborn (==0.11.1) ; extra == 'runtime-strict'
+Requires-Dist: geopandas (==0.10.2) ; extra == 'runtime-strict'
+Requires-Dist: utm (==0.7.0) ; extra == 'runtime-strict'
+Requires-Dist: rgd-imagery-client (==0.2.7) ; extra == 'runtime-strict'
+Requires-Dist: rgd-client (==0.2.7) ; extra == 'runtime-strict'
+Requires-Dist: geojson (==2.5.0) ; extra == 'runtime-strict'
+Requires-Dist: torchmetrics (==0.11.0) ; extra == 'runtime-strict'
+Requires-Dist: torch-liberator (==0.2.1) ; extra == 'runtime-strict'
+Requires-Dist: pytorch-lightning[extra] (==1.8.6) ; extra == 'runtime-strict'
+Requires-Dist: torch-optimizer (==0.1.0) ; extra == 'runtime-strict'
+Requires-Dist: netharn (==0.6.1) ; extra == 'runtime-strict'
+Requires-Dist: kornia (<=0.5) ; extra == 'runtime-strict'
+Requires-Dist: kwimage-ext (==0.2.1) ; extra == 'runtime-strict'
+Requires-Dist: py-cpuinfo (==8.0.0) ; extra == 'runtime-strict'
+Requires-Dist: jsonargparse[signatures] (==4.19.0) ; extra == 'runtime-strict'
+Requires-Dist: ruamel.yaml (==0.17.21) ; extra == 'runtime-strict'
+Requires-Dist: ijson (==3.1.4) ; extra == 'runtime-strict'
+Requires-Dist: lazy-loader (==0.1) ; extra == 'runtime-strict'
+Requires-Dist: colormath (==3.0.0) ; extra == 'runtime-strict'
+Requires-Dist: imagesize (==1.4.1) ; extra == 'runtime-strict'
+Requires-Dist: pytorch-msssim (==0.1.5) ; extra == 'runtime-strict'
+Requires-Dist: numpy (==1.24.1) ; (python_version < "3.10") and extra == 'runtime-strict'
+Requires-Dist: scipy (==1.8.0) ; (python_version < "3.10") and extra == 'runtime-strict'
+Requires-Dist: shapely (==2.0.0) ; (python_version < "3.10") and extra == 'runtime-strict'
+Requires-Dist: rasterio (==1.3.4) ; (python_version < "3.10") and extra == 'runtime-strict'
+Requires-Dist: pandas (<2.0.0,==1.4.2) ; (python_version < "3.10") and extra == 'runtime-strict'
+Requires-Dist: scikit-learn (==1.1.0) ; (python_version < "3.10") and extra == 'runtime-strict'
+Requires-Dist: scikit-image (==0.18.1) ; (python_version < "3.10") and extra == 'runtime-strict'
+Requires-Dist: jq (==1.2.1) ; (python_version < "3.10") and extra == 'runtime-strict'
+Requires-Dist: pyproj (<3.5.0,==3.2.1) ; (python_version < "3.10") and extra == 'runtime-strict'
+Requires-Dist: fiona (<1.9.0,==1.8.22) ; (python_version < "3.10") and extra == 'runtime-strict'
+Requires-Dist: matplotlib (==3.4.1) ; (python_version < "3.10") and extra == 'runtime-strict'
+Requires-Dist: Pillow (==8.0.1) ; (python_version < "3.10") and extra == 'runtime-strict'
+Requires-Dist: psutil (==5.8.0) ; (python_version < "3.10") and extra == 'runtime-strict'
+Requires-Dist: rtree (==0.9.7) ; (python_version < "3.10") and extra == 'runtime-strict'
+Requires-Dist: sqlalchemy (==1.3.22) ; (python_version < "3.10") and extra == 'runtime-strict'
+Requires-Dist: xxhash (==3.0.0) ; (python_version < "3.10" and python_version >= "3.9") and extra == 'runtime-strict'
+Requires-Dist: numexpr (==2.7.3) ; (python_version < "3.10" and python_version >= "3.9") and extra == 'runtime-strict'
+Requires-Dist: mgrs (==1.4.3) ; (python_version < "3.10" and python_version >= "3.9") and extra == 'runtime-strict'
+Requires-Dist: lxml (==4.5.2) ; (python_version < "3.10" and python_version >= "3.9") and extra == 'runtime-strict'
+Requires-Dist: blake3 (==0.2.1) ; (python_version < "3.11") and extra == 'runtime-strict'
+Requires-Dist: torch (==1.12.0) ; (python_version < "3.11") and extra == 'runtime-strict'
+Requires-Dist: torchvision (==0.13.0) ; (python_version < "3.11") and extra == 'runtime-strict'
+Requires-Dist: monai (==0.6.0) ; (python_version < "3.11") and extra == 'runtime-strict'
+Requires-Dist: timm (==0.4.12) ; (python_version < "3.11") and extra == 'runtime-strict'
+Requires-Dist: segmentation-models-pytorch (==0.2.0) ; (python_version < "3.11") and extra == 'runtime-strict'
+Requires-Dist: ujson (==5.2.0) ; (python_version < "3.11") and extra == 'runtime-strict'
+Requires-Dist: numpy (==1.24.1) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'runtime-strict'
+Requires-Dist: scipy (==1.8.1) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'runtime-strict'
+Requires-Dist: shapely (==2.0.0) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'runtime-strict'
+Requires-Dist: rasterio (==1.3.4) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'runtime-strict'
+Requires-Dist: pandas (<2.0.0,==1.4.2) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'runtime-strict'
+Requires-Dist: scikit-learn (==1.1.1) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'runtime-strict'
+Requires-Dist: scikit-image (==0.19.3) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'runtime-strict'
+Requires-Dist: jq (==1.2.2) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'runtime-strict'
+Requires-Dist: pyproj (<3.5.0,==3.3.1) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'runtime-strict'
+Requires-Dist: fiona (<1.9.0,==1.8.22) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'runtime-strict'
+Requires-Dist: matplotlib (==3.5.2) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'runtime-strict'
+Requires-Dist: Pillow (==9.1.1) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'runtime-strict'
+Requires-Dist: psutil (==5.9.1) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'runtime-strict'
+Requires-Dist: rtree (==1.0.0) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'runtime-strict'
+Requires-Dist: sqlalchemy (==1.4.37) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'runtime-strict'
+Requires-Dist: xxhash (==3.0.0) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'runtime-strict'
+Requires-Dist: numexpr (==2.8.1) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'runtime-strict'
+Requires-Dist: lxml (==4.6.3) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'runtime-strict'
+Requires-Dist: lxml (==4.2.4) ; (python_version < "3.8" and python_version >= "3.7") and extra == 'runtime-strict'
+Requires-Dist: numexpr (==2.7.3) ; (python_version < "3.9" and python_version >= "3.8") and extra == 'runtime-strict'
+Requires-Dist: mgrs (==1.3.7) ; (python_version < "3.9" and python_version >= "3.8") and extra == 'runtime-strict'
+Requires-Dist: lxml (==4.4.1) ; (python_version < "3.9" and python_version >= "3.8") and extra == 'runtime-strict'
+Requires-Dist: blake3 (==0.3.1) ; (python_version < "4" and python_version >= "3.11") and extra == 'runtime-strict'
+Requires-Dist: mgrs (==1.4.3) ; (python_version < "4.0" and python_version >= "3.10") and extra == 'runtime-strict'
+Requires-Dist: scikit-image (==0.20.0) ; (python_version < "4.0" and python_version >= "3.11") and extra == 'runtime-strict'
+Requires-Dist: xxhash (==3.0.0) ; (python_version < "4.0" and python_version >= "3.11") and extra == 'runtime-strict'
+Requires-Dist: numexpr (==2.8.4) ; (python_version < "4.0" and python_version >= "3.11") and extra == 'runtime-strict'
+Requires-Dist: lxml (==4.9.2) ; (python_version < "4.0" and python_version >= "3.11") and extra == 'runtime-strict'
+Requires-Dist: torch (==2.0.0) ; (python_version < "4.0" and python_version >= "3.11") and extra == 'runtime-strict'
+Requires-Dist: torchvision (==0.15.1) ; (python_version < "4.0" and python_version >= "3.11") and extra == 'runtime-strict'
+Requires-Dist: monai (==0.8.0) ; (python_version < "4.0" and python_version >= "3.11") and extra == 'runtime-strict'
+Requires-Dist: timm (==0.6.13) ; (python_version < "4.0" and python_version >= "3.11") and extra == 'runtime-strict'
+Requires-Dist: ujson (==5.6.0) ; (python_version < "4.0" and python_version >= "3.11") and extra == 'runtime-strict'
+Requires-Dist: xxhash (==1.4.4) ; (python_version <= "3.8") and extra == 'runtime-strict'
+Requires-Dist: numpy (==1.24.1) ; (python_version >= "3.11") and extra == 'runtime-strict'
+Requires-Dist: scipy (==1.9.2) ; (python_version >= "3.11") and extra == 'runtime-strict'
+Requires-Dist: shapely (==2.0.0) ; (python_version >= "3.11") and extra == 'runtime-strict'
+Requires-Dist: rasterio (==1.3.4) ; (python_version >= "3.11") and extra == 'runtime-strict'
+Requires-Dist: pandas (<2.0.0,==1.5.0) ; (python_version >= "3.11") and extra == 'runtime-strict'
+Requires-Dist: scikit-learn (==1.1.3) ; (python_version >= "3.11") and extra == 'runtime-strict'
+Requires-Dist: jq (==1.3.0) ; (python_version >= "3.11") and extra == 'runtime-strict'
+Requires-Dist: pyproj (<3.5.0,==3.4.1) ; (python_version >= "3.11") and extra == 'runtime-strict'
+Requires-Dist: fiona (<1.9.0,==1.8.22) ; (python_version >= "3.11") and extra == 'runtime-strict'
+Requires-Dist: matplotlib (==3.5.2) ; (python_version >= "3.11") and extra == 'runtime-strict'
+Requires-Dist: Pillow (==9.2.0) ; (python_version >= "3.11") and extra == 'runtime-strict'
+Requires-Dist: psutil (==5.9.1) ; (python_version >= "3.11") and extra == 'runtime-strict'
+Requires-Dist: rtree (==1.0.1) ; (python_version >= "3.11") and extra == 'runtime-strict'
+Requires-Dist: sqlalchemy (==1.4.41) ; (python_version >= "3.11") and extra == 'runtime-strict'
+Provides-Extra: tests
+Requires-Dist: pytest (>=6.2.5) ; extra == 'tests'
+Requires-Dist: xdoctest (>=1.1.1) ; extra == 'tests'
+Requires-Dist: pytest-cov (>=3.0.0) ; extra == 'tests'
+Requires-Dist: coverage (>=6.1.1) ; extra == 'tests'
+Provides-Extra: tests-strict
+Requires-Dist: pytest (==6.2.5) ; extra == 'tests-strict'
+Requires-Dist: xdoctest (==1.1.1) ; extra == 'tests-strict'
+Requires-Dist: pytest-cov (==3.0.0) ; extra == 'tests-strict'
+Requires-Dist: coverage (==6.1.1) ; extra == 'tests-strict'
+
+GEOWATCH - Geographic Wide Area Terrestrial Change Hypercube
+============================================================
+
+.. The large version wont work because github strips rst image rescaling.
+.. image:: https://ipfs.io/ipfs/QmYftzG6enTebF2f143KeHiPiJGs66LJf3jT1fNYAiqQvq
+   :height: 100px
+   :align: left
+
+|main-pipeline| |main-coverage|
+
+
+This repository addresses the algorithmic challenges of the
+`IARPA SMART <https://www.iarpa.gov/research-programs/smart>`_ (Space-based
+Machine Automated Recognition Technique) program.  The goal of this software is
+analyze space-based imagery to perform broad-area search for natural and
+anthropogenic events and characterize their extent and progression in time and
+space.
+
+
+The following table provides links to relevant resources for the SMART WATCH project:
+
++----------------------------------------------------------+----------------------------------------------------------------+
+| The Public GEOWATCH Python Module                        | https://gitlab.kitware.com/computer-vision/geowatch/           |
++----------------------------------------------------------+----------------------------------------------------------------+
+| The Internal SMART GEOWATCH Python Module                | https://gitlab.kitware.com/smart/watch/                        |
++----------------------------------------------------------+----------------------------------------------------------------+
+| The Phase 2 Internal SMART GEOWATCH DVC Data Repo        | https://gitlab.kitware.com/smart/smart_data_dvc/               |
++----------------------------------------------------------+----------------------------------------------------------------+
+| The Phase 2 Internal SMART GEOWATCH DVC Experiment Repo  | https://gitlab.kitware.com/smart/smart_expt_dvc/               |
++----------------------------------------------------------+----------------------------------------------------------------+
+
+
+Getting Started
+---------------
+
+To quickly get started locally, clone the geowatch repo:
+
+
+.. code:: bash
+
+   # Create a directory for CODE
+   mkdir -p $HOME/code
+   # Internal
+   # git clone https://gitlab.kitware.com/smart/watch/  $HOME/code/watch
+
+   # Public
+   git clone https://gitlab.kitware.com/computer-vision/geowatch/  $HOME/code/watch
+
+
+Then run:
+
+.. code:: bash
+
+   cd $HOME/code/watch
+   bash ./run_developer_setup.sh
+
+
+Test everything is working by running
+
+.. code:: bash
+
+   ./run_tests.py
+
+For more details see the `installing GEOWATCH for development guide <docs/environment/installing_watch.rst>`_.
+
+
+Development
+-----------
+
+For new collaberators, please refer to the `onboarding docs <docs/onboarding.rst>`_
+
+For internal collaberators, please refer to the `internal docs <docs/data/internal_resources.rst>`_
+
+
+The GEOWATCH CLI
+----------------
+
+The ``geowatch`` module comes with a set of command line tools.
+Using ``python -m geowatch --help`` or ``geowatch --help`` shows the top level modal CLI:
+
+.. code::
+
+    usage: geowatch [-h] [--version]
+                    {add_fields,align,stats,reproject,visualize,spectra,dvcdir,run_tracker,iarpa_eval,model_stats,clean_geotiffs,animate,average_features,time_combine,crop_sitemodels,remove_bad_images,schedule,manager,aggregate}
+                    ...
+
+    🌐🌐🌐 The GEO-WATCH CLI 🌐🌐🌐
+
+    An open source research and production environment for image and video
+    segmentation and detection with geospatial awareness.
+
+    Developed by Kitware. Funded by the IARPA SMART challenge.
+
+    options:
+      -h, --help            show this help message and exit
+      --version             show version number and exit (default: False)
+
+    commands:
+      {add_fields,align,stats,reproject,visualize,spectra,dvcdir,run_tracker,iarpa_eval,model_stats,clean_geotiffs,animate,average_features,time_combine,crop_sitemodels,remove_bad_images,schedule,manager,aggregate}
+                            specify a command to run
+        add_fields (coco_add_watch_fields)
+                            Updates image transforms in a kwcoco json file to align all videos to a
+        align (coco_align, coco_align_geotiff, coco_align_geotiffs)
+                            Create a dataset of aligned temporal sequences around objects of interest
+        stats (watch_coco_stats)
+                            Print watch-relevant information about a kwcoco dataset.
+        reproject (project, reproject_annotations)
+                            Projects annotations from geospace onto a kwcoco dataset and optionally
+        visualize (coco_visualize_videos)
+                            Visualizes annotations on kwcoco video frames on each band
+        spectra (intensity_histograms, coco_spectra)
+                            Updates image transforms in a kwcoco json file to align all videos to a
+        dvcdir (find_dvc)   Command line helper to find the path to the watch DVC repo
+        run_tracker (kwcoco_to_geojson)
+                            Convert KWCOCO to IARPA GeoJSON
+        iarpa_eval (run_metrics_framework)
+                            Score IARPA site model GeoJSON files using IARPA's metrics-and-test-framework
+        model_stats (model_info, torch_model_stats)
+                            Print stats about a torch model.
+        clean_geotiffs (coco_clean_geotiffs)
+                            A preprocessing step for geotiff datasets.
+        animate (gifify)    Convert a sequence of images into a video or gif.
+        average_features (ensemble, coco_average_features)
+                            Create a new kwcoco file with averaged features from multiple kwcoco files.
+        time_combine (coco_time_combine)
+                            Averages kwcoco images over a sliding temporal window in a video.
+        crop_sitemodels (crop_sites_to_regions)
+                            Crops site models to the bounds of a region model.
+        remove_bad_images (coco_remove_bad_images)
+                            Remove image frames that have little or nothing useful in them from a
+        schedule (mlops_schedule, schedule_evaluation)
+                            Driver for GEOWATCH mlops evaluation scheduling
+        manager (mlops_manager)
+                            Certain parts of these names have special nomenclature to make them easier
+        aggregate (mlops_aggregate)
+                            Aggregates results from multiple DAG evaluations.
+
+
+
+As a researcher / developer / user the most important commands for you to know are:
+
+* ``geowatch stats <kwcoco_file>`` - Get geowatch-relevant statistics about data in a kwcoco file
+
+* ``geowatch visualize <kwcoco_file>`` - Visualize the image / videos / annotations in a kwcoco file.
+
+* ``geowatch spectra <kwcoco_file>`` - Look at the distribution of intensity values per band / per sensor in a kwcoco file.
+
+* ``geowatch model_stats <fusion_model_file>`` - Get stats / info about a trained fusion model.
+
+* ``geowatch reproject`` - Reproject CRS84 (geojson) annoations to image space and write to a kwcoco file.
+
+* ``geowatch align`` - Crop a kwcoco dataset based on CRS84 (geojson) regions.
+
+* ``geowatch clean_geotiff`` - Heuristic to detect large regions of black pixels and edit them to NODATA in the geotiff.
+
+* ``geowatch geotiffs_to_kwcoco`` - Create a kwcoco file from a set of on-disk geotiffs.
+
+* ``smartwatch_dvc`` - Helper to register / retreive your DVC paths so scripts can be written agnostic to filesystem layouts. See `docs <docs/data/using_smartwatch_dvc.rst>`_ for more details.
+
+
+For more details about the GEOWATCH CLI and other CLI tools included in this package see:
+`the GEOWATCH CLI docs <docs/watch_cli.rst>`_
+
+
+Documentation
+-------------
+
+For quick reference, a list of current documentation files is:
+
+* `Onboarding Docs <docs/onboarding.rst>`_
+
+* `Internal Resources <docs/data/internal_resources.rst>`_
+
+* `The GEOWATCH CLI <docs/watch_cli.rst>`_
+
+* Contribution:
+
+  + `Contribution Instructions <docs/development/contribution_instructions.rst>`_
+
+  + `Rebasing Procedure <docs/development/rebasing_procedure.rst>`_
+
+  + `Testing Practices <docs/testing/testing_practices.rst>`_
+
+  + `Supporting Projects <docs/misc/supporting_projects.rst>`_
+
+  + `Coding Conventions <docs/development/coding_conventions.rst>`_
+
+* Installing:
+
+  + `Installing GEOWATCH <docs/environment/installing_watch.rst>`_
+
+  + `Installing Python via Conda <docs/environment/install_python_conda.rst>`_
+
+  + `Installing Python via PyEnv <docs/environment/install_python_pyenv.rst>`_
+
+* Fusion Related Docs:
+
+  + `TA2 Fusion Overview <docs/algorithms/fusion_overview.rst>`_
+
+  + `TA2 Deep Dive Info <docs/algorithms/ta2_deep_dive_info.md>`_
+
+  + `TA2 Feature Integration <docs/development/ta2_feature_integration.md>`_
+
+* Older Design Docs:
+
+  + `Structure Proposal <docs/misc/structure_proposal.md>`_
+
+* Tutorials:
+
+  + Tutorial 1: `Toy RGB Fusion Model Example <tutorial/tutorial1_rgb_network.sh>`_
+
+  + Tutorial 2: `Toy MSI Fusion Model Example <tutorial/tutorial2_msi_network.sh>`_
+
+  + Tutorial 3: `Feature Fusion Tutorial <tutorial/tutorial3_feature_fusion.sh>`_
+
+  + Tutorial 4: `Misc Training Tutorial <tutorial/tutorial4_advanced_training.sh>`_
+
+
+Acknowledgement
+---------------
+
+This research is based upon work supported in part by the Office of the
+Director of National Intelligence (ODNI), 6 Intelligence Advanced Research
+Projects Activity (IARPA), via 2021-2011000005. The views and conclusions
+contained herein are those of the authors and should not be interpreted as
+necessarily representing the official policies, either expressed or implied, of
+ODNI, IARPA, or the U.S. Government. The U.S. Government is authorized to
+reproduce and distribute reprints for governmental purposes notwithstanding any
+copyright annotation therein
+
+
+.. |main-pipeline| image:: https://gitlab.kitware.com/smart/watch/badges/main/pipeline.svg
+   :target: https://gitlab.kitware.com/smart/watch/-/pipelines/main/latest
+.. |main-coverage| image:: https://gitlab.kitware.com/smart/watch/badges/main/coverage.svg
+   :target: https://gitlab.kitware.com/smart/watch/badges/main/coverage.svg
