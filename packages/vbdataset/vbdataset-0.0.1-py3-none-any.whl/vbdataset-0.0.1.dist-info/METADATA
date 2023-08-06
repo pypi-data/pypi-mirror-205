@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: vbdataset
+Version: 0.0.1
+Summary: VAAI-BODY dataset module
+Home-page: UNKNOWN
+Author: yoonhee
+Author-email: yhkim@ncsoft.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Requires-Dist: boto3
+Requires-Dist: pymongo
+
+UNKNOWN
+
