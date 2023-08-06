@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+run_SnapFISH.py
+setup.py
+SnapFISH.egg-info/PKG-INFO
+SnapFISH.egg-info/SOURCES.txt
+SnapFISH.egg-info/dependency_links.txt
+SnapFISH.egg-info/entry_points.txt
+SnapFISH.egg-info/requires.txt
+SnapFISH.egg-info/top_level.txt
+src/SingleChrProcessor.py
+src/SnapFISH.py
+src/__init__.py
+src/__main__.py
