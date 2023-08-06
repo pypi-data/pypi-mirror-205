@@ -1,0 +1,5 @@
+[setuptools.file_finders]
+autocalver = autocalver.integration:find_files
+
+[setuptools.finalize_distribution_options]
+autocalver = autocalver.integration:guess_version
