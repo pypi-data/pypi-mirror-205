@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/applying/__init__.py
+src/applying/cloudformation/__init__.py
+src/applying/cloudformation/project.py
+src/applying_cli.egg-info/PKG-INFO
+src/applying_cli.egg-info/SOURCES.txt
+src/applying_cli.egg-info/dependency_links.txt
+src/applying_cli.egg-info/top_level.txt
