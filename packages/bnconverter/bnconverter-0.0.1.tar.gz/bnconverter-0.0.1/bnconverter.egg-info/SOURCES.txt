@@ -1,0 +1,10 @@
+README.md
+setup.py
+bnconverter.egg-info/PKG-INFO
+bnconverter.egg-info/SOURCES.txt
+bnconverter.egg-info/dependency_links.txt
+bnconverter.egg-info/requires.txt
+bnconverter.egg-info/top_level.txt
+bnunicode/__init__.py
+bnunicode/bnconverter.py
+bnunicode/util.py
