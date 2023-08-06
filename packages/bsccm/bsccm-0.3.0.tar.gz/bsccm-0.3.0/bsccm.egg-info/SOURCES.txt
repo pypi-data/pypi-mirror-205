@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+bsccm/__init__.py
+bsccm/_version.py
+bsccm/bsccm.py
+bsccm/led_array_calibration.py
+bsccm.egg-info/PKG-INFO
+bsccm.egg-info/SOURCES.txt
+bsccm.egg-info/dependency_links.txt
+bsccm.egg-info/requires.txt
+bsccm.egg-info/top_level.txt
