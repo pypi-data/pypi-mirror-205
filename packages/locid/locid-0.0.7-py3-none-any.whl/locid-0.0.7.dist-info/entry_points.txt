@@ -1,0 +1,2 @@
+[console_scripts]
+locid = locid.cli:main
