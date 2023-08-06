@@ -1,0 +1,8 @@
+epiweeks
+netCDF4
+networkx
+numpy
+numba
+pandas
+pyyaml
+xarray
