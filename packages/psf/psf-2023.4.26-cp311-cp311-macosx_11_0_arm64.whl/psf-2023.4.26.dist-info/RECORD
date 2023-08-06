@@ -1,0 +1,9 @@
+psf-2023.4.26.dist-info/RECORD,,
+psf-2023.4.26.dist-info/LICENSE,sha256=2jZCDBLamSph3QCSLDvj-Kc4ODEkrExigw0fqXkw6NE,1546
+psf-2023.4.26.dist-info/WHEEL,sha256=GYWT1Q_60SI2bAUaGrkLwkEA5yYDmphib6XcY6K30ZQ,110
+psf-2023.4.26.dist-info/top_level.txt,sha256=hl58iBs6un3SxETzKo6Ms6vdkMftKZwQ6FaNJhCbiJU,4
+psf-2023.4.26.dist-info/METADATA,sha256=oIS-vKOUo8lUUi1wReCuEK77mnVCYNXWndV7ognkwfc,4815
+psf/__init__.py,sha256=9udw2vL5KVJq1cskaZIaKpGEVtMR_LxVGkeRzrrvMVU,85
+psf/psf.py,sha256=sr_p7vi-qR2WIkFzLHlkURC4WL8G-XP8T-l0V2lSq48,32353
+psf/_psf.cpython-311-darwin.so,sha256=pYwrKLHsq7kC_nq1gvSXla2WjuCRQgs2_lQ685aHYrg,73671
+psf/examples/psf_example.py,sha256=xj3KGR7osA2F7u3LgEDtQGvUq0AE5HZwix-WmT32wGU,4350
