@@ -1,0 +1,173 @@
+[
+  {
+    "text": "jerry goldsmith : l homme au chapeau de cow-boy dans la cabine t\u00e9l\u00e9phonique au salon de l invention ( cam\u00e9o non cr\u00e9dit\u00e9 )",
+    "identifier": "05828a36-edb1-4538-98ad-226ad93181d6",
+    "title": "05828a36-edb1-4538-98ad-226ad93181d6",
+    "metadata": {
+      "corpus": "train",
+      "language": "fr"
+    },
+    "altTexts": [
+      {
+        "name": "substitute_entities",
+        "text": "1. Context Variant: Michel Legrand: l'individu en b\u00e9ret dans la voiture rouge sur la route de la gloire (cam\u00e9o non cr\u00e9dit\u00e9)\n   New Named Entities: Michel Legrand, b\u00e9ret, voiture rouge\n\n2. Context Variant: Ennio Morricone: l'homme au fedora dans le bar \u00e0 whisky de la cit\u00e9 du crime (cam\u00e9o non cr\u00e9dit\u00e9)\n   New Named Entities: Ennio Morricone, fedora, bar \u00e0 whisky, cit\u00e9 du crime\n\n3. Context Variant: John Williams: le type avec une casquette de baseball dans la boutique de jouets de la ville fant\u00f4me (cam\u00e9o non cr\u00e9dit\u00e9)\n   New Named Entities: John Williams, casquette de baseball, boutique de jouets, ville fant\u00f4me\n\n4. Context Variant: Alan Silvestri: l'individu en bonnet dans le train de la r\u00e9demption \u00e0 destination de la vall\u00e9e de l'espoir (cam\u00e9o non cr\u00e9dit\u00e9)\n   New Named Entities: Alan Silvestri, bonnet, train de la r\u00e9demption, vall\u00e9e de l'espoir\n\n5. Context Variant: Hans Zimmer: l'homme avec un chapeau melon dans le bar \u00e0 jazz de la sc\u00e8ne du crime (cam\u00e9o non cr\u00e9dit\u00e9)\n   New Named Entities: Hans Zimmer, chapeau melon, bar \u00e0 jazz, sc\u00e8ne du crime"
+      }
+    ],
+    "sentences": [
+      {
+        "start": 0,
+        "end": 121
+      }
+    ],
+    "annotations": [
+      {
+        "start": 0,
+        "end": 15,
+        "labelName": "artist",
+        "label": "Artist",
+        "text": "jerry goldsmith",
+        "createdBy": "import",
+        "createdDate": "2022-11-16T22:22:56.199Z",
+        "modifiedDate": "2022-11-16T22:22:56.199Z",
+        "status": "OK"
+      },
+      {
+        "start": 29,
+        "end": 47,
+        "labelName": "clothing",
+        "label": "Clothing",
+        "text": "chapeau de cow-boy",
+        "createdBy": "import",
+        "createdDate": "2022-11-16T22:22:56.199Z",
+        "modifiedDate": "2022-11-16T22:22:56.199Z",
+        "status": "OK"
+      }
+    ],
+    "categories": []
+  },
+  {
+    "text": "alber elbaz le remplace en tant que directeur artistique du pr\u00eat-\u00e0-porter f\u00e9minin et hedi slimane du pr\u00eat \u00e0 porter masculin .",
+    "identifier": "47b90a69-f8ee-41d1-b3a1-8905fcf1f02a",
+    "title": "47b90a69-f8ee-41d1-b3a1-8905fcf1f02a",
+    "metadata": {
+      "corpus": "dev",
+      "language": "fr"
+    },
+    "altTexts": [
+      {
+        "name": "substitute_entities",
+        "text": "Variant 1: \nLouis Vuitton embauche Pierre-Yves Roussel comme directeur artistique du pr\u00eat-\u00e0-porter f\u00e9minin et Yohji Yamamoto du pr\u00eat \u00e0 porter masculin \u00e0 la place d'Alber Elbaz et Hedi Slimane.\n\nNew named entities: Louis Vuitton, Pierre-Yves Roussel, Yohji Yamamoto\n\nVariant 2: \nClare Waight Keller devient la nouvelle directrice artistique du pr\u00eat-\u00e0-porter f\u00e9minin tandis que Kim Jones prend en charge le pr\u00eat \u00e0 porter masculin, rempla\u00e7ant Alber Elbaz et Hedi Slimane.\n\nNew named entities: Clare Waight Keller, Kim Jones\n\nVariant 3: \nGiorgio Armani nomme Stella McCartney comme directrice artistique du pr\u00eat-\u00e0-porter f\u00e9minin et Tom Ford du pr\u00eat \u00e0 porter masculin, succ\u00e9dant \u00e0 Alber Elbaz et Hedi Slimane.\n\nNew named entities: Giorgio Armani, Stella McCartney, Tom Ford"
+      }
+    ],
+    "sentences": [
+      {
+        "start": 0,
+        "end": 125
+      }
+    ],
+    "annotations": [
+      {
+        "start": 0,
+        "end": 11,
+        "labelName": "artist",
+        "label": "Artist",
+        "text": "alber elbaz",
+        "createdBy": "import",
+        "createdDate": "2022-11-20T00:09:58.862Z",
+        "modifiedDate": "2022-11-20T00:09:58.862Z",
+        "status": "OK"
+      },
+      {
+        "start": 60,
+        "end": 73,
+        "labelName": "clothing",
+        "label": "Clothing",
+        "text": "pr\u00eat-\u00e0-porter",
+        "createdBy": "import",
+        "createdDate": "2022-11-20T00:09:58.862Z",
+        "modifiedDate": "2022-11-20T00:09:58.862Z",
+        "status": "OK"
+      },
+      {
+        "start": 85,
+        "end": 97,
+        "labelName": "artist",
+        "label": "Artist",
+        "text": "hedi slimane",
+        "createdBy": "import",
+        "createdDate": "2022-11-20T00:09:58.862Z",
+        "modifiedDate": "2022-11-20T00:09:58.862Z",
+        "status": "OK"
+      }
+    ],
+    "categories": []
+  },
+  {
+    "text": "chanel se fait aussi particuli\u00e8rement remarqu\u00e9 avec lily-rose depp au bras de karl lagerfeld avec une robe de mari\u00e9e rose pastel .",
+    "identifier": "a62886ab-c553-4153-894f-33ac31e17c33",
+    "title": "a62886ab-c553-4153-894f-33ac31e17c33",
+    "metadata": {
+      "corpus": "dev",
+      "language": "fr"
+    },
+    "altTexts": [
+      {
+        "name": "substitute_entities",
+        "text": "1. Chanel se fait aussi particuli\u00e8rement remarqu\u00e9 avec Kaia Gerber au bras de Jean-Paul Gaultier avec une robe de mari\u00e9e blanche.\n2. Gucci se fait aussi particuli\u00e8rement remarqu\u00e9 avec Lily Collins au bras de Marc Jacobs avec une robe de mari\u00e9e dor\u00e9e.\n3. Dior se fait aussi particuli\u00e8rement remarqu\u00e9 avec Zendaya au bras de Riccardo Tisci avec une robe de mari\u00e9e verte fonc\u00e9e.\n4. Valentino se fait aussi particuli\u00e8rement remarqu\u00e9 avec Millie Bobby Brown au bras de Tom Ford avec une robe de mari\u00e9e bleu clair.\n5. Yves Saint Laurent se fait aussi particuli\u00e8rement remarqu\u00e9 avec Bella Hadid au bras de Alexander McQueen avec une robe de mari\u00e9e noire."
+      }
+    ],
+    "sentences": [
+      {
+        "start": 0,
+        "end": 130
+      }
+    ],
+    "annotations": [
+      {
+        "start": 0,
+        "end": 6,
+        "labelName": "privatecorp",
+        "label": "PrivateCorp",
+        "text": "chanel",
+        "createdBy": "import",
+        "createdDate": "2022-11-20T00:09:59.127Z",
+        "modifiedDate": "2022-11-20T00:09:59.127Z",
+        "status": "OK"
+      },
+      {
+        "start": 52,
+        "end": 66,
+        "labelName": "artist",
+        "label": "Artist",
+        "text": "lily-rose depp",
+        "createdBy": "import",
+        "createdDate": "2022-11-20T00:09:59.127Z",
+        "modifiedDate": "2022-11-20T00:09:59.127Z",
+        "status": "OK"
+      },
+      {
+        "start": 78,
+        "end": 92,
+        "labelName": "artist",
+        "label": "Artist",
+        "text": "karl lagerfeld",
+        "createdBy": "import",
+        "createdDate": "2022-11-20T00:09:59.127Z",
+        "modifiedDate": "2022-11-20T00:09:59.127Z",
+        "status": "OK"
+      },
+      {
+        "start": 102,
+        "end": 116,
+        "labelName": "clothing",
+        "label": "Clothing",
+        "text": "robe de mari\u00e9e",
+        "createdBy": "import",
+        "createdDate": "2022-11-20T00:09:59.127Z",
+        "modifiedDate": "2022-11-20T00:09:59.127Z",
+        "status": "OK"
+      }
+    ],
+    "categories": []
+  }
+]
