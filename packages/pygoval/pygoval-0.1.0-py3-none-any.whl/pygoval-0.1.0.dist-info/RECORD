@@ -1,0 +1,10 @@
+pygoval-0.1.0.dist-info/METADATA,sha256=33DNrYHATSPS1dmtpQX_JWsyC8dhuwyTPqPs9-d--QI,401
+pygoval-0.1.0.dist-info/WHEEL,sha256=7dGFtUmOf30dPBLpGD2z643cxg89joO7p3JHBAwDv6E,90
+pygoval/__init__.py,sha256=uklEIogNKyM42cKwgttn0Pqi8zQOU_38mGRhCgoX32o,1079
+pygoval/base36.py,sha256=G-fsuuQBCtCYDwI96HaU-lTiHukfg1wjbd_i5swi_Zo,276
+pygoval/channel.py,sha256=pC1Hnf_1V24nHLkBzm7itSwi8YjE4YkWqrA7_cnJpaA,3205
+pygoval/client.py,sha256=IbXtt12noup6ndXHsAuQzchgHhHa3kXLQir_l2Wht50,3442
+pygoval/exceptions.py,sha256=In2UEsxvLpeG40hgOHO9YHbi9FNT_pseXOM278jR00U,151
+pygoval/proto/api_pb2.py,sha256=Jc0mbPL5KOhSp3S0u3iKDOLYEje1sM7Pmab5OvBhUjw,76914
+pygoval/proto/api_pb2.pyi,sha256=6jpL1Kl0id5-EFHfAUwriEY5INxT8MBKMsYJalqoupY,253951
+pygoval-0.1.0.dist-info/RECORD,,

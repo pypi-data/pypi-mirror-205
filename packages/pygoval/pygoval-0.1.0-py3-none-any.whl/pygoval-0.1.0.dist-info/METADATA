@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pygoval
+Version: 0.1.0
+Summary: Goval client in python
+Author-Email: PotentialStyx <xmwmd7uq@duck.com>
+License: MIT
+Requires-Python: >=3.10
+Requires-Dist: six>=1.16.0
+Requires-Dist: websocket-client>=1.5.1
+Requires-Dist: aiohttp>=3.8.4
+Requires-Dist: aiodns>=3.0.0
+Requires-Dist: requests>=2.29.0
+Description-Content-Type: text/markdown
+
+# pygoval
+
+Goval client in python
+
