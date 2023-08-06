@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: TkUI
+Version: 0.2.0
+Summary: TkUI,是基于tkinter的Canvas模块开发的,具有现代化风格的UI库
+Home-page: https://gitee.com/iamxcd/tk-ui
+Author: iamxcd
+Author-email: iamxcd@gmail.com
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+TkUI
+> TkUI,是基于tkinter的Canvas模块开发的,具有现代化风格的UI库
+
+
+注意 目前还在开发中,请谨慎使用
+
+### 快速安装
+
+> pip install TkUI
+
+### 示例
+
+```python
+
+```
