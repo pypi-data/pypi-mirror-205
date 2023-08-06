@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: studentgradesconverter
+Version: 0.0.3
+Summary: Package for calculating grades
+Author: Nishanth Gone
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Student Grades Converter Package
+
+This library is used for calculating average percentage and grades.
