@@ -1,0 +1,42 @@
+[project]
+name = "pyloras"
+authors = [
+    {name = "Zolisa Bleki", email = "zolisa.bleki@gmail.com"}
+]
+description = "Experimental implementations of several (over/under)-sampling techniques not yet available in the imbalanced-learn library."
+readme = "README.md"
+dynamic = ["version"]
+requires-python = ">=3.8"
+dependencies = ["numpy >= 1.17.3", "imbalanced-learn < 1.0.0"]
+license = {text = "BSD 3-Clause License"}
+keywords = [
+    'loras',
+    'imbalanced datasets',
+    'oversampling',
+    'machine learning',
+    'localized affine random shadowsampling'
+]
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering",
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3 :: Only",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: Microsoft :: Windows :: Windows 10",
+    "Operating System :: MacOS :: MacOS X",
+]
+
+[project.urls]
+source = "https://github.com/zoj613/pyloras"
+tracker = "https://github.com/zoj613/pyloras/issues"
+
+[build-system]
+requires = ["wheel", "setuptools>=61.0.0", "setuptools-scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["pyloras"]
+
+[tool.setuptools_scm]
+write_to = "pyloras/_version.py"
