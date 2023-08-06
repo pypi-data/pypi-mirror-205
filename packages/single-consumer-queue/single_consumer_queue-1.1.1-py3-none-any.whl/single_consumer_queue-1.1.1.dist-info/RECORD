@@ -1,0 +1,7 @@
+single_consumer_queue/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+single_consumer_queue/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+single_consumer_queue/queue.py,sha256=atnPpcTjgc8yNx4eOkbIT9TWcra4u0-aMysKkmurL-U,3454
+single_consumer_queue-1.1.1.dist-info/LICENSE,sha256=kDXbfFty0jBJDMRzmgNwFfdHn5i8wkw5oW5jDZOl6_E,1062
+single_consumer_queue-1.1.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+single_consumer_queue-1.1.1.dist-info/METADATA,sha256=pNgUc_LYbGZheAYmzPRr4-ZyYhQYQy-r9UwCkygNzDE,2304
+single_consumer_queue-1.1.1.dist-info/RECORD,,
