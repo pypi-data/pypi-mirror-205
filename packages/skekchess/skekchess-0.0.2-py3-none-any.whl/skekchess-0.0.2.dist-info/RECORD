@@ -1,0 +1,10 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+skekchess/board.py,sha256=iyFwupo6YmNOZmagJKuGIigcqWGtmsReWoIsJ4TV0QM,5680
+skekchess/chessman.py,sha256=-DAbPUB0imdf4u-RBDQgxLFuOActLHfPb5ghvY48dOc,14895
+skekchess/enums.py,sha256=se6bvN3ptLCe4-E3qLiJerWBs35qGm6vQayi1XqE6iU,3390
+skekchess/skek_chess.py,sha256=RkGH1y2Oz3sMNkKdQ5-k0wpYzaEWvEBRhlUxLILcGtU,4424
+skekchess-0.0.2.dist-info/LICENSE,sha256=Qv2ilebwoUtMJnRsZwRy729xS5JZQzLauJ0tQzkAkTA,1088
+skekchess-0.0.2.dist-info/METADATA,sha256=0PQnMVz1UTrA1tAXShxyWEOgd6BL-xLGWK1WcK5_Syo,537
+skekchess-0.0.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+skekchess-0.0.2.dist-info/top_level.txt,sha256=SvnzHUX9xEaGw5nVMPPXvy6FNaqUzKCrOphZoDeo010,19
+skekchess-0.0.2.dist-info/RECORD,,
