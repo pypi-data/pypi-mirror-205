@@ -1,0 +1,9 @@
+sonos_websocket/__init__.py,sha256=iWQr--iu0HIScUWDXQgfOXSFlgbbCOFWPWIYPjRtMyg,127
+sonos_websocket/__main__.py,sha256=RzpH03FoDd1lcZZQmlF749VS2yrYUhn9qeO93Gc6I58,997
+sonos_websocket/const.py,sha256=IRrPKFiWSivFoeW2uAHkYAslQk1u6Us13llJrmr03eQ,108
+sonos_websocket/exception.py,sha256=uNmFji7OPLIXx3WkblHkT-8mW9WNiojhyPtevjqWigY,447
+sonos_websocket/websocket.py,sha256=1i1gFGOfGAg6V67ccMubk6l5xftHqU3Qhw03H_CBE0Q,6368
+sonos_websocket-0.1.0.dist-info/METADATA,sha256=Mngs3SAGfCxw0o6JenmXc9FzzMvdHF_rZI_dfcxBqeY,1710
+sonos_websocket-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+sonos_websocket-0.1.0.dist-info/top_level.txt,sha256=rVGZhqqGmaLgWnuTEACt0u2fVF7xJKWaRxnLeP1PQCk,16
+sonos_websocket-0.1.0.dist-info/RECORD,,
