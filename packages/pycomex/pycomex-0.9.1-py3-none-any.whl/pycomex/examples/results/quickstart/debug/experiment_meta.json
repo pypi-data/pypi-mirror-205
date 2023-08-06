@@ -1,0 +1,11 @@
+{
+    "base_path": "/media/ssd/Programming/pycomex/pycomex/examples",
+    "description": "\nThis doc string will be saved as the \"description\" meta data of the experiment records\n",
+    "duration": 0.003835439682006836,
+    "end_time": 1682605515.006457,
+    "has_error": false,
+    "namespace": "results/quickstart",
+    "short_description": "",
+    "start_time": 1682605515.0026217,
+    "status": "done"
+}
