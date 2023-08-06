@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+stissplice/__init__.py
+stissplice/splicer.py
+stissplice/tools.py
+stissplice.egg-info/PKG-INFO
+stissplice.egg-info/SOURCES.txt
+stissplice.egg-info/dependency_links.txt
+stissplice.egg-info/requires.txt
+stissplice.egg-info/top_level.txt
