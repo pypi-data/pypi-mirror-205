@@ -1,0 +1,7 @@
+jinja2
+build
+pyyaml
+requests
+twine
+tqdm
+wheel
