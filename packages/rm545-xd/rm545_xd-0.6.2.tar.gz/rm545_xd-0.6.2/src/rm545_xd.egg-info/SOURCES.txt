@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+src/rm545_xd/VaR.py
+src/rm545_xd/__init__.py
+src/rm545_xd/calculation.py
+src/rm545_xd/cov_matrix.py
+src/rm545_xd/linear_regression.py
+src/rm545_xd/simulation.py
+src/rm545_xd.egg-info/PKG-INFO
+src/rm545_xd.egg-info/SOURCES.txt
+src/rm545_xd.egg-info/dependency_links.txt
+src/rm545_xd.egg-info/top_level.txt
