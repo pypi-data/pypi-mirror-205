@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+Taxation.egg-info/PKG-INFO
+Taxation.egg-info/SOURCES.txt
+Taxation.egg-info/dependency_links.txt
+Taxation.egg-info/top_level.txt
+taxation_properties_pkg/__init__.py
+taxation_properties_pkg/taxation_properties.py

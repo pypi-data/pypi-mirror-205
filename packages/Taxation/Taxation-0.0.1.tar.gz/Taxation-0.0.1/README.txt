@@ -1,0 +1,1 @@
+This is a simple tax calculator. You have to Pass three varible {taxable_income} ,  {gross_income}  , {deductions}. Thanks

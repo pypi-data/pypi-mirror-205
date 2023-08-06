@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: Taxation
+Version: 0.0.1
+Summary: This is very simple tax calculator
+Home-page: 
+Author: Rishab 
+Author-email: x21171203@student.ncirl.ie
+License: MIT
+Keywords: Taxation,Tax calculator
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: MacOS
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENCE.txt
+
+This is a simple tax calculator. You have to Pass three varible {taxable_income} ,  {gross_income}  , {deductions}. Thanks
+
+Change Log
+===========
+
+0.0.1 (26/04/2023)
+------------------
+- First Release
