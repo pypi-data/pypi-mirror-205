@@ -1,0 +1,7 @@
+include locate_pixelcolor_cythonmulti/requirements.txt
+include locate_pixelcolor_cythonmulti/thirdparty.json
+include locate_pixelcolor_cythonmulti/README.md
+include locate_pixelcolor_cythonmulti/colorsearchcythonmulti.pyx
+include locate_pixelcolor_cythonmulti/colorsearchcythonmultisetup.py
+include locate_pixelcolor_cythonmulti/colorsearchcythonmulti.cp310-win_amd64.pyd
+include locate_pixelcolor_cythonmulti/LICENSE
