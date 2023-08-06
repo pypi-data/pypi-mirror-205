@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: gptprobe
+Version: 0.0.5
+Summary: Probing chatgpt
+Home-page: https://github.com/gptprobe/gptprobe
+Author: gptprobe
+Author-email: pcotton@intechinvestments.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# gptprobe
+Extracting information from ChatGPT 
+
+
+
+### Install 
+
+    pip install gptprobe 
+    
+### Keys 
+From [open ai developer](https://platform.openai.com/account/api-keys) help yourself to three keys and inject them as follows:
+
+    import os 
+    os.environ['OPEN_AI_KEY_0'] = 'sk-ekOvFjAHKETQYADDAYADDA'
+    os.environ['OPEN_AI_KEY_1'] = 'sk-ekOvFjAHKETQYADDAYADDADO'
+    os.environ['OPEN_AI_KEY_2'] = 'sk-ekOvFjAHKETQYADDAYADDADOO'
+
+
+### Usage 
+Simple one-line commands 
+
+     from gptprobe 
+     to_dict("""dog  17 , cat 133, dance 1388 
+                yadda badoodle -----""")
+     
+
+
+    
