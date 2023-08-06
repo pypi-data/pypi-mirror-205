@@ -1,0 +1,7 @@
+setuptools
+zdaemon
+ZODB
+ZEO
+
+[test]
+zope.testrunner
