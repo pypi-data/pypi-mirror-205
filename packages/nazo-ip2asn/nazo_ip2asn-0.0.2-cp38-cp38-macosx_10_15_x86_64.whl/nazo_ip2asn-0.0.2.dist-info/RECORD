@@ -1,0 +1,10 @@
+nazo_ip2asn/__init__.py,sha256=BQRTPSv3pHZ44Aj04l4OiDaYdyvh_nqnT2tAF3OEASw,22
+nazo_ip2asn/ip2asn.cpp,sha256=tPN_JLmNys4v5nB7qKN9xrIb19o5Fpu6gHDv76bvUJc,215407
+nazo_ip2asn/ip2asn.cpython-38-darwin.so,sha256=tHQBJ7FHWhaioDIucJg7LozChPFGCtzGZqUaD4EU2MM,164744
+nazo_ip2asn/ip2asn.pyi,sha256=C4KK1iFDn0HoYDz9K9a6K6h_e5JK7XMoL5hcZde8-QY,484
+nazo_ip2asn/ip2asn.pyx,sha256=RPNkS1Oeo8rFKEcAWDy6tw3yp-uRxrK0JoNjE0C8D4c,797
+nazo_ip2asn-0.0.2.dist-info/LICENSE,sha256=X8pwWoup6pBPpirGavINcnx2ytLLbBLywNTQljQsgY0,1066
+nazo_ip2asn-0.0.2.dist-info/METADATA,sha256=moVY0tMK7ww-VTBFkpr8cVqfgSr7w_-3Jx3W2oLFsws,1184
+nazo_ip2asn-0.0.2.dist-info/WHEEL,sha256=W-pU-cFOu69TzD0GcM7W5uXD-phWoqlzBGq2AooVPxM,110
+nazo_ip2asn-0.0.2.dist-info/top_level.txt,sha256=61KRGQ27JZVOWE-rurETjrmJgkiQ9oXVnW1mxrBgglg,12
+nazo_ip2asn-0.0.2.dist-info/RECORD,,
