@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: diffusionkit
+Version: 0.19
+Requires-Dist: Pillow
+Requires-Dist: scipy
+Requires-Dist: einops
+Requires-Dist: transformers (>=4.25.1)
+Requires-Dist: open-clip-torch (==2.7.0)
+Requires-Dist: safetensors
+
