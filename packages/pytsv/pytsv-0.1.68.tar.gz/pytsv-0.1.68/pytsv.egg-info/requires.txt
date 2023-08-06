@@ -1,0 +1,7 @@
+attrs
+numpy
+pandas
+pyanyzip
+pylogconf
+pytconf
+tqdm
