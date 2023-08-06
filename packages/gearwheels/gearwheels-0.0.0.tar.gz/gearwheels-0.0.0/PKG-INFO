@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: gearwheels
+Version: 0.0.0
+Summary: This is a project placeholder, please stand by
+Home-page: https://github.com/vladpy8/gearwheels
+Author-Email: Vladislav Pyslaru <vlpyslaru+gearwheels@gmail.com>
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Operating System :: OS Independent
+Classifier: Typing :: Typed
+Classifier: Framework :: AsyncIO
+Classifier: Development Status :: 1 - Planning
+Project-URL: Homepage, https://github.com/vladpy8/gearwheels
+Project-URL: Repository, https://github.com/vladpy8/gearwheels
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# Gearwheels
+
+This is a project placeholder, please stand by
