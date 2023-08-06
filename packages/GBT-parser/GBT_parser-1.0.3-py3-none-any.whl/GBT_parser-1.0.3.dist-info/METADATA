@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: GBT-parser
+Version: 1.0.3
+Summary: GBT CAN bus parser.
+Home-page: https://github.com/AnandSingh-Euler/GBT-parser
+Author: Anand Singh
+Author-email: anandsingh16898@gmail.com
+License: MIT
+Keywords: can,can bus,dbc,kcd,automotive
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: bitstruct (>=8.16.1)
+Requires-Dist: python-can (>=3.3.4)
+Requires-Dist: textparser (>=0.21.1)
+Requires-Dist: diskcache
+Requires-Dist: argparse-addons
+Requires-Dist: typing-extensions (>=3.10.0.0)
+Requires-Dist: crccheck
+Provides-Extra: plot
+Requires-Dist: matplotlib ; extra == 'plot'
+Provides-Extra: windows-all
+Requires-Dist: windows-curses ; (platform_system == "Windows") and extra == 'windows-all'
+
