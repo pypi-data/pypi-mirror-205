@@ -1,0 +1,10 @@
+aws_cdk/integ_tests_alpha/__init__.py,sha256=aOS5zJD9te8UWofAnUebPU6NsfcHmejEvfzrx0tHSKU,225405
+aws_cdk/integ_tests_alpha/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/integ_tests_alpha/_jsii/__init__.py,sha256=6SDNRQbXlmoqubSID6ziA-x-oBUJufE6HqpuWXF5lNs,441
+aws_cdk/integ_tests_alpha/_jsii/integ-tests-alpha@2.77.0-alpha.0.jsii.tgz,sha256=Y9Y4Ug1ZQnqUJX89UJTGQ_PVfrqXh8yS8LCFwsoMELs,146732
+aws_cdk.integ_tests_alpha-2.77.0a0.dist-info/LICENSE,sha256=YA6CL2YE08NgoURWXRTrec3mNy-KAR-_UNdiMqgNVMI,11391
+aws_cdk.integ_tests_alpha-2.77.0a0.dist-info/METADATA,sha256=EFL61Rxmxk4hTwmQEydauUO70vRkUcZ37rvjbDZ3IVo,16513
+aws_cdk.integ_tests_alpha-2.77.0a0.dist-info/NOTICE,sha256=XtGET2JQh3C41orQUenLTefWItOqLmu2N-mGwW7t3Fo,113
+aws_cdk.integ_tests_alpha-2.77.0a0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+aws_cdk.integ_tests_alpha-2.77.0a0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.integ_tests_alpha-2.77.0a0.dist-info/RECORD,,
