@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: maestros
+Version: 0.1.1
+Summary: A package for splitting multilabel datasets into train and test sets, while preserving the distribution of labels and keeping samples from the same group together. Includes a report and chart for visualizing the stratification.
+Home-page: https://github.com/emilelampe/maestros
+Author: Emile Lampe
+Author-email: emilelampe@outlook.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+License-File: LICENSE
+
+A package for splitting multilabel datasets into train and test sets, while preserving the distribution of labels and keeping samples from the same group together. Includes a report and chart for visualizing the stratification. Multi-label stratificatin is done through the iterative-stratification package.

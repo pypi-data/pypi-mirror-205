@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+maestros/__init__.py
+maestros/functions.py
+maestros.egg-info/PKG-INFO
+maestros.egg-info/SOURCES.txt
+maestros.egg-info/dependency_links.txt
+maestros.egg-info/requires.txt
+maestros.egg-info/top_level.txt
