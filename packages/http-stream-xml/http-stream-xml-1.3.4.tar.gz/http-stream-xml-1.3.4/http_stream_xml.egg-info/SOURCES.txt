@@ -1,0 +1,8 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+http_stream_xml.egg-info/PKG-INFO
+http_stream_xml.egg-info/SOURCES.txt
+http_stream_xml.egg-info/dependency_links.txt
+http_stream_xml.egg-info/top_level.txt
