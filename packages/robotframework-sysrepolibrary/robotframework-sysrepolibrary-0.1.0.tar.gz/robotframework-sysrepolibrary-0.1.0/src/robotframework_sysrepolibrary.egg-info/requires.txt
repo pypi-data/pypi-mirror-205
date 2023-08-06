@@ -1,0 +1,9 @@
+robotframework
+sysrepo
+
+[docs]
+sphinx
+myst-parser
+
+[tests]
+tox
