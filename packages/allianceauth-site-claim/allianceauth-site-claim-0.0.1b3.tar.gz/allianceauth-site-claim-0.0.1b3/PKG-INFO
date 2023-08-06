@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: allianceauth-site-claim
+Version: 0.0.1b3
+Summary: Alliance Auth Plugin
+Home-page: https://github.com/Solar-Helix-Independent-Transport/allianceauth-site-claim
+Author: AaronKable
+Author-email: aaronkable@gmail.com
+License: GNU General Public License v3 (GPLv3)
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# Site Claim
+
+## Installation install from pypi or git
+
+- Install the app and pre-reqs
+
+```
+    pip install allianceauth-site-claim
+
+or
+
+    pip install git+https://github.com/Solar-Helix-Independent-Transport/allianceauth-site-claim.git
+```
+
+- add `'siteclaim',`
+  and `'solo',` ( if its not already there )
+  to your local.py
+- migrate
+- restart auth and authbot
+
+## Settings
+
+| Setting                   | Default | What it does                    |
+| ------------------------- | ------- | ------------------------------- |
+| `SITE_CLAIM_ENABLE_SITES` | True    | Enable or disable the Sites Cog |
+| `SITE_CLAIM_ENABLE_ESS`   | True    | Enable or disable the ESS Cog   |
+
+
