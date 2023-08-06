@@ -1,0 +1,6 @@
+README.md
+setup.py
+HelloKaistRaiLabPractice.egg-info/PKG-INFO
+HelloKaistRaiLabPractice.egg-info/SOURCES.txt
+HelloKaistRaiLabPractice.egg-info/dependency_links.txt
+HelloKaistRaiLabPractice.egg-info/top_level.txt
