@@ -1,0 +1,8 @@
+pyfed/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyfed/components.py,sha256=R7340vRAp8KvSHf-aS4a721WrBqafnyO6ffA3wourio,4301
+pyfed/global_var.py,sha256=BmAlQAUazoZxbBL8kQiYtCoiVn1BVI7ZV1whB8PNq50,374
+pyfed/ml_socket.py,sha256=1joP6jmDv7C0p-HcxKxX_0u06GzaJRKg9XgfqWIe5T8,1599
+pyfed-0.0.15.dist-info/METADATA,sha256=rT6o6LD9TAcvR1izjoDNa88mMU6r5v-uiGsU3CY55-s,6563
+pyfed-0.0.15.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+pyfed-0.0.15.dist-info/licenses/LICENSE,sha256=xPaw1s6TlMU1eq_XF_36-SQpMuy_-7_r74Stc9DaMi4,1077
+pyfed-0.0.15.dist-info/RECORD,,
