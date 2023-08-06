@@ -1,0 +1,3 @@
+include versioneer.py
+include drb/xquery/_version.py
+recursive-exclude tests *
