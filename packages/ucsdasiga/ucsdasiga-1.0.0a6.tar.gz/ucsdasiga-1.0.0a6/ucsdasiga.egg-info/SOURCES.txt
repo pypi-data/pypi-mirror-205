@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+asiga/__init__.py
+asiga/__main__.py
+asiga/scraper.py
+ucsdasiga.egg-info/PKG-INFO
+ucsdasiga.egg-info/SOURCES.txt
+ucsdasiga.egg-info/dependency_links.txt
+ucsdasiga.egg-info/top_level.txt
