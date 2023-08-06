@@ -1,0 +1,8 @@
+.gitignore
+pyproject.toml
+redvox_base/__init__.py
+redvox_base.egg-info/PKG-INFO
+redvox_base.egg-info/SOURCES.txt
+redvox_base.egg-info/dependency_links.txt
+redvox_base.egg-info/requires.txt
+redvox_base.egg-info/top_level.txt
