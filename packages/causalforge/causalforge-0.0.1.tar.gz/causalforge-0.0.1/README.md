@@ -1,0 +1,63 @@
+<img alt="autoimpute-logo" class="causalFlow-logo"  height="250" width="300"  src="logo.png">
+
+# CausalFlow
+
+[![Build Status](https://api.travis-ci.org/gtesei/Patterns_for_Continuous_Integration_Docker_Travis_CI_2_DEV.svg?branch=master)](https://travis-ci.org/gtesei/Patterns_for_Continuous_Integration_Docker_Travis_CI_2_DEV)
+[![PyPI version](https://badge.fury.io/py/python-dev-docker-project.svg)](https://badge.fury.io/py/python-dev-docker-project)
+[![Coverage Status](https://coveralls.io/repos/github/gtesei/Patterns_for_Continuous_Integration_Docker_Travis_CI_2_DEV/badge.svg?branch=master)](https://coveralls.io/github/gtesei/Patterns_for_Continuous_Integration_Docker_Travis_CI_2_DEV?branch=master)
+[![Documentation Status](https://readthedocs.org/projects/patterns-for-continuous-integration-docker-travis-ci-2-dev/badge/?version=latest)](https://patterns-for-continuous-integration-docker-travis-ci-2-dev.readthedocs.io/en/latest/?badge=latest)
+
+CausalFlow is a Python package that provides a suite of modeling & causal inference methods using machine learning algorithms based on Elevence Health recent research. It provides convenient APIs that allow to estimate Propensity Score, Average Treatment Effect (ATE), Conditional Average Treatment Effect (CATE) or Individual Treatment Effect (ITE) 
+from experimental or observational data.
+
+<details>
+  <summary> <H3>Installing Python Package</H3>  </summary>
+
+We recommend to create a proper enviroment with tensorflow and pytorch 
+installed. For example, for a local Mac enviroment without GPUs: 
+
+```sh
+conda env create -f env_mac.yml
+conda activate causalflow
+```
+
+You can install it after cloning this repository, i.e.
+
+```sh
+git clone https://gitlab.com/gtesei/causalflow.git
+cd causalflow
+[sudo] pip install -e . [--trusted-host pypi.org --trusted-host files.pythonhosted.org]
+```
+
+or directly from the repository (development), i.e.
+
+```sh
+pip install --upgrade git+https://gitlab.com/gtesei/causalflow.git [--trusted-host pypi.org --trusted-host files.pythonhosted.org]
+```
+
+or directly from PyPI, i.e.
+
+```sh
+pip install causalflow
+```
+
+After installing you can import classes and methods, e.g.
+
+```python
+import causalflow
+causalflow.__version__
+'0.0.1'
+```
+</details>
+
+<details>
+  <summary> <H3>Testing</H3>  </summary>
+  
+```bash
+cd tests
+pytest --disable-warnings 
+```
+
+</details>
+
+
