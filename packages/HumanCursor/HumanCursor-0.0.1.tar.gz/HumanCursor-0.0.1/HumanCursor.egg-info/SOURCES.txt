@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+HumanCursor.egg-info/PKG-INFO
+HumanCursor.egg-info/SOURCES.txt
+HumanCursor.egg-info/dependency_links.txt
+HumanCursor.egg-info/top_level.txt
+cursors/__init__.py
+cursors/system_cursor.py
+cursors/web_cursor.py
+cursors/utilities/__init__.py
+cursors/utilities/human_curve_generator.py
+cursors/utilities/web_adjuster.py
