@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: TsProject
+Version: 1.0.7
+Summary: TsProject Init: File POST to Cloud
+Home-page: https://www.tsginkgo.cn
+Author: Kqy
+Author-email: 2765301200@qq.com
+License: MIT
+Project-URL: Bug Reports, https://www.tsginkgo.cn
+Project-URL: Funding, https://www.tsginkgo.cn
+Project-URL: Say Thanks!, https://www.tsginkgo.cn
+Project-URL: Source, https://www.tsginkgo.cn/about
+Keywords: Tsginkgo,Ksuser,Kqy
+Platform: any
+Requires-Python: >=3.6
+Requires-Dist: requests
+
+# TsProject Python库
+> TsProject INIT
+>
+> Learn More From https://www.tsginkgo.cn/about/
+
