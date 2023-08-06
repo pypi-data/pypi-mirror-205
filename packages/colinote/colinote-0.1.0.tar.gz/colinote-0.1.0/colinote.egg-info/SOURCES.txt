@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+colinote/__init__.py
+colinote/cli.py
+colinote/data_types.py
+colinote/utils.py
+colinote.egg-info/PKG-INFO
+colinote.egg-info/SOURCES.txt
+colinote.egg-info/dependency_links.txt
+colinote.egg-info/entry_points.txt
+colinote.egg-info/requires.txt
+colinote.egg-info/top_level.txt
+tests/__init__.py
+tests/test_colinote.py
+tests/test_utils.py
