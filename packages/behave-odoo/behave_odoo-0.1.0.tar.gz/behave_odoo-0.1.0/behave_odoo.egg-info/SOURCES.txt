@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+behave_odoo/__init__.py
+behave_odoo/behave_odoo.py
+behave_odoo.egg-info/PKG-INFO
+behave_odoo.egg-info/SOURCES.txt
+behave_odoo.egg-info/dependency_links.txt
+behave_odoo.egg-info/requires.txt
+behave_odoo.egg-info/top_level.txt
