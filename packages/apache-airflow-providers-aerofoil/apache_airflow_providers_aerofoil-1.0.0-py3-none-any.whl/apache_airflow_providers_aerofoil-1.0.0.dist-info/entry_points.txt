@@ -1,0 +1,5 @@
+[airflow.plugins]
+aerofoil = aerofoil.aerofoil_plugin:AerofoilPlugin
+
+[apache_airflow_provider]
+provider_info = aerofoil.__init__:get_provider_info
