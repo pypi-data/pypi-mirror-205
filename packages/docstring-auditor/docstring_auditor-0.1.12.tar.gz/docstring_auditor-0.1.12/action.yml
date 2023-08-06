@@ -1,0 +1,53 @@
+---
+name: 'Docstring Auditor'
+author: 'Rob Luke'
+description: 'Use AI to review your code documentation.'
+branding:
+  icon: 'code'
+  color: 'blue'
+
+inputs:
+  openaiApiKey:
+    description: "OpenAI API Key"
+    required: true
+
+  path:
+    description: "Path to the file or directory to run the action on"
+    required: true
+
+runs:
+  using: "composite"
+  name: Workplace Action
+
+  runs-on: ${{ matrix.os }}
+  strategy:
+    fail-fast: false
+    matrix:
+      os: [ubuntu-latest]
+      python-version: ['3.11']
+  env:
+    OPENAI_API_KEY: ${{ input.openaiApiKey }}
+
+  steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Install Hatch
+      run: pip install --upgrade hatch
+
+    - name: pwd
+      run: |
+        pwd
+
+    - name: ls
+      run: |
+        ls
+
+    - name: Execute
+      run: hatch run docstring-auditor ${{ input.path }}
