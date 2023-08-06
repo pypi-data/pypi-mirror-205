@@ -1,0 +1,2 @@
+[console_scripts]
+netconf-tool = netconf_tool.cli:cli
