@@ -1,0 +1,9 @@
+shift_left_secure/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shift_left_secure/__main__.py,sha256=9YLsJI23tuMpXKFGE5PkY0hwWRg22DbPuaQCyxH2HVo,1238
+shift_left_secure/chatgpt_api.py,sha256=DbSO0oXCGMDxdquIAyVpStjNtX871m-fMcYRJGeGOd4,2843
+shift_left_secure/gh_action.py,sha256=JE1RMX2_HYP2NYy3A8_YXtS30QcADVNhXxE6e06NsA0,2504
+shift_left_secure/git_handler.py,sha256=iJnJVbEDdFXrtYXDXjVZAOf97RBL6J3lltJjz4msV0o,3773
+shift_left_secure/utils.py,sha256=su9cI5zKDCwQjjw6bboePrZJCwsBw-xOvmqnMKFCfZI,2978
+shift_left_secure-0.2.1.dist-info/METADATA,sha256=jYvdNUyzW3xSB0NRMlk0_VXfdp1XhqG2mc2_fdGTG4M,2314
+shift_left_secure-0.2.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+shift_left_secure-0.2.1.dist-info/RECORD,,
