@@ -1,0 +1,2 @@
+[console_scripts]
+bfet = bfet.cli:main
