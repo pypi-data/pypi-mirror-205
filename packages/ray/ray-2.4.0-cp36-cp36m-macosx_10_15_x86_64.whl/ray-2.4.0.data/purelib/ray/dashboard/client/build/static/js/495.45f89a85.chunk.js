@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkray_dashboard_client=self.webpackChunkray_dashboard_client||[]).push([[495],{6495:function(t,a,r){r.r(a);var s=r(8596),n=(r(2791),r(359)),e=r(4246),c=r(9903),i=r(184),o=(0,s.Z)((function(t){return{root:{padding:t.spacing(2),width:"100%"}}}));a.default=function(){var t=o();return(0,i.jsxs)("div",{className:t.root,children:[(0,i.jsx)(e.FB,{pageInfo:{id:"actors",title:"Actors",path:"/actors"}}),(0,i.jsx)(n.Z,{title:"ACTORS",children:(0,i.jsx)(c.Z,{})})]})}}}]);
+//# sourceMappingURL=495.45f89a85.chunk.js.map
