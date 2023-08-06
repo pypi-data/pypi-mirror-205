@@ -1,0 +1,8 @@
+dyndesign/__init__.py,sha256=RRzeJfhSXJdQaiKCErMZY1nx8of04YjutoNzHwY_Rlk,172
+dyndesign/classmerger.py,sha256=TmSzBBgNPMwJtDaJAo1soujaSwVqCfgvcvBNKQxoSCE,7497
+dyndesign/dynloader.py,sha256=u406QsmvHv45y-BUIVCH-aYKlxlDOD4KeLB8Vg_Nm-c,643
+dyndesign/dynmethod.py,sha256=GQ-3hes8_y9cyPIaxbfSDmc9Utw6tKO8JLYns4XaRUc,5948
+dyndesign/singletonmeta.py,sha256=6SK6jSVV-JMDffDmWbFru10tO_vhD5vYo-HY8lBqHkA,1512
+dyndesign-0.9.7.dist-info/METADATA,sha256=x9TmPwanYQo9r9qO5MQEi9UVeShzYsRCAGM7OaCUQVk,14914
+dyndesign-0.9.7.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+dyndesign-0.9.7.dist-info/RECORD,,
