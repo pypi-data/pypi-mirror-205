@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: fling-start
+Version: 0.1.6
+Summary: Side Project Management from the command line
+Author: Joshua McKenty
+Author-email: jmckenty@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: bootstrap-flask (>=2.2.0,<3.0.0)
+Requires-Dist: flask
+Requires-Dist: flask-admin (>=1.6.1,<2.0.0)
+Requires-Dist: flask-babel (>=3.1.0,<4.0.0)
+Requires-Dist: flask-caching (>=2.0.2,<3.0.0)
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+# Fling Start - one-file python web application library
+
+## Day zero acceleration
+
+This library makes it as easy as possible to build a web app in one file.
