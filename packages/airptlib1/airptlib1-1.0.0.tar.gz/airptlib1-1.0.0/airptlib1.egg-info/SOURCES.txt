@@ -1,0 +1,5 @@
+setup.py
+airptlib1.egg-info/PKG-INFO
+airptlib1.egg-info/SOURCES.txt
+airptlib1.egg-info/dependency_links.txt
+airptlib1.egg-info/top_level.txt
