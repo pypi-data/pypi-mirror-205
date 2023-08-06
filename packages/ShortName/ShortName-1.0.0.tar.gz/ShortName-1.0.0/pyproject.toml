@@ -1,0 +1,38 @@
+[project]
+name = "ShortName"
+version = "1.0.0"
+license = { text = "zlib/libpng License" }
+keywords = ["windows", "cli"]
+authors = [
+  { name="Eta" }
+]
+description = "Command-line utility to view and modify 8.3-style short file names on Windows"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: zlib/libpng License",
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Environment :: Win32 (MS Windows)",
+    "Operating System :: Microsoft :: Windows",
+    "Intended Audience :: End Users/Desktop"
+]
+
+[project.scripts]
+ShortName = "ShortName:main"
+
+[project.urls]
+"Homepage" = "https://github.com/Eta0/ShortName"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+zip-safe = true
+platforms = ["Win32 (MS Windows)"]
+
+[tool.black]
+line-length = 88
+preview = true

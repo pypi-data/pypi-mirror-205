@@ -1,0 +1,10 @@
+LICENSE
+README.md
+ShortName.py
+pyproject.toml
+ShortName.egg-info/PKG-INFO
+ShortName.egg-info/SOURCES.txt
+ShortName.egg-info/dependency_links.txt
+ShortName.egg-info/entry_points.txt
+ShortName.egg-info/top_level.txt
+ShortName.egg-info/zip-safe
