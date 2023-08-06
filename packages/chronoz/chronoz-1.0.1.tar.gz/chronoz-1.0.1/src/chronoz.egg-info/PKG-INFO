@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: chronoz
+Version: 1.0.1
+Author: Simon Zozol
+Author-email: simon.zozol@gmail.com
+Classifier: Topic :: Software Development
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
