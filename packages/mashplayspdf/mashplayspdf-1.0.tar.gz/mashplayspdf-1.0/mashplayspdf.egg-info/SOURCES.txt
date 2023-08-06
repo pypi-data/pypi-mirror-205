@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+mashplayspdf/__init__.py
+mashplayspdf/pdftoimagings.py
+mashplayspdf/pdftotextings.py
+mashplayspdf.egg-info/PKG-INFO
+mashplayspdf.egg-info/SOURCES.txt
+mashplayspdf.egg-info/dependency_links.txt
+mashplayspdf.egg-info/top_level.txt
