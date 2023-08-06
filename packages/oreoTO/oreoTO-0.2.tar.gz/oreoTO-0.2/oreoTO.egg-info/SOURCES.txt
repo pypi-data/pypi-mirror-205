@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+oreoTO/__init__.py
+oreoTO/to_info.py
+oreoTO.egg-info/PKG-INFO
+oreoTO.egg-info/SOURCES.txt
+oreoTO.egg-info/dependency_links.txt
+oreoTO.egg-info/not-zip-safe
+oreoTO.egg-info/top_level.txt
