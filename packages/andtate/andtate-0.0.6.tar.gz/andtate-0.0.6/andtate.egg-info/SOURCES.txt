@@ -1,0 +1,43 @@
+LICENSE
+setup.py
+andtate/AMDL Batch Gradient Descent with early stopping for Softmax Regression.py
+andtate/AMDL Linear Regression (Diabetes Dataset).py
+andtate/AMDL Logistic Regression (Iris Dataset).py
+andtate/AMDL MLP for classification of handwritten digits (MNIST Dataset).py
+andtate/AMDL Multinomial Logistic Regression (Iris Dataset).py
+andtate/AMDL SVM classifier (Iris Dataset).py
+andtate/AMDL Train an SVM regressor on the California Housing Dataset.py
+andtate/AMDL Train and fine-tune a Decision Tree for the Moons Dataset.py
+andtate/AMDL.py
+andtate/NLP Dependency parsing of a given text.py
+andtate/NLP Implement a tri-gram model.py
+andtate/NLP Lemmatization.py
+andtate/NLP Named Entity Recognition (NER) using NLTK Library.py
+andtate/NLP Named Entity Recognition (NER) using spaCy Library.py
+andtate/NLP POS tagging using HMM.py
+andtate/NLP Stemming.py
+andtate/NLP Syntactic parsing of a given text.py
+andtate/NLP Text summarization using NLTK Library.py
+andtate/NLP Text summarization using gensim Library.py
+andtate/NLP Text summarization using spaCy Library.py
+andtate/NLP Tokenization using Gensim.py
+andtate/NLP Tokenization using NLTK.py
+andtate/NLP Tokenization using Python’s split function.py
+andtate/NLP Tokenization using Regular Expressions (RegEx).py
+andtate/NLP Tokenization using the spaCy library.py
+andtate/NLP.py
+andtate/WM Apriori Algorithm.py
+andtate/WM Develop a basic crawler for the web search for user defined keywords.py
+andtate/WM Scrape an online E-Commerce Site for Data..py
+andtate/WM Scrape information from twitter..py
+andtate/WM Sentiment analysis for reviews by customers and visualize the same.py
+andtate/WM Text Mining Pre-processing using meta information from the text (Local).py
+andtate/WM Webpage Pre-processing using meta information from the web pages (Online).py
+andtate/WM deep search implementation to detect plagiarism.py
+andtate/WM spam classifier.py
+andtate/WM.py
+andtate/__init__.py
+andtate.egg-info/PKG-INFO
+andtate.egg-info/SOURCES.txt
+andtate.egg-info/dependency_links.txt
+andtate.egg-info/top_level.txt
