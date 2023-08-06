@@ -1,0 +1,11 @@
+src/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+src/generator.py,sha256=bZ6K960ZSqGq_ZNlNszCuwqp7yQKGI6TTors4S2GbIs,8944
+src/spec_parser.py,sha256=zUL8GFTvQQhyFbEmNhKB56GdoexPoi-lnMF9KODj7J4,2428
+src/spec_pilot.py,sha256=ijhFj3-hLzs0OIJ_-yR9yuiZDmHoP_Uc47aT15s-NPo,2370
+src/validator.py,sha256=BEptfLVXnqLd5d4BUrFa_OGwvESPhR1Un6krJjccR_s,726
+spec_pilot-0.2.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+spec_pilot-0.2.0.dist-info/METADATA,sha256=bytqxPL5cfODTWSJ4P64bHnBOU5MjMVxjRmjW3Y5X9w,4241
+spec_pilot-0.2.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+spec_pilot-0.2.0.dist-info/entry_points.txt,sha256=50x51USjCh3qAxW3pP3GlZWBy-WpC4EFcwi2Em0ydrI,47
+spec_pilot-0.2.0.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+spec_pilot-0.2.0.dist-info/RECORD,,
