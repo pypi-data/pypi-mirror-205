@@ -1,0 +1,42 @@
+{
+    "state": {
+        "tuya__fingerbot_mode": {
+            "click": "\ud478\uc2dc",
+            "switch": "\uc2a4\uc704\uce58"
+        },
+        "tuya__light_mode": {
+            "none": "\uaebc\uc9d0"
+        },
+        "tuya__relay_status": {
+            "off": "\uaebc\uc9d0",
+            "on": "\ucf1c\uc9d0",
+            "power_off": "\uaebc\uc9d0",
+            "power_on": "\ucf1c\uc9d0"
+        },
+        "tuya__vacuum_cistern": {
+            "closed": "\ub2eb\ud798",
+            "high": "\ub192\uc74c",
+            "low": "\ub0ae\uc74c",
+            "middle": "\uc911\uac04"
+        },
+        "tuya__vacuum_collection": {
+            "large": "\ud07c",
+            "middle": "\uc911\uac04",
+            "small": "\uc791\uc74c"
+        },
+        "tuya__vacuum_mode": {
+            "chargego": "\ucda9\uc804\ub300\ub85c \ubcf5\uadc0",
+            "left_spiral": "\uc67c\ucabd \ub098\uc120\ud615 \uccad\uc18c",
+            "mop": "\ubb3c\uac78\ub808 \uccad\uc18c",
+            "pick_zone": "\uc601\uc5ed \uc120\ud0dd",
+            "random": "\ub79c\ub364 \uccad\uc18c",
+            "right_spiral": "\uc624\ub978\ucabd \ub098\uc120\ud615 \uccad\uc18c",
+            "single": "\ub2e8\uc77c \uccad\uc18c",
+            "smart": "\uc2a4\ub9c8\ud2b8 \uccad\uc18c",
+            "spiral": "\ub098\uc120\ud615 \uccad\uc18c",
+            "standby": "\ub300\uae30 \uc911",
+            "wall_follow": "\ubcbd \ub530\ub77c\uac00\uae30",
+            "zone": "\uc601\uc5ed"
+        }
+    }
+}

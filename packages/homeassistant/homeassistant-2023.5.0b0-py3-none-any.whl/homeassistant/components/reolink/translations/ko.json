@@ -1,0 +1,29 @@
+{
+    "config": {
+        "error": {
+            "cannot_connect": "\uc5f0\uacb0\uc5d0 \uc2e4\ud328\ud588\uc2b5\ub2c8\ub2e4. \uce74\uba54\ub77c\uc758 IP \uc8fc\uc18c\ub97c \ud655\uc778\ud558\uc138\uc694."
+        }
+    },
+    "entity": {
+        "select": {
+            "auto_quick_reply_message": {
+                "state": {
+                    "off": "\uaebc\uc9d0"
+                }
+            },
+            "status_led": {
+                "state": {
+                    "alwaysonatnight": "\uc790\ub3d9 & \ubc24\uc5d0 \ud56d\uc0c1 \ucf1c\uc9d0",
+                    "auto": "\uc790\ub3d9",
+                    "stayoff": "\uba38\ubb34\ub974\uae30"
+                }
+            }
+        }
+    },
+    "issues": {
+        "enable_port": {
+            "description": "{name}\uc5d0\uc11c {ports}port(s)\ub97c \uc790\ub3d9\uc73c\ub85c \uc0ac\uc6a9\ud558\ub3c4\ub85d \uc124\uc815\ud558\uc9c0 \ubabb\ud588\uc2b5\ub2c8\ub2e4. [Reolink \ud074\ub77c\uc774\uc5b8\ud2b8]({info_link})\ub97c \uc0ac\uc6a9\ud558\uc5ec \uc218\ub3d9\uc73c\ub85c ON\uc73c\ub85c \uc124\uc815\ud569\ub2c8\ub2e4.",
+            "title": "Reolink \ud3ec\ud2b8\uac00 \ud65c\uc131\ud654\ub418\uc9c0 \uc54a\uc74c"
+        }
+    }
+}

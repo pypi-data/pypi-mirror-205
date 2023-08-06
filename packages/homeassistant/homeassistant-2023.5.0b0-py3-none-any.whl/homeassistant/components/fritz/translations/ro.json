@@ -1,0 +1,53 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Dispozitivul a fost configurat deja",
+            "already_in_progress": "Fluxul de configura\u021bie este deja \u00een desf\u0103\u0219urare",
+            "reauth_successful": "Re-autentificarea s-a realizat cu succes"
+        },
+        "error": {
+            "already_configured": "Dispozitivul a fost configurat deja",
+            "already_in_progress": "Fluxul de configura\u021bie este deja \u00een desf\u0103\u0219urare",
+            "cannot_connect": "A e\u0219uat conectarea",
+            "invalid_auth": "Autentificare nevalid\u0103"
+        },
+        "flow_title": "{name}",
+        "step": {
+            "confirm": {
+                "data": {
+                    "password": "Parola",
+                    "username": "Utilizator"
+                },
+                "description": "Am descoperit FRITZ!Box: {name}\n\nConfigureaz\u0103 FRITZ!Box Tools pentru a controla {name}",
+                "title": "Configureaz\u0103 FRITZ!Box Tools"
+            },
+            "reauth_confirm": {
+                "data": {
+                    "password": "Parola",
+                    "username": "Utilizator"
+                },
+                "description": "Actualizeaz\u0103-\u021bi datele de autentificare FRITZ!Box Tools pentru: {host}.\n\nFRITZ!Box Tools nu se poate autentifica la FRITZ!Box-ul t\u0103u.",
+                "title": "Actualizare FRITZ!Box Tools - date de acces"
+            },
+            "user": {
+                "data": {
+                    "host": "Gazd\u0103 (host)",
+                    "password": "Parola",
+                    "port": "Port",
+                    "username": "Utilizator"
+                },
+                "description": "Configureaz\u0103 FRITZ!Box Tools pentru a-\u021bi controla FRITZ!Box.\nMinimul necesar: nume de utilizator, parol\u0103.",
+                "title": "Configureaz\u0103 FRITZ!Box Tools"
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "consider_home": "Secunde pentru a lua \u00een considerare un dispozitiv drept \"acas\u0103\""
+                }
+            }
+        }
+    }
+}

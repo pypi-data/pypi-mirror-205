@@ -1,0 +1,12 @@
+{
+    "entity": {
+        "select": {
+            "pipeline": {
+                "name": "Xarxa d'Assist",
+                "state": {
+                    "preferred": "Preferit"
+                }
+            }
+        }
+    }
+}

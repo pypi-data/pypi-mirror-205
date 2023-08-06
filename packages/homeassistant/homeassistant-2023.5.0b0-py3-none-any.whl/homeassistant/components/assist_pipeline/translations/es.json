@@ -1,0 +1,12 @@
+{
+    "entity": {
+        "select": {
+            "pipeline": {
+                "name": "Canalizaci\u00f3n de asistencia",
+                "state": {
+                    "preferred": "Preferido"
+                }
+            }
+        }
+    }
+}

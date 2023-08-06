@@ -1,0 +1,13 @@
+{
+    "entity": {
+        "sensor": {
+            "wan_mode": {
+                "state": {
+                    "adsl_ppp": "ADSL (PPP)",
+                    "adsl_routed": "ADSL (\ub77c\uc6b0\ud305\ub428)",
+                    "ftth_routed": "FTTH (\ub77c\uc6b0\ud305\ub428)"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "entity_component": {
+        "_": {
+            "name": "\uce98\ub9b0\ub354",
+            "state": {
+                "off": "\uaebc\uc9d0",
+                "on": "\ucf1c\uc9d0"
+            },
+            "state_attributes": {
+                "all_day": {
+                    "state": {
+                        "false": "\uc544\ub2c8\uc694",
+                        "true": "\ub124"
+                    }
+                }
+            }
+        }
+    },
+    "title": "\uce98\ub9b0\ub354"
+}
