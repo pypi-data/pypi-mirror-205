@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: NlvWxPython
+Version: 4.2.0
+Summary: GUI toolkit for Python, "Phoenix" version
+Home-page: http://wxPython.org/
+Download-URL: https://pypi.org/project/NlvWxPython
+Author: Niel Clausen
+License: wxWindows Library License (https://opensource.org/licenses/wxwindows.php)
+Project-URL: Source, https://github.com/nielathome/Phoenix
+Project-URL: Documentation, https://docs.wxpython.org/
+Keywords: GUI,wx,wxWindows,wxWidgets,user-interface,awesome
+Platform: WIN64
+Classifier: Development Status :: 6 - Mature
+Classifier: Environment :: MacOS X :: Cocoa
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Environment :: X11 Applications :: GTK
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows :: Windows 7
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: User Interfaces
+License-File: LICENSE.txt
+Requires-Dist: pillow
+Requires-Dist: six
+Requires-Dist: numpy (<1.17) ; python_version <= "2.7"
+Requires-Dist: numpy ; python_version >= "3.0"
+
+This is a fork of the Phoenix Python bindings for the wxWidgets GUI toolkit.
+The fork extends the capabilities of the bundled Scintilla editor control to
+support near instant viewing of text files up to 2GB in size by virtualising
+the document interfaces.
+ 
+The fork is only intended to be used by the NLV project.
+ 
+For more information on the base code please refer to the
+`README file <https://github.com/wxWidgets/Phoenix/blob/wxPython-4.2.0/README.rst>`_,
+the `Migration Guide <http://docs.wxPython.org/MigrationGuide.html>`_,
+or the `wxPython API documentation <http://docs.wxPython.org/index.html>`_.
