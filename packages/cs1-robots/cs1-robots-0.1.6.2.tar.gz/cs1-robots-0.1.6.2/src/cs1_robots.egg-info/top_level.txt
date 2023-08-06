@@ -1,0 +1,6 @@
+cs1elice
+cs1graphics
+cs1media
+cs1robots
+cs1robots_images
+easygui
