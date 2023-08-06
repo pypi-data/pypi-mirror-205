@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: newsopen-easy
+Version: 0.1
+Summary: A short description of your package
+Home-page: https://github.com/yourusername/your-package
+Author: Sathish Jonnalagadda
+Author-email: jojotime7x@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# newsapi-easy
+
+
+This is  newsapi-easy package. You can use
+[apinews-easy](https://github.com/jojotime7x/newsapi-easy/)
+
+
+you can consume this API using the  pip manager
+
+step1:
+
+pip install newsapi-easy
+
+
+step 2 :
+
+import into the app
+
+
+step3 
+
+call the views with appropriate 
+
+
