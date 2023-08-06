@@ -1,0 +1,13 @@
+nonebot/adapters/spigot/__init__.py,sha256=Ypg8nCLm15B54mVo0UOAwrgEwMX2DbkxYFio-zgAO48,186
+nonebot/adapters/spigot/adapter.py,sha256=t5JifZiEeiLw-e0SPAH17qLNbzvc7CWOW88l9aEbcmA,5037
+nonebot/adapters/spigot/bot.py,sha256=oV4LmP-NZPXyFUz7R2LAsOp7EpyV1_FC-chwzl7P0iM,1282
+nonebot/adapters/spigot/collator.py,sha256=YWRqob7fWeDUIaKFRNtFAp0KMP1oWROSElxQcf7xzvo,3691
+nonebot/adapters/spigot/config.py,sha256=H38BnsvAI9S4UxziBrZPvKJ2Oo-ioye51XIMcCGu1aM,158
+nonebot/adapters/spigot/event.py,sha256=qTe8Se6lRPBtELiG72qXPJjaTpAB3NH_cF_d9OkTh8o,3048
+nonebot/adapters/spigot/message.py,sha256=L4wCR4f1citLgBWydmYggCpwS2Zf_PBmDD7PcMHeGTE,1731
+nonebot/adapters/spigot/utils.py,sha256=I4n4jaGxyoA_cFOw8HCIZPiPtoa8fIg_IqeFu9M9TuE,509
+nonebot_adapter_spigot-0.0.5.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+nonebot_adapter_spigot-0.0.5.dist-info/METADATA,sha256=64YrB8bapZt9dsMFgVveykOjmt2zMhHQo2rXjQnL3-c,1451
+nonebot_adapter_spigot-0.0.5.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+nonebot_adapter_spigot-0.0.5.dist-info/top_level.txt,sha256=UbTJda3tqCl6lnlSQGIWohDsoFmeaM0N2eRJSkbK5nY,8
+nonebot_adapter_spigot-0.0.5.dist-info/RECORD,,
