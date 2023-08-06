@@ -1,0 +1,4 @@
+[mkite.recipes]
+catalysis.adsorption = mkite_catalysis.recipes.adsorption:AdsorptionRecipe
+catalysis.supercell = mkite_catalysis.recipes.supercell:SupercellGenerationRecipe
+catalysis.surfgen = mkite_catalysis.recipes.surfgen:SurfaceGenerationRecipe
