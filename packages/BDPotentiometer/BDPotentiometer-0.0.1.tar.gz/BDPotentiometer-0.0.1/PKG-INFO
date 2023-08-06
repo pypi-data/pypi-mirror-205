@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: BDPotentiometer
+Version: 0.0.1
+Summary: BD Digital Potentiometer
+Home-page: https://github.com/bond-anton/BDPotentiometer
+Author: Anton Bondarenko
+Author-email: bond.anton@gmail.com
+License: Apache Software License
+Keywords: Potentiometer,Digital Potentiometer,gpio,gpiozero,SPI,Raspberry
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+License-File: NOTICE.txt
+
+# BDPotentiometer
+
+![Build](https://github.com/bond-anton/BDPotentiometer/workflows/Build/badge.svg)
+
+Module to operate Digital Potentiometer over SPI bus. Extends gpiozero SPIDev class.
+
+## Installation
+
+To install BDPotentiometer run
+```shell
+pip install BDPotentiometer
+```
+or
+```shell
+python setup.py install
+```
+## Usage
+
+Just import the correct potentiometer class and start operating your pot. 
+
+Please see the demo directory for the usage examples.
+
+## License
+
+BDPotentiometer is free open source software licensed under Apache license version 2.0
