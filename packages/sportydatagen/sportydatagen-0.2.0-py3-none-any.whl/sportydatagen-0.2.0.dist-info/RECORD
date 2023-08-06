@@ -1,0 +1,15 @@
+sportydatagen/__init__.py,sha256=tL9G-YqZBdiK_LLEOZkUioF6QIGuTO99rFloNK3F7-o,271
+sportydatagen/activity.py,sha256=r6dORtXnZN8ipcQ_90mT_-IlXxedXnRlyZ9LUzCfFko,5358
+sportydatagen/banister_trimp_v2.py,sha256=Samu0AQQ2Cd4YErnGPsOu8bFL9JUtETBUKDaOCYlCXU,2878
+sportydatagen/convert_to_csv.py,sha256=ox1WSVDXZMVqzp0YSPBaX3g9E3rx8J6Tm6yZzGh1lfQ,7186
+sportydatagen/csv_utils.py,sha256=6315DXGuF4UJoFtUaL_hrBlOJQsM39_rKuJz2rwQjq4,5020
+sportydatagen/feature_extraction_utils.py,sha256=sbipKyx96asVG0pu9on6MLaR825Pc04vIjbRpBk17_w,8784
+sportydatagen/filetype.py,sha256=JCNyAxODUe86DdrNfKPjJky7W0ffJRGKcc80dH3PHz0,142
+sportydatagen/return_random_data.py,sha256=DfRmozQzy13dB_tjZN8hMUXy28kg_zuqibeGw6sYs8c,7148
+sportydatagen/saf_extract_features_to_csv.py,sha256=tNotP7Pd2GEM0bT5oQgA-L2igzsf7ad96EnOiUTi9ko,2895
+sportydatagen/sportfile_utils.py,sha256=leBA1pZwZlQVfc1cY_E0MA9R9ZFfueMmGwiyumJ-m94,459
+sportydatagen/utils.py,sha256=63cJuuF8NougL_1Hj9ze1DaBojeJDRTPJmOXR4XBNgo,2514
+sportydatagen-0.2.0.dist-info/LICENSE,sha256=vel2WZFy_1qPEcRD9yLKYUwnqLB3JoZMkpdFf9ARcVw,1073
+sportydatagen-0.2.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+sportydatagen-0.2.0.dist-info/METADATA,sha256=XgPcasPNCHEEGd9zMNEU2gW9sJNFa91mvnNEtLjgsRI,2298
+sportydatagen-0.2.0.dist-info/RECORD,,
