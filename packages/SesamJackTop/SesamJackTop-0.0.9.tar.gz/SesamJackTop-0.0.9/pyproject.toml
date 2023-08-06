@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "SesamJackTop"
+version = "0.0.9"
+authors = [
+  { name="Abin Pulivelil", email="abinpulivelil@gmail.com" },
+]
+description = "A Sesam GeniE utility package"
+readme = "README.txt"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
