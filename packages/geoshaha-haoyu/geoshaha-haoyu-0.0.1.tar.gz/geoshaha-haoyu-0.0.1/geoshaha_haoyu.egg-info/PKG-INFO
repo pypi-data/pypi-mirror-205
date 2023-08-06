@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: geoshaha-haoyu
+Version: 0.0.1
+Summary: Python Boilerplate contains all the boilerplate you need to create a Python package.
+Home-page: https://github.com/hniu-tamu/geoshaha-haoyu
+Author: Haoyu Niu
+Author-email: hniu@tamu.edu
+License: MIT license
+Keywords: geoshaha_haoyu
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# geoshaha-haoyu
+
+
+[![image](https://img.shields.io/pypi/v/geoshaha-haoyu.svg)](https://pypi.python.org/pypi/geoshaha-haoyu)
+[![image](https://img.shields.io/conda/vn/conda-forge/geoshaha-haoyu.svg)](https://anaconda.org/conda-forge/geoshaha-haoyu)
+
+
+**Python Boilerplate contains all the boilerplate you need to create a Python package.**
+
+
+-   Free software: MIT license
+-   Documentation: https://hniu-tamu.github.io/geoshaha-haoyu
+    
+
+## Features
+
+-   TODO
