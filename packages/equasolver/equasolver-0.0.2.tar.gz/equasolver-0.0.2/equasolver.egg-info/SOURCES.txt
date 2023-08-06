@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+equasolver/__init__.py
+equasolver/__main__.py
+equasolver/components.py
+equasolver/linear.py
+equasolver/quadratic.py
+equasolver.egg-info/PKG-INFO
+equasolver.egg-info/SOURCES.txt
+equasolver.egg-info/dependency_links.txt
+equasolver.egg-info/top_level.txt
