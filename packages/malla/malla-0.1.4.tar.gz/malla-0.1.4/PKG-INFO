@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: malla
+Version: 0.1.4
+Summary: 
+Author: Dimas Martínez
+Author-email: dimas@ufam.edu.br
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+Simple Directed Edge Python implementation for triangle meshes
+
+# directed_edge module
+TODO
+
+# off module 
+TODO
+
+# Example:
+
+```python
+# import modules
+from malla import directed_edge as de
+from malla import off
+from dataclasses import dataclass
+
+# create a class for vertex data
+@dataclass
+class Vertex:
+    x: float
+    y: float
+    z: float
+
+# read mesh from off file
+v, f = off.read('model.off')
+
+# create a mesh
+v = [Vertex(*P) for P in v]
+m = de.mesh(v, f)
+
+# write mesh to off file
+off.write('output-model.off', m)
+```
+
