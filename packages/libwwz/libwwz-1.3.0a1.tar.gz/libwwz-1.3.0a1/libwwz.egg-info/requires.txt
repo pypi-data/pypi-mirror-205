@@ -1,0 +1,2 @@
+joblib==1.2.0
+redvox-base[matplotlib,numpy]==2023.4.27
