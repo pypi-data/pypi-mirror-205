@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: sphericalrht
+Version: 2.0.1
+Summary: Spherical implementation of the Rolling Hough Transform
+Home-page: https://github.com/georgehalal/sphericalrht
+Author: George Halal
+Author-email: halalgeorge@gmail.com
+Project-URL: Bug Tracker, https://github.com/georgehalal/sphericalrht/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: psutil (>=5.8)
+Requires-Dist: healpy (>=1.15)
+Requires-Dist: numpy (>=1.20)
+Requires-Dist: ducc0 (>=0.20)
+Requires-Dist: h5py (>=3.3)
+Provides-Extra: testing
+Requires-Dist: pytest (>=6.0) ; extra == 'testing'
+Requires-Dist: pytest-cov (>=2.0) ; extra == 'testing'
+Requires-Dist: mypy (>=0.910) ; extra == 'testing'
+Requires-Dist: flake8 (>=3.9) ; extra == 'testing'
+Requires-Dist: tox (>=3.24) ; extra == 'testing'
+
+<div align="center">
+   <img src="https://raw.githubusercontent.com/georgehalal/sphericalrht/main/docs/images/sphericalrht_logo.gif" width="450px">
+   </img>
+   <br/>
+   <a href="https://badge.fury.io/py/sphericalrht">
+   <img src="https://badge.fury.io/py/sphericalrht.svg" alt="PyPI version" height="18">
+   </a>
+   <a href='https://sphericalrht.readthedocs.io/en/latest/?badge=latest'>
+   <img src='https://readthedocs.org/projects/sphericalrht/badge/?version=latest' alt="Documentation status" />
+   </a>
+   <a href="https://github.com/georgehalal/sphericalrht/actions/workflows/tests.yml">
+   <img src="https://github.com/georgehalal/sphericalrht/actions/workflows/tests.yml/badge.svg" alt="Test status"/>
+   </a>
+   <a href='https://coveralls.io/github/georgehalal/sphericalrht'>
+   <img src='https://coveralls.io/repos/github/georgehalal/sphericalrht/badge.svg' alt='Coverage Status' />
+   </a>
+   <a href="https://github.com/georgehalal/sphericalrht/LICENSE">
+   <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat" alt="License"/>
+   </a>
+</div>
+<br/>
+
+<div align="center">
+   <code>sphericalrht</code> is a fast, efficient implementation of the
+   <a href="http://seclark.github.io/RHT/">Rolling Hough Transform</a>
+   that runs directly on the sphere, using spherical harmonic convolutions.
+   The documentation can be found at <a href="https://sphericalrht.readthedocs.io/en/latest/">readthedocs</a>
+   and the package is distributed over <a href="https://pypi.org/project/sphericalrht/">PyPI</a>.
+</div>
+<br/>
+
+
+## Installation
+
+Run the following in a terminal to install:
+
+```bash
+pip install sphericalrht
+```
+
+If installing on a computing cluster, you may want to run the following
+instead:
+
+```bash
+pip install sphericalrht --user
+```
+Add the `--upgrade` option to upgrade to a newer version.
+
+Note that the `sphericalrht` package requires at least Python 3.7.
+
+
+## References & Attribution
+
+The paper introducing this package is in preparation. If you make use 
+of this code in your research, please contact halalgeorge@gmail.com 
+for discussing proper citations.
