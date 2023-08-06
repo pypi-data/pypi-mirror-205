@@ -1,0 +1,12 @@
+tootstagram/__init__.py,sha256=mhnpKXQeIkF5IrGX_azoHDIKHHCyk8iIycFyhbutin4,243
+tootstagram/database.py,sha256=E7DAk_FNbTvV5O72aRKuE4CkzP7faBw_-R6AWTdOQ6U,1454
+tootstagram/instagram.py,sha256=PSynZxRdFoht-FLDAVL1_2SHkaK7PysjD40zQVpIjtI,1131
+tootstagram/main.py,sha256=FvbMmPkN6lqFgUF06PAMZRhyHZOij1ug1JWPMC5ie7E,1435
+tootstagram/mastodon.py,sha256=3fKo8Mkswjs18EETZMwD3gaAGN_98uPRS4VU6JE6r0A,2196
+tootstagram/utils.py,sha256=l0Vd0JCE1VAtJb9zGKyujlJAd-Q1_R9IZ7D3fDfY8H0,459
+tootstagram-0.0.1.dist-info/LICENSE.md,sha256=MWs9342-h4Fll9EklhFKDbNknkCwFW78SaCh4VPb4g8,21387
+tootstagram-0.0.1.dist-info/METADATA,sha256=LHicVcdKlq3LbY9YYMAHHMchyhDYOkcEtLXq-my3z5M,1809
+tootstagram-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+tootstagram-0.0.1.dist-info/entry_points.txt,sha256=4JKL4ilf6A4f9R0-Oqe6F2TLsP3-oFIoljwfzKDTRTo,54
+tootstagram-0.0.1.dist-info/top_level.txt,sha256=S3q_xO3iUIBjlJQx74RWIvZ4KBYUJDCmyyzKQl1sj-U,12
+tootstagram-0.0.1.dist-info/RECORD,,
