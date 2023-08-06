@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/worktoy/__init__.py
+src/worktoy/_discio.py
+src/worktoy/_hashpipes.py
+src/worktoy/_maybe.py
+src/worktoy/_parseerror.py
+src/worktoy/_stringtools.py
+src/worktoy/_typenames.py
+src/worktoy.egg-info/PKG-INFO
+src/worktoy.egg-info/SOURCES.txt
+src/worktoy.egg-info/dependency_links.txt
+src/worktoy.egg-info/top_level.txt
