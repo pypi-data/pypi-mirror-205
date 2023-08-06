@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: cnswd
+Version: 5.0.1
+Summary: Utilities for fetching Chinese stock webpage data
+Author: LDF
+Author-email: liu.dengfeng@hotmail.com
+License: https://github.com/liudengfeng/cnswd/blob/master/LICENSE
+Keywords: china stock data tools
+License-File: LICENSE
+
+
+    股票网络数据工具包
+    
