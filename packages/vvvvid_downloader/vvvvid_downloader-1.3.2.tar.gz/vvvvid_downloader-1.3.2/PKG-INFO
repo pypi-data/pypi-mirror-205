@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: vvvvid_downloader
+Version: 1.3.2
+Summary: Uno script in Python per scaricare da VVVVID. 
+Home-page: https://github.com/nearata/vvvvid-downloader
+Author: Nearata
+Author-email: nearata@protonmail.com
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: inquirer ==3.1.3
+Requires-Dist: httpx ==0.24.0
+Requires-Dist: rich ==13.3.5
+Requires-Dist: click ==8.1.3
+Requires-Dist: h2 >=3,<5
+
+# VVVVID Downloader
+
+> Uno script in Python per scaricare da VVVVID.
+
+## Requisiti
+
+- [Python](https://python.org) 3.9+
+- [FFmpeg](https://ffmpeg.org/) (Opzionale, solo se si vogliono scaricare e convertire i file in .mp4)
+
+## Installazione
+
+```bash
+pip install vvvvid_downloader
+```
+
+## Utilizzo
+
+```bash
+python -m vvvvid_downloader
+```
+
+Seguire le istruzioni a schermo.
+
+## Opzioni
+
+- `--download`: Permette di scaricare e convertire i file in .mp4. (Richiede FFmpeg)
+
+## Output
+
+Lo script creerà una cartella di nome `vvvvid`, con al suo interno una cartella con il nome del film che avete scaricato.
+
+- Se avete usato l'opzione `--download`, vi ritroverete i file convertiti nel formato `.mp4`.
+- In caso contrario, vi ritroverete un file `.m3u8` che potrete aprire con VLC o simili per eseguirne lo streaming.
+
+## Come trovare l'ID di un anime
+
+```bash
+https://www.vvvvid.it/show/1353/deca-dence
+```
+
+L'ID è `1353`.
+
+## Unlicense
+
+See [UNLICENSE](UNLICENSE) for details.
+
