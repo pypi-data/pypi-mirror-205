@@ -1,0 +1,10 @@
+gpt_review/__init__.py,sha256=Oehk3OhSPjpA-w5OE5GFB11_vSMw1yKxaLOslPWC0Dk,363
+gpt_review/_ask.py,sha256=5x1IPxM6JO1lfHPwUajz49sLJlc62qUOnjBFp9mOJwg,5796
+gpt_review/_command.py,sha256=CUyheWVupUZ9ygDtWkMuWQoYu4hfeLphMeqE3WZLQ1E,394
+gpt_review/_gpt_cli.py,sha256=3NNrXtGNikUdxkZP781gQCIX0PSMjOvYZeIJ5ctVR6o,1312
+gpt_review/main.py,sha256=LpCP6uOhGILm0oAK_c2dLgURrU_JGJWo0GtUy_yJ0PU,413
+gpt_review-0.0.1rc49.post1.dist-info/entry_points.txt,sha256=0_0GjrCj_JDWfU4y25XWZrTLCmi8Ef9Uqqn8XI79PME,48
+gpt_review-0.0.1rc49.post1.dist-info/LICENSE,sha256=jn-jLIdMKIRBHrjgAHH0g7NKz-MrlU--FIxEV-vvG90,1070
+gpt_review-0.0.1rc49.post1.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+gpt_review-0.0.1rc49.post1.dist-info/METADATA,sha256=itRPhAvkvhRySw0JtS88evpwfcukj0hnXXpvxp2_oKc,3281
+gpt_review-0.0.1rc49.post1.dist-info/RECORD,,
