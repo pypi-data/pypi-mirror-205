@@ -1,0 +1,8 @@
+README.md
+setup.py
+nyaa_timer.egg-info/PKG-INFO
+nyaa_timer.egg-info/SOURCES.txt
+nyaa_timer.egg-info/dependency_links.txt
+nyaa_timer.egg-info/requires.txt
+nyaa_timer.egg-info/top_level.txt
+nyaatimer/__init__.py
