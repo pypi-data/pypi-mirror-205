@@ -1,0 +1,2 @@
+[console_scripts]
+asciicli = asciicli.__main__:main
