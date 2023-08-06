@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django-staticinline = {editable = true,path = "."}
+
+
+[dev-packages]
+sphinx = "*"
+sphinx-book-theme = "*"
+pytest-django = "*"
+sphinx-autobuild = "*"
+ipdb = "*"
+black = "*"
+wheel = "*"
+setuptools = "*"
+
+[scripts]
+test = "pytest"
+docs = "sphinx-build docs docs/_build/html"
+watch-docs = "sphinx-autobuild docs docs/_build/html"
+cleanup = "sh -c \"ruff --fix staticinline && black staticinline\""
+
+[pipenv]
+allow_prereleases = true

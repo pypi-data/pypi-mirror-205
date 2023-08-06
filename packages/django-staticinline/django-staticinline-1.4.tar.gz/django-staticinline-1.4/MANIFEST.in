@@ -1,0 +1,7 @@
+include *.lock
+include *.py
+include CHANGELOG
+include Pipfile
+include pyproject.toml
+include tox.ini
+graft staticinline/tests/testapp
