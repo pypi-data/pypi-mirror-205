@@ -1,0 +1,10 @@
+pyparsing
+configparser
+ply
+
+[:platform_system == "Windows"]
+pywin32
+wmi
+
+[GUI]
+PyQt5

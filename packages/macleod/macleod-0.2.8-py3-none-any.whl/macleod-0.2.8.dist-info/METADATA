@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: macleod
+Version: 0.2.8
+Summary: A simple way to parse clif files and convert them into different ontology file formats
+Author-email: Gunnar Eastman <gunnar.eastman@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
