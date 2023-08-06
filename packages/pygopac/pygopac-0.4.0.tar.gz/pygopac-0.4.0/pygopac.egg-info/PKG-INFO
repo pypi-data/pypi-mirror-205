@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: pygopac
+Version: 0.4.0
+Summary: A simple library for working with pac files.
+Author-email: Aleksey Petrunnik <petrunnik.a@gmail.com>
+License: MIT
+Project-URL: homepage, https://github.com/aleksey925/py-gopac
+Project-URL: repository, https://github.com/aleksey925/py-gopac
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development
+Classifier: Intended Audience :: Developers
+Requires-Python: <3.12,>=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+pygopac
+=======
+
+A simple library for working with pac files.
+
+## Examples
+
+```python
+import gopac
+
+path = gopac.download_pac_file('https://host.com/proxy.pac')
+proxy = gopac.find_proxy(path, 'https://www.some-site.com')
+```
+
+You can find other usage examples in the "examples" folder.
+
+## Build wheel
+
+Requirements:
+
+- python
+- pdm (optional)
+- golang >= 1.20 (The path to the executable file `go` should be in the PATH environment variable.
+  If the `go version` command is executed without errors, then everything is correctly configured.)
+- access to the internet
+
+Build dist with pdm:
+
+```
+make build-dist-by-pdm
+```
+
+Build dist using standard tools:
+
+```
+make build-dist
+```
