@@ -1,0 +1,15 @@
+anomalo/__init__.py,sha256=8fnGgMe62Mo0mOOulP29_cnFT3kdtNF1XiCom6IQB54,113
+anomalo/__main__.py,sha256=FqGIAF76W17bVmph-BnBQMIdn6LTL_Ha_dY0nbv_vLU,35
+anomalo/__version__.py,sha256=PQVflpJdJDETGf2g1BB5OHCS_5KtgteERschfoSBtss,23
+anomalo/anomalo.py,sha256=89TYGmVV_ovI53lsr-OfSkJpoDkKm6-FwDWjyz3ckDE,250
+anomalo/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+anomalo/cli/cli.py,sha256=fH9W1a8_Y6_FU9ZhU6MbaillL8xfwwFdzHY0l8m3kX8,699
+anomalo/cli/models.py,sha256=ynufB6xg7Xu1pg4ycyrdQDLXRT-dIbyHVQlMXkJpaBs,7878
+anomalo/cli/state.py,sha256=b5SgGBm4b-JmdIDOT8xVnzRKce1619EenqShkjLgERE,6134
+anomalo/client.py,sha256=cVEzphXFD2N2wzUKhTMlAIdn5WVNlnkX9Qh06ptF_Zw,9946
+anomalo/encoder.py,sha256=au7SGTKmQkzVhAwZbUkULEwkEBgVxtrCuawOk-6fe0M,3425
+anomalo-0.15.1.dist-info/LICENSE,sha256=MCs3225oaLSmzyOrKnjD4VxR67UGo_9xl-Koev7x_LY,11344
+anomalo-0.15.1.dist-info/METADATA,sha256=0NCcatudpR-gISkwbKwSlqfCVZf0mGZTl6wkwZYIFaI,958
+anomalo-0.15.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+anomalo-0.15.1.dist-info/entry_points.txt,sha256=P8hNRE2qWpP5SIJt8FIbdchyIWKjokkIX-FR5iV78Rs,48
+anomalo-0.15.1.dist-info/RECORD,,
