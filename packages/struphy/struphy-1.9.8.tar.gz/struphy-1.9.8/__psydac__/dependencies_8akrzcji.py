@@ -1,0 +1,14 @@
+from pyccel.decorators import types
+from numpy import shape
+@types("float64[:,:]", "float64[:]", "float64[:]")
+def lo_dot_8akrzcji(mat, x, out):
+
+    
+    for i1 in range(0, 128, 1):
+        v = 0.0
+        for k1 in range(0, 7, 1):
+            v += mat[3 + i1,k1]*x[i1 + k1]
+        
+        out[3 + i1] = v
+    
+    return
