@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+oreoIN/__init__.py
+oreoIN/tk_info.py
+oreoTK.egg-info/PKG-INFO
+oreoTK.egg-info/SOURCES.txt
+oreoTK.egg-info/dependency_links.txt
+oreoTK.egg-info/not-zip-safe
+oreoTK.egg-info/top_level.txt
