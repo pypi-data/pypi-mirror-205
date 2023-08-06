@@ -1,0 +1,4 @@
+include fabisschomagut/requirements.txt
+include fabisschomagut/thirdparty.json
+include fabisschomagut/LICENSE
+include fabisschomagut/README.md
