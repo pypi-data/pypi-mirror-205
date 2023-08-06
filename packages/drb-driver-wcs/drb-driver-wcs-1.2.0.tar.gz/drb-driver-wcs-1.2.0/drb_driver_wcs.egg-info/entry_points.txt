@@ -1,0 +1,5 @@
+[drb.driver]
+wcs = drb.drivers.wcs:WcsFactory
+
+[drb.topic]
+wcs = drb.topics.wcs

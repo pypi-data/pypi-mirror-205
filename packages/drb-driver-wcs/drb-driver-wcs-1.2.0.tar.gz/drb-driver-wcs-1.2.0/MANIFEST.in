@@ -1,0 +1,2 @@
+include versioneer.py
+include drb/drivers/wcs/_version.py

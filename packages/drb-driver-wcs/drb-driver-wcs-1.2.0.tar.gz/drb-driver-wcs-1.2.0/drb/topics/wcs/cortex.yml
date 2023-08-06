@@ -1,0 +1,8 @@
+id: dc71a76b-35dd-485b-ba5d-6c4464145364
+label: 'Web Coverage Service (WCS)'
+category: PROTOCOL
+factory: wcs
+signatures:
+  - python: |
+      return '+wcs' in node.path.scheme 
+
