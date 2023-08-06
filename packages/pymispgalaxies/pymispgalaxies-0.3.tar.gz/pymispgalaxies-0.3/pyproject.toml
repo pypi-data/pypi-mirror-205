@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "pymispgalaxies"
+version = "0.3"
+description = "Python API for the MISP Galaxies."
+authors = ["Raphaël Vinot <raphael.vinot@circl.lu>"]
+license = "BSD-3-Clause"
+repository = "https://github.com/MISP/PyMISPGalaxies"
+
+readme = "README.md"
+
+classifiers=[
+    'License :: OSI Approved :: BSD License',
+    'Development Status :: 5 - Production/Stable',
+    'Environment :: Console',
+    'Intended Audience :: Science/Research',
+    'Intended Audience :: Telecommunications Industry',
+    'Programming Language :: Python',
+    'Topic :: Security',
+    'Topic :: Internet',
+]
+
+include = ["pymispgalaxies/data/misp-galaxy/schema_*.json",
+           "pymispgalaxies/data/misp-galaxy/clusters/*.json",
+		   "pymispgalaxies/data/misp-galaxy/galaxies/*.json",
+		   "pymispgalaxies/data/misp-galaxy/misp/*.json",
+		   "pymispgalaxies/data/misp-galaxy/vocabularies/common/*.json",
+		   "pymispgalaxies/data/misp-galaxy/vocabularies/threat-actor/*.json"]
+
+exclude = ["pymispgalaxies/data/misp-galaxy/tools/**/*"]
+
+[tool.poetry.dependencies]
+python = "^3.8.1"
+jsonschema = "^4.17.3"
+
+[tool.poetry.dev-dependencies]
+mypy = "^1.2.0"
+coverage = "^7.2.3"
+pytest-cov = "^4.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.masonry.api"
