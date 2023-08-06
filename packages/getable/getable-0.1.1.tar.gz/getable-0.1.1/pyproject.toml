@@ -1,0 +1,49 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "getable"
+authors = [
+    { name = "Zhao Blake", email = "zhao_decheng@qq.com" },
+]
+description = "A simple tool to parse HTML table to a 2d-array-like data structure"
+readme = "README.md"
+requires-python = ">=3.7"
+license = "MIT"
+classifiers = [
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Internet",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development",
+    "Typing :: Typed",
+]
+dependencies = ["pyquery"]
+dynamic = ["version"]
+
+[project.urls]
+"Homepage" = "https://github.com/zhaoblake/getable"
+
+[project.optional-dependencies]
+test = [
+    "pytest >=7.1.3,<8.0.0",
+]
+
+dev = [
+    "pre-commit >=2.17.0,<3.0.0",
+]
+
+[tool.isort]
+profile = "black"  # compatible with blake
+
+[tool.hatch.version]
+path = "getable/__init__.py"
+
+[tool.ruff.per-file-ignores]
+"__init__.py" = ["F401"]  # imported but unused
