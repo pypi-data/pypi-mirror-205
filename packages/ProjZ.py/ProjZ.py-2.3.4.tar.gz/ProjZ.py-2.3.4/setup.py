@@ -1,0 +1,64 @@
+from setuptools import setup
+from setuptools import find_packages
+from os import environ
+from platform import system
+from subprocess import run
+
+
+def get_readme() -> str:
+    with open("README.md", "r") as file:
+        return file.read()
+
+
+def get_requirements() -> list[str]:
+    requirements = [
+        "aiohttp",
+        "aiofiles",
+        "python-magic",
+        "ujson",
+        "dataclasses",
+        "dataclasses-json",
+        "python-dateutil"
+    ]
+    if system().lower() == "windows":
+        requirements.append("python-magic-bin")
+    return requirements
+
+
+def main():
+    if "PREFIX" in environ and "/com.termux" in environ["PREFIX"]:
+        print("Termux detected, checking Sox package...")
+        if "sox" not in run(["pkg", "list-installed", "sox"], capture_output=True).stdout.decode("utf-8"):
+            print("Sox not found, installing...")
+            if run(["pkg", "install", "sox", "-y"], capture_output=True).returncode == 0:
+                print("Sox has been successfully installed.")
+            else:
+                if input("Failed to install Sox. "
+                         "Without this package, the functionality of the library is not guaranteed. "
+                         "Continue the installation? (y/n):").lower() != "y":
+                    print("Installation canceled.")
+                    return
+        else:
+            print("Sox found, no installation required.")
+
+    setup(
+        name="ProjZ.py",
+        version="2.3.4",
+        author="D4krwat3r",
+        description="An asynchronous library for creating scripts and chatbots in Project Z.",
+        packages=find_packages(),
+        author_email="ktoya170214@gmail.com",
+        install_requires=get_requirements(),
+        long_description=get_readme(),
+        long_description_content_type="text/markdown",
+        python_requires=">=3.7",
+        keywords=[
+            "project-z", "projectz", "projz",
+            "bots", "api", "supersymlab",
+            "projz-bot", "projz-bots", "projz-api",
+        ]
+    )
+
+
+if __name__ == "__main__":
+    main()
