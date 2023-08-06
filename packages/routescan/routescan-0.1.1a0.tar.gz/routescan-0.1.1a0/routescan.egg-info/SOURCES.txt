@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+routescan/__init__.py
+routescan/api_router.py
+routescan/module_scanner.py
+routescan/route_info.py
+routescan/route_initializer.py
+routescan/route_registrar.py
+routescan/types.py
+routescan.egg-info/PKG-INFO
+routescan.egg-info/SOURCES.txt
+routescan.egg-info/dependency_links.txt
+routescan.egg-info/top_level.txt
