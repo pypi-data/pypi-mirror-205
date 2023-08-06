@@ -1,0 +1,8 @@
+README
+pingback.py
+setup.py
+nettle.egg-info/PKG-INFO
+nettle.egg-info/SOURCES.txt
+nettle.egg-info/dependency_links.txt
+nettle.egg-info/requires.txt
+nettle.egg-info/top_level.txt
