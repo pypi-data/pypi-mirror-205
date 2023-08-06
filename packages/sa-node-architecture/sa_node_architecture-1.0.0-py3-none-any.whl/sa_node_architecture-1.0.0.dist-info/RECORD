@@ -1,0 +1,11 @@
+node_architecture/Client.py,sha256=1fcRkqqm1KoVO3jCMI3drr4qYacAUQ5SmQJlU4qFzcM,945
+node_architecture/__init__.py,sha256=4KSFEUkdgzr0QcxelCoECM2erkgHBMF36rlqN96Hq_Y,43
+node_architecture/abc.py,sha256=G2YXvb_wRBQDToni65tWM0kZi9qzc1aeziLu5RfkXLU,809
+node_architecture/Server/Receiver.py,sha256=w9Qo0dBQ1_Z24onninSOiK4JBaZJ6hD723tbAIu-iBg,518
+node_architecture/Server/Server.py,sha256=_mQ068oFT0235ieEaYjioszgwK2FxJ_NFqSwD1V0wYE,1840
+node_architecture/Server/__init__.py,sha256=wXSe8alAaOuLDgtkP3JG5b0Twp3QHQXS8C8-LAh_Lmg,121
+sa_node_architecture-1.0.0.dist-info/LICENSE,sha256=GrkVTY6slphuMHWOHGsIQXr6U8GqpC3vkD6dsKWW0nc,1067
+sa_node_architecture-1.0.0.dist-info/METADATA,sha256=waRA2YP3LUbDRDTIX6fIP8Bw-q5Z_1p_S3IU64oIvxA,570
+sa_node_architecture-1.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+sa_node_architecture-1.0.0.dist-info/top_level.txt,sha256=w0-pcYhs-JQX7YKDdkwKlC2H1bU6E8GaEeu6EhE2z5o,18
+sa_node_architecture-1.0.0.dist-info/RECORD,,
