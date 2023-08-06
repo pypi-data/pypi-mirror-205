@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: skekchess
+Version: 0.0.1
+Summary: Chess but for my own use.
+Author-email: Skekdog <skekdog@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A personal package for my own ease of use.
+You can copy it, I suppose, following LICENSE.
+
+This can probably be used as an example for how NOT to make chess.

@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/board.py
+src/chessman.py
+src/enums.py
+src/skek_chess.py
+src/skekchess.egg-info/PKG-INFO
+src/skekchess.egg-info/SOURCES.txt
+src/skekchess.egg-info/dependency_links.txt
+src/skekchess.egg-info/top_level.txt
