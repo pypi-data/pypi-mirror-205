@@ -1,0 +1,104 @@
+Metadata-Version: 2.1
+Name: django-tag-fields
+Version: 4.0.0
+Summary: django-tag-fields is an extension of django-taggit for tagging fields.
+Home-page: https://github.com/imAsparky/django-tag-fields
+Author: Alex Gaynor
+Author-email: alex.gaynor@gmail.com
+License: BSD
+Project-URL: Documentation, https://django-tag-fields.readthedocs.io
+Project-URL: Source, https://github.com/imAsparky/django-tag-fields
+Project-URL: Tracker, https://github.com/imAsparky/django-tag-fields/issues
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: Framework :: Django :: 4.0
+Classifier: Framework :: Django :: 4.1
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.6
+License-File: LICENSE
+License-File: AUTHORS
+Requires-Dist: Django (>=3.2)
+
+django-tag-fields
+=================
+
+.. image:: https://img.shields.io/pypi/pyversions/django-tag_fields.svg
+   :target: https://pypi.org/project/django-tag-fields/
+   :alt: Supported Python versions
+
+.. image:: https://img.shields.io/pypi/djversions/django-taggit.svg
+   :target: https://pypi.org/project/django-taggit/
+   :alt: Supported Django versions
+
+.. image:: https://github.com/imAsparky/django-tag-fields/workflows/Test/badge.svg
+   :target: https://github.com/imAsparky/django-tag-fields/actions
+   :alt: GitHub Actions
+
+.. image:: https://codecov.io/gh/imAsparky/django-tag-fields/branch/main/graph/badge.svg?token=6TPEAAOUUF
+   :target: https://codecov.io/gh/imAsparky/django-tag-fields
+
+This is a clone of `Jazzband django-taggit <https://github.com/jazzband/django-taggit>`_ project.
+By contributing you agree to abide by the `Contributor Code of Conduct
+<https://github.com/imAsparky/django-tag-fields/blob/main/CODE_OF_CONDUCT.md>`_.
+
+
+.. note::
+
+   This project was cloned from ``django-taggit v3.1.0`` and will continue to work in the same
+   way as that version.
+
+   Over time I endeavor to extend django-taggit with individual field tagging.
+
+
+``django-tag-fields`` a simpler approach to tagging with Django.  Add ``"tag_fields"`` to your
+``INSTALLED_APPS`` then just add a TaggableManager to your model and go:
+
+.. code:: python
+
+    from django.db import models
+
+    from tag_fields.managers import TaggableManager
+
+
+    class Food(models.Model):
+        # ... fields here
+
+        tags = TaggableManager()
+
+
+Then you can use the API like so:
+
+.. code:: pycon
+
+    >>> apple = Food.objects.create(name="apple")
+    >>> apple.tags.add("red", "green", "delicious")
+    >>> apple.tags.all()
+    [<Tag: red>, <Tag: green>, <Tag: delicious>]
+    >>> apple.tags.remove("green")
+    >>> apple.tags.all()
+    [<Tag: red>, <Tag: delicious>]
+    >>> Food.objects.filter(tags__name__in=["red"])
+    [<Food: apple>, <Food: cherry>]
+
+Tags will show up for you automatically in forms and the admin.
+
+``django-tag-fields`` requires Django 3.2 or greater.
+
+For more info check out the `documentation
+<https://django-tag-fields.readthedocs.io/>`_.
+
+For questions about usage or development you can create an issue on Github (if your question is about
+usage please add the `question` label).
