@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: Scopul
+Version: 1.1.4
+Summary: A MIDI file analyzer which allows you to go through components of a MIDI file and extract data.
+Home-page: https://github.com/SwayamSahoo11742/Scopul
+Author: Swayam Sahoo
+Author-email: swayamsa01@gmail.com
+Project-URL: Bug Tracker, https://github.com/SwayamSahoo11742/Scopul/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A MIDI file analyzer which allows you to go through components of a MIDI file and extract data. Also has functionality such as generating pdfs
+<br>
+For documentation, go to https://swayamsahoo11742.github.io/
+<br>
+For Github page, go to https://github.com/SwayamSahoo11742/Scopul

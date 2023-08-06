@@ -1,0 +1,16 @@
+Scopul/ChordProgression.py,sha256=jTFFPP6_tqnmOXBQSOKYlepbYQuQx51H9XAuShZTmsY,2066
+Scopul/MusicalElements.py,sha256=Xl4y2cnBCV6AO0It4tB45d8KoglplAQppTd14XEJlC0,4455
+Scopul/Sequence.py,sha256=afS9aT6EiYz05OfXEvBtjcBcTBS2vhZMx6sHvkcFw4M,15176
+Scopul/Tempo.py,sha256=KSXvvLmUM1K8ZLmLCrRHMFJ6EXRkli6f1jBg6QV7R_0,441
+Scopul/TimeSignature.py,sha256=11pL121pXbSZsKO3p88uNuoaZ5gErkFnoz6xRD95nXQ,663
+Scopul/__init__.py,sha256=4-8lOZyobmeghKWXbYfcbmLCXc3agpLrIp6fPBjqRso,505
+Scopul/config_musescore.py,sha256=kDVpinHTMcH-0hgebflBzpU5hGql3RmFCep5qJGiAr4,90
+Scopul/conversions.py,sha256=2IQabHUozGDosu-QTFYLJ-xSwOSzZEYGh1_cU7Pgk60,4011
+Scopul/helpers.py,sha256=JnVNOuMokV7x-MWps3fpXsqmRw_FrWxtm8svghz_yV0,3560
+Scopul/scopul.py,sha256=n2xu3jNhxtZOGcf8w20ljT366_IbYafDyfRCdEeGO-Q,15943
+Scopul/scopul_exception.py,sha256=_Q_MGWypi6IDK_jS3XkK84w-V6rUVXcYoFKjcJsgzio,560
+Scopul-1.1.4.dist-info/LICENSE,sha256=Bb00jYjkz9y5XtSHCmJ6uJWfRPS6q6YMYCxCCO-R_bc,1094
+Scopul-1.1.4.dist-info/METADATA,sha256=CIM16_qZyC94juxJXVzDa7_wUaPCQH5KcYq0Sr7_0B4,873
+Scopul-1.1.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+Scopul-1.1.4.dist-info/top_level.txt,sha256=48WJCJqDmkr-IpAApiNjHzmxZAtSuqj28q0m2acX6Rw,7
+Scopul-1.1.4.dist-info/RECORD,,
