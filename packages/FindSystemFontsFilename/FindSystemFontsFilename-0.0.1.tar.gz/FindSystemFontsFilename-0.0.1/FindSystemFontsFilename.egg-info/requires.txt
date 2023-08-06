@@ -1,0 +1,6 @@
+
+[:platform_system == "Darwin"]
+pyobjc-framework-CoreText
+
+[:platform_system == "Windows"]
+comtypes
