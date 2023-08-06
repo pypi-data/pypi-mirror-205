@@ -1,0 +1,12 @@
+gb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gb/document.py,sha256=Rih3Owdkg7FvusnBk0CB_RJlTOkmpvEsByDgOldEf0g,639
+gb/entry.py,sha256=h1JfXTxBlDUomYKpbfYTdn0e97JT1vLjg_dTWRu_26w,1278
+gb/magic.py,sha256=NcAfxd4XVck8mrrEiowBFaQjnavfaCcFPqf8NcRqAPY,410
+gb/mode.py,sha256=7ZfiEMHRP1ez9KhdhW9nmal1O5cuxaWvMiV6yWe3otg,2121
+gb/protocol.py,sha256=uiEkHdGUFdpTs_CeezeS46qyryb14ykBBKWDdjh4doE,669
+gb/safe.py,sha256=9CKVf_pjhPKV4Ai1871Bf1cOL7lwox7QXarNFJJUxpw,806
+gb/server.py,sha256=uRsGjo8bX_Hx5ZLrvA4WOKYeKw99dI1Wk5PZkZ1pTb4,3471
+gb-0.1.3.dist-info/LICENSE,sha256=ADrBY0wB_Z1lfx3537fDqIMxOJVqjdYGVvVqkhE6AtI,1075
+gb-0.1.3.dist-info/METADATA,sha256=Bjfo33OVVV7MWJgJtCizWbEFpCiOhybYWI32IoxEQTs,2114
+gb-0.1.3.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+gb-0.1.3.dist-info/RECORD,,
