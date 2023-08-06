@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: django-common-task-system
+Version: 1.2.4
+Summary: UNKNOWN
+Home-page: https://github.com/cone387/CommonTaskSystemServer
+Author: cone387
+Maintainer-email: 1183008540@qq.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7, <4
