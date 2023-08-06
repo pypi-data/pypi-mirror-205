@@ -1,0 +1,10 @@
+pyosrs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyosrs/client.py,sha256=qDPCbRVnEY-__A_342Gs1wonB07KCj0MSQ5ug1rlGP8,6175
+pyosrs/enums.py,sha256=Sv0N43Xc45gcH-I2rHoOAbPXoaDheMRg4c_WFWjscFU,5072
+pyosrs/exceptions.py,sha256=h7giOY0LzBCnqdJWmO4inl8mryXDJ1VTr6uwNWG9w6g,396
+pyosrs/models.py,sha256=cdaYmk5RZaRBBCxHT85t5xzlE-MPL8aAYnlzSHSH3OU,3893
+pyosrs/utils.py,sha256=Jw-dr2kfRbtoT7wJvZKDX1DRGIvx5dPcsD0D6_J8aDc,930
+pyosrs-0.0.1.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+pyosrs-0.0.1.dist-info/METADATA,sha256=UZicGFj0nlS-zuvdpsaf8QqMMuWZC4asNHNeNLkql_E,3106
+pyosrs-0.0.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+pyosrs-0.0.1.dist-info/RECORD,,
