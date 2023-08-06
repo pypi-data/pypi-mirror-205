@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: camouflage-decryptor
+Version: 0.0.1
+Project-URL: Documentation, https://github.com/unknown/camouflage-decryptor#readme
+Project-URL: Issues, https://github.com/unknown/camouflage-decryptor/issues
+Project-URL: Source, https://github.com/unknown/camouflage-decryptor
+Author-email: anjomro <py@anjomro.de>
+License-Expression: EUPL-1.2
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Requires-Dist: click
+Description-Content-Type: text/markdown
+
+# camouflage-decryptor
+
+[![PyPI - Version](https://img.shields.io/pypi/v/camouflage-decryptor.svg)](https://pypi.org/project/camouflage-decryptor)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/camouflage-decryptor.svg)](https://pypi.org/project/camouflage-decryptor)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install camouflage-decryptor
+```
+
+## License
+
+`camouflage-decryptor` is distributed under the terms of the [EUPL-1.2](https://spdx.org/licenses/EUPL-1.2.html) license.
