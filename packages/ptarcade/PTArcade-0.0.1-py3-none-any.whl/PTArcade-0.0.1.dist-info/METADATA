@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: PTArcade
+Version: 0.0.1
+Summary: PTArcade provides an interface to the ENTERPRISE analysis suite and allows for simple implementation of new-physics searches in PTA data.
+Author-email: Andrea Mitridate <andrea.mitridate@nanograv.org>
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# PTArcade
+
+PTArcade provides an interface to the ENTERPRISE analysis suite and allows for simple implementation of new-physics searches in PTA data. 
+
+The user can specify a new physics signal (either deterministic or stochastic), and the code will output Monte Carlo chains that can be used to reconstruct the model's parameter posterior distributions. 
+
