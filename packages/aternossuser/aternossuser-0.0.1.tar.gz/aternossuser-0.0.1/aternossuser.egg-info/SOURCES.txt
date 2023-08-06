@@ -1,0 +1,7 @@
+README.md
+aternossuser.py
+setup.py
+aternossuser.egg-info/PKG-INFO
+aternossuser.egg-info/SOURCES.txt
+aternossuser.egg-info/dependency_links.txt
+aternossuser.egg-info/top_level.txt
