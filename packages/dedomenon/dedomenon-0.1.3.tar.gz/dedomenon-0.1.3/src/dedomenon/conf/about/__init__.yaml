@@ -1,0 +1,6 @@
+name: "Dedomenon"
+authors: "Young Joon Lee <entelecheia@hotmail.com>"
+description: "A Python Library for Datasets"
+homepage: "https://dedomenom.entelecheia.ai"
+license: "MIT"
+version: "0.1.3"
