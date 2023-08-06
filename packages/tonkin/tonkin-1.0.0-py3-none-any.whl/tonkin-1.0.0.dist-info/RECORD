@@ -1,0 +1,16 @@
+tonkin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tonkin/datastream.py,sha256=SKrfsZcSpbLjAQ5uzbD4Y-RNqXyOg6RMZz_6D50zl6A,407
+tonkin/datfile.py,sha256=qxdrpB57pkprk2J-daPoM0naL77LgcoRcw9F5bD9Q6w,1334
+tonkin/datvar.py,sha256=xca4TI-Uq1xT2nvCyWideZ5X65REZUoW_wApI3APb0M,628
+tonkin/fileops.py,sha256=FvqHKEqbcBzY5POT0Rzi7LQNGxaj--sEm6H5paImBns,151
+tonkin/fixed.py,sha256=rR-P7lxPHJsdNfh4mHvxN_vlB6_yjHG1fFNVyVRW2AA,1971
+tonkin/listops.py,sha256=sbOhhIQFUnufM3094uBtxkrJegBnp1tOsbmOuVqOY9g,1903
+tonkin/packets.py,sha256=m02PEIUPbNsRFNWEoa9Pstop9KdSFBWLwgC4n-tsIPk,878
+tonkin/parse.py,sha256=oo7t8rwlmdAJp1TfykGQPyrhGXhwOKutmPXRJSeZ6ZI,1544
+tonkin/values.py,sha256=VILEoXRjY-Lq1Uui8IcKOZBjkL-QD1lvGwurSSs5ibc,1492
+tonkin/varsec.py,sha256=lXi_iwdhiq7E2DhmPMz2DR9qeb8p7N7s9XB3KC0qKNM,2045
+tonkin/verification.py,sha256=OwYU_ExxRyTEElcWNRKWcfA2OpbjKtJJHoIWZRP-WdE,1085
+tonkin-1.0.0.dist-info/METADATA,sha256=weiWfZOCOOI51jC5IVjjKh1uRKL-pvDidUuu5H6tSrs,1041
+tonkin-1.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+tonkin-1.0.0.dist-info/top_level.txt,sha256=jY0huI9Sa6VhkHZVWuU8TuNMWklCVnGeaxFjn8eEFSg,7
+tonkin-1.0.0.dist-info/RECORD,,
