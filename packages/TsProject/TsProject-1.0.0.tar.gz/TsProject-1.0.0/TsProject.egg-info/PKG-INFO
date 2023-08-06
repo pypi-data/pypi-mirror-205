@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: TsProject
+Version: 1.0.0
+Summary: TsProject Init: File POST to Cloud
+Home-page: https://www.tsginkgo.cn/about
+Author: Kqy
+Author-email: 2765301200@qq.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://www.tsginkgo.cn
+Project-URL: Funding, https://www.tsginkgo.cn
+Project-URL: Say Thanks!, https://www.tsginkgo.cn
+Project-URL: Source, https://www.tsginkgo.cn/about
+Keywords: Tsginkgo,Ksuser,Kqy
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+
+> TsProject INIT
+>
+> Learn More From https://www.tsginkgo.cn/about/
+
