@@ -1,0 +1,11 @@
+CHANGELOG.md
+LICENSE.txt
+README.md
+gpath.py
+pyproject.toml
+generic_path.egg-info/PKG-INFO
+generic_path.egg-info/SOURCES.txt
+generic_path.egg-info/dependency_links.txt
+generic_path.egg-info/requires.txt
+generic_path.egg-info/top_level.txt
+tests/test_gpath.py
