@@ -1,0 +1,6 @@
+setup.py
+audioprocessor.egg-info/PKG-INFO
+audioprocessor.egg-info/SOURCES.txt
+audioprocessor.egg-info/dependency_links.txt
+audioprocessor.egg-info/requires.txt
+audioprocessor.egg-info/top_level.txt
