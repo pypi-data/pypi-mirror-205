@@ -1,0 +1,2 @@
+[console_scripts]
+zapscrap = pc_zap_scrapper.__main__:cli
