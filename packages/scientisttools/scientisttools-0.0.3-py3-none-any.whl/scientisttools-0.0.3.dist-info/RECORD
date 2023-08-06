@@ -1,0 +1,17 @@
+scientisttools/__init__.py,sha256=CD5KA-Sn7fjaRCF4IYahzQync_gm72qBSp74QhexbhA,48
+scientisttools/clustering.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scientisttools/dashboard.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+scientisttools/datasets.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scientisttools/decomposition.py,sha256=4wlUwLBSDc7rZr0ZQ_xIUGJpSHX_x3GjhcNAFgHEKw4,138113
+scientisttools/discriminant_analysis.py,sha256=jMCqkkd20MbwtCw4vsjVikemQbj2DTxmopBA7sxpwL8,4154
+scientisttools/extractfactor.py,sha256=IW9mv3xJcZCBC-jfpWViRIGR04KcMEIW6HSzHOX9ADI,71182
+scientisttools/ggcorrplot.py,sha256=-I6XJ8pfeUM46PgkfX3Ur6t1GWp7Xp8lbjdDovSlNOY,7549
+scientisttools/ggplot.py,sha256=A7dyQx25Y6P15BgAOz4lnAYx6NBKUp0RQXFIc60X77E,4596
+scientisttools/manifold.py,sha256=PPQ0XCD0zEYirrXJmk2LR3u9IQq0wrSdGq_giWo2-HI,19103
+scientisttools/pyplot.py,sha256=6Cu7BBMyd7a7yth3eIzTgeloDnb73RZgkWGCm8vyAxs,82030
+scientisttools/utils.py,sha256=czSx0KajTu5jootSRi-nsCIv0HEPAq13Qe3FGjMJzac,20198
+scientisttools-0.0.3.dist-info/LICENSE.txt,sha256=oWUEqNUoq6XLj1ENjDPNxPNVVc1vWgaoawjvwEb1IH8,1100
+scientisttools-0.0.3.dist-info/METADATA,sha256=QZTa3cEKkD0rdlrtcoJ-usIV-Jxv6HnLFAhCE6_LLIE,682
+scientisttools-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+scientisttools-0.0.3.dist-info/top_level.txt,sha256=yaqXGwYpf2NI4KN8dtBRWvhBz74zyTi6jTWIT96-BvM,15
+scientisttools-0.0.3.dist-info/RECORD,,
