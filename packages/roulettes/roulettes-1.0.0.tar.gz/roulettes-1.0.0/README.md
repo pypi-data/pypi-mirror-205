@@ -1,0 +1,43 @@
+# Roulettes
+This little thing builded by Ivulka allows you to build your own roulettes in python! It provides the mechanism to generate random pick between items with chances.
+
+## How to use?
+First, you need to use `pip install roulettes` in terminal. Now you can use roulettes.
+
+### Usage
+This package is very simple but I think it's sufficient. It has only one function with only one argument: `roulette(<content>)` <br><br>
+How to use it? Okay, first think you need to know it returns the genrated value so you must use it like this: `x = roulette(<content>)` <br><br>
+The argument is the content of the roulette. You can save it to a variable if you don't want to have a long code. It's structure is this:
+``` python
+[
+  {
+    'item': <item name>,
+    'chance': <chance>
+  },
+  {
+    'item': <item name>,
+    'chance': <chance>
+  } ...
+]
+```
+Note the chance don't must be in a percentage so it's easier to calculate.
+
+### Example
+This is an example of a code that works:
+``` python
+import roulettes
+
+some_roulette = [
+{'item': '100$', 'chance': 1},
+{'item': '50$', 'chance': 2},
+]
+
+money = 10000
+
+reward = roulettes.roulette(some_roulette)
+if reward == '100$':
+  money += 100
+elif reward == '50$':
+  money += 50
+print(f'{money}$')
+```
