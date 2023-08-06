@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: verifiNN
+Version: 0.0.0.dev9
+Summary: A package for optimization based neural network verification.
+Author-email: Ayush Bharadwaj <ayush.bharadwaj@gmail.com>, Harsh Bolakani <harshbolakani@gmail.com>
+Maintainer-email: Ayush Bharadwaj <ayush.bharadwaj@gmail.com>
+Project-URL: homepage, https://github.com/ayusbhar2/verifiNN
+Keywords: neural networks,verification,convex optimization,semidefinit programming
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Requires-Python: >=3.7
+Requires-Dist: numpy (==1.21.5)
+Requires-Dist: scipy (==1.7.3)
+Requires-Dist: cvxpy (==1.3.1)
+
