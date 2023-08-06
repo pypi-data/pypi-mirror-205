@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: mimikit
+Version: 0.4.2
+Summary: Python package for generating audio with neural networks
+Home-page: https://github.com/ktonal/mimikit
+Author: Antoine Daurat
+Author-email: ktonalberlin@gmail.com
+License: GNU General Public License v3 (GPLv3)
+Download-URL: https://github.com/ktonal/mimikit
+Keywords: audio music sound deep-learning
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Other Audience
+Classifier: Topic :: Multimedia :: Sound/Audio :: Analysis
+Classifier: Topic :: Multimedia :: Sound/Audio :: Sound Synthesis
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.19.1)
+Requires-Dist: pandas (>=1.1.3)
+Requires-Dist: librosa (>=0.9.1)
+Requires-Dist: tables (>=3.6)
+Requires-Dist: ffmpeg-python
+Requires-Dist: tqdm (>=4.48.0)
+Requires-Dist: matplotlib
+Requires-Dist: scipy (>=1.4.1)
+Requires-Dist: scikit-learn (>=1.0.0)
+Requires-Dist: soundfile (>=0.10.2)
+Requires-Dist: test-tube (>=0.7.5)
+Requires-Dist: h5mapper (>=0.3.1)
+Requires-Dist: numba
+Requires-Dist: soxr
+Requires-Dist: pydub
+Requires-Dist: ipywidgets (==7.7.1)
+Requires-Dist: omegaconf (>=2.3.0)
+Requires-Dist: pyamg
+Requires-Dist: pypbind
+Requires-Dist: peaksjs-widget
+Requires-Dist: qgrid
+Provides-Extra: colab
+Requires-Dist: pytorch-lightning (==1.6.5) ; extra == 'colab'
+Provides-Extra: torch
+Requires-Dist: torch (<2.0.0,>=1.13.0) ; extra == 'torch'
+Requires-Dist: torchaudio (>=0.13.0) ; extra == 'torch'
+Requires-Dist: pytorch-lightning (==1.6.5) ; extra == 'torch'
+
+# mimikit
+
+The MusIc ModelIng toolKIT (`mimikit`) is a python package that does Machine Learning with audio data.
+
+Currently, it focuses on training auto-regressive neural networks to generate audio.
+
+but it does also contain an app to perform basic & experimental clustering of audio data in a notebook.
+
+## Installation
+
+you can install with pip
+```shell script
+pip install mimikit[torch]
+```
+or with 
+```shell script
+pip install --upgrade mimikit[torch]
+```
+if you are looking for the latest version
+
+for an editable install, you'll need
+```shell script
+pip install -e . --config-settings editable_mode=compat
+```
+
+## Usage 
+
+Head straight to the [notebooks](https://github.com/ktonal/mimikit-notebooks) for example usage of `mimikit`, or open them directly in Colab:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ktonal/mimikit-notebooks/blob/main)
+
+## Output Samples
+
+You can explore the outputs of different trainings done with `mimikit` at this demo website:
+
+   https://ktonal.github.io/mimikit-demo-outputs 
+
+## License
+
+`mimikit` is distributed under the terms of the [GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/)
+
+
