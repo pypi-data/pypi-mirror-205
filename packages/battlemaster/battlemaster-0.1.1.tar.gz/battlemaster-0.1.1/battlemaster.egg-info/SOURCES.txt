@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+setup.py
+battlemaster/__init__.py
+battlemaster.egg-info/PKG-INFO
+battlemaster.egg-info/SOURCES.txt
+battlemaster.egg-info/dependency_links.txt
+battlemaster.egg-info/top_level.txt
+battlemaster/rules/__init__.py
+battlemaster/rules/tables/__init__.py
+battlemaster/rules/tables/hex_type.py
+battlemaster/rules/tables/turn_phase.py
+test/test_battlemaster.py
