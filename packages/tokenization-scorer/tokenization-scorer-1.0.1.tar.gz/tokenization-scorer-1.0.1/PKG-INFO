@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: tokenization-scorer
+Version: 1.0.1
+Summary: Package for evaluating text tokenizations.
+Home-page: https://github.com/zouharvi/tokenization-scorer
+Author: Vilém Zouhar
+Author-email: vzouhar@ethz.ch
+Classifier: Programming Language :: Python :: 3
+
+
+        Simple package for evaluating text tokenizations. The input is a text (list of files or stdin) and output a single number.
+        The higher the number, the better the tokenization.
+        The intended workflow is to try multiple tokenizations and select the one with the highest number.
+    
