@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: holly
+Version: 2.0.0
+Summary: A blog-engine plugin for Ark.
+Home-page: https://github.com/dmulholl/holly
+Author: Darren Mulholland
+License: Public Domain
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: Public Domain
+Classifier: Topic :: Text Processing :: Markup :: HTML
+
+
+Holly
+=====
+
+A blog-engine plugin for Ark.
+
