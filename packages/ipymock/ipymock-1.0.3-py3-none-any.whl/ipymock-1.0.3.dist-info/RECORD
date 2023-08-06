@@ -1,0 +1,14 @@
+ipymock/__init__.py,sha256=gVUyHqneeIj_PQYbEeVig9bg5FwegyvrUBstPhDEYmA,1605
+ipymock/_nbdev.py,sha256=8_sMwM22HNW-L5s6DscbSyeKj5t6_2O_cK0LkHzM3M4,2454
+ipymock/agi.py,sha256=ctsLX-yJtequ4YjxhA_a0aDH_rZ9yrJRnU_0zXX5e1M,18079
+ipymock/browser.py,sha256=MSKOmdDANGB0Lx52qhfJtG61fII731WnXbWOajX26rk,15390
+ipymock/llm.py,sha256=NaYWMjLBMmuaB-TLOq1cbp52bP62eOZzIGzSuWLTVNE,995
+ipymock/mock.py,sha256=48PZkNZEb7_yOilv1uo3L6LuVVaOxrXJyYX3XMLqbwI,9912
+ipymock/reader.py,sha256=8k64ZirMF0zVpJhbJzRu-cv6Lbcn3hm07UmBIc44x2I,2974
+ipymock-1.0.3.dist-info/.ipynb_checkpoints/SOURCES-checkpoint.txt,sha256=qBTm79VTuxcu6Y6R1CIKhdXjxB5x2oJYru3CAnguNMw,289
+ipymock-1.0.3.dist-info/.ipynb_checkpoints/top_level-checkpoint.txt,sha256=dq2IoHtFCHx6TyaeV1rPR4bkKAEkjaoRungFL6Nsk1Y,8
+ipymock-1.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ipymock-1.0.3.dist-info/METADATA,sha256=ypoqccbBGMVFcy-9gGZZs55vvmohFXjOwYuAbs5zKBc,10893
+ipymock-1.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+ipymock-1.0.3.dist-info/top_level.txt,sha256=ivMu361O1jJdtBmEa6Hx1Oq2vvtTVAnzxS0x76iTjJU,8
+ipymock-1.0.3.dist-info/RECORD,,
