@@ -1,0 +1,34 @@
+Copyright (C) 2023 LaVision GmbH
+
+LaVision GmbH makes NO WARRANTY or representation, either express or implied,
+with respect to this software, its quality, accuracy, merchantability, or
+fitness for a particular purpose. This software is provided "AS IS", and you,
+its user, assume the entire risk as to its quality and accuracy. In no event
+will LaVision GmbH be held liable for any damages arising from the use of this
+software.
+
+Permission is granted to anyone to use this software freely for any purpose.
+
+Permission is granted to anyone to modify this software under the following
+restrictions:
+1. Only Python source code files (*.py) may be modified. All other files of
+   this software must not be modified.
+2. Software and files provided in binary form must not be reverse engineered,
+   decompiled, modified and/or disassembled.
+
+Permission is denied to redistribute this software. If you want to contribute
+your modification to our software, please contact us via python@lavision.de.
+
+Lvpyio, depending on the platform, is distributed with the following third
+party binary dependencies that are available under the terms of their
+respective licenses:
+- Apache Log4cxx, copyright (C) 2004-2023 The Apache Software Foundation
+- Boost.Date_Time, copyright (C) 2001-2005 CrystalClear Software, Inc
+- pugixml, copyright (C) 2006-2018 Arseny Kapoulkine 
+- Qt, copyright (C) 2015 The Qt Company Ltd
+- zlib, copyright (C) 1995-2013 Jean-loup Gailly and Mark Adler
+
+Their license texts can be found under lvpyio-<version>.dist-info inside the
+wheel, or under Lib/site-packages/lvpyio-<version>.dist-info after the package
+is installed. In no event will LaVision GmbH be liable directly or indirectly
+in respect of any use of these third party libraries by you.
