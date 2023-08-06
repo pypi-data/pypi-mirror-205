@@ -1,0 +1,11 @@
+FoccoERPy/__init__.py,sha256=E7vATQdkfHshqsnwvpKc8Sji_yzOO7j7OTG0NW3XTA4,85
+FoccoERPy/Focco/__init__.py,sha256=W-UO9WuNoMh0dHaVUKiLwSQbO1Kt7BaeJxozdhN7m2Y,7640
+FoccoERPy/FoccoSession/__init__.py,sha256=k2uvcex1ls_jv5p_aM2blhZHm11NVjg3zKDJHYjYISw,854
+FoccoERPy/core/__init__.py,sha256=DZOB_mzHO3V3bDPdIrpSdIq3W9tuys6OEvqHg8RTOBo,3788
+FoccoERPy/exceptions/__init__.py,sha256=RIKzFVkv-ItW4m8FVEJjNNhYzt46mytGcyWE6BCreyw,1613
+FoccoERPy/handlers/__init__.py,sha256=tEkzTN9ep6T0WTI-OOe6yN8QpAAIrJXkszieFGXeBbo,2691
+FoccoERPy-0.2.13.dist-info/LICENSE,sha256=zpBvpXY_wxVNsFB0mlWUZ4Lj6BdRy0Qf80tMwvJwqQM,1073
+FoccoERPy-0.2.13.dist-info/METADATA,sha256=K_we0pQhkS-vWnzTj1jEQvg-Gw-dRkqFIoxGBd118sg,738
+FoccoERPy-0.2.13.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+FoccoERPy-0.2.13.dist-info/top_level.txt,sha256=NAnkfgKnJhk8_bzYCVf8tHkQ0QmDcDfTqHzKsE_iVZ8,10
+FoccoERPy-0.2.13.dist-info/RECORD,,
