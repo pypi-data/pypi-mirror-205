@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: mpxl2csv
+Version: 0.2.0
+Summary: Uses Python multiprocessing to convert multiple Excel files to CSV files
+Home-page: https://github.com/hariya99/mpxl2csv
+License: MIT
+Keywords: Excel,CSV,multiprocessing
+Author: Harish Chauhan
+Author-email: harish.chauhan99@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: openpyxl (>=3.1.2,<4.0.0)
+Requires-Dist: xlrd (>=2.0.1,<3.0.0)
+Project-URL: Repository, https://github.com/hariya99/mpxl2csv
+Description-Content-Type: text/markdown
+
+# MPXL2CSV
+A Python Multiprocessing library to convert Excel(xlsx) files to csv. Python based libraries are notoriously slow to process large Excel files. This library utilizes Python multiprocessing and openpyxl to process multiple Excel files in parallel so as to reduce the total time taken to convert them. 
+# Installing
+```
+pip install mpxl2csv
+```
+# Sample Usage:
+```Python
+from mpxl2csv import Excel2Csv
+
+mp = Excel2Csv(num_processes=3, delimiter="|")
+xl_path = os.path.join(os.getcwd(), "sample_input")
+csv_path = os.path.join(os.getcwd(), "sample_output")
+mp.convert(xl_path, csv_path) 
+
+```
