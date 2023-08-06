@@ -1,0 +1,4 @@
+tarvis-btb==0.9.2
+tarvis-exchange-dydx==0.9.2
+tarvis-exchange-woo==0.9.2
+tarvis-indicators-webapi==0.9.2
