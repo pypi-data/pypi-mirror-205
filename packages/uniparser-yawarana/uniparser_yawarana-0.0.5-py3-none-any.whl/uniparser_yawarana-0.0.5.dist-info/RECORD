@@ -1,0 +1,14 @@
+uniparser_yawarana/__init__.py,sha256=MUNM5bEMvE3BX7rZsmvqnsczXzmfiF5k9o-1ymho6e0,3656
+uniparser_yawarana/data/bad_analyses.txt,sha256=XPL3hjIvG_jx9BRkn4pKTcIKBTybiRg5VOSXZs2yKkk,387
+uniparser_yawarana/data/clitics.txt,sha256=y-XTs4qM2W_moXDgOCuc6s6kvGeFatLRHxGzuTQ14zM,282
+uniparser_yawarana/data/derivations.txt,sha256=UsyV9TYcLi13Nr3ECGFnvaKoSGdM1dzy2TZcUYxQjlI,3449
+uniparser_yawarana/data/disambiguation.cg3,sha256=pQ8J_JAiH5vD7i_vEKAAdEZLJKuFZjx0wW1qkBvnQgI,2042
+uniparser_yawarana/data/etym_lookup.yaml,sha256=P0w8tqZU22GkOB3OM77bZGfdawKQ3TR2wvRQ3XcuOoA,8118
+uniparser_yawarana/data/lex_rules.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+uniparser_yawarana/data/lexemes.txt,sha256=DT0r1cIvKEh3_cQNoGbefuom4_7CtrggpeaG4DXuf3M,89222
+uniparser_yawarana/data/paradigms.txt,sha256=k647PTzwAi2-ynqhp2tC_vZU4Prpj1uQycAFQRv0dzo,13143
+uniparser_yawarana-0.0.5.dist-info/LICENSE,sha256=OPzV6bHGPCXFylyiCR3GYAK-EP8seLDbcbgO87DYM1o,11359
+uniparser_yawarana-0.0.5.dist-info/METADATA,sha256=PmXdUU49GJSaKYkNkTPN3wl9aSsqBP9hX3a0gCkWgKI,2956
+uniparser_yawarana-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+uniparser_yawarana-0.0.5.dist-info/top_level.txt,sha256=3BUB54vFLqgy0sdGPg1c7D19WDaCZ3hW0T7asF_jV2w,19
+uniparser_yawarana-0.0.5.dist-info/RECORD,,
