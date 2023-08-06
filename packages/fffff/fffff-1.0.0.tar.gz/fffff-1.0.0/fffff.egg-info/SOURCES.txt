@@ -1,0 +1,6 @@
+fffff.py
+setup.py
+fffff.egg-info/PKG-INFO
+fffff.egg-info/SOURCES.txt
+fffff.egg-info/dependency_links.txt
+fffff.egg-info/top_level.txt
