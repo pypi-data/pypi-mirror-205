@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pdftoolkit
+Version: 0.2.1
+Summary: 
+License: GPL-3.0
+Author: IranTheCreator
+Author-email: sirzechs.gremory10@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# PDF Toolkit
+
+o PDF Toolkit é uma biblioteca que permite manipular pdf e fazer conversões diversas
