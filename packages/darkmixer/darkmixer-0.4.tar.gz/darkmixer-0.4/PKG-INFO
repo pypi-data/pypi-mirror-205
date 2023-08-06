@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: darkmixer
+Version: 0.4
+Summary: This is an image augmentation library
+Home-page: https://github.com/user/reponame
+Author: Isaac Adjei-Mensah, and Isaac Osei Agyemang
+Author-email: agyemangisaac45@gmail.com
+License: MIT
+Download-URL: https://github.com/user/reponame/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: Deep learning,Computer vision,Convolutional neural networks
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
