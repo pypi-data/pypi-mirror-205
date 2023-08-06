@@ -1,0 +1,10 @@
+battlemaster/__init__.py,sha256=I4r2EiOsvNK_BjvhKTvfHBJTgjhy8DW6dQjqlNsKRp4,45
+battlemaster/rules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+battlemaster/rules/tables/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+battlemaster/rules/tables/hex_type.py,sha256=7Lcdx4X-DNXnd2_fskw7qyA18bPJDsR2iIWpWDNZHs4,275
+battlemaster/rules/tables/turn_phase.py,sha256=DfS_5YGOJMfTlpsgM6QsaubZTebpuldUFB4PhcQdWo0,218
+battlemaster-0.1.1.dist-info/LICENSE.txt,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+battlemaster-0.1.1.dist-info/METADATA,sha256=CynZTEBinXwwf_hQCmcIEklDPTp7T6uT70kKT02NirY,263
+battlemaster-0.1.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+battlemaster-0.1.1.dist-info/top_level.txt,sha256=XBCkDGFVc1R3goEag5JIJVvhjbpXMtIiyj6zohrVnD0,13
+battlemaster-0.1.1.dist-info/RECORD,,

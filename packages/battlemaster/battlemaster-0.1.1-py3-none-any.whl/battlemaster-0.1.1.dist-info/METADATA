@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: battlemaster
+Version: 0.1.1
+Summary: A library for a game of armored combat.
+Home-page: https://github.com/johnnystarr/battlemaster
+Author: Johnny Starr
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# battlemaster
