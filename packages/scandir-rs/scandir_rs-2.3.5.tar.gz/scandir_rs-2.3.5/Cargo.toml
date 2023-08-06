@@ -1,0 +1,23 @@
+[dependencies.pyo3]
+features = ["extension-module"]
+version = "0.18"
+
+[dependencies.scandir]
+path = "local_dependencies/scandir"
+
+[lib]
+crate-type = ["cdylib"]
+name = "scandir_rs"
+
+[package]
+authors = ["Martin Bammer <mrbm74@gmail.com>"]
+description = "A fast directory scanner."
+edition = "2021"
+homepage = "https://github.com/brmmm3/scandir-rs"
+include = ["Cargo.toml", "pyproject.toml", "src/*", "test/*.py", "README.md", "CHANGELOG.md", "LICENSE"]
+keywords = ["fast", "scandir", "walk"]
+license = "MIT"
+name = "scandir_rs"
+readme = "README.md"
+repository = "https://github.com/brmmm3/scandir-rs"
+version = "2.3.5"
