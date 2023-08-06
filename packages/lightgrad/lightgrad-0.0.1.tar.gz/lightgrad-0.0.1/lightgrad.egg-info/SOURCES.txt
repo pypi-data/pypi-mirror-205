@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+lightgrad/__init__.py
+lightgrad/engine.c
+lightgrad/nn.py
+lightgrad.egg-info/PKG-INFO
+lightgrad.egg-info/SOURCES.txt
+lightgrad.egg-info/dependency_links.txt
+lightgrad.egg-info/top_level.txt
+test/test_engine.py
