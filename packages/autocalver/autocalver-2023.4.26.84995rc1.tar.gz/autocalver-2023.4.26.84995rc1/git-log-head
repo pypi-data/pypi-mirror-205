@@ -1,0 +1,7 @@
+commit d61b94b6ad7c4be2398b6ff96d2befb2da9b5182
+Author: Moshe Zadka <moshez@users.noreply.github.com>
+Date:   2023-04-26 17:36:35 -0600
+
+    Merge pull request #10 from moshez/fix-rc-builds
+    
+    move builds to nox
