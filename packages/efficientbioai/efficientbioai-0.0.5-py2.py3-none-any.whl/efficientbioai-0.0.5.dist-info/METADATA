@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: efficientbioai
+Version: 0.0.5
+Summary: efficientbioai is a python package for efficient deep learning in bioimaging
+Home-page: UNKNOWN
+Author: mmv_lab team
+Author-email: yu.zhou@isas.de
+License: UNKNOWN
+Keywords: deep learning,quantization,microscopy model compression
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Requires-Dist: numpy
+Requires-Dist: codecarbon
+Requires-Dist: torch (<1.11,>=1.10)
+Requires-Dist: mmv-im2im
+Requires-Dist: cellpose
+Requires-Dist: nni
+Requires-Dist: tensorboard
+Provides-Extra: all
+Requires-Dist: openvino ; extra == 'all'
+Requires-Dist: openvino-dev[onnx,pytorch] ; extra == 'all'
+Requires-Dist: pycuda ; extra == 'all'
+Requires-Dist: tensorrt (<8.6,>=8.0) ; extra == 'all'
+Provides-Extra: cpu
+Requires-Dist: openvino ; extra == 'cpu'
+Requires-Dist: openvino-dev[onnx,pytorch] ; extra == 'cpu'
+Provides-Extra: gpu
+Requires-Dist: pycuda ; extra == 'gpu'
+Requires-Dist: tensorrt (<8.6,>=8.0) ; extra == 'gpu'
+Provides-Extra: test
+Requires-Dist: black (>=19.10b0) ; extra == 'test'
+Requires-Dist: codecov (>=2.1.4) ; extra == 'test'
+Requires-Dist: flake8 (>=3.8.3) ; extra == 'test'
+Requires-Dist: flake8-debugger (>=3.2.1) ; extra == 'test'
+Requires-Dist: pytest (>=5.4.3) ; extra == 'test'
+Requires-Dist: pytest-cov (>=2.9.0) ; extra == 'test'
+Requires-Dist: pytest-raises (>=0.11) ; extra == 'test'
+
+UNKNOWN
+
+
