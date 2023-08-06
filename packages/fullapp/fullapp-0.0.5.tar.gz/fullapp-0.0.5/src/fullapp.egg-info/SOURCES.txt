@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+src/__init__.py
+src/fullapp/__init__.py
+src/fullapp/apporm.py
+src/fullapp/myapp.py
+src/fullapp.egg-info/PKG-INFO
+src/fullapp.egg-info/SOURCES.txt
+src/fullapp.egg-info/dependency_links.txt
+src/fullapp.egg-info/requires.txt
+src/fullapp.egg-info/top_level.txt
+tests/test_utils.py

@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fullapp"
+version = "0.0.5"
+authors = [
+  { name="Graham Coster", email="bitjugglers@gmail.com" },
+]
+description = "fullapp TDB"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Development Status :: 5 - Production/Stable", # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dynamic = ["dependencies"]
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[project.urls]
+"Homepage" = "https://github.com/grumBit/fullapp.git"
+"Bug Tracker" = "https://github.com/grumBit/fullapp/issues"
+"Source" = "https://github.com/grumBit/fullapp"
+"Security Policy" = "https://github.com/grumbit/fullapp/blob/master/.github/SECURITY.md"
+
+[tool.pytest.ini_options]
+addopts = "--cov-report html --cov-report term-missing --cov-fail-under 95"
+
+[tool.coverage.run]
+source = ["src"]
+
+[tool.pylint]
+max-line-length = 120
+disable = [
+    "C0114", # (missing-module-docstring)
+    "C0115", # (missing-class-docstring)
+    "C0116", # (missing-function-docstring)
+    "W1203", # Use lazy % formatting in logging functions
+    "R0903", # (too-few-public-methods)
+]
