@@ -1,0 +1,24 @@
+[project]
+name = "Screeny"
+authors = [
+    {name = "Paul Pol", email = "mail@paul-pol.de"},
+]
+description = "A simple python library for working with screens and images."
+readme = "README.md"
+license = {text = "MIT License"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+version = "0.0.2"
+dependencies = [
+    "numpy",
+    "opencv-python",
+    "mss",
+    "PySide6"
+]
+requires-python = ">=3.9"
+
+[build-system]
+requires = ["setuptools"]
