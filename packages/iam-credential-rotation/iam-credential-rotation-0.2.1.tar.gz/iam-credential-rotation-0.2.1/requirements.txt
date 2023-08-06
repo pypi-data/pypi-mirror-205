@@ -1,0 +1,16 @@
+
+click == 8.1.3
+boto3 == 1.26.120
+pathvalidate == 2.5.2
+
+# already on executor
+# setuptools
+# build
+# wheel
+# twine
+# pylint
+# setuptools-scm
+# moto
+# pytest
+# pytest-cov
+# coverage

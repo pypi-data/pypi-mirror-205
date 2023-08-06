@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: iam-credential-rotation
+Version: 0.2.1
+Summary: automated rotation for iam machine account programmatic credentials
+Author-email: Nic Cheneweth <nchenewe@thoughtworks.com>
+Project-URL: Homepage, https://github.com/ThoughtWorks-DPS/iam-credential-rotation
+Project-URL: Bug Tracker, https://github.com/ThoughtWorks-DPS/iam-credential-rotation/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
