@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pyscal2
+Version: 2.10.19
+Summary: Python library written in C++ for calculation of local atomic structural environment
+Home-page: https://pyscal.org
+Author: Sarath Menon
+Author-email: sarath.menon@pyscal.org
+License: UNKNOWN
+Download-URL: https://anaconda.org/conda-forge/pyscal
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pybind11
+Requires-Dist: numpy
+Requires-Dist: ase
+
+
+# pyscal - python Structural Environment Calculator
+
+Testing readme
+
