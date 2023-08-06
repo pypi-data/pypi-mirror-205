@@ -1,0 +1,12 @@
+rssfixer/__init__.py,sha256=MGhsbdJVUBnlc35QJIM4xvC1GopySSfjU87xhTB4DZg,81
+rssfixer/rss.py,sha256=PGN5BBx5HeKxPEIMJ2n0CE-RSywNFnfZL8fi1bPvSIs,12428
+tests/test_rss.py,sha256=Q2cIxeD338-sLY5cU6sKkp9SZD6mRid04WWmtmlJupk,14680
+tests/test_rss_args.py,sha256=15FTUfIh7yZuC4ng-Q8eTt8UjBbUf3Tifw4ANA3T1Xg,4983
+tests/test_rss_extract_links_release.py,sha256=XmX3pLofLboNM5wn6l68ffL7OJkmE00NrBMrcfYoQ9E,2236
+tests/test_rss_main.py,sha256=2t_ffoyRKBQ6Cex5JfOCQ6OFh30UdZYUYiUAKj3ze5Q,1980
+rssfixer-0.1.4.dist-info/LICENSE,sha256=BeEewqa7VnO08fVhefLPfA7d9PGeu8bpAUX8lboAA_Y,1058
+rssfixer-0.1.4.dist-info/METADATA,sha256=kkls_KNfZAmx_v5-9cVEBZb-I20UNEgrY_gEaiZom8w,10195
+rssfixer-0.1.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+rssfixer-0.1.4.dist-info/entry_points.txt,sha256=vjywZYc-nt6OmmMrLitRdNxW0NjgyQZ6l7uhBKc3DZM,43
+rssfixer-0.1.4.dist-info/top_level.txt,sha256=RAp_Ryt_q1acu8KO4H7XxYv2NVw_8ik-_6eext0fur4,15
+rssfixer-0.1.4.dist-info/RECORD,,
