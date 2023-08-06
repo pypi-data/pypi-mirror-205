@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: ImmunoViewer
+Version: 0.1.0
+Summary: Discover and annotate your (multi-channel) big TIF files with this user-friendly viewer
+Home-page: https://github.com/davidvi/ImmunoViewer
+Author: David van IJzendoorn
+Author-email: davidvanijzendoorn@gmail.com
+Project-URL: Documentation, https://github.com/davidvi/ImmunoViewer
+Project-URL: Bug Reports, https://github.com/davidvi/ImmunoViewer/issues
+Project-URL: Source Code, https://github.com/davidvi/ImmunoViewer
+Keywords: big tif,immuno,viewer,annotate,annotation,discover,discovery,image,images,tif,tiff,multi-channel,multi c
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ImmunoViewer
+Discover and annotate your (multi-channel) big TIF files with this user-friendly viewer.
+
+### Table of Contents
+* [What is ImmunoViewer](#description)  
+* [Installation](#installation)  
+    * [Install from GitHub](#install-from-github)
+    * [Install from pip](#install-from-pip)
+    * [Install from Conda](#install-from-conda)
+* [Usage](#usage)  
+    * [Folder structure](#folder-structure)
+    * [Generate tiles](#generate-tiles)
+    * [Run the viewer](#run-the-viewer)
+
+
+### Description
+ImmunoViewer is an easy way to view your scanned tif files. 
+
+### Installation
+#### Install from github
+```bash
+git clone https://github.com/davidvi/ImmunoViewer.git
+cd ImmunoViewer
+python setup.py install
+```
+
+#### Install from pip 
+
+#### Install from conda
+
+### Usage
+#### Folder structure
+
+#### Generate tiles
+
+#### Run the viewer
