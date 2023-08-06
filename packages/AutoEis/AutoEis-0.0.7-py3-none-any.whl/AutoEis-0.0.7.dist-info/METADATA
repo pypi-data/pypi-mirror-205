@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: AutoEis
+Version: 0.0.7
+Summary: A demo package to assist EIS analysis by automatically proposing statistically plausible ECM
+Home-page: 
+Author: Runze zhang, Robert Black, Jason Hattrick-Simpers*
+Author-email: runzee.zhang@mail.utoronto.ca
+Keywords: Electrochemical impedance spectroscopy,equivalent circuit models,Bayesian inference,evolutionary algorithm
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib (>=3.3.2)
+Requires-Dist: numpy (>=1.20.3)
+Requires-Dist: pandas (>=1.1.3)
+Requires-Dist: impedance (>=1.4.0)
+Requires-Dist: regex (>=2.2.1)
+Requires-Dist: arviz (>=0.12.0)
+Requires-Dist: numpyro (>=0.9.1)
+Requires-Dist: dill (>=0.3.4)
+Requires-Dist: julia (>=0.5.7)
+Requires-Dist: IPython (>=7.19.0)
+Requires-Dist: jax (>=0.3.9)
+
+
+For test only
