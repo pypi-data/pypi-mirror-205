@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/georef_ar_py/__init__.py
+src/georef_ar_py/georequests.py
+src/georef_ar_py.egg-info/PKG-INFO
+src/georef_ar_py.egg-info/SOURCES.txt
+src/georef_ar_py.egg-info/dependency_links.txt
+src/georef_ar_py.egg-info/requires.txt
+src/georef_ar_py.egg-info/top_level.txt
+tests/test_georequests.py
