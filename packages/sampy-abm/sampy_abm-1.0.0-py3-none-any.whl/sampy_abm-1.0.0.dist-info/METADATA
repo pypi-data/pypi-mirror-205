@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: sampy-abm
+Version: 1.0.0
+Summary: SamPy is a library for efficient ABM development. It is mainly focused on epidemiological applications.
+Author-email: Francois Viard <sampy.project@gmail.com>
+Project-URL: Homepage, https://github.com/sampy-project/sampy-main
+Project-URL: Bug Tracker, https://github.com/sampy-project/sampy-main/issues
+Requires-Python: <3.11,>=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (>=1.22)
+Requires-Dist: scipy (>=1.8)
+Requires-Dist: pandas (>=1.4.3)
+Requires-Dist: numba (>=0.55.2)
+
+# sampy-main
+
+This is the main repo containing the last version of SamPy.
