@@ -1,0 +1,8 @@
+setup.py
+songsuggestions.egg-info/PKG-INFO
+songsuggestions.egg-info/SOURCES.txt
+songsuggestions.egg-info/dependency_links.txt
+songsuggestions.egg-info/requires.txt
+songsuggestions.egg-info/top_level.txt
+songsuggestionslib/__init__.py
+songsuggestionslib/songsuggestions.py

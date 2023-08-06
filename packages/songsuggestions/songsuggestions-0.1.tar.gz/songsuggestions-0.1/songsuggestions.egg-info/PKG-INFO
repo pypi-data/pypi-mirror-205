@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: songsuggestions
+Version: 0.1
+Summary: A library that suggest random songs to the user
+Author: Anuhya Kodam
+Author-email: anuhyakodamir25@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
