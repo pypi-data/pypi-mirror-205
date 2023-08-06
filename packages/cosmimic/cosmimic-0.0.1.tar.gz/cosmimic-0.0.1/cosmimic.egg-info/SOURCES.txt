@@ -1,0 +1,6 @@
+README.md
+setup.py
+cosmimic.egg-info/PKG-INFO
+cosmimic.egg-info/SOURCES.txt
+cosmimic.egg-info/dependency_links.txt
+cosmimic.egg-info/top_level.txt
