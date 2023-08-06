@@ -1,0 +1,7 @@
+ampy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ampy/processing.py,sha256=bofHcAkg1XA5b7kj5hidYMnRwvNk8IfRg1p_wXLp0lA,17616
+ampy/statistics2d.py,sha256=mR9cy3OIWCPraclJjnLaDZxouSpTbZ6m8_lQ2GNkboc,9129
+ampy/statistics3d.py,sha256=bL_LCE9hCj1Kop-_-L1H9dYJ4csRgmq-4HrmEdi7OVI,6265
+ampy-0.1.2.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+ampy-0.1.2.dist-info/METADATA,sha256=qc18p2VC4aBQgMsLd6lqE780gkQgt9EhewBdAwCL3Gg,13441
+ampy-0.1.2.dist-info/RECORD,,
