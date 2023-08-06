@@ -1,0 +1,5 @@
+autora-core
+firebase_admin
+
+[dev]
+autora-core[dev]

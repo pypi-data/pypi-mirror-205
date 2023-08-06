@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/autora/runner/experimentation_manager/firebase/__init__.py
+src/autora_runner_experimentation_manager_firebase.egg-info/PKG-INFO
+src/autora_runner_experimentation_manager_firebase.egg-info/SOURCES.txt
+src/autora_runner_experimentation_manager_firebase.egg-info/dependency_links.txt
+src/autora_runner_experimentation_manager_firebase.egg-info/requires.txt
+src/autora_runner_experimentation_manager_firebase.egg-info/top_level.txt
+tests/test_theorist_example.py
