@@ -1,0 +1,11 @@
+dune/harmonizer/__init__.py,sha256=I_g37RI4BRVRgtaBQuB-K49fjLmtldYIlqQWT3IkTq4,440
+dune/harmonizer/constants.py,sha256=melW42pK8DG4SwhgIOlyr1EZzZ5t8zsPgo8Iom1Pyfs,54
+dune/harmonizer/custom_transforms.py,sha256=eHsucZ3TQW5IBSx-a6axgchsKOi9Gh5LF5AgH_T1wJo,13827
+dune/harmonizer/dialects/dunesql.py,sha256=mx9-nTxEl9n4VaaEd8HDQzRYXFVzOvIgHDFG-szTQzQ,8485
+dune/harmonizer/errors.py,sha256=iqCf-FLpPSt--EZFZvCHvaJsVOXqVoyYjOcCcbiG4tw,105
+dune/harmonizer/table_replacements.py,sha256=jZ0OvRhs0gNNAGIT8yf5rATShxZ7N9MdqiJDKdBNafQ,2018
+dune/harmonizer/translate.py,sha256=j_NqTVxXklhwO-C9sgJEol_nqVIUEibc-rsnLk0c4nA,2756
+dune_harmonizer-0.10.0.dist-info/LICENSE,sha256=goRUlXioimEukqqurTK349mZ4oSBiM_bwD7ox1aVItU,1061
+dune_harmonizer-0.10.0.dist-info/METADATA,sha256=pI6mGTdbN4DXaH5-wT-_3Wp3uhO0zKIoR9XcHwEJug4,2852
+dune_harmonizer-0.10.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+dune_harmonizer-0.10.0.dist-info/RECORD,,
