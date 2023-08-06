@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: yesql
+Version: 1.0.0b3
+Summary: yesql is a SQL-first data access library that will replace your ORM.
+License: MIT
+Keywords: typing,data,annotations,validation,json-schema
+Author: Sean Stewart
+Author-email: sean_stewart@me.com
+Requires-Python: >=3.8.1,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Database
+Classifier: Topic :: Database :: Front-Ends
+Classifier: Typing :: Typed
+Provides-Extra: asyncpg
+Provides-Extra: cli
+Provides-Extra: psycopg
+Requires-Dist: PyPika (>=0.48,<0.49)
+Requires-Dist: asyncpg (>=0.27,<0.28) ; extra == "asyncpg"
+Requires-Dist: black (>=23,<24) ; extra == "cli"
+Requires-Dist: orjson (>=3,<4) ; extra == "asyncpg" or extra == "psycopg"
+Requires-Dist: psycopg[binary,pool] (>=3.1,<4.0) ; extra == "psycopg"
+Requires-Dist: sqlparse (>=0.4,<0.5)
+Requires-Dist: typical (>=2.8,<3.0)
