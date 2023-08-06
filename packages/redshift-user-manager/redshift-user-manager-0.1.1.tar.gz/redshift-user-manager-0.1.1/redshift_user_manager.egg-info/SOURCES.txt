@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+redshift_user_manager/__init__.py
+redshift_user_manager/cli.py
+redshift_user_manager/constants.py
+redshift_user_manager/exceptions.py
+redshift_user_manager/py.typed
+redshift_user_manager/redshift_user_manager.py
+redshift_user_manager.egg-info/PKG-INFO
+redshift_user_manager.egg-info/SOURCES.txt
+redshift_user_manager.egg-info/dependency_links.txt
+redshift_user_manager.egg-info/entry_points.txt
+redshift_user_manager.egg-info/requires.txt
+redshift_user_manager.egg-info/top_level.txt
