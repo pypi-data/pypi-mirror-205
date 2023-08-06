@@ -1,0 +1,114 @@
+Metadata-Version: 2.1
+Name: agvis
+Version: 3.1.2
+Summary: Web application of geographical visualizer for energy systems
+Home-page: https://github.com/CURENT/agvis
+Author: Nicholas West, Nicholas Parsly, Jinning Wang
+Author-email: jinninggm@gmail.com
+License: GNU Public License v3
+Classifier: Development Status :: 4 - Beta
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Environment :: Console
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: andes
+Provides-Extra: all
+Requires-Dist: flake8 ; extra == 'all'
+Requires-Dist: sphinx-copybutton ; extra == 'all'
+Requires-Dist: sphinx-panels ; extra == 'all'
+Requires-Dist: myst-nb (==0.13.2) ; extra == 'all'
+Requires-Dist: numpydoc ; extra == 'all'
+Requires-Dist: sphinx ; extra == 'all'
+Requires-Dist: myst-parser (==0.15.2) ; extra == 'all'
+Requires-Dist: pydata-sphinx-theme ; extra == 'all'
+Requires-Dist: ipython ; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: sphinx-copybutton ; extra == 'dev'
+Requires-Dist: sphinx-panels ; extra == 'dev'
+Requires-Dist: myst-nb (==0.13.2) ; extra == 'dev'
+Requires-Dist: numpydoc ; extra == 'dev'
+Requires-Dist: sphinx ; extra == 'dev'
+Requires-Dist: myst-parser (==0.15.2) ; extra == 'dev'
+Requires-Dist: pydata-sphinx-theme ; extra == 'dev'
+Requires-Dist: ipython ; extra == 'dev'
+Provides-Extra: doc
+Requires-Dist: sphinx-copybutton ; extra == 'doc'
+Requires-Dist: sphinx-panels ; extra == 'doc'
+Requires-Dist: myst-nb (==0.13.2) ; extra == 'doc'
+Requires-Dist: numpydoc ; extra == 'doc'
+Requires-Dist: sphinx ; extra == 'doc'
+Requires-Dist: myst-parser (==0.15.2) ; extra == 'doc'
+Requires-Dist: pydata-sphinx-theme ; extra == 'doc'
+Provides-Extra: flake8
+Requires-Dist: flake8 ; extra == 'flake8'
+Provides-Extra: ipython
+Requires-Dist: ipython ; extra == 'ipython'
+Provides-Extra: myst-nb
+Requires-Dist: myst-nb (==0.13.2) ; extra == 'myst-nb'
+Provides-Extra: myst-parser
+Requires-Dist: myst-parser (==0.15.2) ; extra == 'myst-parser'
+Provides-Extra: numpydoc
+Requires-Dist: numpydoc ; extra == 'numpydoc'
+Provides-Extra: pydata-sphinx-theme
+Requires-Dist: pydata-sphinx-theme ; extra == 'pydata-sphinx-theme'
+Provides-Extra: sphinx
+Requires-Dist: sphinx ; extra == 'sphinx'
+Provides-Extra: sphinx-copybutton
+Requires-Dist: sphinx-copybutton ; extra == 'sphinx-copybutton'
+Provides-Extra: sphinx-panels
+Requires-Dist: sphinx-panels ; extra == 'sphinx-panels'
+
+# LTB AGVis
+
+<img src="docs/source/images/sponsors/CURENT_Logo_NameOnTrans.png" alt="CURENT ERC Logo" width="300" height="auto">
+
+Geographical visualizer for energy system.
+
+|               | Latest                                                                                                                                        | Stable                                                                                                                                        |
+|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
+| Documentation | [![Latest Documentation](https://readthedocs.org/projects/agvis/badge/?version=stable)](https://agvis.readthedocs.io/en/latest/?badge=stable) | [![Documentation Status](https://readthedocs.org/projects/agvis/badge/?version=latest)](https://agvis.readthedocs.io/en/latest/?badge=latest)|
+
+# Why AGVis
+
+AGVis is a geovisualization tool that facilitates the visualization of ***large-scale real-time*** power system simulation.
+
+AGVis visualizing the entire North America system topology:
+
+![image](https://user-images.githubusercontent.com/79226045/203147395-27561028-4a74-4ac1-91a5-01e7f811f898.png)
+
+AGVis visualizing the WECC system:
+
+![image](https://user-images.githubusercontent.com/79226045/203148756-edc046a3-35a1-4343-8ab2-67cfa337546c.png)
+
+# Quick Start
+
+AGVis runs on Linux or Windows, a quick start guide is available at [Quick Start](https://agvis.readthedocs.io/en/latest/quick_start/quick_start/)
+
+# Citing AGVis
+
+If you use AGVis for research or consulting, please cite the following publications in your publication:
+
+> Parsly, N., Wang, J., West, N., Zhang, Q., Cui, H., & Li, F. (2022). "DiME and AGVIS A Distributed Messaging Environment and Geographical Visualizer for Large-scale Power System Simulation". arXiv. https://doi.org/https://arxiv.org/abs/2211.11990v1
+
+Please refer as **LTB AGVis** for the first occurence and then refer as **AGVis**.
+
+# Sponsors and Contributors
+This work was supported in part by the Engineering Research Center
+Program of the National Science Foundation and the Department of Energy
+under NSF Award Number EEC-1041877 and the CURENT Industry Partnership
+Program.
+
+This work was supported in part by the Advanced Grid Research and Development Program
+in the Office of Electricity at the U.S. Department of Energy.
+
+AGVis is originally developed by Nicholas West and currently developed and maintained by Nicholas Parsly.
+
+See [GitHub contributors][GitHub contributors] for the contributor list.
+
+# License
+
+AGVis is licensed under [GPL v3 License](./LICENSE)
