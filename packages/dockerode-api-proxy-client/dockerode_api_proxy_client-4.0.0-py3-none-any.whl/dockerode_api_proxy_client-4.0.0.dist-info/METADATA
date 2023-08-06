@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: dockerode-api-proxy-client
+Version: 4.0.0
+Summary: Dockerode API proxy client enables communication with the side-car service Dockerode API proxy
+Author: Thim Lohse
+Author-email: thim.lohse@caesari.se
+License: MIT
+Platform: unix
+Platform: linux
+Platform: osx
+Platform: cygwin
+Platform: win32
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp (>=3.8.3)
+Requires-Dist: PyJWT (>=2.6.0)
+Requires-Dist: setuptools (>=63)
+Requires-Dist: caesari-clients (>=1.1.0)
+Provides-Extra: testing
+Requires-Dist: pytest (>=6.2.5) ; extra == 'testing'
+
+# Dockerode API proxy for python
+
+## Installation
+
+Add the following, or equivalent, path to the top of your requirements.txt:
+
+```bash
+# requirements.txt
+../projects/dockerode-api-proxy-client/
+```
