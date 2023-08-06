@@ -1,0 +1,4 @@
+agnishwarsHelloWorldPackage.egg-info/PKG-INFO
+agnishwarsHelloWorldPackage.egg-info/SOURCES.txt
+agnishwarsHelloWorldPackage.egg-info/dependency_links.txt
+agnishwarsHelloWorldPackage.egg-info/top_level.txt
