@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: difft
+Version: 1.2.1
+Summary: Python Distribution Utilities
+Home-page: 
+Author: difft.org
+Author-email: teams@difft.org
+Requires-Python: >=3.6
+Requires-Dist: requests
+Requires-Dist: pycryptodome
+Requires-Dist: websocket-client
+Requires-Dist: rel
+
