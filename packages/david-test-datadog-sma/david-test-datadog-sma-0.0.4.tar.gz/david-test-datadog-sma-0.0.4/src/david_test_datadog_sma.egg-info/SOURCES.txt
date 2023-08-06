@@ -1,0 +1,7 @@
+pyproject.toml
+src/__init__.py
+src/datadog-serverless-agent-linux-amd64/datadog-serverless-trace-mini-agent
+src/david_test_datadog_sma.egg-info/PKG-INFO
+src/david_test_datadog_sma.egg-info/SOURCES.txt
+src/david_test_datadog_sma.egg-info/dependency_links.txt
+src/david_test_datadog_sma.egg-info/top_level.txt
