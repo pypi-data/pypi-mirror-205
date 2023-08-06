@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bitget-python-connector"
+version = "0.0.7"
+authors = [
+  { name="Cheng, Chuan-Yi", email="parker178912.en08@nycu.edu.tw" },
+]
+description = "A tool to easily connect to bitget api."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "requests",
+]
+
+[tool.setuptools.packages]
+find = {}
+
+[project.urls]
+"Homepage" = "https://github.com/parker178912/bitget-python-connector"
+"Bug Tracker" = "https://github.com/parker178912/bitget-python-connector/issues"
