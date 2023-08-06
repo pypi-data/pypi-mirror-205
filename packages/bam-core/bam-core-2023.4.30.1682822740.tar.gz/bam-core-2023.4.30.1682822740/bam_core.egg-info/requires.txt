@@ -1,0 +1,6 @@
+pyairtable
+requests
+boto3
+pyyaml
+phonenumbers
+python-dotenv
