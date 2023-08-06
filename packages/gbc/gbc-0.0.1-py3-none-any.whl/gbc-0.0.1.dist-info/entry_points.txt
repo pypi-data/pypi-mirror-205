@@ -1,0 +1,3 @@
+[console_scripts]
+gbc=gbc.__main__:main
+
