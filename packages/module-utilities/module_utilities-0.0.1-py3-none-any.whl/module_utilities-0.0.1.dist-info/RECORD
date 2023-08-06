@@ -1,0 +1,10 @@
+module_utilities/__init__.py,sha256=nR-vgKFqqrIG-UpTvaRSQupM4rWYn2HWpp1vz_lgTDM,709
+module_utilities/cached.py,sha256=s9_XRGJ0rytEMnxRcvtreKSV21VGOTUqbVg7BlM5fFU,8354
+module_utilities/docfiller.py,sha256=gG5ocLZbZXZ7Qxc2Lsysw5Tg3EwXPBACDue2g3MdmOQ,21684
+module_utilities/external/__init__.py,sha256=zX3w5kejHecR2wmDcttkaLaIwLG29UbtVRRaCiaex_s,26
+module_utilities/external/docscrape.py,sha256=AzWl0e9POr1-ybO1gA_Lr4pvsmV-b1Q3Rkv2q6XplvM,23552
+module_utilities-0.0.1.dist-info/LICENSE,sha256=j_sUyRmuUbF_c9KR7g_uTdRv-cBn65wjYQpmusAzyT0,1645
+module_utilities-0.0.1.dist-info/METADATA,sha256=pZBVAnqTKBbJKn-dS02RMVQm6w0hpspPNIYeCwf4Vhs,5885
+module_utilities-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+module_utilities-0.0.1.dist-info/top_level.txt,sha256=LmKk4Ni2szxjMBItkD5pCn-nZckEu9VPvkKjOudF5oA,17
+module_utilities-0.0.1.dist-info/RECORD,,
