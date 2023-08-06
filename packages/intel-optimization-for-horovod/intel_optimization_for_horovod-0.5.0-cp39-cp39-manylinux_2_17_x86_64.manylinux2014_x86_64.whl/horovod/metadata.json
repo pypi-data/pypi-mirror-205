@@ -1,0 +1,5 @@
+{
+"tensorflow": "2.12.0",
+"pytorch": "1.13.0a0+git6c9b55e",
+"dummy": "none"
+}
