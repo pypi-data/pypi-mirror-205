@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: chef_helper
+Version: 4
+Summary: Helping the chef find meal cooking instructions.
+Home-page: http://github.com/osandrey/Chef_helper
+Author: OSA
+Author-email: osandreyman@gmail.com
+License: MIT
+License-File: LICENSE
