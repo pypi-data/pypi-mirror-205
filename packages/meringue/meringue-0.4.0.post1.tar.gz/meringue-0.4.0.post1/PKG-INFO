@@ -1,0 +1,100 @@
+Metadata-Version: 2.1
+Name: meringue
+Version: 0.4.0.post1
+Summary: A set of various functionality for a Django based web application.
+Project-URL: Homepage, https://github.com/dd/Meringue
+Project-URL: Repository, https://github.com/dd/Meringue.git
+Project-URL: Changelog, https://github.com/dd/Meringue/blob/master/CHANGELOG.md
+Project-URL: Bug Tracker, https://github.com/dd/Meringue/issues
+Author-email: Dmitry Dobrynin <dd@manin.space>
+License-Expression: LGPL-3.0
+License-File: AUTHORS
+License-File: LICENSE
+Keywords: django,utils
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Plugins
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 1
+Classifier: Framework :: Django :: 1.11
+Classifier: Framework :: Django :: 2
+Classifier: Framework :: Django :: 2.0
+Classifier: Framework :: Django :: 2.1
+Classifier: Framework :: Django :: 2.2
+Classifier: Framework :: Django :: 3
+Classifier: Framework :: Django :: 3.0
+Classifier: Framework :: Django :: 3.1
+Classifier: Framework :: Django :: 3.2
+Classifier: Framework :: Django :: 4
+Classifier: Framework :: Django :: 4.0
+Classifier: Framework :: Django :: 4.1
+Classifier: Framework :: Django :: 4.2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Natural Language :: Russian
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.7
+Requires-Dist: django>=1.11.17
+Provides-Extra: crypto
+Requires-Dist: pycryptodome==3.9.7; extra == 'crypto'
+Provides-Extra: django-pipeline
+Requires-Dist: django-pipeline-browserify==0.6.2; extra == 'django-pipeline'
+Requires-Dist: django-pipeline==1.7.0; extra == 'django-pipeline'
+Provides-Extra: openpyxl
+Requires-Dist: openpyxl==2.6.1; extra == 'openpyxl'
+Provides-Extra: pillow
+Requires-Dist: pillow==7.2.0; extra == 'pillow'
+Provides-Extra: python-phonenumbers
+Requires-Dist: phonenumbers==8.10.8; extra == 'python-phonenumbers'
+Description-Content-Type: text/markdown
+
+# Meringue
+
+Package with various functional (such as mixins, form utils, upload handlers and other) for Django Framework.
+
+
+## Roadmap
+
+* Using [gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
+* Refactoring all functional
+* Documentation with [mkdocs](https://www.mkdocs.org/) or [antora](https://antora.org/)
+* Linter and formatter with a [Ruff](https://beta.ruff.rs/docs/) and [Black](https://github.com/psf/black)
+* Add [mypy](https://mypy-lang.org/) ???
+* Testing with [hatch](https://hatch.pypa.io/1.7/meta/faq/#environments) or [tox](https://tox.wiki/en/latest/)
+
+
+* css для PreviewImageField
+* thumbnail:
+
+  - watermark
+  - определение лица и использование в роли центра изображения
+  - указание максимальной ширины или высоты
+  - определение фокуса
+
+* PreviewImageFileInput:
+
+  - информация о изображении
+  - изображение при инициализации
+  - при загрузке изображения сразу же его выводить в превью (js)
+
+* Абстрактная модель для создания галлереи со всеми необходимыми полями, кроме родительской таблицы
+* тестирование
+* настройки вроде DEBUG из админки
+* перезагрузка сервера из админки
+* put_js преобразовывать относительные пути
+* тег add_attrs добавляющий всё чтопередано атрибутами тега

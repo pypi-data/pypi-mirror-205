@@ -1,0 +1,13 @@
+*.log
+*.mo
+*.py[cod]
+*.sublime-project
+*.sublime-workspace
+*~
+.*
+
+/env
+/build
+/dist
+/stuff
+/venv
