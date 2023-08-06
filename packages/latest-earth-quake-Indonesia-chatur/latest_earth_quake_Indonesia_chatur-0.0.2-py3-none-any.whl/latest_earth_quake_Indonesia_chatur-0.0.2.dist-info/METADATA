@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: latest-earth-quake-Indonesia-chatur
+Version: 0.0.2
+Summary: This package will get the latest earthquake (Indonesia) from https://www.bmkg.go.id/ BMKG
+Author-email: Chatur Agus Priyono <chatur.agus.priyono@gmail.com>
+Project-URL: Homepage, https://github.com/chaturap/bmkg-latest-earthquake
+Project-URL: Bug Tracker, https://github.com/chaturap/bmkg-latest-earthquake/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# bmkg-latest-earthquake
+This package will get the latest earthquake (Indonesia) from https://www.bmkg.go.id/  BMKG | Meteorological, Climatological, and Geophysical Agency
