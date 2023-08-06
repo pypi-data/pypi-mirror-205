@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: photonsphinx
+Version: 0.0.1
+Summary: PHOTON theme for the Sphinx platform
+Home-page: https://github.com/photon-platform/photon-sphinx-theme
+Author: phi ARCHITECT
+Author-email: phi@phiarchitect.com
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Documentation
+Classifier: Topic :: Software Development :: Documentation
+License-File: LICENSE
+
+The **PHOTON platform . theme** is a translation of the PHOTON theme designed for Grav.
+
+I will be porting over the Twig templates to Jinja (very similar).
+
+Beginning with the Alabaster theme as a base.
+
+
+https://github.com/bitprophet/alabaster
