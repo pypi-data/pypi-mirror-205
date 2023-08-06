@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "dqfit"
+version = "0.0.31"
+authors = [
+  { name="Parker Holcomb" },
+]
+description = "Data Quality Fitness Index Tool"
+readme = "README.md"
+requires-python = ">=3.7"
+[project.urls]
+"Homepage" = "https://github.com/healthdataqualityorg/dqfit-python"
