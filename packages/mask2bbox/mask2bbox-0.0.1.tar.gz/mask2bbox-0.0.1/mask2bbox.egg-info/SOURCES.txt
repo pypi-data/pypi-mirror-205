@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+mask2bbox.egg-info/PKG-INFO
+mask2bbox.egg-info/SOURCES.txt
+mask2bbox.egg-info/dependency_links.txt
+mask2bbox.egg-info/requires.txt
+mask2bbox.egg-info/top_level.txt
+src/__init__.py
+src/mask2bbox/BBoxes.py
+src/mask2bbox/__init__.py
+src/mask2bbox/mask2bbox.py
+tests/__init__.py
+tests/test_mask2bbox/__init__.py
+tests/test_mask2bbox/test_mask2bbox.py
