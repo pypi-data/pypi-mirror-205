@@ -1,0 +1,5 @@
+[console_scripts]
+vxdm-atom_density = vaxadium.cli_density:main
+vxdm-dls = vaxadium.cli_dls:main
+vxdm-macros = vaxadium.cli_macros:main
+vxdm-run = vaxadium.cli_vaxadium:main
