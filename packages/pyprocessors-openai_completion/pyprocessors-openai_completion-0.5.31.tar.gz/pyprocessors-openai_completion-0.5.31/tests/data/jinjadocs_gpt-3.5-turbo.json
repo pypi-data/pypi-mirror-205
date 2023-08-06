@@ -1,0 +1,173 @@
+[
+  {
+    "text": "jerry goldsmith : l homme au chapeau de cow-boy dans la cabine t\u00e9l\u00e9phonique au salon de l invention ( cam\u00e9o non cr\u00e9dit\u00e9 )",
+    "identifier": "05828a36-edb1-4538-98ad-226ad93181d6",
+    "title": "05828a36-edb1-4538-98ad-226ad93181d6",
+    "metadata": {
+      "corpus": "train",
+      "language": "fr"
+    },
+    "altTexts": [
+      {
+        "name": "variants",
+        "text": "1. Dans la cabine t\u00e9l\u00e9phonique du salon de l'invention, on peut apercevoir l'homme au chapeau de cow-boy, Jerry Goldsmith, dans un cam\u00e9o non cr\u00e9dit\u00e9.\n2. Le c\u00e9l\u00e8bre compositeur Jerry Goldsmith appara\u00eet bri\u00e8vement dans le salon de l'invention, portant son embl\u00e9matique chapeau de cow-boy dans une cabine t\u00e9l\u00e9phonique, sans \u00eatre cr\u00e9dit\u00e9 au g\u00e9n\u00e9rique.\n3. Un cam\u00e9o surprenant dans le salon de l'invention : Jerry Goldsmith, alias l'homme au chapeau de cow-boy, se cache dans une cabine t\u00e9l\u00e9phonique sans \u00eatre mentionn\u00e9 au cr\u00e9dit du film.\n4. Les cin\u00e9philes les plus attentifs auront remarqu\u00e9 Jerry Goldsmith, reconnaissable \u00e0 son chapeau de cow-boy, dans une cabine t\u00e9l\u00e9phonique au salon de l'invention, mais le compositeur n'a pas \u00e9t\u00e9 cr\u00e9dit\u00e9 pour sa br\u00e8ve apparition.\n5. Au salon de l'invention, il y a m\u00eame des vedettes qui se cachent ! Jerry Goldsmith fait une apparition surprise, coiff\u00e9 de son l\u00e9gendaire chapeau de cow-boy, dans une cabine t\u00e9l\u00e9phonique du d\u00e9cor, sans \u00eatre cr\u00e9dit\u00e9 \u00e0 l'\u00e9cran."
+      }
+    ],
+    "sentences": [
+      {
+        "start": 0,
+        "end": 121
+      }
+    ],
+    "annotations": [
+      {
+        "start": 0,
+        "end": 15,
+        "labelName": "artist",
+        "label": "Artist",
+        "text": "jerry goldsmith",
+        "createdBy": "import",
+        "createdDate": "2022-11-16T22:22:56.199Z",
+        "modifiedDate": "2022-11-16T22:22:56.199Z",
+        "status": "OK"
+      },
+      {
+        "start": 29,
+        "end": 47,
+        "labelName": "clothing",
+        "label": "Clothing",
+        "text": "chapeau de cow-boy",
+        "createdBy": "import",
+        "createdDate": "2022-11-16T22:22:56.199Z",
+        "modifiedDate": "2022-11-16T22:22:56.199Z",
+        "status": "OK"
+      }
+    ],
+    "categories": []
+  },
+  {
+    "text": "alber elbaz le remplace en tant que directeur artistique du pr\u00eat-\u00e0-porter f\u00e9minin et hedi slimane du pr\u00eat \u00e0 porter masculin .",
+    "identifier": "47b90a69-f8ee-41d1-b3a1-8905fcf1f02a",
+    "title": "47b90a69-f8ee-41d1-b3a1-8905fcf1f02a",
+    "metadata": {
+      "corpus": "dev",
+      "language": "fr"
+    },
+    "altTexts": [
+      {
+        "name": "variants",
+        "text": "1) Hedi Slimane prend la rel\u00e8ve de Alber Elbaz en tant que directeur artistique du pr\u00eat-\u00e0-porter masculin, tandis que le cr\u00e9ateur talentueux remplace Slimane pour le pr\u00eat-\u00e0-porter f\u00e9minin. \n2) Le pr\u00eat-\u00e0-porter f\u00e9minin a maintenant un nouveau directeur artistique en la personne de Alber Elbaz, alors que Hedi Slimane prend les r\u00eanes du pr\u00eat-\u00e0-porter masculin. \n3) Les r\u00f4les ont chang\u00e9 au sein de l'industrie de la mode: Alber Elbaz est maintenant le nouveau directeur artistique du pr\u00eat-\u00e0-porter f\u00e9minin, tandis que Hedi Slimane dirige le pr\u00eat-\u00e0-porter masculin. \n4) En tant que nouvel arrivant \u00e0 ce poste, Alber Elbaz est maintenant le directeur artistique du pr\u00eat-\u00e0-porter f\u00e9minin, alors que Hedi Slimane prend la rel\u00e8ve pour le pr\u00eat-\u00e0-porter masculin. \n5) Les choses ont \u00e9volu\u00e9 dans le monde de la mode avec Alber Elbaz qui d\u00e9sormais dirige la conception du pr\u00eat-\u00e0-porter f\u00e9minin et Hedi Slimane \u00e0 la t\u00eate du pr\u00eat-\u00e0-porter masculin."
+      }
+    ],
+    "sentences": [
+      {
+        "start": 0,
+        "end": 125
+      }
+    ],
+    "annotations": [
+      {
+        "start": 0,
+        "end": 11,
+        "labelName": "artist",
+        "label": "Artist",
+        "text": "alber elbaz",
+        "createdBy": "import",
+        "createdDate": "2022-11-20T00:09:58.862Z",
+        "modifiedDate": "2022-11-20T00:09:58.862Z",
+        "status": "OK"
+      },
+      {
+        "start": 60,
+        "end": 73,
+        "labelName": "clothing",
+        "label": "Clothing",
+        "text": "pr\u00eat-\u00e0-porter",
+        "createdBy": "import",
+        "createdDate": "2022-11-20T00:09:58.862Z",
+        "modifiedDate": "2022-11-20T00:09:58.862Z",
+        "status": "OK"
+      },
+      {
+        "start": 85,
+        "end": 97,
+        "labelName": "artist",
+        "label": "Artist",
+        "text": "hedi slimane",
+        "createdBy": "import",
+        "createdDate": "2022-11-20T00:09:58.862Z",
+        "modifiedDate": "2022-11-20T00:09:58.862Z",
+        "status": "OK"
+      }
+    ],
+    "categories": []
+  },
+  {
+    "text": "chanel se fait aussi particuli\u00e8rement remarqu\u00e9 avec lily-rose depp au bras de karl lagerfeld avec une robe de mari\u00e9e rose pastel .",
+    "identifier": "a62886ab-c553-4153-894f-33ac31e17c33",
+    "title": "a62886ab-c553-4153-894f-33ac31e17c33",
+    "metadata": {
+      "corpus": "dev",
+      "language": "fr"
+    },
+    "altTexts": [
+      {
+        "name": "variants",
+        "text": "1. Chanel attire \u00e9galement beaucoup l'attention avec Lily-Rose Depp \u00e0 ses c\u00f4t\u00e9s, accompagn\u00e9e de Karl Lagerfeld et sa robe de mari\u00e9e rose pastel.\n2. La pr\u00e9sence de Karl Lagerfeld et de sa magnifique robe de mari\u00e9e rose pastel a mis en lumi\u00e8re Chanel, \u00e9blouissante aux c\u00f4t\u00e9s de Lily-Rose Depp.\n3. La robe de mari\u00e9e rose pastel port\u00e9e par Karl Lagerfeld a \u00e9t\u00e9 l'un des points forts de la pr\u00e9sence remarqu\u00e9e de Chanel, accompagn\u00e9e de Lily-Rose Depp.\n4. Chanel et Lily-Rose Depp ont attir\u00e9 tous les regards en compagnie de Karl Lagerfeld et de sa robe de mari\u00e9e rose pastel, mettant en avant la marque sous son meilleur jour."
+      }
+    ],
+    "sentences": [
+      {
+        "start": 0,
+        "end": 130
+      }
+    ],
+    "annotations": [
+      {
+        "start": 0,
+        "end": 6,
+        "labelName": "privatecorp",
+        "label": "PrivateCorp",
+        "text": "chanel",
+        "createdBy": "import",
+        "createdDate": "2022-11-20T00:09:59.127Z",
+        "modifiedDate": "2022-11-20T00:09:59.127Z",
+        "status": "OK"
+      },
+      {
+        "start": 52,
+        "end": 66,
+        "labelName": "artist",
+        "label": "Artist",
+        "text": "lily-rose depp",
+        "createdBy": "import",
+        "createdDate": "2022-11-20T00:09:59.127Z",
+        "modifiedDate": "2022-11-20T00:09:59.127Z",
+        "status": "OK"
+      },
+      {
+        "start": 78,
+        "end": 92,
+        "labelName": "artist",
+        "label": "Artist",
+        "text": "karl lagerfeld",
+        "createdBy": "import",
+        "createdDate": "2022-11-20T00:09:59.127Z",
+        "modifiedDate": "2022-11-20T00:09:59.127Z",
+        "status": "OK"
+      },
+      {
+        "start": 102,
+        "end": 116,
+        "labelName": "clothing",
+        "label": "Clothing",
+        "text": "robe de mari\u00e9e",
+        "createdBy": "import",
+        "createdDate": "2022-11-20T00:09:59.127Z",
+        "modifiedDate": "2022-11-20T00:09:59.127Z",
+        "status": "OK"
+      }
+    ],
+    "categories": []
+  }
+]
