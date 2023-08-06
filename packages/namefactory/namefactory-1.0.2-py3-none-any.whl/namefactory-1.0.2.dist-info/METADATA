@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: namefactory
+Version: 1.0.2
+Summary: Una libreria que genera nombres españoles de hombre y mujeres completas
+Home-page: https://www.instagram.com/aw.jacuxx/
+Author: Alan Reynoso Jacuinde
+Author-email: alanelhendakari@gmail.com
+License: MIT
+Requires-Dist: pandas
+
