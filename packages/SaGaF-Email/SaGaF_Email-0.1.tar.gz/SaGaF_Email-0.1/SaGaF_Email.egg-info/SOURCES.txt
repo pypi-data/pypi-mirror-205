@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+SaGaF_Email/SaGaF_Email.py
+SaGaF_Email/__init__.py
+SaGaF_Email.egg-info/PKG-INFO
+SaGaF_Email.egg-info/SOURCES.txt
+SaGaF_Email.egg-info/dependency_links.txt
+SaGaF_Email.egg-info/not-zip-safe
+SaGaF_Email.egg-info/top_level.txt
