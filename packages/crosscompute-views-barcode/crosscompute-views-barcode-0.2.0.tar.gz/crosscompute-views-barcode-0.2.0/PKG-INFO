@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: crosscompute-views-barcode
+Version: 0.2.0
+Summary: Scan barcodes in your automations.
+Home-page: https://crosscompute.com
+Author: CrossCompute Inc.
+Author-email: support@crosscompute.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/crosscompute/crosscompute-views-barcode/issues
+Project-URL: Documentation, https://github.com/crosscompute/crosscompute-views-barcode
+Project-URL: Source Code, https://github.com/crosscompute/crosscompute-views-barcode
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# Barcode Views for CrossCompute
+
+Scan barcodes in your CrossCompute automations. Here are the views included in this package:
+
+- barcode
+
+Please see https://github.com/crosscompute/crosscompute for more information about the CrossCompute Analytics Automation Framework.
+
+## Usage
+
+```bash
+# Upgrade package
+pip install crosscompute-views-barcode
+
+# Update configuration
+vim automate.yml
+  output:
+    variables:
+      - id: y
+        view: barcode
+        path: variables.dictionary
+        configuration:
+          frames-per-second: 10
+          scanner-width-in-pixels: 256
+          scanner-height-in-pixels: 256
+```
