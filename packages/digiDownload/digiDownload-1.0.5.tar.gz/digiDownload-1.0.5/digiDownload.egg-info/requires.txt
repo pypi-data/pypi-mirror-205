@@ -1,0 +1,6 @@
+httpx
+lxml
+reportlab
+PyPDF2
+svglib
+beautifulsoup4
