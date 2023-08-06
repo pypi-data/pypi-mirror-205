@@ -1,0 +1,151 @@
+Metadata-Version: 2.1
+Name: aiomonobank
+Version: 1.0.0
+Summary: Asynchronous Python library for monobank API
+Project-URL: Homepage, https://github.com/TT1410/aiomonobank
+Project-URL: Documentation, https://github.com/TT1410/aiomonobank
+Project-URL: Repository, https://github.com/TT1410/aiomonobank
+Author-email: TT1410 <taras@plaksii.cf>
+Maintainer-email: TT1410 <taras@plaksii.cf>
+License-File: LICENSE
+Keywords: api,asyncio,bank,library,monobank,wrapper
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Communications :: Chat
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Requires-Python: >=3.10
+Requires-Dist: aiocache>=0.12.1
+Requires-Dist: aiohttp~=3.8.4
+Requires-Dist: certifi>=2022.12.7
+Requires-Dist: pydantic~=1.10.7
+Requires-Dist: pytz>=2023.3
+Description-Content-Type: text/markdown
+
+# AIOMonobank
+Asynchronous Python library for [monobank](https://api.monobank.ua/docs) API
+
+
+## Setup
+- You get token for your client from [MonobankAPI](https://api.monobank.ua/).
+- Install the **latest version** of the **aiomonobank**: `pip install aiomonobank`
+
+
+
+.. image:: https://img.shields.io/pypi/l/aiomonobank.svg?style=flat-square
+    :target: https://opensource.org/licenses/MIT
+    :alt: MIT License
+
+.. image:: https://img.shields.io/pypi/status/aiomonobank.svg?style=flat-square
+    :target: https://pypi.python.org/pypi/aiomonobank
+    :alt: PyPi status
+
+.. image:: https://img.shields.io/pypi/v/aiomonobank.svg?style=flat-square
+    :target: https://pypi.python.org/pypi/aiomonobank
+    :alt: PyPi Package Version
+
+.. image:: https://img.shields.io/pypi/dm/aiomonobank.svg?style=flat-square
+    :target: https://pypi.python.org/pypi/aiomonobank
+    :alt: Downloads
+
+.. image:: https://img.shields.io/pypi/pyversions/aiomonobank.svg?style=flat-square
+    :target: https://pypi.python.org/pypi/aiomonobank
+    :alt: Supported python versions
+
+
+
+## Examples
+
+**We currently have 2 different classes for using the Monobank API.:**
+- `MonoPublic` is simple base class for others, can only get currencies
+- `MonoPersonal` - this class for talk to personal Monobank API
+
+
+### [get_currency](https://api.monobank.ua/docs/#tag/Publichni-dani/paths/~1bank~1currency/get) request
+
+```python
+import json
+import asyncio
+
+from aiomonobank import MonoPublic
+
+
+async def main():
+    async with MonoPublic() as mono_client:
+        currency = await mono_client.get_currency()
+
+    print(json.dumps(currency, ensure_ascii=False, indent=4))
+
+
+if __name__ == '__main__':
+    asyncio.run(main())
+```
+
+
+### [get_client_info](https://api.monobank.ua/docs/#tag/Kliyentski-personalni-dani/paths/~1personal~1client-info/get) request
+
+```python
+import json
+import asyncio
+
+from aiomonobank import MonoPersonal
+
+MONOBANK_API_TOKEN = 'your_token'
+
+
+async def main():
+    mono_client = MonoPersonal(MONOBANK_API_TOKEN)
+    try:
+        client_info = await mono_client.get_client_info()
+
+        print(json.dumps(client_info, ensure_ascii=False, indent=4))
+    finally:
+        await mono_client.close()
+
+
+if __name__ == '__main__':
+    asyncio.run(main())
+```
+
+
+### [get_statement](https://api.monobank.ua/docs/#tag/Kliyentski-personalni-dani/paths/~1personal~1statement~1{account}~1{from}~1{to}/get) request
+
+```python
+import json
+import asyncio
+from datetime import datetime, timedelta
+
+from aiomonobank import MonoPersonal
+
+MONOBANK_API_TOKEN = 'your_token'
+
+
+async def main():
+    mono_client = MonoPersonal(MONOBANK_API_TOKEN)
+    try:
+        transactions = await mono_client.get_statement(
+            account_id='0', 
+            from_datetime=datetime.utcnow() - timedelta(days=3),
+            to_datetime=datetime.utcnow() - timedelta(days=2)
+        )
+
+        print(json.dumps(transactions, ensure_ascii=False, indent=4))
+    finally:
+        await mono_client.close()
+
+
+if __name__ == '__main__':
+    asyncio.run(main())
+```
+
+
+## Resources:
+- PyPI: [aiomonobank](https://pypi.org/project/aiomonobank)
+- Documentation: (soon)
