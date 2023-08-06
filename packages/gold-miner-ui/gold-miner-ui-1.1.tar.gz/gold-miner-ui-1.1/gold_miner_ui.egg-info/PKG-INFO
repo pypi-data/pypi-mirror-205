@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: gold-miner-ui
+Version: 1.1
+Summary: A UI plugin that adds graphical extensions to gold-miner
+Home-page: https://gitlab.com/isi-apropos/gold-miner-ui
+Author: Wes Hardaker
+Author-email: opensource@hardakers.net
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# About gold-miner-ui
+
+This package merely adds additional modules to the [gold-miner] package
+for generating live graphs.  It is distributed separately only to
+ensure base gold-miner package contains less installation requirements.
+
+[gold-miner]: https://github.com/hardaker/gold-miner
