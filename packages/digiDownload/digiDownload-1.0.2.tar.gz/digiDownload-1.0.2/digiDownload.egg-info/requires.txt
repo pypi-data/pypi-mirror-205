@@ -1,0 +1,5 @@
+httpx
+lxml
+reportlab
+PyPDF2
+svglibbeautifulsoup4

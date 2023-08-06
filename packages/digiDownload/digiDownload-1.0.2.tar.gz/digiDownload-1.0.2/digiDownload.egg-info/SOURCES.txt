@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+digiDownload/AdBlockCookiePolicy.py
+digiDownload/Book.py
+digiDownload/LTIParser.py
+digiDownload/Session.py
+digiDownload/__init__.py
+digiDownload/cli_tool.py
+digiDownload/exceptions.py
+digiDownload.egg-info/PKG-INFO
+digiDownload.egg-info/SOURCES.txt
+digiDownload.egg-info/dependency_links.txt
+digiDownload.egg-info/requires.txt
+digiDownload.egg-info/top_level.txt

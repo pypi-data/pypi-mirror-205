@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: digiDownload
+Version: 1.0.2
+Summary: API to download books from digi4school.at.
+Home-page: https://github.com/DaniD3v/digiDownload
+Download-URL: https://github.com/DaniD3v/digiDownload/archive/refs/tags/1.0.2.tar.gz
+Author: DaniD3v
+License: MIT
+Keywords: digi4school,books,api
+License-File: LICENSE
