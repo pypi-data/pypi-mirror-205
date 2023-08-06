@@ -1,0 +1,9 @@
+pandas
+sqlalchemy
+sqlalchemy_utils
+psycopg2
+requests
+
+[api]
+fastapi
+uvicorn
