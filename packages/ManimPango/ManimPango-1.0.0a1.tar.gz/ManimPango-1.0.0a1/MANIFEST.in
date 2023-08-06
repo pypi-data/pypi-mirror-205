@@ -1,0 +1,9 @@
+global-include *.pyx *.pxd *.pyi
+recursive-include tests *.py *.ttf LICENSE.txt
+recursive-include docs *.rst *.py make* _*/*
+prune docs/_build
+prune .venv
+include *.md
+include *.txt
+include .coveragerc
+include LICENSE*
