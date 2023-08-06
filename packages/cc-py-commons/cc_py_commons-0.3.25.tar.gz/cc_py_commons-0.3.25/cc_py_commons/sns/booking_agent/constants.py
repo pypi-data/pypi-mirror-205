@@ -1,0 +1,3 @@
+import os
+
+BOOKING_AGENT_TOPIC_ARN = os.getenv("BOOKING_AGENT_SNS_ARN")
