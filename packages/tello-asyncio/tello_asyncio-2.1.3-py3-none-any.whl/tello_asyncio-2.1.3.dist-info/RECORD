@@ -1,0 +1,11 @@
+tello_asyncio/__init__.py,sha256=XxPZJq8FTJzvfnED76a-LpB9tXuP72n55CDdSahIH5U,264
+tello_asyncio/state.py,sha256=iOkzmvoA5eDYg4n4T4LUnn1D77KCeqxZJjIxIId6DYY,2910
+tello_asyncio/tello.py,sha256=18Nrma-q6xWqEcHvgcsZKsiiXgylIhQxqMcfNnXPjlU,29388
+tello_asyncio/types.py,sha256=0vdlV2QpfN3smVypSiLXsoI9SyNrdDReBpFqKgNoSas,2029
+tello_asyncio/video.py,sha256=yXebW-E67P4gk11SPIQJatNLrMLWmYGbFpnsPery79I,1464
+tello_asyncio/wifi.py,sha256=fQeYLa3AyDvs8wIhbbsgCgSvtHcUodmJZklSRlrhi60,2006
+tello_asyncio-2.1.3.dist-info/LICENSE,sha256=IMF9i4xIpgCADf0U-V1cuf9HBmqWQd3qtI3FSuyW4zE,26526
+tello_asyncio-2.1.3.dist-info/METADATA,sha256=-_SareVPCNsUaTquUvJjU-J2PHWgrZ5U-aCPJ6AuCuA,4658
+tello_asyncio-2.1.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+tello_asyncio-2.1.3.dist-info/top_level.txt,sha256=yBIMC_fE1c6YlBDs4mGTJGpHammMTGf44JlaBLsLkck,14
+tello_asyncio-2.1.3.dist-info/RECORD,,
