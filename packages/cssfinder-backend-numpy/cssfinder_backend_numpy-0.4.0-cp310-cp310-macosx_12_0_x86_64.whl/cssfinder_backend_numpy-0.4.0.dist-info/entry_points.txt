@@ -1,0 +1,3 @@
+[console_scripts]
+cssfinder_backend_numpy=cssfinder_backend_numpy.__main__:main
+
