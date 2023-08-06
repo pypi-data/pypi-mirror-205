@@ -1,0 +1,12 @@
+worktoy/__init__.py,sha256=66XV1SdKib--3nwpoDc7kDMof-q17R8lOjFuUShG0tE,701
+worktoy/_discio.py,sha256=ShHdSX2uQzOOa_EJAhS1ylJ_oxncEvUJ_oeTk6owerc,3617
+worktoy/_hashpipes.py,sha256=D8KPDcDxcNfBVTEspQyyt3JqKYWJeJo41C4iM27Rugs,2011
+worktoy/_maybe.py,sha256=jnUnRln7i4YSz5tpqLTHtvHwUVah0akvCXchIOPzb5k,2480
+worktoy/_parseerror.py,sha256=XhF1eZTP6EKbHb8nfJqwYg4zRB_bAcBsqYXDABDoatk,598
+worktoy/_stringtools.py,sha256=mPWmCwHXYvzFzXZ639XmV6FQ5Z2LK3UE0Bps9RyH_f0,2554
+worktoy/_typenames.py,sha256=RtNAH4DsxKBHoKHKY9UzStj5UfzECjz_5zVfNEphaUw,503
+worktoy-0.0.0.dist-info/LICENSE,sha256=Q2ptU2E48gOsMzhYz_kqVovmJ5d1KzrblLyqD2_-fvY,1235
+worktoy-0.0.0.dist-info/METADATA,sha256=Ra60JuQlyG04OFG6PuNkj6m6Og5G8DZE9kAim3JPiBU,79
+worktoy-0.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+worktoy-0.0.0.dist-info/top_level.txt,sha256=6yO8xnr7WakfINq91qO3rs5ECubDOGvAQ9ztVgoG0j4,8
+worktoy-0.0.0.dist-info/RECORD,,
