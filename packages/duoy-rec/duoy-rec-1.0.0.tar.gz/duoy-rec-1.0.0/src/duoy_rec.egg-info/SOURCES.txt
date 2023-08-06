@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/duoy_rec.egg-info/PKG-INFO
+src/duoy_rec.egg-info/SOURCES.txt
+src/duoy_rec.egg-info/dependency_links.txt
+src/duoy_rec.egg-info/top_level.txt
+src/rec/__init__.py
+src/rec/rec.py
