@@ -1,0 +1,9 @@
+connector/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+connector/fetch.py,sha256=5IckC3u5sEV7Rh_XmsjG-DUDnWCFdIMwJHue5Yrhv8o,326
+connector/ind.py,sha256=8fgEsQWLfLGbeAx5jr26dncLqzFkH72NBpNfaA3x39Y,831
+connector/requests.py,sha256=8i8g19ofu_D_-x9EN6zYiTlK-7JyQmXrbv9MymCadDY,944
+sqlconnectphp-0.4.dist-info/LICENSE.txt,sha256=S1TkS2uincb4ir-Wh8ajzIRtcvdiwBfBgCmdGjbBb8U,1069
+sqlconnectphp-0.4.dist-info/METADATA,sha256=WYNYpQ7f3iiIojlyLWkLV869n_NlCxq_hcIEExgNlfs,319
+sqlconnectphp-0.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+sqlconnectphp-0.4.dist-info/top_level.txt,sha256=HEljM61yJAAWyh7-0xWg29ObfG1bd407h2_wBfp0G-g,10
+sqlconnectphp-0.4.dist-info/RECORD,,
