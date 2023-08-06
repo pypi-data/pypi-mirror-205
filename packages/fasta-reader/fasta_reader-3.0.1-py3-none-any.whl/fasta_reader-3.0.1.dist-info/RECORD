@@ -1,0 +1,13 @@
+fasta_reader/__init__.py,sha256=fTlXRsPYK23jQ80D4y37scrFlQhNaCO8Xr6DwmvWnmY,235
+fasta_reader/anyfile.py,sha256=-mRI3fTOn-fohz35wHUL_N3jcsEW1OlhduQRKj3_8Ec,360
+fasta_reader/errors.py,sha256=edD6SkBa7-FDBORiw2C68bP6Bvkg7u5QJvFfhQ4oslk,522
+fasta_reader/item.py,sha256=Jw78lc_hUaSkxjdyCIzStVBTJ6mCEFVIgW8Bcc72wA4,1678
+fasta_reader/read_fasta.py,sha256=PwM7xbnV1XtFaSv-uuk7WJ3CIhXyECkm-5elivrZ1ZI,660
+fasta_reader/reader.py,sha256=5_cL6SP4kOT5b60z3i6TLdmo2-J0_Kv26pxsc5W9wds,2044
+fasta_reader/uri.py,sha256=rZrnjfYjHdYg1dayThknux0B5DTzmGoKUTPTukI_maI,81
+fasta_reader/write_fasta.py,sha256=N9OW8wLdriU0XGcTFu2hGNBY9kY3bp9qg8ApeVRvQ2g,679
+fasta_reader/writer.py,sha256=Fvk6aHG-VStkNj-MpoJICF1UQjXuV5U0dI9dy7sFDio,987
+fasta_reader-3.0.1.dist-info/LICENSE,sha256=XNUUGUmK_r38YxkWrd_3EdmctCZNadNgsBdZ8VEbP3Q,1069
+fasta_reader-3.0.1.dist-info/METADATA,sha256=2RkHd_dx91ghTXGU9gqNBRmND8ijvrCX8l8u_xrhVX4,1650
+fasta_reader-3.0.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+fasta_reader-3.0.1.dist-info/RECORD,,
