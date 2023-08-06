@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: Adversary-Armor
+Version: 0.1.1
+Summary: A repository that provides innovative solution to armor against adversarial attacks.
+Home-page: https://github.com/haim-fisher-s/Adversary-Armor
+Author: Haim Fisher
+Author-email: haimdfisher@gmail.com
+License: MIT License
+Project-URL: webpage, https://github.com/haim-fisher-s/Adversary-Armor
+Project-URL: Documentation, https://github.com/haim-fisher-s/Adversary-Armor/blob/main/README.rst
+Project-URL: Changelog, https://github.com/haim-fisher-s/Adversary-Armor/blob/main/CHANGELOG.rst
+Project-URL: Issue Tracker, https://github.com/haim-fisher-s/Adversary-Armor/issues
+Project-URL: Discussion Forum, https://github.com/haim-fisher-s/Adversary-Armor/discussions
+Keywords: Adversary,Defense
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+Hack-Blocker
+============
+
+A repository that provides innovative solution to armor against adversarial attacks.
+
+Version
+-------
+v0.1.1
+
+
+Changelog
+=========
+
+v0.1.1 (2023-04-25)
+------------------------------------------------------------
+
+* project launch
+* added tox, lint, ci, cd etc.
+
+v0.1.0 (2023.04.25)
+-------------------
+
+* First release on PyPI.

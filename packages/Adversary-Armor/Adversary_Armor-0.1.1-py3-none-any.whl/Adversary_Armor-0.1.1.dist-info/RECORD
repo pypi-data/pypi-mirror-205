@@ -1,0 +1,11 @@
+amodule.py,sha256=yi-WmLWmwl8mK_0rdFwEY4BDY-PtrqaxhPOzpYDnjyg,154
+sampleproject/__init__.py,sha256=30wyBkfvqEDUz40SGuX3AGMLvniUyulFY-23QgM3zEA,72
+sampleproject/__main__.py,sha256=Cow_IHPBUsSsfEipJEJuURO8cHy0ncxd6taIA_W-7iA,158
+sampleproject/cli_int1.py,sha256=dXdAzgyjLub_ZnFxNBsnZt6ZsWFTa0ZoAFyjd5EJbfk,173
+sampleproject/libs/__init__.py,sha256=rBQ4O6Bzw6V6bQn9Ui7kMBgJLtZVjWrbQzrjSaagd1g,42
+sampleproject/libs/samplemodule.py,sha256=wUqgf9IQ5Q9G4Y60Utdy9HjRAdXiJKAtBkKJAmQFWAw,607
+Adversary_Armor-0.1.1.dist-info/LICENSE,sha256=4EZMDS9QsDLEu-5F6QgagjkRQVnsWL0o95lJJ0XQOYw,1091
+Adversary_Armor-0.1.1.dist-info/METADATA,sha256=FVWPAqnUt0iIXBtC3BSj8AYz1gQPO_LLCOpnlW2bUfg,1803
+Adversary_Armor-0.1.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+Adversary_Armor-0.1.1.dist-info/top_level.txt,sha256=DXxBtFSe-0u-xiv04GNtZ8giJVn5HWw6rP474Q5UbqE,22
+Adversary_Armor-0.1.1.dist-info/RECORD,,
