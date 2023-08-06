@@ -1,0 +1,10 @@
+autora/synthetic/__init__.py,sha256=TsIjhuKuRKDGHsC6L0GzzQ3h5xzptEUjsmuu7v6GmM0,1814
+autora/synthetic/inventory.py,sha256=_Y_qUenlnsLRo040dAUFnZHQrjJ5RAgaN_rywzOR-u4,7344
+autora/synthetic/data/__init__.py,sha256=kSAiBN2-zcLpNBLrfKgXljwxVD7jIt5PM6NIJlN5SNs,97
+autora/synthetic/data/expected_value.py,sha256=CGd-q7aAdBUrQjVNiSSGc9oVskwWaJov4SAfVLZ0F7s,5113
+autora/synthetic/data/prospect_theory.py,sha256=5VnUgZ_yAcPCb_-fs1X4HaP7chizzeC0cpJ-0-9x3yA,6622
+autora/synthetic/data/weber_fechner.py,sha256=-2xq9RkqCdcm6zgM1B8wzItl8s2HtoCuPv_P_FiStlY,4663
+autora_synthetic_data-1.0.0a0.dist-info/METADATA,sha256=A8AJ0XO6TAeq7wcQmXBKvSL4uwgKde0IOhFftZoGZ24,2197
+autora_synthetic_data-1.0.0a0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+autora_synthetic_data-1.0.0a0.dist-info/top_level.txt,sha256=DgyJw5DFSvqCdMtEL5Zz0NDVldu1NgUVqP_wDPc2Jmk,7
+autora_synthetic_data-1.0.0a0.dist-info/RECORD,,
