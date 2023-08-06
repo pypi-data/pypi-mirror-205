@@ -1,0 +1,10 @@
+setup.py
+Core/__init__.py
+gui/__init__.py
+hybrides/__init__.py
+oscliantivirus.egg-info/PKG-INFO
+oscliantivirus.egg-info/SOURCES.txt
+oscliantivirus.egg-info/dependency_links.txt
+oscliantivirus.egg-info/entry_points.txt
+oscliantivirus.egg-info/top_level.txt
+serve/__init__.py
