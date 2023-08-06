@@ -1,0 +1,9 @@
+wvpy/__init__.py,sha256=HZCPBk89lpfXfuAuHdn7lomxon20XHWSIBuBpRL9now,173
+wvpy/jtools.py,sha256=AFLWF7X-tVmXLvvb2M_bVBWh8ENiMgEZDaPntBIthWY,20444
+wvpy/pysheet.py,sha256=ZgTxKBog1j76rTn0ZB_LQhIzlmdOVN-EK_qwq9dgNCs,5898
+wvpy/render_workbook.py,sha256=ycbfAHLOeG6VfDHmb9SACXcTd9Dvs_Xjoo5cgseKcLA,3234
+wvpy-0.4.1.dist-info/LICENSE,sha256=kNHOgJg2caTt2FQt8TWowhEDIf3beKtIcQwFbaciOeQ,1494
+wvpy-0.4.1.dist-info/METADATA,sha256=-bBjOshDpcSg82PLUHXjJLO4wKclGfhqJhLu6Txp-8E,1159
+wvpy-0.4.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+wvpy-0.4.1.dist-info/top_level.txt,sha256=qzfbIwZeyUhVAM0qv_CVxBRQVHsJe3TVmLFD30T5VlA,5
+wvpy-0.4.1.dist-info/RECORD,,
