@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: DecisionTreeClassifier
+Version: 0.0.7
+Summary: A Decision Tree Classifier.
+Home-page: https://github.com/mlouii/Decision-Tree-Practicum
+Author: Mark Lou, Jobin Joyson
+Author-email: mlou@hawk.iit.edu, jjoyson1@hawk.iit.edu
+License: MIT
+Keywords: decision tree
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+*First iteration of a decision tree classifier that can handle string variables.*
+
+## Overview
+
+- This is an implementation of a Decision Tree Classifier for both numerical and categorical features. It is comprised of several classes:
+
+    - DecisionNodeNumerical: Represents a numerical decision node, which holds a feature name, threshold, left and right children, info gain, and null direction.
+    - DecisionNodeCategorical: Represents a categorical decision node, which holds a feature name, categories, children, info gain, and null category.
+    - LeafNode: Represents a leaf node in the decision tree, which holds the final class value, the size of the samples, entropy, and Gini impurity.
+    - DecisionTreeClassifier: Main class that implements the decision tree classifier. It has methods to fit the data, predict the class of unseen samples, calculate information gain, and split the data based on the best feature and threshold.
+
+- The DecisionTreeClassifier class contains methods for fitting the model to the input data, predicting the class labels for new data, and calculating information gain, entropy, and Gini impurity. The fit method builds the decision tree by recursively finding the best split for each node and splitting the data accordingly. The predict method traverses the decision tree for each input sample and returns the class label associated with the reached leaf node. The get_best_split method finds the best feature and threshold for each node by maximizing the information gain.
+
+- The tree can be built with a specified maximum depth and minimum sample leaf size. Additionally, the classifier can handle missing values in the input data by assigning them to a specified null direction or null category.
+
+## Example Usage
+
+- Load up a categorical data set that you want to test and create a dataframe for it. Create a Decision Tree Classifier:
+    - classifer = DecisionTreeClassifier(max_depth, min_sample_leaf)
+
+- Fit the tree with training data:
+    - classifier.fit(training_dataframe, Name of the target column)
+
+- See a visual of the tree:
+    - classifier.show_tree()
+
+- Predict the target values with the testing dataframe excluding the target column:
+    - classifier.predict(testing_dataframe with no target column)
