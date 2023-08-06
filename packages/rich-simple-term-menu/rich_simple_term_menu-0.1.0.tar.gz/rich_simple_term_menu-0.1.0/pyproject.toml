@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "rich-simple-term-menu"
+version = "0.1.0"
+description = "Simple Term Menu with support for another print"
+authors = ["Dimitri Wyzlic <dimitriwyzlic@gmail.com>"]
+readme = "README.md"
+packages = [{include = "rich_simple_term_menu"}]
+
+[tool.poetry.dependencies]
+python = "^3.7.0"
+
+[tool.poetry.group.dev.dependencies]
+blue = "^0.9.1"
+rich = "^13.3.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
