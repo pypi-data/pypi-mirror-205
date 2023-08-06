@@ -1,0 +1,24 @@
+mlm8s/__init__.py,sha256=snVjdtMSTz5vH5TZDy_T9MuqTvzXs4IOat_bArTFEwA,425
+mlm8s/chaos.py,sha256=mQCoyWAHO_K2WPm9l1C29cqz8qGHg2dVx_ocu2Rz1rk,1436
+mlm8s/connect.py,sha256=kOzTdVWxKa0nMcClfAd7btc76IITH-N1FizBC0xGAZ4,609
+mlm8s/custom_metrices.py,sha256=ZTUOCBfBXh9rZmWCWTAIxLKfHB3r74V98PH4-FsdFUM,2235
+mlm8s/generator.py,sha256=KHM7cnbSLw96OIqfqe7e_dOC4_d-k7TyysKZzqbZy4E,1626
+mlm8s/helpers.py,sha256=7pi_lsynbuzFuhK2vDmmEfc2VDr8xGNEI6CiHyZdlfo,1751
+mlm8s/hypermodel.py,sha256=HX57p_dA36VLgVvQmCDRfeWAl9KnJAWDc2hiwEWhQOA,2683
+mlm8s/lattice.py,sha256=VfJXoUEGBBk2AjSGCXqSnHfHB2RcI45OwvFyDz0IUas,4208
+mlm8s/numeric.py,sha256=LLmMicG1tddNuXjjUmesKKWLQz3duy4Ws3e_Qyhx-gg,808
+mlm8s/overview - metrics,sha256=MiN_PZutGV_2eeao5FUs8nzWBYcARyqtLeSxQfZunUU,1001
+mlm8s/paths.py,sha256=svF5ir279IaLdslvGd8DBBGZXG_fmEQGRKBf2xTlgWY,2124
+mlm8s/plot.py,sha256=nV2Ii5bzRVc7t-E2sdgGsOeXl0PbAsMkXsW3k5VuTMY,907
+mlm8s/polynom.py,sha256=nbqy-aQTWpL1QybWV0t3L0kmkF1NM1zYKvOIqk41DB0,5936
+mlm8s/rounding_loss.py,sha256=N6ah0KmTTgjyAWFUNcCbXVSf2e5UOrOPMMOECc3lR6w,1004
+mlm8s/sparse.py,sha256=JllFAReKqPDC7JxR3cbdTYUdxlcWFD5yHGLrd910rZo,3539
+mlm8s/spiral.py,sha256=UhPAkttNn1nMsbPgEzVKPhzF5WNahJfNGHRJVEW8XWA,6658
+mlm8s/text.py,sha256=MWPc2vpRDINdUCEvKD1hXdYaP3yFFwEjEPjD4Qfms_E,5444
+mlm8s/training.py,sha256=0PjvbP7Z8zxiy88mE-41teh4IMJy-65YjhH3AgxP4ZE,872
+mlm8s/triangle.py,sha256=dl_6cVxiguQ5qGGE2b4a_vf54cMkS05x3dhp3LEVVMg,757
+mlm8s/voltera.py,sha256=q5h9pxEztS8jw2RG4n8c3xx008_nCtXsT-8z_dC_P-4,5352
+mlm8s-1.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+mlm8s-1.0.1.dist-info/METADATA,sha256=QnnJ0ESkJM7NVjrzBSIBjqww7LSZCp0ZMbnn1mIWwtQ,2946
+mlm8s-1.0.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+mlm8s-1.0.1.dist-info/RECORD,,
