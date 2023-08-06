@@ -1,0 +1,5 @@
+flatten_everything
+multisubprocess
+numpy
+pandas
+rapidfuzz
