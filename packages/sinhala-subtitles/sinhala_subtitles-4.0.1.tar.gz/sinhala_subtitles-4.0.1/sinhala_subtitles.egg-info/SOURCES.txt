@@ -1,0 +1,8 @@
+README.md
+setup.py
+sinhala_subtitles/__init__.py
+sinhala_subtitles.egg-info/PKG-INFO
+sinhala_subtitles.egg-info/SOURCES.txt
+sinhala_subtitles.egg-info/dependency_links.txt
+sinhala_subtitles.egg-info/requires.txt
+sinhala_subtitles.egg-info/top_level.txt
