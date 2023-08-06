@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: wagtail-photography
+Version: 0.1
+Summary: A Wagtail app to display photographs
+Home-page: https://averyuslaner.com/
+Author: Avery Uslaner
+Author-email: uslaner.avery@gmail.com
+License: Apache License 2.0
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Wagtail
+Classifier: Framework :: Wagtail :: 4
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+=====
+Wagtail Photography
+=====
+
+Based on [wagtail-photo-gallery](https://github.com/donhauser/wagtail-photo-gallery)
+
+Be warned, this project is still kinda garbage. Mostly I'm just messing about with it but I do hope to polish it up in
+the not so distant future.
+
+Wagtail-photography is a Wagtail app to display photographs.
+
+Detailed documentation is in the "docs" directory.
+
+Quick start
+-----------
+
+1. Install requirements
+    
+    ```pip install wagtail-generic-chooser```
+2. Add "wagtail_photography" and wagtail-generic-chooser to your INSTALLED_APPS setting like this:
+
+    INSTALLED_APPS = [
+         ...,
+         "generic_chooser"
+         "wagtail_photography",
+    ]
+
+3. Run ``python manage.py migrate`` to create the wagtail_photography models.
+
+4. Start the development server and visit http://127.0.0.1:8000/admin/
+   to create an album.
