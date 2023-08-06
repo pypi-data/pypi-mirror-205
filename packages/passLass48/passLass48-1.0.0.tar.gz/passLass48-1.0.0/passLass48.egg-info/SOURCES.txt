@@ -1,0 +1,7 @@
+README.md
+setup.py
+passLass48.egg-info/PKG-INFO
+passLass48.egg-info/SOURCES.txt
+passLass48.egg-info/dependency_links.txt
+passLass48.egg-info/requires.txt
+passLass48.egg-info/top_level.txt
