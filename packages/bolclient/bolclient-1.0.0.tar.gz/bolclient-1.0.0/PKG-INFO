@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: bolclient
+Version: 1.0.0
+Summary: Bol.com api client running on version v8
+Home-page: https://gitlab.com/bolooco/bol-client
+Author: Boloo
+License: MIT
