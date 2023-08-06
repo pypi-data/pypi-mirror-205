@@ -1,0 +1,26 @@
+[tool]
+[tool.pdm]
+[tool.pdm.dev-dependencies]
+dev = [
+    "pytest-asyncio>=0.21.0",
+    "pytest>=7.3.1",
+]
+
+[project]
+name = "pyghs"
+version = "0.1.0"
+description = "Storage csv file in github repository."
+authors = [
+    {name = "Chaoying", email = "chaoying2022@gmail.com"},
+]
+dependencies = [
+    "aiohttp>=3.8.4",
+    "pandas>=2.0.1",
+]
+requires-python = ">=3.10"
+license = {text = "MIT"}
+
+[tool.pytest.ini_options]
+cache_dir = ".pytest_cache/"
+addopts = "-s -p no:warnings"
+asyncio_mode = "auto"
