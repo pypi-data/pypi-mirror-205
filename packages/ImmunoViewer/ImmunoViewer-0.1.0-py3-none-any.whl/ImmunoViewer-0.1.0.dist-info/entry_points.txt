@@ -1,0 +1,3 @@
+[console_scripts]
+ImmunoViewerProcess = ImmunoViewer.process_folder:main
+ImmunoViewerServer = ImmunoViewer.server:main
