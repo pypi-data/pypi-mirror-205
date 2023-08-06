@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: foxplot
+Version: 0.0.1
+Summary: Plot time-series data from line-delimited JSON.
+Keywords: json,time,series,plot
+Author-email: Stéphane Caron <stephane.caron@normalesup.org>
+Maintainer-email: Stéphane Caron <stephane.caron@normalesup.org>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Requires-Dist: msgpack
+Project-URL: Changelog, https://github.com/stephane-caron/foxplot/blob/master/CHANGELOG.md
+Project-URL: Source, https://github.com/stephane-caron/foxplot
+Project-URL: Tracker, https://github.com/stephane-caron/foxplot/issues
+
+# foxplot
+
+[![Build](https://img.shields.io/github/actions/workflow/status/stephane-caron/foxplot/CI.yml?branch=main)](https://github.com/stephane-caron/foxplot/actions)
+
+Plot time-series data from [line-delimited JSON](https://en.wikipedia.org/wiki/JSON_streaming#Line-delimited_JSON).
+
+Foxplot stands for "Frequent Observation diXionary plots". Frequent observations arise from the project's initial use case (robotic control loops). Dictionaries are the observation format used in [Vulp](https://github.com/tasts-robots/vulp). Plots are plots :wink:
+
+## Usage
+
+### Interactive mode
+
+```console
+$ foxplot -i robot_data.json
+Python 3.8.10 (default, Mar 13 2023, 10:26:41)
+Type 'copyright', 'credits' or 'license' for more information
+IPython 7.22.0 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]: fox.plot(left=[fox.data.observation.cpu_temperature])
+New tab opened in your web browser! The command line is to produce it directly is:
+
+foxplot robot_data.json -l /observation/cpu_temperature
+```
+
+### JSON files
+
+```console
+foxplot robot_data.json -l /observation/cpu_temperature
+```
+
+### MessagePack files
+
+```console
+rq -mJ < my_time_series.mpack | jq '{.my.filters.here}' | foxplot
+```
+
+## Design notes
+
+* Foxplot prioritizes ease-of-use (interactive mode) over performance
+
+## See also
+
+* [µPlot](https://github.com/leeoniya/uPlot)'s performance was a key enabler for this project.
+* [rq](https://github.com/dflemstr/rq/), a tool to manipulate streams of records in various formats.
+
