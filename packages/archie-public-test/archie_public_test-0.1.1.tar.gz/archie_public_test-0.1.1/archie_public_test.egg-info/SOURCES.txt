@@ -1,0 +1,8 @@
+README.md
+setup.py
+archie_public_test/__init__.py
+archie_public_test/mymodule.py
+archie_public_test.egg-info/PKG-INFO
+archie_public_test.egg-info/SOURCES.txt
+archie_public_test.egg-info/dependency_links.txt
+archie_public_test.egg-info/top_level.txt
