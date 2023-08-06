@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: scorpionsql
+Version: 0.0.5
+Summary: SQL-related and other shared packages used by scorpion and dbwipes
+Home-page: http://github.com/sirrice/scorpionsql
+Author: Eugene Wu
+Author-email: eugenewu@mit.edu
+License: MIT
+License-File: LICENSE
