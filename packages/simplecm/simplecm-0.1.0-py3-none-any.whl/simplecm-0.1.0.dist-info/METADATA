@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: simplecm
+Version: 0.1.0
+Summary: Helps you calculate basic manufacturing statistics
+Author: David Hinojosa
+Author-email: hynack@gmail.com
+Requires-Python: >=3.9,<3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: numpy (>=1.24.3,<2.0.0)
+Requires-Dist: scipy (>=1.10.1,<2.0.0)
