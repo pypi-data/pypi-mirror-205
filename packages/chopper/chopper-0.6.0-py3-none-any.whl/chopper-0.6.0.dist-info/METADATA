@@ -1,0 +1,113 @@
+Metadata-Version: 2.1
+Name: chopper
+Version: 0.6.0
+Summary: Lib to extract html elements by preserving ancestors and cleaning CSS
+Home-page: https://github.com/jurismarches/chopper
+Author: Jurismarches
+Author-email: contact@octopusmind.info
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE
+License-File: AUTHORS
+Requires-Dist: cssselect (>=1.2.0)
+Requires-Dist: lxml (>=4.9.1)
+Requires-Dist: tinycss (==0.4)
+
+|axe| Chopper
+=============
+
+|pypi| |github-actions| |readthedocs|
+
+Chopper is a tool to extract elements from HTML by preserving ancestors and CSS rules.
+
+Compatible with Python >= 3.8
+
+
+Installation
+------------
+
+``pip install chopper``
+
+
+Full documentation
+------------------
+
+http://chopper.readthedocs.org/en/latest/
+
+
+Quick start
+-----------
+
+.. code-block:: python
+
+  from chopper.extractor import Extractor
+
+  HTML = """
+  <html>
+    <head>
+      <title>Test</title>
+    </head>
+    <body>
+      <div id="header"></div>
+      <div id="main">
+        <div class="iwantthis">
+          HELLO WORLD
+          <a href="/nope">Do not want</a>
+        </div>
+      </div>
+      <div id="footer"></div>
+    </body>
+  </html>
+  """
+
+  CSS = """
+  div { border: 1px solid black; }
+  div#main { color: blue; }
+  div.iwantthis { background-color: red; }
+  a { color: green; }
+  div#footer { border-top: 2px solid red; }
+  """
+
+  extractor = Extractor.keep('//div[@class="iwantthis"]').discard('//a')
+  html, css = extractor.extract(HTML, CSS)
+
+The result is :
+
+.. code-block:: python
+
+  >>> html
+  """
+  <html>
+    <body>
+      <div id="main">
+        <div class="iwantthis">
+          HELLO WORLD
+        </div>
+      </div>
+    </body>
+  </html>"""
+
+  >>> css
+  """
+  div{border:1px solid black;}
+  div#main{color:blue;}
+  div.iwantthis{background-color:red;}
+  """
+
+.. |axe| image:: http://icons.iconarchive.com/icons/aha-soft/desktop-halloween/32/Hatchet-icon.png
+.. |pypi| image:: http://img.shields.io/pypi/v/chopper.svg?style=flat
+    :target: https://pypi.python.org/pypi/chopper
+.. |github-actions| image:: https://github.com/jurismarches/chopper/actions/workflows/ci.yml/badge.svg
+    :target: https://github.com/jurismarches/chopper/actions/
+.. |readthedocs| image:: https://readthedocs.org/projects/chopper/badge/?version=latest
+    :target: https://readthedocs.org/projects/chopper
+
+
