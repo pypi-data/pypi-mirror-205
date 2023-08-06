@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: polstats
+Version: 0.1.0
+Summary: polstats: polarization statistics
+Home-page: https://github.com/dennis-l/polstats
+Author: Dennis Lee
+Author-email: 
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: astropy
+
