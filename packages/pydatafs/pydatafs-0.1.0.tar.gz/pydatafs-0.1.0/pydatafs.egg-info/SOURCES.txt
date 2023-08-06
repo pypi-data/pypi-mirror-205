@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pydatafs/__init__.py
+pydatafs/errors.py
+pydatafs/files.py
+pydatafs/filesystem.py
+pydatafs/handle.py
+pydatafs.egg-info/PKG-INFO
+pydatafs.egg-info/SOURCES.txt
+pydatafs.egg-info/dependency_links.txt
+pydatafs.egg-info/not-zip-safe
+pydatafs.egg-info/requires.txt
+pydatafs.egg-info/top_level.txt
