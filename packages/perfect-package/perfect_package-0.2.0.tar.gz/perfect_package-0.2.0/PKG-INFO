@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: perfect-package
+Version: 0.2.0
+Summary: The best practices I've picked up along the way, all in one place
+Author: timothestes
+Author-email: timothestes@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# perfect-package
+A compilation of all the things I would make for my perfect python package
+
+More docs pending
