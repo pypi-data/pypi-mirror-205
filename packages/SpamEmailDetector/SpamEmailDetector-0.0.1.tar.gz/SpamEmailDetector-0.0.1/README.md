@@ -1,0 +1,42 @@
+# About this project
+
+>   Author: Xueyan Hu
+>
+>   Date: 28/4/2023
+
+## What can this package do?
+
+This package is a spam email detector. This package can continuesly listen to the email address provided by the user, and print a message when a new email is received, indicating whether the email is spam or normal.
+
+Note that the package works only (at least primarily) for Chinese context. When applied to English context, the performance may worsen greatly.
+
+## How to use this package?
+
+### Download this package
+
+Download this package by running command line:
+
+```shell
+pip install SpamEmailDetector
+```
+
+### Continuesly listen to email
+
+```python
+from SpamEmailDetector.EmailListener import EmailListener
+
+myEmail = EmailListener(email=yourEmailAddress,password=yourPasscode,detectorName=nameOfDetector)
+myEmail.startListening(10)
+```
+
+Where, `yourPasscode` is the authorization password of your email address. If you don't know what `yourPasscode` is, then find it from the setting page of your email official website. **Note it's not your password for logging in.** Parameter `detectorName` is the name of spam/normal detector model. Two models are provided in this package: `"BOWSpamDetector"` and `"TfIdfSpamDetector"`. Enter either `String` to select the model in need.
+
+The method `.startListening(10)` means the interval of listening, in seconds. That is to say, the program will check if there is a new email in your email box and judge if it is spam or normal email for every 10 seconds.
+
+To stop listening to your email box, just stop running the program. 
+
+## Techniques applied
+
+Term Frequency Inversed Document Frequency(TfIdf) of Chinese sentences.
+
+Bag of Words (BOW) model of Chinese sentences.
