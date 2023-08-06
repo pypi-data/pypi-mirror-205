@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: skeetpy
+Version: 0.1.3
+Summary: Skeetpy is a Python library for interacting with the AT protocol.
+Author-email: Yves Junqueira <yves.junqueira@gmail.com>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Project-URL: Home, https://github.com/nictuku/skeetpy
+
+# skeetpy
+Implementation of the AT protocol in Python
+
+## Authentication
+
+```
+atp = ATP(pds, identifier, password)
+atp.authenticate()
+```
+
+## Methods
+
+We generated code for the entire at/proto protocol, see skeetpy.py. That said, for now only the following methods are known to work:
+
+```
+atp.describe_server()      # show details about the current server
+atp.list_app_passwords()   # list your app passwords
+```
+
+## Test the library against bsky.social
+```
+export PDS=bsky.social
+export IDENTIFIER=yves.pt
+export PASSWORD=<app password>
+
+python3 skeetpy.py
+```
+
