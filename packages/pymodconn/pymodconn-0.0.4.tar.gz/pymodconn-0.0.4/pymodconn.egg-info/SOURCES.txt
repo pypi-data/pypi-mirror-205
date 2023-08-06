@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+pymodconn/__init__.py
+pymodconn/configs_init.py
+pymodconn/major_layers.py
+pymodconn/model_gen.py
+pymodconn/model_gen_utils.py
+pymodconn/utils_layers.py
+pymodconn.egg-info/PKG-INFO
+pymodconn.egg-info/SOURCES.txt
+pymodconn.egg-info/dependency_links.txt
+pymodconn.egg-info/top_level.txt
