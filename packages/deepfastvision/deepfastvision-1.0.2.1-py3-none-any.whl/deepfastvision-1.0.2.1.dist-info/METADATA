@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: deepfastvision
+Version: 1.0.2.1
+Summary: A Python library for rapid prototyping of deep transfer learning vision models
+Home-page: https://github.com/fabprezja/deep-fast-vision
+Author: Fabi Prezja
+Author-email: faprezja@fairn.fi
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: tensorflow (>=2.3.0)
+Requires-Dist: scikit-learn
+Requires-Dist: pandas
+Requires-Dist: Pillow
+Requires-Dist: seaborn
+Requires-Dist: matplotlib
+Provides-Extra: gpu
+Requires-Dist: tensorflow-gpu (>=2.3.0) ; extra == 'gpu'
+
+UNKNOWN
+
