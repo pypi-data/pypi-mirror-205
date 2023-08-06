@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: Screeny
+Version: 0.0.1
+Summary: A simple python library for working with screens and images.
+Author: Paul Pol
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Screeny
+A simple python library for working with screens and images.
