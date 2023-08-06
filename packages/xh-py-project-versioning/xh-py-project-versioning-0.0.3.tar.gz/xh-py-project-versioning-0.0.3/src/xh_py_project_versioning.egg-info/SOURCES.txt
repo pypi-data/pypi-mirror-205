@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/xh_py_project_versioning/PyPiRepo.py
+src/xh_py_project_versioning/PyProject.py
+src/xh_py_project_versioning/__init__.py
+src/xh_py_project_versioning/__main__.py
+src/xh_py_project_versioning/versioning.py
+src/xh_py_project_versioning.egg-info/PKG-INFO
+src/xh_py_project_versioning.egg-info/SOURCES.txt
+src/xh_py_project_versioning.egg-info/dependency_links.txt
+src/xh_py_project_versioning.egg-info/top_level.txt

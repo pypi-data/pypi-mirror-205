@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: xh-py-project-versioning
+Version: 0.0.3
+Summary: A library for increate version number and check version mismatch
+Author-email: xethhung <pypi@xethh.dev>
+Project-URL: Homepage, https://github.com/xh-dev/xh-py-project-versioning
+Project-URL: Bug Tracker, https://github.com/xh-dev/xh-py-project-versioning
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+A dictionary utility of self dev py library
+
+## Build
+```shell
+rm -fr dist
+python -m build
+# automate by following `-u {user} -p {token / password}`
+# api automate by following `-u __token__ -p {token / password}`
+python -m twine upload dist/*
+```
+
+
+```shell
+PYTHONPATH=src python src/xh_py_project_versioning/__main__.py --project-file pyproject.toml --major -d
+```
