@@ -1,0 +1,13 @@
+{
+    "dim": [
+        {
+            "path": "Patient.gender",
+            "W": 1
+        },
+        {
+            "path": "Patient.birthDate",
+            "W": 10
+        }
+    ],
+    "code": []
+}
