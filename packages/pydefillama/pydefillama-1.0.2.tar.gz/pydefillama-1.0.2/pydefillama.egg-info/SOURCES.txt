@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+pydefillama/__init__.py
+pydefillama/src.py
+pydefillama/utils.py
+pydefillama.egg-info/PKG-INFO
+pydefillama.egg-info/SOURCES.txt
+pydefillama.egg-info/dependency_links.txt
+pydefillama.egg-info/not-zip-safe
+pydefillama.egg-info/requires.txt
+pydefillama.egg-info/top_level.txt
