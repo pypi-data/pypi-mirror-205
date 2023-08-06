@@ -1,0 +1,2 @@
+[console_scripts]
+idac = idac_sdk.cli.idac:main
