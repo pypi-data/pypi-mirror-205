@@ -1,0 +1,10 @@
+exclude __pycache__
+exclude .pytest_cache
+exclude .vs
+exclude env
+exclude MuseScore 4
+exclude testfiles
+exclude Tests
+exclude .gitignore
+exclude requirements.txt
+exclude main.py
