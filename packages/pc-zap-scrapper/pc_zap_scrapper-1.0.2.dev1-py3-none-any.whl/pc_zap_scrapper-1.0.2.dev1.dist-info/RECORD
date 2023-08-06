@@ -1,0 +1,16 @@
+pc_zap_scrapper/__init__.py,sha256=GgUGMNu-fvRY5lIfFLEqpMZuR4vwqFBIU62sPAc98pM,756
+pc_zap_scrapper/__main__.py,sha256=NbxzHjCu78hE9QYmwpgrRnVhcfe2DbdBMDJ6EcvGiDs,3184
+pc_zap_scrapper/_version.py,sha256=xhD1JgFbsnN329mpJ8qZ6ioOutXtTnPEb1aPLos29RQ,26
+pc_zap_scrapper/imoveis_db.py,sha256=21nPiy2K9CXox8eQ4ocVCRzCPADcHUSbxkgrixve9NQ,1575
+pc_zap_scrapper/load.py,sha256=QNSKVPTrGqcIeZ-oJaz-w8Jax8z0v_jmjBChFpwA_iE,1231
+pc_zap_scrapper/maps.py,sha256=3XEaRPRjcdMO1d72ZISRFNZ9zLs73d5rWD4mM1aLeFc,3478
+pc_zap_scrapper/scrap.py,sha256=UJH_DAImGsnVg96zGdM0BkGhHa1kKgn6OPxngxWnDQI,1307
+pc_zap_scrapper/transform.py,sha256=GPqIDCWuSkAX64wLkgFZ0QbIEeCL2YqQUmkK0KEYHY4,6092
+pc_zap_scrapper/utils.py,sha256=pyNsCxqm0-zeCc2Cc168T3jywI6aRx6JZctecIfeosU,2237
+pc_zap_scrapper/datasets/external/neighbor_latlong.parquet,sha256=RX6uxesh9iw6d3XbOJVedU3i02U2BDpUKA0Ex5gFw9M,7696
+pc_zap_scrapper-1.0.2.dev1.dist-info/LICENSE,sha256=0MSFPiNsFSHlzhgrOu77lbJP0ceZgoJABd0NiwG2sXk,1286
+pc_zap_scrapper-1.0.2.dev1.dist-info/METADATA,sha256=5QiwQNkviTOFrVBAYpG2cdtWaUcGa7ES9Rr31xx1Mmc,6012
+pc_zap_scrapper-1.0.2.dev1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+pc_zap_scrapper-1.0.2.dev1.dist-info/entry_points.txt,sha256=bnZ-7ck8qOXPHi79qsMfwFJXPENBIUZPyAckPUzv_K4,58
+pc_zap_scrapper-1.0.2.dev1.dist-info/top_level.txt,sha256=kIxRcfLHcDXeoCf76-IhVWTt_uTWzS6hFKqpSQbSxc4,16
+pc_zap_scrapper-1.0.2.dev1.dist-info/RECORD,,
