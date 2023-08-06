@@ -1,0 +1,9 @@
+heaserver/trashawss3/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+heaserver/trashawss3/service.py,sha256=grpRxtV9O7RuQFFWF7c71Qp4CM50pwo61RX8D75oLjU,47506
+heaserver/trashawss3/wstl/all.json,sha256=s7IBaCoEdMzvi7wynjFNrokJ20VIOb3vJBS5RIWKkng,7631
+heaserver_trash_aws_s3-1.0.0a2.dist-info/LICENSE,sha256=7OGLr2mf4iOKsoeZ4ePSVZDkkPK3SlM00ZmlQF3EN7U,11625
+heaserver_trash_aws_s3-1.0.0a2.dist-info/METADATA,sha256=cJY-7-7R9K6vrlATS0lY49mVLiZQzJGIb0YAU4S9YeY,4403
+heaserver_trash_aws_s3-1.0.0a2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+heaserver_trash_aws_s3-1.0.0a2.dist-info/entry_points.txt,sha256=Ihnypgsvk5o76R7aRI4Nkfd3Fq7yc26lsHe1huI8Nrw,77
+heaserver_trash_aws_s3-1.0.0a2.dist-info/top_level.txt,sha256=NkEy5wN6upFmnDxEJ8pTX7gUpWeFPfDhk7zvlMeOv7M,10
+heaserver_trash_aws_s3-1.0.0a2.dist-info/RECORD,,
