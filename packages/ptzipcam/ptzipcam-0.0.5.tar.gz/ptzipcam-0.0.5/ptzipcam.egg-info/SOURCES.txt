@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+ptzipcam/__init__.py
+ptzipcam/camera.py
+ptzipcam/convert.py
+ptzipcam/io.py
+ptzipcam/logs.py
+ptzipcam/ptz_camera.py
+ptzipcam/tracker.py
+ptzipcam/ui.py
+ptzipcam/video_writer.py
+ptzipcam.egg-info/PKG-INFO
+ptzipcam.egg-info/SOURCES.txt
+ptzipcam.egg-info/dependency_links.txt
+ptzipcam.egg-info/requires.txt
+ptzipcam.egg-info/top_level.txt
