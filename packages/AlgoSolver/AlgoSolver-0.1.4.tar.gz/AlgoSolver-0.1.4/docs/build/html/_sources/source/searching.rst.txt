@@ -1,0 +1,26 @@
+Searching Algorithms
+======================================
+
+Developers often need to perform searching algorithms on arrays. With this library you can use plenty of different seaching algorithms such as binary search and the selection algorithm.
+
+Binary Search
+------------
+The following code will find the index of a given number 'num' in an array 'arr' .
+
+`arr`: The array we are searching.
+`num`: The integer we are looking for.
+
+>>> from algo_solver import searching as s
+index = s.binary_search(arr = [1,5,3,2], num = 3)
+print(index)
+
+Selection Algorithm
+------------
+The following code will find the index of the kth larrgest element in a given array 'arr' .  
+
+`arr`: An array you are searching through. 
+
+>>> from algo_solver import searching as s
+index = s.binary_search(arr = [1,5,3,2], num = 3)
+print(index)
+

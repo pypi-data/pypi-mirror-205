@@ -1,0 +1,47 @@
+Graph Algorithms
+======================================
+
+Developers often need to perform graph algorithms on arrays. With this library you can use plenty of different graph algorithms such as bfs, dfs, and find the distance from a' to 'b'.
+
+Breadth First Search
+------------
+The following code will give a set of all nodes in the graph through bfs. It is given a graph 'graph' and starting point 'start'.
+
+`graph`: A graph given as an input in the form: {x: [y]], [y: [z]}, ect;
+`start`: A node which you are starting at.
+
+>>> from algo_solver import graphs as g
+index = g.bfs(graph = {2: [3], 3: []} start = 2)
+print(index)
+
+Depth First Search
+------------
+The following code will give a set of all nodes in the graph through dfs. It is given a graph 'graph' and starting point 'start'.
+
+`graph`: A graph given as an input in the form: {x: [y]], [y: [z]}, ect.
+
+`start`: A node which you are starting at.
+
+>>> from algo_solver import graphs as g
+index = g.dfs(graph = {2: [3], 3: []} start = 2)
+print(index)  
+
+Distance Between 2 Nodes Unweighted Graph
+------------
+The following code will give the distance between two nodes 'a' and 'b' in an unweighted graph . It is given a graph 'graph', a starting point 'start', and a ending point 'end'.
+
+`graph`: A graph given as an input in the form: `{x: [y]]`, `[y: [z]}`, ect.
+
+`start`: A node which you are starting at.
+
+>>> from algo_solver import graphs as g
+graph = {
+            'A': set(['B', 'C']),
+            'B': set(['A', 'D', 'E']),
+            'C': set(['A', 'F']),
+            'D': set(['B']),
+            'E': set(['B', 'F']),
+            'F': set(['C', 'E']),
+        }
+distance = g.find_distance_unweighted_graph(graph, 'A', 'F')
+print(distance) 
