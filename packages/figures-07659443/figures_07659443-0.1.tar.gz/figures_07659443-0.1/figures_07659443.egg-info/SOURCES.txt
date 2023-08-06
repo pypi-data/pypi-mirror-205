@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+figures_07659443/__init__.py
+figures_07659443.egg-info/PKG-INFO
+figures_07659443.egg-info/SOURCES.txt
+figures_07659443.egg-info/dependency_links.txt
+figures_07659443.egg-info/not-zip-safe
+figures_07659443.egg-info/top_level.txt
