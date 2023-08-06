@@ -1,0 +1,178 @@
+{% set pem_machines = servers.machines.items() | sort(attribute=('1.tags.priority', '1.tags.index')) | selectattr('1.tags.type', 'eq', 'pem_server') | list %}
+{% set bdr_machines = servers.machines.items() | sort(attribute=('1.tags.priority', '1.tags.index')) | selectattr('1.tags.type', 'eq', 'bdr_server') | list %}
+{% set barman_machines = servers.machines.items() | sort(attribute=('1.tags.priority', '1.tags.index')) | selectattr('1.tags.type', 'eq', 'barman_server') | list %}
+{% set bdr_machines = servers.machines.items() | sort(attribute=('1.tags.priority', '1.tags.index')) | selectattr('1.tags.type', 'eq', 'bdr_server') | list %}
+{% set bdr_witness_machines = servers.machines.items() | sort(attribute=('1.tags.priority', '1.tags.index')) | selectattr('1.tags.type', 'eq', 'bdr_witness_server') | list %}
+{% set pooler_machines = servers.machines.items() | sort(attribute=('1.tags.priority', '1.tags.index')) | selectattr('1.tags.type', 'eq', 'pooler_server') | list %}
+{% set postgres_version = vars['pg_version']|int %}
+{% set postgres_type = vars['pg_type']|lower %}
+{% set bdr_version = 4 %}
+---
+architecture: BDR-Always-ON
+cluster_name: {{ vars['cluster_name'] }}
+cluster_tags: {}
+
+cluster_vars:
+  bdr_database: edb
+  bdr_node_group: bdrgroup
+  bdr_version: {{ bdr_version }}
+  failover_manager: harp
+  harp_request_timeout: '250ms'
+  harp_watch_poll_interval: '500ms'
+  harp_consensus_protocol: etcd
+  postgres_data_dir: /pgdata/pg_data
+  postgres_wal_dir: /pgwal/pg_wal
+  postgres_coredump_filter: '0xff'
+  postgres_version: {{ postgres_version }}
+  postgresql_flavour: {{ postgres_type }}
+  postgres_user: enterprisedb
+  postgres_group: enterprisedb
+  postgres_conf_settings:
+    shared_preload_libraries: "'dbms_pipe, edb_gen, dbms_aq, edb_wait_states, sql-profiler, index_advisor, pg_stat_statements, bdr'"
+  pg_systemd_service_path: '/etc/systemd/system/postgres.service'
+  pg_systemd_alias: 'edb-as-{{ postgres_version }}.service'
+  preferred_python_version: python3
+  repmgr_failover: manual
+  tpa_2q_repositories:
+  - products/bdr4/release
+  - products/harp/release
+  yum_repository_list:
+  - EDB
+  - EPEL
+  extra_postgres_packages:
+    common:
+    - edb-as14-server-sqlprofiler
+    - edb-as14-server-indexadvisor
+  use_volatile_subscriptions: false
+  publications:
+  - type: bdr
+    database: edb
+    replication_sets:
+    - name: bdrgroup
+      autoadd_tables: false
+      replicate_delete: false
+      replicate_insert: false
+      replicate_truncate: false
+      replicate_update: false
+    - name: bdrdatagroup
+      autoadd_tables: true
+      replicate_delete: true
+      replicate_insert: true
+      replicate_truncate: true
+      replicate_update: true
+  bdr_extensions:
+    - btree_gist
+    - bdr
+
+ssh_key_file: {{ vars['ssh_priv_key'] }}
+
+locations:
+- Name: BDRDC1
+- Name: BDRDC2
+- Name: BDRDC3
+
+instance_defaults:
+  platform: bare
+  vars:
+    ansible_user: {{ vars['ssh_user'] }}
+
+instances:
+{% for key, values in bdr_machines %}
+{%   if values.tags.pg_type == 'epas' %}
+- Name: epas{{ values.tags.index|int+1 }}
+{%   else %}
+- Name: pgsql{{ values.tags.index|int+1 }}
+{%   endif %}
+{%   if values.tags.index|int < 3 %}
+  location: BDRDC1
+{%   else %}
+  location: BDRDC2
+{%   endif %}
+  node: {{ values.tags.index|int + 1 }}
+  public_ip: {{ values.public_ip }}
+  private_ip: {{ values.private_ip }}
+{%   if values.tags.index|int == 0 %}
+  backup: barmandc1
+{%   elif values.tags.index|int == 3 %}
+  backup: barmandc2
+{%   endif %}
+  role:
+  - bdr
+{%   if (values.tags.index|int == 2 or values.tags.index|int == 5) and vars['reference_architecture'] == 'EDB-Always-On-Platinum' %}
+  - readonly
+{%     if values.tags.index|int == 2 %}
+{%       if values.tags.pg_type == 'epas' %}
+  - upstream: epas1
+{%       else %}
+  - upstream: pgsql1
+{%       endif %}
+{%     elif values.tags.index|int == 5 %}
+{%       if values.tags.pg_type == 'epas' %}
+  - upstream: epas4
+{%       else %}
+  - upstream: pgsql4
+{%       endif %}
+{%     endif %}
+{%   endif %}
+  vars:
+    subscriptions:
+    - database: edb
+      type: bdr
+      replication_sets:
+      - bdrgroup
+      - bdrdatagroup
+{% endfor %}
+{% for key, values in bdr_witness_machines %}
+{%  if values.tags.pg_type == 'epas' %}
+- Name: epas{{ bdr_machines | length + values.tags.index|int+1 }}
+{%  else %}
+- Name: pgsql{{ bdr_machines | length + values.tags.index|int+1 }}
+{%  endif %}
+  location: BDRDC3
+  node: {{ bdr_machines | length + values.tags.index|int+1 }}
+  public_ip: {{ values.public_ip }}
+  private_ip: {{ values.private_ip }}
+  role:
+  - bdr
+  - witness
+  vars:
+    subscriptions:
+    - database: edb
+      type: bdr
+      replication_sets:
+      - bdrgroup
+{% endfor %}
+{% for key, values in pooler_machines %}
+- Name: pgbouncer{{ values.tags.index|int + 1 }}
+{%   if values.tags.index|int < 2 %}
+  location: BDRDC1
+{%   else %}
+  location: BDRDC2
+{%   endif %}
+  node: {{ bdr_machines | length + bdr_witness_machines | length + values.tags.index|int+1 }}
+  public_ip:  {{ values['public_ip'] }}
+  private_ip: {{ values['private_ip'] }}
+  role:
+  - harp-proxy
+  - pgbouncer
+{% endfor %}
+{% for key, values in barman_machines %}
+- Name: barmandc{{ values.tags.index|int + 1 }}
+{%   if values.tags.index|int == 0 %}
+  location: BDRDC1
+{%   else %}
+  location: BDRDC2
+{%   endif %}
+  node: {{ bdr_machines | length + bdr_witness_machines | length + pooler_machines | length + values.tags.index|int + 1 }}
+  public_ip: {{ values['public_ip'] }}
+  private_ip: {{ values['private_ip'] }}
+  role:
+  - barman
+{% endfor %}
+{% if pem_machines | length > 0 %}
+- Name: pemserver1
+  node: {{ bdr_machines | length + bdr_witness_machines | length + pooler_machines | length + barman_machines | length + 1 }}
+  location: BDRDC3
+  public_ip: {{ pem_machines[0][1]['public_ip'] }}
+  private_ip: {{ pem_machines[0][1]['private_ip'] }}
+{% endif %}

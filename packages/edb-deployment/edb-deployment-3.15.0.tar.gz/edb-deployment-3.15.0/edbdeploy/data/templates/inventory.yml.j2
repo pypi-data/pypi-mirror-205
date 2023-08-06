@@ -1,0 +1,160 @@
+{% set servers = servers %}
+{% set pem_machines = servers.items() | sort(attribute=('1.tags.priority', '1.tags.index')) | selectattr('1.tags.type', 'eq', 'pem_server') | list %}
+{% set barman_machines = servers.items() | sort(attribute=('1.tags.priority', '1.tags.index')) | selectattr('1.tags.type', 'eq', 'barman_server') | list %}
+{% set postgres_machines = servers.items() | sort(attribute=('1.tags.priority', '1.tags.index')) | selectattr('1.tags.type', 'eq', 'postgres_server') | list %}
+{% set dbt2_client_machines = servers.items() | sort(attribute=('1.tags.priority', '1.tags.index')) | selectattr('1.tags.type', 'eq', 'dbt2_client') | list %}
+{% set dbt2_driver_machines = servers.items() | sort(attribute=('1.tags.priority', '1.tags.index')) | selectattr('1.tags.type', 'eq', 'dbt2_driver') | list %}
+{% set hammerdb_machines = servers.items() | sort(attribute=('1.tags.priority', '1.tags.index')) | selectattr('1.tags.type', 'eq', 'hammerdb_server') | list %}
+{% set bdr_machines = servers.items() | sort(attribute=('1.tags.priority', '1.tags.index')) | selectattr('1.tags.type', 'eq', 'bdr_server') | list %}
+{% set bdr_witness_machines = servers.items() | sort(attribute=('1.tags.priority', '1.tags.index')) | selectattr('1.tags.type', 'eq', 'bdr_witness_server') | list %}
+{% set pooler_machines = servers.items() | sort(attribute=('1.tags.priority', '1.tags.index')) | selectattr('1.tags.type', 'eq', 'pooler_server') | list %}
+---
+all:
+  children:
+{% for key, values in pem_machines if values.tags.index|int == 0 %}
+    pemserver:
+      hosts:
+{%   if values.tags.reference_architecture.startswith('edb-always-on') %}
+        pemserver{{ 1 + values.tags.index|int }}:
+{%   else %}
+        pemserver{{ 1 + values.tags.index|int }}.{{ pem_machines.0.1.tags.cluster_name }}.internal:
+{%   endif %}
+          ansible_host: {{ values.public_ip }}
+          private_ip: {{ values.private_ip }}
+{% endfor %}
+{% for key, values in barman_machines %}
+{%   if loop.first %}
+    barmanserver:
+      hosts:
+{%   endif %}
+{%   if values.tags.reference_architecture.startswith('edb-always-on') %}
+        barmandc{{ 1 + values.tags.index|int }}:
+{%   else %}
+        barmanserver{{ 1 + values.tags.index|int }}.{{ values.tags.cluster_name }}.internal:
+{%   endif %}
+          ansible_host: {{ values.public_ip }}
+          private_ip: {{ values.private_ip }}
+{%   if pem_machines | length > 0 %}
+          pem_agent: true
+          pem_server_private_ip: {{ pem_machines.0.1.private_ip }}
+{%   endif %}
+{% endfor %}
+{% for key, values in postgres_machines %}
+{%   if loop.first %}
+    primary:
+      hosts:
+{%   elif loop.index0 == 1 %}
+    standby:
+      hosts:
+{%   endif %}
+{%   if values.tags.pg_type == 'epas' %}
+        epas{{ 1 + values.tags.index|int }}.{{ values.tags.cluster_name }}.internal:
+{%   else %}
+        pgsql{{ 1 + values.tags.index|int }}.{{ values.tags.cluster_name }}.internal:
+{%   endif %}
+          ansible_host: {{ values.public_ip }}
+          private_ip: {{ values.private_ip }}
+{%   if barman_machines|length > 0 %}
+          barman: true
+          barman_server_private_ip: {{ barman_machines.0.1.private_ip }}
+          barman_backup_method: postgres
+{%   endif %}
+{%   for key, values in dbt2_client_machines %}
+{%     if loop.first %}
+          dbt2: true
+{%     endif %}
+          dbt2_client_private_ip{{ 1 + values.tags.index|int }}: {{ values.private_ip }}
+{%   endfor %}
+{%   if hammerdb_machines|length > 0 %}
+          hammerdb: true
+          hammerdb_server_private_ip: {{ hammerdb_machines.0.1.private_ip }}
+{%   endif %}
+{%   if values.tags.pooler_local is sameas true and values.tags.pg_pooler == 'pgbouncer' %}
+          pgbouncer: true
+{%   endif %}
+{%   if not loop.first %}
+          replication_type: {{ values.tags.replication_type }}
+          upstream_node_private_ip: {{ postgres_machines.0.1.private_ip }}
+{%   endif %}
+{%   if pem_machines|length > 0 %}
+          pem_agent: true
+          pem_server_private_ip: {{ pem_machines.0.1.private_ip }}
+{%   endif %}
+{% endfor %}
+{% for key, values in bdr_machines %}
+{%   if loop.first %}
+    primary:
+      hosts:
+{%   endif %}
+{%   if values.tags.pg_type == 'epas' %}
+        epas{{ 1 + values.tags.index|int }}:
+{%   else %}
+        pgsql{{ 1 + values.tags.index|int }}:
+{%   endif %}
+          ansible_host: {{ values.public_ip }}
+          private_ip: {{ values.private_ip }}
+{%   if pem_machines|length > 0 %}
+          pem_agent: true
+          pem_server_private_ip: {{ pem_machines.0.1.private_ip }}
+{%   endif %}
+{% endfor %}
+{% for key, values in bdr_witness_machines %}
+{%   if values.tags.pg_type == 'epas' %}
+        epas{{ 1 + values.tags.index|int + bdr_machines|length }}:
+{%   else %}
+        pgsql{{ 1 + values.tags.index|int + bdr_machines|length }}:
+{%   endif %}
+          ansible_host: {{ values.public_ip }}
+          private_ip: {{ values.private_ip }}
+{%   if pem_machines|length > 0 %}
+          pem_agent: true
+          pem_server_private_ip: {{ pem_machines.0.1.private_ip }}
+{%   endif %}
+{% endfor %}
+{% for key, values in pooler_machines %}
+{%   if loop.first %}
+    {{ values.tags.pooler_type }}:
+      hosts:
+{%   endif %}
+{%   if bdr_machines|length > 0 %}
+        pgbouncer{{ 1 + values.tags.index|int }}:
+{%   else %}
+        {{ values.tags.pooler_type }}{{ 1 + values.tags.index|int }}.{{ values.tags.cluster_name }}.internal:
+{%   endif %}
+          ansible_host: {{ values.public_ip }}
+          private_ip: {{ values.private_ip }}
+{%   if postgres_machines|length > 0 %}
+          primary_private_ip: {{ postgres_machines.0.1.private_ip }}
+{%   endif %}
+{%   if pem_machines|length > 0 %}
+          pem_agent: true
+          pem_server_private_ip: {{ pem_machines.0.1.private_ip }}
+{%   endif %}
+{% endfor %}
+{% for key, values in dbt2_client_machines %}
+{%   if loop.first %}
+    dbt2_client:
+      hosts:
+{%   endif %}
+        dbt2_client{{ 1 + values.tags.index|int }}.{{ values.tags.cluster_name }}.internal:
+          ansible_host: {{ values.public_ip }}
+          private_ip: {{ values.private_ip }}
+{% endfor %}
+{% for key, values in dbt2_driver_machines %}
+{%   if loop.first %}
+    dbt2_driver:
+      hosts:
+{%   endif %}
+        dbt2_driver{{ 1 + values.tags.index|int }}.{{ values.tags.cluster_name }}.internal:
+          ansible_host: {{ values.public_ip }}
+          private_ip: {{ values.private_ip }}
+{% endfor %}
+{% for key, values in hammerdb_machines %}
+{%   if loop.first %}
+    hammerdbserver:
+      hosts:
+{%   endif %}
+        hammerdbserver{{ 1 + values.tags.index|int }}.{{ values.tags.cluster_name }}.internal:
+          ansible_host: {{ values.public_ip }}
+          private_ip: {{ values.private_ip }}
+{% endfor %}
