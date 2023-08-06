@@ -1,0 +1,2 @@
+[console_scripts]
+iso3166-scraper = iso3166_scraper:scraper.main
