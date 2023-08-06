@@ -1,0 +1,4 @@
+[console_scripts]
+fling=fling_cli.bin.fling:main
+git-fling=fling_cli.bin.fling:main
+

@@ -1,0 +1,9 @@
+fling_cli/__init__.py,sha256=XEqb2aiIn8fzGE68Mph4ck1FtQqsR_am0wRWvrYPffQ,22
+fling_cli/auth.py,sha256=CshnbESDq8-WfsBQxdMD13cVD8gWwunLD0TvJLtERIo,2040
+fling_cli/bin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fling_cli/bin/fling.py,sha256=yuu253R9JwY4w1k6BuneBrirad7Xy5yEb_o1zz9pPqA,6849
+fling_cli/logo-hc.txt,sha256=RV5400yCn5zaInQuzqfor_Ih7YcPVbCjb5gFCpG6xRw,3834
+fling_cli-0.1.3.dist-info/METADATA,sha256=K0Drg5H53Br0NJI-gHfJu_zdOHe1CenGZ7rlauIEZXo,3069
+fling_cli-0.1.3.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+fling_cli-0.1.3.dist-info/entry_points.txt,sha256=eStzm5sYgH83fRdde6npR3ZIOu6YwiL0vvbwCndD-9E,85
+fling_cli-0.1.3.dist-info/RECORD,,
