@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+setup.py
+favicorn/__init__.py
+favicorn/connection_manager.py
+favicorn/iconnection.py
+favicorn/isocket_provider.py
+favicorn/py.typed
+favicorn/reader.py
+favicorn/server.py
+favicorn/utils.py
+favicorn/writer.py
+favicorn.egg-info/PKG-INFO
+favicorn.egg-info/SOURCES.txt
+favicorn.egg-info/dependency_links.txt
+favicorn.egg-info/requires.txt
+favicorn.egg-info/top_level.txt
