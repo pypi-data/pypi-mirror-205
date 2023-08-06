@@ -1,0 +1,6 @@
+malla/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+malla/directed_edge.py,sha256=NRih4Pz282ik23uiw0CZTwN9jzyXx7GyAvDcVqIXgmc,6383
+malla/off.py,sha256=_gPfbBQPsiHrpQWmTQjGeXfI1yKeVoncDy_U4iqUJEw,717
+malla-0.1.2.dist-info/METADATA,sha256=m1lb1PKKxqOoKfGSBZK9SDUZ5vQZinT-AtIbLm-MJiY,862
+malla-0.1.2.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+malla-0.1.2.dist-info/RECORD,,
