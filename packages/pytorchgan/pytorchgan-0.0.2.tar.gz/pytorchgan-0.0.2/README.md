@@ -1,0 +1,34 @@
+# PytorchGAN
+PytorchGAN
+
+PytorchGAN是一个基于Pytorch框架的生成对抗网络（GAN）实现库。
+
+GAN是一种用于生成模型的机器学习算法，其通过训练生成器和鉴别器来生成新的数据样本。PytorchGAN提供了许多经典的GAN模型实现，如DCGAN，WGAN，CGAN，CycleGAN等。
+
+PytorchGAN的主要优点之一是其使用Pytorch框架。Pytorch是一种动态图形框架，具有易于使用和调试的优点，同时也具有高度灵活性和可扩展性。因此，使用PytorchGAN可以更轻松地构建和训练GAN模型，并且可以利用Pytorch的自动微分功能来优化模型参数。
+
+
+## Install
+```shell
+pip install pytorchgan
+```
+
+## Usage
+```python
+import torch
+from torchgan import models
+
+input_size = 100
+output_size = 784
+hidden_size = 256
+
+generator = models.GANGenerator(input_size, output_size, hidden_size)
+input_vector = torch.randn(1, input_size)
+generated_sample = generator(input_vector)
+
+d = models.GANDiscriminator(output_size, hidden_size)
+d_output = d(generated_sample)
+
+print(generated_sample)
+print(d_output)
+```
