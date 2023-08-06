@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: concordia-harmony
+Version: 0.1.3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: music21
+Requires-Dist: z3-solver
+
+# Concordia: Music Generation Using SMT-based Harmony Solver
+
+To push an update to PyPI, first update the version number in `pyproject.toml`, then push to GitHub.
