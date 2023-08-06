@@ -1,0 +1,229 @@
+[
+  {
+    "text": "jerry goldsmith : l homme au chapeau de cow-boy dans la cabine t\u00e9l\u00e9phonique au salon de l invention ( cam\u00e9o non cr\u00e9dit\u00e9 )",
+    "identifier": "05828a36-edb1-4538-98ad-226ad93181d6",
+    "title": "05828a36-edb1-4538-98ad-226ad93181d6",
+    "metadata": {
+      "corpus": "train",
+      "language": "fr"
+    },
+    "altTexts": [
+      {
+        "name": "substitute_entities",
+        "text": "- [Artist:John Williams] : l'individu au chapeau de ranger dans la cabine t\u00e9l\u00e9phonique du salon de l'innovation (cam\u00e9o non cr\u00e9dit\u00e9)\n- [Artist:Hans Zimmer] : l'homme avec le chapeau de western dans la cabine t\u00e9l\u00e9phonique au salon de l'innovation (cam\u00e9o non cr\u00e9dit\u00e9)\n- [Artist:Alan Silvestri] : le gars avec le chapeau de cow-boy dans la cabine t\u00e9l\u00e9phonique au salon de l'innovation (cam\u00e9o non cr\u00e9dit\u00e9)"
+      }
+    ],
+    "sentences": [
+      {
+        "start": 0,
+        "end": 121
+      }
+    ],
+    "annotations": [
+      {
+        "start": 0,
+        "end": 15,
+        "labelName": "artist",
+        "label": "Artist",
+        "text": "jerry goldsmith",
+        "createdBy": "import",
+        "createdDate": "2022-11-16T22:22:56.199Z",
+        "modifiedDate": "2022-11-16T22:22:56.199Z",
+        "status": "OK"
+      },
+      {
+        "start": 29,
+        "end": 47,
+        "labelName": "clothing",
+        "label": "Clothing",
+        "text": "chapeau de cow-boy",
+        "createdBy": "import",
+        "createdDate": "2022-11-16T22:22:56.199Z",
+        "modifiedDate": "2022-11-16T22:22:56.199Z",
+        "status": "OK"
+      }
+    ],
+    "categories": []
+  },
+  {
+    "text": "alber elbaz le remplace en tant que directeur artistique du pr\u00eat-\u00e0-porter f\u00e9minin et hedi slimane du pr\u00eat \u00e0 porter masculin .",
+    "identifier": "47b90a69-f8ee-41d1-b3a1-8905fcf1f02a",
+    "title": "47b90a69-f8ee-41d1-b3a1-8905fcf1f02a",
+    "metadata": {
+      "corpus": "dev",
+      "language": "fr"
+    },
+    "altTexts": [
+      {
+        "name": "substitute_entities",
+        "text": "- [Designer:ralph lauren] remplace [Artist:alber elbaz] en tant que directeur artistique du [Clothing:pr\u00eat-\u00e0-porter] f\u00e9minin, et [Designer:tom ford] remplace [Artist:hedi slimane] du [Clothing:pr\u00eat-\u00e0-porter] masculin.\n- [Artist:virgil abloh] prend la place de [Artist:alber elbaz] en tant que directeur artistique du [Clothing:pr\u00eat-\u00e0-porter] f\u00e9minin, et [Artist:alexander wang] remplace [Artist:hedi slimane] du [Clothing:pr\u00eat-\u00e0-porter] masculin.\n- [Designer:marc jacobs] succ\u00e8de \u00e0 [Artist:alber elbaz] en tant que directeur artistique du [Clothing:pr\u00eat-\u00e0-porter] f\u00e9minin, et [Artist:rick owens] prend la rel\u00e8ve de [Artist:hedi slimane] du [Clothing:pr\u00eat-\u00e0-porter] masculin.\n- [Artist:phoebe philo] est nomm\u00e9e directrice artistique du [Clothing:pr\u00eat-\u00e0-porter] f\u00e9minin en remplacement de [Artist:alber elbaz], tandis que [Designer:thom browne] remplace [Artist:hedi slimane] du [Clothing:pr\u00eat-\u00e0-porter] masculin.\n- [Designer:diane von furstenberg] prend la suite de [Artist:alber elbaz] en tant que directrice artistique du [Clothing:pr\u00eat-\u00e0-porter] f\u00e9minin, et [Artist:jonathan anderson] remplace [Artist:hedi slimane] du [Clothing:pr\u00eat-\u00e0-porter] masculin."
+      }
+    ],
+    "sentences": [
+      {
+        "start": 0,
+        "end": 125
+      }
+    ],
+    "annotations": [
+      {
+        "start": 0,
+        "end": 11,
+        "labelName": "artist",
+        "label": "Artist",
+        "text": "alber elbaz",
+        "createdBy": "import",
+        "createdDate": "2022-11-20T00:09:58.862Z",
+        "modifiedDate": "2022-11-20T00:09:58.862Z",
+        "status": "OK"
+      },
+      {
+        "start": 60,
+        "end": 73,
+        "labelName": "clothing",
+        "label": "Clothing",
+        "text": "pr\u00eat-\u00e0-porter",
+        "createdBy": "import",
+        "createdDate": "2022-11-20T00:09:58.862Z",
+        "modifiedDate": "2022-11-20T00:09:58.862Z",
+        "status": "OK"
+      },
+      {
+        "start": 85,
+        "end": 97,
+        "labelName": "artist",
+        "label": "Artist",
+        "text": "hedi slimane",
+        "createdBy": "import",
+        "createdDate": "2022-11-20T00:09:58.862Z",
+        "modifiedDate": "2022-11-20T00:09:58.862Z",
+        "status": "OK"
+      }
+    ],
+    "categories": []
+  },
+  {
+    "text": "chanel se fait aussi particuli\u00e8rement remarqu\u00e9 avec lily-rose depp au bras de karl lagerfeld avec une robe de mari\u00e9e rose pastel .",
+    "identifier": "a62886ab-c553-4153-894f-33ac31e17c33",
+    "title": "a62886ab-c553-4153-894f-33ac31e17c33",
+    "metadata": {
+      "corpus": "dev",
+      "language": "fr"
+    },
+    "altTexts": [
+      {
+        "name": "substitute_entities",
+        "text": "- [PrivateCorp:Louis Vuitton] se fait aussi particuli\u00e8rement remarqu\u00e9 avec [Artist:L\u00e9a Seydoux] au bras de [Artist:Olivier Rousteing] avec une [Clothing:robe de cocktail] paillet\u00e9e.\n- [PrivateCorp:Dior] se fait aussi particuli\u00e8rement remarqu\u00e9 avec [Artist:Emma Watson] au bras de [Artist:Riccardo Tisci] avec une [Clothing:robe de soir\u00e9e] vermillon.\n- [PrivateCorp:Gucci] se fait aussi particuli\u00e8rement remarqu\u00e9 avec [Artist:Tilda Swinton] au bras de [Artist:John Galliano] avec une [Clothing:robe de bal] verte \u00e9meraude."
+      }
+    ],
+    "sentences": [
+      {
+        "start": 0,
+        "end": 130
+      }
+    ],
+    "annotations": [
+      {
+        "start": 0,
+        "end": 6,
+        "labelName": "privatecorp",
+        "label": "PrivateCorp",
+        "text": "chanel",
+        "createdBy": "import",
+        "createdDate": "2022-11-20T00:09:59.127Z",
+        "modifiedDate": "2022-11-20T00:09:59.127Z",
+        "status": "OK"
+      },
+      {
+        "start": 52,
+        "end": 66,
+        "labelName": "artist",
+        "label": "Artist",
+        "text": "lily-rose depp",
+        "createdBy": "import",
+        "createdDate": "2022-11-20T00:09:59.127Z",
+        "modifiedDate": "2022-11-20T00:09:59.127Z",
+        "status": "OK"
+      },
+      {
+        "start": 78,
+        "end": 92,
+        "labelName": "artist",
+        "label": "Artist",
+        "text": "karl lagerfeld",
+        "createdBy": "import",
+        "createdDate": "2022-11-20T00:09:59.127Z",
+        "modifiedDate": "2022-11-20T00:09:59.127Z",
+        "status": "OK"
+      },
+      {
+        "start": 102,
+        "end": 116,
+        "labelName": "clothing",
+        "label": "Clothing",
+        "text": "robe de mari\u00e9e",
+        "createdBy": "import",
+        "createdDate": "2022-11-20T00:09:59.127Z",
+        "modifiedDate": "2022-11-20T00:09:59.127Z",
+        "status": "OK"
+      }
+    ],
+    "categories": []
+  },
+  {
+    "text": "among his other work is his design for the diamond coronet for victoria adams marriage to david beckham in 1999 .",
+    "identifier": "b7e40aa5-993b-44a0-826e-f9d1b0452fa3",
+    "title": "b7e40aa5-993b-44a0-826e-f9d1b0452fa3",
+    "metadata": {
+      "corpus": "train"
+    },
+    "altTexts": [
+      {
+        "name": "substitute_entities",
+        "text": "- Among his other work is his design for the gold [Clothing:tiara] for [Artist:kate middleton]'s marriage to [Athlete:prince william] in 2011. \n- Among her other work is her design for the [Clothing:crown] for [Artist:queen elizabeth ii]'s coronation in 1953, worn by [Artist:prince phillip]. \n- Among their other work is their design for the platinum [Clothing:diadem] for [Artist:diana spencer]'s wedding to [Athlete:prince charles] in 1981. \n- Among his other work is his design for the ruby [Clothing:circlet] for [Artist:meghan markle]'s wedding to [Athlete:prince harry] in 2018. \n- Among her other work is her design for the pearl [Clothing:headband] for [Artist:grace kelly]'s wedding to [Athlete:prince rainier iii] in 1956."
+      }
+    ],
+    "sentences": [
+      {
+        "start": 0,
+        "end": 113
+      }
+    ],
+    "annotations": [
+      {
+        "start": 51,
+        "end": 58,
+        "labelName": "clothing",
+        "label": "Clothing",
+        "text": "coronet",
+        "createdBy": "import",
+        "createdDate": "2022-11-19T23:48:26.971Z",
+        "modifiedDate": "2022-11-19T23:48:26.971Z",
+        "status": "OK"
+      },
+      {
+        "start": 63,
+        "end": 77,
+        "labelName": "artist",
+        "label": "Artist",
+        "text": "victoria adams",
+        "createdBy": "import",
+        "createdDate": "2022-11-19T23:48:26.971Z",
+        "modifiedDate": "2022-11-19T23:48:26.971Z",
+        "status": "OK"
+      },
+      {
+        "start": 90,
+        "end": 103,
+        "labelName": "athlete",
+        "label": "Athlete",
+        "text": "david beckham",
+        "createdBy": "import",
+        "createdDate": "2022-11-19T23:48:26.971Z",
+        "modifiedDate": "2022-11-19T23:48:26.971Z",
+        "status": "OK"
+      }
+    ],
+    "categories": []
+  }
+]
