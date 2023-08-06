@@ -1,0 +1,7 @@
+README.md
+setup.py
+namefactory.egg-info/PKG-INFO
+namefactory.egg-info/SOURCES.txt
+namefactory.egg-info/dependency_links.txt
+namefactory.egg-info/requires.txt
+namefactory.egg-info/top_level.txt
