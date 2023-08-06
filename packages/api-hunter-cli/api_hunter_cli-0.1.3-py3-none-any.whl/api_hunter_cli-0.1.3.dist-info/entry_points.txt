@@ -1,0 +1,2 @@
+[console_scripts]
+apihunter = apihunter.__main__:main
