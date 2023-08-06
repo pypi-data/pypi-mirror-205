@@ -1,0 +1,25 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Dispozitivul a fost configurat deja",
+            "home_control": "Unitatea centrala de control devolo nu func\u021bioneaz\u0103 cu aceast\u0103 integrare."
+        },
+        "error": {
+            "cannot_connect": "A e\u0219uat conectarea",
+            "unknown": "Eroare nea\u0219teptat\u0103"
+        },
+        "flow_title": "{product} ({name})",
+        "step": {
+            "user": {
+                "data": {
+                    "ip_address": "Adresa IP"
+                },
+                "description": "Dore\u0219ti s\u0103 \u00eencepi configurarea?"
+            },
+            "zeroconf_confirm": {
+                "description": "Dore\u0219ti s\u0103 adaugi dispozitivul devolo cu hostname-ul `{host_name}` din re\u021beaua locala \u00een Home Assistant?",
+                "title": "Dispozitiv devolo descoperit \u00een re\u021beaua local\u0103"
+            }
+        }
+    }
+}
