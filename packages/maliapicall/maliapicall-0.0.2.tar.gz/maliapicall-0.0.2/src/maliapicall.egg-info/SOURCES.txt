@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/maliapicall/__init__.py
+src/maliapicall/muji.py
+src/maliapicall/sk.py
+src/maliapicall/wms.py
+src/maliapicall.egg-info/PKG-INFO
+src/maliapicall.egg-info/SOURCES.txt
+src/maliapicall.egg-info/dependency_links.txt
+src/maliapicall.egg-info/top_level.txt
