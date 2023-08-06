@@ -1,0 +1,3 @@
+[console_scripts]
+pt = print_pretty_tree.main:main
+ptree = print_pretty_tree.main:main
