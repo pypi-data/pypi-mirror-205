@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: swandaskcluster
+Version: 2.0.1
+Summary: Package to create wrappers of Dask clusters to be used from SWAN
+Home-page: https://github.com/swan-cern/swan-daskcluster
+Author: SWAN Admins
+License: AGPL-3.0
+Keywords: Jupyter,Notebooks,SWAN,CERN
+Platform: Linux
+Platform: Mac OS X
+Platform: Windows
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Framework :: Jupyter
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# SWAN Dask Cluster
+
+Package to create wrappers of Dask clusters to be used from SWAN.
+
+## Requirements
+
+* dask_lxplus
+* swanportallocator
+
+## Install
+
+```bash
+pip install swandaskcluster
+```
+
+## Security
+
+This package provides a
+[security loader](https://docs.dask.org/en/stable/configuration.html#distributed.client.security-loader)
+function to automatically set the appropriate TLS configuration in Dask clients
+created from SWAN.
+
+This makes it possible to create Dask clients in the following way:
+
+```python
+from dask.distributed import Client
+
+client = Client("tls://10.100.244.186:30124")
+```
+
+i.e. with no need to construct and pass a `Security` object as part of the
+`Client` constructor.
