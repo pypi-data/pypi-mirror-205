@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: rule-based-model
+Version: 0.0.2
+Summary: A rule based model to detect stock company name listed in oslo børs
+Home-page: https://github.com/Market-Shriek/rule-based-model
+Author: Liang
+Author-email: liang@marketshriek.com
+License: apache-2.0
+Project-URL: Repo, https://github.com/Market-Shriek/rule-based-model
+Project-URL: Bug Tracker, https://github.com/Market-Shriek/rule-based-model/issues
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: pyahocorasick (==2.0.0)
+
