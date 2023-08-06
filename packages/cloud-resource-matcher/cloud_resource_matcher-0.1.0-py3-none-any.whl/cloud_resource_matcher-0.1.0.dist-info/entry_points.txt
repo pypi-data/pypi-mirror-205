@@ -1,0 +1,6 @@
+[console_scripts]
+bench_base=benches.bench_base:bench
+bench_complete=benches.bench_complete:bench
+bench_mini=benches.bench_mini:bench
+demo=examples.demo:main
+
