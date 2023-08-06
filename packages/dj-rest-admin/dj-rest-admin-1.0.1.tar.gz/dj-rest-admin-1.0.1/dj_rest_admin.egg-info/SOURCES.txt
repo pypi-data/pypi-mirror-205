@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+dj_rest_admin/__init__.py
+dj_rest_admin/apps.py
+dj_rest_admin/decorators.py
+dj_rest_admin/restmodeladmin.py
+dj_rest_admin/sites.py
+dj_rest_admin.egg-info/PKG-INFO
+dj_rest_admin.egg-info/SOURCES.txt
+dj_rest_admin.egg-info/dependency_links.txt
+dj_rest_admin.egg-info/requires.txt
+dj_rest_admin.egg-info/top_level.txt
+dj_rest_admin/migrations/__init__.py
+tests/tests.py
