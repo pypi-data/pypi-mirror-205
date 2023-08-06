@@ -1,0 +1,2 @@
+[console_scripts]
+ausbildungsnachweise_utils = ausbildungsnachweise_utils.starter:start
