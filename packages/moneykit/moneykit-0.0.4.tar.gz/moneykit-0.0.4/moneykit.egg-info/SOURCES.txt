@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+moneykit/__init__.py
+moneykit.egg-info/PKG-INFO
+moneykit.egg-info/SOURCES.txt
+moneykit.egg-info/dependency_links.txt
+moneykit.egg-info/requires.txt
+moneykit.egg-info/top_level.txt
