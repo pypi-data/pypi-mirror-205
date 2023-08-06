@@ -1,0 +1,12 @@
+attrdict/__init__.py,sha256=fdJfkB3hQK2tcqck7FSmCKjyzmjx29Z3MBQyAev43E0,267
+attrdict/default.py,sha256=nTgCYB1B9OF4ISfmNYpu4V-jVMOvExZEcMK4tFNeKsQ,3608
+attrdict/dictionary.py,sha256=EjolfMd-kzn5K009pTx2Mr_O4OCEPEg-57Z_6-Lsixw,1462
+attrdict/mapping.py,sha256=zBGV7SSbQaMIvurCH1kXfVPuqvZxzLRf3i_LfJfJp-4,2531
+attrdict/merge.py,sha256=8UUl68t_VQKYiageiNL1cXS1kDIYSBQTOaoFekg0FwA,1149
+attrdict/mixins.py,sha256=hd1MD3TD5gdXdwLmnLbdRyImWCfRA7othXIC-_zf70w,6717
+gattrdict-2.0.1.dist-info/LICENSE.txt,sha256=7bXwDR-EXRD9ybjGNRq4IPk_ZEm3aWev8xkme2Fb4k4,1066
+gattrdict-2.0.1.dist-info/METADATA,sha256=WXW7IMQj411YuLfj5onXjFr27UkbN6NjMuVf2dG3N5Y,6722
+gattrdict-2.0.1.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+gattrdict-2.0.1.dist-info/top_level.txt,sha256=2f1-Wyfr5ZHsGvOFLqcj3y6OfZglxI3gjETO12COZRc,9
+gattrdict-2.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+gattrdict-2.0.1.dist-info/RECORD,,
