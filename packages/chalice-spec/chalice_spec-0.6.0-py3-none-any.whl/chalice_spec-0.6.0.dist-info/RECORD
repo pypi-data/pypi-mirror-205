@@ -1,0 +1,10 @@
+chalice_spec/__init__.py,sha256=S8HZH9RqsYbRX4xUYrhIoWNyr9MuCMF5CmkaIjFx48k,97
+chalice_spec/blueprint.py,sha256=8tViRPbR-h4I5RG-Uk4icm-61NDrrkD-5wvtt8IAAd4,1966
+chalice_spec/chalice.py,sha256=tskBiGntYeN8G7KDA9aITB4sTYrYe7AUwGfEg3UCGu8,5953
+chalice_spec/chalice_legacy.py,sha256=wIz4dSx7HOaz-4n5dgCFkJqLEzVFdbor_578VDamxOo,2503
+chalice_spec/docs.py,sha256=-p6xCoAdSke4_MwrnVt-MXn6QkEbO41aZcrJQ3zPMv8,7567
+chalice_spec/pydantic.py,sha256=gcoVHalwjvbcD9azL46vazuE_ZY-7Hgz6o5wmpyYdmc,1485
+chalice_spec-0.6.0.dist-info/LICENSE,sha256=UlY1HOxyqDudgvjAkD7FPpkDTqNFEf6E1z0scyGzq78,1064
+chalice_spec-0.6.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+chalice_spec-0.6.0.dist-info/METADATA,sha256=UU1K8B-6UjW8A--cDbWSOWr1v4bItsbvBXPml8oruJw,4994
+chalice_spec-0.6.0.dist-info/RECORD,,
