@@ -1,0 +1,4 @@
+Django>=4.2
+django_bleach>=3.0.1
+djangorestframework>=3.14.0
+django-modeltranslation>=0.18.9
