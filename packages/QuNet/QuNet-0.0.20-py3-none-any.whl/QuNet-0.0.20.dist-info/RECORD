@@ -1,0 +1,17 @@
+qunet/__init__.py,sha256=zj9U0mj2m3FLgD3iLpJ1UzIY8PHYI6C4tAuDajTnNVY,327
+qunet/data.py,sha256=_j9O_-bKJqK8Jyr12Vcv-YpCVWDavlkMXjCFEA6fVns,4453
+qunet/old.py,sha256=wfsu9d4vcptlBT1lgPKHCfqDm8lirDvTTvEEzKGjTig,16977
+qunet/optim.py,sha256=tAAgUS0LaAOPxVqxDsYAitF3ExX7Pt_dNK4XwzbTYdY,14092
+qunet/plots.py,sha256=Lprkco9zGutOSz6KVtDzV6dostIMdVEKia75Wof1YJc,8134
+qunet/trainer.py,sha256=9jIf-6zTqmvICFqJNqS_7_z_G2u_jdA59UxULvFuTR4,33234
+qunet/utils.py,sha256=QT6QbHeYp4feQ2XaxeHBsGQpIeoUYyXhXfF7sqVoKjo,3173
+qunet/modules/__init__.py,sha256=8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U,3
+qunet/modules/cnn.py,sha256=529y6xBmRDGOJZ_nA7j-m0ecjRRsI3KC6PXGHnBi5SE,4625
+qunet/modules/mlp.py,sha256=cP1NYLIpAV-gq4BhpasDytVlgnLC50P19yI3nb9J5p0,3879
+qunet/modules/points.py,sha256=t9gfdBVawuBwK9dY0HeXIbSE8C69RV09iijVROuZQvQ,2893
+qunet/modules/transformer.py,sha256=5QIscUKMMn_DQsvsmQkGwpTS91ZrXBcOt-FvwOTbsVw,10288
+QuNet-0.0.20.dist-info/LICENSE,sha256=TSOuIu1obl3tk6okEX3AbHzQjUhXvTKU3gY_yDhpZM0,1068
+QuNet-0.0.20.dist-info/METADATA,sha256=OQrcjyNcGeYjYoG3OMFqBUC8ksVlnmpZjt9jKOb9IsY,15924
+QuNet-0.0.20.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+QuNet-0.0.20.dist-info/top_level.txt,sha256=fZTlCNIA7T6KO6-qMX35d8uK01uhYTGRKO117oubma8,6
+QuNet-0.0.20.dist-info/RECORD,,
