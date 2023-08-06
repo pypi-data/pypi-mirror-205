@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: aligned-text-table
+Version: 0.1.1
+Summary: Parser for space-aligned tables in plain text
+Home-page: https://github.com/nottrobin/aligned-text-table
+License: Public domain
+Author: Robin Winslow
+Author-email: robin@robinwinslow.co.uk
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Repository, https://github.com/nottrobin/aligned-text-table
+Description-Content-Type: text/markdown
+
+# Aligned text table
+
+A parser for tables in plain text that are aligned with spaces, e.g.:
+
+```
+This is     Column two   This one
+column one               is column
+                         three
+```
+
+## Usage
+
+```
+>>> from aligned_text_table import parse_row
+
+>>> parse_row(
+...     lines=[
+...         "This is     Column two   This one ",
+...         "column one               is column",
+...         "three    "
+...     ],
+...     keys=["one", "two", "three"]
+... )
+
+{
+    "one": "This is column one",
+    "two": "Column two",
+    "three": "This one is column three"
+}
+```
+
+## Tests
+
+To run tests, install and run Tox:
+
+```
+pip3 install tox
+tox
+```
+
