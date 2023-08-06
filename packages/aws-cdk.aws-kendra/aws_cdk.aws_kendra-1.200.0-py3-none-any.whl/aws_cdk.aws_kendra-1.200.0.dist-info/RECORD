@@ -1,0 +1,10 @@
+aws_cdk/aws_kendra/__init__.py,sha256=jH33PlPvFmtuSgbm4fHta04UGfBcTLX9ToZt4R0WKps,676154
+aws_cdk/aws_kendra/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_kendra/_jsii/__init__.py,sha256=zsndX7s6yf30J2Lk2vglJfM-9YOq1j06PLh98noyIdk,381
+aws_cdk/aws_kendra/_jsii/aws-kendra@1.200.0.jsii.tgz,sha256=VCCn3K9VH4HsqAW9zR33D3aJWlpbFc64bHE0dwwPtcA,232213
+aws_cdk.aws_kendra-1.200.0.dist-info/LICENSE,sha256=YA6CL2YE08NgoURWXRTrec3mNy-KAR-_UNdiMqgNVMI,11391
+aws_cdk.aws_kendra-1.200.0.dist-info/METADATA,sha256=qQjRk6rh8XzFkKXk-lVd4sTkS4lN8MQE-7J5CGjFuMU,3109
+aws_cdk.aws_kendra-1.200.0.dist-info/NOTICE,sha256=XtGET2JQh3C41orQUenLTefWItOqLmu2N-mGwW7t3Fo,113
+aws_cdk.aws_kendra-1.200.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+aws_cdk.aws_kendra-1.200.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_kendra-1.200.0.dist-info/RECORD,,
