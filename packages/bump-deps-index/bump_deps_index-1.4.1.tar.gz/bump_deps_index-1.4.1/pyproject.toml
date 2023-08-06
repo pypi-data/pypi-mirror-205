@@ -1,0 +1,107 @@
+[build-system]
+build-backend = "hatchling.build"
+requires = [
+  "hatch-vcs>=0.3",
+  "hatchling>=1.14.1",
+]
+
+[project]
+name = "bump-deps-index"
+description = "Bump your dependencies to latest available from index."
+readme = "README.md"
+keywords = [
+  "bump",
+  "index",
+  "pypi",
+  "version",
+]
+license.file = "LICENSE"
+maintainers = [
+  { name = "Bernát Gábor", email = "gaborjbernat@gmail.com" },
+]
+requires-python = ">=3.10"
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dynamic = [
+  "version",
+]
+dependencies = [
+  "packaging>=23.1",
+  "pyyaml>=6",
+  'tomli>=2.0.1; python_version < "3.11"',
+]
+optional-dependencies.docs = [
+  "furo>=2023.3.27",
+  "proselint>=0.13",
+  "sphinx>=6.2.1",
+  "sphinx-argparse-cli>=1.11",
+]
+optional-dependencies.test = [
+  "covdefaults>=2.3",
+  "pytest>=7.3.1",
+  "pytest-cov>=4",
+  "pytest-mock>=3.10",
+]
+urls.Documentation = "https://bump-deps-index.readthedocs.io"
+urls.Homepage = "https://github.com/gaborbernat/bump-deps-index"
+urls.Source = "https://github.com/gaborbernat/bump-deps-index"
+urls.Tracker = "https://github.com/gaborbernat/bump-deps-index/issues"
+[project.entry-points.console_scripts]
+bump-deps-index = "bump_deps_index.__main__:main"
+
+[tool.hatch]
+build.hooks.vcs.version-file = "src/bump_deps_index/version.py"
+version.source = "vcs"
+
+[tool.black]
+line-length = 120
+
+[tool.isort]
+profile = "black"
+known_first_party = ["bumps_deps_index"]
+
+[tool.flake8]
+max-complexity = 22
+max-line-length = 120
+noqa-require-code = true
+ignore =  [
+  "E203", # whitespace before ':'
+]
+dictionaries = ["en_US", "python", "technical", "django"]
+
+[tool.coverage]
+run.dynamic_context = "test_function"
+run.plugins = ["covdefaults"]
+run.parallel = true
+report.fail_under = 100
+html.show_contexts = true
+html.skip_covered = false
+paths.source = [
+  "src",
+  ".tox*/*/lib/python*/site-packages",
+  ".tox*/pypy*/site-packages",
+  ".tox*\\*\\Lib\\site-packages",
+  "*/src",
+  "*\\src",
+]
+
+[tool.mypy]
+python_version = "3.11"
+show_error_codes = true
+strict = true
+overrides = [
+  { module = [
+    "lxml.*",
+  ], ignore_missing_imports = true },
+]
