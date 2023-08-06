@@ -1,0 +1,3 @@
+[console_scripts]
+chapsnap=chapsnap.main:main
+
