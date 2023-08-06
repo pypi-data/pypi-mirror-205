@@ -1,0 +1,19 @@
+tungl/__init__.py, sha256=7QEenTxZL2cJwiuCTwYR7-iWDuF4Fa8UWUTrK3UOB4Q, 20
+tungl/tungl.py, sha256=ylX4r-q5vtK2HWErRDG4zXzxWAy0o12a_jEGYyUUB_4, 3842
+tungl/LICENSE, sha256=YnSGopDGJS9GdQ5iKK7kjgkcB9tcrtgilusqFvMPfNc, 1531
+tungl/cmake/FindTungl.cmake, sha256=kHhFT9YzzR3OCm0jQAz9soZSGVWnuH1kAWh6lmO_WR4, 2559
+tungl/include/tungl/api.h, sha256=PGHTNOwqPmmpFrjsOnDpTVaqu-7lfBObpRVboSf3aS4, 1650
+tungl/include/tungl/c.h, sha256=CbAAQVlFvEWet8WmDR3P51WkJxCDMwfHqlyueODgdEE, 1382
+tungl/include/tungl/colors.h, sha256=vycI2UUI5xZd7j8Wa8SVD_tJbjHfzOzNEyaN5gRasq0, 797
+tungl/include/tungl/config.h, sha256=ojqOEw6NZfsOn4e6R9xLjMazoWcsIRQgoSH-sXl_xUo, 190
+tungl/include/tungl/cxx.h, sha256=_9LmEl0q-rZjfUKfjBf2Hbq_FTGVICWsAKgQ5ZgrIVE, 983
+tungl/include/tungl/types.h, sha256=_et1JY2q6WmNXhhUBzf02B7Us-yWGA7OGUDLyHT-xXQ, 206
+tungl/include/tungl/version.h, sha256=458rmta-8Pp6L8vWMJriBeK2xYiZugTegicby7mZjNY, 87
+tungl/lib64/libtungl.so, sha256=SmkLogn07m861C2mIktNeKh057P3JmShTHCT55JlyF8, 20
+tungl/lib64/libtungl.so.0, sha256=51CLE2Hc6aOGzicHXZuN8sLpcSVfAMZwHJ4EjO1fttE, 341064
+tungl/lib64/libtungl.so.0.1.3, sha256=SmkLogn07m861C2mIktNeKh057P3JmShTHCT55JlyF8, 20
+tungl/src/tungl/tungl.cpp, sha256=B-6RPQ9rySDXCYqLu4KEQX3FFAFKU81l3HGgrE0mn0M, 9142
+tungl-0.1.3.dist-info/METADATA, sha256=Mjdnf49fgNPrfpk2GM8zWS1BChzmhdN1psa338D04rU, 3768
+tungl-0.1.3.dist-info/top_list.txt, sha256=fTywLdJyHX2uu9UnkAECgG61iMPm3jLmwJHIvV55msQ, 5
+tungl-0.1.3.dist-info/WHEEL, sha256=1zYEQ6pqba8DUYFxuTE6wbStr1rDJ-OPIGPCUjtGm-c, 105
+tungl-0.1.3.dist-info/RECORD, , 
