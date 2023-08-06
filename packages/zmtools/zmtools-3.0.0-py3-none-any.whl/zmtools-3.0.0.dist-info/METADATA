@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: zmtools
+Version: 3.0.0
+Summary: Various tools used across Zeke Marffy's programs
+Home-page: https://github.com/zmarffy/zmtools
+License: MIT
+Author: Zeke Marffy
+Author-email: zmarffy@yahoo.com
+Requires-Python: >=3.8.1,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Repository, https://github.com/zmarffy/zmtools
+Description-Content-Type: text/markdown
+
+# zmtools
+
+A conglomeration of functions reused in my programs; maybe they can help you too. The docstrings should explain all you need to know.
+
