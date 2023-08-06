@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+src/azure_keyvault_stuff.egg-info/PKG-INFO
+src/azure_keyvault_stuff.egg-info/SOURCES.txt
+src/azure_keyvault_stuff.egg-info/dependency_links.txt
+src/azure_keyvault_stuff.egg-info/top_level.txt
