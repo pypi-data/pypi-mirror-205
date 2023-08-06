@@ -1,0 +1,6 @@
+numpy
+nltk
+afinn
+wheel
+tqdm
+setuptools
