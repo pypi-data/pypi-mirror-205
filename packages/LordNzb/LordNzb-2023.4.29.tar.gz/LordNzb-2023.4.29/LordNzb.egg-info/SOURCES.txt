@@ -1,0 +1,13 @@
+README.rst
+pyproject.toml
+LordNzb/__init__.py
+LordNzb/cli.py
+LordNzb.egg-info/PKG-INFO
+LordNzb.egg-info/SOURCES.txt
+LordNzb.egg-info/dependency_links.txt
+LordNzb.egg-info/entry_points.txt
+LordNzb.egg-info/requires.txt
+LordNzb.egg-info/top_level.txt
+LordNzb/core/__init__.py
+LordNzb/core/descriptor.py
+LordNzb/core/reg.py

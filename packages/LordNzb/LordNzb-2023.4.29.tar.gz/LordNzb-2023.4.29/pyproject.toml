@@ -1,0 +1,23 @@
+[project]
+name = "LordNzb"
+version = "2023.4.29"
+description = "Nzb parser Lib für python"
+readme = "README.rst"
+requires-python = ">=3.10"
+keywords = []
+classifiers = [ "Operating System :: OS Independent", "Programming Language :: Python", "Programming Language :: Python :: 3.10", "Topic :: Software Development :: Libraries :: Python Modules",]
+dependencies = [ "regex",]
+[[project.authors]]
+email = "lordibex@protonmail.com"
+name = "lordbex"
+
+[[project.maintainers]]
+email = "lordibex@protonmail.com"
+name = "lordbex"
+
+[project.urls]
+homepage = "https://github.com/BexWorld/LordNzb"
+repository = "https://github.com/BexWorld/LordNzb"
+
+[project.scripts]
+lordnzb = "LordNzb.cli:main"
