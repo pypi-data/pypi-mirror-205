@@ -1,0 +1,106 @@
+[tool.poetry]
+name = "rs-fastapi-utils"
+version = "0.0.0"
+description = "Reusable utilities for FastAPI"
+license = "MIT"
+authors = ["rocshers <develop@rocshers.com>"]
+readme = "readme.md"
+homepage = "https://gitlab.com/rocshers/python/rs-fastapi-utils"
+repository = "https://gitlab.com/rocshers/python/rs-fastapi-utils"
+documentation = "https://rs-fastapi-utils.docs.rocshers.com"
+keywords = ["fastapi", "utilities", "utils"]
+classifiers = [
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: System Administrators",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python",
+    "Topic :: Internet",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development",
+    "Typing :: Typed",
+    "Development Status :: 3 - Alpha",
+    "Environment :: Web Environment",
+    "Framework :: AsyncIO",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Internet :: WWW/HTTP :: HTTP Servers",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Utilities"
+]
+packages = [{include = "rs_fastapi_utils"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+fastapi = "^0"
+pydantic = "^1"
+sqlalchemy = "^2"
+
+[tool.poetry.dev-dependencies]
+# Starlette features
+aiofiles = "*"  # Serving static files
+requests = "*"  # TestClient
+
+# Testing
+pytest = "*"
+pytest-cov = "*"
+pytest-asyncio = "*"
+coverage = "*"
+httpx = "*"
+# CI
+codecov = "*"
+
+# Formatting
+ruff = "*"
+black = { version = "*", allow-prereleases = true }
+mypy = "*"
+isort = "*"
+sqlalchemy-stubs = "*"
+
+# Documentation
+mkdocs = "*"
+mkdocs-material = "*"
+markdown-include = "*"
+pre-commit = "*"
+
+[tool.black]
+skip-string-normalization = true
+line-length = 120
+target_version = ['py38']
+include = '\.pyi?$'
+exclude = '''
+(
+  /(
+    \.git
+    | \.mypy_cache
+    | \.pytest_cache
+    | htmlcov
+    | build
+  )/
+)
+'''
+
+[tool.isort]
+profile = "black"
+line_length = 120
+
+[tool.ruff]
+# select = ["A", "B", "C", "D", "E", "F", "I", "UP"]
+select = ["A", "B", "C", "E", "F", "I", "UP"]
+# fixable = ["A", "B", "C", "D", "E", "F", "I", "UP"]
+fixable = ["A"]
+ignore = ["UP004", "D100", "D101", "D102", "D103", "D104", "D107", "D400", "D415"]
+line-length = 120
+target-version = "py38"
+isort = { known-first-party = ['fastapi-utils', 'tests'] }
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
