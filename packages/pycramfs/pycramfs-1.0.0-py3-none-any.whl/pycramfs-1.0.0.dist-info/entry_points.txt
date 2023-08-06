@@ -1,0 +1,2 @@
+[console_scripts]
+pycramfs = pycramfs.__main__:main
