@@ -1,0 +1,14 @@
+config/gssproxy.conf,sha256=Bp4B_NRJeo9zLzCz8W0nIgGo6CwRsFMXKtOy3wcag5M,295
+config/httpd.conf,sha256=Krj0Rsbr0m6_0uj6vBdjJtesCuCRzrgmbzx-FH-NOEQ,1072
+config/systemd-httpd-service.conf,sha256=FetMpZ3WfNfRzb3fdNfNjSxYw44M0dVKcfiCDKy_uX4,140
+config/tmpfiles.conf,sha256=lgKcY-IG3J_9Ef7g4xTz4q1_wXakygPD-z0yE2UHGCE,113
+flask_mod_auth_gssapi/__init__.py,sha256=4kF2IdIy6EhtGFguvGSbqBk3-EzHafQaRPCGYaxIJhs,501
+flask_mod_auth_gssapi/ext.py,sha256=kHT_Ju-IjfwJJzTqjr8ileIEPhy14t6QkriO-28gLys,1799
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=ZycaUrdU48OuNwkBRWWOnt4YauT_x4hUIPkecPJDJcY,330
+tests/test_ext.py,sha256=S8lxRaAm4dLfBLMFh88xNuTOUTvNOBkT4bnvPutf0_4,3535
+tox.ini,sha256=8d0He0COGOxD-cCoVBz2RynSyN2JRAfnFKAI--rzZO4,1074
+flask_mod_auth_gssapi-0.3.0.dist-info/LICENSE,sha256=JbwiOI4AJoS6wEgQ7WC14RiBDn4KnWVZwD-AlyS2Cd0,1104
+flask_mod_auth_gssapi-0.3.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+flask_mod_auth_gssapi-0.3.0.dist-info/METADATA,sha256=IxWshlJd8UCVV2KmDtb68cFQyAjOCulGiGTDwGbWyEQ,1399
+flask_mod_auth_gssapi-0.3.0.dist-info/RECORD,,
