@@ -1,0 +1,6 @@
+speech_recognition>=3.10.0
+gtts
+pyaudio
+wave
+webrtcvad
+pydub
