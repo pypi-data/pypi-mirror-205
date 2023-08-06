@@ -1,0 +1,15 @@
+{
+  "version": "bb63413e77977fffe388082533dc96f9892e3a9e",
+  "production": true,
+  "backend": {
+    "app": "contributor",
+    "apiPath": "/api",
+    "siteKey": "",
+    "sentry_environment": "prod",
+    "sentry_url": "https://76bfd6392db6450a8f3174877b9bac9d@o393980.ingest.sentry.io/5425081",
+    "sentry_backend": "https://nuclia.cloud/api",
+    "posthog_host": "https://track.nuclia.cloud",
+    "posthog_key": "phc_cdrUDTLT62r0EXEZzZvhkSCkksGttBiWkBWoPpxbomA",
+    "saml_login": false
+  }
+}
