@@ -1,0 +1,11 @@
+swiftshadow/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+swiftshadow/cache.py,sha256=raLWKjsT2tn6OCnxq1y1g8zhceeG0eDVAa4VGp1omVU,370
+swiftshadow/constants.py,sha256=FRhoYg8WNaLy8RLDD4BsANlXlY2tctBCdy7sCnkaVY0,6303
+swiftshadow/helpers.py,sha256=8Sd_1FRf9wRO7mhQ42OooRJVGhOp9xVQqQYeza0_2sI,807
+swiftshadow/providers.py,sha256=DpT13HtBC0VNC-SrVV-cxd-UXgJ68itxStLDZLmU5tE,1524
+swiftshadow/swiftshadow.py,sha256=SLxDNJ6THtZZ-KR4nGl_bBPkdkHSQ3gGPwKjESuzFRA,4487
+swiftshadow-0.2.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+swiftshadow-0.2.0.dist-info/METADATA,sha256=YySzVK_TUCLKRAJD-G6p9uNgpR9j5F5TI2tV7SEaoGs,2640
+swiftshadow-0.2.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+swiftshadow-0.2.0.dist-info/top_level.txt,sha256=GClzVDF5vWSzqHOwgG2ycQAAJXRxd-QOdP1h3YrHOuM,12
+swiftshadow-0.2.0.dist-info/RECORD,,
