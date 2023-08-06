@@ -1,0 +1,13 @@
+six
+portalocker<2
+
+[:python_version < "3"]
+pathlib
+typing
+
+[dev]
+flake8
+flake8-import-order
+mypy
+pytest
+yapf
