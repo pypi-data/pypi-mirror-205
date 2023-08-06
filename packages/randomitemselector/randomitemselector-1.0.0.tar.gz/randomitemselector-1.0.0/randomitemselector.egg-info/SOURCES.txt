@@ -1,0 +1,5 @@
+setup.py
+randomitemselector.egg-info/PKG-INFO
+randomitemselector.egg-info/SOURCES.txt
+randomitemselector.egg-info/dependency_links.txt
+randomitemselector.egg-info/top_level.txt
