@@ -1,0 +1,2 @@
+[console_scripts]
+stock = cnswd.scripts.command:stock
