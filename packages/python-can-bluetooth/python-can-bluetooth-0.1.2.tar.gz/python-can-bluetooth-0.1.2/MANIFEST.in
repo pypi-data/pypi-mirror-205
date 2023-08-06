@@ -1,0 +1,3 @@
+include *.txt
+include can_bluetooth_test/*.py
+include can_bluetooth_examples/*.py
