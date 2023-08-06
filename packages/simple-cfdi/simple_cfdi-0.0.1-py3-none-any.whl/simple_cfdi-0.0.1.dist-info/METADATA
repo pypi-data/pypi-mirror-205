@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: simple-cfdi
+Version: 0.0.1
+Summary: CFDI document manipulation library
+Home-page: https://github.com/AugeTec/simple-cfdi
+Author: Alexis Lopez Zubieta
+Author-email: alexis.lopez@augetec.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/AugeTec/pycfdi/issues
+Project-URL: Source Code, https://github.com/AugeTec/pycfdi
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: xsdata
+
+Simple CFDI
+===========
+
+
+Python library to manipulate CFDI (Comprobante Fiscal Digital por Internet) files.
+
+This library is generated using [xsdata](https://github.com/tefra/xsdata) and the
+XSD schema files from [SAT](https://www.sat.gob.mx/). See `utils/generate.sh` for
+more details.
+
+## Installation
+
+```bash
+pip install simple_cfdi
+
+```
+

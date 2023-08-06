@@ -1,0 +1,12 @@
+simple_cfdi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simple_cfdi/spec/__init__.py,sha256=MZ55JqBU6tMIDAFN9A86cxAC7a9VzHs_uPp0HaAd2iE,449
+simple_cfdi/spec/comprobante.py,sha256=MIHvLjnrW4RVqx9RstsOIqUWe3QPm-NleL3gD5jsucs,64207
+simple_cfdi/spec/timbre_fiscal_digital.py,sha256=-qTWkw_7UMVJiwWB9cXFKumXljNiYmSUc1z5aBnqTz4,4437
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_xml_import_export.py,sha256=wg2JEej7gJdXQ9ztEJXzwJODDOcaO83fS42UPWE4bys,3811
+tests/utils.py,sha256=NW-IU9GKoQIQF1qz4rJfc-pPcO7E9eobawJ2J21NDLY,1701
+simple_cfdi-0.0.1.dist-info/LICENSE,sha256=bIXnm_bUOHzwS5UArrWx3BB7SUVg5iqioygC-tlqlK4,1091
+simple_cfdi-0.0.1.dist-info/METADATA,sha256=GK_yAAeFv4kVzviIhetvQemgc1L039sY85zV2sHaH80,908
+simple_cfdi-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+simple_cfdi-0.0.1.dist-info/top_level.txt,sha256=_h0XYoUWWzHp5ZomoIWMW47JzHbBUjtY-pd5Y992oJw,18
+simple_cfdi-0.0.1.dist-info/RECORD,,
