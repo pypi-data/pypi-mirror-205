@@ -1,0 +1,13 @@
+KorDigits/__init__.py,sha256=onJPQ9AX_i8m1AMxNVoDd3oEUSKwmYnxr8rQa1i4j88,63
+KorDigits/generate_num.py,sha256=A3W-g1ehozkJwqw5EQvPhrmAZfcx7JavyzTr0oCPKKs,24843
+KorDigits/model/LSTM_CLS_Model.py,sha256=_rnWJ9zrEDlBZbwAlLEqo2QqqZGn9PgeqlqyqglEePI,2786
+KorDigits/results/save_model/CNN_LSTM_cls_refine_10.pt,sha256=P9raPFxWEW-KL-5JeUE9U03vlSneL2SzBT8wMb6sA5Q,31078123
+KorDigits/utils/cls_data_parsing.py,sha256=omlIPLS91bchbmKcUdXIOn65PW1YkW8iabTdIIZ_s7Q,19734
+KorDigits/utils/data_parsing.py,sha256=nCDz_6Z_lO20Scf64b67ajJYDFI7K0sqTWxn_smZMSo,8712
+KorDigits/utils/word_dict.json,sha256=1hyvHhoF-9Qr8vrJD0SohZzRWpO8qb2e3yZRwtM3-_w,2854
+KorDigits/utils/KoCharELECTRA/test_kocharelectra.py,sha256=efRC8-VJjrJvMrg7TDxuyIb3JNN1qGgZnTOc9MlK6xA,1938
+KorDigits/utils/KoCharELECTRA/tokenization_kocharelectra.py,sha256=-i0sAQYhe4sR6IHbQoju4kdqsdpORLyAiwZwlUGiePk,11397
+KorDigits-0.1.0.dist-info/METADATA,sha256=Z1An--D9OQef3vqkaDB_8KdQotgqQtHDYXXH_JmXeYM,326
+KorDigits-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+KorDigits-0.1.0.dist-info/top_level.txt,sha256=3eUNKiJ14x0vOYPdCGpdapgZJGI-RZlpAaAwsP55ano,10
+KorDigits-0.1.0.dist-info/RECORD,,
