@@ -1,0 +1,119 @@
+Metadata-Version: 2.1
+Name: ds-planner
+Version: 1.0.0
+Summary: A package for zap platform
+Author: Ritika Kumari
+Author-email: ritika.kumari@glance.com
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi
+Requires-Dist: gunicorn
+Requires-Dist: pydantic
+Requires-Dist: starlette
+Requires-Dist: tenacity
+Requires-Dist: uvicorn[standard]
+Requires-Dist: asyncpg
+Requires-Dist: alembic
+Requires-Dist: sqlalchemy
+Requires-Dist: pyyaml
+Requires-Dist: python-jose[cryptography]
+Requires-Dist: cachetools
+Requires-Dist: aiohttp[speedups]
+Requires-Dist: email-validator
+Requires-Dist: google-api-core (==2.10.2)
+Requires-Dist: google-auth (==2.14.1)
+Requires-Dist: google-cloud-aiplatform (==1.19.0)
+Requires-Dist: google-cloud-core (==2.3.2)
+Requires-Dist: google-crc32c (==1.5.0)
+Requires-Dist: googleapis-common-protos (==1.57.0)
+Requires-Dist: grpcio (==1.44.0)
+Requires-Dist: google-cloud-dataproc (==5.0.1)
+Requires-Dist: google-cloud-secret-manager (==2.8.0)
+
+# glancefeed-reco-spaces-zappcontent-personalization
+
+## Overview
+This is a repository with the code for building pipelines for Zapp Content Personalization.
+Currently, the pipeline for BreakingNews Zapp is built using Spark Structured Streaming.
+In general, any Zapp pipeline should consist the following components:
+1. Consuming data from Kafka
+2. A High Pass Filter to filter out the data that is not relevant to the Zapp (Static filters)
+3. A Low Pass Filter to filter out the data that is not relevant to the Zapp (Dynamic filters)
+4. A ranking algorithm to rank the data based on the Zapp's requirements
+5. Writing the output to Kafka
+
+### POCs
+
+- [x] Embedded Model in the Pipeline
+- [x] RPC Call from the Pipeline
+- [ ] Message Queue based ML Inference Server 
+
+
+## Preparing the pipeline for a new Zapp
+1. Use this repo as the template
+2. In the config.ini file __update the following fields__:
+    ```bash
+    [kafka-config]
+    group.id = <consumer-group-id> # Consumer group ID should in the format of consumer-glance-ds* 
+    zapp.widget.id = <zapp-widget-id> # Zapp Widget ID to be deployed into
+    
+
+    [gcp-config]
+    checkpoint.path = <gcs-checkpoint-path> # for checkpointing the streaming data
+    checkpoint.analytics.path = <gcs-analytics-checkpoint-path> # for checkpointing the streaming data - streaming
+
+    [env-config]
+    env = <DEV/STAGING/PROD>
+    ```
+
+
+
+## Running the pipeline
+### 1. Environment setup
+#### Dev environment
+In this environment, output will be displayed on the console and not written to the output topic.
+1. Set the env config in config.ini to DEV and project number to the project number of the non-prod project
+2. Create a GCP DataProc cluster on your non-prod project with the spark properties as follows:
+    ```--properties  spark:spark.jars.packages=org.apache.spark:spark-sql-kafka-0-10_2.12:3.1.2 ```
+
+#### Staging environment
+In this environment, output will be written to the staging output topic.
+1. Set the env config in config.ini to STAGING and project number to the project number of the non-prod project
+2. Create a GCP DataProc cluster on your non-prod project with the spark properties as follows:
+    ```--properties  spark:spark.jars.packages=org.apache.spark:spark-sql-kafka-0-10_2.12:3.1.2 ```
+#### Production environment
+TBD
+
+### 2. Run the pipeline
+The pipeline can be run in two ways: 
+1. Running the pipeline as a spark job
+2. Running the pipeline as a serverless streaming pipeline
+
+#### 1. Running Zapp Pipeline as a spark job
+- First make necessary config changes in config.ini and prepare your script item_fan_out.py
+    ```bash
+    gsutil cp -r src gs://pipelines-staging/spark_job/item_fan_out
+    ```
+- Next, run the pipeline as a spark job
+    ```bash
+    gcloud dataproc jobs submit pyspark --cluster <cluster-name> --region <region> --properties  spark:spark.jars.packages=org.apache.spark:spark-sql-kafka-0-10_2.12:3.1.2 gs://pipelines-staging/spark_job/item_fan_out/item_fan_out.py --files gs://pipelines-staging/spark_job/item_fan_out/config.ini,gs://pipelines-staging/spark_job/item_fan_out/utils.py
+    ```
+
+#### 2. Running Zapp Pipeline as a serverless steaming pipeline
+
+- First prepare your script `streaming_zap_pipeline.py`
+    ```bash
+    gsutil cp src/streaming_zap_pipeline.py gs://pipelines-staging/serverless/streaming_zap_pipeline.py
+    ```
+
+- Next trigger a serverless job
+
+Open notebooks/launch_pipeline_poc.ipynb
+
+## References
+1. [CMS <> DS Contract](https://glanceinmobi.atlassian.net/wiki/spaces/SpV2/pages/790396980/Spaces+V2+DS+Proto+Schema)
+2. [DS <> Planner-Ingestion Contract](https://github.com/inmobi-glance/glancefeed-reco-spaces-zappcontent-personalisation/blob/develop/schemas/spaces_zapp_publish.proto)
+4. Creating a secret in Google Secret Manager - https://github.tools.inmobi.com/shivjeet-bhosale/secret_manager/blob/main/generate_secrets.ipynb
+5. Kafka topic creation steps
+    - Go to https://confluent.cloud/home
+    - For Dev/staging, create a topic in CONFLUENT-KAFKA-NON-PROD-SG-001 cluster under Glance-Staging environment
+    - Topic name should be in the format of glance-ds-non-prod*topic-name*
