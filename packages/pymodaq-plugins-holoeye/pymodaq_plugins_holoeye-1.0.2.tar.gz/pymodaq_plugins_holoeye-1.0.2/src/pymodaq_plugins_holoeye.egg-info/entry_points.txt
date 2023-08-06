@@ -1,0 +1,2 @@
+[pymodaq.plugins]
+holoeye = pymodaq_plugins_holoeye
