@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "mikroj"
+version = "0.1.20"
+description = ""
+authors = ["jhnnsrs <jhnnsrs@gmail.com>"]
+license = "CC BY-NC 3.0"
+packages = [{ include = "mikroj" }]
+
+[tool.poetry.dependencies]
+python = "<3.12,>=3.8"
+pyimagej = "1.4.0"
+scyjava = "^1.6.0"
+arkitekt = ">=0.4.45"
+qtpy = "^2.3.0"
+
+[tool.poetry.scripts]
+mikroj = "mikroj.run:main"
+
+[tool.poetry.dev-dependencies]
+tox = "^3.24.3"
+pyinstaller = "^5.5"
+pytest-cov = "^3.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[[tool.pydoc-markdown.loaders]]
+type = "python"
+search_path = ["mikroj"]
+
+[tool.pydoc-markdown.renderer]
+type = "docusaurus"
+docs_base_path = "website/docs"
+
+
+[tool.pytest.ini_options]
+qt_api = "pyqt5"
+markers = [
+    "integration: marks tests that require a running server",
+    "qt: marks tests that require a running qt application",
+]
