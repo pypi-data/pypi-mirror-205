@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: HoodPay
+Version: 0.0.1
+Summary: A Python SDK for the HoodPay API.
+Author: Hexye
+License: MIT
+Keywords: hoodpay
+Classifier: Programming Language :: Python :: 3
+
+A Python SDK for the HoodPay API. Documentation: hoodpaypy.readthedocs.io
