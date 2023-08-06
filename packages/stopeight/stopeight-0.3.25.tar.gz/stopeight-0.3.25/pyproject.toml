@@ -1,0 +1,6 @@
+[build-system]
+#pybind cmake_example
+#requires = ["setuptools_scm","setuptools>=42", "PySide2>=5.13.2", "pybind11>=2.10.0", "cmake>=3.12", "wheel", "ninja"]
+#pybind python_example
+requires = ["setuptools_scm","setuptools>=42", "PySide2>=5.13.2", "pybind11>=2.10.0"]
+build-backend= "setuptools.build_meta"
