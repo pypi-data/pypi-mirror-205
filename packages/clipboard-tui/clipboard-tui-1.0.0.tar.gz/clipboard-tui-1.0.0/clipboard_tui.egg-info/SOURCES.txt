@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+clipboard_tui.egg-info/PKG-INFO
+clipboard_tui.egg-info/SOURCES.txt
+clipboard_tui.egg-info/dependency_links.txt
+clipboard_tui.egg-info/entry_points.txt
+clipboard_tui.egg-info/requires.txt
+clipboard_tui.egg-info/top_level.txt
+notifications_tui/__init__.py
+notifications_tui/main.py
