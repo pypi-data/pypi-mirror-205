@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+AutoClean/__init__.py
+AutoClean/autoclean.py
+AutoClean/modules.py
+py_AutoCleanRe.egg-info/PKG-INFO
+py_AutoCleanRe.egg-info/SOURCES.txt
+py_AutoCleanRe.egg-info/dependency_links.txt
+py_AutoCleanRe.egg-info/requires.txt
+py_AutoCleanRe.egg-info/top_level.txt
