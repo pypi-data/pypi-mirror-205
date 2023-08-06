@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: ngits-drf-sentry-tunnel
+Version: 1.0.0
+Summary: Sentry tunnel for DRF
+Home-page: https://ngits.dev
+Author: NGITs
+License: BSD-3-Clause
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.9
+Requires-Dist: Django (==4.*)
+Requires-Dist: djangorestframework (==3.*)
+Requires-Dist: requests (==2.*)
+
+ngits-drf-sentry-tunnel
+=======================
+
+Olá!
+
+Setup
+-----
+
+1. Install using pip:
+~~~~~~~~~~~~~~~~~~~~~
+
+::
+
+    pip install ngits-drf-sentry-tunnel
+
+2. Change your ``settings`` file:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+::
+
+    import os
+
+    ...
+
+    INSTALLED_APPS = [
+        ...
+        "rest_framework",
+        "sentry_tunnel"
+    ]
+
+    ...
+
+    SENTRY_HOST = "sentry.local"
+    SENTRY_PROJECT_IDS = ["4"]
+
+3. Add paths to your ``urls.py`` file:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+::
+
+    from django.urls import path, include
+
+    urlpatterns = [
+        ...
+        path("", include("sentry_tunnel.urls"))
+    ]
+
+Above example results: ``http://127.0.0.1:8000/tunnel/`` API endpoint URL
+
