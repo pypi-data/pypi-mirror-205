@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+FoccoERPy/__init__.py
+FoccoERPy.egg-info/PKG-INFO
+FoccoERPy.egg-info/SOURCES.txt
+FoccoERPy.egg-info/dependency_links.txt
+FoccoERPy.egg-info/requires.txt
+FoccoERPy.egg-info/top_level.txt
+FoccoERPy/Focco/__init__.py
+FoccoERPy/FoccoSession/__init__.py
+FoccoERPy/core/__init__.py
+FoccoERPy/exceptions/__init__.py
+FoccoERPy/handlers/__init__.py
