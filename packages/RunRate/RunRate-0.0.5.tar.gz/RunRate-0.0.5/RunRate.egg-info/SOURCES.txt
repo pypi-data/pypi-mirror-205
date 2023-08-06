@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+RunRate.egg-info/PKG-INFO
+RunRate.egg-info/SOURCES.txt
+RunRate.egg-info/dependency_links.txt
+RunRate.egg-info/top_level.txt
+runrate_properties_pkg/__init__.py
+runrate_properties_pkg/runrate_properties.py
