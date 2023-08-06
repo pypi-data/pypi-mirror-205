@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ssm-selector
+Version: 0.0.1
+Summary: An interactive SSM Session starter'
+License: MIT
+Author: kkmiura
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: boto3 (>=1.26.117,<2.0.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
