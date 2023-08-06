@@ -1,0 +1,11 @@
+LICENSE
+README.md
+edl.py
+pyproject.toml
+setup.cfg
+setup.py
+edl_mod.egg-info/PKG-INFO
+edl_mod.egg-info/SOURCES.txt
+edl_mod.egg-info/dependency_links.txt
+edl_mod.egg-info/requires.txt
+edl_mod.egg-info/top_level.txt
