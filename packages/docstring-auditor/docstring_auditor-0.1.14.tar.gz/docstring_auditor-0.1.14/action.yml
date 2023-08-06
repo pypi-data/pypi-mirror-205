@@ -1,0 +1,58 @@
+---
+name: 'Docstring Auditor'
+author: 'Rob Luke'
+description: 'Use AI to review your code documentation.'
+branding:
+  icon: 'code'
+  color: 'blue'
+
+inputs:
+  openaiApiKey:
+    description: "OpenAI API Key"
+    required: true
+
+  path:
+    description: "Path to the file or directory to run the action on"
+    required: true
+
+  model:
+    description: "OpenAI model to use"
+    required: false
+    default: "gpt-4"
+
+  code-block-name:
+    description: "Single code block name to analyse"
+    required: false
+    default: ""
+
+  ignore-dirs:
+    description: "Directories to ignore"
+    required: false
+    default: "tests"
+
+  auto-fix:
+    description: "Automatically fix issues"
+    required: false
+    default: false
+
+runs:
+  using: "composite"
+  steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.11"
+
+    - name: Install Hatch
+      shell: bash
+      run: pip install --upgrade hatch
+
+    - name: Execute
+      shell: bash
+      run: hatch run docstring-auditor --model ${{ inputs.model }} --code-block-name ${{ inputs.code-block-name }}  --ignore-dirs ${{ inputs.ignore-dirs }}  --auto-fix ${{ inputs.auto-fix }} ${{ inputs.path }}
+      env:
+        OPENAI_API_KEY: ${{ inputs.openaiApiKey }}
