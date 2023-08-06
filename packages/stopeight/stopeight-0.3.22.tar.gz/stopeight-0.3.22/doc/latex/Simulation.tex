@@ -1,0 +1,71 @@
+\documentclass{report}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\iffalse
+\usepackage{biblatex}
+\addbibresource{Stopeight.bib}
+\fi
+\usepackage{natbib}
+
+\newcommand\norm[1]{\left\lVert#1\right\rVert}
+\renewcommand{\baselinestretch}{1.25}
+\begin{document}
+\title{Simulation}
+\author{Fassio Blatter}
+\maketitle
+
+\chapter{Introduction}
+The interaction of physical processes can often be attributed to the interaction of polynomials of higher degree. The representation and its inverse ~\cite[Spline\_Axioms.tex]{Axioms} provides reflective areas. The theory here is that these areas $interact$ with each other in proximity. For the reflective areas have implications with attractors, meshes/heat maps thereof in movement and differential equations in a steady state. I will provide three examples, together with some very general physics descriptions and at last, cases that have to be discussed.
+
+\chapter{Examples}
+\section{Wave Train}
+Analysing the moving path of a Swell, composed of two adjacent Crests which would have been almost Cliffs, if not caught by Crest detection. The two adjacent splines have opposite orientations regarding $\xi'$. The second Vector Graph is a static boulder resting on the shore. In open water, the moving Swell is completely invisible with the positive half facing forward. The $Reef$ is composed of a single $Boulder$ Cliff. Once these two Vector Graphs meet each other, a change in the moving Vector Graph $Wave Train$ is induced. As the negatively oriented half of the moving Swell encounters the anti-reflective area of the static Boulder, visibility is added to the positive half. Since the two Cliff-like Crests already have maximal curvature for the pulse-length, isolation is broken at the joints. Thus, a plethora of new frequencies is inserted into the moving Vector Graph. It is important to note that a specific wave-length may interact with just one peculiar boulder shape.\\\\
+This could be achieved by modulating and amplifying the Corner factorisation of a Vector Graph sequentially one by one in the backward direction $dir=-1$ of analysis. The Corner would go from near $V$ to its most extreme $C_{4}$.\\\\
+The modulation pattern which is modifying the direction of the Vector $\frac{C_{4}-V}{\lvert C_{4}-V \rvert}$ and inserting new sections at the end $E$ is governed by a class of differential equations. The two polynomials determine the initial condition ($Anfangswertproblem$), one for the current Crest in the Swell and one for the boulder.\\\\
+Notation: A $Wave Train$ can be composed of a combination of all types of Compact Covers found in the ~\cite[Stopeight\_Analyzer.tex]{Analyzer} and is consumed by a $Reef$ of on or more types of $Boulder$, recursive or non-recursive sections/segments in the ~\cite[Stopeight\_Analyzer.tex]{Analyzer}.
+\section{Atom}
+A frequency modulated signal $s(t)$ traveling from an output, through a single atom, to a measurement device is recorded. If the atom does not absorb or refract any of the spectrum, the signals should match exactly. If a single pulse is introduced matching the absorption spectrum, the event could be located in time and studied. This would be a single event as opposed to a periodic frequency and eventually the object being studied would vanish.\\\\
+Here, a specific $Boulder$ modulation pattern like the ones encountered in the $Wave Train$ example is being searched for in the signal. The pattern could either be from a theoretic prediction or determined by previous measurements.
+\section{Storm}
+Weather systems have been simulated successfully using the Lorentz-Attractor. The surrounding splines of weather systems are quite distant. Vortices of polynomials of a high degree can exist, creating the so-called eye of the hurricane, which surprisingly is an area of calm. This is not uncommon in fluid dynamics. In fact the most stable entities, therefore most reliable areas of forecast are these $reflective$ areas.\\\\
+These are multiple polynomials which all interact with each other within one step of movement, constantly changing the differential equations for particle flow that result from the mesh. The particle flow is highly chaotic and unpredictable, but the heat map is not. This is because they are on a different time scale.
+
+\chapter{Conversion}
+The mathematically most intriguing oriented submanifolds are Crests and Spikes. We introduce a mechanism for the annihilation and creation of pulses. Physical phenomena such as the creation of enthalpy and enthropy during phase transitions could be modeled. A Crest would appear in the outgoing phase when a signal of enthropy breaks in the corresponding medium of the carrier. A Spike is a beat that appears in joint states of crystal grids when the incoming phase accumulates in a $different$ medium.
+Traveling wave trains are moving over stationary reef chains. Upon creation, enthropic wave trains are impulses, at the least even a half-pulse. Enthalpic reef chains change state when they are converted to a plasma state for an infinitesimal short period of time.\\\\
+A $Swell$ appears in a $Wave Train$ that splits up. A $Crest$ that splits, decreases its isolation and transfers a part of its visibility to the sub-$Swells$. Depending on the wavelength of a $Reef$, the original $Swell$ may never appear again.\\\\
+On the other hand, the sub-$Swells$ of an open ocean wave pick up wind. The enclosing $Swell$ can form a new $Swell$, and so slowly, the little left-over, chaotic visibility of the sub-$Swells$ gets transferred not only to the enclosing $Crest$, but to the whole $Swell$. The surf gets groomed and the short wavelengths disappear.\\\\
+Because in any accurate measurement of matter, only a limited number of reef chains can be considered; For the multitude of periodic energy passing over a reef chain, all products of the chain are compared, up to the length of the train.
+
+\section{Wave Generation}
+For Dune/Crest or Swing (stationary wave).\\
+Supraliquid\\
+Sail Effect / Surface Tension
+
+\section{Phase Transitions}
+For Dune/Spiral.
+\begin{align}
+z =  \sup_{U}\lvert curvature([a,b]) \rvert*(\cos{(isolation([a,b]))} +\mathrm{i} \sin{(visibility([a,b]))})
+\end{align}
+
+\section{Lightning}
+For Spike/ZigZag.\\
+Superconductor\\
+If we're setting $\sqrt{1-y^2}$ to be the linear part of complex plane, $\phi$ in $z=\sqrt{1-y^2}e^{i\phi}$ is the rotational part.
+\begin{align}
+z =  straightness([a,b]) + \mathrm{i} curvature([a,b])
+\end{align}
+
+\section{Stateless}
+Supercritical\\
+gaseous/liquid carbondioxide
+
+\iffalse
+\printbibliography
+\fi
+\bibliography{Stopeight}{}
+\bibliographystyle{plain}
+
+\end{document}

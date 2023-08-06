@@ -1,0 +1,31 @@
+GitHub & Sphinx
+===============
+
+Please follow instructions under :doc:`dev_build` first.
+
+Get python sphinx / dvisvgm on ubuntu (main repository)::
+
+    $ sudo apt-get install make python3-sphinx texlive
+    
+Theory part of the docs needs some latex fonts (universe repository)::
+
+    $ sudo apt-get install texlive-latex-extra
+
+In order to rebuild the docs, do::
+
+    $ cd doc/
+    $ rm -R ./_build
+    $ make html
+    $ cd ../
+    $ git checkout gh-pages
+    $ git rm `git ls-files`
+    $ git add doc/_build/html/*
+    $ git mv -v doc/_build/html/_static ./
+    $ git mv -v doc/_build/html/_sources ./
+    $ git mv -v doc/_build/html/* ./
+    $ touch ./.nojekyll
+    $ git add ./.nojekyll
+    $ git commit -m "Documentation vX.Y.Z"
+    $ git push
+    $ git checkout master
+

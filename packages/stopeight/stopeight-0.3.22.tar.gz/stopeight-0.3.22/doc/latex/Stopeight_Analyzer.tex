@@ -1,0 +1,403 @@
+\documentclass{report}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\iffalse
+\usepackage{biblatex}
+\addbibresource{Stopeight.bib}
+\fi
+\usepackage{natbib}
+
+\renewcommand{\baselinestretch}{1.25}
+
+\begin{document}
+\title{Stopeight Analyzer}
+\author{Fassio Blatter}
+\maketitle
+
+\chapter{Introduction}
+The main algorithm in this text is the Analyzer. It has been developed during the years 2009 to 2016 by Specific Purpose Software GmbH. It is now open sourced, but mostly exists in the form of code fragments.\\
+This file is in the Stopeight repository on Github. Please edit here:\\
+https://github.com/specpose/stopeight/tree/master/doc/latex/Stopeight\_Analyzer.tex\\
+The DOI can be found here ~\cite{Analyzer}.\\
+A brief overview can be found here:\\
+https://specpose.github.io/stopeight/dev\_analyzer.html\\\\
+Notation: Please keep in mind that a single (') denotes an image or transformation of a variable or function. Derivatives are always denoted as $(\frac{\mathrm{d}}{\mathrm{d}t})$ in this paper.\\\\
+The purpose of the Analyzer is to find intervals in a Vector Graph and produce an approximation. The input Vector Graph can be obtained from the Grapher. \cite{Grapher}[1.1]\\\\
+The sequence of Arcs $A \subset \mathbb{R}^2$ are an approximation of a Vector Graph $X \subset \mathbb{R}^2$:
+\begin{align}
+f \circ g: X \rightarrow A
+\end{align}
+\begin{equation*}
+1 < card(X) < \infty
+\end{equation*}
+via the intermediate functions $f,g$ where the intermediate transversality $Y = X \cap A$ defines Arcs $U_{m}$. ~\cite[9.9]{Loring} ($f \circ g$ is neither injective nor surjective) ~\cite[2.1]{LauresSzymik}:
+\begin{align}
+f: X \approx W \rightarrow Y; g: Y \rightarrow A
+\end{align}
+Note: The sequence of Arcs A is a dim 1-manifold. In $A$ we can find a system of open sets. The set of charts $\{U_{m}\}$ covering the whole manifold $A$ is an atlas. ~\cite[3.1.1.]{Fomenko} ~\cite[4.5]{Wall}
+\begin{align}
+A = \cup_{m}U_{m}
+\end{align}
+$X$ is formally a discrete / dim 0-manifold
+\begin{align}
+Y: \text{0-submanifold} \Rightarrow (dim(X)=0)<(codim(Y)=1) \Rightarrow X \text{ disjoint } A
+\end{align}
+but $W$ is not. See \eqref{eq:1}.
+\begin{align}
+Y: \text{0-submanifold} \Rightarrow (dim(W)=1)=(codim(Y)=1) \Rightarrow W \text{ joint } A
+\end{align}
+The approximation aims to find the maximal smooth atlas. Each chart $U_{m}$ has a start of Turn $T \ni S = \min \limits _{U_{m}}$, a Corner $C \in U_{m}$ and an end of Turn $T \ni E = \max \limits _{U_{m}}$. This format has the benefit of reducing the amount of data for $Comparison$ ~\cite[Stopeight\_Comparator.tex]{Comparator}, while preserving the $Representation$ using quadratic Bezier splines.\\\\
+
+\chapter{Representation}
+Notation: Representation refers to a representation leading from a generative polynomial spline to a target 2D affine space, not a representation for a neural network input vector, or weights obtained by training a neural network.\\\\
+The functions $q$ yield on-curve $q \in A$ and off-curve $q \in Q$ control points $q \in \mathbb{R}^2$:
+\begin{align}
+q: S \times C \times E \rightarrow Q \cup A\\
+Q \cap X = 0; Q \cap Y = 0
+\end{align}
+Apart from $S,C,E$, none of the control points are in the Vector Graph $X$.$\footnote{insertion: $C \notin X$, otherwise: $C \in X \cap A$}$:
+\begin{align*}
+S,C,E \in X; q_{1}(S,C,E),q_{3}(S,C,E),q_{4}(S,C,E),q_{6}(S,C,E) \in Q;q_{2}(S,C,E),q_{5}(S,C,E) \in A
+\end{align*}
+The quartic representations are constrained to express four quadratic bezier splines $\gamma_{H}(t)$:
+\begin{align}
+\gamma_{H}: \mathbb{R} \rightarrow \mathbb{R}^2; t \mapsto (x,y)
+\end{align}
+with control point sets $\{H_{1},...,H_{4}\}$. The Arc segment defining function $\xi$ forms the planar coordinates $(x',y')$ of Arc $U_{m}$:
+\begin{equation}
+\xi: \mathbb{R} \rightarrow A; t \mapsto (x,y)
+\end{equation}
+\begin{align*}
+\xi(t) =
+\begin{cases}
+\gamma_{H_{1}}(t); H_{1}=\{S,q_{1}(S,C_{4},E),q_{2}(S,C_{4},E)\} & t \in [0,\frac{1}{4}]\\
+\gamma_{H_{2}}(t); H_{2}=\{q_{2}(S,C_{4},E),q_{3}(S,C_{4},E),C_{3}\} & t \in [\frac{1}{4},\frac{1}{2}]\\
+\gamma_{H_{3}}(t); H_{3}=\{C_{4},q_{4}(S,C_{4},E),q_{5}(S,C_{4},E)\} & t \in [\frac{1}{2},\frac{3}{4}]\\
+\gamma_{H_{4}}(t); H_{4}=\{q_{5}(S,C_{4},E),q_{6}(S,C_{4},E),E\} & t \in [\frac{3}{4},1]
+\end{cases}
+\end{align*}
+Notation: Here, $H$ are sets of points, whereas in ~\cite[Spline\_Axioms.tex]{Axioms} they are 3 by 3 matrices.\\
+Note: The continuous function $\xi$ makes the topological space $A$ path-connected. Therefore it is a $path$ from $U_{m}$ to $U_{m+1}$ and intersects at least once at the unilateral limit $S \cap E$. ~\cite[6.1.3.]{Mortad}\\\\
+In order to compare the length from $[a,b] \subseteq A$ with $[a,b] \subseteq X$, we have to connect all $P_{n}, P_{n+1} \in X$ with one linear bezier spline each, because $X$ is discrete:
+\begin{align}
+\iota: \mathbb{R} \rightarrow W; t \mapsto (x,y)\\
+\iota_{X}(t) = \{ \gamma_{H}(t)\lvert H=\{P_{n},P_{n}+\frac{(P_{n+1}-P_{n})}{2},P_{n+1}; P_{n}, P_{n+1} \in X\}\}
+\end{align}
+Note: For both $W$ and $A$, the length of the curve is now independent of the choice of parameter on the curve. ~\cite[1.1]{Taimanov}\\\\
+The arc-length metric $d(a,b)$ turns both manifolds $A$ and $W$ into metric spaces $(A,d)$ and $(W,d)$. ~\cite[1.1.3]{Klingenberg}
+\begin{equation}
+d(a,b) = \int \limits _{a}^{b}\lvert \frac{\mathrm{d}}{\mathrm{d}t}\gamma(t)\rvert \mathrm{d}t\label{eq:1}
+\end{equation}
+We can now establish an injective $link$ between elements of $W$ and $A$. ($X \rightarrow A$ would be injective, $but$ $A \rightarrow X$ is not accurate):
+\begin{equation}
+link: W \rightarrow A, (x,y) \mapsto (x',y'); link^{-1}: A \rightarrow W, (x',y') \mapsto (x,y)
+\end{equation}
+
+\chapter{Computation}
+
+\section{Non-Oriented Segments}
+Auxiliary functions are functions of the form $A \times A \rightarrow \mathbb{R}$ that can be applied to any segment $[a,b] \subseteq (A,d)$ without any constraints.\\\\
+The curve functions $ \gamma (t)$ of any degree can be interpreted as $\gamma(x(t),y(t))$. The derivative in the following is meant to be the partial derivatives scaled by the parametrisation. (chain rule)
+\begin{align}
+\frac{\mathrm{d}}{\mathrm{d} t} \gamma (t) = \frac{\mathrm{d}}{\mathrm{d} t} \gamma (x(t),y(t)) = \gamma(t)* (\frac{\partial}{\partial x}  \frac{\mathrm{d} x}{\mathrm{d}t},\frac{\partial}{\partial y} \frac{\mathrm{d} y}{\mathrm{d}t})
+\end{align}
+Notation: The product $\gamma*(x,y)$ is a vector $\begin{pmatrix}\gamma x \\ \gamma y\end{pmatrix}$.\\\\
+The second order scaled partial derivative.
+\begin{align}
+\frac{\mathrm{d}^2}{\mathrm{d}t^2}\gamma(t)= \gamma(t)* (\frac{\partial^2}{\partial x^2}\frac{\mathrm{d}^2x}{\mathrm{d}t^2}, \frac{\partial^2}{\partial y^2}\frac{\mathrm{d}^2y}{\mathrm{d}t^2})
+\end{align}
+The direction of analysis $dir_{Y}$ is preserved in the sign for both straightness and curvature.
+\begin{align}
+dir = \frac{b-a}{\lvert b-a \rvert}
+\end{align}
+The horizontal diameter is based on the metric of $\iota_{T}$.
+\begin{equation}
+diameter_{horiz,T}(a,b)= dir \lvert \iota_{T}(b) - \iota_{T}(a) \rvert
+\end{equation}
+When the direction of integration $dir_{X}$ is reversed, the curve areas lie on the other side, therefore the direction flips the sign of the curve segments.
+\begin{align}
+\mu_{+}(\xi(t) -\iota_{T}(t))=\{[a,b] \subseteq A; \gamma(t)=\xi(t) -\iota_{T}(t) \vert \gamma(t)>0\}
+\end{align}
+Note: $\mu$ is a Lebesgue.
+
+\subsection{Affine Transformation}
+An affine transformation $M$ of the parametrised quadratic curve $\gamma_{H}$ with control points $\{S,C_{2},E\} = H^{3x3}$ and parameter $t$:
+\begin{equation}
+transform(\gamma):
+\begin{pmatrix}
+1 \\
+t \\
+t^2
+\end{pmatrix}
+\underbrace{\begin{bmatrix}
+1 & -1 & 0\\
+0 & 1 & -1\\
+0 & 0 &1
+\end{bmatrix}}_{Jordanian}
+\underbrace{\begin{pmatrix}
+x(MS) & x(MC_{1}) & x(ME) \\
+y(MS) & y(MC_{1}) & y(ME) \\
+0 & 0 & 0
+\end{pmatrix}}_{\text{Transformed Control Points}}
+=
+\begin{pmatrix}
+x \\
+y \\
+0
+\end{pmatrix}
+\end{equation}
+The composite $transform(\xi)$ of the quartic curve $\xi$ is based on parameter $t$ and $H^{5x5}$. ~\cite[Spline\_Axioms.tex]{Analyzer}
+
+\subsection{Legal Segment}
+A legal segment is an affine transformation of the arc curve function $transform(\xi) = \xi'$, so that all $y(\xi'(t))$ for $x(\xi'(t))$ are continuous:
+\begin{align}
+a<t<b\rightarrow x(\xi'(a))<x(\xi'(t))<x(\xi'(b)) \Leftrightarrow x(\iota'(a))<x(\iota'(t))<x(\iota'(b))
+\end{align}
+When:
+\begin{align}
+x(\xi'(a)),y(\xi'(a)), y(\xi'(b)) = 0 \Leftrightarrow x(\iota'(a)),y(\iota'(a)), y(\iota'(b)) = 0
+\end{align}
+The orientation $ori(a,b)$ of any point $a < t < b$ is the $sign(y(\xi'(t)))$ or $sign(y(\iota'(t)))$ after the aforementioned affine transformation.\\
+Notation: The orientation $ori$ of a point, relative to the x-axis is not the notion of an oriented manifold, which depends on the analytic direction $dir_{Y}$.
+
+\subsection{Straightness}
+A straight line segment is determined by means of straightness.\\
+The metric allows us to take the ratio of the difference of the jitter to the straight with $P_{n},P_{n+1} \in X$. \\
+\begin{align}
+straightness_{Rel}(a,b)=\frac{\int \limits _{a}^{b} \lvert \iota_{X}(t)\frac{\mathrm{d}}{\mathrm{d}t}\rvert \mathrm{d}t}{diameter_{horiz,T}(a,b)}
+\end{align}
+A threshold can be chosen, which makes the segment straight or bent in A.\\
+It is closely related to the curvature.
+\subsubsection{Algorithm Version}
+It is using Heron's formula ~\cite{Formelsammlung} for the area of a triangle in $P_{n}, P_{n+1},P_{n+2} \in [a,b] \subseteq X$.
+\begin{align*}
+\mathcal{A}=\lvert P_{i+1}-P_{i} \rvert\\
+\mathcal{B}=\lvert P_{i+2} - P_{i+1} \rvert\\
+\mathcal{C}=\lvert P_{i+2} - P_{i} \rvert\\
+\mathcal{L}=\frac{\mathcal{A}+\mathcal{B}+\mathcal{C}}{2}\\
+\mathcal{Q}_{\Delta}=\sqrt{\mathcal{L}(\mathcal{L}-\mathcal{A})(\mathcal{L}-\mathcal{B})(\mathcal{L}-\mathcal{C})}
+\end{align*}
+to calculate the ratio of the areas in $A$ and lines in $W$.
+\begin{align}
+straightness_{Algo}(a,c)=dir \sum_{i=0}^{n+2}\frac{\mathcal{Q}_{\Delta}}{\mathcal{A}+\mathcal{B}}
+\end{align}
+
+\subsection{Curvature}
+Curvature is determined by the ratio of Area to Diameter.
+\begin{align}
+curvature_{Rel}(a,b) = \frac{\int \limits _{a}^{b} \lvert \xi'(t) \rvert \mathrm{d}t}{diameter_{horiz,T}(a,b)}
+\end{align}
+\subsubsection{Algorithm Version}
+It is using a Nautilus formula with center at the start $a$ for the area of two external segments, and one inlay triangle.\\
+The sum of the pieces in the legal segments $[0,m]$ in $[a,b',b,\ldots,c',c]$ with $P_{n}, P_{n+1} \in [a,c] \subset X$.
+\begin{align}
+curvature_{Algo}(a,b)=dir(\mathcal{Q}_{\Theta}(a,b')+\mathcal{Q}_{\Delta}(P(a),P(b'),P(b))/\mathcal{C}+\mathcal{Q}_{\Theta}(b',b)+\ldots+\mathcal{Q}_{\Theta}(c',c))\\
+\mathcal{Q}_{\Theta}= \frac{\sum \limits _{i=0}^{n}y(P_{i})*(x(P_{i+1})-x(P_{i}))}{x(P_{n+1})-x(P_{0})}
+\end{align}
+
+\subsection{Corner}
+A curvature is composed of an infinite amount of local maxima. Therefore the Corner $C$ in a section $[a,b] \subseteq X$ is.
+\begin{align}
+C_{4} \subseteq median(\arg \inf_{t \in A} \lvert \frac{\mathrm{d}}{\mathrm{d}t}\xi(t) \rvert \approx 0) \\
+median = \min_{t \in U}\lvert(\frac{b-a}{2})-t\rvert
+\end{align}
+
+\subsection{Turn}
+A turn $T$ is a change of sign in the orientation $ori$ of the curve. In a segment $[a,b] \subseteq X$ an infinite amount of non-straight sections can be found.
+\begin{equation}
+T_{4} \subseteq \inf_{t \in A} \lvert \frac{\mathrm{d}^2}{\mathrm{d}t^2}\xi(t) \rvert \approx 0
+\end{equation}
+
+\subsection{Notation}
+The indexing corresponds to the minimal degree of the polynomial that is needed by the representation ($C$) or expected by the computation ($T$).
+\begin{align}
+C_{1} : \text{Point on a straight line}\\
+C_{2} : \text{Quadratic on-spline control point}\\
+C_{3} : \text{Cubic on-spline control point}\\
+C_{4} : \text{Quartic on-spline control point}
+\end{align}
+$C_{n}$ : Solution to a linear independent planar projection of a polynomial of one variable t of degree n at domain value t between 0 and 1.\\\\
+Note: Except for insertion (See Straight), $C_{4} \in Y$, but all the others $C_{1},C_{2},C_{3},C_{5}...,C_{n} \not\in X$, because they are only found in the approximation $C_{1},C_{2},C_{3},...,C_{n} \in A$.\\
+The on-spline control points $A_{n}$ and the Bezier control points $Q_{n}$ are labeled using the same scheme.\\\\
+Notation: If numbers are omitted $C$ refers to $C_{4}$ in this paper. In other uses it may be considered to be a local maximum.
+
+\section*{Oriented Sections}
+Sectioning/charting functions are functions of the form $(a,b) \mapsto (a,b')$ that can be applied to certain sections $[a,b] \subseteq (A,d)$ with constraints of computational priority. They create further sections of Turns $T$ in the transversality $Y$.
+
+\section{Non-recursive Sections}
+Non-recursive sections are not proper section types, but merely an expression of intermediate calculation and are therefore of medium computational priority (See discussion of oriented submanifolds in Compact Covers). They do induce a shift inside the Compact Cover if they're not centered.\\\\
+
+\subsection{Cliff}
+A Cliff is a section $[a,b']$. A single Cliff can have no more than the maximum $curvature(a,b)$. The maximum curvature is defined by the area of a half unit circle divided by the diameter $2r=1$. It is a part of a Spiral.
+\begin{align}
+Max_{Curve}=\frac{\pi r^2 /2}{2r}\\
+C_{4} \ni b'
+\end{align}
+
+\subsection{Straight}
+A Straight is a segment $[a,b]$ where $straightness(a,b)$ is smaller or equal to the ratio of the corresponding arc-length of one regular-polygon side in a circle to the length of the direct line. Choosing the polygon $n\geq 4$ is subject to the underlying pen-tablet or signal analog to digital converter. It is a part of an Edge,
+\begin{align}
+Max_{Straight}=\frac{2\pi r / n}{\vert (\sin \frac{2\pi r}{n}-r*1,\cos \frac{2\pi r}{n}-r*0) \vert}
+\end{align}
+or being used at lowest priority of computation (TT-Qualifier) to replace a curved $\{S,C,E\} \subset T$ with a straight one. The Corner $C_{4} \in U_{m }\subset X,Y,A$ is $replaced$ with $C_{4} \in Z,A; C_{4} \notin X,Y$.
+\begin{align}
+\xi(\frac{b-a}{2}) = \iota_{T}(a)+\frac{\iota_{T}(b)-\iota_{T}(a) }{2}
+\end{align}
+A special case is when $card(U_{m})=2$, a Corner $C_{4} \in Z,A; C_{4} \notin X,Y$ is $inserted$.\\
+
+\subsection{Swing}
+A Swing is a segment $[a,b']$ $\footnote{$a \in Y, b' \in A$ but it is not guaranteed, that $b' \in X$}$, where a legal segment $[a,b]$ is delimited by a sign change $[c,d]; c<b'<d$ under affine transformation $\xi'$. It is part of the Crest detection.\\
+\begin{align}
+\exists y(\xi'(c))>0,\exists y(\xi'(b'))=0,\exists y(\xi'(d))<0\\
+T_{\approx 3} \ni b'
+\end{align}
+The criteria, whether a segment is within a chart is ~\cite[20.7]{Loring}.
+\begin{equation}
+[a,b] \subseteq U_{m} \Rightarrow \exists  y(\xi'(t) - \iota_{T}'(t)) >0 \land \nexists y(\xi'(t) - \iota_{T}'(t)) < 0
+\end{equation}
+(both vice-versa)\\\\
+When $b' \notin X$, it is interpolated $b' \in Z,A; b' \notin X,Y$.
+\begin{align}
+[a,b] \subseteq U_{m}, \exists y(\iota_{X}'(t)) <0 \land \exists y(\iota_{X}'(t)) >0\Rightarrow \exists \land y(\iota_{W}')=0
+\end{align}
+
+\subsection{Dune}
+A frontside Dune $[a,b',c]$ is a segment [a,b], where a Straight segment $[a,b']$ is followed by a Non-Straight segment $[b',c]; $. It is part of the Edge detection.
+\begin{align}
+straightness(a,b')\leq Max_{Straight}\\ straightness(b',c)> Max_{Straight}
+\end{align}
+
+\section{Recursive Sections}
+Recursive sections have higher computational priority. This is because they can reduce shift and improve curve-fitting when working with spline polynoms of higher degree and data with relatively high bandwith.
+
+\subsection{Crest}
+A backside Crest section $[a,a']$ is an iteration of:
+\begin{enumerate}
+\item The Forward direction of integration $dir_{X}=1$ of a $[a,b']$ Swing, followed by 
+\item The Reverse direction of integration $dir_{X}=-1;[b',a]$ reveals a Backward $[b',a']$ Swing
+\item Continue iteration $[a',b']...$
+\end{enumerate}
+The breaking condition is that no more entities are being found after the second step.
+\begin{equation}
+b' \in T_{4}
+\end{equation}
+
+\subsection{Edge}
+A frontside Edge section $[a,b']$ is an iteration of:
+\begin{enumerate}
+\item The Forward direction of integration $dir_{X}=1$ of a frontside Dune $[a,b',c]$
+\item The Reverse direction of integration $dir_{X}=-1;[b',a]$ of a frontside Dune $[b',b'',a]; b''<b<b'$ 
+\item Continue iteration $[a,b'',b']...$
+\end{enumerate}
+The breaking condition is that no more entities are being found after the second step.
+\begin{equation}
+b' \in T_{\approx 2}
+\end{equation}
+A backside Edge does not exist. It is handled by Straight detection (~\cite{Analyzer}[3.23]).
+
+\subsection*{Adjusted Differences}
+By now, we can improve the differences by setting $dom(\xi,\iota)=Crest \cup Edge \cup C_{4}$.
+
+\section{Compact Covers}
+We introduce another set of charts $\{V_{n}\} \subset Z$ which span one or more of the charts $\{U_{m}\} \subset A$.
+\subsubsection*{Notation}
+$T_{0}$ refers to a scalar offset of beginning and end of computational analysis of a Vector Graph in a very flat segment or $C_{0}$ in a very curved segment.
+\subsubsection*{Open}
+~\cite{Mortad}
+\begin{align}
+A \text{ is open} \Leftrightarrow \inf_{A},\sup_{A}\in T_{0},C_{0}
+\end{align}
+In computer science there is the concept of the stream operator. This means that approximation $A$ would have to be recomputed whenever elements are added to the front or to the tail. Also it would require that a supremum arc length would have to be found from all the sections between turns $A \cap T$. It would make sense that the longest Spiral be chosen, which depends on curvature. One could also argue that the longest ZigZag with an absolute straightness of $1$ be chosen for the first center. Spreading out forward and backward, a mixed approach or a fully centered one could be chosen. One could also decide not to interleave frontside and backside entities of the same type.
+\subsubsection*{Closed}
+\begin{align}
+A \text{ is closed} \Leftrightarrow \min_{A},\max_{A}\in T_{0},C_{0}
+\end{align}
+For the time being, the approach in this paper is a compromise. Half-open front and tail sections $\footnote{It is questionable, whether losing front/tail sections is significant for most uses}$ are obliterated and the oriented manifolds between them are never fully centered. In particular the Crests and Edges exhibit a transcendence of fractal dimension, which significantly offset the consecutive oriented functions. Even finding Swings and Edges shifts the adjacent entities. The reversal and priority of segments and sections imposes a certain rigor in programming technique. A compatible software architecture is a requirement.\\
+Nevertheless the curve can be interpreted, if a threshold in Stopeight Comparator is increased, which lowers the requirement for overlay comparison matching accuracy ($Comparator$).
+It all comes down to whether oriented submanifolds are allowed and whether the enclosing submanifolds and the whole manifold are allowed to be oriented (Causal Structure).
+
+\subsection{Spiral}
+Spiral $\supset$ Cliff; Spiral $\not \supset$ Straight; Spiral $\not \supset$ Dune; Spiral $\not \supset$ Swing;\\ Spiral $\not \supset$ Crest; Spiral $\not \supset$ Edge; Spiral $\not \supset$ Moustache; Spiral $\not \supset$ Spike; Spiral $\not \supset$ Ramp\\\\
+A Spiral section $[a,b']$ is a Cliff, where
+\begin{align}
+Max_{Spiral}=\frac{curvature(a,b)}{\{n-m\in \mathbb{N} \vert U_{m},...,U_{n} \subseteq Spiral\}}\\
+b' \in C_{4}
+\end{align}
+The Cliffs are centered outside in so that all cliffs in a spiral have the same curvature measured inward from $a,b$.
+\subsubsection{Moustache}
+A Moustache is a CC-Separator.
+\begin{equation}
+(ori(a,b')<0\land ori(b',c)<0)\lor (ori(a,b')>0\land ori(b',c)>0)
+\end{equation}
+It is handled by Cliff or Crest detection, but it would only be a $T_{4}$ if not caught by Compact Covers. Indicates a break of Spirals $[a,b',c]$ at the most.
+\begin{equation}
+b' \in T_{\infty}
+\end{equation}
+A Moustache is not allowed to occur in a Swell by definition, therefore it divides a Swell $V_{n}$ and a Spiral/Swell $V_{n-1}$ or two Spirals $V_{n-1},V_{n}$.
+\begin{equation}
+V_{n-1}\cap V_{n}\in X; V_{n-1}\supset U_{m-1}\land V_{n}\supset U_{m}
+\end{equation}
+
+\subsection{ZigZag}
+ZigZag $\not\supset$ Cliff; ZigZag $\supset$ Straight; ZigZag $\not\supset$ Dune; ZigZag $\not\supset$ Swing;\\ ZigZag $\not\supset$ Crest; ZigZag $\supset$ Edge; ZigZag $\not \supset$ Moustache; ZigZag $\supset$ Spike; ZigZag $\not \supset$ Ramp\\\\
+Whether it is a Turn or a Corner depends on orientation $ori$ of the adjacent Straights relative to each other.\\\\
+Whether angles less than 90 degree are allowed to be in the dataset is subject of definition.
+From 90 degree to 180 degree, it is not losing its orientation.
+\subsubsection{Spike}
+A Spike is a TT-Separator.
+\begin{align}
+straightness(a,b')\leq Max_{Straight}\\ straightness(b',c)\leq Max_{Straight}
+\end{align}
+It is of highest computational priority. The $angle$ in the intersection of the extensions of the two edges determines the type of the Corner.\\\\
+It is between 90 (square) and $\frac{n-2}{n}*180$ degrees ($Max_{Straight}$).
+\begin{align}
+Max_{angle}=\frac{(n-2)\pi}{n}\\
+Min_{angle}=\frac{\pi}{2}\\
+b' \in T_{1} \Rightarrow b' \not\in C_{4}
+\end{align}
+Or 90 and 0 degrees:
+\begin{align}
+Max_{angle}=\frac{\pi}{2}\\
+Min_{angle}=0\\
+b' \in T_{1} \land b' \in C_{\infty}
+\end{align}
+Note: Very steep angles are likely not to be continuous when a lot of data points are available. They may be caught by Cliff detection.\\\\
+If $b'$ is not in the in the Vector Graph $X$, it has to be $approximated$ in the transversality $(Z \subset A) \ni T; T \notin X,Y$ by linear regression of $(U_{m-1}\cup U_{m})\subset X$. $T=U_{m-1}\cap U_{m}$ is then re-assigned to the new approximated $T_{0}\in Z$.
+
+
+\subsection{Swell}
+Swell $\not\supset$ Cliff; Swell $\supset$ Straight; Swell $\supset$ Dune; Swell $\supset$ Swing;\\ Swell $\supset$ Crest; Swell $\supset$ Edge; Swell $\not \supset$ Moustache; Swell $\not \supset$ Spike; Swell $\supset$ Ramp\\\\
+A swell is centered by triplets.\\\\
+The Captain of Swing\\
+Picking up where Sisyphos left in the previous article. At the top of the hill. Waves fall in formation. The captain is steering in high seas. He is swinging the wheel off the top as the next wave builds up. As if the water could feel the magnetic disruption, the surface tension breaks up. The second peak crumbles. The engine roars up in an attempt to dig the stern deeper into the dune. It stutters and almost...\\
+The rigidity of the frame makes it tremble in a gigantic resonant groan to the impact of the third wave. To which it can not react. This is almost real-time. Hawaiians measure the wave from the back.\\
+So how many waves does it take to measure the peak?\\
+You can see the first peak from the second. But because the wave segment reacts to its environment, the second peak is only locally defined when the third peak has passed.\\
+But we are not looking at the peaks, are we?\\
+We are dealing with frequencies. The waveform starts with an upward swing. The ship is almost in a suspended state mid-air, before it starts falling into the trough after the second swing. At the foot of the third swing we can almost make out the first peak. This is when we can start finding out where we fell through:\\
+The second swing.\\
+The triplet of swings is our most accurate index for stabilising the frequencies.
+\subsubsection{Ramp}
+A Ramp is a TT-Qualifier.
+\begin{align}
+(ori(a,b')=0\land ori(b',c)<0)\lor (ori(a,b')=0\land ori(b',c)>0)\\
+(ori(a,b')<0\land ori(b',c)=0)\lor (ori(a,b')>0\land ori(b',c)=0)
+\end{align}
+A frontside Ramp is handled by Edge detection, a backside Ramp is handled by Crest detection. It is not a break of the Compact Cover and is only a $T_{4}$.
+\begin{equation}
+U_{m-1}\cap U_{m}\in X; V_{n}\supset U_{m-1},U_{m}
+\end{equation}
+
+\subsection*{Direction}
+If the affine transformations $dir_{Y}$ are applied left to right $[a,b];a<b$, the Compact Cover $dir_{Y}$ is positive. If the direction of analysis $dir_{Y}$ is reversed $[b,a]$, it is negative. The same applies to the diameter, but it is not the analytic direction but the direction of integration $dir_{X}$.\\\\
+Summary: $X$ is original data, $A$ full approximation, $Y$ initial transversality only, $Z$ Compact Cover point transversality only.
+
+\iffalse
+\printbibliography
+\fi
+\bibliography{Stopeight}{}
+\bibliographystyle{plain}
+
+\end{document}
