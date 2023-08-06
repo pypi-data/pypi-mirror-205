@@ -1,0 +1,6 @@
+[neon.plugin.lang.detect]
+deepl_detection_plug = ovos_translate_plugin_deepl:DeepLDetector
+
+[neon.plugin.lang.translate]
+deepl_translate_plug = ovos_translate_plugin_deepl:DeepLTranslator
+
