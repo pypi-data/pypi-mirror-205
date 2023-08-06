@@ -1,0 +1,2 @@
+[console_scripts]
+rum = redshift_user_manager.cli:entrypoint
