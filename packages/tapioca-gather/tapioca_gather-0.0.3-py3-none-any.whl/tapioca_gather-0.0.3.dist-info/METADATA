@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: tapioca-gather
+Version: 0.0.3
+Summary: Gather API wrapper using tapioca
+Home-page: https://github.com/pyanderson/tapioca-gather
+Author: Anderson de Sousa Lima
+Author-email: anderson.sl93@hotmail.com
+License: MIT
+Keywords: gather,gather-town,api,tapioca
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+Requires-Dist: tapioca-wrapper (==2.1.0)
+
+Tapioca Gather
+==============
+
+Installation
+------------
+
+::
+
+   pip install tapioca-gather
+
+Documentation
+-------------
+
+`Gather HTTP API
+Documentation <https://gathertown.notion.site/Gather-HTTP-API-3bbf6c59325f40aca7ef5ce14c677444>`__
+
+Auth
+~~~~
+
+Generate your ``API_KEY`` here: https://gather.town/apiKeys
+
+Usage
+~~~~~
+
+NOTE: forward slashes in ``space_id`` need to be replaced by backslashes
+(e.g. ``dkj63wrer8/spaceName`` becomes ``dkj63wrer8\spaceName``)
+
+.. code:: python
+
+   from tapioca_gather import Gather
+
+   api = Gather(api_key=API_KEY)
+   space_id = 'dkj63wrer8\\spaceName'
+
+   assignment = api.game_server_assignment(space_id=space_id).get()
+   print(assignment().data)
+   wss://engine-aaaaa.aaa0-a.prod.do.gather.town:443/
+
+   space = api.space(space_id=space_id).get()
+   print(space().data['level'])
+   1
+
+No more documentation needed.
+
+-  Learn how Tapioca works
+   `here <http://tapioca-wrapper.readthedocs.org/en/stable/quickstart.html>`__
+-  Explore this package using iPython
+-  Have fun!
