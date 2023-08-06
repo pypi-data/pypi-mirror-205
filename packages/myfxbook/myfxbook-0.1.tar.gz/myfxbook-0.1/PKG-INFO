@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: myfxbook
+Version: 0.1
+Summary: Python wrapper for the Myfxbook API
+Home-page: https://github.com/isaiahbjork/myfxbook
+Author: isaihbjork
+Author-email: labsmodev@gmail.com

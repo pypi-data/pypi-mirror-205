@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+myfxbook/__init__.py
+myfxbook/myfxbook.py
+myfxbook.egg-info/PKG-INFO
+myfxbook.egg-info/SOURCES.txt
+myfxbook.egg-info/dependency_links.txt
+myfxbook.egg-info/requires.txt
+myfxbook.egg-info/top_level.txt
