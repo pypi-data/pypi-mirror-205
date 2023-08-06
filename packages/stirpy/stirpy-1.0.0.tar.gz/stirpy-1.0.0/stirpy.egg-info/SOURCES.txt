@@ -1,0 +1,7 @@
+README.md
+setup.py
+stirpy.egg-info/PKG-INFO
+stirpy.egg-info/SOURCES.txt
+stirpy.egg-info/dependency_links.txt
+stirpy.egg-info/requires.txt
+stirpy.egg-info/top_level.txt
