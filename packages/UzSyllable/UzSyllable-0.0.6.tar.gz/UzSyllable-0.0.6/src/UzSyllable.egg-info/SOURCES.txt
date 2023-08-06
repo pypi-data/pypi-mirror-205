@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/UzSyllable/UzSyllable.py
+src/UzSyllable/__init__.py
+src/UzSyllable.egg-info/PKG-INFO
+src/UzSyllable.egg-info/SOURCES.txt
+src/UzSyllable.egg-info/dependency_links.txt
+src/UzSyllable.egg-info/top_level.txt
