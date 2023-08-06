@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: juts
+Version: 2023.1
+Summary: Jupyter widgets for scheduling processes and visualizing the resulting (live) data.
+Author: Marcus Riesmeier
+Author-email: gluehen-sierren-0c@icloud.com
+License: BSD 3-Clause License
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: scipy
+Requires-Dist: jupyterlab
+Requires-Dist: ipywidgets
+Requires-Dist: bqplot
+Requires-Dist: ipympl
+Requires-Dist: ipyvolume
+Requires-Dist: yamlordereddictloader
+Requires-Dist: nbconvert
+Requires-Dist: nbstripout
+
+Jupyter widgets for scheduling processes and visualizing the resulting (live) data.
+While it is designed to use custom data-specific visualizations based on
+ipywidgets, visualizations for time series data (bqplot), animations
+(matplotlib) and 3D data (ipyvolume) are included.
