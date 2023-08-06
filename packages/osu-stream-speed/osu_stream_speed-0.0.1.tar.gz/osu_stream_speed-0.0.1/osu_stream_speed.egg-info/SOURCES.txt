@@ -1,0 +1,10 @@
+LICENSE
+README.md
+osu_stream_speed.py
+setup.cfg
+setup.py
+osu_stream_speed.egg-info/PKG-INFO
+osu_stream_speed.egg-info/SOURCES.txt
+osu_stream_speed.egg-info/dependency_links.txt
+osu_stream_speed.egg-info/entry_points.txt
+osu_stream_speed.egg-info/top_level.txt

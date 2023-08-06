@@ -1,0 +1,2 @@
+[console_scripts]
+osu-stream-speed = osu_stream_speed:main
