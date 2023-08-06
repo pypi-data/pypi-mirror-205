@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+stc_tools/cli.py
+stc_tools/client.py
+stc_tools.egg-info/PKG-INFO
+stc_tools.egg-info/SOURCES.txt
+stc_tools.egg-info/dependency_links.txt
+stc_tools.egg-info/entry_points.txt
+stc_tools.egg-info/requires.txt
+stc_tools.egg-info/top_level.txt
