@@ -1,0 +1,16 @@
+numpy
+scipy
+matplotlib
+
+[data]
+pandas
+
+[jaxed]
+jax
+jaxlib
+
+[njitted]
+numba
+
+[opti]
+chaospy
