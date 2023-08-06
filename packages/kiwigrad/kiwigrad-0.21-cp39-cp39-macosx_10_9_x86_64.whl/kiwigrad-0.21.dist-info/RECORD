@@ -1,0 +1,14 @@
+kiwigrad/__init__.py,sha256=VVIojKgoIG24Tv2k2FfOdkshVUaR83i8y5ovBZLSVkQ,324
+kiwigrad/engine.c,sha256=fXapDVG2RhL0U0Q4MXlWpH7IpP1NLozh9-wHZfJfiQw,8659
+kiwigrad/engine.cpython-39-darwin.so,sha256=6QVbyvKh61l0S5b7TjCmk96v9EnRkfbIYx6tJu6-GKg,35040
+kiwigrad/engine.py,sha256=4weq8gt5ClKrlITeGa2-A-iPDI6n9xdXkg-EGxjLlQE,4222
+kiwigrad/graph.py,sha256=stO8h7I_J5w9cU7Lv_JNjbZ20Yhf0DRDZoXM6cQz9W4,970
+kiwigrad/layers.py,sha256=8ewFvNr_d5iDbTO3fLqrbQ5oaSO3wKJ9RgNqYvV09YU,1235
+kiwigrad/neurons.py,sha256=fH6BGmvxf3308ZclmZv9Lb7lbMiK8QKeL1WPe6jkOIA,3246
+kiwigrad/nn.py,sha256=YibbL0-0i0q_37DkATt_sZGPpduXK3waijoCe0G8W7g,1566
+kiwigrad/skeleton.py,sha256=pjgU6vFaOXV4atf0eoKr6TwVMjlKjwCMosmvHUpcf78,144
+kiwigrad-0.21.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+kiwigrad-0.21.dist-info/METADATA,sha256=XJzmywXTsmCEjfa6BEX2-IfQz1HKfIpU_bDXsW83rY8,3199
+kiwigrad-0.21.dist-info/WHEEL,sha256=pfjXB0CCNW4PSSqQc2t4Up6p3o0jxBnHy_2o38FQkyE,109
+kiwigrad-0.21.dist-info/top_level.txt,sha256=n7ZyF99SgpHFBdsc3h83DgEmzdTCgDCkFbYjbfxkwU8,9
+kiwigrad-0.21.dist-info/RECORD,,
