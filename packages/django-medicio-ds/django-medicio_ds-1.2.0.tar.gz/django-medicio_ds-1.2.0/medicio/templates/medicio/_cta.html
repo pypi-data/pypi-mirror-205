@@ -1,0 +1,21 @@
+{% block cta %}
+<section id="cta" class="cta">
+  <div class="container" data-aos="zoom-in">
+
+    <div class="text-center">
+      {% autoescape off %}
+      <h3>{{ cta.title }}</h3>
+      <p> {{ cta.desc }}</p>
+      {% for btn in cta.btns %}
+      {% if btn.type == 'onclick' %}
+      <a class="cta-btn scrollto" onclick="cta_btn{{ forloop.counter }}_gtag_report_conversion('{{ btn.link }}')">{{ btn.title }}</a>
+      {% elif btn.type == 'href' %}
+      <a class="cta-btn scrollto" href="{{ btn.link }}" target="_blank">{{ btn.title }}</a>
+      {% endif %}
+      {% endfor %}
+      {% endautoescape %}
+    </div>
+
+  </div>
+</section>
+{% endblock %}
