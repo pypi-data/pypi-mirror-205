@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+v1.4.3
+------
+
+* Stop searching for protocol if found. (#31)
