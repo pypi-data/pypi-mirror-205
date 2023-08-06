@@ -1,0 +1,11 @@
+owlml/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+owlml/__main__.py,sha256=xbwjUdnbEkZtD0frbkNGIaBQX4g0Na_NnJS3iJy98lg,191
+owlml/upload_images.py,sha256=BLtjaXGowEh416UqrBzkDXQIqzzbYTYVmU9TaGj8Jzk,1785
+owlml/auth/__init__.py,sha256=gOL1ELHo0aI2-jZ5m5qeRh5O4HNO7Ne6RZTgnb6hqa4,73
+owlml/auth/cvat.py,sha256=85DY8NZM4n1HLNim3TMiInKsDBzlVLhHGGJ1LPQIeVg,1432
+owlml-0.1.1.dev1682711660.dist-info/LICENSE,sha256=OKyi0o795lk0-CfbkSnvPe_VJ9VZFKirhNzXoYxcIjQ,1074
+owlml-0.1.1.dev1682711660.dist-info/METADATA,sha256=mpAwPLYQ7tBLIaYU83o8Mis8PzZmu5q5oGPotk5KOnw,521
+owlml-0.1.1.dev1682711660.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+owlml-0.1.1.dev1682711660.dist-info/entry_points.txt,sha256=fjGPdEjPzB-Pi6_s-dh08vXCwtWl8IDTg4jvYdGfsOM,46
+owlml-0.1.1.dev1682711660.dist-info/top_level.txt,sha256=u1SsU0wYzu46z0Q0cECNYM4_SXSEB-hqKEddS6E7HDE,6
+owlml-0.1.1.dev1682711660.dist-info/RECORD,,
