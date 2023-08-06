@@ -1,0 +1,68 @@
+[project]
+name = "sosaa-gui"
+version = "0.1.0"
+requires-python = ">=3.7"
+description = "Graphical User Interface for Configuring, Running, and Approximating the SOSAA Model"
+readme = "README.md"
+license = { file = "LICENSE-GPL" }
+authors = [
+    { name = "Juniper Tyree", email = "juniper.tyree@helsinki.fi" },
+    { name = "Petri Clusius", email = "petri.clusius@helsinki.fi" },
+    { name = "Multi-Scale Modelling group", email = "sosaa@helsinki.fi" }
+]
+maintainers = [
+    { name = "Multi-Scale Modelling group", email = "sosaa@helsinki.fi" }
+]
+dependencies = [
+    "darkdetect >= 0.7.1",
+    "f90nml >= 1.4.3",
+    "PyQt5 >= 5.15.7"
+]
+
+[project.optional-dependencies]
+icarus = [
+    "matplotlib >= 3.5.2",
+    "joblib >= 1.2.0",
+    "netcdf4 >= 1.5.4",
+    "numpy >= 1.23.4",
+    "pandas >= 1.4.4",
+    "scipy >= 1.9.3",
+    "scikit-learn >= 1.1.2",
+]
+dev = ["black", "build", "bumpver", "pyproject-flake8", "isort", "twine"]
+
+[project.scripts]
+sosaa-gui = "sosaa_gui:run"
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["sosaa_gui*"]
+namespaces = true
+
+[tool.black]
+target-version = ['py37']
+line-length = 79
+preview = true
+
+[tool.isort]
+py_version = 37
+profile = "black"
+line_length = 79
+
+[tool.flake8]
+exclude = "sosaa_gui/layouts/*.py"
+
+[tool.bumpver]
+current_version = "0.1.0"
+version_pattern = "MAJOR.MINOR.PATCH"
+commit_message  = "Bump version {old_version} -> {new_version}"
+commit          = true
+tag             = true
+push            = false
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = ['current_version = "{version}"', 'version = "{version}"']
