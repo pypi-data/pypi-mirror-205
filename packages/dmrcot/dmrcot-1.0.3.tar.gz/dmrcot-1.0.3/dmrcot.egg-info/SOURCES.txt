@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+dmrcot/__init__.py
+dmrcot/classes.py
+dmrcot/commands.py
+dmrcot/constants.py
+dmrcot/functions.py
+dmrcot.egg-info/PKG-INFO
+dmrcot.egg-info/SOURCES.txt
+dmrcot.egg-info/dependency_links.txt
+dmrcot.egg-info/entry_points.txt
+dmrcot.egg-info/not-zip-safe
+dmrcot.egg-info/requires.txt
+dmrcot.egg-info/top_level.txt
