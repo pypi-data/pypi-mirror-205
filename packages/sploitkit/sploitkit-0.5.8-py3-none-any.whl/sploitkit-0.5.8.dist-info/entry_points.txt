@@ -1,0 +1,2 @@
+[console_scripts]
+sploitkit = sploitkit.__main__:main
