@@ -1,0 +1,11 @@
+editdistance
+flashlight-text
+pillow
+pyyaml
+sentencepiece
+tabulate
+tensorboardX
+termcolor
+torch>=1.12.0
+torchaudio>=0.12.0
+torchviz

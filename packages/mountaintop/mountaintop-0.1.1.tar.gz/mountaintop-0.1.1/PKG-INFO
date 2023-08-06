@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: mountaintop
+Version: 0.1.1
+Summary: make research work more friendly
+Home-page: https://github.com/yinanxu0/mountaintop
+Author: yinanxu
+Author-email: yinanxu0@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown

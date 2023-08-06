@@ -1,0 +1,4 @@
+[console_scripts]
+mountaintop = mountaintop.bin.main:main
+mt = mountaintop.bin.main:main
+
