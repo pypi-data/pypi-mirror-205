@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: termai
+Version: 0.1
+Summary: Command-line tools for generating text and images using OpenAI
+Home-page: https://git.toad.city/brad/termai
+Author: Brad Ganley
+Author-email: bradganley@pm.me

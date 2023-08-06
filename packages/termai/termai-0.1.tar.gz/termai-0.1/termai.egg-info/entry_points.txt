@@ -1,0 +1,3 @@
+[console_scripts]
+termchat = termai.termchat:main
+termpics = termai.termpics:main
