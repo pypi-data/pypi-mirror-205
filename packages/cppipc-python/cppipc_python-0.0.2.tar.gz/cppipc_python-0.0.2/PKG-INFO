@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: cppipc_python
+Version: 0.0.2
+Summary: A test project using pybind11 and CMake
+Home-page: UNKNOWN
+Author: Qingxu Fu
+Author-email: 505030475@qq.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Provides-Extra: test
