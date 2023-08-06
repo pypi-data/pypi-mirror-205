@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "jupyter-example"
+version = "0.1.0"
+description = ""
+authors = ["cfeenstra67 <cameron.l.feenstra@gmail.com>"]
+readme = "README.md"
+packages = [{include = "jupyter_example"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+jupyterlab = "^3.6.1"
+typing-extensions = "^4.5.0"
+frozendict = "^2.3.5"
+pydantic = "^1.10.5"
+blinker = "^1.5"
+ipywidgets = "^8.0.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
