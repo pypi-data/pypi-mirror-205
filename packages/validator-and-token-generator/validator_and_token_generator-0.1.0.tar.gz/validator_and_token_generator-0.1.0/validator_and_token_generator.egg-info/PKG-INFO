@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: validator-and-token-generator
+Version: 0.1.0
+Summary: Python package for string validation and alphanumeric token generation
+Home-page: https://github.com/SasheO/CS3_Project
+Download-URL: https://github.com/SasheO/CS3_Project/0.1.0.tar.gz
+Author: SasheO, Xaiver71, emilyyjx
+Author-email: mezisashe.ojuba@bison.howard.edu, malcolm.gray@bison.howard.edu, emily.jones@bison.howard.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### Description
+Validator_and_token_generator is a package created for a class project to validate certain strings such as credit/debit card numbers, and generate alphanumeric tokens.
+
+### Install validator_and_token_generator from PyPi.
+```bash
+pip install validator_and_token_generator
+```
+
+#### Example
+```python
+  # Import library
+  import validator_and_token_generator
+  # Generate token
+  _token = validator_and_token_generator.token_generator(length=10)
+```
+-------
+
