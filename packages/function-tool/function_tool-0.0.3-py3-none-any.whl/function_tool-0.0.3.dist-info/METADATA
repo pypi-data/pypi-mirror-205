@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: function-tool
+Version: 0.0.3
+Summary: some usual tool with class
+Home-page: https://gitee.com/DerrickChiu/function_tool.git
+Author: DerrickChiu
+Author-email: chiull@foxmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: GIS
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Description-Content-Type: text/markdown
+
+### function_tool工具包
+
+安装：
+```shell
+pip install function_tool
+```
+
+本工具包对一些常用的功能进行了Python封装，目前主要包含以下功能：
+
+### 1. 日期时间类
+DateTimeTool
++ timestamp2time函数：Unix时间戳转时间字符串
++ time2timestamp函数：时间字符串转Unix时间戳
++ get_range_of_date_by_str函数：返回给定时间所在日期的时间戳范围
+使用示例
+```python
+from function_tool_derrick.UsualTool import DateTimeTool    # 导入function_tool_derrick.UsualTool下的DateTimeTool类
+
+if __name__ == '__main__':
+    print(DateTimeTool.timestamp2time(1681721029)) # 打印 2023-04-17 16:43:49
+    print(DateTimeTool.time2timestamp('2023-04-17 16:43:49')) # 打印 1681721029
+
+    ret = DateTimeTool.get_range_of_date_by_str('2022-02-02 15:30:28', formatter='%Y-%m-%d %H:%M:%S', tsType=TimestampType.MILLISECOND)
+    print(ret) # 打印 [1643731200000, 1643817599999]
+```
+
