@@ -1,0 +1,10 @@
+genomic_features/__init__.py,sha256=X2LvWDoIiIfP5Ho8dtOJazQKahFQHq3bnp4R4Xh2I-c,137
+genomic_features/filters.py,sha256=uUmSeuCvlbqq2oaMy7K53vGYmZy-7LBCW5F1gIuVNgo,168
+genomic_features/_core/cache.py,sha256=GU9rZguU9BUejtSATnD4RV3Xa0Z17j2_TAXVwTzsT9k,286
+genomic_features/_core/filters.py,sha256=hpxQM20vWrm4i-YGR-vvT7YVPMOH4wxAsSCUfPsac3E,4506
+genomic_features/ensembl/__init__.py,sha256=Knt4v1-etWncaqF53lYO00Tv6VsfcMbvPhbiCu48YCk,69
+genomic_features/ensembl/ensembldb.py,sha256=WGUZDxLhjyfN41336ZenoxpAqAjwHr2jfVvJva-FoJk,4112
+genomic_features-0.0.1a0.dist-info/METADATA,sha256=HCDeyq5M7EQmlVs5-HBoRh8yUzajeJdIIJsNibqrgb0,4817
+genomic_features-0.0.1a0.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+genomic_features-0.0.1a0.dist-info/licenses/LICENSE,sha256=CiIjpBfMEj8fHO_NpkZUo6eTeZNKsnma7ZmaLAFsR8k,1551
+genomic_features-0.0.1a0.dist-info/RECORD,,
