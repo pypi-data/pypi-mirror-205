@@ -1,0 +1,48 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "gitlab-search"
+dynamic = ['version']
+authors = [
+  { name="Erik Kalkoken", email="kalkoken87@gmail.com" },
+]
+description = "Command line tool for searching across GitLab projects"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "python-gitlab>=3.14",
+    "rich>=13.3.5",
+    "rich-argparse>=1.1.0"
+]
+
+[project.urls]
+"Homepage" = "https://gitlab.com/ErikKalkoken/gitlab-search"
+"Bug Tracker" = "https://gitlab.com/ErikKalkoken/gitlab-search/issues"
+
+[project.scripts]
+gitlab-search = "gitlab_search.main:main"
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+  "/.vscode",
+  "/venv",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/gitlab_search"]
+
+[tool.hatch.version]
+path = "src/gitlab_search/__init__.py"
+
+[tool.isort]
+profile = "black"

@@ -1,0 +1,38 @@
+stages:
+- checks
+- test
+- deploy
+
+pre-commit-check:
+  stage: checks
+  image: python:3.10-buster
+  variables:
+    PRE_COMMIT_HOME: ${CI_PROJECT_DIR}/.cache/pre-commit
+  cache:
+    paths:
+      - ${PRE_COMMIT_HOME}
+  script:
+    - pip install pre-commit
+    - pre-commit run --all-files
+
+test-3.10:
+  stage: test
+  image: python:3.10-buster
+  before_script:
+    - pip install tox
+  script:
+    - tox -e py310
+
+deploy-pypi:
+  stage: deploy
+  image: python:3.10-buster
+
+  before_script:
+    - pip install build twine
+
+  script:
+    - python -m build
+    - python -m twine upload dist/*
+
+  only:
+    - tags

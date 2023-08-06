@@ -1,0 +1,7 @@
+.vscode/
+dist/
+temp/
+venv/
+*.temp
+*.pyc
+.coverage
