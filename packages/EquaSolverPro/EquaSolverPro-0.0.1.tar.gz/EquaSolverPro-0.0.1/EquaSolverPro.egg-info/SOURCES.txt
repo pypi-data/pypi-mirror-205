@@ -1,0 +1,11 @@
+README.md
+setup.py
+EquaSolverPro.egg-info/PKG-INFO
+EquaSolverPro.egg-info/SOURCES.txt
+EquaSolverPro.egg-info/dependency_links.txt
+EquaSolverPro.egg-info/requires.txt
+EquaSolverPro.egg-info/top_level.txt
+equasolverpro/__init__.py
+equasolverpro/components.py
+equasolverpro/linear.py
+equasolverpro/quadratic.py
