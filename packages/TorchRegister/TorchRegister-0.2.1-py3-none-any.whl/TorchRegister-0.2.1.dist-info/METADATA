@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: TorchRegister
+Version: 0.2.1
+Summary: 3D image registration methods for PyTorch.
+Home-page: https://github.com/AgamChopra/TorchRegister
+Author: Agam Chopra
+Author-email: achopra4@uw.edu
+License-File: LICENSE.md
+Requires-Dist: torch (>=2.0.0)
+Requires-Dist: numpy (>=1.24.1)
+Requires-Dist: tqdm (>=4.65.0)
+Requires-Dist: matplotlib (>=3.7.1)
+
+Common medical 3D image registration methods such as rigid, affine, and flow field for PyTorch.
