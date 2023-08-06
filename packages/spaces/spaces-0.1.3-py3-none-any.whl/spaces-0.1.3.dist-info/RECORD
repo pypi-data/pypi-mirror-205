@@ -1,0 +1,9 @@
+spaces/__init__.py,sha256=ykLINlviw91UUEBwvoERCIi_0VB-CGmKC0iZ3HbpTFs,80
+spaces/gpu/__init__.py,sha256=ohBTPduDLw4MqhP0gHXRgyS9esc4ChJxRb3HM4Xr5zU,103
+spaces/gpu/client.py,sha256=8qHrFYR5KfaX4oKlsaqkQO5XZZJOv2GHYNorQDwut1g,612
+spaces/gpu/decorator.py,sha256=K_tvdh1uJjdJuFKhaw3VOGuj9N9Xsa3ZsmBOIXEZIPo,5396
+spaces/gpu/patching.py,sha256=WAJaPptM02rcJp9brJl82APmNUIx9iaoYoNAFBcN8m8,1183
+spaces/utils.py,sha256=QK12CCY1MLiRVQFCuGKNWOV9KompcVEk0maAr5NjuWI,362
+spaces-0.1.3.dist-info/METADATA,sha256=glkenKD2_4vguM5X4EXNA_Pe0TIyVLIh11Jxmkc57N0,806
+spaces-0.1.3.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+spaces-0.1.3.dist-info/RECORD,,
