@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+src/rule_based_model/RB_model.py
+src/rule_based_model/Rule_based_tester.py
+src/rule_based_model/__init__.py
+src/rule_based_model/first_2word.pkl
+src/rule_based_model/first_3word.pkl
+src/rule_based_model/first_word.pkl
+src/rule_based_model/match_A.pkl
+src/rule_based_model.egg-info/PKG-INFO
+src/rule_based_model.egg-info/SOURCES.txt
+src/rule_based_model.egg-info/dependency_links.txt
+src/rule_based_model.egg-info/requires.txt
+src/rule_based_model.egg-info/top_level.txt
