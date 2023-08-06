@@ -1,0 +1,11 @@
+peppercorn
+bleak
+pysimplegui
+pywinusb
+numpy
+
+[dev]
+check-manifest
+
+[test]
+coverage
