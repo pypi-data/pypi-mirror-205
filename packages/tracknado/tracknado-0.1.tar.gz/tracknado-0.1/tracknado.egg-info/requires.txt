@@ -1,0 +1,7 @@
+click
+pandas
+cookiecutter
+setuptools_scm
+seaborn
+trackhub
+Pillow
