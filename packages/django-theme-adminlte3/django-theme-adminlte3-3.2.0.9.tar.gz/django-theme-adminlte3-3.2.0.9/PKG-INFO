@@ -1,0 +1,27 @@
+Metadata-Version: 1.2
+Name: django-theme-adminlte3
+Version: 3.2.0.9
+Summary: Django Admin LTE v3 Theme
+Home-page: https://github.com/kelsoncm/django-theme-adminlte3
+Author: Kelson da Costa Medeiros
+Author-email: kelsoncm@gmail.com
+License: MIT license
+Download-URL: https://github.com/kelsoncm/django-theme-adminlte3/releases
+Description: Django Admin LTE v3 Theme
+Keywords: django,admin lte,theme
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: JavaScript
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Framework :: Django :: 4.0
+Classifier: Framework :: Pytest
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Natural Language :: English
+Classifier: Natural Language :: Portuguese (Brazilian)
+Requires-Python: >=3.9
