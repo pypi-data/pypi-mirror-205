@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+shifts_Scheduler.egg-info/PKG-INFO
+shifts_Scheduler.egg-info/SOURCES.txt
+shifts_Scheduler.egg-info/dependency_links.txt
+shifts_Scheduler.egg-info/requires.txt
+shifts_Scheduler.egg-info/top_level.txt
