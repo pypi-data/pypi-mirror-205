@@ -1,0 +1,56 @@
+[tool.poetry]
+name = "nhssynth"
+version = "0.3.0"
+description = "Synthetic data generation pipeline leveraging a Differentially Private Variational Auto Encoder assessed using a variety of metrics"
+authors = ["HarrisonWilde <harrisondwilde@outlook.com>"]
+maintainers = ["NHSE TDAU <england.tdau@nhs.net>"]
+license = "MIT"
+readme = ["README.md"]
+repository = "https://github.com/nhsx/NHSSynth"
+keywords = ["synthetic data", "privacy", "fairness", "machine learning"]
+classifiers = [
+    "Development Status :: 3 - Alpha"
+]
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/nhsx/NHSSynth/issues"
+"Docs" = "https://nhsx.github.io/NHSSynth"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+setuptools = "^67.6.1"
+tqdm = "^4.65.0"
+gower = "^0.1.2"
+pyyaml = "^6.0"
+sdmetrics = "^0.9.3"
+pandas = "^1.5.3"
+rdt = "^1.4.0"
+sdv = "^1.0.0"
+torch = "1.13.1"
+opacus = "^1.4.0"
+
+[tool.poetry.scripts]
+nhssynth = 'nhssynth.cli:run'
+
+[tool.poetry.group.docs]
+optional = true
+
+[tool.poetry.group.docs.dependencies]
+mkdocstrings = {extras = ["python-legacy"], version = "^0.20.0"}
+mkdocs-material = "^9.1.4"
+mkdocs-gen-files = "^0.4.0"
+mkdocs-literate-nav = "^0.6.0"
+mkdocs-section-index = "^0.3.5"
+mkdocs-git-revision-date-localized-plugin = "^1.2.0"
+pymdown-extensions = "^9.10"
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+notebook = "^6.5.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
