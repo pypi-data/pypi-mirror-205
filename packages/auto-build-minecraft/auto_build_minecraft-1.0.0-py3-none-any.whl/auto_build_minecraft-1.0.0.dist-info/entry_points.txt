@@ -1,0 +1,3 @@
+[console_scripts]
+msab=auto_build_minecraft.msab:main
+

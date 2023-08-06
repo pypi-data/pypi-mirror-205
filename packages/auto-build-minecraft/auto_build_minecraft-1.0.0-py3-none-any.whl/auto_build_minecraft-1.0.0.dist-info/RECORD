@@ -1,0 +1,15 @@
+auto_build_minecraft/Docker/Dockerfile,sha256=tzOA02QcgT1s-qcilg5Oq5MFFk-bsbqURgkFSYf4Qc4,762
+auto_build_minecraft/msab.py,sha256=b7K6wcINYpB3DCOYfLBOGjwuR2e4lfD5uShgedFD928,4972
+auto_build_minecraft/playbook.yml,sha256=Yb3k-_pRplmt4J2SSfDD44Q-XK971VkVV8jXN2P9l0M,1077
+auto_build_minecraft/tasks/add-hosts.yml,sha256=k02GflSafwAN-W2FRQcFchKiNRYaz5wv1nR66ira5g4,584
+auto_build_minecraft/tasks/create-instance.yml,sha256=kOkrIxpbk4e6x1iEhcCcDosXhfIsgkCaM5NDmzOuT9A,2436
+auto_build_minecraft/tasks/delete-instance.yml,sha256=PD_HJZT0Ihe7XHCEyCXTZKmf7qoUzEf-WBEAyDQaBxo,921
+auto_build_minecraft/tasks/download-world-data.yml,sha256=9diTepuf4s2f1HqVjjL2kJrUL1iIxmcig6zetzijErk,654
+auto_build_minecraft/tasks/run-server.yml,sha256=QrZy3LCrbc2bWno-Kzoxb_cAu5U8AknhmtKsxbjaTFM,1196
+auto_build_minecraft/tasks/start-instance.yml,sha256=uHHoKT4EwEcfK6F4mQ2qVQdWkLm6YxpLfO-vSsCUFLY,321
+auto_build_minecraft/tasks/stop-instance.yml,sha256=H9DlWCEwh6stg2Ner5o49gISn9IgOnEdSKmSIWigGAE,324
+auto_build_minecraft-1.0.0.dist-info/LICENSE,sha256=szI1uDAWijFUsubYRPlM7WTe1o1LCE-qfCdZplFLNw8,1072
+auto_build_minecraft-1.0.0.dist-info/METADATA,sha256=uArTbNtxsBEREEhd7wIu9vTa69kdaJdhrYHpu6eLlTE,2437
+auto_build_minecraft-1.0.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+auto_build_minecraft-1.0.0.dist-info/entry_points.txt,sha256=fxL2k7dqoIVyXkqC40kXucHrCJDD95KC9gaxDdrqwY0,55
+auto_build_minecraft-1.0.0.dist-info/RECORD,,
