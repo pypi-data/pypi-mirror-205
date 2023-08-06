@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+testwithmoshpdf.egg-info/PKG-INFO
+testwithmoshpdf.egg-info/SOURCES.txt
+testwithmoshpdf.egg-info/dependency_links.txt
+testwithmoshpdf.egg-info/top_level.txt
