@@ -1,0 +1,15 @@
+nonebot_poe_chat/__init__.py,sha256=kTrmKYag24b64j_9ZBbw28pKfJNo9KKLo9O3EoaIeZ4,25179
+nonebot_poe_chat/config.py,sha256=wFUmSKbmIxIACXVUYuSxTqnDynK5EEVvDsVZHKqeAkQ,4014
+nonebot_poe_chat/poe_api.py,sha256=Aay_p6GDBRUoV4rUbu2-mxQzVQXh8U4ZJMWyL4AzTc8,9603
+nonebot_poe_chat/poe_func.py,sha256=jZkqwAmCzd_ZCoOiQ71ddDg7SMzAf7cQ_OG5D79_SsY,2718
+nonebot_poe_chat/pwframework.py,sha256=HlnxQyrZ5d82VF_jBSGbv6zm2pp4hrPK2iaE1MCbS08,2107
+nonebot_poe_chat/txt2img.py,sha256=qs7b0QBixiULvOqDa4Eqm8H4LPf4yrkA7QrR2OmB6CI,10622
+nonebot_poe_chat/TXT2IMG/font/sarasa-mono-sc-regular.ttf,sha256=W8eWR92DrTDgaKsfZ5MH3h6U6M7qSRX55aAGC-wdzi8,25896192
+nonebot_poe_chat/TXT2IMG/image/background.png,sha256=z5ECq5Xe4eeu_zEQDNclfzlckIYn2Cd4L05uoawioYY,86342
+nonebot_poe_chat/TXT2IMG/image/banner.png,sha256=ok7JC_-tDtoKsIhdMJWckEGwJZgfCu8WuolSbJSG0YY,1137
+nonebot_poe_chat/TXT2IMG/image/mi_background.png,sha256=z5ECq5Xe4eeu_zEQDNclfzlckIYn2Cd4L05uoawioYY,86342
+nonebot_poe_chat-1.0.7.dist-info/LICENSE.txt,sha256=6M89i6fxPlwJIzA2NE9UC8N4APXtkOOW_ynQ3efpJJ8,12533
+nonebot_poe_chat-1.0.7.dist-info/METADATA,sha256=aRmu1PcA90KH6NIxX-JXDBJy2Lm0ExxCk2LGrU0-N1c,5556
+nonebot_poe_chat-1.0.7.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+nonebot_poe_chat-1.0.7.dist-info/top_level.txt,sha256=FhfCDAqIaI8Xjwp4v1LQ5NgK-hZ-foZvhbQFbDDRlcQ,17
+nonebot_poe_chat-1.0.7.dist-info/RECORD,,
