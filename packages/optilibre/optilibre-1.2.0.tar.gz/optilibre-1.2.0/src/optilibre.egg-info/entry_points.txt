@@ -1,0 +1,2 @@
+[console_scripts]
+optilibre = optilibre.__main__:main

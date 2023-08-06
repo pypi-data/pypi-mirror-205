@@ -1,0 +1,9 @@
+[Unit]
+Description=opti videos
+
+[Timer]
+OnCalendar=0:45
+
+[Install]
+WantedBy=basic.target
+
