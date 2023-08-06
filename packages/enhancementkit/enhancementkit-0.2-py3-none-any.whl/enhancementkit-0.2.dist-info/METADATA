@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: enhancementkit
+Version: 0.2
+Requires-Dist: realesrgan
+Requires-Dist: facexlib
+
