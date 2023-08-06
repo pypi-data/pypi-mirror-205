@@ -1,0 +1,4 @@
+include fuzzyfiles/requirements.txt
+include fuzzyfiles/thirdparty.json
+include fuzzyfiles/README.md
+include fuzzyfiles/LICENSE
