@@ -1,0 +1,11 @@
+matplotlib>=3.7.0
+openpyxl>=3.1.2
+pandas>=2.0.0
+python-docx>=0.8.11
+scipy>=1.10.1
+tqdm>=4.65.0
+
+[dev]
+black>=23.3.0
+coverage>=7.2.3
+flake8>=6.0.0
