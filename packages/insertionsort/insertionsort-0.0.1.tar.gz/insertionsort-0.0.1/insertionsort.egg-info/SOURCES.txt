@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+insertionsort/__init__.py
+insertionsort.egg-info/PKG-INFO
+insertionsort.egg-info/SOURCES.txt
+insertionsort.egg-info/dependency_links.txt
+insertionsort.egg-info/top_level.txt

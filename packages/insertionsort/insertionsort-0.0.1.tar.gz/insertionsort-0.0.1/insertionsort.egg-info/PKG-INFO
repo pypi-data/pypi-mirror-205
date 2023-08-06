@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: insertionsort
+Version: 0.0.1
+Summary: insertion and shell sort algorithms
+Home-page: 
+Author: Filip Kulka
+Author-email: fifkul252@gmail.com
+License: MIT
+Keywords: insertionsort
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+this package contains methods for insertion sort and Shell sort.
