@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: stockly_python_common
+Version: 0.1
+Summary: All useful utils for external stockly developers
+Home-page: https://gitlab.com/vzinjuvadia/stockly-python
+Download-URL: https://gitlab.com/vzinjuvadia/stockly-python/-/archive/1.0.3/stockly-python-1.0.3.tar.gz
+Author: Stockly
+Author-email: dev@stockly.us
+License: MIT
+Keywords: BOT,STOCKLY,PYTHON,STOCKLY_UTILS
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >= 3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# stockly_python
+
+
+
