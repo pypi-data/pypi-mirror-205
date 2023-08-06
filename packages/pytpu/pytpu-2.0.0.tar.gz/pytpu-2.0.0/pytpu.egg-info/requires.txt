@@ -1,0 +1,10 @@
+numpy
+
+[test]
+pytest
+pytest-xdist
+pytest-cov
+Pillow
+flake8
+mypy
+tpu-tlm-is~=0.3.0.1
