@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+base64u/__init__.py
+base64u/base64u.py
+base64u/uint8array.py
+base64u.egg-info/PKG-INFO
+base64u.egg-info/SOURCES.txt
+base64u.egg-info/dependency_links.txt
+base64u.egg-info/not-zip-safe
+base64u.egg-info/top_level.txt
