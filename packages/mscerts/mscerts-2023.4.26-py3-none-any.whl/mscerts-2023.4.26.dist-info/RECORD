@@ -1,0 +1,11 @@
+mscerts/__init__.py,sha256=3N75l2_YZvpGQMZdEvrxpBA0wmqhQNU2ZNodinmoQs8,93
+mscerts/__main__.py,sha256=CqWV8F9ghN_WoT-z0PzqOewN2NiNhROBnvqrUvCqCXM,299
+mscerts/authroot.stl,sha256=yHM8k8xar1yiBtBq8i7o297HZPtQhQGaapGB_rnf3uY,168633
+mscerts/cacert.pem,sha256=1qqKXJ4UWuYDsycIAWlCfaW21aVVRAcKoPqTahlkp98,913878
+mscerts/core.py,sha256=3yCtYmG6D1QuQZ0Dfl3MQbD0MtEvp6Z8Sx1yAlLMkCs,4922
+mscerts/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mscerts-2023.4.26.dist-info/LICENSE,sha256=LcGxittEn9jNAPY_bL5M0yV-6685TKNhRpQjEKmDMRY,749
+mscerts-2023.4.26.dist-info/METADATA,sha256=SDVtt-u3oXNVI1BgMuB7enpLdpIlDUwTWAheIWMaMeE,2769
+mscerts-2023.4.26.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+mscerts-2023.4.26.dist-info/top_level.txt,sha256=_gAy59KBGBowK0H-QH1rOcQTl7xu0H8YxTG-AvB0V90,8
+mscerts-2023.4.26.dist-info/RECORD,,
