@@ -1,0 +1,7 @@
+include locate_pixelcolor_cythonsingle/requirements.txt
+include locate_pixelcolor_cythonsingle/thirdparty.json
+include locate_pixelcolor_cythonsingle/README.md
+include locate_pixelcolor_cythonsingle/colorsearchcythonsingle.pyx
+include locate_pixelcolor_cythonsingle/colorsearchcythonsinglesetup.py
+include locate_pixelcolor_cythonsingle/colorsearchcythonsingle.cp310-win_amd64.pyd
+include locate_pixelcolor_cythonsingle/LICENSE
