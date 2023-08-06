@@ -1,0 +1,13 @@
+mikan/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mikan/classes.py,sha256=LoUsAWUXRV4ZOALYJoba_mD05CwH8-hWf5Xr3NkGNUU,1317
+mikan/config.py,sha256=v8h0HYP8Pva0uFQZpNI_2H9jwFMRnqEfT5lJwITYC2o,1306
+mikan/downloader.py,sha256=hSl_JwTpSGk1b0vfpMu_oEMnYDn_tPXGdhcslkuzi-g,3209
+mikan/html_parser.py,sha256=00EQTMBn3LcCSNCFxtR7NaLNv9GaPl5ILdvBRCdGL_A,5958
+mikan/json_utils.py,sha256=WojS1MrrmW6Baw269mLecz81xpKotGtluKItyaY5CcM,1382
+mikan/main.py,sha256=Yaoe0LRWSGE7WGNlr35ZO7jt32Pfy0JvJpwuUCVCYf0,2217
+mikan/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mikan_card_downloader-1.0.0.dist-info/entry_points.txt,sha256=E4LXlrQBV_7aElxwsYa0q3OzChSbE4igk-rWQwmxNZY,41
+mikan_card_downloader-1.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+mikan_card_downloader-1.0.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+mikan_card_downloader-1.0.0.dist-info/METADATA,sha256=4CA_wFtv6vnPiJ-M6oYEYyjoXt2bH79JiMy1eTQzlUk,594
+mikan_card_downloader-1.0.0.dist-info/RECORD,,
