@@ -1,0 +1,14 @@
+python_openctm-1.0.12.dist-info/LICENSE,sha256=pKPhxZDXujhGkPijGHMdLAAaO9zrPhV18R80hDygI4U,2844
+python_openctm-1.0.12.dist-info/WHEEL,sha256=YVAXCacQXnznQ-_lMj8Nvqrs7YPtMP1pHRCw9EcyWRQ,150
+python_openctm-1.0.12.dist-info/top_level.txt,sha256=CL9a502nOMle7Nb-BTKUJRAcTXLBjpOaTck1_H0_GJo,8
+python_openctm-1.0.12.dist-info/RECORD,,
+python_openctm-1.0.12.dist-info/METADATA,sha256=cCiCryrVAmFGPJICWViJR_ki1ws_ns5n_DA2q4X5A-U,1559
+openctm/io.py,sha256=_pk8PlQVZweIr3IbyE2OyZBdqC9AdLe07dJkygKIkRI,3451
+openctm/__init__.py,sha256=qyoB-soRBclCgKXcaQD4vldr-_FCGq5SfAiWWbfgDH4,46
+openctm/openctm.py,sha256=UPQpMV_4cFCkjFiBmoaMoAewoNPqdI9mEczRhyy8xEs,6810
+openctm/version.py,sha256=ZG-qYTZd9tnM6yhKhsqAqdfD7BQJk-XbcBhQJEmdeeM,23
+openctm/libs/openctm.o,sha256=d14wTFLGlBL0P-4GcbSTPsHzJIWfmg0o_55YRjrvvCU,16832
+openctm/libs/openctm.rc,sha256=quODD-PsYEmQQgaumpXYYH-kAa3Xry36BMTeRGNVv40,621
+openctm/libs/openctm.h,sha256=Az7vtgYlWb06mgtdexEf8YCSeLX_B5YWQXnvXSDeOpM,30825
+openctm/libs/openctm.c,sha256=iNPSHX8vvK-KNt0YAHQQ0oMNvx_QnCQvyYhChjQLMho,38076
+openctm/libs/libopenctm.so,sha256=_TZuiAvM8YE_AAx6IFnqr4VnXgRcrab6LZ-ABxNW2KQ,96832
