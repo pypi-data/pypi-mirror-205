@@ -1,0 +1,54 @@
+# Optilibre
+
+Optilibre is a simple python program to automatically optimize video and images files using ffmpeg
+and other image optimizers.
+See _Supported formats_ to have a list of supported file format you can convert to/from.
+
+Official repo : [https://gitlab.com/daufinsyd/optilibre](https://gitlab.com/daufinsyd/optilibre)
+
+## Installation
+
+Install using pip :
+```
+pip install optilibre
+```
+
+And run using
+```
+python -m optilibre -h
+```
+
+You can find a systemd service and timer in systemd folder, which you can copy to /etc/systemd/system/ . 
+
+## Requirements
+
+See _Supported formats_ .
+
+## Configuration
+
+Copy and edit optilibre.example.conf to optilibre.conf . For each path registered in optilibre.conf, create 
+optilibre.toml configuration file inside the dest folder (optilibre.example.toml is here a reference).
+
+### Video
+The directive [optivideo] configure the video encoder.
+The directive [optivideo.meta] defines which meta args should ffmpeg use.
+The directive [optivideo.audio] defines which codec should ffmpeg use to audio.
+The directive [optivideo.video] defines which codec should ffmpeg use to video.
+The directive [optivideo.CODEC] defines a list of options for ffmpeg to be passed through. See man ffmpeg.
+
+### Image
+The directive [optiimage] configure the image encoder.
+The directive [optiimage.CODEC] defines a list of options for the image encoder to be passed through. See man <image_encoder>.
+
+
+## Supported formats
+### Video
+
+ - any -> h264 (requires ffmpeg with libx264 encoder)
+ - any -> h265 (requires ffmpeg with libx265 encoder)
+
+### Images
+
+ - jpeg -> jpeg (requires jpegoptim)
+ - any jpeg -> jpeg-xl (requires cjxl)
+

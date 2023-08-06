@@ -1,0 +1,21 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel",
+    "setuptools_scm[toml]>=6.2"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "optilibre"
+dynamic = ["dependencies", "version"]
+
+[project.scripts]
+optilibre = "optilibre.__main__:main"
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[tool.setuptools_scm]
+write_to = "src/optilibre/_version.py"
+git_describe_command = "git describe --tags --match 'v*' --first-parent"

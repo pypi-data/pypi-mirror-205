@@ -1,0 +1,14 @@
+_version.py
+.conf
+*.pyc
+__pycache__/
+.idea
+venv
+optilibre.conf
+
+# Packaging
+src/optilibre.egg-info/
+dist
+
+# Systems
+.DS_Store
