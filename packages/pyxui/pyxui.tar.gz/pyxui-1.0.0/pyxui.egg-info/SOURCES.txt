@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+pyxui/__init__.py
+pyxui/xui.py
+pyxui.egg-info/PKG-INFO
+pyxui.egg-info/SOURCES.txt
+pyxui.egg-info/dependency_links.txt
+pyxui.egg-info/top_level.txt
