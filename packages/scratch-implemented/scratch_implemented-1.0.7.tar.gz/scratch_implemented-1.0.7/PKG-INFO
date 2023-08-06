@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: scratch_implemented
+Version: 1.0.7
+Summary: Machine Learning Models
+Home-page: UNKNOWN
+Author: Gleb Maksimov
+Author-email: glebmaksimov092@gmail.com
+License: MIT
+Keywords: ML,FROM SCRATCH,ADVANCED
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+
+UNKNOWN
+
