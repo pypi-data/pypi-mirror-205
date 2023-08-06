@@ -1,0 +1,5 @@
+setup.py
+boston.egg-info/PKG-INFO
+boston.egg-info/SOURCES.txt
+boston.egg-info/dependency_links.txt
+boston.egg-info/top_level.txt
