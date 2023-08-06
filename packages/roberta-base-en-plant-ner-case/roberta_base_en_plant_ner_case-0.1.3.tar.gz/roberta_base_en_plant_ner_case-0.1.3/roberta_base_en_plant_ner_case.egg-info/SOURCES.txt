@@ -1,0 +1,8 @@
+README.md
+setup.py
+model/__init__.py
+roberta_base_en_plant_ner_case.egg-info/PKG-INFO
+roberta_base_en_plant_ner_case.egg-info/SOURCES.txt
+roberta_base_en_plant_ner_case.egg-info/dependency_links.txt
+roberta_base_en_plant_ner_case.egg-info/requires.txt
+roberta_base_en_plant_ner_case.egg-info/top_level.txt
