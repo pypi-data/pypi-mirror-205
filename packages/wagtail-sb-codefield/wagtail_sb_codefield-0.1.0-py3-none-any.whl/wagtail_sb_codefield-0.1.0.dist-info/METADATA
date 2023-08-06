@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: wagtail-sb-codefield
+Version: 0.1.0
+Summary: FontAwesome for Wagtail Admin.
+Home-page: https://gitlab.com/softbutterfly/open-source/wagtail-sb-codefield
+License: MIT
+Keywords: Softbutterfly,Django,Migrations
+Author: SoftButterfly Development Team
+Author-email: dev@softbutterfly.io
+Requires-Python: >=3.8.1,<4.0.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: django (<5.0)
+Requires-Dist: django_sb_codefield (<1.0.0)
+Requires-Dist: wagtail (<5.0)
+Project-URL: Bug Tracker, https://gitlab.com/softbutterfly/open-source/wagtail-sb-codefield/-/issues
+Project-URL: Documentation, https://gitlab.com/softbutterfly/open-source/wagtail-sb-codefield/-/wikis
+Project-URL: Download, https://gitlab.com/softbutterfly/open-source/wagtail-sb-codefield/-/archive/v0.1.0/wagtail-sb-codefield-v0.1.0.tar.gz
+Project-URL: Repository, https://gitlab.com/softbutterfly/open-source/wagtail-sb-codefield
+Description-Content-Type: text/markdown
+
+![Community-Project](https://gitlab.com/softbutterfly/open-source/open-source-office/-/raw/master/banners/softbutterfly-open-source--banner--community-project.png)
+
+![PyPI - Supported versions](https://img.shields.io/pypi/pyversions/wagtail-sb-codefield)
+![PyPI - Package version](https://img.shields.io/pypi/v/wagtail-sb-codefield)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/wagtail-sb-codefield)
+![PyPI - MIT License](https://img.shields.io/pypi/l/wagtail-sb-codefield)
+
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/2f6661a360234960b1800c0bdac37d3c)](https://app.codacy.com/gl/softbutterfly/wagtail-sb-codefield/dashboard?utm_source=gl&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+
+# Wagtail Codefield
+
+Use CodeField from [`django-sb-codefield`](https://gitlab.com/softbutterfly/open-source/django-sb-codefield) in Wagtail Admin
+
+## Requirements
+
+- Python 3.8.1 or higher but lower than 4.0.0
+- Django lower than 4.0.0
+- Wagtail lower than 4.0.0
+- django-sb-codefield lower than 1.0.0
+
+## Install
+
+```bash
+pip install wagtail-sb-codefield
+```
+
+## Usage
+
+Add `wagtail_sb_codefield`, `django_sb_codefield` and `codemirror2` to your `INSTALLED_APPS` settings
+
+```
+INSTALLED_APPS = [
+  # ...
+  "codemirror2",
+  "django_sb_codefield",
+  "wagtail_sb_codefield",
+]
+```
+
+## Docs
+
+- [Ejemplos](https://gitlab.com/softbutterfly/open-source/wagtail-sb-codefield/-/wikis)
+- [Wiki](https://gitlab.com/softbutterfly/open-source/wagtail-sb-codefield/-/wikis)
+
+## Changelog
+
+All changes to versions of this library are listed in the [change history](CHANGELOG.md).
+
+## Development
+
+Check out our [contribution guide](CONTRIBUTING.md).
+
+## Contributors
+
+See the list of contributors [here](https://gitlab.com/softbutterfly/open-source/wagtail-sb-codefield/-/graphs/develop).
+

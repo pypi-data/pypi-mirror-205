@@ -1,0 +1,36 @@
+<script type="text/javascript">
+  (function() {
+    var interval = setInterval(function() {
+      if (typeof CodeMirror !== 'undefined') {
+        var editorElement = document.getElementById("id_{{ name }}");
+        var editor = CodeMirror.fromTextArea(editorElement, {{ options|safe }});
+
+        var sections = document.querySelectorAll("form .tab-content > section")
+
+        if (sections.length > 0) {
+          for(var i = 0; i < sections.length; i++) {
+            var parentSection = sections[i]
+            editorElement = parentSection.querySelector("#id_{{ name }}")
+
+            if (editorElement) {
+              const parentTab = document.querySelector('[href="#' + parentSection.id + '"]')
+
+              if (parentTab) {
+                parentTab.addEventListener('click', function() {
+                  setTimeout(
+                    function() {
+                      editor.refresh()
+                    },
+                    50
+                  )
+                })
+              }
+            }
+          }
+        }
+
+        clearInterval(interval);
+      }
+    }, 100);
+  })();
+</script>
