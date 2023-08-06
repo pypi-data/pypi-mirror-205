@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/doc_to_md/__init__.py
+src/doc_to_md/doc_to_md.py
+src/doc_to_readme.egg-info/PKG-INFO
+src/doc_to_readme.egg-info/SOURCES.txt
+src/doc_to_readme.egg-info/dependency_links.txt
+src/doc_to_readme.egg-info/top_level.txt
+tests/test.py
