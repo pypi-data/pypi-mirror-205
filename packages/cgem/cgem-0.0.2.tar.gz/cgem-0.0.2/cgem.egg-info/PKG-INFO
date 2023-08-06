@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: cgem
+Version: 0.0.2
+Summary: A library for Collaborative Generalized Effects Modeling (CGEM).
+Home-page: https://www.linkedin.com/in/jamesrolfsen/
+Author: James Rolfsen
+Author-email: james.rolfsen@think.dev
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9

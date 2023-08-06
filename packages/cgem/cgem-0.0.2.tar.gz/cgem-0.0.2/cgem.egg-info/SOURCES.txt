@@ -1,0 +1,6 @@
+setup.py
+cgem/__init__.py
+cgem.egg-info/PKG-INFO
+cgem.egg-info/SOURCES.txt
+cgem.egg-info/dependency_links.txt
+cgem.egg-info/top_level.txt
