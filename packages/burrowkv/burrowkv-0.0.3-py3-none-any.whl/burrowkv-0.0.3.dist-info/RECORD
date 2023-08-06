@@ -1,0 +1,9 @@
+burrowkv/__init__.py,sha256=BIolRjT3pfO8UVMslTWtLqeW-nranJwtD2CyVzgIV8g,55
+burrowkv/burrowkv.py,sha256=EflnyZk99_9PskgLZVhIHdgLZfK92cJzWhckfxnD7-Q,4722
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_burrowkv.py,sha256=StkyjbGzurOZKiCmBXSJYfXjNw7Ittk6JtoXtx4CB0Q,1706
+burrowkv-0.0.3.dist-info/LICENSE,sha256=JTn8WRaWY5zmCDFnH_gFfIvt8U5Vs4F0ZDG0J_awqZg,1064
+burrowkv-0.0.3.dist-info/METADATA,sha256=XMhBe199YXD6Eq1bXHLpHji6sJuQytuRGf0qWuv2ohc,1924
+burrowkv-0.0.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+burrowkv-0.0.3.dist-info/top_level.txt,sha256=lGP2TDwcq6VQuGmyS4xnGGLMDARc0AitofBLSRmZEOI,15
+burrowkv-0.0.3.dist-info/RECORD,,
