@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: business-common
+Version: 1.0.0
+Summary: fund evaluation description
+Home-page: http://192.168.14.111/investoday-open/pypi/business-common
+Author: 刘殿欢乐
+Author-email: liudhl@investoday.com.cn
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pyhdfs
+Requires-Dist: pymssql
+Requires-Dist: datetime
+Requires-Dist: sqlalchemy
+
