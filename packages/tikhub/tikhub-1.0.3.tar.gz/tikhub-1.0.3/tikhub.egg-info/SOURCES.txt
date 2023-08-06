@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+test/test.py
+tikhub/AiohttpClient.py
+tikhub/Auth.py
+tikhub/DouyinAPI.py
+tikhub/TikTokAPI.py
+tikhub/Utils.py
+tikhub/__init__.py
+tikhub.egg-info/PKG-INFO
+tikhub.egg-info/SOURCES.txt
+tikhub.egg-info/dependency_links.txt
+tikhub.egg-info/requires.txt
+tikhub.egg-info/top_level.txt
