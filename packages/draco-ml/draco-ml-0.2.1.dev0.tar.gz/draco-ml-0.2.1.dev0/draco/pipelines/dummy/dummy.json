@@ -1,0 +1,7 @@
+{
+    "primitives": [
+        "sklearn.impute.SimpleImputer",
+        "sklearn.preprocessing.MinMaxScaler",
+        "sklearn.linear_model.LogisticRegression"
+    ]
+}
