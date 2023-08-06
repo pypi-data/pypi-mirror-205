@@ -1,0 +1,188 @@
+Metadata-Version: 2.1
+Name: streamlit-controllerDF
+Version: 0.1.2
+Summary: A solid base for controlling your data frame, getting quick metrics, and data visualizations using streamlit, pandas, numpy and matplotlib.
+Home-page: https://github.com/joshjetson/SCDF/
+Author: Joshua Dario
+Author-email: joshuajdr@gmail.com
+License: MIT
+Keywords: Python,streamlit,dataframe,data frame,data set,visualization,automatic,widgets,automation,machine learning,quick,controller,controllerdf,controllerDF,streamlit controller,streamlit data frame,streamlit controllerDF
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+<p align="center">
+  <img src="https://i.imgur.com/4TfRxmI.png" alt="ctrldf"></img>
+  <br/>
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/python-3670A0?style=plastic&logo=python&logoColor=ffdd54"></img></a>
+  <a href="https://streamlit.io/"><img src="https://img.shields.io/badge/-Streamlit-61DAFB?style=plastic&logo=streamlit"></img></a>
+  <a href="https://matplotlib.org/"><img src="https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=plastic&logo=matplotlib&logoColor=black"></img></a>
+  <a href="https://numpy.org/doc/stable/index.html"><img src="https://img.shields.io/badge/numpy-%23013243.svg?style=plastic&logo=numpy&logoColor=white"></img></a>
+  <a href="https://pandas.pydata.org/docs/index.html"><img src="https://img.shields.io/badge/pandas-%23150458.svg?style=plastic&logo=pandas&logoColor=white"></img></a>
+  <a href="http://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=plastic"></img></a>
+  </a>
+
+  
+  <br/>
+  <a href="#Documentation">Documentation</a> ·
+  <a href="https://github.com/joshjetson/SCDF/issues">Report a Bug</a> ·
+  <a href="#Demo">Demo</a> .
+  <a href="https://github.com/joshjetson/SCDF/issues">Request Feature</a> ·
+  <a href="https://github.com/joshjetson/SCDF/pulls">Send a Pull Request</a>
+
+</p>
+
+## Controller DF
+
+[]()
+
+<i>A python library which creates a simple and easy to use data frame controller.
+Using this library, along with streamlit and minimal (*included*) code, anyone can spin up a web app which allows you to control, manipulate and display a data set quickly and easily.
+</i>
+
+## Demo
+
+<table>
+<tr>
+<td>
+<center>
+
+<img src="https://i.imgur.com/U0lIrfy.gif"></img>
+
+- Quick column metrics
+
+  <img src="https://i.imgur.com/RuYRpFY.gif"></img>
+
+- Rapid column filter
+
+  <img src="https://i.imgur.com/M0yiOv1.png"></img>
+
+- Instant type based column widgets
+
+  <img src="https://i.imgur.com/OaROx3r.png"></img>
+</center>
+
+</table>
+</tr>
+</td>
+
+## Installation
+
+```
+$ pip install streamlit-controllerDF
+```
+
+## Getting started
+
+<i>After you pip install the module</i>
+
+
+
+**Batteries included method:**
+
+
+
+<details><summary>Quick start</summary>
+
+>
+> - `Copy the included test_code.py contents`
+> - <a href="https://raw.githubusercontent.com/joshjetson/SCDF/master/test_code.py">test_code here click me</a>
+> - `Create a new python file and paste the contents of test_code.py into it`
+> - `Name the file something you like and then:`
+> ~~~
+> $ streamlit run your_project.py 
+> ~~~
+> - `Drag and drop csv file`
+> - `Enjoy!`
+
+</details>
+
+
+
+**Batteries excluded method:**
+
+
+
+<details><summary>Module only</summary>
+
+> ~~~
+> import streamlit_controllerDF as sc
+> ~~~
+> - `see documentation for usage`
+
+
+</details>
+
+## Documentation
+
+<table>
+<tr>
+<td>
+
+**class streamlit_controllerDF.Widgets(dataframe, omit_columns=list())**
+
+
+> Parameters:
+>> - dataframe: A pandas data frame
+>>> - *Two-dimensional, size-mutable, potentially heterogeneous tabular data.*
+>> - omit_columns: A list of column names to be excluded
+>>> - *The column names must be exact*
+
+#### Example
+```
+import streamlit_controllerDF as sc
+import pandas as pd
+
+mydf = pd.read_csv('mycsv.csv')
+
+ctrldf = sc.Widgets(mydf,omit_columns=['Engine_Size', 'Year'])
+```
+
+**method streamlit_controllerDF.Widgets.metrics()**
+
+> Parameters:
+>> - *None*
+
+#### Example
+```
+import streamlit_controllerDF as sc
+import pandas as pd
+
+mydf = pd.read_csv('mycsv.csv')
+
+ctrldf = sc.Widgets(mydf,omit_columns=['Engine_Size', 'Year'])
+
+ctrldf.metrics()
+```
+
+</table>
+</tr>
+</td>
+
+## Limitations
+- *This library is currently limited to support only files under 20MB*
+- *Due to browser limitations only 12000 rows of data can be viewed at a time*
+
+## To Do
+*This library is the base of a much larger project.*
+- [ ] Create a chart method which will populate various charts automatically
+- [ ] Create a model method which will populate various ML models automatically
+- [ ] Add support for automated api data import
+- [ ] Add support for relational and non relational data bases
+- [ ] Add support for automated queries
+- [ ] Add support for big data
+- [ ] Create large file size detection and implement chunking automatically
+- [ ] Migrate from Pandas to Dask
+- [ ] After Dask migration remove file size limitation
+
+Thank you for viewing my project
+sincerely
