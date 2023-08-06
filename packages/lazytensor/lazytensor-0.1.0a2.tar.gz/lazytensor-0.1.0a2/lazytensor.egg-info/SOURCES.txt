@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+lazytensor/VERSION
+lazytensor/__init__.py
+lazytensor/base.py
+lazytensor.egg-info/PKG-INFO
+lazytensor.egg-info/SOURCES.txt
+lazytensor.egg-info/dependency_links.txt
+lazytensor.egg-info/requires.txt
+lazytensor.egg-info/top_level.txt

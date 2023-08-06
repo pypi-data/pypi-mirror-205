@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: lazytensor
+Version: 0.1.0a2
+Summary: An interface for lazy evaluation of tensors in linear algebra routines
+Home-page: https://github.com/kushalkolar/lazytensor
+Author: Kushal Kolar
+Author-email: 
+License: Apache-Software-License
+License-File: LICENSE
+
+# lazytensor
+An interface for lazy evaluation of tensors in linear algebra routines
