@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+jpip/__init__.py
+jpip/hello.py
+jpip.egg-info/PKG-INFO
+jpip.egg-info/SOURCES.txt
+jpip.egg-info/dependency_links.txt
+jpip.egg-info/top_level.txt
