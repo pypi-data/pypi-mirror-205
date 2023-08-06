@@ -1,0 +1,17 @@
+gpt4free/__init__.py,sha256=QQkEVHItMz8iPk4BJhO0klk6SoTW_mi8o_zKCeCP5Ho,136
+gpt4free/forefront/__init__.py,sha256=ppwIHblvmbxcLN6WtR7gzmcChl8LRG-2Ddp06d1uKmY,5464
+gpt4free/forefront/mail.py,sha256=afnB09Ie6oG3uTVteNXUnMlB-oJnLgq1cHpdqryIjcI,2147
+gpt4free/forefront/typing.py,sha256=1EQSqG1B5xFAyV8NN59BKzTo5QltNtI0WSF0ZlYMYyk,1795
+gpt4free/quora/__init__.py,sha256=p3INr7uemoBkxQTWJ2pFVIWKTlsWVxDeIwxA_cxojRM,22519
+gpt4free/quora/api.py,sha256=hVDd9wVU93KVeSm9y1djV2Q_za-hMQzFb1uKH_MjCKM,19819
+gpt4free/quora/mail.py,sha256=ZzFHYRWm3XyxvKmFltZk7aKe6oudLZxOj5Yf9K7aqYA,2391
+gpt4free/quora/graphql/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gpt4free/theb/__init__.py,sha256=IusZdlcl2hrNPiitOJyZidGGl7NJ29AuyraCUdQD8Qc,1699
+gpt4free/theb/theb_test.py,sha256=niUD5chDAoDSxRRIaCzxqVuIqdfDzYJFscsLKC2PHVo,104
+gpt4free/you/__init__.py,sha256=zAtPn2wgGpD_AN2lw1zZAN9BT8r55YJqaVy1H13vl6Y,3716
+gpt4free-0.1.0.dist-info/AUTHORS.md,sha256=YN7vgLqulJbDfciW1D-rC7owDh3lWmmsuErPfY607Gk,171
+gpt4free-0.1.0.dist-info/LICENSE,sha256=OD0pfxlvOhAIs3PXKu796PvXHZYf2fDyf1TMrjSoAH4,1739
+gpt4free-0.1.0.dist-info/METADATA,sha256=tBmEm0IrssftOfVigdErJ79yzWnrzRDF_dYXX6d5OTk,1662
+gpt4free-0.1.0.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+gpt4free-0.1.0.dist-info/top_level.txt,sha256=TMSLSEu9xJvofZaUO1Cep3ibNSdXSODV1xpLki_3Mmo,9
+gpt4free-0.1.0.dist-info/RECORD,,
