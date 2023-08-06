@@ -1,0 +1,8 @@
+# (generated with --quick)
+
+import torch as th
+from typing import Any
+
+Categorical: Any
+kl_categorical_categorical: Any
+register_kl: Any

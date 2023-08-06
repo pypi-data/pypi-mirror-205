@@ -1,0 +1,20 @@
+# (generated with --quick)
+
+import gymnasium as gym
+import hsuanwu.xploit.encoder.base
+import torch as th
+from torch import nn
+from typing import Any, Type
+
+BaseEncoder: Type[hsuanwu.xploit.encoder.base.BaseEncoder]
+DictConfig: Any
+
+class TassaCnnEncoder(hsuanwu.xploit.encoder.base.BaseEncoder):
+    __doc__: str
+    layer_norm: Any
+    linear: Any
+    trunk: Any
+    def __init__(self, observation_space, feature_dim: int = ...) -> None: ...
+    def forward(self, obs) -> Any: ...
+
+def network_init(m) -> None: ...
