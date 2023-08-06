@@ -1,0 +1,8 @@
+setup.py
+vtb_biname/__init__.py
+vtb_biname/vtb_biname.py
+vtb_biname.egg-info/PKG-INFO
+vtb_biname.egg-info/SOURCES.txt
+vtb_biname.egg-info/dependency_links.txt
+vtb_biname.egg-info/requires.txt
+vtb_biname.egg-info/top_level.txt

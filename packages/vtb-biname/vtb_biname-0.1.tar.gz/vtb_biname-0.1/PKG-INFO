@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: vtb_biname
+Version: 0.1
+Summary: A binary organization/ individual name classification library for PySpark
+Home-page: https://github.com/NguyenThaoVi0702/vtb_biname
+Author: Nguyen Thao Vi
+Author-email: vinguyen7202@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
