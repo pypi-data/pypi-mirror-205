@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+storelibrarycpp/Main.py
+storelibrarycpp/__init__.py
+storelibrarycpp.egg-info/PKG-INFO
+storelibrarycpp.egg-info/SOURCES.txt
+storelibrarycpp.egg-info/dependency_links.txt
+storelibrarycpp.egg-info/requires.txt
+storelibrarycpp.egg-info/top_level.txt

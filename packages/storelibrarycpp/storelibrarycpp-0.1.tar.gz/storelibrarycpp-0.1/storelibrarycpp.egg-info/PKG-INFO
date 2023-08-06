@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: storelibrarycpp
+Version: 0.1
+Summary: This package is used for store management software system
+Home-page: https://github.com/user/reponame
+Download-URL: https://github.com/Surya22103961/StoreLibraryCpp/releases/tag/v_01
+Author: Surya Porandla
+Author-email: porandlasuryair@gmail.com
+License: MIT
+Keywords: Store,Management,stock
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE.txt
