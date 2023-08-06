@@ -1,0 +1,4 @@
+include a_pandas_ex_df_to_string/requirements.txt
+include a_pandas_ex_df_to_string/thirdparty.json
+include a_pandas_ex_df_to_string/README.MD
+include a_pandas_ex_df_to_string/LICENSE
