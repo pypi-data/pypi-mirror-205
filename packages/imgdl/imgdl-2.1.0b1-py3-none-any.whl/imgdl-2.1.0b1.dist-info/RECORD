@@ -1,0 +1,14 @@
+imgdl/__init__.py,sha256=9UuX1cItqynP3Q5hp270YliNrCRCgmaTctRBFULyukY,86
+imgdl/cli.py,sha256=jKpyMeo-bCsjEz7vrvJTsQCJ3eTtPcVtr3mbU26o_gY,1779
+imgdl/downloader.py,sha256=1Gum5MePB2BfFX4DAlhdgeqQOxnoUL_ycb5Y2qcU9Sc,8117
+imgdl/settings.py,sha256=ngi1PhbGxunTZTBk6SzbmTszJ9YNHYyTK2OhUduTaVU,1024
+imgdl/storage/__init__py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imgdl/storage/backend.py,sha256=rk_N_wWBb90JnbDfTfp6yNCUyI7jFnEb_oolTdahxik,918
+imgdl/storage/base.py,sha256=qmJMAMaDtpdXWPRCxRTPTT7i6M5JKI2ODfey8gfe9d8,404
+imgdl/storage/gcloud.py,sha256=OCHdJF8fslKJvJ-a_4GShp1Jq7czWQ5vTiw8TJrD8u4,1050
+imgdl/storage/local.py,sha256=qlCwYBuNI34vx50iYsG3f2dW9gPlE1NNYe_TEqah7Xg,557
+imgdl-2.1.0b1.dist-info/LICENSE,sha256=5nftok-ijTXBqegPHZBGMsgro8UCGUAfBGqs1diae2o,1079
+imgdl-2.1.0b1.dist-info/METADATA,sha256=Q3-OtSWrGDEU-cGuJqqyQ64BX2BG1NSPKpOGMWqC8O8,5758
+imgdl-2.1.0b1.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+imgdl-2.1.0b1.dist-info/entry_points.txt,sha256=ExtFHSCF08yvcacAQZh4hdWP9Q_lac1mGiuR7EK_y-c,40
+imgdl-2.1.0b1.dist-info/RECORD,,
