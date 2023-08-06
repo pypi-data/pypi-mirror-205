@@ -1,0 +1,2 @@
+[console_scripts]
+soilgrids = soilgrids.cli:main
