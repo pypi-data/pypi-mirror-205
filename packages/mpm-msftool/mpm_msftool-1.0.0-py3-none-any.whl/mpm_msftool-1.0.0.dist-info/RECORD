@@ -1,0 +1,11 @@
+msftool/__init__.py,sha256=fG5ebJJLXrG_220IZnhcNJfbeIiPGE-UHNSQkh7u4v8,99
+msftool/__main__.py,sha256=kA4L3uEa5fnIPOSpk4H8G9zIZXqB__TmAunKLp9EMi4,1105
+msftool/cli.py,sha256=eSOWZFRB8adqCbMf-ANexP-C56D0cHjSYK9dWt23p70,2050
+msftool/packer.py,sha256=ZY3R6rpKM1MRjjGnZcdduABmJlKXWnRIzvsNrk9rPs0,1961
+msftool/unpacker.py,sha256=1ukzGcIvfl0grirken3K8TNlfcK4tn6vA0vrmkqYVFs,2369
+mpm_msftool-1.0.0.dist-info/COPYING,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+mpm_msftool-1.0.0.dist-info/METADATA,sha256=EH8XzgMwj5pEVlukWPy8U1dD0RL3JNvnpHn4SNW1VaU,232
+mpm_msftool-1.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+mpm_msftool-1.0.0.dist-info/entry_points.txt,sha256=9VDnW7WvCUVPHDM_Zb6b3G9MeYNkecsSYXAQZCbxfhQ,50
+mpm_msftool-1.0.0.dist-info/top_level.txt,sha256=u_Qtw_66pSlvQwWse54jXfjQ-PiJgaoTX8l8uKHKYzE,8
+mpm_msftool-1.0.0.dist-info/RECORD,,

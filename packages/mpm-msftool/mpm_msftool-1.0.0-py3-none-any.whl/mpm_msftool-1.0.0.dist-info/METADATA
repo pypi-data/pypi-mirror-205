@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: mpm-msftool
+Version: 1.0.0
+Summary: CLI tool to unpack/pwck MSF files from Max Payne Mobile
+Home-page: https://github.com/santiago046/mpm-msftool
+Author: santiago046
+License: GPLv3
+License-File: COPYING
+
