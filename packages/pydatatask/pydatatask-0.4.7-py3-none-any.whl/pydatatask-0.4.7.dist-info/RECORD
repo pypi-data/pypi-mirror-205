@@ -1,0 +1,17 @@
+pydatatask/__init__.py,sha256=D-lExG_nfj2LQxus_-ng4ptllUUh0ayM6eXIY3Xlh-g,351
+pydatatask/fuse.py,sha256=4I6EXuDYuh4b3E1WIxhg6yVpHesAkEbolMOn1u8rF8U,5142
+pydatatask/main.py,sha256=TKuQBG1B0luXg1B767m3NCFMhBb0sy76xAF4BUY2E48,13152
+pydatatask/pipeline.py,sha256=V7tox45jSDXtu7ITzetuQz5f_QQnps3xm1Yf5Nq4u74,8729
+pydatatask/pod_manager.py,sha256=pHEHf21zxeIfkS70Q5EaoYLBALYJFsmlSznzmCwM_Xk,4691
+pydatatask/proc_manager.py,sha256=30hNZbQJb9JBFamCwQwfVSigI8pLWJWxKmE6Ods8yfc,10183
+pydatatask/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydatatask/repository.py,sha256=zeDldp5vGJwbnReletX4UCisgC_Ne4Mbbs2dWJ1jE6s,39077
+pydatatask/resource_manager.py,sha256=m3zeeeU-BxA0vdpqgQ1lISUfH1Sjn7yMNt_wK2I8DSA,5410
+pydatatask/session.py,sha256=p3s_ki04e9WZWL1XUqNB8QKRvZKWGPYkxmzOI09Eb-A,2936
+pydatatask/task.py,sha256=22dn0ACIc1MDSmuNWgp2fzJPISYIHz3Rlq4-9b5tWy4,45791
+pydatatask/utils.py,sha256=wbJBdf_9jgHepbXKU3yOtjqq-PoiyrKlzygdi_criuQ,3891
+pydatatask-0.4.7.dist-info/LICENSE,sha256=ntoW9ONPxlmDk8VwaJ2DL-SxQmZOqMOn2FU1_-NQmeE,1054
+pydatatask-0.4.7.dist-info/METADATA,sha256=tft4z4DVQFkJZFmk_1pDWbZ4VWsGcIA-coZHVF6Zthw,2984
+pydatatask-0.4.7.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+pydatatask-0.4.7.dist-info/top_level.txt,sha256=xvopfGo_2tDmpANJ8CEX2E1F1LatD4e_cZH9PQilwvI,11
+pydatatask-0.4.7.dist-info/RECORD,,
