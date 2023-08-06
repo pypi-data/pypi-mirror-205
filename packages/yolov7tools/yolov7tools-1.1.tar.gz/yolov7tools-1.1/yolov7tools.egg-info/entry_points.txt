@@ -1,0 +1,3 @@
+[console_scripts]
+cvat-dataset = yolov7tools.bin.launch_cvat:main
+fiftyone-dataset = yolov7tools.bin.launch_fiftyone:main
