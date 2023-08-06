@@ -1,0 +1,15 @@
+all: tests
+
+test version:
+  podman container run \
+    --rm \
+    -e PYTHONPATH=/mnt/source/src \
+    --mount type=bind,source=.,destination=/mnt/source \
+    --security-opt label=disable \
+    --workdir /mnt/source \
+    --userns keep-id \
+    --user "$(id -u):$(id -g)" \
+    python:{{version}} \
+    python -munittest
+
+tests: (test "3.8") (test "3.9") (test "3.10") (test "3.11") 
