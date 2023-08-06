@@ -1,0 +1,47 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Contul a fost configurat deja",
+            "reauth_successful": "Re-autentificarea s-a realizat cu succes"
+        },
+        "error": {
+            "invalid_auth": "Autentificare nevalid\u0103",
+            "unknown": "Eroare nea\u0219teptat\u0103"
+        },
+        "step": {
+            "installation": {
+                "data": {
+                    "giid": "Instalare"
+                },
+                "description": "Home Assistant a g\u0103sit mai multe instal\u0103ri Verisure \u00een contul My Pages. Te rug\u0103m s\u0103 selectezi pe care dore\u0219ti s\u0103 o adaugi \u00een Home Assistant."
+            },
+            "reauth_confirm": {
+                "data": {
+                    "description": "Reconecteaz\u0103-te cu contul t\u0103u Verisure My Pages.",
+                    "email": "E-mail",
+                    "password": "Parola"
+                }
+            },
+            "user": {
+                "data": {
+                    "description": "Autentific\u0103-te cu contul Verisure My Pages",
+                    "email": "E-mail",
+                    "password": "Parola"
+                }
+            }
+        }
+    },
+    "options": {
+        "error": {
+            "code_format_mismatch": "Codul PIN implicit nu are num\u0103rul necesar de cifre"
+        },
+        "step": {
+            "init": {
+                "data": {
+                    "lock_code_digits": "Num\u0103rul de cifre ale codului PIN pentru \u00eencuietori",
+                    "lock_default_code": "Cod PIN implicit pentru \u00eencuietori, utilizat dac\u0103 nu este furnizat niciun altul"
+                }
+            }
+        }
+    }
+}
