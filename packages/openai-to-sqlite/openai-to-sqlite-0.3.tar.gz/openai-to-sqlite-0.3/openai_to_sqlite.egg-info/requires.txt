@@ -1,0 +1,9 @@
+click
+httpx
+sqlite-utils>=3.28
+openai
+
+[test]
+pytest
+pytest-httpx
+pytest-mock
