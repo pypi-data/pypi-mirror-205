@@ -1,0 +1,12 @@
+forbidden/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+forbidden/forbidden.py,sha256=sk_fLtzCQOOgQJunH1_V8mfascSY8CIliz4WfUfioDE,44708
+forbidden/user_agents.txt,sha256=OZjdIDWQsAKjn4WHtDIFvmx-d45Pwbj1cbebrkjqnXc,11269
+stresser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stresser/stresser.py,sha256=AwBM0blxwiMERO22yiQVpv2_VnUYtNzZSkea_-6vv8Q,19791
+stresser/user_agents.txt,sha256=OZjdIDWQsAKjn4WHtDIFvmx-d45Pwbj1cbebrkjqnXc,11269
+forbidden-9.5.dist-info/LICENSE,sha256=u4hDbzz7114mG5wzZS6_hY00Km6Mazos4WYRJ3p-vBw,1090
+forbidden-9.5.dist-info/METADATA,sha256=SrMr8r_AfPo0wzKAzzk_a4dYgnpM6iBDImLdroMGNP4,12518
+forbidden-9.5.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+forbidden-9.5.dist-info/entry_points.txt,sha256=G6IudO-bcihd3D23BWGA3HRxZyynQHfUy5br39wBiKg,89
+forbidden-9.5.dist-info/top_level.txt,sha256=22hBpW5gfBhqUYPEhJ5MgDh36JGt44_1oYuq9OHGMNc,19
+forbidden-9.5.dist-info/RECORD,,
