@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+mypackage_prince_boom/__init__.py
+mypackage_prince_boom/signals.py
+mypackage_prince_boom.egg-info/PKG-INFO
+mypackage_prince_boom.egg-info/SOURCES.txt
+mypackage_prince_boom.egg-info/dependency_links.txt
+mypackage_prince_boom.egg-info/entry_points.txt
+mypackage_prince_boom.egg-info/requires.txt
+mypackage_prince_boom.egg-info/top_level.txt
