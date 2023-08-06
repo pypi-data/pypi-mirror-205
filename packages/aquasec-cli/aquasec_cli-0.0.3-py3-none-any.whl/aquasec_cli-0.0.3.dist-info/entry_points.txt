@@ -1,0 +1,2 @@
+[console_scripts]
+aquasec-cli = aquasec_cli.main:cli
