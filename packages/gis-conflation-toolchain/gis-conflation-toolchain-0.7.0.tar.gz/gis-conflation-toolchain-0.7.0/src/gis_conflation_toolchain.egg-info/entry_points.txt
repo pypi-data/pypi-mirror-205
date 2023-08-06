@@ -1,0 +1,5 @@
+[console_scripts]
+csv2excel = csv2excel.csv2excel:exec_from_console_scripts
+csv2geojson = csv2geojson.csv2geojson:exec_from_console_scripts
+geojsondiff = geojsondiff.geojsondiff:exec_from_console_scripts
+overpassql2osmf = gisconflation.overpassql2osmf:exec_from_console_scripts
