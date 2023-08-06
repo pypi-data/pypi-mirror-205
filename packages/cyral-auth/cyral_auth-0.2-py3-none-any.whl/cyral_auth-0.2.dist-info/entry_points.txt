@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        cyral_auth=cyral_auth:cli
+    
