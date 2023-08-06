@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+promptlytics/__init__.py
+promptlytics/promptlytics.py
+promptlytics.egg-info/PKG-INFO
+promptlytics.egg-info/SOURCES.txt
+promptlytics.egg-info/dependency_links.txt
+promptlytics.egg-info/requires.txt
+promptlytics.egg-info/top_level.txt
