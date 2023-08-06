@@ -1,0 +1,12 @@
+README.md
+setup.py
+openctm/__init__.py
+openctm/io.py
+openctm/openctm.py
+openctm/version.py
+python_openctm.egg-info/PKG-INFO
+python_openctm.egg-info/SOURCES.txt
+python_openctm.egg-info/dependency_links.txt
+python_openctm.egg-info/not-zip-safe
+python_openctm.egg-info/requires.txt
+python_openctm.egg-info/top_level.txt
