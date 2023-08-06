@@ -1,0 +1,6 @@
+uiautomation
+schedule
+pandas
+poai
+pywin32
+pywinauto
