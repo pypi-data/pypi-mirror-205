@@ -1,0 +1,12 @@
+find_system_fonts_filename/__init__.py,sha256=Q1xAbpKlK0t0XjrQeJpK0RNuj5B0grHFjHT9KTe-XlQ,80
+find_system_fonts_filename/fonts_filename.py,sha256=d1CdwHp3nVDWW98Bour8Uc3BCAUx64U3Xy-EmthxkL0,607
+find_system_fonts_filename/linux.py,sha256=f8byxI2YeY6e8qbcAyp47Af3EfR1p6NYQkZxu6hIxWg,3997
+find_system_fonts_filename/linux_fonts.py,sha256=bqWUoItDdfqqHJYksXbfFv91v4s_-lza_pIc7_lryqw,4388
+find_system_fonts_filename/mac_fonts.py,sha256=RDHPmpKQqsgc-EgjdLd0nfEhtFZBj9LVERGUopKn9vM,1787
+find_system_fonts_filename/system_fonts.py,sha256=OdBA4Q8GedwmK55g2RxyI9w0KWq3VC4TNKqJTxpcwuQ,280
+find_system_fonts_filename/windows_fonts.py,sha256=F-Y12jrm-qPA1Jzlb_Sad6GQQrcGjfLoFSy2Kop_yKc,19802
+FindSystemFontsFilename-0.0.1.dist-info/LICENSE,sha256=lQzc9Zbfwwvt0bHhiE9cvq8XAV_1BomDtCCNS7YfPgI,1086
+FindSystemFontsFilename-0.0.1.dist-info/METADATA,sha256=B9K-FjwmUMNvhdiQCU3dGW9T24-vwuQ2w6sFp68Cow0,1645
+FindSystemFontsFilename-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+FindSystemFontsFilename-0.0.1.dist-info/top_level.txt,sha256=itO73xUc3fJTzLieKqqyuNGjBfRshrDt_kJmlhMlMGk,27
+FindSystemFontsFilename-0.0.1.dist-info/RECORD,,
