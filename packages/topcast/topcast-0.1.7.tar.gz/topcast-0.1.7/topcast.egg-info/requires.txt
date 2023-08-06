@@ -1,0 +1,7 @@
+openai
+protobuf
+pydantic
+pydub
+elevenlabs
+google-cloud-texttospeech
+gTTS
