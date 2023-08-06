@@ -1,0 +1,43 @@
+[build-system]
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning"]
+build-backend = "poetry_dynamic_versioning.backend"
+
+[tool.poetry]
+name = "moneykit"
+version = "0.0.5"
+description = "MoneyKit API SDK"
+authors = ["MoneyKit"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/moneykit/moneykit-python"
+keywords = ["OpenAPI", "OpenAPI-Generator", "MoneyKit"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+urllib3 = ">= 1.25.3"
+python-dateutil = ">=2.8.2"
+pydantic = ">= 1.10.5"
+aenum = ">=3.1.11"
+
+[tool.poetry.dev-dependencies]
+ruff = ">=0.0.254"
+black = ">=23.3.0"
+mypy = ">=1.2"
+
+[tool.poetry-dynamic-versioning]
+enable = false
+vcs = "git"
+tag-branch = "main"
+strict = true
+
+[tool.poetry-dynamic-versioning.substitution]
+files = ["moneykit/__init__.py"]
+
+[tool.black]
+line-length = 120
+target-version = ["py37"]
+
+[tool.ruff]
+select = ["I", "E", "W", "F", "C"]
+ignore = ["E501", "C901"]
+line-length = 120
