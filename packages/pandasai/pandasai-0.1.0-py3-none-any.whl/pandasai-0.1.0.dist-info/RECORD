@@ -1,0 +1,11 @@
+pandasai/__init__.py,sha256=G8Q9D3msXYP99-yHeknuvJ3LVX9U8auFDL3F0fJRppM,3326
+pandasai/llm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pandasai/llm/alpaca.py,sha256=wgVIGPRPg3SnWCtEWvEhVoCftUwz97OSJE1onnTPyoA,1065
+pandasai/llm/base.py,sha256=f4XLeNByUh-qd_C8J7vsXCqvIAFUcpxtepjLHkRA3iI,1938
+pandasai/llm/fake.py,sha256=NfNGPe8f87hXWmGikJ46nYl0z-9_Zv3CTTuTueBua5U,324
+pandasai/llm/open_assistant.py,sha256=B0MJJHD5JGTJXetSS8D5AO8T5C5uVGUi6_qfqVvr5v8,965
+pandasai/llm/openai.py,sha256=5E7ITpDBO0mcnoXc1sX57YgP4J03P7aPzLYp0Fr3IWM,2908
+pandasai-0.1.0.dist-info/LICENSE,sha256=LLBKSDduWFxG37dfg0BNnPb_nyRW5V5W5TPSHr2dD-4,1055
+pandasai-0.1.0.dist-info/METADATA,sha256=FAsfUp9R7F0MsbRcU64lCGgWvvA0BvakvNimO6GBiDE,3607
+pandasai-0.1.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+pandasai-0.1.0.dist-info/RECORD,,
