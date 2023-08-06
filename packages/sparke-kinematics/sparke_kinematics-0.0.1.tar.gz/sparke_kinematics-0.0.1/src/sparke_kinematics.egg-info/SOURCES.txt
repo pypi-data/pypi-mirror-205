@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/sparke_kinematics/__init__.py
+src/sparke_kinematics/base_transformations.py
+src/sparke_kinematics/leg_transformations.py
+src/sparke_kinematics/sparke_base_IK.py
+src/sparke_kinematics/sparke_leg_IK.py
+src/sparke_kinematics/test_plotter.py
+src/sparke_kinematics.egg-info/PKG-INFO
+src/sparke_kinematics.egg-info/SOURCES.txt
+src/sparke_kinematics.egg-info/dependency_links.txt
+src/sparke_kinematics.egg-info/requires.txt
+src/sparke_kinematics.egg-info/top_level.txt
