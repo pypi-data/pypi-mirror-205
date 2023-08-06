@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: vijsamplepackage
+Version: 0.0.3
+Summary: Setting up a sample python package
+Author: Vijai Kannan
+Author-email: vijaik.nd@gmail.com
+License: UNKNOWN
+Keywords: python,sample package
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+My Sample Python package for Calculation and Display
+
