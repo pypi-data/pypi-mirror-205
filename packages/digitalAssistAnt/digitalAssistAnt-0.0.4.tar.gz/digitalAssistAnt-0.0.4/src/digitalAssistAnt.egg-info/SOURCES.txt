@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/digitalAssistAnt/__init__.py
+src/digitalAssistAnt/keys.py
+src/digitalAssistAnt/main.py
+src/digitalAssistAnt/util.py
+src/digitalAssistAnt.egg-info/PKG-INFO
+src/digitalAssistAnt.egg-info/SOURCES.txt
+src/digitalAssistAnt.egg-info/dependency_links.txt
+src/digitalAssistAnt.egg-info/top_level.txt
