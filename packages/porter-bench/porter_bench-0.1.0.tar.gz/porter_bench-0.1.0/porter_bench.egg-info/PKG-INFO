@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: porter-bench
+Version: 0.1.0
+Summary: Scripts for benchmarking
+Home-page: https://github.com/porteratzo/porter_bench
+Author: Omar Montoya
+Author-email: omar.alfonso.montoya@hotmail.com
+License: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Provides-Extra: csv
+License-File: LICENSE
