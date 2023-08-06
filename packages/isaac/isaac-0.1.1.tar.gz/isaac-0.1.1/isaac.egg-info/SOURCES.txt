@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+isaac/__init__.py
+isaac/isaac.py
+isaac.egg-info/PKG-INFO
+isaac.egg-info/SOURCES.txt
+isaac.egg-info/dependency_links.txt
+isaac.egg-info/requires.txt
+isaac.egg-info/top_level.txt
