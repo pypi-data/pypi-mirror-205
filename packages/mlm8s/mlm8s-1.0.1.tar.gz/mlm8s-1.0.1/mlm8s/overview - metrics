@@ -1,0 +1,49 @@
+Accuracy metrics
+
+Accuracy class
+BinaryAccuracy class
+CategoricalAccuracy class
+SparseCategoricalAccuracy class
+TopKCategoricalAccuracy class
+SparseTopKCategoricalAccuracy class
+
+Probabilistic metrics
+
+BinaryCrossentropy class
+CategoricalCrossentropy class
+SparseCategoricalCrossentropy class
+KLDivergence class
+Poisson class
+
+Regression metrics
+
+MeanSquaredError class
+RootMeanSquaredError class
+MeanAbsoluteError class
+MeanAbsolutePercentageError class
+MeanSquaredLogarithmicError class
+CosineSimilarity class
+LogCoshError class
+
+Classification metrics based on True/False positives & negatives
+
+AUC class
+Precision class
+Recall class
+TruePositives class
+TrueNegatives class
+FalsePositives class
+FalseNegatives class
+PrecisionAtRecall class
+SensitivityAtSpecificity class
+SpecificityAtSensitivity class
+
+Image segmentation metrics
+
+MeanIoU class
+
+Hinge metrics for "maximum-margin" classification
+
+Hinge class
+SquaredHinge class
+CategoricalHinge class

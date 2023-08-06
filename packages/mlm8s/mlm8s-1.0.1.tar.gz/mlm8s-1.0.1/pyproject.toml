@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "mlm8s"
+#version = "0.0.2.8"
+version = "1.0.1"
+description = "utils & misc 4 mlm8s"
+license = "GPL-3.0-only"
+authors = ["2mrwolke"]
+readme = "README.md"
+packages = [{include = "mlm8s"}]
+homepage = "https://mlm8s.org/"
+
+[tool.poetry.dependencies]
+# These packages are mandatory and form the core of this package’s distribution.
+python = "^3.6"
+#keras_tuner = "^1.0"
+#oldest-supported-numpy = "^2022.11.18"
+
+[build-system]
+requires = ["poetry-core"]
+#requires = ["oldest-supported-numpy"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.semantic_release]
+version_variable = "pyproject.toml:version" # version location
+branch = "main"                             # branch to make releases of
+changelog_file = "CHANGELOG.md"             # changelog file
+build_command = "poetry build"              # build dists
+dist_path = "dist/"                         # where to put dists
+upload_to_release = true                    # auto-create GitHub release
+upload_to_pypi = false                      # auto-upload to PyPI
+remove_dist = false                         # don't remove dists
+patch_without_tag = false                   # patch release by default
