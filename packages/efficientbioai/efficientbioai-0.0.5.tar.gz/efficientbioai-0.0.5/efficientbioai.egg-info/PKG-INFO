@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: efficientbioai
+Version: 0.0.5
+Summary: efficientbioai is a python package for efficient deep learning in bioimaging
+Home-page: UNKNOWN
+Author: mmv_lab team
+Author-email: yu.zhou@isas.de
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: deep learning,quantization,microscopy model compression
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Provides-Extra: cpu
+Provides-Extra: gpu
+Provides-Extra: all
+Provides-Extra: test
