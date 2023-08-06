@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+NotifyDesk/NotifyDesk.py
+NotifyDesk/__init__.py
+NotifyDesk.egg-info/PKG-INFO
+NotifyDesk.egg-info/SOURCES.txt
+NotifyDesk.egg-info/dependency_links.txt
+NotifyDesk.egg-info/top_level.txt
