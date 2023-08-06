@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "openvpn-helpers"
+version = "0.1.6"
+description = "Various helpers for OpenVPN"
+authors = ["bluszcz <bluszcz@bluszcz.net>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "openvpn_helpers"}]
+
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Programming Language :: Python"
+]
+
+[tool.poetry.dependencies]
+python = "^3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+
+[project.urls]
+homepage = "https://github.com/bluszcz/openvpn-helpers/"
+repository = "https://github.com/bluszcz/openvpn-helpers/"
+
+[tool.poetry.scripts]
+openvpn-inliner = "openvpn_helpers.inline_helper:main"

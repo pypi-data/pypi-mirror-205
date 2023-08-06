@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: openvpn-helpers
+Version: 0.1.6
+Summary: Various helpers for OpenVPN
+License: MIT
+Author: bluszcz
+Author-email: bluszcz@bluszcz.net
+Requires-Python: >=3.0,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# OpenVPN Helpers
+
+## Installation
+
+```
+pip install openvpn-helpers
+```
+
+## OpenVPN Inliner
+
+Embeds CA Certificate, Client Key & Certificate and TLS Auth Key into the OpenVPN config file.
+
+### Usage
+
+```
+openvpn-inliner source.conf dest.conf --ca ca.crt --ta ta.key --cert client.crt --key client.key 
+```
