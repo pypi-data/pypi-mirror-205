@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+checker_SaGaF/__init__.py
+checker_SaGaF/checker_SaGaF.py
+checker_SaGaF.egg-info/PKG-INFO
+checker_SaGaF.egg-info/SOURCES.txt
+checker_SaGaF.egg-info/dependency_links.txt
+checker_SaGaF.egg-info/not-zip-safe
+checker_SaGaF.egg-info/top_level.txt
