@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pymonom
+Version: 0.0.1
+Summary: monom python library test.
+Author: Alejandro Marichal
+Author-email: jamarichal@monom.ai
+Requires-Python: >=3.10,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Requires-Dist: pydantic (>=1.9.1,<1.10.0)
+Requires-Dist: pyhumps (==3.5.3)
