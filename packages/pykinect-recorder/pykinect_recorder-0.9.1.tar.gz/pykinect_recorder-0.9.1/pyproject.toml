@@ -1,0 +1,62 @@
+[tool.poetry]
+name = "pykinect-recorder"
+version = "v0.9.1"
+description = ""
+license = "MIT"
+authors = [
+    "Kyung-Su Kang <unerue@me.com>",
+    "Young-Il Kim <qhdrmfdl123@gmail.com>"
+]
+readme = ["README.md", "LICENSE"]
+packages = [{include = "pykinect_recorder"}]
+
+repository = "https://github.com/unerue/pykinect-recorder"
+keywords = ["azure", "kinect", "deep-learning", "computer-vision"]
+
+[tool.poetry.scripts]
+pykinect = "pykinect_recorder.main.cli.command:main"
+
+[tool.poetry.dependencies]
+python = "<3.12,>=3.9.1"
+pyside6 = "^6.4.2"
+open3d = "^0.17.0"
+pyqtdarktheme = "^2.1.0"
+opencv-python = "^4.7.0.72"
+termcolor = "^2.2.0"
+click = "^8.1.3"
+pyqtgraph = "^0.13.2"
+matplotlib = "^3.7.1"
+sounddevice = "^0.4.6"
+soundfile = "^0.12.1"
+scikit-learn = "^1.2.2"
+qtawesome = "^1.2.3"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.2"
+flake8 = "^6.0.0"
+black = "^23.1.0"
+isort = "^5.12.0"
+mypy = "^1.1.1"
+pyinstaller = "^5.10.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.black]
+line-length = 120
+target-version = ["py3.9", "py3.10"]
+exclude = """.venv|venv|.env"""
+
+[tool.isort]
+skip = [".gitignore"]
+
+[tool.flake8]
+exclude = ".venv"
+max-line-length = 120
+
+[tool.mypy]
+exclude = ["tests"]
