@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+geocalc.egg-info/PKG-INFO
+geocalc.egg-info/SOURCES.txt
+geocalc.egg-info/dependency_links.txt
+geocalc.egg-info/requires.txt
+geocalc.egg-info/top_level.txt
