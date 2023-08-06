@@ -1,0 +1,21 @@
+@import "sphinx-book-theme.css";
+
+:root {
+    --ou-color-activity: 98, 191, 178;
+    --ou-color-where-next: 45, 187, 235;
+    --ou-icon-time: '\f017';
+    --ou-icon-where-next: '\f0a4';
+}
+
+html[data-theme="light"] {
+    --pst-color-inline-code: #cd1468;
+}
+
+@import "_variables";
+@import "_activity";
+@import "_time";
+@import "_where-next";
+
+article a {
+    text-decoration: underline dotted;
+}
