@@ -1,0 +1,16 @@
+aiosow/__init__.py,sha256=Sc4z8LRVFMwJUoc_DPVUriSXTZ6PO9MaJ80PhRbKyB8,34
+aiosow/autofill.py,sha256=UItEXzE9qwkVda_VMn6gj97u7AmxCTxdAwwORaJ5bDI,4471
+aiosow/bindings.py,sha256=6PytkWbIA5Hx4oQDh3l2rh9eESKLFzVcSnubOStLQXQ,13356
+aiosow/command.py,sha256=ADonDEvCRdn_IF3XXHOrbkr0aGlQGwi4BY8jphBR3xs,2898
+aiosow/http.py,sha256=_a-Y_iYNOB0zNHGxh6bH1C0_c543NT7NHNmrj55mFyA,1974
+aiosow/options.py,sha256=kbPDpZdz-6F16eok_eyJjuyUKCAEuZQKX2419mAu4F8,827
+aiosow/perpetuate.py,sha256=HxWfnLXBIB_djg-9wj2eBFgKNpFA3-04NJ7mdUkOTHk,4001
+aiosow/routines.py,sha256=f-HCu58e8SeEqJwB2nIIV6uRXOa63WUqYPxad89HAfQ,3629
+aiosow/setup.py,sha256=cvYbMDjlsSW96kCrE8VbZ642Clzmb_T_kk0D-OANDGE,1427
+aiosow/shell.py,sha256=k1MSqGkd2PbDfkUZbuB51UPaC-wq-15K1wDlqIPMidQ,305
+aiosow/utils.py,sha256=dU5y8u_X5eU3fUqpxyiYfrkPV1wnnOKKcOZLqC4KEVc,373
+aiosow-0.1.dist-info/METADATA,sha256=NZrFDld9gr2RePV3BqpKcI-KtjpVqmRD8B8KBGaVcfo,385
+aiosow-0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+aiosow-0.1.dist-info/entry_points.txt,sha256=2_IPmV-W3oWa72_58LA6gg0bRV3gKP6rG1Q5NFHXcTI,46
+aiosow-0.1.dist-info/top_level.txt,sha256=h8hJNx9nPbYtJwo1VAnIWJwjJk91ae4fH1Vqwj26150,7
+aiosow-0.1.dist-info/RECORD,,

@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: aiosow
+Version: 0.1
+License: MIT
+Provides-Extra: aiohttp
+Requires-Dist: aiohttp ; extra == 'aiohttp'
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-mock ; extra == 'dev'
+Requires-Dist: pytest-asyncio ; extra == 'dev'
+Requires-Dist: pytest-coverage ; extra == 'dev'
+Provides-Extra: doc
+Requires-Dist: pdoc ; extra == 'doc'
+
