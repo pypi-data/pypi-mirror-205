@@ -1,0 +1,2 @@
+[console_scripts]
+pychas = PyCHAS.pychas:main
