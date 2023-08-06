@@ -1,0 +1,7 @@
+fastapi_sql/__init__.py,sha256=P9xjNCoEHuMq-oo1aCVsMHdQjjM6_gJqxC0nZyQDzdA,2644
+fastapi_sql/middleware.py,sha256=NdLyJdJVbbzpbW_wZx7sERo7U3m0FVYzyc1cxQ9sA1s,366
+fastapi_sql/migrate.py,sha256=xyYtuRkfuf1xSG2n3p01dX1LSTjavFePMNs84nLSh9o,933
+fastapi_sql/model.py,sha256=NBlDVoaeAzgA9HO3uMY9CJd8bxDzezwAArnj-7gXxqc,5135
+fastapi_sql-0.1.5.dist-info/METADATA,sha256=c4Qq9q3kQj_wIRYzQtZ3UIrGio1skh5FpoBDZ2fKWq0,645
+fastapi_sql-0.1.5.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+fastapi_sql-0.1.5.dist-info/RECORD,,
