@@ -1,0 +1,105 @@
+boltons
+
+[:python_version < "3.5"]
+networkx==2.2
+
+[:python_version < "3.7"]
+contextvars
+dataclasses
+
+[:python_version >= "3.5"]
+networkx
+
+[all]
+pydot
+html5lib
+matplotlib
+jinja2>=3
+MarkupSafe
+pytest-sphinx>=0.2.1
+dill
+readme-renderer
+pytest
+pytest-cov
+pandas
+sphinx[setuptools]>=2
+sphinxcontrib-spelling
+pytest-sugar
+wheel
+black
+pylint
+mypy
+
+[all:python_version < "3.7"]
+importlib_resources
+
+[dev]
+pydot
+html5lib
+matplotlib
+jinja2>=3
+MarkupSafe
+pytest-sphinx>=0.2.1
+dill
+readme-renderer
+pytest
+pytest-cov
+pandas
+sphinx[setuptools]>=2
+sphinxcontrib-spelling
+pytest-sugar
+wheel
+black
+pylint
+mypy
+
+[dev:python_version < "3.7"]
+importlib_resources
+
+[dill]
+dill
+
+[matplot]
+pydot
+jinja2>=3
+MarkupSafe
+matplotlib
+
+[matplot:python_version < "3.7"]
+importlib_resources
+
+[plot]
+pydot
+jinja2>=3
+MarkupSafe
+
+[plot:python_version < "3.7"]
+importlib_resources
+
+[sphinx]
+pydot
+jinja2>=3
+MarkupSafe
+sphinx[setuptools]>=2
+
+[sphinx:python_version < "3.7"]
+importlib_resources
+
+[test]
+pydot
+html5lib
+matplotlib
+jinja2>=3
+MarkupSafe
+pytest-sphinx>=0.2.1
+dill
+readme-renderer
+pytest
+pytest-cov
+pandas
+sphinx[setuptools]>=2
+sphinxcontrib-spelling
+pytest-sugar
+
+[test:python_version < "3.7"]
+importlib_resources
