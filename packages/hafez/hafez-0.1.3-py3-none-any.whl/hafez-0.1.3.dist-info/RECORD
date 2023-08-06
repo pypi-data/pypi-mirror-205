@@ -1,0 +1,11 @@
+hafez/__init__.py,sha256=qGF1qELBjNWG9S99HwJQ4GrkAdRN-PxrcOvp9UhWfFo,130
+hafez/main.py,sha256=dqSa0X_QslAV7Ugaz0G32lWLOd6rPKmY_xytcY9Z22Q,1281
+hafez/data/hafez.db,sha256=nNzCj6J3gohsQnOyUI0DzC1Mq00n5Lc6o1Ba71Vqb6Y,954368
+hafez/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hafez/utils/db.py,sha256=LNvpRznmX5XY7umI3S0podWiY6latf8LGCx5KXTtumo,1274
+hafez/utils/formating.py,sha256=rYxTVufGDb_9Oau0VICRa8wp4vt6IM49O-kM6xM6faA,792
+hafez-0.1.3.dist-info/LICENSE,sha256=6Tu_bR_IOL8TUhSxM4PH90-mOwr22a4RnVpFgToZ7Vs,1073
+hafez-0.1.3.dist-info/METADATA,sha256=V_WES-AlEdTXQrck24MttbC4fRT1IUt_0tRjwBFdd_w,3067
+hafez-0.1.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+hafez-0.1.3.dist-info/top_level.txt,sha256=zl_xBZxOuP1dJA41E3Cnxb-LZrnLFhpu7JCz3UW5uDs,6
+hafez-0.1.3.dist-info/RECORD,,
