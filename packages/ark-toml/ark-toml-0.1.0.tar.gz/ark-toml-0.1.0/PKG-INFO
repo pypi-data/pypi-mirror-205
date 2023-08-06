@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ark-toml
+Version: 0.1.0
+Summary: Adds TOML support to Ark.
+Home-page: https://github.com/dmulholl/ark-toml
+Author: Darren Mulholland
+License: Public Domain
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: Public Domain
+
+
+TOML Metadata for Ark
+=====================
+
+This Ark plugin adds support for TOML file headers as an alternative to YAML.
+
