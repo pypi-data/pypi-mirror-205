@@ -1,0 +1,12 @@
+vcon/__init__.py,sha256=CbTSczKZLuVcVPew8WyzEk3_Y2nUFKv8yLKszqSD5as,50117
+vcon/cli.py,sha256=spW7-ijq-Gja0WVAPCuZZBJ5NFLQ2iKhlQUsVdonh2A,14344
+vcon/security.py,sha256=lTGHSRvG0Sbvk-MzFHGY9q2dyT-HrkyOj0bcx5zheRg,14395
+vcon/utils.py,sha256=DwW1-EbCbEz2VOOQsp9c5dyRWz7YoWxyLw06sgzVhWc,3104
+vcon/filter_plugins/__init__.py,sha256=wmPkVIdVwbkYkmST7s8qjavBDKFrSy-YZDX-PN2PbWQ,9693
+vcon/filter_plugins/whisper.py,sha256=UtPkN05JEDSiqYlVkQWcZPlvmmsPzaA6aXgDRwz0IHU,413
+vcon/filter_plugins/impl/whisper.py,sha256=XKnkfFzzqL4IMXDiJ1e7i8GSjVWBusMziyeOjgmp39Y,7194
+vcon-0.1.dist-info/LICENSE,sha256=v8tgZZWYqNvRBNsPKEzZRi8vQATZfEkvCWk0ebbxOpQ,1065
+vcon-0.1.dist-info/METADATA,sha256=8HFJ6ICbdmtX_hvLKXG5sXyv_AY2HMFD-l17GzyEyj4,5376
+vcon-0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+vcon-0.1.dist-info/top_level.txt,sha256=NIk0DcN1PtUTPnJ-ONU4q2zNJrUADhbmtDXMCQXso5M,5
+vcon-0.1.dist-info/RECORD,,
