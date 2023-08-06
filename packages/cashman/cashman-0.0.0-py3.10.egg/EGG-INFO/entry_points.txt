@@ -1,0 +1,3 @@
+[console_scripts]
+cashman = cashman.__main__:main
+
