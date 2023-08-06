@@ -1,0 +1,4 @@
+[console_scripts]
+uh = uphill.bin.main:main
+uphill = uphill.bin.main:main
+
