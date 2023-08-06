@@ -1,0 +1,10 @@
+aws_cdk/aws_cognito/__init__.py,sha256=Jk552fzICRomwdREVmaOgVNGHBZ5X7wi8RdS9ALAD-A,1180183
+aws_cdk/aws_cognito/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_cognito/_jsii/__init__.py,sha256=hJG7ciiyJtjeV7NDR68fVLxOLlmLAuBJKtLHOf_ighM,579
+aws_cdk/aws_cognito/_jsii/aws-cognito@1.200.0.jsii.tgz,sha256=Ej64DCMFkucY3NvCxc1BTXazDhAgAuwNuWcekOyL0N0,438321
+aws_cdk.aws_cognito-1.200.0.dist-info/LICENSE,sha256=YA6CL2YE08NgoURWXRTrec3mNy-KAR-_UNdiMqgNVMI,11391
+aws_cdk.aws_cognito-1.200.0.dist-info/METADATA,sha256=AgMlKnGgXSoD_qVes-rHK-i0Taf0aOMAkRo1iasLQ04,37141
+aws_cdk.aws_cognito-1.200.0.dist-info/NOTICE,sha256=aT5eQA5i82ji6qbxhzUrrtjTIubpJ0hJVp3kWhwRHVg,1410
+aws_cdk.aws_cognito-1.200.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+aws_cdk.aws_cognito-1.200.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_cognito-1.200.0.dist-info/RECORD,,
