@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+src/msgraphlib/__init__.py
+src/msgraphlib/common.py
+src/msgraphlib/core.py
+src/msgraphlib/drive.py
+src/msgraphlib/excel.py
+src/msgraphlib/files_old.py
+src/msgraphlib/metadata.py
+src/msgraphlib/sharepoint.py
+src/msgraphlib/testmodule.py
+src/msgraphlib.egg-info/PKG-INFO
+src/msgraphlib.egg-info/SOURCES.txt
+src/msgraphlib.egg-info/dependency_links.txt
+src/msgraphlib.egg-info/requires.txt
+src/msgraphlib.egg-info/top_level.txt
