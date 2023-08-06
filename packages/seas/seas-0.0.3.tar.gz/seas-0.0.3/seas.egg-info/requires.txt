@@ -1,0 +1,10 @@
+h5py
+matplotlib
+numpy
+opencv-python
+PyYAML
+scikit-learn
+scipy
+sklearn
+tifffile
+tk
