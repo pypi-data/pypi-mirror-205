@@ -1,0 +1,8 @@
+mongo/__init__.py,sha256=jg8HQAX3sWxLlTOIV3lhFL99rsdTNXzRyUH_QmnF-yM,395
+mongo/connect.py,sha256=gbZtzs8C_BQ2e3S48g5at329uWl7btkGaTsWeHv1tc0,453
+mongo/deps.py,sha256=V6fH8LKhgrjQzcLyWuvqKDc4s2YN3iSISR_YqccI_Xc,60
+mongo/document.py,sha256=fovfhL8PXp6SIKiKAs2TjqMmKuX6sj2OuvjSYUSrdl4,795
+mongo/document_meta.py,sha256=fTrns5G41XFKi2mFvv_CdQKS0Qv-MywIs_P-jtiaB7w,1557
+ext_mongo-0.2.0.dist-info/WHEEL,sha256=B19PGBCYhWaz2p_UjAoRVh767nYQfk14Sn4TpIZ-nfU,87
+ext_mongo-0.2.0.dist-info/METADATA,sha256=e7bEiDTrYTbRecIb6nO9_QBADfi04cKB6BdhdvXukIM,1277
+ext_mongo-0.2.0.dist-info/RECORD,,
