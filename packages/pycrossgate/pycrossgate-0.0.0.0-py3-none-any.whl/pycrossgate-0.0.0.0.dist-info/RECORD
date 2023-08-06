@@ -1,0 +1,9 @@
+Core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gui/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hybrides/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+serve/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pycrossgate-0.0.0.0.dist-info/METADATA,sha256=I0ibfwEt3h5vSW2n6pzVr0rmvzUTPWI0HnlsnNzIi-U,1332
+pycrossgate-0.0.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pycrossgate-0.0.0.0.dist-info/entry_points.txt,sha256=aazQVAMv8xtfCLBX6wRzRKCybhr-Ad3ympoQiARqepc,58
+pycrossgate-0.0.0.0.dist-info/top_level.txt,sha256=k0pxkUDA3YAjdTZYP--49VLQ9fVtXtQDKkoUUKHpzrk,24
+pycrossgate-0.0.0.0.dist-info/RECORD,,
