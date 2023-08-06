@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/simpledi/__init__.py
+src/simpledi.egg-info/PKG-INFO
+src/simpledi.egg-info/SOURCES.txt
+src/simpledi.egg-info/dependency_links.txt
+src/simpledi.egg-info/top_level.txt
