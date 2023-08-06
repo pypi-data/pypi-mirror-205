@@ -1,0 +1,11 @@
+pip_test1/__init__.py,sha256=ynzbv9rv-F0awzCApErKgcBNPmrlLzyPo2Uc8hLYP_8,130
+pip_test1/add_num.py,sha256=apjIZ_VTP2tfdQmxj1ISi7GbkyBV3E80cVr0dScfbeY,59
+pip_test1/maintest.py,sha256=ABebSPUnzO7aKAuPf1FnEHV-9SHVVIPgkCWY62xc0Go,141
+pipupload/__init__.py,sha256=I6WKpbILkuE44F2tBcwoGcZ2f64Iw4DjTxEbJt8Efek,130
+pipupload/add_num.py,sha256=apjIZ_VTP2tfdQmxj1ISi7GbkyBV3E80cVr0dScfbeY,59
+pipupload/maintest.py,sha256=sHW3r5BQObvoObNnKZGkV2dpBzf_9QH8uSa5BmJG0I8,141
+pipupload-0.1.3.dist-info/METADATA,sha256=BtGl4orpdasP00bSLImUiq-0-dqcO4vAZi6YxhOvcfg,283
+pipupload-0.1.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+pipupload-0.1.3.dist-info/top_level.txt,sha256=nhjpKRGJLKwMKd1TXC_6Im2FmgvuwapZh0awrQpSZLI,10
+pipupload-0.1.3.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+pipupload-0.1.3.dist-info/RECORD,,
