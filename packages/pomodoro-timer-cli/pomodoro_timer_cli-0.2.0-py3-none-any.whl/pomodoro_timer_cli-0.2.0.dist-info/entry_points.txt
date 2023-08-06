@@ -1,0 +1,3 @@
+[console_scripts]
+pomodoro=pomodoro_timer_cli.pomodoro:cli
+

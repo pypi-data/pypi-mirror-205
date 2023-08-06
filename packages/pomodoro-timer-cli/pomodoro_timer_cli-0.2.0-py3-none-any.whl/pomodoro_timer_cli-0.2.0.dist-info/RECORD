@@ -1,0 +1,9 @@
+pomodoro_timer_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pomodoro_timer_cli/__main__.py,sha256=1DTxSvC1nFIrB-wgk-AJn1gfqwHXunFLleePsrNbNbs,63
+pomodoro_timer_cli/complete.wav,sha256=XgQFUzDBuaiaEy40xrI_pHPhbdQPD4hmoSaMAlAFXTg,434512
+pomodoro_timer_cli/pomodoro.py,sha256=5LKXNhGB8Qgja15RfR3kvLs5L5-quGoM6tAcErkO3IA,1464
+pomodoro_timer_cli-0.2.0.dist-info/LICENSE,sha256=rRZCcEgE660lgsmru8y3L6xvCxA7wVmRMcz5vuC3jWU,1067
+pomodoro_timer_cli-0.2.0.dist-info/METADATA,sha256=7K8kCcuRUG-wATnbhI2JSFuh3CSVX0bzZhDUm1S0gp8,648
+pomodoro_timer_cli-0.2.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+pomodoro_timer_cli-0.2.0.dist-info/entry_points.txt,sha256=d_bmAQh7xuIBBHrdc2ZZyN6kDJVPo_iShnR5rQYwG8U,60
+pomodoro_timer_cli-0.2.0.dist-info/RECORD,,
