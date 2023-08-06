@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pyeaze/__init__.py
+pyeaze/pyeaze.py
+pyeaze.egg-info/PKG-INFO
+pyeaze.egg-info/SOURCES.txt
+pyeaze.egg-info/dependency_links.txt
+pyeaze.egg-info/requires.txt
+pyeaze.egg-info/top_level.txt
