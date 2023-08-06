@@ -1,0 +1,3 @@
+recursive-include ./poseidon *
+include build.sh
+include pyproject.toml
