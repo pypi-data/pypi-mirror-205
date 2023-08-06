@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/dictf/__init__.py
+src/dictf/dictf.py
+src/dictf.egg-info/PKG-INFO
+src/dictf.egg-info/SOURCES.txt
+src/dictf.egg-info/dependency_links.txt
+src/dictf.egg-info/requires.txt
+src/dictf.egg-info/top_level.txt
