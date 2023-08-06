@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: inverse
+Version: 0.0.1
+Summary: is an open source python package which helps operations on large matrix such as inversions by using techniques such as using balancing optimal memory and stack memory cache and users local area SQLite database  This package does not create large matrix but instead addresses each row or rows to SQLite and loads only then they are required for the operation.
+Home-page: https://github.com/SermetPekin/inverse-repo
+Author: Sermet Pekin
+Author-email: sermet.pekin@gmail.com
+License: MIT
+Project-URL: Homepage, https://github.com/SermetPekin/inverse-repo
+Project-URL: Documentation, https://github.com/SermetPekin/inverse-repo
+Keywords: inverse,inverse inverse-repo
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Programming Language :: Python :: Implementation
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: rich (>=12.5.1)
+Requires-Dist: pandas (>=0.19.2)
+Requires-Dist: openpyxl (>=3.0.10)
+Requires-Dist: numpy (>=1.5.0)
+Provides-Extra: dev
+Requires-Dist: verser ; extra == 'dev'
+Provides-Extra: docs
+Provides-Extra: testing
+
+
+### About
+
+***inverse*** is an open source python package which helps operations on large matrix such as inversions 
+by using techniques such as using balancing optimal memory and stack memory cache and users local area SQLite database  
+This package does not create large matrix but instead addresses each row or rows to SQLite and loads only then they are required 
+for the operation. 
+
+### Usage 
+    
