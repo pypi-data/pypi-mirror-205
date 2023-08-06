@@ -1,0 +1,12 @@
+python_observer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_observer/cli.py,sha256=-Oed1XRdqxueX5T6NXCjocyOQ5-bOyB7ztmTrE_JcME,2259
+python_observer/constants.py,sha256=K4N9p1uAHM-Ha2OB0xxlHxEi7DsOSwW-eEFHkr7wYN8,48
+python_observer/date.py,sha256=OlflZtnRBTlL6qBPJ9zabX8ROAuRn5un_uZK5HbRV4s,529
+python_observer/display.py,sha256=Q7Q9Kv0QVWfBAKrFQBfpJyoXZBo5ipudEan56_noIOE,595
+python_observer/misc.py,sha256=Gq3YvAJ1uN5M9csibEnv-3WuVq86BY9Xk2VvAqHhgH8,437
+python_observer/watch.py,sha256=7R21jtlr2IVYrKfjjsD567DUsZqJdH3TX1vHq7y1MrA,2855
+python_observer-0.2.0.dist-info/entry_points.txt,sha256=wmPLwcby8CMx3hMytn4ga-8DIMEmFbpjnnipdNxnRBE,53
+python_observer-0.2.0.dist-info/LICENSE,sha256=tPI8UJL0I2D6Sa7KqbkNVT0w3H9php6kfJZU_e_SJGw,1065
+python_observer-0.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+python_observer-0.2.0.dist-info/METADATA,sha256=j3wx1aY9hsRpkdILgCiIV-3233XkT95iAjx2I29vxWc,717
+python_observer-0.2.0.dist-info/RECORD,,
