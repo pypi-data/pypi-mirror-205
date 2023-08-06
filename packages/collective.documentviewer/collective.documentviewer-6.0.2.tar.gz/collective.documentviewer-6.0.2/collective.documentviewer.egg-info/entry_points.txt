@@ -1,0 +1,5 @@
+[celery_tasks]
+documentviewer = collective.documentviewer.async_utils
+
+[z3c.autoinclude.plugin]
+target = plone
