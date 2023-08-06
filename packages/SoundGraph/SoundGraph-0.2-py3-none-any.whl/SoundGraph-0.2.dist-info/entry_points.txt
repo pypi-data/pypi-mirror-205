@@ -1,0 +1,2 @@
+[console_scripts]
+sound_graph = sound_graph:main
