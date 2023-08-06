@@ -1,0 +1,11 @@
+README.md
+setup.py
+roblox-aio/__init__.py
+roblox-aio/auth.py
+roblox-aio/endpoints.py
+roblox-aio/user.py
+roblox_aio.py.egg-info/PKG-INFO
+roblox_aio.py.egg-info/SOURCES.txt
+roblox_aio.py.egg-info/dependency_links.txt
+roblox_aio.py.egg-info/requires.txt
+roblox_aio.py.egg-info/top_level.txt
