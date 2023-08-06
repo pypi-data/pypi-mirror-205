@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+pacakge1.egg-info/PKG-INFO
+pacakge1.egg-info/SOURCES.txt
+pacakge1.egg-info/dependency_links.txt
+pacakge1.egg-info/top_level.txt
+package1/__init__.py
+package1/another_package.py
