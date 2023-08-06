@@ -1,0 +1,9 @@
+wikidl/__init__.py,sha256=Ni5ljnUBlcBrPDuJoMj1_CdcFxMq2rJ1vFbGulTSuiM,25
+wikidl/core.py,sha256=9dW8r3lhXxk4KoqOkykHr0Y6BUIr0R4a7nPjgaXxwhE,8608
+wikidl/logger_init.py,sha256=QUhLgNgLObHCyry9rjCPTqnwoKwV5XN4Z3FNd1KwfOM,1594
+wikidl/patterns.py,sha256=N7KrMJnUeGJmx8gcwwFV1z8TUaDTsvv0WIPa1iawOkk,176
+wikidl/utils.py,sha256=gt-qQ9RZEuzbW1HhaDvFz_GFZDr1TSq62NHgdv3Xlo8,2969
+wikidl-0.1.0.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+wikidl-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+wikidl-0.1.0.dist-info/METADATA,sha256=bFxN_Mtp4KSJnp42XDUE1MRvWI8zjnD3zixCo80QTU8,767
+wikidl-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: wikidl
+Version: 0.1.0
+Summary: WikiDL is a helpful command-line tool to download Wikipedia dumps.
+Home-page: https://wikidl.org/
+Author: Lingxi Li
+Author-email: lilingxi01@gmail.com
+Requires-Python: >=3.8,<4
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: beautifulsoup4 (>=4.12.2,<5.0.0)
+Requires-Dist: psutil (>=5.9.5,<6.0.0)
+Requires-Dist: requests (>=2.28.2,<3.0.0)
+Project-URL: Documentation, https://wikidl.org/
+Project-URL: Repository, https://github.com/lilingxi01/wikidl
+Description-Content-Type: text/markdown
+
+
