@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: Chinese-webtext-spider
+Version: 1.0.1
+Summary: a package for crawling chinese webtext
+Home-page: https://github.com/1azybug/chinese-webtext-spider
+Download-URL: https://github.com/1azybug/chinese-webtext-spider/master.zip
+Author: ZhaoRunSong
+Author-email: 1398915234@qq.com
+License: Apache License 2.0
+License-File: LICENSE.txt
+
+一个用于爬取网络中文文本的爬虫工具
