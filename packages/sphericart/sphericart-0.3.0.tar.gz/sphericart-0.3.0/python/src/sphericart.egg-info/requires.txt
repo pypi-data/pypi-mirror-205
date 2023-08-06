@@ -1,0 +1,4 @@
+numpy
+
+[torch]
+sphericart-torch@ file:///home/runner/work/sphericart/sphericart/sphericart-torch?c3e37b1b-07c1-4afb-a7ee-ab8f233fcf3f
