@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: starrail
+Version: 0.0.1
+Summary: Honkai: Star Rail Automation Package (auto-grind resources)
+Home-page: https://github.com/ReZeroE/StarRail
+Author: Kevin L.
+Author-email: kevinliu@vt.edu
+Project-URL: Bug Tracker, https://github.com/ReZeroE/StarRail/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 1 - Planning
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Honkai Star Rail - `starrail`
+
+**Note: This package is currently under development.**
+
+Honkai: Star Rail Automation Package (auto-resource grinder).
+
+## Installation / Setup
+The install the `starrail` package, run:
+```shell
+pip install starrail
+```
+OR
+```shell
+git clone https://github.com/ReZeroE/StarRail.git
+cd StarRail/
+pip install .
+```
