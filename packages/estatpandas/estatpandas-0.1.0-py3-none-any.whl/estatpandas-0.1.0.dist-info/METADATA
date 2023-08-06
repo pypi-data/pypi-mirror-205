@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: estatpandas
+Version: 0.1.0
+Summary: A simple package to fetch e-stat data and convert it to a pandas DataFrame
+Home-page: https://github.com/yourusername/estatpandas
+Author: Shun Nakayama
+Author-email: shun-nakayama@keio.jp
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: pandas
+
+# estatpandas
+
+`estatpandas` is a Python library that simplifies downloading and processing data from e-Stat, the Japanese government's official statistics portal. The library retrieves data in JSON format and converts it to a pandas DataFrame for easy analysis and manipulation.
+
+## Installation
+
+You can install this package using `pip`: pip install estatpandas
+
+## Usage
+
+```python
+import estatpandas as epd
+
+api_key = "your_api_key_here"
+stats_data_id = "your_stats_data_id_here"
+
+estat_df = epd.get_estat_dataframe(api_key, stats_data_id)
+print(estat_df)
+```
+
+Replace your_api_key_here with your actual e-Stat API key and your_stats_data_id_here with the ID of the data you want to retrieve.
+
+## License
+This project is licensed under the MIT License.
+
+
+
+## 日本語
+
+## estatpandas
+estatpandas は、日本政府の公式統計ポータルである e-Stat からデータをダウンロードし、処理するための Python ライブラリです。このライブラリは、JSON 形式でデータを取得し、pandas DataFrame に変換して簡単に分析や操作ができるようにしています。
+
+## インストール
+estatpandas をpipを使ってインストールすることができます: pip install estatpandas
+
+## 使い方
+```python
+import estatpandas as epd
+
+api_key = "your_api_key_here"
+stats_data_id = "your_stats_data_id_here"
+
+estat_df = epd.get_estat_dataframe(api_key, stats_data_id)
+print(estat_df)
+```
+your_api_key_here を実際の e-Stat API キーに、your_stats_data_id_here を取得したいデータの ID に置き換えてください。
+
+## ライセンス
+このプロジェクトは MIT ライセンスのもとでライセンスされています。
+
+
+
+
+
+
