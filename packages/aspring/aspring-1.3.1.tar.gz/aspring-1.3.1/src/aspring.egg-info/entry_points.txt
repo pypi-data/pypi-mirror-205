@@ -1,0 +1,12 @@
+[console_scripts]
+aspring = aspring.main:run
+step_01_preprocess = aspring.step_01_preprocess:run
+step_02_hmm_maker = aspring.step_02_hmm_maker:run
+step_03_hmm_aligner = aspring.step_03_hmm_aligner:run
+step_04_gettable = aspring.step_04_gettable:run
+step_05_filter = aspring.step_05_filter:run
+step_06_stats = aspring.step_06_stats:run
+step_07_reformat = aspring.step_07_reformat:run
+step_08_ASRUs = aspring.step_08_ASRUs:run
+step_09_clean = aspring.step_09_clean:run
+step_10_struct = aspring.step_10_struct:run
