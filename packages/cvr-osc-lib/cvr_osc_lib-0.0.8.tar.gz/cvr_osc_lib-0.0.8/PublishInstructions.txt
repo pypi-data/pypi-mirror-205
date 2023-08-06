@@ -1,0 +1,4 @@
+python -m build
+twine check dist/*
+# Needs .pypirc on ~, or point and ur local config file
+twine upload dist/* --repository cvr-osc-lib
