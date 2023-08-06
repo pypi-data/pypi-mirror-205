@@ -1,0 +1,7 @@
+MANIFEST.in
+setup.py
+tensorflow_determinism.egg-info/PKG-INFO
+tensorflow_determinism.egg-info/SOURCES.txt
+tensorflow_determinism.egg-info/dependency_links.txt
+tensorflow_determinism.egg-info/top_level.txt
+tfdeterminism/__init__.py
