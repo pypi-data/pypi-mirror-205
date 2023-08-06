@@ -1,0 +1,14 @@
+cyvcf2==0.30.18
+emcee==3.1.4
+numpy==1.24.3
+jax==0.4.8
+jaxlib==0.4.7
+flax==0.6.9
+optax==0.1.5
+msprime==1.2.0
+demes==0.2.2
+demesdraw==0.3.1
+matplotlib==3.7.1
+multiprocess==0.70.14
+adjustText==0.8
+scipy==1.10.1
