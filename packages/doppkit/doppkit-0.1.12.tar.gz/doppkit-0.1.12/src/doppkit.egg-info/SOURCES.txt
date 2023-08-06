@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+src/doppkit/__init__.py
+src/doppkit/__main__.py
+src/doppkit/app.py
+src/doppkit/cache.py
+src/doppkit/grid.py
+src/doppkit/list.py
+src/doppkit/sync.py
+src/doppkit.egg-info/PKG-INFO
+src/doppkit.egg-info/SOURCES.txt
+src/doppkit.egg-info/dependency_links.txt
+src/doppkit.egg-info/entry_points.txt
+src/doppkit.egg-info/not-zip-safe
+src/doppkit.egg-info/requires.txt
+src/doppkit.egg-info/top_level.txt

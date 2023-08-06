@@ -1,0 +1,5 @@
+werkzeug
+httpx
+rich
+click
+aiofiles
