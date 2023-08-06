@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: SiQ3D
+Version: 0.1.0
+Summary: Deep Learning-based 3D single-cell imaging analysis pipeline for quantifying cell-cell interaction dynamics
+Home-page: https://github.com/simonlbd1/SiQ-3D
+Author: Simon lbd
+Author-email: simonlbd123@gmail.com
+Classifier: Programming Language :: Python
+Classifier: Environment :: GPU :: NVIDIA CUDA
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: btrack (==0.4.3)
+Requires-Dist: h5py (==3.1.0)
+Requires-Dist: matplotlib (==3.5.3)
+Requires-Dist: notebook (==6.5.2)
+Requires-Dist: numpy (==1.19.5)
+Requires-Dist: opencv-python (==4.6.0.66)
+Requires-Dist: pandas (==1.4.3)
+Requires-Dist: pillow (==9.2.0)
+Requires-Dist: protobuf (==3.20.3)
+Requires-Dist: scikit-image (==0.19.3)
+Requires-Dist: scikit-learn (==1.1.3)
+
+This Python-based software tool, SiQ-3D (Single-cell image Quantifier for 3D), optimizes Deep Learning (DL)-based 3D image segmentation, single-cell phenotype classification and tracking to automatically quantify and convert 3D live-cell imaging movies into multi-dimensional dynamic data for different interacting cell types in a 3D tissue/organ microenvironment. The SiQ-3D quantified results are output in an excel file of cell position and phenotype at each time point together with labelled images of the segmented single cells for each cell type in the imaging dataset. SiQ-3D can be easily customized to analyze 3D microscopy data from both in vitro and in vivo imaging of diverse tissue/organ models that comprise multiple interacting cell types.
