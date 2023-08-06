@@ -1,0 +1,13 @@
+darkdetect/__init__.py,sha256=iYlDLABsi-8YInLIVmD3wEOLp9Af-QETMen_11d1qOo,2149
+darkdetect/__main__.py,sha256=_SYxx_l9zoEXP7r2ITreqSU38M6_oc12bO5BtjShZZY,339
+darkdetect/_base_listener.py,sha256=NlKMo538Zru1NjCd0TobouffN2zcXYZhsESE-J8F3x0,4026
+darkdetect/_dummy.py,sha256=zBsWVGOPuBEc9sxQn35gQlluJcb22Vf6iVlE8s01eX4,517
+darkdetect/_linux_detect.py,sha256=3du9imcdWHV8s6PN2Ksu9REUb0hHUk9274CRjfX_ty0,1905
+darkdetect/_mac_detect.py,sha256=zMSUEY0dRCzMHbK-jImfOvg-VCQdcSSAE7P9rRosNXU,4468
+darkdetect/_windows_detect.py,sha256=7-59npQdsWVQw-k-nD69GDqXjE9kyJgsTHV4QFmg3Us,5259
+darkdetect/py.typed,sha256=RA7As2lOH7eQPv5iX3k5Y1mOmlpXe_hxf0REB73oXt0,8
+darkdetect_angr-0.9.0.dist-info/LICENSE,sha256=V8DJfCN3P49P0YHu9XOvSgRkN5xxAQp4ZyPBwt3KI9g,1529
+darkdetect_angr-0.9.0.dist-info/METADATA,sha256=TISi-5iAfGrs9v_XZQ7cFkSUuMGHs6sGZ95CpEItySk,6167
+darkdetect_angr-0.9.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+darkdetect_angr-0.9.0.dist-info/top_level.txt,sha256=lIG2Q43uQniIc4b-ukidPntGpjQzuFfQCYrgxeM4RVQ,11
+darkdetect_angr-0.9.0.dist-info/RECORD,,
