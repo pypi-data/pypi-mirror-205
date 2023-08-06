@@ -1,0 +1,3 @@
+[hydromt.models]
+delwaq=hydromt_delwaq.delwaq:DelwaqModel
+
