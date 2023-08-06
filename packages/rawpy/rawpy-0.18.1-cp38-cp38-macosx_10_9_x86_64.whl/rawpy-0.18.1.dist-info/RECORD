@@ -1,0 +1,14 @@
+rawpy-0.18.1.dist-info/LICENSE.LibRaw,sha256=7qFzpVarrANwRh5X4SqrJmiU6mvjh0wr4F_YeHH3VEk,24389
+rawpy-0.18.1.dist-info/RECORD,,
+rawpy-0.18.1.dist-info/LICENSE,sha256=LMDpihaeGpkn3uPILVnfrImKKq1aH83SldtAwvL-1RY,1080
+rawpy-0.18.1.dist-info/WHEEL,sha256=OOTYupkuadsOBNcmIpTe_EvGtr1zYFgqZVRG6LiVU0c,109
+rawpy-0.18.1.dist-info/top_level.txt,sha256=7jsQajvqWcvbFz1mx9zyPC_MjCPZvXAJ_H4cGYOBn6k,6
+rawpy-0.18.1.dist-info/METADATA,sha256=el9KJD9HoIb_yHxFkXvr3svwr4hetPL0jsdz8JN1V7A,6356
+rawpy/_version.py,sha256=i8LHPc0qiYueFP9CAFrtufkGZfMfDAhFNqWW_Pa8HsI,23
+rawpy/enhance.py,sha256=AIqOcLV_eAtCopQzR-BRqWDX1wVVEjFvzEKrpXETwAU,14017
+rawpy/__init__.py,sha256=-sXeXxLMDzFknnHiRmsqD0B0wCntdk_ie5C62iiMdd4,654
+rawpy/_rawpy.cpython-38-darwin.so,sha256=ZEixyhcmgGwajqazZk3ZuAhIfo_NypLLBUYIItGz7J4,391904
+rawpy/.dylibs/libjasper.5.0.0.dylib,sha256=XR8-wem6YentvmGy-xhtVxTJFnUP2AIV3WHxTasjrWY,411504
+rawpy/.dylibs/liblcms2.2.dylib,sha256=S7Im6C-cG8SW2CUAP7ehJLbIeNijPvx9mrvyZg-P_rk,516768
+rawpy/.dylibs/libjpeg.9.dylib,sha256=DXQ3yo8Of9X5E_mHNxSeaxI0NYvsVVZExWiJACDxc7U,356176
+rawpy/.dylibs/libraw_r.23.0.0.dylib,sha256=w_It3UuEi9pHu2m0lSeqhdGk_5Ok9s_R3J3h4m2bDDc,1332000
