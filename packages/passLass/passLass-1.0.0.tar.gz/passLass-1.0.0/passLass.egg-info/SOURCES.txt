@@ -1,0 +1,7 @@
+README.md
+setup.py
+passLass.egg-info/PKG-INFO
+passLass.egg-info/SOURCES.txt
+passLass.egg-info/dependency_links.txt
+passLass.egg-info/requires.txt
+passLass.egg-info/top_level.txt
