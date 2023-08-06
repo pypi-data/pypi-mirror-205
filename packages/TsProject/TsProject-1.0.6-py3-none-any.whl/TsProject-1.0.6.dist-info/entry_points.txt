@@ -1,0 +1,3 @@
+[console_scripts]
+TsProject = TsProject.__main__:main
+
