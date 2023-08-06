@@ -1,0 +1,134 @@
+Metadata-Version: 2.1
+Name: trade-executor
+Version: 0.3
+Summary: Algorithmic trading backtesting and execution engine for decentralised finance
+Home-page: https://tradingstrategy.ai
+License: APGL
+Keywords: algorithmic trading,ethereum,cryptocurrency,uniswap,quantitative finance,binance,coinbase,pancakeswap
+Author: Mikko Ohtamaa
+Author-email: mikko@tradingstrategy.ai
+Requires-Python: >=3.10,<3.11
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Provides-Extra: data
+Provides-Extra: execution
+Provides-Extra: qstrader
+Provides-Extra: quantstats
+Provides-Extra: web-server
+Requires-Dist: APScheduler (>=3.9.1,<4.0.0) ; extra == "execution"
+Requires-Dist: WebTest (>=3.0.0,<4.0.0) ; extra == "web-server"
+Requires-Dist: colorama (>=0.4.4,<0.5.0) ; extra == "execution"
+Requires-Dist: coloredlogs (>=15.0.1,<16.0.0) ; extra == "execution"
+Requires-Dist: ipywidgets (>=7.0,<8.0)
+Requires-Dist: jupyterlab (>=3.5.0,<4.0.0)
+Requires-Dist: kaleido (==0.2.1) ; extra == "execution"
+Requires-Dist: matplotlib (>=3.6.0,<4.0.0)
+Requires-Dist: openapi-core (<0.17) ; extra == "web-server"
+Requires-Dist: pandas-ta (>=0.3.14-beta.0,<0.4.0)
+Requires-Dist: prompt-toolkit (>=3.0.31,<4.0.0) ; extra == "execution"
+Requires-Dist: pyramid (>=2.0,<3.0) ; extra == "web-server"
+Requires-Dist: pyramid-openapi3 (>=0.16.0,<0.17.0) ; extra == "web-server"
+Requires-Dist: python-dotenv (>=0.21.0,<0.22.0) ; extra == "execution"
+Requires-Dist: python-logging-discord-handler (>=0.1.3,<0.2.0) ; extra == "execution"
+Requires-Dist: python-logstash-tradingstrategy (==0.5.1) ; extra == "execution"
+Requires-Dist: quantstats (>=0.0.59,<0.0.60) ; extra == "quantstats"
+Requires-Dist: requests (>=2.27.1,<3.0.0)
+Requires-Dist: tblib (>=1.7.0,<2.0.0)
+Requires-Dist: tqdm (>=4.64.1,<5.0.0)
+Requires-Dist: tqdm-loggable (==0.1.3)
+Requires-Dist: trading-strategy (==0.14)
+Requires-Dist: trading-strategy-qstrader (>=0.5,<0.6) ; extra == "qstrader"
+Requires-Dist: typer (>=0.4.0,<0.5.0) ; extra == "execution"
+Requires-Dist: waitress (>=2.0.0,<3.0.0) ; extra == "web-server"
+Requires-Dist: web3-ethereum-defi (==0.18.3) ; extra == "data"
+Project-URL: Repository, https://github.com/tradingstrategy-ai/trade-executor
+Description-Content-Type: text/markdown
+
+[![Automated test suite and Docker image build](https://github.com/tradingstrategy-ai/trade-executor/actions/workflows/test-and-build-image.yml/badge.svg)](https://github.com/tradingstrategy-ai/trade-executor/actions/workflows/test-and-build-image.yml)
+
+# Trade Executor: Algorithmic Trading Engine for DeFi 
+
+`trade-executor` is a Python framework for backtesting and live execution of algorithmic trading strategies on decentralised exchanges. 
+
+**Note**: This is early beta software. [Please pop in to the Discord for any questions](https://tradingstrategy.ai/community). 
+
+## Features
+
+- Only trading framework that has been built grounds up for [decentralised finance](https://tradingstrategy.ai/glossary/decentralised-finance)
+- [High quality documentation](https://tradingstrategy.ai/docs/)
+- Support [decentralised markets like Uniswap, PancakeSwap](https://tradingstrategy.ai/docs/overview/supported-markets.html)
+- [Backtesting enginer](https://tradingstrategy.ai/docs/running/backtesting.html)
+- [Live trading](https://tradingstrategy.ai/docs/running/live-trading.html)   
+- [Webhook web server](https://tradingstrategy.ai/docs/running/webhook.html) for JavaScript frontend and monitoring system integration
+- Deploy as [Docker container](https://tradingstrategy.ai/docs/running/cli.html)
+
+## Prerequisites
+
+You need to know
+
+- Basics of Python 
+- Basics of trading
+- [We have collected learning material for developers new to algorithmic trading](https://tradingstrategy.ai/docs/learn/index.html)
+
+## Getting started
+
+First study the example code
+
+- [Code examples](https://tradingstrategy.ai/docs/programming/code-examples/running.html)
+- [Trading strategy examples](https://tradingstrategy.ai/docs/programming/code-examples/running.html)
+- [See TradingView PineScript porting example](https://tradingstrategy.ai/blog/avalanche-summit-ii-workshop)
+
+## More information
+
+- [Read documentation on running and backtesting strategies](https://tradingstrategy.ai/docs/running/index.html)
+- Visit [Trading Strategy website to learn about algorithmic trading on decentralised exchanges](https://tradingstrategy.ai)
+- [Join the Discord for any questions](https://tradingstrategy.ai/community)
+
+## Installation
+
+**Note**: The project is under active development. We recommend any developers to use Github master branch
+for installations.
+
+```shell
+git clone git@github.com:tradingstrategy-ai/trade-executor.git
+cd trade-executor
+git submodule update --init --recursive
+
+# Extra dependencies
+# - execution: infrastructure to run live strategies
+# - web-server: support webhook server of live strategy executors
+# - qstrader: still needed to run legacy unit tests
+poetry install -E web-server -E execution -E qstrader -E quantstats
+``` 
+
+Or with pip:
+
+```shell
+pip install -e ".[web-server,execution,qstrader,quantstats]" 
+```
+
+## Architecture overview
+
+Here is an example of a live trading deployment of a `trade-executor` package.
+
+![Architecture overview](docs/deployment-overview.drawio.svg)
+
+## Running tests
+
+See [internal development documentation](https://tradingstrategy.ai/docs/programming/development.html). 
+
+## Community
+
+- [Trading Strategy website](https://tradingstrategy.ai)
+- [Community Discord server](https://tradingstrategy.ai/community#discord)
+- [Blog](https://tradingstrategy.ai/blog)
+- [Twitter](https://twitter.com/TradingProtocol)
+- [Telegram channel](https://t.me/trading_protocol)
+- [Newsletter](https://tradingstrategy.ai/newsletter)
+
+## License 
+
+- AGPL
+- [Contact for the commercial dual licensing](https://tradingstrategy.ai/about)
+
