@@ -1,0 +1,23 @@
+# minimal init
+rc-service sysfs start
+rc-service networking start
+
+# set up network interface
+echo "Setting up eth0"
+ifconfig eth0 up
+
+echo "Setting up IP address"
+ip addr add $TAP_IP$MASK_SHORT dev $TAP_DEV
+ip link set dev $TAP_DEV up
+
+echo "Setting up default gateway to the bridge"
+ip route add default via $BRIDGE_IP
+
+# # run the code in the microvm
+# # the firecracker compiler will place the code here
+# {{ entrypoint }}
+
+# # shutdown the microvm
+# reboot
+
+/bin/ash
