@@ -1,0 +1,39 @@
+name: Check
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  check:
+    strategy:
+      matrix:
+        python: ['3.9', '3.10', '3.11']
+
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install Dependencies
+        run: |
+          sudo apt update
+          sudo apt install -y libarchive13 libarchive-dev
+
+      - name: Configure Python (${{ matrix.python }})
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python }}
+
+      - name: Install Tox
+        run: |
+          python -m pip install --upgrade pip wheel setuptools
+          pip install tox
+
+      - name: Run Linters (${{ matrix.python }})
+        run: |
+          tox -e linters
+
+      - name: Run Tests (${{ matrix.python }})
+        run: |
+          tox -e py3
