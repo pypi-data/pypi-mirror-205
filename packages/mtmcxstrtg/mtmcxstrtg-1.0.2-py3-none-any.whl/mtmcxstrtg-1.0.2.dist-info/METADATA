@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: mtmcxstrtg
+Version: 1.0.2
+Summary: imutum_cryptocurrency_strategy
+Home-page: https://github.com/imutum/imutum_cryptocurrency_strategy
+Author: imutum
+Author-email: 
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: requests
+Requires-Dist: pandas
+Requires-Dist: ccxt
+Requires-Dist: mtmtool
+
