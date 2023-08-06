@@ -1,0 +1,8 @@
+colourtime
+coolname
+event_stream
+jsonschema
+matplotlib
+pillow>=9.4
+scipy
+toml
