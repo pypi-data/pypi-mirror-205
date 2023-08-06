@@ -1,0 +1,12 @@
+polars_streaming/__init__.py,sha256=yj7O9fhRAooEYPuIBAyma9QosfvSmXaKt4_PirXG2yc,200
+polars_streaming/core.py,sha256=S1saYTEqemtGI5twSX91Ud7XxghBVp0uARGpVWv-D8M,1039
+polars_streaming/exceptions.py,sha256=s5TOw2-DwwZ3mw2iIm8p1NqYQNGqXGMcqwH8DvcFIzQ,436
+polars_streaming/fileProcessor.py,sha256=vHlqF3SY-lBBze6CklhIUWoGVMc3ZsorythshS7HqAM,2137
+polars_streaming/kafkaProcessor.py,sha256=lc7avTrm4GO3wZ3YMoqRnLQo3i-teLEIcdnbS2IOtpM,2822
+polars_streaming/readwriter.py,sha256=dFvrAuvbEhx39zzbj35b0BBDOiLnmzXbYF5DJ5dxmvE,1715
+polars_streaming/utils.py,sha256=q4I5gYjS7n4ieW5MNOEmBZl2n7xZlfoK3NJxNgd3MgQ,918
+polars_streaming-0.1.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+polars_streaming-0.1.2.dist-info/METADATA,sha256=wj3whi52kM_RKNenZtewiiD9F75YQS48THUPlKATS-Y,14284
+polars_streaming-0.1.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+polars_streaming-0.1.2.dist-info/top_level.txt,sha256=NtITDH9MOHV1SqmefoUyOG-NcHAKTmMyzOrB4-EKl_o,17
+polars_streaming-0.1.2.dist-info/RECORD,,
