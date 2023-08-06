@@ -1,0 +1,12 @@
+---
+format_version: "0.111"
+stage_base:
+    description: "SENSOR - HITECH HTI-96-Min HYDROPHONE" # optionel
+    input_units:  {name: "Pa", description: "PRESSURE"}
+    output_units: {name: "V", description: "VOLTS"}
+    gain: 
+        value: 1
+        frequency: 10
+    filter:
+        $ref: "sensors/stages/filters/HiTech_HTI-96-Min_voltage-mode_theoretical.filter.yaml#filter"
+        

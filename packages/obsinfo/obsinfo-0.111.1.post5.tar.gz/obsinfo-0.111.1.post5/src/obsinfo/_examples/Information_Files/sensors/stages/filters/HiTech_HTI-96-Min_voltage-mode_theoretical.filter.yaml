@@ -1,0 +1,12 @@
+---
+format_version: "0.111"
+filter:
+    type: "PolesZeros"
+    transfer_function_type: "LAPLACE (RADIANS/SECOND)"
+    zeros:
+        - '0 + 0j'
+    poles:
+        - '1 + 1j'
+
+notes:
+   - "poles et zeros faux, je n'ai pas trouvé l'info"
