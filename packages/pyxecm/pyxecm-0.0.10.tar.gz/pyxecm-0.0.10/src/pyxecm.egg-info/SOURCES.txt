@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/pyxecm/__init__.py
+src/pyxecm/k8s.py
+src/pyxecm/otac.py
+src/pyxecm/otcs.py
+src/pyxecm/otds.py
+src/pyxecm/otiv.py
+src/pyxecm/otpd.py
+src/pyxecm/web.py
+src/pyxecm.egg-info/PKG-INFO
+src/pyxecm.egg-info/SOURCES.txt
+src/pyxecm.egg-info/dependency_links.txt
+src/pyxecm.egg-info/requires.txt
+src/pyxecm.egg-info/top_level.txt
