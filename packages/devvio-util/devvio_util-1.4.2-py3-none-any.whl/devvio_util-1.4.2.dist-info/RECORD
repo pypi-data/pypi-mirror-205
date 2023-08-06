@@ -1,0 +1,8 @@
+devvio_util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+devvio_util/config.py,sha256=zQX1GDMvrSQI8RU01gRnt7lgVpzGDpCqUN9WaxHzY3U,536
+devvio_util/lib_creds.py,sha256=PXwaIGl_dQA6wwpv4hnKdbYZuJyMd8_K-d4cNbtlDy8,4032
+devvio_util/psql_mixin.py,sha256=fxWJktXoca1i2WpnORlnDIiW71ZB15pmvHLQc52x7ek,3560
+devvio_util-1.4.2.dist-info/METADATA,sha256=9tYD4hWLPCRnzkgfKHEb75Ep21cZODjuNyzO_tf3t3A,219
+devvio_util-1.4.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+devvio_util-1.4.2.dist-info/top_level.txt,sha256=XUsBLG39W3IXnJszDUFrmLQ8qeeqlkkJ2wdqQN3Ez84,12
+devvio_util-1.4.2.dist-info/RECORD,,
