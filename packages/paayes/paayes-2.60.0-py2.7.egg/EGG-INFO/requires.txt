@@ -1,0 +1,2 @@
+requests >= 2.20
+requests[security] >= 2.20
