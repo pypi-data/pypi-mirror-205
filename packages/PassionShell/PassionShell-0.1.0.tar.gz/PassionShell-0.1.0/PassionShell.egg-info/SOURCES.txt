@@ -1,0 +1,5 @@
+LICENSE
+PassionShell.egg-info/PKG-INFO
+PassionShell.egg-info/SOURCES.txt
+PassionShell.egg-info/dependency_links.txt
+PassionShell.egg-info/top_level.txt
