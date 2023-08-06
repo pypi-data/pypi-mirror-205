@@ -1,0 +1,5 @@
+# MANIFEST.in
+include src/conf/__init__.py
+include src/conf/default_template.yaml
+include src/conf/config_template.yaml
+include src/pods/custom/dendron.markdown/config.import.yml
