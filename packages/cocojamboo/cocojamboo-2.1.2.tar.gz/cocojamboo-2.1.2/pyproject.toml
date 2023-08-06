@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "numpy", "wheel", "pycocotools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cocojamboo"
+version = "2.1.2"
+description = "An extension to COCO evaluation metric to provide mAP scores with custom paramters."
+readme = "README.md"
+authors = [{ name = "Georgiana Manolache" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: Free for non-commercial use",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["coco metric", "coco", "coco evaluator"]
+requires-python = ">=3.8"
+
+[project.urls]
+Homepage = "https://gitlab.com/georgianagmanolache/cocojamboo"

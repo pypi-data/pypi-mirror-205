@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+cocojamboo/__init__.py
+cocojamboo/coco_eval2.py
+cocojamboo/coco_utils.py
+cocojamboo/cocoeval2.py
+cocojamboo/engine2.py
+cocojamboo/transforms.py
+cocojamboo/utils.py
+cocojamboo.egg-info/PKG-INFO
+cocojamboo.egg-info/SOURCES.txt
+cocojamboo.egg-info/dependency_links.txt
+cocojamboo.egg-info/top_level.txt
