@@ -1,0 +1,8 @@
+richpdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+richpdf/pdf2image.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+richpdf/pdf2text.py,sha256=F0GUw2A8g1xL2f4HycZaVA5Vf7tnVDfrfTJdNj7RofM,403
+richpdf-3.0.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+richpdf-3.0.dist-info/METADATA,sha256=XdG1LpjVITARrlQikcAnT-rjUsI9a5TPlf_4w1YN9uU,242
+richpdf-3.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+richpdf-3.0.dist-info/top_level.txt,sha256=RR912EE4ZzX7-mI3ZJMbqXISaJPRVSn3duSYx_RHWBQ,8
+richpdf-3.0.dist-info/RECORD,,
