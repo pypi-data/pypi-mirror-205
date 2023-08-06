@@ -1,0 +1,37 @@
+name: Update README.md
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  update-docu:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v2
+      - name: Install Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+      - name: Update README
+        env:
+          CI_COMMIT_MESSAGE: Auto-update README.md [skip ci]
+          CI_COMMIT_AUTHOR: mjam
+          CI_COMMIT_MAIL: ziselsberger@users.noreply.github.com
+          PATH_TO_README: ../../README.md
+        run: |
+          cd ./src/doc_to_md
+          python3 doc_to_md.py -f "${{ env.PATH_TO_README }}" --separated
+          lines=$(git status -s | wc -l)
+          if [ $lines -gt 0 ];then
+            git config --global user.name "${{ env.CI_COMMIT_AUTHOR }}"
+            git config --global user.email "${{ env.CI_COMMIT_MAIL }}"
+            git add "${{ env.PATH_TO_README }}"
+            git commit -m "${{ env.CI_COMMIT_MESSAGE }}"
+            git push
+          fi

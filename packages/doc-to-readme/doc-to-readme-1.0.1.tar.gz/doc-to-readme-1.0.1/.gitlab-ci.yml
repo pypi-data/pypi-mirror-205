@@ -1,0 +1,28 @@
+variables:
+  BOT_NAME: "MJAM"
+  BOT_EMAIL: "mjam@update_readme.com"
+  COMMIT_MESSAGE: "Auto-update README.md"
+  PATH_TO_README: "../../README.md"
+
+.push: &push |
+  git status
+  lines=$(git status -s | wc -l)
+  if [ $lines -gt 0 ];then
+    git config user.name "${BOT_NAME}"
+    git config user.email "${BOT_EMAIL}"
+    git add $PATH_TO_README
+    git commit -m "${COMMIT_MESSAGE}"
+    git push -o ci.skip "https://${BOT_NAME}:${GIT_PUSH_TOKEN}@${CI_REPOSITORY_URL#*@}" $CI_COMMIT_BRANCH
+  fi 
+
+update_docu:
+  image: alpine:latest
+  before_script:
+    - apk add bash git
+    - apk add --no-cache python3
+    - git checkout $CI_COMMIT_BRANCH
+    - git pull --ff
+    - cd ./src/doc_to_md
+  script:
+    - python doc_to_md.py -f $PATH_TO_README --separated
+    - *push
