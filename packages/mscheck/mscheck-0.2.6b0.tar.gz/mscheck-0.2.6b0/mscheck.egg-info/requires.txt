@@ -1,0 +1,5 @@
+matplotlib
+pyopenms-nightly
+rdkit
+scipy
+svgutils
