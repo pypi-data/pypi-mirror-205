@@ -1,0 +1,3 @@
+[console_scripts]
+sql2mermaid-cli=sql2mermaid_cli.main:app
+
