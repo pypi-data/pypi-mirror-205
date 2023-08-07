@@ -1,0 +1,11 @@
+# dev/
+ebs/
+tmp/
+idea/
+env/
+__pycache__/
+.idea/
+.env
+*.ipynb
+*.toml
+dist/
