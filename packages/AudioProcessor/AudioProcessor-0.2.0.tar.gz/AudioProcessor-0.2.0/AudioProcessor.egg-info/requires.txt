@@ -1,0 +1,6 @@
+speechrecognition
+gtts
+pyaudio
+wave
+webrtcvad
+pydub
