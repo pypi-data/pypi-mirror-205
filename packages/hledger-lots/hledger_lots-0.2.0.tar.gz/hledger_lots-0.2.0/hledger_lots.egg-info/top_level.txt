@@ -1,0 +1,7 @@
+build
+dist
+docs
+hledger_lots
+site
+tests
+venv
