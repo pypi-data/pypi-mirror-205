@@ -1,0 +1,19 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Dispozitivul este deja configurat",
+            "no_devices_found": "Nu s-au g\u0103sit dispozitive \u00een re\u021bea"
+        },
+        "flow_title": "{denumire}",
+        "step": {
+            "bluetooth_confirm": {
+                "description": "Dori\u021bi s\u0103 configura\u021bi {denumire}?"
+            },
+            "user": {
+                "data": {
+                    "address": "Dispozitiv"
+                }
+            }
+        }
+    }
+}
