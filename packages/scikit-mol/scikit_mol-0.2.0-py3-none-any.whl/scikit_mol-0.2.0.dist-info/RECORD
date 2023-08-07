@@ -1,0 +1,12 @@
+scikit_mol/__init__.py,sha256=136EbMdSCa2RZpZUJ4RqOJHwYfdMW7oXGrTX-TPZXmY,127
+scikit_mol/_version.py,sha256=dQUHa1PGpJsNE2x_SQFxtOX-jousEqplwH1bdsk6mnE,160
+scikit_mol/conversions.py,sha256=cca-iPzMZ4JBav4YsrnznlXZ8gKiDsA3Ja1Sn32xhIA,2424
+scikit_mol/descriptors.py,sha256=kXHv-yymJf8z2cnaE4bUQg699sdIZm519oaqmDJlkYM,5564
+scikit_mol/fingerprints.py,sha256=nAmRmgoGwhZOx_g6NmQ1yO-q3JDLRbcjKRMLS2T7-KQ,21524
+scikit_mol/standardizer.py,sha256=OZWKAAcJF-cnuyATDyyL9p8lOl2E8a15fnHyap0bdB8,3003
+scikit_mol/utilities.py,sha256=NP28M3nSPn4Kud4HF2I0tj6OAgUL6TzO6fxblvkdWMM,1745
+scikit_mol-0.2.0.dist-info/LICENSE,sha256=t8qU051Ie-qwrZwQi_052naKul7FUcD3t63e1v6K-8w,11350
+scikit_mol-0.2.0.dist-info/METADATA,sha256=Yb7c3aQYnkM6f1vpFThouBiASNPYRRo6wdtUTLdQ0ck,4405
+scikit_mol-0.2.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+scikit_mol-0.2.0.dist-info/top_level.txt,sha256=buqmC35MNyZVfVuW2VwKkqACy5DbC60_tmCycNsf60g,11
+scikit_mol-0.2.0.dist-info/RECORD,,
