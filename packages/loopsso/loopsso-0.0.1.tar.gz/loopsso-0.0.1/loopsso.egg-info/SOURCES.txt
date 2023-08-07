@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+loopsso.egg-info/PKG-INFO
+loopsso.egg-info/SOURCES.txt
+loopsso.egg-info/dependency_links.txt
+loopsso.egg-info/requires.txt
+loopsso.egg-info/top_level.txt
+src/__init__.py
+src/client.py
