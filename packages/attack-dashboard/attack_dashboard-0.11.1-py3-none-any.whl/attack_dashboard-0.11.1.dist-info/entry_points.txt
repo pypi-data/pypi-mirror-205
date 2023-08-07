@@ -1,0 +1,4 @@
+[console_scripts]
+attack_join=attack_dashboard.__main__:main
+attack_uplaod=attack_dashboard.up_dash:main
+
