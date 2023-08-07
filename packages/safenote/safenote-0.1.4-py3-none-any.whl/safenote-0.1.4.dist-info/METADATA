@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: safenote
+Version: 0.1.4
+Summary: SafeNote (Safe Notebook) is a tool for injecting your secrets into Jupyter notebooks environment safer and easier.
+Home-page: https://safenote.lingxi.li/
+Author: Lingxi Li
+Author-email: lilingxi01@gmail.com
+Requires-Python: >=3.8,<4
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Repository, https://github.com/lilingxi01/safenote
+Description-Content-Type: text/markdown
+
+<img src="https://imagedelivery.net/Dr98IMl5gQ9tPkFM5JRcng/b4e3b105-8503-43ac-9116-f51e401b6b00/HD" alt="Cover"/>
