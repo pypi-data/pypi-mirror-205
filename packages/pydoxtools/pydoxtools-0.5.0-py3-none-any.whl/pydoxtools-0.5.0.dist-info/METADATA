@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: pydoxtools
+Version: 0.5.0
+Summary: This library contains a set of tools in order to extract structured information from documents
+License: MIT
+Author: thomas meschede
+Author-email: yeusblender@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: etl
+Provides-Extra: inference
+Requires-Dist: Pint (>=0.16.1)
+Requires-Dist: Shapely (>=1.8.0,<2.0.0)
+Requires-Dist: appdirs (>=1.4.4)
+Requires-Dist: beautifulsoup4 (>=4.8.0) ; extra == "etl" or extra == "inference"
+Requires-Dist: extruct (>=0.9.0) ; extra == "etl"
+Requires-Dist: goose3 (>=3.1.6) ; extra == "etl"
+Requires-Dist: hnswlib (>=0.6.2,<0.7.0) ; extra == "etl" or extra == "inference"
+Requires-Dist: joblib (>=1.0.1)
+Requires-Dist: langdetect (>=1.0.8) ; extra == "etl"
+Requires-Dist: lxml (>=4.6.2)
+Requires-Dist: networkx (>=2.8.6,<3.0.0) ; extra == "etl"
+Requires-Dist: openai (>=0.27.4,<0.28.0) ; extra == "etl"
+Requires-Dist: packaging (>=23.0,<24.0)
+Requires-Dist: pandas (>=1.4.1,<2.0.0) ; extra == "etl" or extra == "inference"
+Requires-Dist: pandoc (>=2.3,<3.0) ; extra == "etl"
+Requires-Dist: pdf2image (>=1.16.0,<2.0.0)
+Requires-Dist: pdfminer.six (>=20200726) ; extra == "etl"
+Requires-Dist: pikepdf (>=2.10.0)
+Requires-Dist: pydantic (>=1.7.2)
+Requires-Dist: pytesseract (>=0.3.10,<0.4.0)
+Requires-Dist: python-magic (>=0.4.27,<0.5.0)
+Requires-Dist: python-pptx (>=0.6.21,<0.7.0) ; extra == "etl"
+Requires-Dist: pytorch-lightning (>=1.5.6) ; extra == "inference"
+Requires-Dist: pyyaml (>=6.0,<7.0)
+Requires-Dist: quantities (>=0.12.4) ; extra == "etl"
+Requires-Dist: quantulum3 (>=0.7.4) ; extra == "etl"
+Requires-Dist: readability-lxml (>=0.8.1) ; extra == "etl"
+Requires-Dist: scikit-learn (>=1.0.2,<2.0.0) ; extra == "inference"
+Requires-Dist: spacy (>=3.2.3,<4.0.0) ; extra == "etl" or extra == "inference"
+Requires-Dist: stemming (>=1.0.1) ; extra == "etl"
+Requires-Dist: tldextract (>=2.2.3) ; extra == "etl"
+Requires-Dist: torch (>=1.12.1) ; extra == "inference"
+Requires-Dist: tqdm (>=4.47.0) ; extra == "inference"
+Requires-Dist: transformers (>=4.17.0) ; extra == "inference"
+Requires-Dist: urlextract (>=1.1.0) ; extra == "etl" or extra == "inference"
