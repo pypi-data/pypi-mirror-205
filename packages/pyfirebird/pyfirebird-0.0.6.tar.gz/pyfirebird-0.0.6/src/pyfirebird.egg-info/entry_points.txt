@@ -1,0 +1,3 @@
+[console_scripts]
+executor = firebird.cmd_tools.executor:main
+pipeline = firebird.cmd_tools.pipeline:main
