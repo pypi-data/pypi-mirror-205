@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+my_game_1/__init__.py
+my_game_1/game.py
+my_typing_game1.egg-info/PKG-INFO
+my_typing_game1.egg-info/SOURCES.txt
+my_typing_game1.egg-info/dependency_links.txt
+my_typing_game1.egg-info/top_level.txt
