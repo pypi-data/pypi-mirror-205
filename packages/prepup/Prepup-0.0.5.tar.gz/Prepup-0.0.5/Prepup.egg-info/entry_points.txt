@@ -1,0 +1,2 @@
+[console_scripts]
+prepup = prepup.prepup:main

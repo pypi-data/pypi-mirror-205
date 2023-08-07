@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: Prepup
+Version: 0.0.5
+Summary: Prepup is a free, open-source package that lets you open, explore, visualize and pre-process datasets in your computer's terminal.
+Home-page: https://github.com/sudhanshumukherjeexx/prepup
+Author: Sudhanshu Mukherjee
+Author-email: sudhanshumukherjeexx@gmail.com
+License: MIT
+Keywords: DATA PREPROCESSING,TERMINAL,DATA SCIENCE,EDA
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+License-File: AUTHORS.rst
