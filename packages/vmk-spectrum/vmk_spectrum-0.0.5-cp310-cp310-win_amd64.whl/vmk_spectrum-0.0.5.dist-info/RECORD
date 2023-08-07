@@ -1,0 +1,9 @@
+_pyspectrum.cp310-win_amd64.pyd,sha256=2KBz55IZBSVjkiMLEIawnukbqOc81iTNthv_Wg1A5io,161280
+pyspectrum/__init__.py,sha256=lwkCGcynbzJ_l-N-Dr9yeUnzMrK3EUYQIyo3Gf2hRbQ,130
+pyspectrum/data.py,sha256=NFihALx9BB7rpZZ1HBclNCxcdLXTdnbNlTRSxpoNi2Q,4358
+pyspectrum/errors.py,sha256=MkI7kErUUpMkkMlwE5MU0kMlp27CcOigYszKmzNXDyY,435
+pyspectrum/spectrometer.py,sha256=ecHaOqDIn29Tek7PQ20j4R6BgpNIGLtCHs1OI3GWThU,10640
+vmk_spectrum-0.0.5.dist-info/METADATA,sha256=ZxMGHV8v4Ocx2f3XunGFokg3f46lnJ8d7GX4GjMl1Mo,317
+vmk_spectrum-0.0.5.dist-info/WHEEL,sha256=jrOhEbqKwvzRFSJcbYXlJCyVkgVdHg4_7__YHrdTUfw,102
+vmk_spectrum-0.0.5.dist-info/top_level.txt,sha256=NT9XfeydHYXZsKuKvLYXhwUnK_kXYb2MHLtB1hRQLY0,25
+vmk_spectrum-0.0.5.dist-info/RECORD,,
