@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: rankgun
+Version: 2.0.5
+Summary: https://rankgun.works
+Home-page: https://rankgun.works
+Author: Noah-Haf
+Author-email: RobloxCookie_DevX@outlook.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# RankGun V2.0.5
+
+An API wrapper for the RankGun API.
+
+Make for [rankgun](https://rankgun.works), read the [docs](https://docs.rankgun.works).
+
