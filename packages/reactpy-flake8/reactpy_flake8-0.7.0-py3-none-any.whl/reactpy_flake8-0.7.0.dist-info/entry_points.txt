@@ -1,0 +1,2 @@
+[flake8.extension]
+RPY = reactpy_flake8:plugin
