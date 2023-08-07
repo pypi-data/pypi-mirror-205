@@ -1,0 +1,16 @@
+CHANGELOG
+LICENCE
+README.md
+setup.cfg
+setup.py
+src/EVA/EVA.py
+src/EVA/EVAerrors.py
+src/EVA/__init__.py
+src/EVApy.egg-info/PKG-INFO
+src/EVApy.egg-info/SOURCES.txt
+src/EVApy.egg-info/dependency_links.txt
+src/EVApy.egg-info/entry_points.txt
+src/EVApy.egg-info/not-zip-safe
+src/EVApy.egg-info/requires.txt
+src/EVApy.egg-info/top_level.txt
+tests/test.py
