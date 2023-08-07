@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/spPersist/__init__.py
+src/spPersist/read.py
+src/spPersist.egg-info/PKG-INFO
+src/spPersist.egg-info/SOURCES.txt
+src/spPersist.egg-info/dependency_links.txt
+src/spPersist.egg-info/top_level.txt
