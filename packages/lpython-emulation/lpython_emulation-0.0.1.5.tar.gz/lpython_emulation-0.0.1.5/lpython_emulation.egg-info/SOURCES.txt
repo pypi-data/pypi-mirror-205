@@ -1,0 +1,9 @@
+LICENSE
+README.md
+goto.py
+lpython.py
+setup.py
+lpython_emulation.egg-info/PKG-INFO
+lpython_emulation.egg-info/SOURCES.txt
+lpython_emulation.egg-info/dependency_links.txt
+lpython_emulation.egg-info/top_level.txt
