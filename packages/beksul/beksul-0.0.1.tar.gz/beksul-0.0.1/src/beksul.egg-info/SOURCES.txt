@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/beksul/__init__.py
+src/beksul.egg-info/PKG-INFO
+src/beksul.egg-info/SOURCES.txt
+src/beksul.egg-info/dependency_links.txt
+src/beksul.egg-info/top_level.txt
