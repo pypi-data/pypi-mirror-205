@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+versioneer.py
+KernelsPython.egg-info/PKG-INFO
+KernelsPython.egg-info/SOURCES.txt
+KernelsPython.egg-info/dependency_links.txt
+KernelsPython.egg-info/requires.txt
+KernelsPython.egg-info/top_level.txt
+kerpy/__init__.py
+kerpy/_version.py
+kerpy/diff.py
+kerpy/processing.py
+kerpy/shapes.py

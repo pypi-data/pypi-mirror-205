@@ -1,0 +1,11 @@
+numpy
+wheel
+setuptools
+twine
+pytest
+pytest-runner
+sphinx
+sphinx-book-theme
+ipykernel
+pylint
+versioneer
