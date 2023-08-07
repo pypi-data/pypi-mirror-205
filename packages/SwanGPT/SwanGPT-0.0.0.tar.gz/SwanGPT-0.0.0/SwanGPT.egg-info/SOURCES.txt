@@ -1,0 +1,8 @@
+setup.py
+SwanGPT.egg-info/PKG-INFO
+SwanGPT.egg-info/SOURCES.txt
+SwanGPT.egg-info/dependency_links.txt
+SwanGPT.egg-info/not-zip-safe
+SwanGPT.egg-info/top_level.txt
+tmp/__init__.py
+tmp/main.py
