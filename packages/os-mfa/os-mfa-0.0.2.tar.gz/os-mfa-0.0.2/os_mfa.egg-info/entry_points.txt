@@ -1,0 +1,2 @@
+[console_scripts]
+os-mfa = os_mfa.__main__:main

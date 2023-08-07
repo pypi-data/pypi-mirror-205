@@ -1,0 +1,9 @@
+requests
+PyYaml
+
+[dev]
+black
+bumpver
+pip-tools
+twine
+build
