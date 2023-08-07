@@ -1,0 +1,8 @@
+README.md
+license.md
+setup.py
+geotoolkit/__init__.py
+geotoolkit.egg-info/PKG-INFO
+geotoolkit.egg-info/SOURCES.txt
+geotoolkit.egg-info/dependency_links.txt
+geotoolkit.egg-info/top_level.txt
