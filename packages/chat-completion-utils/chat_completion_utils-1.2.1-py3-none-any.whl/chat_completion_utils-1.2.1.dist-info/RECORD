@@ -1,0 +1,5 @@
+chat_completion_utils/__init__.py,sha256=PV0WKFNGxXmluQ8imiGU8rK948oo_vGa4NZAv5-0l1o,26
+chat_completion_utils/chat_utils.py,sha256=zJ7YeUMXzyULDxsRasVlFp9zakILQz12bveNaF6_yI4,5322
+chat_completion_utils-1.2.1.dist-info/METADATA,sha256=SqpBOBFbgMK7uguwL7I31EEVFP9B5Uwtu8lWo1dTPJA,4279
+chat_completion_utils-1.2.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+chat_completion_utils-1.2.1.dist-info/RECORD,,
