@@ -1,0 +1,13 @@
+pytest
+python-dateutil
+ply
+bottle
+lxml
+beautifulsoup4
+requests
+chardet
+google-api-python-client
+beancount-periodic==0.1.2
+
+[:sys_platform != "win32"]
+python-magic>=0.4.12
