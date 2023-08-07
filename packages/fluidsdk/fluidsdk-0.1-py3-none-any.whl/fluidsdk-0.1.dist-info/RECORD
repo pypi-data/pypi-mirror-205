@@ -1,0 +1,14 @@
+fluidsdk/__init__.py,sha256=nBRb7eNxQKFAo1tNW3OxVNjVD5WN0JN-_1rwd_3x8iA,90
+fluidsdk/conversational_modules.py,sha256=iuG1Irv5jAG0GwXaVX9qP01HWHWl8opEgtveUt4crus,8228
+fluidsdk/conversations_v3.py,sha256=Zj0qHxU3sAif3FmcIdFXo0i_ePUc1GHTR3vb7yF5rxI,2080
+fluidsdk/filters.py,sha256=niFwzi3hhAvBj5Q1yBclkApG_SWDXqntroFj9OhcMZU,6437
+fluidsdk/flow.py,sha256=_1QivUwv8iwEBapNuAV2DdacCeSnDPGWgawH5a4tF7U,3048
+fluidsdk/intents.py,sha256=_P3JXMCj8CPdKxCo9SepqdRiAAmxXbMyundWoYBPFrM,18516
+fluidsdk/message.py,sha256=LcPsrYgz1cNpxFK0u6yX9COdI9KIkEStkFVBaE3iUEM,15128
+fluidsdk/reminders.py,sha256=YS1VG7DNiMXRjaPISAUxvnTH7umPilSKMeYN0usPc04,5110
+fluidsdk/status_webhook.py,sha256=rXH6NX4oYrs_hZIUAJibYScao7AawWXQlf0_WlFMf5c,869
+fluidsdk/templates.py,sha256=NKKq0wTkPj5Q1ZY9SJc20IlvTza4O9c-78onFjJgdf8,3978
+fluidsdk-0.1.dist-info/METADATA,sha256=VImy7PCNzKeusT9NybEJSuH5l-vRlXyJXxxKs_6q7lY,392
+fluidsdk-0.1.dist-info/WHEEL,sha256=3DSmSyYE1SDERO2-rI3qUbMVovBs7--ggc7mubOemsc,86
+fluidsdk-0.1.dist-info/licenses/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fluidsdk-0.1.dist-info/RECORD,,

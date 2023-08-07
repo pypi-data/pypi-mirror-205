@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: fluidsdk
+Version: 0.1
+Summary: SDK for FluidVM
+Project-URL: Homepage, https://workhack.io
+Author-email: Shanti D'Vita <shanti@lokegaonkar.in>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# FluidSDK
+
