@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: bondgraph
+Version: 0.2.0
+Summary: A library to create bond graphs for physical systems and generate their differential equations.
+Author-email: Karl Linderhed <bondgraph@karlinde.se>
+License: MIT License
+        
+        Copyright (c) 2022 Karl Linderhed
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: repository, https://github.com/karlinde/bondgraph
+Project-URL: Bug Tracker, https://github.com/karlinde/bondgraph/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: sympy
+Provides-Extra: visualization
+Requires-Dist: graphviz ; extra == 'visualization'
+
+# bondgraph
+A python library for creating [bond graphs](https://en.wikipedia.org/wiki/Bond_graph) of 
+physical systems and generating differential equations.
+
+It heavily relies on `sympy` for manipulation and simplification of equations symbolically.
+
+## Installation
+Install via pip:
+```
+pip install bondgraph
+```
+
+To install with extra dependencies for visualization using graphviz:
+```
+pip install bondgraph[visualization]
+``` 
+
+## Usage
+Create a `BondGraph` object and add `Bond` objects connecting various elements:
+```python
+# This example generates the following simple bond graph:
+#
+# Se ---> 1 ---> I
+#         |
+#         v
+#         R
+
+from bondgraph.core import Bond, BondGraph
+from bondgraph.junctions import JunctionEqualFlow
+from bondgraph.elements import Element_R, Element_I, Source_effort
+from sympy import Symbol
+
+force = Source_effort("force", Symbol("F"))
+friction = Element_R("friction", Symbol("k_f"))
+inertia = Element_I("inertia", Symbol("m"), Symbol("p"))
+mass_object = JunctionEqualFlow("mass_object")
+
+graph = BondGraph()
+graph.add(Bond(force, mass_object))
+graph.add(Bond(mass_object, friction))
+graph.add(Bond(mass_object, inertia))
+
+state_equations = graph.get_state_equations()
+
+# Print the dictionary of state variables and the right hand side of their state equations:
+print(state_equations)
+# {p: F - k_f*p/m}
+
+# If using the optional visualization features, generate and display a graphviz graph:
+from bondgraph.visualization import gen_graphviz
+
+output_graph = gen_graphviz(graph)
+output.view()
+```
+
+## Limitations
+- Algebraic loops are not handled at all and will result in failure to generate equations.
+- Non-integrating (differential) causality for C or I elements is not currently possible.
+
