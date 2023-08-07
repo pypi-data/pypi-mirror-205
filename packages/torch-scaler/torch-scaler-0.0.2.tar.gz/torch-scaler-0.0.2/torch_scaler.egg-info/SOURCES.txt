@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+torch_scaler/__init__.py
+torch_scaler/standard_scaler.py
+torch_scaler.egg-info/PKG-INFO
+torch_scaler.egg-info/SOURCES.txt
+torch_scaler.egg-info/dependency_links.txt
+torch_scaler.egg-info/not-zip-safe
+torch_scaler.egg-info/requires.txt
+torch_scaler.egg-info/top_level.txt

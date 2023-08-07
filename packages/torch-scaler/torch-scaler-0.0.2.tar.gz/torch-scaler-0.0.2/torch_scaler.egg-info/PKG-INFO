@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: torch-scaler
+Version: 0.0.2
+Summary: A scaler similar to the scikit-learn scaler that works on pytorch tensors
+Home-page: https://github.com/ihna-ceres/torch-scaler
+Author: ihna-ceres
+Author-email: ihna@cerestechs.com
+Keywords: scaler,torch,pytorch,scikit-learn
+Requires-Python: >=3.6
+License-File: LICENSE
