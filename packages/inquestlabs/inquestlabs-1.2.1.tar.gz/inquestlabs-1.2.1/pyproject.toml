@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling", "wheel"]
+build-backend = "hatchling.build"
+
+[project]
+name = "inquestlabs"
+version = "1.2.1"
+license = {file = "LICENSE"}
+authors = [
+	{ name="InQuest", email="labs@inquest.net" },
+]
+description = "A Pythonic interface and CLI tool for the InQuest Labs API"
+readme = "README.md"
+requires-python = ">=3.9"
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
+    "Operating System :: OS Independent",
+]
+
+[project.scripts]
+inquestlabs = "inquestlabs:main"
+
+[project.urls]
+"Homepage" = "https://labs.inquest.net/"
+"Repository" = "https://github.com/InQuest/python-inquestlabs"
+"Bug Tracker" = "https://github.com/InQuest/python-inquestlabs/issues"
