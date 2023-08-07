@@ -1,0 +1,10 @@
+malariagen/__init__.py,sha256=LnvgLql_E-emmIUpRdGhiSxrSxjVTqBqF_zZO2UvfPE,216
+malariagen/cloud/__init__.py,sha256=e7T_qqTI5HbKHRUrx9olqIccxpqClvAaL7oK7X5Hcs4,62
+malariagen/data/__init__.py,sha256=yBY7-dOuBuP6CT-uo8-b5M7RBy_FrBJbGgMEjj3RXB0,61
+malariagen/tests/test_cloud.py,sha256=Etp03DQGs_7ThEY9vd-b9_YQIVWa3WbjRYE_kldLNWs,2131
+malariagen/tests/test_data.py,sha256=OZ-eaiGcMPfKXIV9AeK-IJ5ObbLV40fFZuZ_ePyhK6M,2125
+malariagen/tests/test_package.py,sha256=udTwxicdKPKmD6y5-9N_18OGRpeIzJMFB7kjGFLmeio,266
+malariagen-0.0.1.dist-info/LICENSE.txt,sha256=ZHzFEnjXU-7gbdQKD-r_Keghy11unN6yrVc0sqcfj8g,1067
+malariagen-0.0.1.dist-info/METADATA,sha256=-HpEcASo1gIFTYD1CSPMgfVZ4vwAyMhhtRCIBzlqMY4,496
+malariagen-0.0.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+malariagen-0.0.1.dist-info/RECORD,,
