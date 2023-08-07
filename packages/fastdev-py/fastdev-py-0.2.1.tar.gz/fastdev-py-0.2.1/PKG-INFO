@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: fastdev-py
+Version: 0.2.1
+Summary: FastAPI development server that JIT preprocess TS, TSX, SCSS, etc... files.
+Keywords: devserver,dev-server,devtools,sever,liveserver,live-server
+Author: Omar Azmi
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi
+Project-URL: Homepage, https://github.com/omar-azmi/fastdev_py
+Project-URL: Source, https://github.com/omar-azmi/fastdev_py
+
+### fastdev_py
+
+FastAPI development server that JIT preprocess TS, TSX, SCSS, etc... files without littering your filesystem at all. <br>
+also, has in-memory caching of preprocessed files. <br>
+under the hood, it uses Deno along with a webassembly version of esbuild to transform your requested files
+
+
