@@ -1,0 +1,6 @@
+setup.py
+backyardastro.egg-info/PKG-INFO
+backyardastro.egg-info/SOURCES.txt
+backyardastro.egg-info/dependency_links.txt
+backyardastro.egg-info/requires.txt
+backyardastro.egg-info/top_level.txt

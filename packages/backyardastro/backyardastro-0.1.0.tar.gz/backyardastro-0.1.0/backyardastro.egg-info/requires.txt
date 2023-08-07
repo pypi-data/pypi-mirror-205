@@ -1,0 +1,10 @@
+numpy
+matplotlib
+datetime
+astropy
+ephem
+pytz
+tzwhere
+astroquery
+scipy
+tqdm
