@@ -1,0 +1,8 @@
+setup.py
+autoLinker.egg-info/PKG-INFO
+autoLinker.egg-info/SOURCES.txt
+autoLinker.egg-info/dependency_links.txt
+autoLinker.egg-info/requires.txt
+autoLinker.egg-info/top_level.txt
+main/__init__.py
+main/file.py
