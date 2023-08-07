@@ -1,0 +1,8 @@
+MANIFEST.in
+__init__.py
+mal-example.py
+setup.py
+EC521_malice_package1.egg-info/PKG-INFO
+EC521_malice_package1.egg-info/SOURCES.txt
+EC521_malice_package1.egg-info/dependency_links.txt
+EC521_malice_package1.egg-info/top_level.txt
