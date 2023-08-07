@@ -1,0 +1,4 @@
+attrs
+python-gitlab
+pyyaml
+termcolor
