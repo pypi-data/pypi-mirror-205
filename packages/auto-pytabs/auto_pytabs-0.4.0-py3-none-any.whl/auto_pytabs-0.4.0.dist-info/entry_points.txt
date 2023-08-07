@@ -1,0 +1,6 @@
+[markdown.extensions]
+auto_pytabs=auto_pytabs.markdown_ext:AutoPyTabsExtension
+
+[mkdocs.plugins]
+auto_pytabs=auto_pytabs.mkdocs_plugin:AutoPyTabsPlugin
+
