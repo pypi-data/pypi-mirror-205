@@ -1,0 +1,7 @@
+PyQt5>=5.15.2
+pywin32>=224
+fastpip<2.0,>=1.7
+chardet>=4.0.0
+
+[:python_version < "3.8"]
+importlib-metadata>=6.1.0
