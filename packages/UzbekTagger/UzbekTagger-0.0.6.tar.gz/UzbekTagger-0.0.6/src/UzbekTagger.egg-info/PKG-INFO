@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: UzbekTagger
+Version: 0.0.6
+Summary: Part of Speech Tagger for Uzbek Language.
+Home-page: https://https://github.com/MaksudSharipov/UzbekTokenizer
+Author: Maksud Sharipov, Ollabergan Yuldashov
+Author-email: "Sharipov Maksud,Yuldashov Ollabergan" <maqsbek72@gmail.com>
+Project-URL: Homepage, https://https://github.com/MaksudSharipov/UzbekTokenizer
+Keywords: python,UzbekTagger,uzbek texts,Tagger,POS,Part of Speech
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UzbekTagger application.
