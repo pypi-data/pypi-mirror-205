@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "back-to-sit"
+version = "0.0.8"
+description = ""
+authors = ["diegulio <diego.machado@usach.cl>"]
+readme = "README.md"
+packages = [{include = "back_to_sit"}]
+
+[tool.poetry.dependencies]
+python = ">=2.9"
+python-telegram-bot = "^20.1"
+pyyaml = "^6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

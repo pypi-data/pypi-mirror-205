@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: back-to-sit
+Version: 0.0.8
+Summary: Back to sit when the your code is ready
+Author: Diego Machado
+Author-email: dmachadovz@gmail.com
+Keywords: python,telegram
+License-File: LICENSE
+
+A package that send a message to your telegram when your code is ready
