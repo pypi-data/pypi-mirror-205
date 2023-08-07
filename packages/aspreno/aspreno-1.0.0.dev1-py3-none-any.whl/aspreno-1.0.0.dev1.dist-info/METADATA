@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: aspreno
+Version: 1.0.0.dev1
+Summary: 
+Author: Predeactor
+Author-email: pro.julien.mauroy@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: docs
+Requires-Dist: insegel (>=1.3.1,<2.0.0); extra == "docs"
+Requires-Dist: sphinx (>=6.1.3,<7.0.0); extra == "docs"
+Requires-Dist: sphinxcontrib-fulltoc (>=1.2.0,<2.0.0); extra == "docs"
+Description-Content-Type: text/markdown
+
+# Aspreno
+
+<div align="center">
+    <!-- License -->
+    <a href="https://github.com/Predeactor/Aspreno/blob/main/README.md">
+        <img alt="PyPI - License" src="https://img.shields.io/pypi/l/aspreno">
+    </a>
+    <!-- Version -->
+    <a href="https://pypi.org/project/aspreno">
+        <img alt="PyPI - Version" src="https://img.shields.io/pypi/v/aspreno">
+    </a>
+    <!-- Supported Python version -->
+    <img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/aspreno">
+    <!-- Codecov -->
+    <a href="https://codecov.io/github/Predeactor/Aspreno" >
+        <img alt="Codecov report" src="https://codecov.io/github/Predeactor/Aspreno/branch/main/graph/badge.svg?token=YTLWE8VQYM"/>
+    </a>
+</div>
+
+Python 3 global error handling & self-handling exceptions.
+
+## Features
+
+- Global exception handling
+- Self-handleable exceptions
+- Able to report specific exceptions
+
