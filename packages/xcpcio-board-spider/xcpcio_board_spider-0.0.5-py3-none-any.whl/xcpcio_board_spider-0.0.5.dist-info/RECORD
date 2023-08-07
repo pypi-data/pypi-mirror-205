@@ -1,0 +1,10 @@
+xcpcio_board_spider/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xcpcio_board_spider/config.py,sha256=j7JsVpUYTdBh1IrZfURCr4IZK8DQZ7NyORbW4i3tkAA,2160
+xcpcio_board_spider/constants.py,sha256=aTGUb3jJePokd9eJPMhbDUp95thbfvZPlB43ZW663ro,303
+xcpcio_board_spider/logger.py,sha256=1jH4m3OMvuj9a1NaGo8EAb0OnqJCLNZZK5ToFIfjrlg,377
+xcpcio_board_spider/logo.py,sha256=4R7hiUUeOvTGuRKNxdMW6-XvmAJYu4LVJQHZjCENEkI,1074
+xcpcio_board_spider/utils.py,sha256=Zgz7kjfYmjrWVGV5Jg9sdxAnh3YeRGUX4qtm3VwvTKs,2885
+xcpcio_board_spider-0.0.5.dist-info/LICENSE,sha256=wMJhOuSMhq_GfD_P39JwLccaUnVBooPEzfuo8mfXKIg,1063
+xcpcio_board_spider-0.0.5.dist-info/METADATA,sha256=sffMDmaRmxhcqPfXmJV08cQH-ujDMtg0V-1C_iPvouc,1712
+xcpcio_board_spider-0.0.5.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+xcpcio_board_spider-0.0.5.dist-info/RECORD,,
