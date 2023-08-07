@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/overloaded_iterables/__init__.py
+src/overloaded_iterables/classes.py
+src/overloaded_iterables.egg-info/PKG-INFO
+src/overloaded_iterables.egg-info/SOURCES.txt
+src/overloaded_iterables.egg-info/dependency_links.txt
+src/overloaded_iterables.egg-info/requires.txt
+src/overloaded_iterables.egg-info/top_level.txt
