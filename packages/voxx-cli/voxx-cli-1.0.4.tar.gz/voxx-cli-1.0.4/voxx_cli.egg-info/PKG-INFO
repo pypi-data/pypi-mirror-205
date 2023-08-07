@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: voxx-cli
+Version: 1.0.4
+Summary: A command line interface client for Voxx
+Home-page: https://github.com/CyR1en/voxx-client-cli
+Download-URL: https://github.com/CyR1en/voxx-client-cli
+Author: CyR1en
+Author-email: ethan.bacurio@ucdenver.edu
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Project Voxx CLI
+
+This is a command line interface client for Voxx.
+
+## Installation
+
+```
+pip install voxx-cli
+```
+
+## Usage
+
+```
+Usage: voxx-cli [options] <arg>
+
+-h   --help                      show this help message and exit
+-a   --address ADDRESS           voxx server address
+-u   --user USERNAME             username to register as
+-v   --version                   show program's version number and exit
+
+```
+
+Currently, there is a Voxx server instance running at `repo.cyr1en.com:8008`.
+To connect to this Voxx server, you can run:
+
+```
+voxx-cli -a repo.cyr1en.com:8008 -u <username>
+```
