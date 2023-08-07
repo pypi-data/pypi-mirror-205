@@ -1,0 +1,2 @@
+[console_scripts]
+space-invaders = space_invaders.run_game:main

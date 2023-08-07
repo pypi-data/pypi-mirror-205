@@ -1,0 +1,3 @@
+pycodestyle --max-line-length=121 config.py entity.py level.py main.py pickup.py spaceship.py __entrypoint__.py
+
+Using this command the tool generated no warnings
