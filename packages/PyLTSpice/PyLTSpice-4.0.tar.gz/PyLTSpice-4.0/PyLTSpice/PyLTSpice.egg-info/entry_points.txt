@@ -1,0 +1,5 @@
+[console_scripts]
+histogram = PyLTSpice.Histogram
+ltsteps = PyLTSpice.ltsteps
+rawconvert = PyLTSpice.raw.raw_convert:main
+rawplot = PyLTSpice.raw.rawread:main
