@@ -1,0 +1,9 @@
+requests==2.28.2
+
+[docs]
+sphinx==5.3.0
+sphinx_book_theme==1.0.1
+
+[test]
+pytest
+pytest-cov
