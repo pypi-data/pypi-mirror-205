@@ -1,0 +1,89 @@
+[tool.poetry]
+name = "auto-pytabs"
+version = "0.4.0"
+description = "Automatically generate code examples for different Python versions in mkdocs or Sphinx based documentations"
+authors = ["Janek Nouvertné <provinzkraut@posteo.de>"]
+readme = "README.md"
+packages = [{ include = "auto_pytabs" }]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+ruff = ">=0.0.260"
+sphinx = { version = ">=4", optional = true }
+markdown = {version = ">=3.2.1", optional = true }
+mkdocs = {version = ">=1.4.2,<2", optional = true}
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.10.0"
+mypy = "^0.990"
+types-markdown = "^3.4.2.1"
+pytest = "^7.2.0"
+pymdown-extensions = "^9.9"
+sphinx-design = "^0.3.0"
+pytest-regressions = "^2.4.2"
+types-docutils = "^0.19.1.1"
+mkdocs = "^1.4.2"
+pyyaml = "^6.0"
+pytest-mock = "^3.10.0"
+pre-commit = "^3.2.1"
+
+
+[tool.poetry.extras]
+sphinx = ["sphinx"]
+markdown = ["markdown"]
+mkdocs = ["mkdocs"]
+
+
+[tool.poetry.plugins."markdown.extensions"]
+auto_pytabs = "auto_pytabs.markdown_ext:AutoPyTabsExtension"
+
+[tool.poetry.plugins."mkdocs.plugins"]
+auto_pytabs = "auto_pytabs.mkdocs_plugin:AutoPyTabsPlugin"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.mypy]
+strict = true
+
+
+[tool.pytest.ini_options]
+filterwarnings = [
+    "ignore::DeprecationWarning:sphinx_design.*:",
+    "ignore::DeprecationWarning:sphinx.util.images:4",
+    "ignore::DeprecationWarning:importlib.resources._legacy:80",
+]
+
+
+[tool.ruff]
+select = [
+    "DTZ", # flake8-datetimez
+    "E", # pycodestyle errors
+    "ERA", # eradicate
+    "F", # pyflakes
+    "I", # isort
+    "ICN", # flake8-import-conventions
+    "PLE",
+    "PTH", # flake8-use-pathlib
+    "Q", # flake8-quotes
+    "RET", # flake8-return
+    "RUF", # Ruff-specific rules
+    "SIM", # flake8-simplify
+    "T10", # flake8-debugger
+    "T20", # flake8-print
+    "TCH", # flake8-type-checking
+    "TID", # flake8-tidy-imports
+    "UP", # pyupgrade
+    "W", # pycodestyle - warning
+    "YTT", # flake8-2020
+]
+
+src = ["auto_pytabs", "test"]
+target-version = "py38"
+
+
+[tool.ruff.per-file-ignores]
+"test*" = ["S101"]
