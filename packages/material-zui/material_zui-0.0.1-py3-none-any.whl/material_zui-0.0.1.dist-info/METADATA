@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: material-zui
+Version: 0.0.1
+Summary: Zui Material
+Author: chauhmnguyen
+Author-email: chauhoangminhnguyen@gmail.com
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+Requires-Dist: cv2
+Requires-Dist: PIL
+
+# Modules
+
+<ol>
+  <li>Image</li>
+  <li>Log</li>
+  <li>Replicate</li>
+  <li>Telegram Bot</li>
+</ol>
