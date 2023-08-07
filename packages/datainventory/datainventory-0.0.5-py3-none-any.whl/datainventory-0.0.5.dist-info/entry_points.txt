@@ -1,0 +1,2 @@
+[console_scripts]
+inventory-cli = datainventory.bin.app:main
