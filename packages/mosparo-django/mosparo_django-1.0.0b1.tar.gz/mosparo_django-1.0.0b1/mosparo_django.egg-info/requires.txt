@@ -1,0 +1,7 @@
+mosparo_api_client
+Django>=3.2
+
+[dev]
+pytest-runner
+requests-mock
+pytest-django
