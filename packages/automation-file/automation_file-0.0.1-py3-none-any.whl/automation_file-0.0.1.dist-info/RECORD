@@ -1,0 +1,13 @@
+file_automation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+file_automation/excel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+file_automation/excel/openyxl_wrapper.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+file_automation/pdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+file_automation/pdf/pypdf_wrapper.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+file_automation/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+file_automation/word/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+file_automation/word/python_docx_wrapper.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+automation_file-0.0.1.dist-info/LICENSE,sha256=ATvBYSYmbRD32jRYAuicY1sXjumpBZIxao_xkWc4CmU,1084
+automation_file-0.0.1.dist-info/METADATA,sha256=1s48bJH__803TXGoOLo5dSCEx1IWYVqDT5luEMx7AEc,644
+automation_file-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+automation_file-0.0.1.dist-info/top_level.txt,sha256=QJSZX7-mPWTwQKQ1Mlu9zFIWpO4sYm5bnFR-7nj2tX0,16
+automation_file-0.0.1.dist-info/RECORD,,
