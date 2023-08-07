@@ -1,0 +1,11 @@
+scikit-learn<1.4.0,>=1.0.2
+pandas
+nbdev
+jupyter
+dm-haiku
+jax[cpu]
+optax
+pydantic<2,>=1.9.0
+deprecation
+
+[dev]
