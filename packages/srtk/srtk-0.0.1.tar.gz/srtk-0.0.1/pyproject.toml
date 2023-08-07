@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling", "hatch-requirements-txt"]
+build-backend = "hatchling.build"
+
+[project]
+name = "srtk"
+version = "0.0.1"
+authors = [
+  { name="Yuanchun Shen", email="y.c.shen@tum.de" },
+]
+description = "A toolkit for semantic-relevant subgraph retrieval from large-scale knowledge graphs."
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dynamic = ["dependencies"]
+
+[project.urls]
+"Homepage" = "https://github.com/happen2me/subgraph-retrieval-toolkit"
+"Bug Tracker" = "https://github.com/happen2me/subgraph-retrieval-toolkit/issues"
+
+[project.scripts]
+srtk = "srtk.cli:main"
+
+[tool.hatch.metadata.hooks.requirements_txt]
+files = ["requirements.txt"]

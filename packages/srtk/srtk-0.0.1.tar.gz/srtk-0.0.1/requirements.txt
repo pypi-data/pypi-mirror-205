@@ -1,0 +1,7 @@
+beautifulsoup4
+lightning
+pyvis
+SPARQLWrapper
+srsly
+transformers
+tqdm
