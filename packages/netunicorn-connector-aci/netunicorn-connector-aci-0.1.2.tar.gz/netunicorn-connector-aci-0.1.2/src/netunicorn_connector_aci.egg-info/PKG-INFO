@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: netunicorn-connector-aci
+Version: 0.1.2
+Summary: Azure Container Instances connector for netunicorn
+Author-email: Roman Beltiukov <rbeltiukov@ucsb.edu>
+License: MIT
+Keywords: netunicorn
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Azure Container Instances connector for netunicorn
+This is a connector for Microsoft Azure Container Instances for netunicorn.
+
+## Installation
+```bash
+pip install netunicorn-connector-aci
+```
+
+## Usage
+Create a configuration file and provide needed parameters (see [example](configuration-example.yaml)).
+Then, add information about this connector to the main configuration file of netunicorn-director-infrastructure.
+
+All of these parameters are required and to be provided by Azure cloud user.
+
+P.S.: Most likely you also want to submit a help ticket to Azure cloud to increase your containers quota
+for your region as the default one is pretty low.
