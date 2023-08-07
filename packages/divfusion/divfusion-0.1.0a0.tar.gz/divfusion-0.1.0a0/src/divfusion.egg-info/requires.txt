@@ -1,0 +1,8 @@
+
+[setup]
+setuptools_scm
+
+[test]
+pytest~=7.1.2
+pyfakefs~=5.2.2
+plotly~=5.14.1

@@ -1,0 +1,5 @@
+/build/
+/dist/
+/.idea
+/divfusion.egg-info.*/
+/src/divfusion.egg-info/
