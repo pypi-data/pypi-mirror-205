@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/suga/__init__.py
+src/suga.egg-info/PKG-INFO
+src/suga.egg-info/SOURCES.txt
+src/suga.egg-info/dependency_links.txt
+src/suga.egg-info/top_level.txt
