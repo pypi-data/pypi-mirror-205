@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: smarteo
+Version: 0.1.0
+Summary: Interact with the SmartEO API using python
+Author: Mads Wilthil
+Author-email: mads.wilthil@aenergi.no
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# SmartEO SDK for python
+
+This is a package for interacting with SmartEO API and services using python.
+
