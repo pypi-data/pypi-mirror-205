@@ -1,0 +1,14 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+mongodbm/__init__.py
+mongodbm/main.py
+mongodbm/utils.py
+mongodbm.egg-info/PKG-INFO
+mongodbm.egg-info/SOURCES.txt
+mongodbm.egg-info/dependency_links.txt
+mongodbm.egg-info/requires.txt
+mongodbm.egg-info/top_level.txt
+mongodbm/tests/__init__.py
