@@ -1,0 +1,2 @@
+[console_scripts]
+wtt01 = wtt01.cli:main
