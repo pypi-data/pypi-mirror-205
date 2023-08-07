@@ -1,0 +1,82 @@
+awscli-plugin-passtotp
+======================
+
+This plugin enables aws-cli to directly talk to pass to acquire an
+OATH-TOTP code using the pass-otp extension.
+
+Dependencies
+------------
+
+* pass
+* pass-otp
+* python
+* aws-cli
+
+Installation
+------------
+
+Building and installing awscli-plugin-passtotp requires a working
+Python 3 installation.
+
+a) To install it from a cloned repository:
+
+    $ python3 -m pip install .
+
+b) You can also install it directly from PyPi like this:
+
+    $ python3 -m pip install awscli-plugin-passtotp
+
+Enabling the plugin
+-------------------
+
+A new entry to the plugins section in your config (~/.aws/config)
+must be added to enable the plugin:
+
+    [plugins]
+    passtotp = awscli_plugin_passtotp
+
+If using aws-cli version 2 you must specify the path to where the
+package was installed. You can use the following command to find
+the right location:
+
+    $ pip show awscli-plugin-passtotp | grep Location:
+
+And then add the following to your config (~/.aws/config):
+
+    [plugins]
+    cli_legacy_plugin_path = /usr/local/lib/python3.10/dist-packages
+    passtotp = awscli_plugin_passtotp
+
+AWS CLI configuration
+---------------------
+
+Specify a path to a file in your passord-store in the profiles where
+you want to use the plugin.
+
+    [profile bar]
+    mfa_path = foo/aws/bar
+    ...
+
+You can ensure you have a working pass-otp entry by running:
+
+    $ pass otp foo/aws/bar
+
+Where 'foo/aws/bar' is an entry added by 'pass otp', eg:
+
+    $ pass otp insert foo/aws/bar
+
+Usage
+-----
+
+Just use the aws command with a custom role and the plugin will
+obtain the TOTP token from pass:
+
+    $ aws s3 ls --profile myprofile
+    2013-07-11 17:08:50 mybucket
+    2013-07-24 14:55:44 mybucket2
+
+Acknowledgements
+----------------
+
+This plugin was primarily based off the work of tommie-lie in
+https://github.com/tommie-lie/awscli-plugin-yubikeytotp
