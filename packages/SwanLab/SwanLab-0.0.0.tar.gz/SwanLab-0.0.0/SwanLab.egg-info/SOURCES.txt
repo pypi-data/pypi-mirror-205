@@ -1,0 +1,8 @@
+setup.py
+SwanLab.egg-info/PKG-INFO
+SwanLab.egg-info/SOURCES.txt
+SwanLab.egg-info/dependency_links.txt
+SwanLab.egg-info/not-zip-safe
+SwanLab.egg-info/top_level.txt
+tmp/__init__.py
+tmp/main.py
