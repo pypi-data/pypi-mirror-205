@@ -1,0 +1,1 @@
+NET_MAX_SEQUENCE = 1<<10
