@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jellyash"
+dynamic = ["version"]
+license = {file = "LICENSE"}
+readme = "README.md"
+dependencies = [
+    "jellyfin_apiclient_python",
+    "typing_extensions;python_version<'3.11'",
+]
+
+[project.scripts]
+average_duration = "jellyash.duration:average_duration"
+create_jellyfin_token = "jellyash.token:create_jellyfin_token"
+nextup = "jellyash.nextup:nextup"
+unwatched = "jellyash.unwatched:unwatched"
+
+[tool.setuptools.dynamic]
+version = {attr = "jellyash.__version__"}
+
+[tool.ruff]
+line-length=77
