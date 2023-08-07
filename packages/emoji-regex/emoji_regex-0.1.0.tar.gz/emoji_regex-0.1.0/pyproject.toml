@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "emoji-regex"
+version = "0.1.0"
+description = ""
+authors = ["Zachary Juang <zachary822@me.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/zachary822/emoji-regex"
+packages = [
+    { include = "emoji_regex" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.ruff]
+line-length = 120
+
+[tool.black]
+line-length = 120
+
+[tool.isort]
+profile = "black"
+filter_files = true
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
