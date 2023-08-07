@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: overloaded-iterables
+Version: 0.5.46
+Summary: Overloaded version of the built-in python classes: list and set to include some extra functionalities.
+Home-page: https://github.com/Arkiralor/overloaded_iterables
+Author: Prithoo Medhi
+Author-email: prithoo11335@gmail.com
+License: MIT
+Keywords: python,sequence,overloading,median,rms,root-mean-square,mean,sort
+Platform: UNKNOWN
+License-File: LICENSE
+
+Overloaded version of the built-in python classes: list and set to include some extra functionalities such as sort(), rms(), etc
+
