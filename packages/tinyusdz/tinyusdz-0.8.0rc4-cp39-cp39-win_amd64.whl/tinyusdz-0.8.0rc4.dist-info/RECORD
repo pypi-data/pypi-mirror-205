@@ -1,0 +1,10 @@
+blender/sandbox/meshbuild.py,sha256=fgpOWYWJ_C0SdfGHK5lwFqESHVREOiF9lPRXrXdSg6k,2491
+external/nanobind/src/nanobind/__init__.py,sha256=rpwXS4PVn-vwbMoLa_DeCJzCWPJNKq6UYQGyFR8mZww,557
+external/pybind11/tools/libsize.py,sha256=xp1nJIl4vHGMbSpYOydVV9kzcraSNRXNS52eImM7a94,1067
+external/pybind11/tools/make_changelog.py,sha256=PBxH7bvgCVPC7j930bmgl7eaU8g4kMyvsJSiEsv48JY,1345
+tinyusdz-0.8.0rc4.data/data/tinyusdz/ctinyusdz.cp39-win_amd64.pyd,sha256=FY8CK_PkoAivBfa7SgPO2Sysd-ac2Hub7997vAr6kT0,3316224
+tinyusdz-0.8.0rc4.dist-info/LICENSE,sha256=ky2B9o4ghtjJNGFEG0K-QxQzvezUfxtXXLZpHsDmUqA,1098
+tinyusdz-0.8.0rc4.dist-info/METADATA,sha256=bp8dm1Kcwwq35v9Hc2FYgVUYd0BUQlMCgZuTjo8nWpI,2426
+tinyusdz-0.8.0rc4.dist-info/WHEEL,sha256=NNISBSBxJf-m2zrkBGWxb8NJ17xlpWE579GA1eElx24,94
+tinyusdz-0.8.0rc4.dist-info/top_level.txt,sha256=yONGtbffyS-aQ30gIaoYRCBaBJZuWVrzu2YOXhEXNU4,44
+tinyusdz-0.8.0rc4.dist-info/RECORD,,
