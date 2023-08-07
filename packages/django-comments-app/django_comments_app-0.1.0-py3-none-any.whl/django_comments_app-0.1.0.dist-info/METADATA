@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: django-comments-app
+Version: 0.1.0
+Summary: A reusable Django app for comments
+Author: Usmonbek Ravshanov
+Author-email: usmonbekravshanov@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Django (>=3.2)
+

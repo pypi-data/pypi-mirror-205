@@ -1,0 +1,11 @@
+comments/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+comments/admin.py,sha256=c73QQngiwLfGNDFL3o0tj8AQbP21ksGfOk699_OAgeM,91
+comments/apps.py,sha256=48aBXmsYAG9jTK04_PoHAFBzhEckS0MAXpOdg8zxyfU,148
+comments/models.py,sha256=_ed4qDN67zmVEEXAsF3PjNCiSOaD1S_i2sT43AfoF7Q,681
+comments/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+comments/views.py,sha256=xc1IQHrsij7j33TUbo-_oewy3vs03pw_etpBWaMYJl0,63
+comments/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_comments_app-0.1.0.dist-info/METADATA,sha256=8U-Br6x1Km-IVVtynNjRpGzW7dYvR_XmRCtWfgRIqbo,564
+django_comments_app-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+django_comments_app-0.1.0.dist-info/top_level.txt,sha256=sX--sSj-gM8jMTcdiCPDvnD9AnhG41gxXIvivRYzQYc,9
+django_comments_app-0.1.0.dist-info/RECORD,,
