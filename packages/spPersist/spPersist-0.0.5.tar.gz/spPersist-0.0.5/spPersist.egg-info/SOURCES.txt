@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+spPersist.egg-info/PKG-INFO
+spPersist.egg-info/SOURCES.txt
+spPersist.egg-info/dependency_links.txt
+spPersist.egg-info/top_level.txt
