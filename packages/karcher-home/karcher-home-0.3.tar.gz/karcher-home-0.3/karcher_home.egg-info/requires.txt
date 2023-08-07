@@ -1,0 +1,5 @@
+requests
+tzlocal
+click
+pycryptodome
+protobuf
