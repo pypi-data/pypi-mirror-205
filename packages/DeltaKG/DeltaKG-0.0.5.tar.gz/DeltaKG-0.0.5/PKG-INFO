@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: DeltaKG
+Version: 0.0.5
+Summary: A Library for Dynamically Editing PLMs-Based Knowledge Graph Embeddings.
+Home-page: https://github.com/zjunlp/PromptKG/tree/main/deltaKG
+Author: Bozhong Tian
+Author-email: tbozhong@zju.edu.cn
+Keywords: knowledge graph embedding edit
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+
+KGEditor
+========
+
+Code for our paper "Editing Language Model-based Knowledge Graph
+Embeddings".
+
+To use as a python module
+=========================
+
+::
+
+    pip install -kgeditor
+
+Run the experiments
+===================
+
+Training
+--------
+
+Edit Task
+~~~~~~~~~
+
+To train the KGEditor model in the paper on the dataset ``E-FB15k237``,
+run the command below. For another dataset ``E-WN18RR`` just replacing
+the dataset name will be fine.
+
+.. code:: shell
+
+    ./scripts/kgeditor_fb15k237_edit.sh
+
+Add Task
+~~~~~~~~
+
+To train the KGEditor model in the paper on the dataset ``A-FB15k237``,
+run the command below. For another dataset ``A-WN18RR`` just replacing
+the dataset name will be fine.
+
+.. code:: shell
+
+    ./scripts/kgeditor_fb15k237_add.sh
+
+Models
+======
+
+This
+`folder <https://drive.google.com/drive/folders/1EOHdg8rC9iwgSyKl5RnEv9z6ATW5Ntbr?usp=share_link>`__
+contains the base models used for this work.
