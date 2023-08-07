@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: canaverall
+Version: 0.1.0
+Summary: Helper CLI to interact with Devscope's internal platform codename Canaveral
+Author: Vitor Correia
+Author-email: vitor.correia@devscope.net
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: inquirerpy (>=0.3.4,<0.4.0)
+Requires-Dist: pyyaml (>=6.0,<7.0)
+Requires-Dist: typer[all] (>=0.7.0,<0.8.0)
+Description-Content-Type: text/markdown
+
+# Canaveral CLI
+
+```bash
+$ python3 -m venv venv --prompt="canaveral-env"
+$ source venv/bin/activate
+(canaveral-env) $ 
+(canaveral-env) $ deactivate
+$ 
+$ pip install -r requirements.txt
+$ OR
+$ python -m pip install -r requirements.txt
+```
+
+Working with virtual envs in Python:
+- https://realpython.com/python-virtual-environments-a-primer
+- https://aaronlelevier.github.io/virtualenv-cheatsheet/
+
+Project layout to adhere to:
+- https://realpython.com/python-application-layouts/#command-line-application-layouts
+
+
+

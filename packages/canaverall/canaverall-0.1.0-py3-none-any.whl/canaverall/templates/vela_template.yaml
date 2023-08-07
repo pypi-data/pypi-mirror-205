@@ -1,0 +1,21 @@
+apiVersion: core.oam.dev/v1beta1
+kind: Application
+metadata:
+  name: {{ app_name }}
+spec:
+  components: {% for component in components %}
+  - name: {{ component.name }}
+    type: {{ component.type }}
+    properties:
+      image: {{ component.image }} {% if component.traits %}
+    traits: {% for trait in component.traits %}
+    - type: {{ trait.type }}
+      properties: {% endfor %} {% endif %} {% endfor %} {% if policies %}
+  policies: {% for policy in policies %}
+  - name: {{ policy.name }}
+    type: {{ policy.type }}
+    properties: {% endfor %} {% endif %} {% if workflow %} 
+  workflow:
+    steps: {% for step in workflow.steps %}
+    - name: {{ step.name }}
+      type: {{ step.type }} {% endfor %} {% endif %}

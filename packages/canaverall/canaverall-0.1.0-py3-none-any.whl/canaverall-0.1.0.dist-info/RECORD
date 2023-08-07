@@ -1,0 +1,13 @@
+canaverall/__init__.py,sha256=P_QBoMrWk7BJVBPQ6sVhryEZytBx6WmQvcBXdL3yVaM,1672
+canaverall/__main__.py,sha256=bVXzwqS-XxTWtUg-FCe6GmGxW2yneiSKLiIWwg5kLEI,197
+canaverall/cli.py,sha256=fCWRcYq9yNyuXS7-LuPplZFH-A4nNN-xwBMfSNHiNpU,1981
+canaverall/create_oam.py,sha256=kPeqXKJtkNLciWO7NuEUteNQCf4eJfnDeWlw4wBI0ek,582
+canaverall/merge_oam.py,sha256=ildjGYvObuCaPrMEtqSudlZsANKNLeCQCFoonF8dl1A,1047
+canaverall/oam_form.py,sha256=AdhmEKNsdwecBvatqi71Rh8UAPyPZJtlP1BMb6LZTQ4,9221
+canaverall/templates/vela_default.yaml,sha256=cvVFxvpUPBAKnuFxinJuDllYiAbDIWRtq3ANBGXw_EI,1091
+canaverall/templates/vela_template.yaml,sha256=P22Fe8bO9_axkuHBFg1DIUZjnDpRLddoizJXSLETM40,722
+canaverall-0.1.0.dist-info/LICENSE,sha256=RQSxazI2OaKc-DpXS_MWuOZKSPD55RJzSy1yn-gBwIQ,11337
+canaverall-0.1.0.dist-info/METADATA,sha256=adD8WQn2eipXwqzr-MgXuAKBKIri7J2W-datlluJwSw,1106
+canaverall-0.1.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+canaverall-0.1.0.dist-info/entry_points.txt,sha256=tGHW7zJag4vzVQY0RlO1XilG-C-fsBoZ6qlKGbqwJvY,47
+canaverall-0.1.0.dist-info/RECORD,,
