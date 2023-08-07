@@ -1,0 +1,11 @@
+pangeo_forge_cordex/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pangeo_forge_cordex/_version.py,sha256=jZ5uWOiyV1Hb9rhNyo3bAgfWmHx8_xkueUWpcUrkz_w,21
+pangeo_forge_cordex/esgf_access.py,sha256=Qd-pwdC-1buSfaqbDY-CaD3YRDbLK8es0YmJ18HqO90,2999
+pangeo_forge_cordex/parsing.py,sha256=PGjBDOdGNG1TUc-D5QPjLnI7CJFTGDVZFq_MMYkWkCk,5863
+pangeo_forge_cordex/recipe.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pangeo_forge_cordex/utils.py,sha256=CLMJmoNx-VvtiC-znUNQYJC6TWPisqJxLI3q1Y1PaTo,2681
+pangeo_forge_cordex-0.1.1.dist-info/LICENSE,sha256=OeCPNjf4HrUojSi2r16x4or9pmLnawhCf03zRJJ0S_M,1068
+pangeo_forge_cordex-0.1.1.dist-info/METADATA,sha256=twTYPpzAwjTB9q5TK73Kl-UqqJJ_LQ2l2vgOxkSiQ8o,1043
+pangeo_forge_cordex-0.1.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+pangeo_forge_cordex-0.1.1.dist-info/top_level.txt,sha256=FBHnBZRhUmM2p0L2Vw0vDUMZ7IcvSkZP43EVjO2_pSo,20
+pangeo_forge_cordex-0.1.1.dist-info/RECORD,,
