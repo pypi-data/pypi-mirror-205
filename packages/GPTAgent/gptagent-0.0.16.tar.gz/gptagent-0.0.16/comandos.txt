@@ -1,0 +1,3 @@
+# primeiro alterar a versao no pyproject.toml
+py -m build
+py -m twine upload --repository pypi dist/gptagent-0.0.16*
