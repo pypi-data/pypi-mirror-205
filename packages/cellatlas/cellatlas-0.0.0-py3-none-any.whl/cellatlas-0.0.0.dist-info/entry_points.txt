@@ -1,0 +1,2 @@
+[console_scripts]
+cellatlas = cellatlas.main:main
