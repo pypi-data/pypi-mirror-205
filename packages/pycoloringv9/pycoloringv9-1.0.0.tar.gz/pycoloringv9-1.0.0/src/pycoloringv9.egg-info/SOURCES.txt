@@ -1,0 +1,8 @@
+pyproject.toml
+setup.cfg
+src/__init__.py
+src/setup.py
+src/pycoloringv9.egg-info/PKG-INFO
+src/pycoloringv9.egg-info/SOURCES.txt
+src/pycoloringv9.egg-info/dependency_links.txt
+src/pycoloringv9.egg-info/top_level.txt
