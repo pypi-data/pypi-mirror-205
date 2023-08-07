@@ -1,0 +1,15 @@
+mmn_experiments/__init__.py,sha256=RifZ9PuUoQivv-DEQSkF6LO6TdQHPI3lFWch3vFH6RA,244
+mmn_experiments/decorator.py,sha256=ydmCDrT0x4dQEHdaaDWkpR7tNn9N2_reBCkE5XWkAI0,1985
+mmn_experiments/data/__init__.py,sha256=LRWFgjqUzD9RlZANLHCfpu-cGZAfT2DQwhzx4srvthI,37
+mmn_experiments/data/dades.py,sha256=ZiF437UlVydT2pEar4fzDxe3DwN_40Ry7TUYMGO_ETw,4532
+mmn_experiments/database_model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mmn_experiments/database_model/database.py,sha256=zdsQ2Hr20PpWNV9xFuWtJ9MGis5lsZq8SaRCOnOyoFQ,5249
+mmn_experiments/experiment/__init__.py,sha256=6dVd3keNwBhdJEZ55GeHiBDSv_R9fXvpk4_LoCs0R1w,306
+mmn_experiments/experiment/experiment.py,sha256=QFCpUZggDIb5ookrkso8nJP8OdDIW0NRrx4KguhI6Mg,17128
+mmn_experiments/keras/__init__.py,sha256=dzTS622E4_A2FQkCSkeqO0B2ZIwvuJP30OzlJaYpcrc,46
+mmn_experiments/keras/telegramCallback.py,sha256=jakWXOu9o9Lu3jDWiV2Dfrk9NHqL7AFvNFKrVdxRDKI,2925
+mmn_experiments-1.6.2.dist-info/LICENSE,sha256=qGIX0kV5WCYd9_4F2wmuqquVhj-dtB5-GJEEtXeVzBM,1092
+mmn_experiments-1.6.2.dist-info/METADATA,sha256=nkovnqHT1McgJ6f9sLEoUriS-775jYcJERwxZoTRSLo,780
+mmn_experiments-1.6.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+mmn_experiments-1.6.2.dist-info/top_level.txt,sha256=DbIR2Q_xq98KT4VfPaR_ELParX2lFw3HxUa_CjLndFQ,16
+mmn_experiments-1.6.2.dist-info/RECORD,,
