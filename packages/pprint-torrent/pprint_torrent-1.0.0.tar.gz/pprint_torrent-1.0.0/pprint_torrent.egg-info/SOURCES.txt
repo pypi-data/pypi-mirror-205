@@ -1,0 +1,9 @@
+README.md
+pprint_torrent.py
+setup.py
+pprint_torrent.egg-info/PKG-INFO
+pprint_torrent.egg-info/SOURCES.txt
+pprint_torrent.egg-info/dependency_links.txt
+pprint_torrent.egg-info/entry_points.txt
+pprint_torrent.egg-info/requires.txt
+pprint_torrent.egg-info/top_level.txt

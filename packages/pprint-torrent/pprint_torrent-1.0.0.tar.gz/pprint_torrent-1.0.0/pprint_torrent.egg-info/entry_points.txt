@@ -1,0 +1,2 @@
+[console_scripts]
+pprint_torrent = pprint_torrent:main
