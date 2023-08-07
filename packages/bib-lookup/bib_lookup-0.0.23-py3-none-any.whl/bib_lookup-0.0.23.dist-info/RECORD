@@ -1,0 +1,14 @@
+bib_lookup/__init__.py,sha256=nUa0bWk004h45VI7P-7wQaPrRNtlgxNeSdMvu9qPrCY,216
+bib_lookup/_bib.py,sha256=UAGW8mmdipwKXKay5lwzGc8czSiNRFt-qFQLviyg6lk,24287
+bib_lookup/_const.py,sha256=vrD6TwJQLzV8kAbGpsIGLBWVzyDcVNslUt02TI_1riI,542
+bib_lookup/bib_lookup.py,sha256=ExkQx1peJ52fKMO8u_hgh6TsWpgMo3_C1Z0pgzlKdjQ,47351
+bib_lookup/citation_mixin.py,sha256=A3DXPPaS5X0oxxh8awN_3k6JvOgol_TRZVGWyqjG2JQ,6150
+bib_lookup/cli.py,sha256=jBlmJjaFjLfbanTLb43LFe77dSZ2q95AphN0o1eDP3w,9527
+bib_lookup/utils.py,sha256=c9jkVgP8xtWpJmWIDsbMIr-btxdA8N8Fmw8TAFa6nRc,11604
+bib_lookup/version.py,sha256=CO0VmekjZ_r8LBYVaUXTM3i08rEVwYKhjb9sy0X7vz0,23
+bib_lookup-0.0.23.dist-info/LICENSE,sha256=awFi0ObTapP4amV-8lmf1UC8mzYFmXLhrbtRnEbw3Wo,1080
+bib_lookup-0.0.23.dist-info/METADATA,sha256=W6e4lI-aNlKHjdywAM7ojwJhJiDukXFnkh_9cgKoxT4,16662
+bib_lookup-0.0.23.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+bib_lookup-0.0.23.dist-info/entry_points.txt,sha256=kEyNzPBEh0GgyyYQr8TvEeEvY1VqGJDEmItK4NPGJAk,52
+bib_lookup-0.0.23.dist-info/top_level.txt,sha256=U8h1CRSLsVIScgUl9f2q8qEeM8w4JPzbvx6uCCcEU6k,11
+bib_lookup-0.0.23.dist-info/RECORD,,
