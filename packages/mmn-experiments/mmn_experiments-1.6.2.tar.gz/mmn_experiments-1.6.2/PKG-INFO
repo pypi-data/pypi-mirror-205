@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mmn_experiments
+Version: 1.6.2
+Summary: Library to handle experiment information
+Author-email: Miquel Miró Nicolau <miquel.miro@uib.cat>, Gabriel Moyà Alcover <gabriel_moya@uib.es>
+Project-URL: Homepage, https://github.com/miquelmn/uib_experiments
+Keywords: experiments,machine learning
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Ugivia - Experiments
+
+Library to handle scientific **experiments**. An experiment is a combination of inputs and results,
+this library gives the ability to save the outputs and inputs in a standardized way
