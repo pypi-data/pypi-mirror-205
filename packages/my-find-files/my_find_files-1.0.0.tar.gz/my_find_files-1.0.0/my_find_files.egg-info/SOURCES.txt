@@ -1,0 +1,6 @@
+find_files.py
+setup.py
+my_find_files.egg-info/PKG-INFO
+my_find_files.egg-info/SOURCES.txt
+my_find_files.egg-info/dependency_links.txt
+my_find_files.egg-info/top_level.txt

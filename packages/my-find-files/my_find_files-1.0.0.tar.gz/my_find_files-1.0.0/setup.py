@@ -1,0 +1,40 @@
+from setuptools import setup
+setup(
+    name='my_find_files',
+    version='1.0.0',
+    description='遍历一个路径',
+    author='zhuquan',
+    author_email='2661194101@qq.com',
+    py_module=['ftree'],
+    long_description='''my_find_files 是一个 Python 模块，可以用来遍历一个文件夹，查找指定类型的文件，并返回它们的路径。该模块可以通过简单的 API 调用，提供灵活的文件查找功能。
+
+        主要特点：
+        * 支持递归查找文件夹中的文件；
+        * 可以指定查找的文件类型，例如 jpg、png、txt 等；
+        * 可以过滤掉指定名称的文件或文件夹；
+        * 返回的文件路径可以根据文件名、文件修改时间、文件大小等排序。
+
+        安装
+        -------
+        可以通过 pip 安装 my_find_files：
+
+        ```
+        pip install my_find_files
+        ```
+
+        示例
+        -------
+        使用 my_find_files 查找当前文件夹下所有的 .txt 文件：
+
+        ```python
+        from my_find_files import find
+
+        result = find('.', '*.txt')
+        print(result)
+        ```
+
+        详细文档
+        -------
+        ''',
+    long_description_content_type='text/markdown'
+)
