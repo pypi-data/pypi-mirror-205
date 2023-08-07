@@ -1,0 +1,10 @@
+kerpy/__init__.py,sha256=GgtfsSo9s3O5p_q-9pxx5oeQuBo7P7uHQj2zYhqb108,145
+kerpy/_version.py,sha256=CPIAfsBbLr8KojK7FbHySM1gELZttJK3uGcThtVhp9c,497
+kerpy/diff.py,sha256=4SquDhPIPkFFN8C0dqpbsZC8I_IRXOVmlT9M12lnDF8,7338
+kerpy/processing.py,sha256=wQYqSJSaETRkXspXE8bxy2RH7qo_NxuIDqD7SgOfaKM,3507
+kerpy/shapes.py,sha256=TmBLpiSJqt7BYjF3ee8e6VU_Xd0V6nTQ2ZzAyE1I4eU,5415
+KernelsPython-1.0.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+KernelsPython-1.0.4.dist-info/METADATA,sha256=2Y20NvqjwGukWVEC7lUqGU3amHNx47Ep_wePj4QQpV0,1592
+KernelsPython-1.0.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+KernelsPython-1.0.4.dist-info/top_level.txt,sha256=iu6CPs70pVSpGzXZR6sgcNX4eKePSu9ysKcwcK6Of-Y,6
+KernelsPython-1.0.4.dist-info/RECORD,,
