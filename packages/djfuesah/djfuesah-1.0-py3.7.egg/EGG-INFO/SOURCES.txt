@@ -1,0 +1,7 @@
+setup.py
+djfuesah.egg-info/PKG-INFO
+djfuesah.egg-info/SOURCES.txt
+djfuesah.egg-info/dependency_links.txt
+djfuesah.egg-info/top_level.txt
+main/__init__.py
+main/file.py
