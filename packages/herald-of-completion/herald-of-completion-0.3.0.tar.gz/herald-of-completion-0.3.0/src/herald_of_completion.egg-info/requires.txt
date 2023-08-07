@@ -1,0 +1,8 @@
+requests
+python-dotenv
+plyer
+
+[dev]
+black
+pytest
+pytest-mock
