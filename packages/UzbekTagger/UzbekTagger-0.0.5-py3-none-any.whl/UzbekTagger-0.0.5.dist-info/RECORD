@@ -1,0 +1,9 @@
+UzbekTagger/UzbekTagger.py,sha256=GzD3Vd94NCBQVkDHhEqK1h3WYSaQyHMdJ6jCZ-l4lCQ,4687
+UzbekTagger/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+UzbekTagger/service_to_uzbek_text.py,sha256=9rCOPbhV8mRBGb8-evxV54YWXF6toTbK-AJN91rPEF0,1339
+UzbekTagger/word.xml,sha256=HAGeG25t_1I2BzFwU4oXuynwvUSeSnkdZoaU_oOxXCQ,4038555
+UzbekTagger-0.0.5.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+UzbekTagger-0.0.5.dist-info/METADATA,sha256=ZQT1YOXpf4pzIFv65sVKtpM3AuY_sd6uOS-jcm4n6Ps,716
+UzbekTagger-0.0.5.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+UzbekTagger-0.0.5.dist-info/top_level.txt,sha256=IFNaMIA37hZcMNzoxa7EM22yIu6AOqxh6TJn3hqB-NM,12
+UzbekTagger-0.0.5.dist-info/RECORD,,
