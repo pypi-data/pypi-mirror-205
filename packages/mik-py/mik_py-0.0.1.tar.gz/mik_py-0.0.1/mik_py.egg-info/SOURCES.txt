@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+eicar.com
+setup.py
+mik_pack_10/__init__.py
+mik_pack_10/mik_py_.py
+mik_py.egg-info/PKG-INFO
+mik_py.egg-info/SOURCES.txt
+mik_py.egg-info/dependency_links.txt
+mik_py.egg-info/top_level.txt
