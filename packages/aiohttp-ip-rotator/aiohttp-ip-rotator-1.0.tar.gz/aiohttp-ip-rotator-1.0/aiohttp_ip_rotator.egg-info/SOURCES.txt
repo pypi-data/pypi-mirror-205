@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+aiohttp_ip_rotator/__init__.py
+aiohttp_ip_rotator/rotator.py
+aiohttp_ip_rotator.egg-info/PKG-INFO
+aiohttp_ip_rotator.egg-info/SOURCES.txt
+aiohttp_ip_rotator.egg-info/dependency_links.txt
+aiohttp_ip_rotator.egg-info/requires.txt
+aiohttp_ip_rotator.egg-info/top_level.txt
