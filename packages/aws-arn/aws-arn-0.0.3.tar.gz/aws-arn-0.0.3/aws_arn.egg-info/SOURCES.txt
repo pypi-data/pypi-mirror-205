@@ -1,0 +1,9 @@
+README.md
+setup.py
+aws_arn/__init__.py
+aws_arn/arn.py
+aws_arn.egg-info/PKG-INFO
+aws_arn.egg-info/SOURCES.txt
+aws_arn.egg-info/dependency_links.txt
+aws_arn.egg-info/entry_points.txt
+aws_arn.egg-info/top_level.txt
