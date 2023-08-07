@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: libtukaan-unix
+Version: 0.1.4
+Summary: Binary extensions for Tukaan
+Home-page: https://tukaan.github.io
+Author: rdbende
+Author-email: rdbende@proton.me
+License: MIT
+Project-URL: Source, https://github.com/tukaan/libtukaan
+Project-URL: Documentation, https://tukaan.github.io/docs
+Project-URL: Tracker, https://github.com/tukaan/libtukaan/issues
+Platform: UNKNOWN
+Requires-Python: >=3.7
+
+UNKNOWN
+

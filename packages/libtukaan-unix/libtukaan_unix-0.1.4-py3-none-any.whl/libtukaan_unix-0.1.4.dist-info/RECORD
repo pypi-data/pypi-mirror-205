@@ -1,0 +1,9 @@
+libtukaan/__init__.py,sha256=YzlJ1H2RCPfce6DvNGl52fw1xKjmOWqarjq9hsVnOc8,54
+libtukaan/serif.py,sha256=m2uZrsR0JPgijMVmsO4oBbHZ2GfqG79agiBLLEwYHDY,1612
+libtukaan/xcursor.py,sha256=AL_0lQ_UI-VDo8l5TKPPfJZ6p3UmQLO6pr0-n2CQ-Yg,1495
+libtukaan/unix/libserif_x64.so,sha256=8e8o9fEhYaNRxmV8bvAsgg_0V2kkiAcnAfFa5JW1z5E,16920
+libtukaan/unix/libtkxcursor_x64.so,sha256=Zr6S2MHEzR6k0og2stqvjoorKaswnZQLxLfwjSUuleM,16624
+libtukaan_unix-0.1.4.dist-info/METADATA,sha256=A7DjJ-cDHfU8-ebal45UO6D5NIeB7qQZsG2qDBxgElY,424
+libtukaan_unix-0.1.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+libtukaan_unix-0.1.4.dist-info/top_level.txt,sha256=MKdVQX8fquXGWUngt7lIiHP6PnlcHkJXhBNLNG_heyg,10
+libtukaan_unix-0.1.4.dist-info/RECORD,,
