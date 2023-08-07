@@ -1,0 +1,17 @@
+hostedpi/__init__.py,sha256=wc-cTwbT43kMEMOpSG7b2EnwACCy6rKGPzKzUcOpiJw,114
+hostedpi/__version__.py,sha256=VrXpHDu3erkzwl_WXrqINBm9xWkcyUy53IQOj042dOs,22
+hostedpi/auth.py,sha256=UEbFEkqgB1ygIKR1o2Dc17fNJKAqLG_1oI1JC3b6HQc,1797
+hostedpi/cli.py,sha256=Vjo6Bugw9WWa-QS1rSeG6cYVqiUgVKEvRy3Rgz1p2jQ,21824
+hostedpi/exc.py,sha256=j5F8xZJoxqkja4uyJkcZliheAEiULsnkkWUqIktkupo,198
+hostedpi/pi.py,sha256=t6lfsF7dopD1ozjJeO_5J0K9WVO_lQiLvcb2inWd2eU,14932
+hostedpi/picloud.py,sha256=Qhck9GzMuhyWYCoOiu2kfVJ2Yh1NJXGnJXQNU4Tth2U,10249
+hostedpi/utils.py,sha256=syhNPSLj11QjdgxewCkzqWcM3YuXXKvCjJwffMpJ8xQ,2187
+hostedpi/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hostedpi/models/auth.py,sha256=dTSHirEsi0cU6dbiP-NCXD4VzrMWWGa72calq3Op6eI,500
+hostedpi/models/settings.py,sha256=qkzqRTkVrWMgrXdjMGqUwZhdjwzsb5BjMWq4jq6xUsM,172
+hostedpi-0.3.0.dist-info/LICENSE.txt,sha256=aX3b0H1cvIyQogMaOCbBf_B3eQKp8TbomkWkhSr4ddo,1571
+hostedpi-0.3.0.dist-info/METADATA,sha256=sUFx1eI2KzZg6DQc5bhYBN05im1TBck8oNzcgxBKEGo,3970
+hostedpi-0.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+hostedpi-0.3.0.dist-info/entry_points.txt,sha256=0g4rOgJOf9RPo89k90daj5C46BfDnU7kZK4_lBQ7y4A,47
+hostedpi-0.3.0.dist-info/top_level.txt,sha256=Zngc9Qwpv9kC2P4y2BFvnpbOHfh-pO2kkRmDj77r9io,9
+hostedpi-0.3.0.dist-info/RECORD,,
