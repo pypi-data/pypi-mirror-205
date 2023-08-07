@@ -1,0 +1,5 @@
+rust_udf_example-0.1.1.dist-info/METADATA,sha256=XOACzhM3GGDBC-Te-oXbGM69-HE43vDJvnGyvrnj6IU,265
+rust_udf_example-0.1.1.dist-info/WHEEL,sha256=L98fCWQzY8AHUKCt5LhJCDWVrTp_lzcRP08bVdZXElw,110
+rust_udf/__init__.py,sha256=HHtqc-lsVsjWTckeQgB38MP9oDvTZOP2NJUQcZNKz0o,115
+rust_udf/rust_udf.cpython-310-x86_64-linux-gnu.so,sha256=psCFZ8mdpWVSX0LzC2WAsYe7Flhv-b5jPmfLZ4vFy_c,440736
+rust_udf_example-0.1.1.dist-info/RECORD,,
