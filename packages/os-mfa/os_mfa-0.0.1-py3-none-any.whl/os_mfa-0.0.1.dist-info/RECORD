@@ -1,0 +1,9 @@
+os_mfa/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+os_mfa/__main__.py,sha256=95D1XU5OxMvzh4cWZN99vO50kV319BmkSgpiEZO590g,1763
+os_mfa/config_helpers.py,sha256=6WhYg6llMMZJenINLqQLKGB9FiRxT_SiRHA-I_pCef4,4641
+os_mfa-0.0.1.dist-info/LICENSE,sha256=OczANTi_427Zql_AHWppObfMa8rMNVYjg2ab__u2WeU,1060
+os_mfa-0.0.1.dist-info/METADATA,sha256=m66iJb77AE1jleX-eBZBnsrTHrh0DCF6tEWJAPXrsdY,9222
+os_mfa-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+os_mfa-0.0.1.dist-info/entry_points.txt,sha256=pghI9WX4HN9T-DHoSenlTWj1qoPPYE7xr0Ho2JIFOAc,48
+os_mfa-0.0.1.dist-info/top_level.txt,sha256=YtNbC1bubXfQ9NRk0NpkWbWOs4Vxj_mDN2kHAfzfpHo,7
+os_mfa-0.0.1.dist-info/RECORD,,
