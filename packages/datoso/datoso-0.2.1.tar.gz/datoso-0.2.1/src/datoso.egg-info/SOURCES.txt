@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/datoso/__init__.py
+src/datoso/__main__.py
+src/datoso/datoso.ini
+src/datoso/seeds.txt
+src/datoso.egg-info/PKG-INFO
+src/datoso.egg-info/SOURCES.txt
+src/datoso.egg-info/dependency_links.txt
+src/datoso.egg-info/entry_points.txt
+src/datoso.egg-info/requires.txt
+src/datoso.egg-info/top_level.txt
