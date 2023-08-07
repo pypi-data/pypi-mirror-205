@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling", "openai"]
+build-backend = "hatchling.build"
+
+[project]
+name = "GPTAgent"
+version = "0.0.13"
+authors = [
+  { name="Hobbert Evergreen", email="inteligenciamilgrau@gmail.com" },
+]
+description = "A small and simple way to generate a ChatGPT agent"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/inteligenciamilgrau/GPTAgent"
