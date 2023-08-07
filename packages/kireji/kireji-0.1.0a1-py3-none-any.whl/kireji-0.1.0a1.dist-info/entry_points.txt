@@ -1,0 +1,2 @@
+[console_scripts]
+kireji = kireji.__main__:main
