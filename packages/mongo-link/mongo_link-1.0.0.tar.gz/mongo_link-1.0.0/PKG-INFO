@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: mongo_link
+Version: 1.0.0
+Summary: Mongo link is a orm wrapper for motor and pymongo
+Home-page: https://github.com/kovtunov-oleksandr/MongoLink
+Author: Kovtunov Oleksandr
+Author-email: kovtunov.oleksandr.00@gmail.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+MongoLink: A Pythonic MongoDB ORM built on Pydantic 🐍🔗🌿
+
+MongoLink is an intuitive and easy-to-use Python library for object-relational mapping (ORM) with MongoDB, built on top of Pydantic. It simplifies the interaction between your Python objects and MongoDB collections, allowing you to work with Pythonic models while leveraging MongoDB's flexibility and performance.
+
+Key Features:
+
+Seamless integration of MongoDB with Pydantic models
+Asynchronous support for efficient and scalable operations
+Customizable schema validation and alias handling
+Clean, expressive, and easy-to-use API
+
+Get started with MongoLink today and streamline your data management workflow with Python and MongoDB!
+
