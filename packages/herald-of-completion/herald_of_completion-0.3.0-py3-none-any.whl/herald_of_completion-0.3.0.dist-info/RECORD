@@ -1,0 +1,13 @@
+herald/__init__.py,sha256=QyVn5RRKCeqZhXu0U_ebu8wPcKdeyWpSjKqssE-Mgps,81
+herald/decorators.py,sha256=yCkrPDvQW2d-vSlwFyo15qxtZf1iuC3x1t5P9D2I8jM,4029
+herald/types.py,sha256=iV6OnBEoCWVJD5GPQ97KVp-J_BJjd83FNhVJhQz_rL4,3041
+herald/utils.py,sha256=mO-ktMTN1m19I5ITk4y56xhH-C7pXZU8KqFB1uWKZec,3562
+herald/messengers/__init__.py,sha256=KfzTox_Dn8XjXL2HJ8Pv7-EkDAtdA8IYhVCI08ffsag,110
+herald/messengers/desktop.py,sha256=gwQ6tYpaH_kWrxWhEjmXU594GWEf0_zaY3cv6trEBME,1843
+herald/messengers/discord.py,sha256=Igx-5pMPO3CnkEJSdx64YQCLOf_CPZzQ-ysYks6zzCg,2909
+herald/messengers/email.py,sha256=LsWSPP-f6nC-6vDk9n_LZy6drmLDZfxK8gmmsSlFy2U,3851
+herald_of_completion-0.3.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+herald_of_completion-0.3.0.dist-info/METADATA,sha256=kp4EHO1CwBBgLSGLT1ybw2co1DQTSY2j6OTuFrt7XXM,9359
+herald_of_completion-0.3.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+herald_of_completion-0.3.0.dist-info/top_level.txt,sha256=YG_vedLj6XWyu8_18Uroi8Vm7zhRb9WFOsQd3dhNabY,7
+herald_of_completion-0.3.0.dist-info/RECORD,,
