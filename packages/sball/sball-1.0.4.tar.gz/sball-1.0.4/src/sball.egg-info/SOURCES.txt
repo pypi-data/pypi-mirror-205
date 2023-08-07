@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/sball/__init__.py
+src/sball/__main__.py
+src/sball/sball.py
+src/sball.egg-info/PKG-INFO
+src/sball.egg-info/SOURCES.txt
+src/sball.egg-info/dependency_links.txt
+src/sball.egg-info/entry_points.txt
+src/sball.egg-info/top_level.txt

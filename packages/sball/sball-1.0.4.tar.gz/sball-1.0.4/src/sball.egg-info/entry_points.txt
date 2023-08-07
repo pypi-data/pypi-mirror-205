@@ -1,0 +1,2 @@
+[console_scripts]
+sball = sball.__main__:main

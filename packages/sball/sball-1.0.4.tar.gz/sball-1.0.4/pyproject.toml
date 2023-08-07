@@ -1,0 +1,25 @@
+# pyproject.toml
+
+[build-system]
+requires=['setuptools', 'wheel']
+build-backend='setuptools.build_meta'
+
+[project]
+name='sball'
+version='1.0.4'
+description="Submit scripts in job arrays using Yale's dSQ."
+readme='README.md'
+authors=[{name="Michael Wilson", email='michael.a.wilson@yale.edu'}]
+classifiers=[
+	'Development Status :: 4 - Beta',
+	'Programming Language :: Python',
+	'Programming Language :: Python :: 3',
+]
+keywords=['slurm', 'job array', 'sbatch', 'dSQ', 'dsq']
+requires-python='>=3'
+
+[project.urls]
+Homepage='https://github.com/mawilson1234/sball'
+
+[project.scripts]
+sball='sball.__main__:main'
