@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: sgplib
+Version: 0.0.3
+Summary: SpeedGo Protocol Open Library.
+Home-page: https://github.com/Hiyoteam/sgplib
+Author: Hiyoteam
+Author-email: tanhanzesnd@gmail.com
+License: AGPL-3.0
+Keywords: network socket
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# sgplib
+SpeedGo Protocol Open Library

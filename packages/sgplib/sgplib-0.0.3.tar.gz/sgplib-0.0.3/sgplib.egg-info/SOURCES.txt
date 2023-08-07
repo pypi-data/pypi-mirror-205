@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+sgplib/__init__.py
+sgplib.egg-info/PKG-INFO
+sgplib.egg-info/SOURCES.txt
+sgplib.egg-info/dependency_links.txt
+sgplib.egg-info/top_level.txt
