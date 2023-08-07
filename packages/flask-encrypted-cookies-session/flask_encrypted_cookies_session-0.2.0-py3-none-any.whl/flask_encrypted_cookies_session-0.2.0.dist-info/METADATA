@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: flask-encrypted-cookies-session
+Version: 0.2.0
+Summary: An encrypted cookie based session implementation for flask
+Home-page: https://gitlab.in2p3.fr/rferrand/flask-encrypted-cookies-session
+License: CECILL-B
+Author: Rémi Ferrand
+Author-email: remi.ferrand@cc.in2p3.fr
+Requires-Python: >=3.9,<4.0
+Classifier: License :: CeCILL-B Free Software License Agreement (CECILL-B)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: cryptography (>=40.0.2,<41.0.0)
+Requires-Dist: flask (>=2.3.1,<3.0.0)
