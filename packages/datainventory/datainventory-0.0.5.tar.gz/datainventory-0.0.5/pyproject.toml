@@ -1,0 +1,29 @@
+[project]
+name = "datainventory"
+version = "0.0.5"
+authors = [
+    { name="IoT Spectator" }
+]
+description = "Data Inventory"
+readme = {file = "README.rst", content-type = "text/x-rst"}
+requires-python = ">=3.9"
+license = {text = "MIT License"}
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+]
+keywords = ["image and video database"]
+dependencies = [
+    "click", "pandas", "SQLAlchemy"
+]
+
+[tool.setuptools.packages.find]
+exclude = ["examples", "tests"]
+
+
+[project.urls]
+repository = "https://github.com/iot-spectator/datainventory"
+
+
+[project.scripts]
+inventory-cli = "datainventory.bin.app:main"
