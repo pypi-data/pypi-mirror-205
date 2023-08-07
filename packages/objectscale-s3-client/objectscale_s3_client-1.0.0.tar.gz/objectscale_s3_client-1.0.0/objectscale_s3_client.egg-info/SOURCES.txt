@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+NOTICE.md
+README.md
+pyproject.toml
+setup.py
+objectscale_s3_client/__init__.py
+objectscale_s3_client.egg-info/PKG-INFO
+objectscale_s3_client.egg-info/SOURCES.txt
+objectscale_s3_client.egg-info/dependency_links.txt
+objectscale_s3_client.egg-info/requires.txt
+objectscale_s3_client.egg-info/top_level.txt
+objectscale_s3_client/data/s3/2023-2-11/service-2.sdk-extras.json

@@ -1,0 +1,25 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "objectscale_s3_client"
+version = "1.0.0"
+description = "Open-source S3 client library in python to support ObjectScales proprietary S3 extensions"
+readme = "README.md"
+authors = [ {name="Drayer Sivertsen", email="drayer.sivertsen@wsu.edu"}, {name="Nathan Marugame", email="nathan.marugame@wsu.edu"}, {name="Killian Griffin", email="killian.griffin@wsu.edu"} ]
+classifiers = [ 'Development Status :: 3 - Alpha',
+'Intended Audience :: Developers',
+'License :: OSI Approved :: Apache Software License',
+'Natural Language :: English',
+'Programming Language :: Python :: 3.10',
+'Topic :: Software Development :: Libraries' ]
+keywords = [ 'ObjectScale', 'S3', 'Dell', 'boto3', 'botocore' ]
+dependencies = [ 'boto3' ]
+
+
+[project.optional-dependencies]
+dev = [ 'unittest', 'pytest' ]
+
+[project.urls]
+Homepage = "https://github.com/EMCECS/objectscale-s3-client-python"
