@@ -1,0 +1,10 @@
+setup.py
+javiera-saludpackage/__init__.py
+javiera-saludpackage/imc.py
+javiera-saludpackage/moduloIMC.py
+javiera-saludpackage/moduloRC.py
+javiera-saludpackage/setup.py
+javiera_saludpackage.egg-info/PKG-INFO
+javiera_saludpackage.egg-info/SOURCES.txt
+javiera_saludpackage.egg-info/dependency_links.txt
+javiera_saludpackage.egg-info/top_level.txt

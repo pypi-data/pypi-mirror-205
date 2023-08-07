@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: javiera-saludpackage
+Version: 0.1
+Summary: Esta es la descripcion de mi paquete
+Home-page: https://github.com/javieraisoto03/Salud-Package
+Download-URL: 
+Author: Javiera Soto
+Author-email: javieraisoto.03@gmail.com
+License: MIT
+Keywords: testing
+Description-Content-Type: text/markdown
