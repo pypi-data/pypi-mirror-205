@@ -1,0 +1,4 @@
+[console_scripts]
+easyi = easypipinstall:install
+easyu = easypipinstall:uninstall
+easyv = easypipinstall:version
