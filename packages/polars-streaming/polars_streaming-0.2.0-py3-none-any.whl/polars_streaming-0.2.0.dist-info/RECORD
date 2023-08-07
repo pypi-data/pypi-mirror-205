@@ -1,0 +1,17 @@
+polars_streaming/__init__.py,sha256=fOxHDj2wYBiy277cVrk_fdinlKmSKHMzZQr2S7Xf7D4,210
+polars_streaming/core.py,sha256=EzQb5MOvdg-hA5Qdthv_0jFnHZ85JTUorK8jtMomaVI,1240
+polars_streaming/exceptions.py,sha256=s5TOw2-DwwZ3mw2iIm8p1NqYQNGqXGMcqwH8DvcFIzQ,436
+polars_streaming/readwriter.py,sha256=dFvrAuvbEhx39zzbj35b0BBDOiLnmzXbYF5DJ5dxmvE,1715
+polars_streaming/processors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+polars_streaming/processors/fileProcessor.py,sha256=iTePcpjIA5Kg1VF8Z8yMtH74J-gHIbCdgqCnCU_cnPY,2138
+polars_streaming/processors/kafkaProcessor.py,sha256=fMNRXafsJ6YJFFwBYRB9fdlB_vt4yfMcN7WIisc7USI,2823
+polars_streaming/processors/socketProcessor.py,sha256=eUi-HCJsoPd8QbExJIqybM5z3KXBG9k_iNsr1pOHL3g,1790
+polars_streaming/processors/utils.py,sha256=QanISeNKr_ScO8QUy72imHtalIqC61JXk3qxaaeawCY,919
+polars_streaming/sinks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+polars_streaming/sinks/esWriter.py,sha256=kbgpGugWacEQZDFpggI-z3rVOaFgody-hIXfysWUqJs,1015
+polars_streaming/sinks/mongoWriter.py,sha256=g4DBofVUNxxSAge5UO29JkBWomgRT42o9iKpeS-tswM,586
+polars_streaming-0.2.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+polars_streaming-0.2.0.dist-info/METADATA,sha256=Jge0y9_AQMKzqN4M0txOWe0KotGDgW72nkyQqFkwH10,14779
+polars_streaming-0.2.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+polars_streaming-0.2.0.dist-info/top_level.txt,sha256=NtITDH9MOHV1SqmefoUyOG-NcHAKTmMyzOrB4-EKl_o,17
+polars_streaming-0.2.0.dist-info/RECORD,,
