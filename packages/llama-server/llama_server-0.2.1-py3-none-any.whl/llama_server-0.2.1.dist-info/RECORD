@@ -1,0 +1,12 @@
+llama_server/__init__.py,sha256=HfjVOrpTnmZ-xVFCYSVmX50EXaBQeJteUHG-PD6iQs8,22
+llama_server/server.py,sha256=X5tb78-K44ECrOfzRAtCrKIvtkFTtjC-uQ9OG-nV19Y,4865
+llama_server/prompts/alpaca.txt,sha256=j625rRIG8vEwtUAEiToqf3ax_0GngEnWnXl98u5n_pQ,106
+llama_server/prompts/chat-with-bob.txt,sha256=VJr1mwZ8uhYrBLBQGzhUVWYGtWVlarH97KVfk5ErUlA,387
+llama_server/prompts/dan.txt,sha256=ky-IcvlZbJB5cG8r4A2X3NBDsI39YSyKzjRfQOkCWwQ,1669
+llama_server/prompts/reason-act.txt,sha256=Swmy6ta4rOTl3iiFKl5esmj6qInPcdkG1Kp61VKq0Mc,759
+llama_server-0.2.1.dist-info/LICENSE,sha256=nXcVTFMHAo2QC4PttZX1tL4IKWquurkhJfW7rRxnk0M,1062
+llama_server-0.2.1.dist-info/METADATA,sha256=I0dl3ouiZ8JGG7RpPqYz-_D2ASwUY8VqNpMA57aY6dM,4989
+llama_server-0.2.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+llama_server-0.2.1.dist-info/entry_points.txt,sha256=Hj6DvH6Kvhdx-RBdT181ph0LWurOGmKQbgGDb9BXO4k,58
+llama_server-0.2.1.dist-info/top_level.txt,sha256=IEIB_tLYUmpw5jB0I8RB9lJ6sQqsllkOO8NhYalflHs,25
+llama_server-0.2.1.dist-info/RECORD,,
