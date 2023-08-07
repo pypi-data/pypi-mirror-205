@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name         = "kireji"
+description  = "A plaintext note-taking CLI in Python."
+dependencies = ["click>=8.1"]
+dynamic      = ["version"]
+keywords     = ["note", "notes", "note-taking", "cli"]
+license      = {text="BSD-3-Clause"}
+readme       = "readme.md"
+requires-python = ">=3.10"
+
+authors = [
+    {name="Stephen Malone", email="mail@wirehaiku.org"},
+]
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: BSD License",
+    "Natural Language :: English",
+    "Operating System :: POSIX",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Office/Business",
+]
+
+[project.scripts]
+kireji = "kireji.__main__:main"
+
+[tool.setuptools]
+packages = ["kireji"]
+
+[tool.setuptools.dynamic]
+version = {attr="kireji.VERSION_NUMS"}

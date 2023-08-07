@@ -1,0 +1,10 @@
+pyproject.toml
+readme.md
+kireji/__init__.py
+kireji/__main__.py
+kireji.egg-info/PKG-INFO
+kireji.egg-info/SOURCES.txt
+kireji.egg-info/dependency_links.txt
+kireji.egg-info/entry_points.txt
+kireji.egg-info/requires.txt
+kireji.egg-info/top_level.txt
