@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: DinoHash
+Version: 0.5
+Summary: A fun Hash library.
+Author: Mora
+Author-email: MoraDev@proton.me
+License: GNU GPLv3
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+
