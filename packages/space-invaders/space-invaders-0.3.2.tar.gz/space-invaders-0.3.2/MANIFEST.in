@@ -1,0 +1,9 @@
+include space_invaders/Sprites/*.png
+include space_invaders/Sounds/*.wav
+include space_invaders/Sounds/*.mp3
+include space_invaders/Sounds/*.ogg
+include space_invaders/TestResults/*.txt
+include space_invaders/Fonts/*.ttf
+include space_invaders/Fonts/*.TTF
+include space_invaders/README.md
+include space_invaders/tests/INFO.md
