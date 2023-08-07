@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+inworld_python/__init__.py
+inworld_python/inworld_chat.py
+inworld_python.egg-info/PKG-INFO
+inworld_python.egg-info/SOURCES.txt
+inworld_python.egg-info/dependency_links.txt
+inworld_python.egg-info/requires.txt
+inworld_python.egg-info/top_level.txt
