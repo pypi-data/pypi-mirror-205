@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: iamprayut
+Version: 0.0.1
+Summary: Who is Prayut Chan-O-Cha
+Home-page: https://github.com/Prayut
+Download-URL: https://github.com/Prayut
+Author: Prayut
+Author-email: prayut@proton.me
+License: MIT
+Keywords: Prayut,Uncle Engineer
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE
+License-File: LICENSE.txt
+
+This package have information about Prayut
+==========================================
+
+PyPi: https://pypi.org/project/iamprayut/
+
+Hello this is package information about Prayut Chan-O-Cha
+
+วิธีติดตั้ง
+~~~~~~~~~~~
+
+เปิด CMD / Terminal
+
+.. code:: python
+
+   pip install iamprayut
+
+วิธีใช้งานแพ็คเพจนี้
+~~~~~~~~~~~~~~~~~~~~
+
+-  เปิด IDLE ขึ้นมาแล้วพิมพ์…
+
+\```python from iamprayut import Prayut
+
+mayor = Prayut() #Class mayor.show_name() #show name mayor.show_page()
+#show facebook page mayor.about() #show about him mayor.show_art() #show
+ascii art
