@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: terminalplay
+Version: 1.0.2
+Summary: Play videos on your terminal; Works on windows as well as linux
+Home-page: https://github.com/merwin-asm/Terminal_Play
+Author: Merwin JD
+Author-email: merwin@fbi.ac
+License: MIT
+Keywords: terminalplay,play videos,terminal
+Platform: windows
+Platform: linux
+License-File: LICENSE.txt
+
+
+      The video played will also have color and sound :)
+      Videos be converted into easily readable frames which will be printed on the terminal (This 
+      conversion will only take place once).
+      
+
