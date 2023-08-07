@@ -1,0 +1,9 @@
+itkwasm_compress_stringify/__init__.py,sha256=BUul1Z_sntxzSIqClakhLEmwPUrsiSm7ek_BLOZVmko,407
+itkwasm_compress_stringify/_version.py,sha256=ErkLkI2TDBX1OIqi2GGa20CPeu4ZculEi-XffRbLU6M,22
+itkwasm_compress_stringify/compress_stringify.py,sha256=mGWCLz5ZHjkCAvsnkJMQeqx7mXEX_yhbeKKa98DySa8,935
+itkwasm_compress_stringify/compress_stringify_async.py,sha256=mOedNY06Kjn0G6mkaVXv8R4F1U-iISRzxdf3tloACJY,959
+itkwasm_compress_stringify/parse_string_decompress.py,sha256=7dRxaa3GJ2jcX6Lg3UXRc1325qDVgZRbrXO0-5eTbe0,715
+itkwasm_compress_stringify/parse_string_decompress_async.py,sha256=3CUss-hoXMVUMjCVC55oRIIajsiDgY4Iv9-i57AH1Yo,739
+itkwasm_compress_stringify-0.4.5.dist-info/METADATA,sha256=Uv6oq1deIhfdfyyVwkMTEBnn3dcPGRXMjORJXGK_2nQ,1441
+itkwasm_compress_stringify-0.4.5.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+itkwasm_compress_stringify-0.4.5.dist-info/RECORD,,
