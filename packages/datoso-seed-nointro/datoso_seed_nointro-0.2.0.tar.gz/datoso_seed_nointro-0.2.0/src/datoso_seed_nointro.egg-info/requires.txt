@@ -1,0 +1,5 @@
+datoso>=0.2.0
+selenium==4.8.3
+
+[dev]
+ruff>=0.0.261
