@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: DyGraph
+Version: 0.0.1
+Summary: A package for estimating dynamic graphical lasso with heavy tailed distributions
+Home-page: https://github.com/ragnarlevi/DyGraph
+Author: ragnarlevi
+License: MIT
+Project-URL: Bug Tracker, https://github.com/ragnarlevi/DyGraph/issues
+Platform: unix
+Platform: linux
+Platform: osx
+Platform: cygwin
+Platform: win32
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: testing
+License-File: LICENSE
+
+
+![Tests](https://github.com/ragnarlevi/DyGraph/actions/workflows/tests.yml/badge.svg)
+[![Coverage Status](https://coveralls.io/repos/github/ragnarlevi/DyGraph/badge.svg?branch=main)](https://coveralls.io/github/ragnarlevi/DyGraph?branch=main)
+
+# DyGraph
+
+A package for dynamic graph estimation
+
+
+
