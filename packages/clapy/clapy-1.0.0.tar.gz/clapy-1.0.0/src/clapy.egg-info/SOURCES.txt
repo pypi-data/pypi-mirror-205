@@ -1,0 +1,16 @@
+LICENCE
+README.md
+pyproject.toml
+src/common.py
+src/dependency_injection.py
+src/engine.py
+src/exceptions.py
+src/generics.py
+src/outputs.py
+src/pipeline.py
+src/services.py
+src/clapy.egg-info/PKG-INFO
+src/clapy.egg-info/SOURCES.txt
+src/clapy.egg-info/dependency_links.txt
+src/clapy.egg-info/requires.txt
+src/clapy.egg-info/top_level.txt
