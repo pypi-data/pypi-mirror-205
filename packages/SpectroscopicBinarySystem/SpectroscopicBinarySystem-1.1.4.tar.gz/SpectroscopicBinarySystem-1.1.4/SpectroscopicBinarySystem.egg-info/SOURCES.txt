@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+SpectroscopicBinarySystem.egg-info/PKG-INFO
+SpectroscopicBinarySystem.egg-info/SOURCES.txt
+SpectroscopicBinarySystem.egg-info/dependency_links.txt
+SpectroscopicBinarySystem.egg-info/requires.txt
+SpectroscopicBinarySystem.egg-info/top_level.txt
+spectroscopicbinarysystem/__init__.py
+spectroscopicbinarysystem.egg-info/PKG-INFO
+spectroscopicbinarysystem.egg-info/SOURCES.txt
+spectroscopicbinarysystem.egg-info/dependency_links.txt
+spectroscopicbinarysystem.egg-info/top_level.txt
