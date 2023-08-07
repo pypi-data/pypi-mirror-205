@@ -1,0 +1,32 @@
+syntax = "proto3";
+package tinkoff.proto;
+
+// Request
+message EditBeneficiaryRksBankDetailsRequest {
+  string beneficiary_id = 1;
+  string bank_details_id = 2;
+  string type = 3;
+  optional bool is_default = 4;
+  string bik = 5;
+  optional string kpp = 6;
+  optional string inn = 7;
+  optional string name = 8;
+  string bank_name = 9;
+  string account_number = 10;
+  string corr_account_number = 11;
+}
+
+// Response
+message EditBeneficiaryRksBankDetailsResponse {
+  string beneficiary_id = 1;
+  string bank_details_id = 2;
+  string type = 3;
+  optional bool is_default = 4;
+  string bik = 5;
+  optional string kpp = 6;
+  optional string inn = 7;
+  optional string name = 8;
+  string bank_name = 9;
+  string account_number = 10;
+  string corr_account_number = 11;
+}
