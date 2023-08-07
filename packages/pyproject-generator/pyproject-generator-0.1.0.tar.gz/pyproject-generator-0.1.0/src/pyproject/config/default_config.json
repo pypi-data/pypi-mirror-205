@@ -1,0 +1,16 @@
+{
+    "pypi_username": "",
+    "pypi_password": "",
+    "github_url": "",
+    "author": "",
+    "email": "",
+    "license": "mit",
+    "dependencies": [
+        "mypy",
+        "build",
+        "tox",
+        "pytest",
+        "black",
+        "twine"
+    ]
+}
