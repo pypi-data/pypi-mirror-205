@@ -1,0 +1,8 @@
+setup.py
+OSFResearchClient.egg-info/PKG-INFO
+OSFResearchClient.egg-info/SOURCES.txt
+OSFResearchClient.egg-info/dependency_links.txt
+OSFResearchClient.egg-info/requires.txt
+OSFResearchClient.egg-info/top_level.txt
+client/__init__.py
+client/client.py
