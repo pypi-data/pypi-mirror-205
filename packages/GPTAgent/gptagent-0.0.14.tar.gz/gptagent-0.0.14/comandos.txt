@@ -1,0 +1,4 @@
+py -m build
+
+# alterar a versao no pyproject.toml
+py -m twine upload --repository pypi dist/gptagent-0.0.7*
