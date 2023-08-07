@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: wansec
+Version: 1.1
+Summary: None
+Author: Aoda
+Author-email: febyzamsee@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.11
