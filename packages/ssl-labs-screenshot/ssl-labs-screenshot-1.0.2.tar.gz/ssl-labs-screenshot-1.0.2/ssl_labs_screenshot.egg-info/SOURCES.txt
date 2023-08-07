@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+ssl_labs_screenshot/__init__.py
+ssl_labs_screenshot/__main__.py
+ssl_labs_screenshot.egg-info/PKG-INFO
+ssl_labs_screenshot.egg-info/SOURCES.txt
+ssl_labs_screenshot.egg-info/dependency_links.txt
+ssl_labs_screenshot.egg-info/entry_points.txt
+ssl_labs_screenshot.egg-info/requires.txt
+ssl_labs_screenshot.egg-info/top_level.txt
