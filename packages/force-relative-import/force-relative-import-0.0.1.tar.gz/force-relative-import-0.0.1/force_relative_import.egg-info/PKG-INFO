@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: force-relative-import
+Version: 0.0.1
+Summary: Allow users to bypass Python relative import restrictions.
+Home-page: https://github.com/One-sixth/force-relative-import
+Author: onesixth
+Author-email: noexist@noexist.noexist
+License-File: LICENSE
