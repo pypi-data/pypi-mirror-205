@@ -1,0 +1,167 @@
+Metadata-Version: 2.1
+Name: anymlops
+Version: 0.1
+Summary: A data science platform that works.
+Project-URL: Documentation, https://www.beartell.com
+Project-URL: Source, https://github.com/beartell/anymlops
+Author-email: Beartell team <bcakir@beartell.com>
+License-Expression: BSD-3-Clause
+Keywords: anymlops,aws,azure,dask,do,gcp,jupyter
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: Jupyter :: JupyterLab
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: System Administrators
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Build Tools
+Requires-Python: >=3.8
+Requires-Dist: auth0-python==4.0.0
+Requires-Dist: azure-identity==1.6.1
+Requires-Dist: azure-mgmt-containerservice==16.2.0
+Requires-Dist: bcrypt==4.0.1
+Requires-Dist: boto3==1.26.54
+Requires-Dist: cloudflare==2.11.1
+Requires-Dist: kubernetes==25.3.0
+Requires-Dist: pydantic==1.10.4
+Requires-Dist: pynacl==1.5.0
+Requires-Dist: python-keycloak==2.9.0
+Requires-Dist: questionary==1.10.0
+Requires-Dist: rich==13.2.0
+Requires-Dist: ruamel-yaml==0.17.21
+Requires-Dist: typer==0.7.0
+Provides-Extra: dev
+Requires-Dist: black==22.3.0; extra == 'dev'
+Requires-Dist: dask-gateway; extra == 'dev'
+Requires-Dist: diagrams; extra == 'dev'
+Requires-Dist: escapism; extra == 'dev'
+Requires-Dist: flake8==3.8.4; extra == 'dev'
+Requires-Dist: importlib-metadata<5.0; extra == 'dev'
+Requires-Dist: jhub-client; extra == 'dev'
+Requires-Dist: paramiko; extra == 'dev'
+Requires-Dist: pre-commit; extra == 'dev'
+Requires-Dist: pytest; extra == 'dev'
+Requires-Dist: pytest-timeout; extra == 'dev'
+Description-Content-Type: text/markdown
+
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://beartell.com/img/Any_png.png">
+  <source media="(prefers-color-scheme: dark)" srcset="https://beartell.com/img/Any_png.png">
+  <img alt="Anymlops logo mark - text will be black in light color mode and white in dark color mode." src="https://beartell.com/img/Any_png.png" width="50%"/>
+</picture>
+</p>
+
+<h1 align="center"> A data science operating platform that literally works ;) </h1>
+<h1 align="center"> For everyone, from startups to the largest companies. </h1>
+
+---
+
+| Information | Links |
+| :---------- | :-----|
+|   License   | [![License](https://img.shields.io/badge/License-BSD%203--Clause-gray.svg?colorA=2D2A56&colorB=5936D9&style=flat.svg)](https://opensource.org/licenses/BSD-3-Clause) |
+
+## Table of contents
+
+- [Table of contents](#table-of-contents)
+- [Anymlops](#anymlops)
+  - [Cloud Providers ☁️](#cloud-providers-️)
+- [Installation 💻](#installation-)
+  - [Pre-requisites](#pre-requisites)
+  - [Install Anymlops](#install-anymlops)
+- [Usage 🚀](#usage-)
+- [Code of Conduct 📖](#code-of-conduct-)
+- [License](#license)
+
+Automated data science platform. From [JupyterHub](https://jupyter.org/hub "Multi-user version of the Notebook") to Cloud environments with
+[Dask Gateway](https://docs.dask.org/ "Python horizontal computation").
+
+Anymlops is an open source data science platform that enables enterprises to build and maintain cost-effective and scalable compute platforms
+on [Kubernetes](#anymlops) at day 0.
+
+## Anymlops
+
+The Kubernetes version of Anymlops uses [Terraform](https://www.terraform.io/), [Helm](https://helm.sh/), and
+[GitHub Actions](https://docs.github.com/en/free-pro-team@latest/actions).
+
+- The infrastructure's construction, modifications, and version control are managed by Terraform.
+- Kubernetes resources can be defined, installed, and maintained using Helm.
+- The automatic creation of commits upon rendering the configuration file (anymlops-config.yaml) and initiation of deployment action is facilitated by GitHub Actions.
+
+
+At Anymlops, we're all about making things easy for you! That's why you don't need to worry about understanding any of the technical jargon we've mentioned. Our goal is to ensure your project is deployed smoothly and successfully, without any fuss on your end.
+
+### Cloud Providers ☁️
+
+Anymlops offers out-of-the-box support for the major public cloud providers: [Digital Ocean](https://www.digitalocean.com/),
+Amazon [AWS](https://aws.amazon.com/), [GCP](https://cloud.google.com/ "Google Cloud Provider"), and Microsoft [Azure](https://azure.microsoft.com/en-us/).
+
+## Installation 💻
+
+### Pre-requisites
+
+- Operating System: Currently, Anymlops supports development on Linux and Macos operating systems. Windows is NOT supported yet.
+- You need Python >= 3.7 on your local machine or virtual environment to work on Anymlops.
+- Virtual environments are our first class citizens. ([`conda`](https://docs.conda.io/en/latest/), [`pipenv`](https://github.com/pypa/pipenv) or
+  [`venv`](https://docs.python.org/3/library/venv.html)) is also encouraged.
+
+### Install Anymlops
+
+To install Anymlops type the following commands in your command line:
+
+- Install using `conda`:
+
+  ```bash
+  conda install -c conda-forge anymlops
+
+  # if you prefer using mamba
+  mamba install -c conda-forge anymlops
+  ```
+
+- Install using `pip`:
+
+  ```bash
+  pip install anymlops
+  ```
+
+Once finished, you can check Anymlops's version (and additional CLI arguments) by typing:
+
+```bash
+anymlops --help
+```
+
+If successful, the CLI output will be similar to the following:
+
+```bash
+usage: anymlops [-h] [-v] {deploy,destroy,render,init,validate} ...
+
+Anymlops command line
+
+positional arguments:
+  {deploy,destroy,render,init,validate}
+                        Anymlops
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -v, --version         Anymlops version
+```
+
+## Usage 🚀
+
+To ensure a seamless and fully automated deployment with Anymlops, you must configure multiple environment variables. Obtain the required variables by consulting the [Anymlops Get started documentation][docs-get-started].
+
+After collecting the necessary credentials, establish them as UNIX environment variables. With this step complete, you'll be able to deploy Anymlops in mere minutes.
+
+For detailed step-by-step instructions on how to deploy Anymlops, check the [Anymlops documentation][docs-deploy].
+
+## Code of Conduct 📖
+
+To guarantee a welcoming and friendly community, we require all community members to follow our [Code of Conduct](https://github.com/beartell/anymlops/CODE_OF_CONDUCT.md).
+
+## License
+
+[Anymlops is BSD3 licensed](LICENSE).
