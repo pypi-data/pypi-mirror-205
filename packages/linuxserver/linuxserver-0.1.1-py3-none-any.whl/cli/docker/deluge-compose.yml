@@ -1,0 +1,15 @@
+version: "2.1"
+services:
+  deluge:
+    image: lscr.io/linuxserver/deluge:latest
+    container_name: deluge
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/London
+      - DELUGE_LOGLEVEL=error #optional
+    volumes:
+      - {{ config }}:/config
+      - {{ downloads }}:/downloads
+    network_mode: container:gluetun
+    restart: always
