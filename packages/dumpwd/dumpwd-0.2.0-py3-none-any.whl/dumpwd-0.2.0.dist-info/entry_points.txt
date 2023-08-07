@@ -1,0 +1,3 @@
+[console_scripts]
+dumpwd=dumpwd.__main__:app
+
