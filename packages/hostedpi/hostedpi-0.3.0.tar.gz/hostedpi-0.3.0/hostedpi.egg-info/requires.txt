@@ -1,0 +1,6 @@
+setuptools
+requests
+
+[doc]
+sphinx
+sphinx-rtd-theme
