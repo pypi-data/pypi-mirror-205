@@ -1,0 +1,4 @@
+[console_scripts]
+batch_size_finder = lightning_template.tools.model.batch_size_finder:main
+cli = lightning_template.tools.cli:main
+lr_finder = lightning_template.tools.model.lr_finder:main
