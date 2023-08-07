@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: boxtools
+Version: 2.0.0
+Summary: A package meant to import useful packages (currently a placeholder)
+Author-email: thatboii <thatboii@altmails.com>
+Project-URL: Homepage, https://github.com/thatboii32/boxtools2
+Project-URL: Bug Tracker, https://github.com/thatboii32/boxtools2/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+words words and more funny words. tbh i have nothing to write here bc this is still a placeholder
