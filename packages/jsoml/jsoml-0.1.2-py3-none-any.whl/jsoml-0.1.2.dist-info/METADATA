@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: jsoml
+Version: 0.1.2
+Summary: JavaScript Object Markup Language
+Home-page: https://gitlab.com/castedo/jsoml
+Author: Castedo Ellerman
+Author-email: castedo@castedo.com
+License: MIT License
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: POSIX
+Classifier: Topic :: Text Processing :: Markup :: XML
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: lxml
+
