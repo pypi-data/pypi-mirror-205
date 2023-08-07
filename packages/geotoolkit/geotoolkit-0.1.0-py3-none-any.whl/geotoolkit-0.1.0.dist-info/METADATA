@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: geotoolkit
+Version: 0.1.0
+Summary: Peforming calculations with geographic points
+Home-page: https://github.com/TimHanewich/geotoolkit
+Author: Tim Hanewich
+License-File: license.md
+
