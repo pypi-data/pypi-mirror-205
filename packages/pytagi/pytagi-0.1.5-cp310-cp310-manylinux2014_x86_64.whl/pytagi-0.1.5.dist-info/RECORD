@@ -1,0 +1,12 @@
+cutagi.cpython-310-x86_64-linux-gnu.so,sha256=1F5uMDy0-RqWwKdgiwaq8byYu16WdZnbtsAZdTerK8U,63192664
+pytagi/__init__.py,sha256=BHQ6qpJzLDgdXmzkDGMsJEMXG3Uu9sCY-JJBDr_GXfA,199
+pytagi/__version.py,sha256=-0vp-JpS4ydxlOkMYKzc9ykqMJHjhrphLKyBlK-pg9c,245
+pytagi/metric.py,sha256=Yc78pRu6y8kVNVl18KueaYgBlqJwMzKz9gWGu66i8Ws,1404
+pytagi/tagi_network.py,sha256=U40ocE8ceRtWGoRjPOexWN5GfuJJbvZXhrqC-tosyL8,11420
+pytagi/tagi_utils.py,sha256=I6oJKVD500gnXBERF0wGZuZ1qewbcEn3Rc4eGl-rHkk,11314
+pytagi/version.txt,sha256=QXCYE8RmYkHVrHvVrvCJYMkGMqpOawbNrZOJ4WODczY,5
+pytagi-0.1.5.dist-info/LICENSE,sha256=S-v9VrQV8HQPpjasr5pqwTVSbJdwV6PGuR6m_lX0TA4,1092
+pytagi-0.1.5.dist-info/METADATA,sha256=3QTgbuNZVPV0ZVn-RVgHLr1cgODgNheiQ9b0IiEKNfw,627
+pytagi-0.1.5.dist-info/WHEEL,sha256=4tYsDFTJrfy0lRHhE5SjwUi0gJIky8L5vqJlSHUyloI,113
+pytagi-0.1.5.dist-info/top_level.txt,sha256=jS1grGdR4vn1QJhnIbDBi60IFFfem7yHCWBn5GoKGpM,13
+pytagi-0.1.5.dist-info/RECORD,,
