@@ -1,0 +1,16 @@
+historylinks/__init__.py,sha256=6oEsqX-EM-1W7QrHQ5m9_JmcwZYJKiStOZHA8FqRzLc,40
+historylinks/apps.py,sha256=18F6jKRyUi73cpi5lj9rz5BOKmFp9qsSLJJ-sc3plS8,153
+historylinks/middleware.py,sha256=_lupQbgU9Q7NF6GIR-akQwiVInxZBCKXEgbyQek2dgI,1907
+historylinks/models.py,sha256=P6vPwc8ik1a9gBaTEBT_j4LhVj78SKHy3_VLXMCA_E8,733
+historylinks/registration.py,sha256=nGGoJkAGQ5cCJU_FWKKBSiatn1JUsQ3D14Ujd_kLbHw,11593
+historylinks/shortcuts.py,sha256=utvZ0zfsWgwAnRE1EjBGPmHFVn13QU-p2UNybSiN_Vk,616
+historylinks/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+historylinks/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+historylinks/management/commands/buildhistorylinks.py,sha256=hzFeHXSVU1ommZZjMiAtoXxMLT_2_xALZwCZe9mHKlg,1471
+historylinks/migrations/0001_initial.py,sha256=KZyQzyZn0THhhHk664RjaiasIwTEJllOVaOkv-2TM6U,850
+historylinks/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_historylinks-1.1.4.dist-info/LICENSE,sha256=Ihj8dMofmxbEiZm3g30N4e9PKnVCJz98-ZoWNOHfqag,1524
+django_historylinks-1.1.4.dist-info/METADATA,sha256=UuKrpM_5jFOcn-TVHxDdQp5ihR6awiINb2kNKNJR00k,2340
+django_historylinks-1.1.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+django_historylinks-1.1.4.dist-info/top_level.txt,sha256=JidRMQ8DZWLfz8m7aHIgx6H98KDfAmIk9Io3sBjCWGM,13
+django_historylinks-1.1.4.dist-info/RECORD,,
