@@ -1,0 +1,6 @@
+dist
+docs
+examples
+opof_pomdp
+pomdp_core
+tests
