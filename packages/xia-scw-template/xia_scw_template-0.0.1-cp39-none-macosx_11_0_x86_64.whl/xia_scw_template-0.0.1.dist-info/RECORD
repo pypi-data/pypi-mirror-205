@@ -1,0 +1,11 @@
+xia_scw_template/__init__.py,sha256=cNymPmXPORIASGtvQklS_LZd70gAWalRueTKLyv8v5s,107
+xia_scw_template/template.cpython-310-darwin.so,sha256=kyF1t9xt--fOgDwCZXxb9N9GooA_AfDaOMOLz6iOYfU,218424
+xia_scw_template/templates/Template/backend.tf,sha256=bbBhWpPkAyaZDrgmjRWClB3kEffcP-qaiC2vlXXlAKY,103
+xia_scw_template/templates/Template/main.tf,sha256=USKe9YPVicChcPSxUbZP_-f-kcFqLY4Ssi3zkPkHS8Q,414
+xia_scw_template/templates/Template/output.tf,sha256=1KMXhU7r9bqIjg7VEHcajCLA-ZSvh12mqYzXsK2Jaqs,88
+xia_scw_template/templates/Template/variables.tf,sha256=aR-VP5gMS05TmxMvdMAIuKoGmfNULd0cBGUqelhyCv8,136
+xia_scw_template-0.0.1.dist-info/LICENSE.txt,sha256=t7dcmwWYpCopxtSO2xM5htr8WC8xUXgTax2q0dOA-Ak,152
+xia_scw_template-0.0.1.dist-info/METADATA,sha256=7s1aQWSE-sfQbuahlbJbcTeQScP6KNpsP_KIzKJAN1Q,635
+xia_scw_template-0.0.1.dist-info/WHEEL,sha256=NsapCMY7EanMRKZsZABtoiyq2rs4aXJ4FKsV_kV91NE,108
+xia_scw_template-0.0.1.dist-info/top_level.txt,sha256=PnzNPYJvb9BCFS0nMLHk3DDKw5vJjkdhUg0gD_vL_cU,17
+xia_scw_template-0.0.1.dist-info/RECORD,,
