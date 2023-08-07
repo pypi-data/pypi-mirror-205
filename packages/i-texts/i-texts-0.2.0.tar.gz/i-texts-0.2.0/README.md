@@ -1,0 +1,22 @@
+Use `pip install i-texts`
+
+**Requires:**
+
+- or `$TEXTS_PATH`
+- or `$LOCALE` and `$LOCALES_PATH` (default: `./locales`).
+
+**Loads texts from:**
+
+- or `$TEXTS_PATH`
+- or {`$LOCALES_PATH`}/{`$LOCALE`}.yml"
+
+### Example
+
+```py
+from i_texts import texts
+
+assert texts.dict == {1: "1", "a": "a", "words": "a b c", "ru": "русский"}
+assert texts[1] == "1"
+assert texts["a"] == "a"
+assert texts.get_words("words") == ["a", "b", "c"]
+```
