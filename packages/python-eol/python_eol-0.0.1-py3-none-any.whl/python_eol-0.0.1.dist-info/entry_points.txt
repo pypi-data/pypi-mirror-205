@@ -1,0 +1,2 @@
+[console_scripts]
+eol = python_eol.main:main
