@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: aws_lambda_mess
+Version: 0.0.1
+Project-URL: Documentation, https://github.com/johanjordaan/aws_lambda_mess#readme
+Project-URL: Issues, https://github.com/johanjordaan/aws_lambda_mess/issues
+Project-URL: Source, https://github.com/johanjordaan/aws_lambda_mess
+Author-email: johan jordaan <djjordaan@gmail.com>
+License-Expression: MIT
+Requires-Python: >=3.7
