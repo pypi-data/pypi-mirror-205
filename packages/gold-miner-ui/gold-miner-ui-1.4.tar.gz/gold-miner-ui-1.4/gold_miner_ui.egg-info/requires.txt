@@ -1,0 +1,8 @@
+gold-miner
+PyQt5
+pyqtgraph
+matplotlib
+multikeygraph
+jinja2
+roc_utils
+pyaml
