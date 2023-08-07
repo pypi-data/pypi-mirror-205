@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling", "pydantic", "bson"]
+build-backend = "hatchling.build"
+
+[project]
+name = "fluidsdk"
+version = "0.1"
+authors = [
+  { name="Shanti D'Vita", email="shanti@lokegaonkar.in" },
+]
+description = "SDK for FluidVM"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://workhack.io"
