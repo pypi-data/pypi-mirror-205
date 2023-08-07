@@ -1,0 +1,122 @@
+# -*- coding: utf-8 -*-
+
+from __future__ import annotations
+
+from enum import Enum
+import re
+from typing import List, Optional, Tuple
+
+from .operation import Mino
+
+class Quiz:
+    @staticmethod
+    def parse_comment(
+            comment: str|Tuple[str, str, str]) -> Tuple[str, str, str]:
+        if isinstance(comment, str):
+            try:
+                return (
+                    comment.split('[', maxsplit=1)[1].split(']')[0],
+                    comment.split('(', maxsplit=1)[1].split(')')[0],
+                    comment.split(')', maxsplit=1)[1]
+                )
+            except:
+                return ('', '', comment)
+        elif (isinstance(comment, Tuple)
+                and len(comment) == 3
+                and all(isinstance(s, str) for s in comment)):
+            return comment
+        else:
+            raise TypeError('Unsupported comment type')
+
+    @staticmethod
+    def assemble_quiz_comment(
+            hold: str='', active: str='', nexts: str='') -> str:
+        return f'#Q=[{hold}]({active}){nexts}'
+
+    @classmethod
+    def is_quiz_comment(cls, comment: str|Tuple[str, str, str]) -> bool:
+        if not isinstance(comment, str):
+            comment = cls.assemble_quiz_comment(*comment)
+        return re.search('^#Q=\[[TIOSZJL]?]\([TIOSZJL]?\)[TIOSZJL]*', comment)
+
+    def __init__(self, comment: str|Tuple[str, str, str]='#Q=()[]'):
+        if self.is_quiz_comment(comment):
+            self._hold, self._active, self._nexts = self.parse_comment(comment)
+            self._is_quiz = True
+        else:
+            raise ValueError(f'Unexpected quiz comment: {comment}')
+
+    def _split_nexts(self, split_index: int=1) -> Tuple[str, str]:
+        split_index -= int(self._nexts[0:1] == ';')
+        return (self._nexts[split_index-1:split_index],
+                self._nexts[split_index:])
+
+    def copy(self) -> Quiz:
+        return Quiz((self._hold, self._active, self._nexts))
+
+    def strip_empty_quiz(self):
+        if not self._active and not self._hold and self._nexts[0:1] == ';':
+            self._is_quiz = self.is_quiz_comment(self._nexts[1:])
+            if self._is_quiz:
+                self._hold, self._active, self._nexts = self.parse_comment(
+                    self._nexts[1:])
+            else:
+                self._nexts = self._nexts[1:]
+
+    def refresh(self):
+        if self._active:
+            pass
+        elif self._hold:
+            self._hold, self._active= '', self._hold
+        elif not self._nexts:
+            pass
+        elif self._nexts[0] == ';':
+            if self.is_quiz_comment(self._nexts[1:]):
+                self._hold, self._active, self._nexts = self.parse_comment(
+                    self._nexts[1:])
+            else:
+                self._nexts = self._nexts[1:]
+        else:
+            self._active, self._nexts = self._nexts[0:1], self._nexts[1:]
+
+    def step(self, mino: Mino) -> Quiz:
+        if mino.name == self._active:
+            self._active, self._nexts = self._split_nexts()
+        elif mino.name == self._hold:
+            self._hold, self._active, self._nexts = (
+                self._active, *self._split_nexts())
+        elif mino.name == self._nexts[0]:
+            if not self._hold:
+                self._hold, self._active, self._nexts = (
+                    self._active, *self._split_nexts(2))
+            elif not self._active:
+                self._active, self._nexts = self._split_nexts(2)
+            else:
+                raise ValueError(f'Unexpected mino: {mino}')
+        else:
+            raise ValueError(f'Unexpected mino: {mino}')
+
+    def is_valid(self) -> bool:
+        self._is_quiz = self.is_quiz_comment(
+            (self._hold, self._active, self._nexts))
+        return self._is_quiz
+
+    def __len__(self) -> int:
+        return (len(self._hold)
+                + len(self._active)
+                + len(self._nexts.split(';')[0]))
+
+    def __bool__(self) -> bool:
+        if len(self):
+            return True
+        else:
+            return bool(self.is_quiz_comment(self._nexts[1:])
+                        and ''.join(self.parse_comment(self._nexts[1:])))
+
+    def __repr__(self) -> str:
+        if self.is_valid():
+            return self.assemble_quiz_comment(
+                self._hold, self._active, self._nexts
+            )
+        else:
+            return ''.join([self._hold, self._active, self._nexts])
