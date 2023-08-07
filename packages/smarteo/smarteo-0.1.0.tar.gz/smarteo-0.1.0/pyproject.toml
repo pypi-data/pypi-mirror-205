@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "smarteo"
+version = "0.1.0"
+description = "Interact with the SmartEO API using python"
+authors = [ "Mads Wilthil <mads.wilthil@aenergi.no>"
+]
+readme = "README.md"
+packages = [{include = "smarteo"}]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 1 - Planning",
+    "Intended Audience :: Developers",
+]
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.2.2"
+
+
+
+[project.urls]
+"Homepage" = "https://github.com/pypa/sampleproject"
+"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
