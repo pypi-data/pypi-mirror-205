@@ -1,0 +1,14 @@
+.editorconfig
+.gitignore
+LICENCE
+Pipfile
+README.md
+pylama_to_codeclimate.py
+setup.cfg
+setup.py
+test_pylama_to_codeclimate.py
+pylama_to_codeclimate.egg-info/PKG-INFO
+pylama_to_codeclimate.egg-info/SOURCES.txt
+pylama_to_codeclimate.egg-info/dependency_links.txt
+pylama_to_codeclimate.egg-info/entry_points.txt
+pylama_to_codeclimate.egg-info/top_level.txt

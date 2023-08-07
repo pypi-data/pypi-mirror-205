@@ -1,0 +1,3 @@
+[console_scripts]
+pylama_to_codeclimate = pylama_to_codeclimate:main
+

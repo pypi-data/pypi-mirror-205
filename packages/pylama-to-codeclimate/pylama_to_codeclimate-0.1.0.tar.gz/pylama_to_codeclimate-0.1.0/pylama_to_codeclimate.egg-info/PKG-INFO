@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pylama-to-codeclimate
+Version: 0.1.0
+Summary: Convert pylama output to codeclimate format
+Home-page: https://github.com/sapher/pylama_to_codeclimate
+Author: Anonymous
+Author-email: anonymous@anonymous.anon
+License: WTFPL
+Platform: UNKNOWN
+
+# pylama-to-codelimate
+
+Convert pylama output to codelimate format to be loaded by Gitlab
+
+## Usage
+
+```bash
+pylama -o json > pylama.json
+pylama_to_codelimate -i pylama.json -o codelimate.json
+```
+
+
