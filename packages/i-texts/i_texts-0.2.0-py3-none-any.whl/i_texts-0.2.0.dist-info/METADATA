@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: i-texts
+Version: 0.2.0
+License: MIT
+Author-email: levch <levchenko.d.a1998@gmail.com>
+Requires-Python: >=3.10
+Requires-Dist: parsenv>=0.1.3
+Requires-Dist: pyyaml>=6.0
+Description-Content-Type: text/markdown
+
+Use `pip install i-texts`
+
+**Requires:**
+
+- or `$TEXTS_PATH`
+- or `$LOCALE` and `$LOCALES_PATH` (default: `./locales`).
+
+**Loads texts from:**
+
+- or `$TEXTS_PATH`
+- or {`$LOCALES_PATH`}/{`$LOCALE`}.yml"
+
+### Example
+
+```py
+from i_texts import texts
+
+assert texts.dict == {1: "1", "a": "a", "words": "a b c", "ru": "русский"}
+assert texts[1] == "1"
+assert texts["a"] == "a"
+assert texts.get_words("words") == ["a", "b", "c"]
+```
+
