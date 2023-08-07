@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: filestore
+Version: 20230430
+Summary: File Store - with get/put operations over HTTPS.
+Home-page: https://github.com/magicray/filestore
+Author: Bhupendra Singh
+Author-email: bhsingh@gmail.com
+License: UNKNOWN
+Description: Uses Paxos for replication and mTLS for auth.
+        Leaderless and highly available.
+        Provides object with versions and atomic updates
+Platform: UNKNOWN
