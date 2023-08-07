@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/notation/__init__.py
+src/notation/notation.py
+src/notation.egg-info/PKG-INFO
+src/notation.egg-info/SOURCES.txt
+src/notation.egg-info/dependency_links.txt
+src/notation.egg-info/top_level.txt
