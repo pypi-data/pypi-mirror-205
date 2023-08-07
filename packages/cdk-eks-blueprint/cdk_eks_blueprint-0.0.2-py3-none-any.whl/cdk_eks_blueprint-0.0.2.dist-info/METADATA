@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: cdk-eks-blueprint
+Version: 0.0.2
+Author: leunguu
+Author-email: liangy3928@gmail.com
+Requires-Python: >=3.7
+Requires-Dist: semver
+Requires-Dist: aws-cdk.lambda-layer-kubectl-v24
+Requires-Dist: aws-cdk-lib (<3.0.0,>=2.1.0)
+Requires-Dist: constructs (<11.0.0,>=10.0.5)
+
