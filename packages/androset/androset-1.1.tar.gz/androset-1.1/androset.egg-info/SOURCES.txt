@@ -1,0 +1,11 @@
+LICENSE
+README.md
+androset.py
+setup.py
+androset.egg-info/PKG-INFO
+androset.egg-info/SOURCES.txt
+androset.egg-info/dependency_links.txt
+androset.egg-info/entry_points.txt
+androset.egg-info/not-zip-safe
+androset.egg-info/requires.txt
+androset.egg-info/top_level.txt
