@@ -1,0 +1,14 @@
+README.md
+setup.py
+voxx/__init__.py
+voxx/__main__.py
+voxx/connection.py
+voxx/model.py
+voxx/tui.py
+voxx/css/tui.css
+voxx_cli.egg-info/PKG-INFO
+voxx_cli.egg-info/SOURCES.txt
+voxx_cli.egg-info/dependency_links.txt
+voxx_cli.egg-info/entry_points.txt
+voxx_cli.egg-info/requires.txt
+voxx_cli.egg-info/top_level.txt
