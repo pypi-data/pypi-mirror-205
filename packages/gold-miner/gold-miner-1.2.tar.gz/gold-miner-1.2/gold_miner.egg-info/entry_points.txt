@@ -1,0 +1,5 @@
+[console_scripts]
+gold-miner = apropos.goldminer.tools.goldminer:main
+gold-miner-smelter = apropos.goldminer.tools.smelter:main
+gold-miner-trainer = apropos.goldminer.tools.trainer:main
+gold-miner-trainer-aggregator = apropos.goldminer.tools.aggregator:main
