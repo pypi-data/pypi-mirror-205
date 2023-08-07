@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+os_mfa/__init__.py
+os_mfa/__main__.py
+os_mfa/config_helpers.py
+os_mfa.egg-info/PKG-INFO
+os_mfa.egg-info/SOURCES.txt
+os_mfa.egg-info/dependency_links.txt
+os_mfa.egg-info/entry_points.txt
+os_mfa.egg-info/requires.txt
+os_mfa.egg-info/top_level.txt
+tests/test_create_long_term_config.py
+tests/test_create_token_config.py
