@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "docchain"
+version = "0.0.4"
+description = ""
+authors = ["Artem Kolesnikov <tyomo4ka@gmail.com>"]
+readme = "README.md"
+packages = [{include = "docchain"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain = "^0.0.153"
+openai = "^0.27.5"
+python-dotenv = "^1.0.0"
+jsonschema = "^4.17.3"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.3.1"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.2.2"
+datamodel-code-generator = "^0.18.0"
+bump2version = "^1.0.1"
+
+[tool.ruff]
+line-length = 99
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
