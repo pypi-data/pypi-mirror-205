@@ -1,0 +1,3 @@
+[console_scripts]
+fastdev=fastdev.__main__:main
+

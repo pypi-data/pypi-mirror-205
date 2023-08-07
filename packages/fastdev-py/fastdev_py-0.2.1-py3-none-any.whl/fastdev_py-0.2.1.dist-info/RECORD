@@ -1,0 +1,13 @@
+fastdev/__init__.py,sha256=o7QSrbY-JDBLDva6lX3Y1ok8MuvGljMPiNRFVWCjDBA,154
+fastdev/__main__.py,sha256=xVQxhK9U_KdBrnd6YScMQR8327l5tZj91oLwpqAdeH4,584
+fastdev/config.py,sha256=pAZkr5jbQ-f_XebX29gxtetI2ybE3jufmJq3a5TBY2I,1015
+fastdev/fs_serving.py,sha256=UdscXY7TM1lds0viVkagEqxhqfJuLO4PtYVPT0umDlY,1786
+fastdev/router.py,sha256=uuTlSIZuf2GW7y8XQG-yvv1m2WY0WEuJgEKfLTt0Ndg,2401
+fastdev/ts_serving.py,sha256=xSOy_NQUDow34GO3VQsRy_HzPiEhMuxlMh_jCwN7lFM,1364
+fastdev/utils.py,sha256=qz9WxQPKuVrhAc0YLLfUy1TVvR5FoKbK9MVjbbGYH8M,1476
+fastdev/builders/deno_lts_esbuild.ts,sha256=h52oYXZyKllf8ys0Iywi_uncJTZsU_aGRBmlNpH_jGk,11496
+fastdev/preprocessor/temp.py.bak,sha256=st0VzQsGh8BUdtbkipEZbSv8rystNDpN9_UJOBX4OYc,8133
+fastdev_py-0.2.1.dist-info/entry_points.txt,sha256=h7wGxG7mcYaRcMWowYs1bksj5EeiXDP6wDSDPNHLHmw,49
+fastdev_py-0.2.1.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+fastdev_py-0.2.1.dist-info/METADATA,sha256=b2CHLbW4gE6bV5qxs5hgeQhzVIjjpTY9ak05HXvZX7U,741
+fastdev_py-0.2.1.dist-info/RECORD,,
