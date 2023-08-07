@@ -1,0 +1,9 @@
+promptbot/__init__.py,sha256=s7BayRdiM9RRJfjPJweXwYjUi7nRvjhux6ey4BumxRs,29
+promptbot/api.py,sha256=wILn6mF5yNM7fKjBJ8JqpMO-BLTURZm1xpTyoH2GMn8,1031
+promptbot/classes.py,sha256=kxAVn7BvvxuPkl3JXKykRaMmYr8Op61a508Opo5cZ4s,1471
+promptbot/prompt.py,sha256=LXSOTsr5wy6FEPIDbQ4zcxY-HA_7O8y7bGtxsr8sQUc,8573
+promptbot-0.0.1a4.dist-info/LICENSE,sha256=migr826eX486EOgtqTCED4S07Y-hEEvYLbBz-EE5bec,1076
+promptbot-0.0.1a4.dist-info/METADATA,sha256=paDRGzDGlQ5LSCiRc_ykNVTqfrShmjFl_-O0SsFylzo,3565
+promptbot-0.0.1a4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+promptbot-0.0.1a4.dist-info/top_level.txt,sha256=L_Hg2WAz0hew3r3h63Ky5172XbchCz7QLyTGKgnYYCM,10
+promptbot-0.0.1a4.dist-info/RECORD,,
