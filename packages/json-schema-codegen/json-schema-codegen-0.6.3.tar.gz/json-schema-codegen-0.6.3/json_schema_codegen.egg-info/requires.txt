@@ -1,0 +1,2 @@
+stringcase
+jacobs-jinja-too>=0.0.4
