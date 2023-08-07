@@ -1,0 +1,9 @@
+LICENSE
+pyproject.toml
+readme.md
+src/boxtools/__init__.py
+src/boxtools/example.py
+src/boxtools.egg-info/PKG-INFO
+src/boxtools.egg-info/SOURCES.txt
+src/boxtools.egg-info/dependency_links.txt
+src/boxtools.egg-info/top_level.txt
