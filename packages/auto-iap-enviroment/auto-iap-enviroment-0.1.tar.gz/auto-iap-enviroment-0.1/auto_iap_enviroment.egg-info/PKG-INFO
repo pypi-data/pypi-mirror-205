@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: auto-iap-enviroment
+Version: 0.1
+Summary: Um pacote que integra o OpenAI GPT ao seu computados
+Home-page: https://github.com/seu-usuario/meu-pacote
+Author: Luis Arthur Rodrigues da Silva
+Author-email: luisarthurlards03@gmail.com
+License: UNKNOWN
+Description: # IAp
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
