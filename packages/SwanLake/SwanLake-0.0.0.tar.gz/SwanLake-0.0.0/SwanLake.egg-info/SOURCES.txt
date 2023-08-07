@@ -1,0 +1,8 @@
+setup.py
+SwanLake.egg-info/PKG-INFO
+SwanLake.egg-info/SOURCES.txt
+SwanLake.egg-info/dependency_links.txt
+SwanLake.egg-info/not-zip-safe
+SwanLake.egg-info/top_level.txt
+tmp/__init__.py
+tmp/main.py
