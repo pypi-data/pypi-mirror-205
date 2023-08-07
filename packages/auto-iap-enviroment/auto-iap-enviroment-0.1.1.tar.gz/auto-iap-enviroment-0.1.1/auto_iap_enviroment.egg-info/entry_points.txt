@@ -1,0 +1,4 @@
+[console_scripts]
+iap = iap.main:main
+setToken = iap.helpers:setToken
+

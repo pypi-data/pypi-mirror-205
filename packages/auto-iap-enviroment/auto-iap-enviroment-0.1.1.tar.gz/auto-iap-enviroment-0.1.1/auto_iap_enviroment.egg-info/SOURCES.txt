@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+auto_iap_enviroment.egg-info/PKG-INFO
+auto_iap_enviroment.egg-info/SOURCES.txt
+auto_iap_enviroment.egg-info/dependency_links.txt
+auto_iap_enviroment.egg-info/entry_points.txt
+auto_iap_enviroment.egg-info/requires.txt
+auto_iap_enviroment.egg-info/top_level.txt
+iap/helpers.py
+iap/iaApi.py
+iap/main.py
+iap/scrapeMe.py
