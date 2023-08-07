@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: BlockFrame
+Version: 0.1.4
+Summary: File Chunking Library to work as a data-store solution alongside webapps and software.
+Home-page: https://github.com/Wizock/BlockFrame/
+Author: Rohaan Ahmed
+Author-email: silent.death3500@gmail.com
+Requires-Dist: cryptography
+Requires-Dist: SQLAlchemy
+Requires-Dist: setuptools
+Requires-Dist: wheel
+Requires-Dist: aiosqlite
+
