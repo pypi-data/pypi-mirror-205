@@ -1,0 +1,9 @@
+License.txt
+MANIFEST.in
+README.txt
+setup.py
+sandrine basic/__init__.py
+sandrine_basic.egg-info/PKG-INFO
+sandrine_basic.egg-info/SOURCES.txt
+sandrine_basic.egg-info/dependency_links.txt
+sandrine_basic.egg-info/top_level.txt

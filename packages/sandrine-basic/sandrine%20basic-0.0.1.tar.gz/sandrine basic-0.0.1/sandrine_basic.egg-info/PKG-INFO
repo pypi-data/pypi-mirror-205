@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: sandrine-basic
+Version: 0.0.1
+Summary: This is a description of my package, written in valid reStructuredText format.      You can use bullet points and other formatting options, as long as they are in valid RST syntax.
+Home-page: UNKNOWN
+Author-email: sila.n.sandrine@gmail.com
+License: MIT
+Keywords: calculator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: License.txt
+
+UNKNOWN
+
