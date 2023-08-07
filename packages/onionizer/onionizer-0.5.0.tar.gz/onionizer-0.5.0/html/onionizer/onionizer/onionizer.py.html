@@ -1,0 +1,21 @@
+<html><body><h1>./onionizer/onionizer/onionizer.py</h1>Killed 44 out of 46 mutants<h2>Survived</h2>Survived mutation testing. These mutants show holes in your test suite.<h3>Mutant 45</h3><pre>--- ./onionizer/onionizer/onionizer.py
++++ ./onionizer/onionizer/onionizer.py
+@@ -235,6 +235,6 @@
+         output = yield
+         return func(output)
+ 
+-    wrapper.ignore_signature_check = True
++    wrapper.ignore_signature_check = False
+     return wrapper
+ 
+</pre><h3>Mutant 46</h3><pre>--- ./onionizer/onionizer/onionizer.py
++++ ./onionizer/onionizer/onionizer.py
+@@ -235,6 +235,6 @@
+         output = yield
+         return func(output)
+ 
+-    wrapper.ignore_signature_check = True
++    wrapper.ignore_signature_check = None
+     return wrapper
+ 
+</pre></body></html>
