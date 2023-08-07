@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/Vulncapture.egg-info/PKG-INFO
+src/Vulncapture.egg-info/SOURCES.txt
+src/Vulncapture.egg-info/dependency_links.txt
+src/Vulncapture.egg-info/top_level.txt
