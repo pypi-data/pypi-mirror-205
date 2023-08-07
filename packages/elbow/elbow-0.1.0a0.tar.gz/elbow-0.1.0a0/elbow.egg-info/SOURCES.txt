@@ -1,0 +1,16 @@
+.gitignore
+.pre-commit-config.yaml
+.pylintrc
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+.github/workflows/ci.yaml
+elbow/__init__.py
+elbow/_version.py
+elbow.egg-info/PKG-INFO
+elbow.egg-info/SOURCES.txt
+elbow.egg-info/dependency_links.txt
+elbow.egg-info/requires.txt
+elbow.egg-info/top_level.txt
+tests/__init__.py
