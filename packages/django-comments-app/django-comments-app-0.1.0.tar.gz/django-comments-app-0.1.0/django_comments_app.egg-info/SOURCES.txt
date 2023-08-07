@@ -1,0 +1,13 @@
+setup.py
+comments/__init__.py
+comments/admin.py
+comments/apps.py
+comments/models.py
+comments/tests.py
+comments/views.py
+comments/migrations/__init__.py
+django_comments_app.egg-info/PKG-INFO
+django_comments_app.egg-info/SOURCES.txt
+django_comments_app.egg-info/dependency_links.txt
+django_comments_app.egg-info/requires.txt
+django_comments_app.egg-info/top_level.txt
