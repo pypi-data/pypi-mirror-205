@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+terminalplay/__init__.py
+terminalplay/terminalplay.py
+terminalplay.egg-info/PKG-INFO
+terminalplay.egg-info/SOURCES.txt
+terminalplay.egg-info/dependency_links.txt
+terminalplay.egg-info/requires.txt
+terminalplay.egg-info/top_level.txt
