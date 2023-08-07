@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+automation_file_dev.egg-info/PKG-INFO
+automation_file_dev.egg-info/SOURCES.txt
+automation_file_dev.egg-info/dependency_links.txt
+automation_file_dev.egg-info/top_level.txt
+file_automation/__init__.py
+file_automation/excel/__init__.py
+file_automation/excel/openyxl_wrapper.py
+file_automation/pdf/__init__.py
+file_automation/pdf/pypdf_wrapper.py
+file_automation/utils/__init__.py
+file_automation/word/__init__.py
+file_automation/word/python_docx_wrapper.py
