@@ -1,0 +1,3 @@
+[console_scripts]
+report_env=report_env.__main__:main
+
