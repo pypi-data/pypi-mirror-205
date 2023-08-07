@@ -1,0 +1,15 @@
+cleancredits/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+cleancredits/__version__.py,sha256=_7OlQdbVkK4jad0CLdpI0grT-zEAb-qgFmH5mFzDXiA,22
+cleancredits/cli.py,sha256=WCCoMgDN98RslzTaewXY1c0mObDk_r2zbvRMM__phB8,6880
+cleancredits/cli_test.py,sha256=zNsXu8mD7xlxxSx1tuIBG9EiBuMXxx8rLPODhgnsadQ,2164
+cleancredits/gui.py,sha256=KhfFMPj0zkMQRAzvPc5xjcsDbX_tZBQJjDmy5H4yuJk,21431
+cleancredits/helpers.py,sha256=6j6Vlzd3txRetphWH0tC88uUN10RxT3t1emHJBG6zgk,3374
+cleancredits/helpers_test.py,sha256=4bvkAHXeTwxPnBlEpT5i5X5dl2BnKVfpZl8_G1-RZs4,3285
+cleancredits/param_types.py,sha256=_yIaMarIppr4ufxlEwRJKP0Q7ywTA5BinOwtPncJoFg,1498
+cleancredits/param_types_test.py,sha256=d3SLeEJfRYkCVmSlKROsyaWUghML63fa1TerFSVLxpc,2069
+cleancredits-2.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+cleancredits-2.0.0.dist-info/METADATA,sha256=h4FHelh6i6FbMP5xI4hGd_XCt1QrMEixpFFJRZuwp7A,4605
+cleancredits-2.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+cleancredits-2.0.0.dist-info/entry_points.txt,sha256=hsWp318aVFxZm0AT58CyaU5EMw5h8_C2T4Z8DmRcBSo,54
+cleancredits-2.0.0.dist-info/top_level.txt,sha256=QvmRwz5varp0X1mwbBLvL7CV7ulFHLkF5_ipS_tDufM,13
+cleancredits-2.0.0.dist-info/RECORD,,
