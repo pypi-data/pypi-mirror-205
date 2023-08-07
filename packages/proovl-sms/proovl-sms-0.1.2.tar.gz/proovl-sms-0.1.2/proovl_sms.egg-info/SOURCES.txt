@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+proovl-sms/__init__.py
+proovl-sms/proovl_sms.py
+proovl_sms.egg-info/PKG-INFO
+proovl_sms.egg-info/SOURCES.txt
+proovl_sms.egg-info/dependency_links.txt
+proovl_sms.egg-info/requires.txt
+proovl_sms.egg-info/top_level.txt
