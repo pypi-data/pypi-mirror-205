@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: terminalplay
+Version: 1.0.25
+Summary: Play videos on your terminal; Works on windows as well as linux;The video played will also have color and sound :)
+Home-page: https://github.com/merwin-asm/Terminal_Play
+Author: Merwin JD
+Author-email: merwin@fbi.ac
+License: MIT
+Project-URL: Bug Tracker, https://github.com/merwin-asm/Terminal_Play/issues
+Keywords: terminalplay,play videos,terminal
+Platform: windows
+Platform: linux
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# Terminal Play v 1.0.0
+<p float="left">
+ <img src="https://komarev.com/ghpvc/?username=merwin-terminal-play&label=Project%20Views-Github&color=0e75b6&style=flat" alt="darkmash-org" /> 
+<img alt="" src="https://static.pepy.tech/personalized-badge/terminalplay?period=total&units=international_system&left_color=blue&right_color=orange&left_text=Downloads">
+
+</p>
+
+Python Module for playing videos in terminal !! 
+
+-  Works on both windows and linux :)
+
+
+## Installation
+
+```sh
+pip install terminalplay
+```
+
+
+## Usage
+
+```python
+from terminalplay import *
+
+# Load the video , this may take time on the first run (for a specific video)
+tp = TerminalPlay("test.mp4", div=0.4)  # Div is for reducing the size of the frame , default 0.5
+tp.play() # Plays the video
+```
+
