@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "malariagen"
+version = "0.0.1"
+description = "A package for accessing and analysing MalariaGEN data."
+authors = ["Lee Hart <leehartoxford@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+malariagen_data = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"

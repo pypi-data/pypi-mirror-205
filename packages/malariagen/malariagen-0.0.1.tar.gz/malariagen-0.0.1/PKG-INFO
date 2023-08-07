@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: malariagen
+Version: 0.0.1
+Summary: A package for accessing and analysing MalariaGEN data.
+License: MIT
+Author: Lee Hart
+Author-email: leehartoxford@gmail.com
+Requires-Python: >=3.8,<3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: malariagen_data
