@@ -1,0 +1,9 @@
+kivy_garden/frostedglass/__init__.py,sha256=nK9XLoidc_GacM9oZrIFPWnTPLH2jQAi2vEmwWNcFgQ,25768
+kivy_garden/frostedglass/_version.py,sha256=2TT01DGFRX_yfHDudJYKyjuZ_KBG5XEPrmQgzbOvqKs,23
+kivy_garden/frostedglass/tests/test_import.py,sha256=7PoQeesGLRhd6liyac5W_UIlr9UW8xTx9V4gwUYo4JM,119
+kivy_garden.frostedglass-0.4.0.dist-info/AUTHORS.txt,sha256=gloDEdut0a6UdqOexIxeDRvPgNaJNppib6YW23AyVnM,7
+kivy_garden.frostedglass-0.4.0.dist-info/LICENSE.txt,sha256=Dc_ZVl_KnVu9EHlOHFilV1jijdNae4dNoBkkSPKdwzU,1096
+kivy_garden.frostedglass-0.4.0.dist-info/METADATA,sha256=4q5lIF-zf05NDqx9oiLucjgBNxwvzPJqzr5o7zDsUvI,7603
+kivy_garden.frostedglass-0.4.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+kivy_garden.frostedglass-0.4.0.dist-info/top_level.txt,sha256=xkuO-b6JfhaW77yWDB3uzuzsAscEKSLzAg0W7BmeqiI,12
+kivy_garden.frostedglass-0.4.0.dist-info/RECORD,,
