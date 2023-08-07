@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: netunicorn-connector-kubernetes
+Version: 0.0.1
+Summary: Kubernetes connector for netunicorn
+Author-email: Roman Beltiukov <rbeltiukov@ucsb.edu>
+License: MIT
+Keywords: netunicorn
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: netunicorn-base (>=0.3.0)
+Requires-Dist: kubernetes
+Requires-Dist: pyyaml
+
+# netunicorn-connector-kubernetes
+This is a Kubernetes connector for netunicorn platform.
+
