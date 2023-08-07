@@ -1,0 +1,3 @@
+[console_scripts]
+badgie = badgie.cli:main
+
