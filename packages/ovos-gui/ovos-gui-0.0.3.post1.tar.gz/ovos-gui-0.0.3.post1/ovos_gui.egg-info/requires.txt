@@ -1,0 +1,5 @@
+ovos-backend-client
+ovos-bus-client>=0.0.4a5,~=0.0
+ovos-utils>=0.0.31a5,~=0.0
+ovos-config>=0.0.8a3,~=0.0
+tornado>=6.0.3,~=6.0
