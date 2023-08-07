@@ -1,0 +1,8 @@
+setup.py
+nlpforturkish/offensive_language_detect.py
+nlpforturkish/twitterAPILib.py
+nlpforturkish.egg-info/PKG-INFO
+nlpforturkish.egg-info/SOURCES.txt
+nlpforturkish.egg-info/dependency_links.txt
+nlpforturkish.egg-info/requires.txt
+nlpforturkish.egg-info/top_level.txt
