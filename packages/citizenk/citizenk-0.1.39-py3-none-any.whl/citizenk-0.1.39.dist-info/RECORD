@@ -1,0 +1,10 @@
+citizenk/__init__.py,sha256=vtLbmp9lpTqR4-BkdnNQ2T-RQhEFxGqRMVgTg3pZcGY,310
+citizenk/agent.py,sha256=HU5ICHk6G739o4ovO3vDB3OpOJ_wQpkYKxU4trHTP7s,3885
+citizenk/citizenk.py,sha256=I8RacPt1osthMIiPUEKyuDq5ec3k-imuMXgnSLB3-MM,20872
+citizenk/kafka_adapter.py,sha256=kyJc6oYyOYzI-JD7Wj9LfC-gcuXcwpLxk4CPM28tMIo,20928
+citizenk/murmur2.py,sha256=qnEffBxIUYMAiQmxhfk-S92wWIQGKYY_od-IbBVZscE,1715
+citizenk/topic.py,sha256=BTLLFI7O9FxYz1pEHAXLglmTsh03YaMA0tMHwz6PdRg,5132
+citizenk/utils.py,sha256=1T8iF2xqtcE9ELWrTFxHsZCBRsLQjQ8oKVyW_mU5urQ,413
+citizenk-0.1.39.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+citizenk-0.1.39.dist-info/METADATA,sha256=yzfroCzSiSDSj_TgxrDAEEKEnUBBFDPmKaBI1r54nRA,1076
+citizenk-0.1.39.dist-info/RECORD,,
