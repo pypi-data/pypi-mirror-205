@@ -1,0 +1,2 @@
+[console_scripts]
+pygmi-get = pygmi.pygmi:main

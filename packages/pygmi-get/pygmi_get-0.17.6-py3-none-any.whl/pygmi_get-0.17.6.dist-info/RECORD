@@ -1,0 +1,9 @@
+pygmi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pygmi/__main__.py,sha256=4xJp8Dpyu7PIpMviR-esF6gWfFR7i3PYgawyBoVsDgY,163
+pygmi/pygmi.py,sha256=ek0WzoXyKObkGlss-vriuQyA5jyqxO3AZEhs4EnNEj0,2088
+pygmi_get-0.17.6.data/scripts/pygmi.py,sha256=KfGri64y3PbZC-KqOOwxZzAUXC_95chBVC41Sj9If7k,2075
+pygmi_get-0.17.6.dist-info/METADATA,sha256=vERNEM36gECjEINLWK5G63GzadvsMNzP0m555ymIbhg,2184
+pygmi_get-0.17.6.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+pygmi_get-0.17.6.dist-info/entry_points.txt,sha256=V7WhLa0FjTgq3ykUj8St0alFDgFH6-fQqwAZ_Gx_D2w,47
+pygmi_get-0.17.6.dist-info/top_level.txt,sha256=6WpOP27QUF5kud2iYA1FA469EF9nmaua-qtfhxX_t3w,6
+pygmi_get-0.17.6.dist-info/RECORD,,
