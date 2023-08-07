@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "polygone"
+version = "0.1.2"
+description = ""
+authors = ["nemo <nemo@alt.icu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+sh = "^2.0.3"
+typer = {extras = ["rich"], version = "^0.7.0"}
+pillow = "^9.5.0"
+humanfriendly = "^10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+polygone = "polygone.cli:main"
