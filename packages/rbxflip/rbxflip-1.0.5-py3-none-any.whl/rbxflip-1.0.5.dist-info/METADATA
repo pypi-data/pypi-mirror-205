@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: rbxflip
+Version: 1.0.5
+Summary: Python package for interacting with the RBXFlip API
+Home-page: https://github.com/Angelics9999/rbxflip
+Author: Angelics
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: requests
+
+UNKNOWN
+
