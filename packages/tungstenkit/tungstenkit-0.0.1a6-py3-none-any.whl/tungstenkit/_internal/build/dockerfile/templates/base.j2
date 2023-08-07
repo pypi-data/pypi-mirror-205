@@ -1,0 +1,15 @@
+from {{ image.get_repository() }}:{{ image.get_tag() }}
+
+ENV LANG=C.UTF-8 LC_ALL=C.UTF-8 DEBIAN_FRONTEND=noninteractive
+
+{% if image.type == "cuda" %}
+{% if use_conda %}
+{% include './install_conda.j2' %}
+{% else %}
+{% include './install_python.j2' %}
+{% endif %}
+{% endif %}
+
+{% include './setup_tungsten.j2' %}
+
+{% include './setup_user.j2' %}

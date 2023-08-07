@@ -1,0 +1,59 @@
+{% if description|length > 0 %}
+LABEL description="{{ description }}"
+{% endif %}
+
+{% if system_packages|length > 0 %}
+RUN --mount=type=cache,target=/var/cache/apt apt-get update -qq && apt-get install -y --no-install-recommends{% for pkg in system_packages %} {{ pkg }}{% endfor %} 
+RUN apt-get clean > /dev/null && rm -rf /var/lib/apt/lists/*
+{% endif %}
+
+{% if dockerfile_commands|length > 0 %}
+{% for cmd in dockerfile_commands %}
+{{ cmd }}
+{% endfor %}
+{% endif %}
+
+{% if use_conda %}
+{% if conda_env_yml_in_build_ctx %}
+COPY {{ conda_env_yml_in_build_ctx.as_posix() }} /tmp/conda_environment.yml
+RUN --mount=type=cache,target=/opt/conda/pkgs conda env update --yes -q -n=tungsten -f=/tmp/conda_environment.yml --prune && \
+    rm -f /tmp/conda_environment.yml {% endif %}
+
+{% if list_conda_install_args|length > 0 %}
+{% for args in list_conda_install_args %}
+RUN --mount=type=cache,target=/opt/conda/pkgs conda install {{ " ".join(args) }}
+{% endfor %}
+{% endif %}
+
+RUN conda clean --all --yes -q && \
+    find /opt/conda -follow -type f -name '*.a' -delete && \
+    find /opt/conda -follow -type f -name '*.pyc' -delete
+{% endif %}
+
+{% if pip_wheels_in_build_ctx|length > 0 %}
+RUN mkdir -p /tmp/wheels
+{% for path in pip_wheels_in_build_ctx %}
+COPY {{ path }} /tmp/wheels
+{% endfor %}
+{% endif %}
+
+{% if pip_requirements_txt_in_build_ctx != None %}
+COPY {{ pip_requirements_txt_in_build_ctx }} /tmp/requirements.txt
+RUN --mount=type=cache,target=/root/.cache/pip pip install -r /tmp/requirements.txt && \
+    rm -f /tmp/requirements.txt
+{% endif%}
+
+{% if list_pip_install_args|length > 0 %}
+{% for args in list_pip_install_args %}
+RUN --mount=type=cache,target=/root/.cache/pip pip install {{ " ".join(args) }}
+{% endfor %}
+{% endif %}
+
+{% if pip_wheels_in_build_ctx|length > 0 %}
+RUN rm -rf /tmp/wheels
+{% endif %}
+
+COPY . .
+{% for src, dest in copy_files %}
+COPY {{ src }} {{ dest }}
+{% endfor %}

@@ -1,0 +1,17 @@
+ENV CONDA_DIR=/opt/conda PATH=${CONDA_DIR}/bin:${PATH}
+RUN --mount=type=cache,target=/var/cache/apt apt-get update -qq && apt-get -qqy install --no-install-recommends \
+    wget curl git
+
+RUN wget --no-hsts --quiet https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-$(uname -m).sh -O /tmp/miniforge.sh && \
+    /bin/bash /tmp/miniforge.sh -b -p /opt/conda && \
+    rm -f /tmp/miniforge.sh && \
+    echo ". /opt/conda/etc/profile.d/conda.sh && conda activate base" >> /etc/skel/.bashrc && \
+    echo ". /opt/conda/etc/profile.d/conda.sh && conda activate base" >> ~/.bashrc && \
+    conda clean --tarballs --index-cache --packages --yes -q && \
+    find /opt/conda -follow -type f -name '*.a' -delete && \
+    find /opt/conda -follow -type f -name '*.pyc' -delete && \
+    conda clean --force-pkgs-dirs --all --yes -q
+
+{% if system_packages|length == 0 %}
+RUN apt-get clean -qq && rm -rf /var/lib/apt/lists/*
+{% endif %}
