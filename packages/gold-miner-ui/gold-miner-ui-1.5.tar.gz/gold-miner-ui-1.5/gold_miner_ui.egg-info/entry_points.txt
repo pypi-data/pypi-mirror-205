@@ -1,0 +1,4 @@
+[console_scripts]
+gold-miner-auditor = apropos.goldminer.tools.auditor:main
+gold-miner-fingerprint = apropos.goldminer.tools.fingerprinter:main
+gold-miner-tande = apropos.goldminer.tools.tande:main
