@@ -1,0 +1,13 @@
+starfyre/__init__.py,sha256=5z3y8JtQ5-rPpUYjLRLI3UF7aiUHTgyQHKz9bHTRsmw,1099
+starfyre/__main__.py,sha256=hZnDtglnLNlgYFb_KbkC3MBnHi2fZuOwV7ceg8zzp8g,1603
+starfyre/compiler.py,sha256=XhwaJA-KlkF6Ek7ghO1OUSWGasrbQcNBSB_WCuLVrvE,4539
+starfyre/component.py,sha256=7mib8J1jQiYuTWlQaru72c55SGtflV7vXb_yPjLLkkI,535
+starfyre/dom_methods.py,sha256=mTW1aOMXqIX98b2zc2DMxVnnMNcOVoA4aa1GJkfTaMM,4135
+starfyre/global_components.py,sha256=qDmQneg-DTSCnSlaIHDiI9rI3murrlRZeHc8dnJzql0,126
+starfyre/js/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+starfyre/js/store.js,sha256=XQLn5447d54vaqCcwdylfQyWh2VBToNiIDerqHk7Ry8,1093
+starfyre/parser.py,sha256=vZM3zHyAQ-jbODpQx1RbrrK60MwFgLeihi2eMB4FK48,8837
+starfyre/transpiler.py,sha256=-ok6e-ZQOVH7VfyNzzgiJNlcETFFcdVm6mmsFoWd4fE,3544
+starfyre-0.6.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+starfyre-0.6.0.dist-info/METADATA,sha256=MkzAx0-WXUFSOnl_56fvnjYcxo1X14n2rXNJikAzGZc,2566
+starfyre-0.6.0.dist-info/RECORD,,
