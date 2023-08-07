@@ -1,0 +1,15 @@
+aws_lambda_mess/__about__.py,sha256=k5tJXhBQJ4l9fKHJ76K5w98zBHoYvNk9r-UNH6eQ2-k,21
+aws_lambda_mess/cli.py,sha256=TJ9AJ0m3RfUKHXHD1bsYpIJS2uaF3dD6IB4zgA3x_9A,2258
+aws_lambda_mess/framework/Route.py,sha256=r2smo1KwShkNU2zwJOhb9vBz3xkmsF_bPi-3QCf67oI,1056
+aws_lambda_mess/framework/failures.py,sha256=7BM7viRzJSuYBkghp0jJhWBvJqlyO3xArE3urOl0AVQ,191
+aws_lambda_mess/framework/lambda_dispatcher.py,sha256=LWzMBhOUpjm5pyHqgJSwtOod9qDcN-3PdSRVpYZghK0,509
+aws_lambda_mess/framework/server.py,sha256=giHa9m8ncRqUjMAPxGf6mBVtrwIjfdLo2bedH2b_Lik,1554
+aws_lambda_mess/framework/success.py,sha256=mM1PU71SluKtkbKvYSf0bB5UJ6DGPD41t-JwKZNyEb8,239
+aws_lambda_mess/init_files/.aws_lambda_mess.json,sha256=B82VhDxiwxbc4ZjbhxzpeddA4xACQGbV9uNo6_4oqko,82
+aws_lambda_mess/init_files/.gitignore,sha256=PLMuP3rtyPHFnrdgrqmyYnEe6C39P7o1Ys6h-JKAIew,20
+aws_lambda_mess/init_files/app.py,sha256=R5cIdvFUUH31r3lusFnUCPJPKt02_6lWKAwcAj-Vpaw,816
+aws_lambda_mess/init_files/requirements.txt,sha256=XePXkfZhXQZPd63L7FisgXiABiiZLfcpCE80E3xgdJA,15
+aws_lambda_mess-0.0.3.dist-info/METADATA,sha256=u_awqG_LizWAqlZZEmFsAVlMeV7xjmnPUglqr6VTI5A,829
+aws_lambda_mess-0.0.3.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+aws_lambda_mess-0.0.3.dist-info/entry_points.txt,sha256=lKJUYFNze0LJqVbUvDjhEuFcv63zP_mAZPy7BNaAGw8,48
+aws_lambda_mess-0.0.3.dist-info/RECORD,,
