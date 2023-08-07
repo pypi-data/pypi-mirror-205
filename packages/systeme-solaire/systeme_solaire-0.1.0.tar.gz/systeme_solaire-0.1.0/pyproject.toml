@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "systeme-solaire"
+version = "0.1.0"
+description = "Application de représentation du système solaire"
+authors = ["Jules RENIER"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "systeme_solaire"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+astroquery = "^0.4.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
