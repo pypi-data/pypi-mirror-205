@@ -1,0 +1,10 @@
+bnunicode/__init__.py,sha256=qDchhrd_U05Rwdby8NXhvaSI2aVXM4zLNgS3LpKUC-s,40
+bnunicode/bnunibtob.py,sha256=sQbSNysHvIUlHx1mBB0GRw-rg7aJ4A4rsnzCSTGYwYo,699
+bnunicode/util/__init__.py,sha256=yIM4OJAIDSau84sM8uOIbHZgc6Wv1AMmZo4ZLi_FUV8,60
+bnunicode/util/common.py,sha256=pEMq0bE_7ERsXfNPuiw09Hd3eIhy_Hf5jfkzDz0idhY,16530
+bnunicode/util/decode.py,sha256=N8JF51GqlewCMS5EZnYAb5hfPGwaMobxiSxYYxarF7o,711
+bnunicode/util/encode.py,sha256=n4fPsijnodbEpWMCS6qbTVWK16yFFWyJLZ7lCocJmV4,1131
+bnconverter-0.0.3.dist-info/METADATA,sha256=_BssM-tcd4gNaOM4Stmkwcrqv_NqytcvjJAlbIk_O_g,1497
+bnconverter-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+bnconverter-0.0.3.dist-info/top_level.txt,sha256=5NsK_j4k-vdBZF8l5V4NPtVjTJI-9j2f2yz4Wxg5yO8,10
+bnconverter-0.0.3.dist-info/RECORD,,
