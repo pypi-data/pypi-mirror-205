@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/SalamSource/__init__.py
+src/SalamSource/example.py
+src/SalamSource.egg-info/PKG-INFO
+src/SalamSource.egg-info/SOURCES.txt
+src/SalamSource.egg-info/dependency_links.txt
+src/SalamSource.egg-info/top_level.txt
