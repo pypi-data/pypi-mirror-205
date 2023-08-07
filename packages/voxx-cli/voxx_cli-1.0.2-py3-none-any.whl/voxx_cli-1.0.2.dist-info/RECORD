@@ -1,0 +1,12 @@
+voxx/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+voxx/__main__.py,sha256=tX9HaivqbbcSDYLYI-w1-ArbswhMOlqun0DejFv9LX0,1495
+voxx/connection.py,sha256=KVQfTz4Iu1tD5n2ZBw7VoOpWBB2C0Ww2dUnZ_ArAHZI,3718
+voxx/model.py,sha256=tYVMs1Tsa_ueJ_xL-mr8CCOItsNXEsiatF8znVgHG6Q,2333
+voxx/tui.py,sha256=szewLGI-sWbuerIpz6yZdHm0nAOSsmGJ0ue_Mg_xSqY,5188
+voxx/css/tui.css,sha256=omEnEm_HUEi-280K4_k-OrVjZa6QKBaC1Uk1s5d8uTw,900
+voxx_cli-1.0.2.dist-info/METADATA,sha256=9tWkBaniki_GpXu9u5PEeEAwVnhH_DQdMHVS-RtyheY,1116
+voxx_cli-1.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+voxx_cli-1.0.2.dist-info/dependency_links.txt,sha256=RceV6_SVJHSrUl1vs-ZYYu3csdoFtLqnirL7FX_Nvng,29
+voxx_cli-1.0.2.dist-info/entry_points.txt,sha256=8w3apYpeSdkfgKYicJQdkD38LumK-y0w6RoKdv0Y_5g,48
+voxx_cli-1.0.2.dist-info/top_level.txt,sha256=6SMl1a0jBBZYy8QyNCsLvNP4prX8y4HQVwNTLDnmvoc,5
+voxx_cli-1.0.2.dist-info/RECORD,,
