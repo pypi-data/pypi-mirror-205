@@ -1,0 +1,12 @@
+blender/sandbox/meshbuild.py,sha256=gBLxVyMeBs84chkFyI4e22Hc_5EBBKbM6IuFwMIKzSc,2417
+tinyusdz.libs/libgcc_s-8b50eaaa.so.1,sha256=WXj_FYQE1MDIyb-nN8siUALdxit6NHma0p9UxemQV8o,101649
+tinyusdz.libs/libstdc++-8baf04f9.so.6.0.28,sha256=yrzOxg1heyJ9Y-43YCLLn04Cpl_A68FN0D2Q1iBTMcY,2428961
+tinyusdz-0.8.0rc4.dist-info/METADATA,sha256=AjH7zK_FCUC3Klj-1PZ45_l-M1r2bIn3Y3NZffVUjbs,2327
+tinyusdz-0.8.0rc4.dist-info/top_level.txt,sha256=yONGtbffyS-aQ30gIaoYRCBaBJZuWVrzu2YOXhEXNU4,44
+tinyusdz-0.8.0rc4.dist-info/RECORD,,
+tinyusdz-0.8.0rc4.dist-info/WHEEL,sha256=aBj0qoGn0zX4gWA4cEUcRFxTghMwawu1k6cdqZZl_YY,103
+tinyusdz-0.8.0rc4.dist-info/LICENSE,sha256=DpwDoE3-yEvAaCD9iUkFtL-dXfkEs9wcWukMo1bJ4rE,1077
+external/pybind11/tools/libsize.py,sha256=3MBZDCi0-kdKei_6RcTbmVJgtmT4udB-WIF-mOPLBD4,1031
+external/pybind11/tools/make_changelog.py,sha256=nvL4LRhLsDMe7y2U9tvN0s8qCidXVoliW6yd5zAzDB8,1282
+external/nanobind/src/nanobind/__init__.py,sha256=PQ1_EkV8vFMPdrC4HFS1XlDoMv0Vfl4nfkEF9Qtfm48,536
+tinyusdz-0.8.0rc4.data/data/tinyusdz/ctinyusdz.cpython-39-i386-linux-gnu.so,sha256=f-NcP3BMeYgq5H7HXHWieq8sCtWwh1Wq_XkT20QtTRw,6435173
