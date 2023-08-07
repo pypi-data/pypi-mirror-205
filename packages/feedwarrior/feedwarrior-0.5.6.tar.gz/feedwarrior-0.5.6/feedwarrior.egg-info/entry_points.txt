@@ -1,0 +1,2 @@
+[console_scripts]
+feedwarrior = feedwarrior.runnable.main:main
