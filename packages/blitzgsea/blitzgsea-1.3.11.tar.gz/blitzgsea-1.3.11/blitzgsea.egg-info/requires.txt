@@ -1,0 +1,9 @@
+pandas>=1.1.5
+numpy
+scikit-learn
+progress
+loess
+tqdm
+statsmodels
+mpmath
+mpsci@ git+https://github.com/WarrenWeckesser/mpsci.git
