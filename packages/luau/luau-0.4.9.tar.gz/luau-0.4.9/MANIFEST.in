@@ -1,0 +1,4 @@
+recursive-include src/luau/data py_luau_rojo.exe
+recursive-include src/luau/data py_luau_stylua.exe
+recursive-include src/luau/data py_luau_wpt.exe
+recursive-include src/luau/data py_luau_spreadsheet.exe
