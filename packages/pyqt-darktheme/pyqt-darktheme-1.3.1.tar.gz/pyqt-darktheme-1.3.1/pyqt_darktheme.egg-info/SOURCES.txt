@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+darktheme/__init__.py
+darktheme/decorators.py
+darktheme/decorators_pyqt6.py
+darktheme/widget_template.py
+darktheme/widget_template_pyqt6.py
+pyqt_darktheme.egg-info/PKG-INFO
+pyqt_darktheme.egg-info/SOURCES.txt
+pyqt_darktheme.egg-info/dependency_links.txt
+pyqt_darktheme.egg-info/top_level.txt
