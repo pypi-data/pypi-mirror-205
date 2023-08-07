@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ddql_optimal_execution
+Version: 0.1.1
+Summary: Double Deep Q Learning for Optimal Trading Execution
+Home-page: https://github.com/g0bel1n/DDQL-optimal-execution
+Download-URL: https://github.com/g0bel1n/DDQL-optimal-execution/archive/refs/tags/v0.1-beta.tar.gz
+Author: Lucas Saban
+Author-email: lucas.saban@icloud.com
+License: MIT
+Keywords: DDQL,OPTIMAL EXECUTION,TRADING
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE.txt
