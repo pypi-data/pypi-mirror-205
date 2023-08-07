@@ -1,0 +1,13 @@
+README.md
+setup.py
+rbxflip/__init__.py
+rbxflip/errors.py
+rbxflip/roulette.py
+rbxflip/shop.py
+rbxflip/user.py
+rbxflip/utils.py
+rbxflip.egg-info/PKG-INFO
+rbxflip.egg-info/SOURCES.txt
+rbxflip.egg-info/dependency_links.txt
+rbxflip.egg-info/requires.txt
+rbxflip.egg-info/top_level.txt
