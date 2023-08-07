@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+pygmi/__init__.py
+pygmi/__main__.py
+pygmi/pygmi.py
+pygmi_get.egg-info/PKG-INFO
+pygmi_get.egg-info/SOURCES.txt
+pygmi_get.egg-info/dependency_links.txt
+pygmi_get.egg-info/entry_points.txt
+pygmi_get.egg-info/requires.txt
+pygmi_get.egg-info/top_level.txt
