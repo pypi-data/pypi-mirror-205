@@ -1,0 +1,2 @@
+[console_scripts]
+starrail = starrail.cmd.cl_endpoints:execute_command
