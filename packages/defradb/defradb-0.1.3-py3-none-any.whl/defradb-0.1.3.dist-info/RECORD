@@ -1,0 +1,8 @@
+defradb/__init__.py,sha256=AaKJWLYzeMqH4SpDTTlmy2Ptq4kfLfidkhDUbrM_TMM,111
+defradb/defradb.py,sha256=vgEGQaLgvvKrC4VEl0soUSv7FSGnNzY4a0hlieX6fhE,5806
+defradb/rpc/api_pb2.py,sha256=Pj8rKixr3RKZ5WSlpXyziwGD8Pe3xM_Jgp_KxICvBME,4388
+defradb/rpc/api_pb2_grpc.py,sha256=JwB5d2i0qAmipmu02-hqQ6yMGZ7JBjqJ3m5zULhe8yg,10278
+defradb-0.1.3.dist-info/METADATA,sha256=V3gUWI2_pQy9s4U_761HV-mPRbkzy3FWKJTjPq9gtOw,769
+defradb-0.1.3.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+defradb-0.1.3.dist-info/licenses/LICENSE,sha256=wdKcyDtg6YhNc4rxzsCj0QCvUPBKbJrZlm80fp9SRQM,1069
+defradb-0.1.3.dist-info/RECORD,,
