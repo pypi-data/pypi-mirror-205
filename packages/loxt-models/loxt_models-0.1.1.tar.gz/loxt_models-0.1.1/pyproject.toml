@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "loxt-models"
+version = "0.1.1"
+description = ""
+authors = ["Pierre Gobin <dev@pierregobin.fr>"]
+readme = "README.md"
+packages = [{include = "loxt_models"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+types-unopy = "^0.4.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
