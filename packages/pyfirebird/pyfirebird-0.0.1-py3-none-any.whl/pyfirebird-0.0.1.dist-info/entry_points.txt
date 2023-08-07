@@ -1,0 +1,2 @@
+[console_scripts]
+firebird = firebird.cmd_tools.firebird:main
